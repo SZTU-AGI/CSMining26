@@ -1,0 +1,16 @@
+# 训练输出 / 权重(不入库,体积大)
+outputs/
+*.pt
+*.pth
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据(自行放置,不入库)
+data/
+
+# 系统
+.DS_Store
+Thumbs.db
