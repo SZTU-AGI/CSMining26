@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+xgboost
+# 可选(强烈建议):TabPFN 是集成里的关键成员,缺失会降级为 lgb+xgb(分数下降)
+tabpfn
+torch
