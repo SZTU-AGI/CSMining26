@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FRECA 合规审计流程</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: #f5f7fb;
+    color: #1e293b;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+  h1 { text-align: center; font-size: 28px; font-weight: 800; color: #1e293b; margin-bottom: 8px; }
+  .subtitle { text-align: center; font-size: 14px; color: #64748b; margin-bottom: 18px; }
+
+  /* KPI */
+  .kpi-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 18px 0 8px; }
+  .kpi-chip { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 16px; text-align: center; min-width: 118px; flex: 1; }
+  .kpi-chip .n { font-size: 22px; font-weight: 800; color: #1e293b; }
+  .kpi-chip .l { font-size: 12px; color: #64748b; margin-top: 2px; }
+
+  /* 图例 */
+  .legend-row { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin: 6px 0 28px; font-size: 12px; color: #64748b; }
+  .legend-row span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend-row i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .li-ok { background: #22c55e; } .li-partial { background: #f59e0b; } .li-miss { background: #ef4444; }
+
+  /* 阶段卡片 */
+  .stage { position: relative; margin-bottom: 8px; border-radius: 16px; padding: 28px 28px 24px; border: 1px solid #e2e8f0; background: #ffffff; animation: fadeInUp 0.5s ease both; }
+  .stage-header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .stage-num { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; color: #fff; flex-shrink: 0; }
+  .stage-title { font-size: 20px; font-weight: 700; color: #1e293b; }
+  .stage-tag { font-size: 11px; padding: 3px 10px; border-radius: 20px; font-weight: 600; margin-left: auto; }
+
+  .c-blue .stage-num { background: #3b82f6; } .c-blue .stage-tag { background: #eff6ff; color: #2563eb; }
+  .c-teal .stage-num { background: #14b8a6; } .c-teal .stage-tag { background: #f0fdfa; color: #0d9488; }
+  .c-amber .stage-num { background: #f59e0b; } .c-amber .stage-tag { background: #fffbeb; color: #d97706; }
+  .c-violet .stage-num { background: #8b5cf6; } .c-violet .stage-tag { background: #f5f3ff; color: #7c3aed; }
+  .c-rose .stage-num { background: #f43f5e; } .c-rose .stage-tag { background: #fff1f2; color: #e11d48; }
+
+  /* 箭头连接器 */
+  .arrow-connector { display: flex; justify-content: center; margin: -2px 0; position: relative; z-index: 1; }
+  .arrow-connector svg { filter: drop-shadow(0 1px 2px rgba(0,0,0,0.06)); }
+
+  /* 文档流 */
+  .doc-flow { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  .doc-box { padding: 14px 20px; border-radius: 12px; text-align: center; font-size: 13px; font-weight: 600; border: 1.5px solid; min-width: 130px; }
+  .doc-box.source { background: #eff6ff; border-color: #93c5fd; color: #1d4ed8; }
+  .doc-box.parser { background: #f0fdfa; border-color: #5eead4; color: #0f766e; }
+  .doc-box.output { background: #f5f3ff; border-color: #c4b5fd; color: #6d28d9; }
+  .doc-box.alt { background: #ecfdf5; border-color: #6ee7b7; color: #047857; }
+  .doc-box.api { background: #fff7ed; border-color: #fdba74; color: #c2410c; }
+  .flow-arrow { font-size: 20px; color: #94a3b8; }
+  .note-box { margin-top: 14px; padding: 10px 16px; background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; font-size: 12px; color: #92400e; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+  /* 状态 chip */
+  .status-chip { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; margin-left: 4px; }
+  .chip-ok { background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; }
+  .chip-partial { background: #fffbeb; border: 1px solid #fde68a; color: #b45309; }
+  .chip-miss { background: #fef2f2; border: 1px solid #fecaca; color: #b91c1c; }
+
+  /* split 卡 */
+  .split-demo { display: flex; gap: 14px; flex-wrap: wrap; }
+  .split-card { flex: 1; min-width: 200px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; }
+  .split-card-head { padding: 10px 14px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; }
+  .split-card-head.s1 { background: rgba(59,130,246,0.1); color: #2563eb; }
+  .split-card-head.s2 { background: rgba(20,184,166,0.1); color: #0d9488; }
+  .split-card-body { padding: 12px 14px; font-size: 12px; color: #475569; line-height: 1.7; }
+  .split-card-body .hl { background: #dbeafe; padding: 1px 4px; border-radius: 3px; font-weight: 600; color: #1d4ed8; }
+
+  /* 循环框 */
+  .reflect-loop { position: relative; background: #fffbf5; border: 2px dashed #fbbf24; border-radius: 16px; padding: 24px 20px 20px; }
+  .loop-label { position: absolute; top: -13px; left: 24px; background: #fffbeb; padding: 2px 14px; font-size: 12px; font-weight: 700; color: #d97706; border-radius: 10px; border: 2px solid #fbbf24; }
+  .loop-steps { display: flex; align-items: stretch; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+  .loop-step { flex: 1; min-width: 120px; border-radius: 12px; padding: 16px 12px; text-align: center; border: 1.5px solid; }
+  .loop-step.extract { background: #eff6ff; border-color: #93c5fd; }
+  .loop-step.critique { background: #fff1f2; border-color: #fda4af; }
+  .loop-step.revise { background: #f0fdfa; border-color: #6ee7b7; }
+  .loop-step.search { background: #f5f3ff; border-color: #c4b5fd; }
+  .loop-step-icon { font-size: 26px; margin-bottom: 6px; }
+  .loop-step-title { font-size: 14px; font-weight: 700; margin-bottom: 5px; }
+  .loop-step.extract .loop-step-title { color: #1d4ed8; }
+  .loop-step.critique .loop-step-title { color: #be123c; }
+  .loop-step.revise .loop-step-title { color: #047857; }
+  .loop-step.search .loop-step-title { color: #6d28d9; }
+  .loop-step-desc { font-size: 11px; color: #64748b; line-height: 1.6; }
+  .loop-arrow { display: flex; align-items: center; font-size: 22px; color: #d97706; flex-shrink: 0; }
+  .converge-bar { display: flex; align-items: center; gap: 12px; padding: 10px 16px; background: #f5f3ff; border: 1px solid #c4b5fd; border-radius: 10px; font-size: 12px; color: #5b21b6; margin-top: 10px; flex-wrap: wrap; }
+  .converge-bar .badge { background: #7c3aed; color: #fff; padding: 3px 10px; border-radius: 6px; font-weight: 700; font-size: 11px; white-space: nowrap; }
+
+  /* 评估卡 */
+  .eval-grid { display: flex; gap: 14px; flex-wrap: wrap; }
+  .eval-card { flex: 1; min-width: 150px; padding: 16px 14px; border-radius: 12px; text-align: center; border: 1.5px solid; }
+  .eval-card.e1 { background: #eff6ff; border-color: #93c5fd; }
+  .eval-card.e2 { background: #f0fdfa; border-color: #5eead4; }
+  .eval-card.e3 { background: #f5f3ff; border-color: #c4b5fd; }
+  .eval-card.e4 { background: #fff7ed; border-color: #fdba74; }
+  .eval-card.e5 { background: #fef2f2; border-color: #fecaca; }
+  .eval-icon { font-size: 26px; margin-bottom: 6px; }
+  .eval-title { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+  .eval-card.e1 .eval-title { color: #1d4ed8; } .eval-card.e2 .eval-title { color: #0f766e; }
+  .eval-card.e3 .eval-title { color: #6d28d9; } .eval-card.e4 .eval-title { color: #c2410c; }
+  .eval-card.e5 .eval-title { color: #b91c1c; }
+  .eval-desc { font-size: 11px; color: #64748b; line-height: 1.6; }
+
+  /* 底部 */
+  .footer-note { text-align: center; margin-top: 30px; padding: 14px; background: #f1f5f9; border-radius: 12px; font-size: 12px; color: #64748b; border: 1px solid #e2e8f0; line-height: 1.7; }
+  .footer-note strong { color: #334155; }
+
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes pulse-loop { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+  .loop-label { animation: pulse-loop 2s ease-in-out infinite; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>FRECA 合规审计流程</h1>
+  <p class="subtitle">99 农场 case × 41 检查点(CP) → 4,100 决策 (1 / 0 / N/A)　|　主路径已切 API 模式</p>
+
+  <!-- KPI -->
+  <div class="kpi-row">
+    <div class="kpi-chip"><div class="n">99</div><div class="l">农场 case</div></div>
+    <div class="kpi-chip"><div class="n">8,400</div><div class="l">证据 chunk</div></div>
+    <div class="kpi-chip"><div class="n">413</div><div class="l">法规 chunk</div></div>
+    <div class="kpi-chip"><div class="n">41</div><div class="l">检查点 CP</div></div>
+    <div class="kpi-chip"><div class="n">4,100</div><div class="l">总决策数</div></div>
+  </div>
+
+  <!-- 图例 -->
+  <div class="legend-row">
+    <span><i class="li-ok"></i>已实现</span>
+    <span><i class="li-partial"></i>部分 / 轻量实现</span>
+    <span><i class="li-miss"></i>未实现（图中要求但当前缺失）</span>
+  </div>
+
+  <!-- Stage 1: 输入层 -->
+  <div class="stage c-blue">
+    <div class="stage-header">
+      <div class="stage-num">1</div>
+      <div class="stage-title">输入层 · 文档解析</div>
+      <div class="stage-tag">解析与预处理</div>
+    </div>
+    <div class="doc-flow">
+      <div class="doc-box source">📄 法规 PDF<br><span style="font-size:11px;color:#64748b;font-weight:400">Export Control Rules 2021</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box parser">🔧 Docling 解析<br><span style="font-size:11px;color:#64748b;font-weight:400">切 clause 边界</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box output">📝 结构化条款<br><span style="font-size:11px;color:#64748b;font-weight:400">~413 chunk / 33万字符</span></div>
+    </div>
+    <div class="doc-flow" style="margin-top:14px;">
+      <div class="doc-box source">📄 农场证据 Track1–9<br><span style="font-size:11px;color:#64748b;font-weight:400">DOCX / XLSX / 图像</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box parser">🔧 Docling 解析<br><span style="font-size:11px;color:#64748b;font-weight:400">缓存 chunk_cache</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box output">📦 九证据 chunk<br><span style="font-size:11px;color:#64748b;font-weight:400">~8,400 chunk / 1119万字符</span></div>
+    </div>
+    <div class="doc-flow" style="margin-top:14px;">
+      <div class="doc-box alt">🗂️ CP 编号 1–41<br><span style="font-size:11px;color:#64748b;font-weight:400">仅作输出槽位 / 遍历顺序</span></div>
+    </div>
+    <div class="note-box">
+      💡 Docling 功能等价 MinerU 但<b>工具非 MinerU</b> <span class="status-chip chip-partial">部分</span>；证据<b>无专用 OCR / 视觉理解</b>模块 <span class="status-chip chip-partial">部分</span>
+    </div>
+  </div>
+
+  <div class="arrow-connector">
+    <svg width="40" height="36" viewBox="0 0 40 36"><line x1="20" y1="2" x2="20" y2="26" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><polygon points="12,22 20,34 28,22" fill="#94a3b8"/></svg>
+  </div>
+
+  <!-- Stage 2: 索引与检索层 -->
+  <div class="stage c-teal">
+    <div class="stage-header">
+      <div class="stage-num">2</div>
+      <div class="stage-title">索引与检索层 · 双索引融合</div>
+      <div class="stage-tag">离线索引 + 运行时融合</div>
+    </div>
+    <div class="split-demo">
+      <div class="split-card">
+        <div class="split-card-head s1">法规索引（在线切分）</div>
+        <div class="split-card-body">
+          BM25 + <span class="hl">Qwen3-Embedding</span><br>
+          RegulationGrounder 条款级 grounding<br>
+          corpus ≈ 413 chunk（不落盘）
+        </div>
+      </div>
+      <div class="split-card">
+        <div class="split-card-head s2">证据索引（case 隔离）</div>
+        <div class="split-card-body">
+          BM25 + <span class="hl">Qwen3-Embedding</span><br>
+          HybridRetriever 每 case 独立 corpus<br>
+          corpus ≈ 8,400 chunk（chunk_cache）
+        </div>
+      </div>
+    </div>
+    <div class="doc-flow" style="margin-top:16px;">
+      <div class="doc-box alt">🔀 BM25 + 向量 RRF 融合</div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box api">🎯 qwen3-rerank 精排</div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box output">🌐 来源感知 MMR</div>
+    </div>
+    <div class="note-box">
+      💡 Embedding = <code style="background:#fff;border:1px solid #fde68a;padding:1px 6px;border-radius:5px;color:#c2410c;">text-embedding-v3</code>（阿里 MaaS，1024 维，batch≤8） <span class="status-chip chip-ok">已实现</span>；Rerank = <code style="background:#fff;border:1px solid #fde68a;padding:1px 6px;border-radius:5px;color:#c2410c;">qwen3-rerank</code> 原生路径已调通 <span class="status-chip chip-ok">已实现</span>
+    </div>
+  </div>
+
+  <div class="arrow-connector">
+    <svg width="40" height="36" viewBox="0 0 40 36"><line x1="20" y1="2" x2="20" y2="26" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><polygon points="12,22 20,34 28,22" fill="#94a3b8"/></svg>
+  </div>
+
+  <!-- Stage 3: 运行层 -->
+  <div class="stage c-amber">
+    <div class="stage-header">
+      <div class="stage-num">3</div>
+      <div class="stage-title">运行层 · 检索 → 判决</div>
+      <div class="stage-tag">Query / 纠错 / LLM</div>
+    </div>
+    <div class="reflect-loop">
+      <div class="loop-label">🔄 LLM 判决 + Agent 自检（每 CP 一次）</div>
+      <div class="loop-steps">
+        <div class="loop-step search">
+          <div class="loop-step-icon">🔎</div>
+          <div class="loop-step-title">检索召回</div>
+          <div class="loop-step-desc">Query = CP 原文 / 法规条款<br>BM25+向量 → rerank → Top-k</div>
+        </div>
+        <div class="loop-arrow">→</div>
+        <div class="loop-step extract">
+          <div class="loop-step-icon">⚖️</div>
+          <div class="loop-step-title">DeepSeek 判决</div>
+          <div class="loop-step-desc">适用性 / 法规提取 / 冲突分析<br>输出 1 / 0 / N/A</div>
+        </div>
+        <div class="loop-arrow">→</div>
+        <div class="loop-step critique">
+          <div class="loop-step-icon">🔍</div>
+          <div class="loop-step-title">critique 自检</div>
+          <div class="loop-step-desc">校验证据充分性<br>与引用一致性</div>
+        </div>
+        <div class="loop-arrow">→</div>
+        <div class="loop-step revise">
+          <div class="loop-step-icon">✅</div>
+          <div class="loop-step-title">verify 双视角</div>
+          <div class="loop-step-desc">strict / lenient 复核<br>分歧则重判</div>
+        </div>
+      </div>
+      <div class="converge-bar">
+        <div class="badge">收敛条件</div>
+        <span>41 CP 全覆盖　|　Element 一致性通过　|　无 1/0 冲突</span>
+      </div>
+    </div>
+    <div class="note-box">
+      💡 纠错检索 Agent（多轮改写查询 / 扩范围 / 补表格上下文）当前仅简化为"换 CP title 重搜一次" <span class="status-chip chip-miss">未实现</span>；Query 同义扩展 / 法规提示词缺失 <span class="status-chip chip-partial">部分</span>；LLM 非强推理链（verdict 单 token 输出）
+    </div>
+  </div>
+
+  <div class="arrow-connector">
+    <svg width="40" height="36" viewBox="0 0 40 36"><line x1="20" y1="2" x2="20" y2="26" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><polygon points="12,22 20,34 28,22" fill="#94a3b8"/></svg>
+  </div>
+
+  <!-- Stage 4: 质量控制层 -->
+  <div class="stage c-violet">
+    <div class="stage-header">
+      <div class="stage-num">4</div>
+      <div class="stage-title">质量控制层 · 验证与存档</div>
+      <div class="stage-tag">自检 / 验证 / 存档</div>
+    </div>
+    <div class="eval-grid">
+      <div class="eval-card e1">
+        <div class="eval-icon">🔗</div>
+        <div class="eval-title">引用校验</div>
+        <div class="eval-desc">存在性 / 所属<br>位置 / 一致性</div>
+        <div style="margin-top:8px"><span class="status-chip chip-partial">部分</span></div>
+      </div>
+      <div class="eval-card e2">
+        <div class="eval-icon">🤖</div>
+        <div class="eval-title">Verifier 双视角</div>
+        <div class="eval-desc">strict / lenient<br>同模型复核</div>
+        <div style="margin-top:8px"><span class="status-chip chip-partial">部分</span></div>
+      </div>
+      <div class="eval-card e3">
+        <div class="eval-icon">🧩</div>
+        <div class="eval-title">Element 一致性</div>
+        <div class="eval-desc">按 element 分组<br>查 1/0 冲突</div>
+        <div style="margin-top:8px"><span class="status-chip chip-ok">已实现</span></div>
+      </div>
+      <div class="eval-card e4">
+        <div class="eval-icon">⚖️</div>
+        <div class="eval-title">双模型仲裁</div>
+        <div class="eval-desc">分歧时第二模型<br>仲裁</div>
+        <div style="margin-top:8px"><span class="status-chip chip-miss">未实现</span></div>
+      </div>
+      <div class="eval-card e5">
+        <div class="eval-icon">📜</div>
+        <div class="eval-title">审计日志存档</div>
+        <div class="eval-desc">audit / prompt<br>manifest 全留痕</div>
+        <div style="margin-top:8px"><span class="status-chip chip-ok">已实现</span></div>
+      </div>
+    </div>
+    <div class="note-box">
+      💡 红线文件 <code style="background:#fff;border:1px solid #fde68a;padding:1px 6px;border-radius:5px;color:#c2410c;">checkingpoints_all_elements_onesheet.xlsx</code> 仅作验证期 ground truth，<b>严禁进推理</b>
+    </div>
+  </div>
+
+  <div class="arrow-connector">
+    <svg width="40" height="36" viewBox="0 0 40 36"><line x1="20" y1="2" x2="20" y2="26" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/><polygon points="12,22 20,34 28,22" fill="#94a3b8"/></svg>
+  </div>
+
+  <!-- Stage 5: 输出层 -->
+  <div class="stage c-rose">
+    <div class="stage-header">
+      <div class="stage-num">5</div>
+      <div class="stage-title">输出层 · 交付物</div>
+      <div class="stage-tag">交付</div>
+    </div>
+    <div class="doc-flow">
+      <div class="doc-box source">📜 audit.jsonl<br><span style="font-size:11px;color:#64748b;font-weight:400">逐 CP 判决明细</span></div>
+      <div class="doc-box source">📜 retrieval 日志<br><span style="font-size:11px;color:#64748b;font-weight:400">prompt_manifest</span></div>
+      <div class="flow-arrow">→</div>
+      <div class="doc-box output">📊 submission.xlsx<br><span style="font-size:11px;color:#64748b;font-weight:400">100 行 × 41 列 verdict</span></div>
+    </div>
+    <div class="note-box">
+      💡 可复现：exact prompt + 模型名随产物存档 <span class="status-chip chip-ok">已实现</span>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer-note">
+    <strong>数据红线提示</strong>：99 case 中 96 个标准 9 文件；2 个缺 Track1 农场文档；1 个双农场合并 18 文件。
+    证据存在「署名污染」（约 98% case 至少混入 1 份别家农场记录），属审计强信号还是打包噪声仍<b>待 Boss 拍板</b>，直接决定 HACCP / 虫害 / 追溯类 CP 的判决逻辑。<br>
+    <strong>成本</strong>：建索引 embedding ≈ ¥6.9（一次性）；全量 4,100 决策 ≈ ¥27.6（rerank 占 97%）。云端 AutoDL 已切 API，建议「停止」省 GPU 费。
+  </div>
+
+</div>
+</body>
+</html>

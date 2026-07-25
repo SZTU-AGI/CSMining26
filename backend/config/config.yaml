@@ -1,0 +1,96 @@
+# FRECA 项目配置
+paths:
+  task2_root: "D:/桌面/农场任务二/Task2"
+  cases_dir: "D:/桌面/农场任务二/Task2/SFRE_cases/SFRE_cases"
+  rules_pdf: "D:/桌面/农场任务二/Task2/1-Export Control (Plants and Plant Products)Rules 2021.pdf"
+  submission_template: "D:/桌面/农场任务二/Task2/submission_template.xlsx"
+  # 红线文件：仅作"不可喂AI"的标识与自检，绝不读入任何模型/语料/query
+  checkingpoints: "D:/桌面/农场任务二/Task2/checkingpoints_all_elements_onesheet.xlsx"
+  code_root: "D:/桌面/农场任务二/farm-case-analysis/backend"
+  index_dir: "D:/桌面/农场任务二/farm-case-analysis/backend/data/indexes"
+  validation_dir: "D:/桌面/农场任务二/farm-case-analysis/backend/data/validation"
+  submission_out: "D:/桌面/农场任务二/farm-case-analysis/backend/data/submission"
+  rules_md: "D:/桌面/农场任务二/farm-case-analysis/backend/data/rules_raw.md"  # Docling 解析缓存(已生成, 避免每次重跑7分钟)
+  chunk_cache_dir: "D:/桌面/农场任务二/farm-case-analysis/backend/data/chunk_cache"  # 农场证据 chunk 落盘缓存(每case jsonl+meta), 源文件/切分参数不变则跳过解析
+  cp_definitions: "D:/桌面/农场任务二/farm-case-analysis/backend/data/cp_definitions.yaml"  # 红线允许:仅 CP 定义(row1), 非法规映射(row2/3)
+  runs_dir: "D:/桌面/农场任务二/farm-case-analysis/backend/data/runs"  # 全量(100×41)运行的日志/进度/中间 submission(按 run_id 子目录)
+  test_runs_dir: "D:/桌面/农场任务二/farm-case-analysis/backend/data/test_runs"  # 测试/冒烟/小样本(—cases/—cps/—dry-run-retrieval)产物隔离目录, 不污染全量 runs
+
+retrieval:
+  vector_backend: "dashscope"  # dashscope(阿里百炼 API) | local(本地 Qwen3-4B @ GPU); 2026-07-21 切 API
+  chunk_size: 1600          # 字符数(非token) ≈400 token; 统计确认农场句子短(P90=27tok)不会切断, 原400字符过细
+  chunk_overlap: 160         # 字符数 ≈10% of chunk_size
+  top_k: 8
+  rrf_k: 60
+  regulation_max_size: 2000   # 法规 chunk 软限制硬上限(字符)。统计: 178 X-Y section P90=2074/max=19731; 按子标题优先拆后 P50=677, 2000时仅7%超限。比1200更合理(子项规定天然较长, 过低会切碎子项规定)
+  use_dense: true
+  use_fp16: true            # 仅 local backend 用(GPU fp16); dashscope backend 走 API 不加载模型
+  dense_model: "Qwen/Qwen3-Embedding-4B"   # local backend 用
+  dense_fallback: "sentence-transformers/all-MiniLM-L6-v2"
+  # Qwen3 无 ICL 机制，3-shot 改为 task instruction（原生 instruction-aware）；不引用 checkingpoints
+  instruction: "Given an export-control regulation clause, retrieve the relevant passages from the establishment's compliance evidence that confirm or contradict the requirement."
+  # 重排：Qwen3-Reranker 精排 RRF 融合后的宽候选
+  use_reranker: true
+  reranker_model: "Qwen/Qwen3-Reranker-4B"  # local backend 用
+  rerank_instruction: "Given an export-control regulation clause, judge whether the evidence passage is relevant to confirming or contradicting that requirement."
+  rerank_top_n: 20
+  regulation_top_k: 3          # 每个 CP 从法规检索的条款数(作 policy_excerpts); CP↔条款映射来自 CP 定义(row1), 非红线映射
+  # MMR 去重：平衡相关性(1-lambda)与证据多样性(lambda)
+  use_mmr: true
+  mmr_lambda: 0.5
+  final_k: 8
+  parser: "docling"          # docling | fallback（Docling 未就绪时切 fallback）
+
+# 向量 API（vector_backend=dashscope 时生效）：阿里云百炼 OpenAI 兼容端点
+# 成本详见 vector_api_cost_estimate.md；key 只从环境变量读，禁止 hard-code
+vector_api:
+  provider: "dashscope"
+  api_key_env: "DASHSCOPE_API_KEY"   # 环境变量读取；.env 填入真实 key
+  api_base: "https://ws-wpcxtut43vhiji07.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"   # Boss MaaS 专属实例（2026-07-21 获取）
+  embed_model: "text-embedding-v3"   # 通用强模型；要语义严对齐本地 Qwen3-Embedding-4B 改 qwen3-embedding-4b(硅基流动 base)
+  rerank_model: "qwen3-rerank"       # 与本地 Qwen3-Reranker 同源
+  embed_batch_size: 8                # MaaS 专属实例单次 batch 上限=10, 留余量用 8；公网百炼可更大
+  timeout: 60
+  max_retries: 3
+  rate_limit_delay: 0.2              # 每批/每次调用前 sleep(秒)，防限流
+
+llm:
+  provider: "deepseek"
+  # 所有"文本生成/判决"类 LLM 调用统一用此模型（向量检索阶段=Qwen3 本地，不走此接口）。
+  # ⚠️ 旧 deepseek-chat / deepseek-reasoner 将于 2026-07-24 停用，已迁移到 V4。
+  model: "deepseek-v4-flash"   # 固定 version，保证可复现
+  temperature: 0               # 判决可复现，固定 0
+  thinking_mode: "disabled"    # 判决输出单 token(1/0/N/A)，用非思考模式：更快/更省/更确定
+  api_key_env: "DEEPSEEK_API_KEY"   # API Key 只从环境变量读，禁止 hard-code
+  api_base: "https://api.deepseek.com"   # OpenAI 兼容；端点 /chat/completions（/v1 亦兼容）
+  timeout: 60
+  rate_limit_delay: 0.3        # 每次调用前 sleep(秒)，防 429 限流
+  max_retries: 3
+  # 计费单价（官方 deepseek-v4-flash，单位 USD/百万token）；结算写入 run log + 提交文档
+  pricing:
+    currency: "USD"
+    input_cache_miss_per_m: 0.14
+    input_cache_hit_per_m: 0.028
+    output_per_m: 0.28
+    usd_to_cny: 7.2            # 估算人民币用；以实际账单为准
+
+constraint:
+  forbid_checkingpoints_in_ai: true   # 红线总开关（自检用）
+
+run:
+  max_workers: 4            # LLM API 并发线程数(网络 I/O 密集, 不影响可复现 temp=0); 3-8 配 llm.rate_limit_delay
+  rate_limit_delay: 0.3     # 每条 LLM 调用前 sleep(秒), 防 429(与 llm.rate_limit_delay 一致)
+  save_every: 1             # 每完成 N 个 (case×cp) 增量落盘一次(submission_inprogress + progress)
+  monitor_interval: 30      # 监控线程打印统计的间隔(秒)
+  n_total: 4100             # 100 case × 41 CP 总量(99 标准 case + 1 双农场合并; 异常 case 天然容错)
+
+# Agent 自检层（架构图规划：检索充分性评估 / 自我质疑纠错 ≤2轮 / 单模型双视角验证器 / Element 一致性检查）
+# 见 src/llm/self_check.py。红线安全：自检输入仅 policy+evidence 原文；视角指令代码生成，不引用 checkingpoints。
+agent_self_check:
+  enable: true
+  trigger: "all"            # all=每个 CP 都跑自检; boundary=仅 N/A/低置信 0（成本控制用）
+  max_rounds: 2             # 自我质疑纠错上限（架构图 ≤2 轮）
+  use_verifier: true        # 单模型双视角验证器（strict/lenient 重判，一致才采用）
+  element_consistency: true # case 级 Element 一致性检查（规则检测 1 与 0 并存，不烧 LLM）
+  rerank_sufficiency_threshold: 0.0  # 规则触发补充检索的 rerank 分数下限；0=仅按"空证据/已知 grounding 偏差章"触发
+  known_grounding_bias_cps: ["CP1", "CP2", "CP41"]  # 已知 grounding 偏定义章的 CP，触发换 query 补充检索

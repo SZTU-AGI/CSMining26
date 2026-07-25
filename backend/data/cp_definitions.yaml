@@ -1,0 +1,127 @@
+# CP 定义(红线允许输入)。来源: checkingpoints_all_elements_onesheet.xlsx row1(CP 标题/定义)。
+# 仅作法规检索种子; 绝不添加 row2/3 设立标准/法规映射(推理禁用, 仅验证期作 GT)。
+# run.py 只读本文件, 不直接读红线 xlsx。
+cp_definitions:
+  CP1:
+    element: Element-1
+    title: 1.1 Export operations
+  CP2:
+    element: Element-1
+    title: 1.1 Export operations
+  CP3:
+    element: Element-1
+    title: 1.2 Plans and specifications
+  CP4:
+    element: Element-1
+    title: 1.2 Plans and specifications
+  CP5:
+    element: Element-1
+    title: 1.2 Plans and specifications
+  CP6:
+    element: Element-1
+    title: 1.3 Establishment changes and alterations
+  CP7:
+    element: Element-1
+    title: 1.3 Establishment changes and alterations
+  CP8:
+    element: Element-2
+    title: 2.1 Buildings, equipment, facilities and service
+  CP9:
+    element: Element-2
+    title: 2.1 Buildings, equipment, facilities and service
+  CP10:
+    element: Element-2
+    title: 2.1 Buildings, equipment, facilities and service
+  CP11:
+    element: Element-2
+    title: 2.2 Design and construction of the establishment
+  CP12:
+    element: Element-2
+    title: 2.2 Design and construction of the establishment
+  CP13:
+    element: Element-2
+    title: 2.2 Design and construction of the establishment
+  CP14:
+    element: Element-2
+    title: 2.3 Inspection areas (including sampling points)
+  CP15:
+    element: Element-2
+    title: 2.4 Screening
+  CP16:
+    element: Element-2
+    title: 2.4 Screening
+  CP17:
+    element: Element-3
+    title: 3.1 Systems of controls – hygiene and waste control
+  CP18:
+    element: Element-3
+    title: 3.1 Systems of controls – hygiene and waste control
+  CP19:
+    element: Element-3
+    title: 3.1 Systems of controls – hygiene and waste control
+  CP20:
+    element: Element-3
+    title: 3.2 Systems of controls – pest control
+  CP21:
+    element: Element-3
+    title: 3.2 Systems of controls – pest control
+  CP22:
+    element: Element-3
+    title: 3.3 Record keeping – hygiene, waste and pest control
+  CP23:
+    element: Element-3
+    title: 3.3 Record keeping – hygiene, waste and pest control
+  CP24:
+    element: Element-3
+    title: 3.4 Establishment condition – hygiene and waste control
+  CP25:
+    element: Element-3
+    title: 3.5 Establishment condition – pest control
+  CP26:
+    element: Element-3
+    title: 3.5 Establishment condition – pest control
+  CP27:
+    element: Element-3
+    title: 3.6 Chemical storage
+  CP28:
+    element: Element-3
+    title: 3.6 Chemical storage
+  CP29:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP30:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP31:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP32:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP33:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP34:
+    element: Element-4
+    title: 4.1 System of controls – product traceability and integrity
+  CP35:
+    element: Element-4
+    title: 4.2 System of controls – phytosanitary security
+  CP36:
+    element: Element-4
+    title: 4.2 System of controls – phytosanitary security
+  CP37:
+    element: Element-4
+    title: 4.2 System of controls – phytosanitary security
+  CP38:
+    element: Element-4
+    title: 4.3 Record Keeping - traceability
+  CP39:
+    element: Element-4
+    title: 4.3 Record Keeping - traceability
+  CP40:
+    element: Element-4
+    title: 4.3 Record Keeping - traceability
+  CP41:
+    element: Element-4
+    title: 4.4 Importing country requirements

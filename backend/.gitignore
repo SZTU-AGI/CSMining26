@@ -1,0 +1,30 @@
+# 敏感信息：绝不入库
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 数据与缓存（大文件/中间产物）
+data/indexes/
+data/submission/
+data/*.md
+# 全量运行产物(日志/进度/中间submission)绝不入库
+data/runs/
+# 测试/冒烟产物同理
+data/test_runs/
+models/
+*.log
+*.bak
+
+# 红线文件：绝不入库、绝不进推理（仅本地验证期只读访问）
+**/checkingpoints_all_elements_onesheet.xlsx
+
+# IDE
+.idea/
+.vscode/

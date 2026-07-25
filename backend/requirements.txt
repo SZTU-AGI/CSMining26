@@ -1,0 +1,16 @@
+# FRECA 后端依赖
+docling>=1.0            # 统一解析 PDF/DOCX/XLSX（主解析器；Boss 其他项目已验证）
+rank_bm25               # BM25 稀疏检索（纯本地，必跑）
+numpy                   # RRF 融合等数值计算
+pyyaml                  # 读取 config.yaml
+requests                # DeepSeek API 调用
+python-dotenv           # 加载 .env 到环境变量(本地/云端统一入口)
+
+# 稠密检索（BGE-EN-ICL）；下载失败自动降级 MiniLM
+sentence-transformers   # 提供 all-MiniLM-L6-v2 降级模型
+FlagEmbedding           # BGE 官方库（用于 bge-en-icl，可选）
+
+# 降级解析（Docling 不可用时启用）
+python-docx             # docx 降级
+openpyxl                # xlsx 降级
+pdfplumber              # pdf 降级

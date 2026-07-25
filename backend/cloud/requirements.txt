@@ -1,0 +1,13 @@
+# FRECA 后端云端依赖（AutoDL RTX4090 24G / Ubuntu22.04 cuda12.4）
+# 注意：torch 单独用 CUDA wheel 安装，见 cloud/setup.sh，不要放这里
+transformers>=4.51.0,<5
+sentence-transformers>=2.7.0,<3
+FlagEmbedding>=1.2.10
+sentencepiece
+docling>=1.0.0
+rank_bm25
+openpyxl
+python-docx
+pandas
+numpy
+tqdm
