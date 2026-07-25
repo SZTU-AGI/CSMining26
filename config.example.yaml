@@ -1,0 +1,131 @@
+paths:
+  cases_root: extracted/SFRE_cases
+  policy_pdf: 1-Export Control (Plants and Plant Products)Rules 2021.pdf
+  checkpoints_xlsx: checkingpoints_all_elements_onesheet.xlsx
+  submission_template: submission_template.xlsx
+  build_dir: build
+
+mineru:
+  # cloud_sdk: official mineru-open-sdk; remote_api: compatible /file_parse server
+  mode: cloud_sdk
+  base_url: https://mineru.net/api/v4
+  token_env: MINERU_TOKEN
+  model: vlm
+  language: en
+  ocr: true
+  formula: true
+  table: true
+  timeout_seconds: 600
+  max_retries: 3
+
+retrieval:
+  # For a dedicated service, change to cross_encoder_api; for a JSON LLM use llm_listwise.
+  recall_mode: hybrid
+  fusion_mode: rrf
+  reranker_mode: lexical
+  selector_mode: source_aware_mmr
+  bm25_weight: 0.5
+  vector_weight: 0.5
+  fusion_weight: 0.45
+  reranker_weight: 0.55
+  rrf_k: 60
+  candidate_limit: 40
+  mmr_lambda: 0.65
+  same_source_penalty: 0.5
+  same_track_penalty: 0.15
+  same_location_penalty: 0.1
+  min_unique_sources: 2
+  # Use llm only after models.retrieval_agent and its environment key are ready.
+  agent_mode: heuristic
+  max_repairs: 2
+  # Tier-1 planner only runs once (Round 0); Tier-3 critic runs after every round.
+  planner_max_rounds: 1
+  critic_min_confidence: 0.6
+
+arbitration:
+  # 'blind' = current default. 'escalated' requires models.tiebreaker.
+  tier: blind
+  confidence_threshold: 0.65
+  tiebreaker_required_on_disagreement: true
+
+models:
+  audit:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-audit-model
+    api_key_env: FRECA_AUDIT_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  verifier:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-verifier-model
+    api_key_env: FRECA_VERIFIER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  arbitrator:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-arbitrator-model
+    api_key_env: FRECA_ARBITRATOR_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  query_rewriter:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-query-rewriter-model
+    api_key_env: FRECA_QUERY_REWRITER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  embedding:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-embedding-model
+    api_key_env: FRECA_EMBEDDING_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: none
+  vision:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-vision-model
+    api_key_env: FRECA_VISION_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: none
+  reranker:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-reranker-model
+    api_key_env: FRECA_RERANKER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: none
+  retrieval_agent:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-retrieval-agent-model
+    api_key_env: FRECA_RETRIEVAL_AGENT_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  # Tier-1 planner (optional LLM endpoint; null → HeuristicPlanner)
+  planner:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-planner-model
+    api_key_env: FRECA_PLANNER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  # Tier-3 critic (optional LLM endpoint; null → HeuristicCritic)
+  critic:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-critic-model
+    api_key_env: FRECA_CRITIC_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  # Third-model for escalated arbitration (only needed when arbitration.tier='escalated')
+  tiebreaker:
+    base_url: https://api.example.invalid/v1
+    model: replace-with-tiebreaker-model
+    api_key_env: FRECA_TIEBREAKER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema

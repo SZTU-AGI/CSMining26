@@ -1,0 +1,30 @@
+# Python / venv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+
+# Raw datasets (regenerate via pipeline / ingest step)
+extracted/
+data/raw/
+*.zip
+*.pdf
+!docs/**/*.pdf
+
+# Local scratch / diagnostics
+tmp/
+scratch/
+*.log
+*.tmp
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

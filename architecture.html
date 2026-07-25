@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>FRECA 主线架构</title>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: #f8fafc; color: #1e293b; margin: 0; padding: 32px; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: #64748b; font-size: 13px; margin-bottom: 28px; }
+  svg { width: 100%; height: auto; display: block;
+        background: white; border: 1px solid #e2e8f0; border-radius: 12px; }
+  .stage  { font-size: 11px; font-weight: 700; fill: #94a3b8; letter-spacing: 1px; }
+  .box    { fill: white; stroke-width: 2; }
+  .title  { font-size: 14px; font-weight: 700; fill: #0f172a; }
+  .detail { font-size: 11px; fill: #475569; }
+  .arrow  { stroke: #475569; stroke-width: 1.6; fill: none; }
+  .loop   { stroke: #d97706; stroke-width: 1.6; fill: none; stroke-dasharray: 4 3; }
+  .green  { stroke: #16a34a; stroke-width: 2;   fill: none; }
+  .red    { stroke: #dc2626; stroke-width: 1.6; fill: none; stroke-dasharray: 5 3; }
+  .lbl    { font-size: 11px; fill: #334155; font-weight: 600; }
+  .lblbg  { fill: white; stroke: #cbd5e1; stroke-width: 1; }
+  .c-plan  { stroke: #a855f7; } .c-plan-fill  { fill: #faf5ff; }
+  .c-retr  { stroke: #2563eb; } .c-retr-fill  { fill: #eff6ff; }
+  .c-audit { stroke: #dc2626; } .c-audit-fill { fill: #fef2f2; }
+  .c-arbit { stroke: #16a34a; } .c-arbit-fill { fill: #f0fdf4; }
+  .c-data  { stroke: #6b7280; } .c-data-fill  { fill: #f9fafb; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>FRECA Audit Pipeline — 主线架构(4 职能 + 数据层)</h1>
+  <p class="sub">单 case × 单 CP,从查询到最终结论的端到端数据流。每个圆角矩形是一个独立职能。</p>
+
+  <svg viewBox="0 0 880 560" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="m" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M0,-5L10,0L0,5" fill="#475569"/>
+      </marker>
+      <marker id="mg" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M0,-5L10,0L0,5" fill="#16a34a"/>
+      </marker>
+      <marker id="mr" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="6" markerHeight="6" orient="auto">
+        <path d="M0,-5L10,0L0,5" fill="#d97706"/>
+      </marker>
+    </defs>
+
+    <!-- 阶段分组背景 -->
+    <rect x="20" y="40"  width="840" height="100" rx="10" fill="#f9fafb" stroke="#e2e8f0"/>
+    <rect x="20" y="160" width="840" height="200" rx="10" fill="#f9fafb" stroke="#e2e8f0"/>
+    <rect x="20" y="380" width="840" height="160" rx="10" fill="#f9fafb" stroke="#e2e8f0"/>
+    <text class="stage" x="36" y="58">规划</text>
+    <text class="stage" x="36" y="178">检索-反思循环</text>
+    <text class="stage" x="36" y="398">审计 / 仲裁</text>
+
+    <!-- ① Planner -->
+    <g>
+      <rect class="box c-plan-fill" x="60" y="70" width="200" height="60" rx="10" stroke="#a855f7"/>
+      <text class="title" x="160" y="92" text-anchor="middle">① Planner</text>
+      <text class="detail" x="160" y="110" text-anchor="middle">Element→Track 映射(启发式)</text>
+      <text class="detail" x="160" y="124" text-anchor="middle">→ target_tracks / target_content_kinds</text>
+    </g>
+
+    <!-- ①→② -->
+    <path class="arrow" d="M 160 130 L 160 180" marker-end="url(#m)"/>
+    <text class="lbl" x="166" y="158">Round 0 注入</text>
+
+    <!-- ② 检索主盒 -->
+    <g>
+      <rect class="box c-retr-fill" x="60" y="180" width="280" height="160" rx="10" stroke="#2563eb"/>
+      <text class="title" x="200" y="204" text-anchor="middle">② Retrieval</text>
+      <text class="detail" x="200" y="222" text-anchor="middle">HybridIndex(BM25+Vector)→ RRF →</text>
+      <text class="detail" x="200" y="236" text-anchor="middle">Reranker → MMR → merge_hits</text>
+      <text class="detail" x="200" y="254" text-anchor="middle">RetrievalAgent:Gap 评估 / STOP-RETRIEVE</text>
+      <text class="detail" x="200" y="268" text-anchor="middle">Planner hint → 下轮 target_tracks</text>
+      <text class="detail" x="200" y="286" text-anchor="middle">Critic:去重 + flag 答案泄露</text>
+      <text class="detail" x="200" y="304" text-anchor="middle">循环:改 query → 再检索(max_repairs)</text>
+      <text class="detail" x="200" y="318" text-anchor="middle">产物:RetrievalBundle + rounds[]</text>
+    </g>
+
+    <!-- ② 内自循环 (改 query) -->
+    <path class="loop" d="M 340 260 L 410 260 Q 420 260 420 270 L 420 320 Q 420 330 410 330 L 80 330 Q 70 330 70 320 L 70 270 Q 70 260 80 260 L 120 260"
+          marker-end="url(#mr)"/>
+    <text class="lbl" x="430" y="295" fill="#b45309">改 query 循环</text>
+
+    <!-- ③ 审计 -->
+    <g>
+      <rect class="box c-audit-fill" x="400" y="180" width="200" height="80" rx="10" stroke="#dc2626"/>
+      <text class="title" x="500" y="204" text-anchor="middle">③ Audit</text>
+      <text class="detail" x="500" y="222" text-anchor="middle">audit_checkpoint(audit_model)</text>
+      <text class="detail" x="500" y="236" text-anchor="middle">→ verdict / shared_facts</text>
+      <text class="detail" x="500" y="250" text-anchor="middle">citation_validation 强校验</text>
+    </g>
+
+    <!-- ④ 仲裁 -->
+    <g>
+      <rect class="box c-arbit-fill" x="400" y="280" width="200" height="80" rx="10" stroke="#16a34a"/>
+      <text class="title" x="500" y="304" text-anchor="middle">④ Verifier + Arbitrate</text>
+      <text class="detail" x="500" y="322" text-anchor="middle">Verifier 抽检 → 单/盲/升级仲裁</text>
+      <text class="detail" x="500" y="336" text-anchor="middle">→ ACCEPT_* / REVIEW_DISAGREEMENT</text>
+      <text class="detail" x="500" y="350" text-anchor="middle">→ final AuditDecision</text>
+    </g>
+
+    <!-- ②→③ -->
+    <path class="arrow" d="M 340 240 L 400 220" marker-end="url(#m)"/>
+    <text class="lbl" x="345" y="222">policy + evidence</text>
+
+    <!-- ③→④ -->
+    <path class="arrow" d="M 500 260 L 500 280" marker-end="url(#m)"/>
+
+    <!-- 数据层 -->
+    <g>
+      <rect class="box c-data-fill" x="660" y="200" width="180" height="160" rx="10" stroke="#6b7280"/>
+      <text class="title" x="750" y="224" text-anchor="middle">数据层</text>
+      <text class="detail" x="750" y="244" text-anchor="middle">policy_index</text>
+      <text class="detail" x="750" y="258" text-anchor="middle">case_index(HybridIndex)</text>
+      <text class="detail" x="750" y="272" text-anchor="middle">CaseMemory</text>
+      <text class="detail" x="750" y="286" text-anchor="middle">FailureModeMemory</text>
+      <text class="detail" x="750" y="300" text-anchor="middle">build/state/*.json</text>
+      <text class="detail" x="750" y="318" text-anchor="middle">(失败原因 / 跨 CP 事实)</text>
+      <text class="detail" x="750" y="340" text-anchor="middle">submission_template.xlsx</text>
+    </g>
+
+    <!-- ②→数据层  读 -->
+    <path class="arrow" d="M 340 280 L 660 260" marker-end="url(#m)"/>
+    <text class="lbl" x="500" y="275">检索</text>
+    <!-- 数据层→②  反 -->
+    <path class="arrow" d="M 660 290 L 340 310" marker-end="url(#m)"/>
+    <text class="lbl" x="500" y="313" fill="#475569">扫描 tracks</text>
+
+    <!-- ③↔CaseMemory -->
+    <path class="arrow" d="M 600 240 L 660 240" marker-end="url(#m)"/>
+    <text class="lbl" x="610" y="234">shared_facts</text>
+
+    <!-- 失败落盘 -->
+    <path class="red" d="M 500 360 L 500 420" marker-end="url(#m)"/>
+    <text class="lbl" x="506" y="395" fill="#dc2626">raise BlockedTaskError</text>
+
+    <!-- 落盘 Submission -->
+    <g>
+      <rect class="box c-arbit-fill" x="60" y="420" width="380" height="80" rx="10" stroke="#16a34a"/>
+      <text class="title" x="250" y="444" text-anchor="middle">⑤ 落盘</text>
+      <text class="detail" x="250" y="464" text-anchor="middle">Submission.xlsx(最终填充)</text>
+      <text class="detail" x="250" y="480" text-anchor="middle">build/state/audit_tasks.jsonl(每任务产物)</text>
+      <text class="detail" x="250" y="494" text-anchor="middle">build/state/failure_modes.jsonl(失败原因)</text>
+    </g>
+
+    <path class="green" d="M 500 380 L 470 410 Q 460 420 450 420 L 250 420" marker-end="url(#mg)"/>
+    <rect class="lblbg" x="450" y="384" width="60" height="14" rx="3"/>
+    <text class="lbl" x="480" y="395" text-anchor="middle" fill="#16a34a">ACCEPT</text>
+
+    <!-- 分流菱形: 应否仲裁? -->
+    <g>
+      <polygon points="320,440 360,410 400,440 360,470" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+      <text font-size="11" font-weight="700" fill="#78350f" x="360" y="437" text-anchor="middle">应否</text>
+      <text font-size="11" font-weight="700" fill="#78350f" x="360" y="450" text-anchor="middle">仲裁?</text>
+    </g>
+
+    <!-- 简要说明 -->
+    <g transform="translate(60, 510)">
+      <text class="lbl">默认配置 heuristic + blind + 无 tiebreaker → 行为完全等价旧版(向后兼容)</text>
+      <text class="lbl" y="14">Ablation 5 档:bm25_only / vector_only / weighted_hybrid / rrf_reranker_no_mmr / full_retrieval</text>
+    </g>
+  </svg>
+</div>
+</body>
+</html>
