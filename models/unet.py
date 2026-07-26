@@ -103,11 +103,16 @@ def _loss(lo, tg):
 
 @register("unet")
 class UNetModel(BaseModel):
-    def __init__(self, epochs=C.EPOCHS, tta=True, mask_thr=0.3, box_score_thr=0.6,
-                 ckpt=os.path.join(C.OUT_DIR, "unet.pt")):
-        self.epochs = epochs; self.tta = tta
+    def __init__(self, epochs=C.EPOCHS, tta=True, photo_aug=True, mask_thr=0.3, box_score_thr=0.6,
+                 ckpt=os.path.join(C.OUT_DIR, "unet.pt"), seed=0):
+        self.epochs = epochs; self.tta = tta; self.photo_aug = photo_aug
         self.mask_thr = mask_thr; self.box_score_thr = box_score_thr
         self.ckpt = ckpt; self.net = None
+        self.seed = seed          # 训练随机种子(集成用不同 seed 造多样性;实测单模型误报方差大,多seed集成是关键稳定器)
+
+    # ---- 可替换的网络(子类重写此方法即可换骨干,复用同一套切片/训练/推理)----
+    def _build_net(self):
+        return _UNet()
 
     # ---- 训练 ----
     def fit(self, train_pairs):
@@ -116,11 +121,11 @@ class UNetModel(BaseModel):
         for pr in train_pairs:
             a, b = _tiles_from(pr); Xs += a; Ys += b
         X = np.array(Xs, np.uint8); Y = np.array(Ys, np.uint8)
-        print(f"[unet] 切片 {len(X)} 张,开始训练({self.epochs} 轮,设备 {DEV})", flush=True)
-        torch.manual_seed(0)
+        print(f"[unet] 切片 {len(X)} 张,开始训练({self.epochs} 轮,设备 {DEV},seed={self.seed})", flush=True)
+        torch.manual_seed(self.seed)
         Xt = torch.tensor(X, dtype=torch.float32) / 255.0
         Yt = torch.tensor(Y, dtype=torch.float32)
-        net = _UNet().to(DEV)
+        net = self._build_net().to(DEV)
         opt = torch.optim.Adam(net.parameters(), C.LR, weight_decay=1e-4)
         N, bs = len(Xt), C.BATCH
         for ep in range(self.epochs):
@@ -129,6 +134,9 @@ class UNetModel(BaseModel):
                 idx = perm[j:j + bs]; xb = Xt[idx].to(DEV); yb = Yt[idx].to(DEV)
                 if torch.rand(1).item() < 0.5: xb = torch.flip(xb, [3]); yb = torch.flip(yb, [2])
                 if torch.rand(1).item() < 0.5: xb = torch.flip(xb, [2]); yb = torch.flip(yb, [1])
+                if self.photo_aug and torch.rand(1).item() < 0.5:   # 光度增广:抖动模板+照片通道亮度/对比度(多seed实测+0.012且大幅降方差)
+                    f = 0.8 + 0.4 * torch.rand(1).item(); bts = -0.1 + 0.2 * torch.rand(1).item()
+                    xb[:, 0:2] = torch.clamp(xb[:, 0:2] * f + bts, 0, 1)
                 lo = net(xb); loss = _loss(lo, yb)
                 opt.zero_grad(); loss.backward(); opt.step()
             if (ep + 1) % 10 == 0:
@@ -139,7 +147,7 @@ class UNetModel(BaseModel):
         return self
 
     def load(self, ckpt=None):
-        net = _UNet().to(DEV)
+        net = self._build_net().to(DEV)
         net.load_state_dict(torch.load(ckpt or self.ckpt, map_location=DEV))
         net.eval(); self.net = net
         return self

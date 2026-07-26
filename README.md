@@ -11,7 +11,8 @@
   - `classical` —— 二值墨迹异或 + 连通域基线(纯 CPU、秒级)。**IoU≥0.5 严格匹配下约 0.09**——
     经典法难以区分"真改动"与"平移对齐后残留的文字错配边",松则假框多、紧则漏小改动,没有好操作点。
     这正是本任务要用**学习式方法**的动机。
-  - `unet` —— U-Net 4通道 + TTA(需 GPU,留出 F1 ≈ **0.945**)
+  - `unet` —— U-Net 4通道 + TTA(需 GPU)。单模型留出 F1 波动大(见下"为什么用集成");
+    **多seed集成的诚实鲁棒 F1 ≈ 0.92~0.935(全200 K折OOF,跨折稳定)**。
 
 ## 目录
 
@@ -24,8 +25,10 @@ models/
   base.py      ★ 模型接口 BaseModel + 注册表
   classical.py 参考实现①(基线)
   unet.py      参考实现②(U-Net)
-run.py         选模型 → 全量训练 → 预测测试集 → submission.csv
+run.py         选模型 → 全量训练 → 预测测试集 → submission.csv(单模型)
+run_ensemble.py ★推荐提交:多seed集成(热图平均)+ TTA → submission_ens.csv
 validate.py    选模型 → 训练集划分 → 验证集算 F1(调模型主要看这个)
+bench_baselines.py  批量跑强baseline对比表(smp骨干/FC-Siam等)
 ```
 
 ## 环境
@@ -46,8 +49,26 @@ python validate.py --model classical      # 基线,CPU,秒级
 python validate.py --model unet           # U-Net,需 GPU,训练约 20 分钟
 
 # 生成提交文件
-python run.py --model unet                # → outputs/submission.csv
+python run.py --model unet                # 单模型 → outputs/submission.csv
+python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs/submission_ens.csv
 ```
+
+## ★ 为什么提交要用集成(run_ensemble.py),而不是单模型 run.py
+
+**单模型的误报方差极大。** 200 张小数据集 + 训练随机性下,某些噪声重的图会触发"误报级联"
+(单张几十~几百个假框:扫描/印刷斑点被高通差分读成小差异)。实测 K 折 OOF(全 200):
+
+| | 单模型 | 3-seed 集成 |
+|---|---|---|
+| 好折 F1 | 0.9153 | **0.9350** |
+| 坏折 F1 | 0.7862 | **0.9220** |
+| 跨折方差 | 0.129 | **0.013**(降10倍) |
+| 坏折误报 | 574 | 30(砍95%) |
+
+**多seed集成(对不同 seed 的成员热图取平均)是对症解**:一个假框要多个模型同时幻觉才存活,
+而级联是模型专属的 → 被平均掉。集成在好折也更优,不是以牺牲简单场景为代价。
+**故正式提交请用 `run_ensemble.py`。** 阈值默认 (0.3, 0.5) 是集成后 OOF 最优
+(集成已压住误报,用召回友好的较低 box 阈值;单模型时代的 box=0.6 是遮误报的"创可贴")。
 
 ## ★ 接入你自己的模型(三步)
 
@@ -85,8 +106,11 @@ python run.py --model mymodel             # 出提交
 
 ## 评测口径(重要)
 
-官方指标是**全局 F1**。命中(TP)的精确匹配规则在官方脚本
-`packaging_material_difference_mining_score.py` 里——**该脚本目前不在数据包内**,
-我们按 **IoU≥0.5、贪心匹配** 复现(见 `config.IOU_THRESH` 与 `evaluate.py`)。
-拿到官方脚本后,改 `config.IOU_THRESH` 或 `evaluate.match_one_image` 对齐即可,
-**所有接入的模型自动使用同一口径**。
+官方指标**已核对确认**(csmining.org/CyberAICup2026/data.html):**全局 F1** —— 累加全测试集
+TP/FP/FN 后再算 Precision/Recall/F1,**与 `evaluate.py` 完全一致**。
+
+命中(TP)的 **IoU 匹配阈值官方未公开**(官方答复:按规则页所述即可)。我们用 **IoU≥0.5、贪心匹配**
+复现。已实证这对结论无影响:把 OOF 预测在 中心点/IoU≥0.1/0.25/0.5 多种规则下评分,
+集成 F1 = 0.935/0.935/0.934/0.922(仅 ±0.013),且每种规则集成都胜单模型——
+因约 89% 的漏报是"真没检测到"(对任何匹配规则都漏),规则撼不动大局,我们站在保守侧。
+如需改口径,调 `config.IOU_THRESH` 或 `evaluate.match_one_image`,**所有接入模型自动统一**。

@@ -3,3 +3,11 @@ numpy
 opencv-python
 # U-Net 参考实现还需 torch(有 GPU 更快;没装则只能用 classical):
 # pip install torch
+#
+# ---- 强 baseline 对比(bench_baselines.py)额外依赖 ----
+# 现代分割骨干(unet_r34 / unetpp / deeplabv3p / segformer):
+#   pip install segmentation_models_pytorch timm
+# SAM 零样本(sam_zs):
+#   pip install segment-anything
+#   并下载权重(约375MB): sam_vit_b_01ec64.pth,设 SAM_CKPT 环境变量指向它
+# FC-Siam-diff 无额外依赖(纯 torch)
