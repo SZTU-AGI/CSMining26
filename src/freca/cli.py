@@ -13,6 +13,9 @@ from freca.ablation import (
     write_ablation_report,
 )
 from freca.config import PipelineConfig
+from freca.cp import load_checkpoints
+from freca.experiments.models import ExperimentMethod
+from freca.experiments.planning import build_execution_plan
 from freca.models import TaskStatus
 from freca.pipeline import (
     assemble_run_submission,
@@ -23,7 +26,7 @@ from freca.pipeline import (
     run_audit_tasks,
     write_manifest,
 )
-from freca.state import TaskStore
+from freca.state import TaskStore, atomic_write_json
 from freca.runtime import check_readiness
 from freca.workflow import prepare_workflow, run_full_workflow, run_pilot_workflow
 from freca.report import write_verification_report
@@ -123,6 +126,20 @@ def build_parser() -> argparse.ArgumentParser:
         "report", help="Regenerate an experiment summary"
     )
     ablation_report.add_argument("--experiment-id", required=True)
+
+    experiment = subparsers.add_parser(
+        "experiment", help="Plan and control direct LLM comparison experiments"
+    )
+    experiment_actions = experiment.add_subparsers(dest="experiment_action", required=True)
+    experiment_plan = experiment_actions.add_parser(
+        "plan", help="Write a deterministic call plan without contacting an LLM"
+    )
+    experiment_plan.add_argument("--method", choices=[method.value for method in ExperimentMethod], required=True)
+    experiment_plan.add_argument("--case-id", type=int, required=True)
+    experiment_run = experiment_actions.add_parser(
+        "run", help="Run a materialized experiment only after explicit live-model approval"
+    )
+    experiment_run.add_argument("--allow-live-model", action="store_true")
     return parser
 
 
@@ -134,6 +151,38 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         config = PipelineConfig.from_yaml(args.config)
+        if args.command == "experiment":
+            if args.experiment_action == "plan":
+                method = ExperimentMethod(args.method)
+                plan = build_execution_plan(
+                    method,
+                    case_id=args.case_id,
+                    checkpoints=load_checkpoints(config.paths.checkpoints_xlsx),
+                )
+                plan_path = (
+                    config.paths.build_dir
+                    / "experiments"
+                    / "plans"
+                    / f"{method.value}-case-{args.case_id:03d}.json"
+                )
+                atomic_write_json(plan_path, plan.model_dump(mode="json"))
+                _print({"plan_path": plan_path, "units": len(plan.units), **plan.model_dump(mode="json")})
+                return 0
+            if not args.allow_live_model:
+                _print(
+                    {
+                        "status": "BLOCKED",
+                        "reason": "direct model execution requires --allow-live-model",
+                    }
+                )
+                return 2
+            _print(
+                {
+                    "status": "BLOCKED",
+                    "reason": "materialized experiment execution is not configured",
+                }
+            )
+            return 2
         if args.command == "manifest":
             _print(write_manifest(config))
             return 0
