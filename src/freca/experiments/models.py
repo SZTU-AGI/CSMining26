@@ -61,3 +61,9 @@ class ExecutionResult(StrictModel):
     verdicts: tuple[ExperimentVerdict, ...] = ()
     input_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
     prompt_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
+
+
+class SilverComparison(StrictModel):
+    shared_checkpoints: tuple[str, ...]
+    matched_checkpoints: tuple[str, ...]
+    silver_agreement: float = Field(ge=0.0, le=1.0)
