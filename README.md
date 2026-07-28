@@ -8,6 +8,20 @@
 
 100 个 case × 41 个 CP = **4,100 个幂等审计任务**:解析法规与案例 → 双索引 → 检索(Planner / Retrieval / Critic)→ 审计 → 引用校验 → Verifier → 选择性仲裁 → 提交门禁。
 
+## Direct LLM experiment architecture (active)
+
+The active evaluation path is a direct, official-material LLM experiment framework rather than the legacy retrieval/agent chain. It compares `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval` using the original checkpoint text, policy, current-case evidence, and optional original images. It never uses external label workbooks or handmade CP-to-rule mappings.
+
+Create a deterministic plan without contacting a model:
+
+```powershell
+python -m freca.cli --config config.yaml experiment plan --method case_full --case-id 7
+```
+
+Plans are written to `build/experiments/plans/`. The execution API persists the request, material hash, raw response, validation result, and image paths. Candidate scores are **silver agreement** with a frozen LLM reference, never official accuracy. Live execution is intentionally gated behind `--allow-live-model`; this repository's tests make no provider calls.
+
+The older retrieval pipeline remains available for backward compatibility, but it is not a dependency of the direct experiment path. The detailed design and implementation plan are in `docs/superpowers/specs/2026-07-28-freca-direct-llm-experiment-design.md` and `docs/superpowers/plans/2026-07-28-freca-direct-llm-experiments.md`.
+
 ## Quick Start
 
 ```powershell

@@ -9,6 +9,14 @@
 
 本文档替代旧版 `SOLUTION.md`。旧版中“仅审计 96 个案例，并将 4 个结构异常案例整案填为 `N/A`”的策略正式废弃。
 
+## Architecture status — 2026-07-28
+
+This document preserves the legacy retrieval-heavy pipeline for compatibility and historical evidence. The active architecture for new evaluation work is the direct LLM experiment framework described in `docs/superpowers/specs/2026-07-28-freca-direct-llm-experiment-design.md`.
+
+Its baseline sends the official checkpoint text, full policy, all official evidence for the current case, and original images directly to a multimodal LLM. The comparison portfolio changes only execution granularity and automatic retrieval: `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval`. It does not use `signature_truth`, manual CP-to-rule mappings, hand-authored compliance rules, or automatic `N/A` filling. A frozen LLM reference is a silver comparator only, not ground-truth accuracy.
+
+`freca experiment plan` is provider-free and writes deterministic units. The underlying execution API records every request, source hash, raw response, verdict validation, and image list. A real run remains explicitly gated and is not exercised by tests.
+
 ---
 
 ## 1. 结论
