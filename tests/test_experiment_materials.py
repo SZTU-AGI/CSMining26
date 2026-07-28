@@ -1,6 +1,10 @@
+import json
 from pathlib import Path
 
-from freca.experiments.materials import build_material_snapshot
+from freca.experiments.materials import (
+    build_material_snapshot,
+    load_material_snapshot_from_parsed,
+)
 from freca.models import (
     CheckpointDefinition,
     ContentKind,
@@ -64,3 +68,37 @@ def test_material_snapshot_rejects_evidence_for_a_different_case() -> None:
         assert "case 7" in str(error)
     else:
         raise AssertionError("expected foreign case evidence to be rejected")
+
+
+def test_material_snapshot_loads_current_case_and_original_images_from_parsed_artifacts(
+    tmp_path: Path,
+) -> None:
+    parsed = tmp_path / "parsed"
+    policy = _chunk("policy:page:1", "official policy", case_id=None)
+    case = _chunk("case:7:track1", "farm evidence", case_id=7)
+    image_path = tmp_path / "official-image.png"
+    image_path.write_bytes(b"png")
+    image = case.model_copy(
+        update={
+            "chunk_id": "case:7:image:1",
+            "content_kind": ContentKind.IMAGE,
+            "metadata": {"extracted_path": str(image_path)},
+        }
+    )
+    (parsed / "cases" / "007").mkdir(parents=True)
+    (parsed / "policy.json").write_text(
+        json.dumps([policy.model_dump(mode="json")]), encoding="utf-8"
+    )
+    (parsed / "cases" / "007" / "track-1.json").write_text(
+        json.dumps([case.model_dump(mode="json"), image.model_dump(mode="json")]),
+        encoding="utf-8",
+    )
+
+    snapshot = load_material_snapshot_from_parsed(
+        parsed_dir=parsed,
+        case_id=7,
+        checkpoints=[_checkpoint("CP1")],
+    )
+
+    assert snapshot.chunk_ids == ("policy:page:1", "case:7:track1", "case:7:image:1")
+    assert snapshot.image_paths == (str(image_path),)
