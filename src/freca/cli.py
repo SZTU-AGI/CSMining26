@@ -15,8 +15,8 @@ from freca.ablation import (
 from freca.config import PipelineConfig
 from freca.cp import load_checkpoints
 from freca.experiments.materials import load_material_snapshot_from_parsed
-from freca.experiments.models import ExperimentMethod
-from freca.experiments.planning import build_execution_plan
+from freca.experiments.models import ExperimentMethod, Track3Condition
+from freca.experiments.planning import build_execution_plan, select_cases
 from freca.models import TaskStatus
 from freca.pipeline import (
     assemble_run_submission,
@@ -144,6 +144,24 @@ def build_parser() -> argparse.ArgumentParser:
         "--method", choices=[method.value for method in ExperimentMethod], required=True
     )
     experiment_materialize.add_argument("--case-id", type=int, required=True)
+    experiment_materialize.add_argument(
+        "--track3",
+        choices=[condition.value for condition in Track3Condition],
+        default=Track3Condition.RAW.value,
+        help="send the Track 3 'Audit scenario' narrative raw or redacted",
+    )
+    experiment_cases = experiment_actions.add_parser(
+        "cases", help="List which case ids a method should run on after applying scope limits"
+    )
+    experiment_cases.add_argument(
+        "--method", choices=[method.value for method in ExperimentMethod], required=True
+    )
+    experiment_cases.add_argument("--limit", type=int, default=None)
+    experiment_cases.add_argument(
+        "--cases",
+        default=None,
+        help="comma-separated explicit case id subset (overrides --limit)",
+    )
     experiment_run = experiment_actions.add_parser(
         "run", help="Run a materialized experiment only after explicit live-model approval"
     )
@@ -178,10 +196,12 @@ def main(argv: list[str] | None = None) -> int:
                 return 0
             if args.experiment_action == "materialize":
                 method = ExperimentMethod(args.method)
+                track3_condition = Track3Condition(args.track3)
                 snapshot = load_material_snapshot_from_parsed(
                     parsed_dir=config.paths.build_dir / "parsed",
                     case_id=args.case_id,
                     checkpoints=load_checkpoints(config.paths.checkpoints_xlsx),
+                    track3_condition=track3_condition,
                 )
                 material_path = (
                     config.paths.build_dir
@@ -197,7 +217,25 @@ def main(argv: list[str] | None = None) -> int:
                         "case_id": args.case_id,
                         "chunks": len(snapshot.chunks),
                         "images": len(snapshot.image_paths),
+                        "track3_condition": snapshot.track3_condition.value,
                         "input_sha256": snapshot.input_sha256,
+                    }
+                )
+                return 0
+            if args.experiment_action == "cases":
+                only = (
+                    [int(value) for value in args.cases.split(",") if value.strip()]
+                    if args.cases
+                    else None
+                )
+                selected = select_cases(
+                    case_ids=range(1, 101), limit=args.limit, only=only
+                )
+                _print(
+                    {
+                        "method": args.method,
+                        "case_count": len(selected),
+                        "case_ids": list(selected),
                     }
                 )
                 return 0

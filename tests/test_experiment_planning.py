@@ -1,4 +1,4 @@
-from freca.experiments.planning import build_execution_plan
+from freca.experiments.planning import build_execution_plan, select_cases
 from freca.experiments.models import ExperimentMethod
 from freca.models import CheckpointDefinition
 
@@ -63,3 +63,24 @@ def test_single_checkpoint_methods_plan_one_call_per_checkpoint() -> None:
             ("CP3",),
             ("CP4",),
         ]
+
+
+def test_select_cases_returns_all_case_ids_when_unbounded() -> None:
+    assert select_cases(case_ids=(1, 2, 3, 4, 5)) == (1, 2, 3, 4, 5)
+
+
+def test_select_cases_applies_a_deterministic_limit() -> None:
+    assert select_cases(case_ids=(1, 2, 3, 4, 5), limit=2) == (1, 2)
+
+
+def test_select_cases_explicit_subset_overrides_and_orders_against_the_full_set() -> None:
+    assert select_cases(case_ids=(1, 2, 3, 4, 5), only=(5, 3)) == (3, 5)
+
+
+def test_select_cases_rejects_subset_ids_outside_the_known_set() -> None:
+    try:
+        select_cases(case_ids=(1, 2, 3), only=(2, 99))
+    except ValueError as error:
+        assert "99" in str(error)
+    else:
+        raise AssertionError("expected unknown case id to be rejected")

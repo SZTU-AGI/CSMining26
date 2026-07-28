@@ -14,6 +14,13 @@ class ExperimentMethod(StrEnum):
     AUTOMATIC_RETRIEVAL = "automatic_retrieval"
 
 
+class Track3Condition(StrEnum):
+    """Whether the Track 3 "Audit scenario" near-answer narrative is sent raw or redacted."""
+
+    RAW = "raw"
+    MASKED = "masked"
+
+
 class ExecutionUnit(StrictModel):
     case_id: int = Field(ge=1, le=100)
     method: ExperimentMethod
@@ -31,6 +38,7 @@ class MaterialSnapshot(StrictModel):
     checkpoints: tuple[CheckpointDefinition, ...] = Field(min_length=1)
     chunks: tuple[EvidenceChunk, ...]
     image_paths: tuple[str, ...] = ()
+    track3_condition: Track3Condition = Track3Condition.RAW
     input_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
 
     @property

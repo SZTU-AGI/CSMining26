@@ -88,6 +88,66 @@ def test_experiment_materialize_writes_a_provider_free_snapshot(tmp_path: Path) 
     assert len(snapshot["checkpoints"]) == 41
 
 
+def test_experiment_materialize_supports_track3_masked_condition(tmp_path: Path) -> None:
+    config = _config(tmp_path)
+    parsed = tmp_path / "build" / "parsed"
+    (parsed / "cases" / "007").mkdir(parents=True)
+    policy = _chunk("policy:page:1", None)
+    scenario = _chunk("case:7:track3:cover", 7).model_copy(
+        update={
+            "track": 3,
+            "content": "A14=Audit scenario: Fully compliant - documented IPM. | B14=<BLANK>",
+        }
+    )
+    (parsed / "policy.json").write_text(
+        json.dumps([policy.model_dump(mode="json")]), encoding="utf-8"
+    )
+    (parsed / "cases" / "007" / "track-3.json").write_text(
+        json.dumps([scenario.model_dump(mode="json")]), encoding="utf-8"
+    )
+
+    assert main(
+        [
+            "--config",
+            str(config),
+            "experiment",
+            "materialize",
+            "--method",
+            "case_full",
+            "--case-id",
+            "7",
+            "--track3",
+            "masked",
+        ]
+    ) == 0
+
+    snapshot = read_json(
+        tmp_path / "build" / "experiments" / "case_full" / "case-007" / "material.json"
+    )
+    assert snapshot["track3_condition"] == "masked"
+    assert all("Fully compliant" not in chunk["content"] for chunk in snapshot["chunks"])
+
+
+def test_experiment_cases_lists_a_bounded_checkpoint_full_sample(tmp_path: Path) -> None:
+    config = _config(tmp_path)
+
+    assert (
+        main(
+            [
+                "--config",
+                str(config),
+                "experiment",
+                "cases",
+                "--method",
+                "checkpoint_full",
+                "--limit",
+                "3",
+            ]
+        )
+        == 0
+    )
+
+
 def _chunk(chunk_id: str, case_id: int | None) -> EvidenceChunk:
     return EvidenceChunk(
         chunk_id=chunk_id,
