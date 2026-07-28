@@ -4,7 +4,7 @@ from enum import StrEnum
 
 from pydantic import Field
 
-from freca.models import CheckpointDefinition, EvidenceChunk, StrictModel
+from freca.models import CheckpointDefinition, EvidenceChunk, StrictModel, Verdict
 
 
 class ExperimentMethod(StrEnum):
@@ -36,3 +36,28 @@ class MaterialSnapshot(StrictModel):
     @property
     def chunk_ids(self) -> tuple[str, ...]:
         return tuple(chunk.chunk_id for chunk in self.chunks)
+
+
+class PromptEnvelope(StrictModel):
+    system: str
+    text: str
+    image_paths: tuple[str, ...] = ()
+    input_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
+    prompt_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
+
+
+class ExperimentVerdict(StrictModel):
+    cp_id: str = Field(pattern=r"^CP(?:[1-9]|[1-3][0-9]|4[01])$")
+    verdict: Verdict
+    reason: str = Field(min_length=1)
+    citation_ids: tuple[str, ...] = Field(min_length=1)
+    uncertainty: float = Field(ge=0.0, le=1.0)
+
+
+class ExecutionResult(StrictModel):
+    unit: ExecutionUnit
+    valid: bool
+    errors: tuple[str, ...] = ()
+    verdicts: tuple[ExperimentVerdict, ...] = ()
+    input_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
+    prompt_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
