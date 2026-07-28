@@ -1,6 +1,8 @@
+import json
 from pathlib import Path
 
 from freca.cli import build_parser, main
+from freca.models import ContentKind, EvidenceChunk, SourceLocation, SourceType
 from freca.state import read_json
 
 
@@ -51,6 +53,55 @@ def test_experiment_run_is_explicitly_gated_before_provider_use(tmp_path: Path) 
     config = _config(tmp_path)
 
     assert main(["--config", str(config), "experiment", "run"]) == 2
+
+
+def test_experiment_materialize_writes_a_provider_free_snapshot(tmp_path: Path) -> None:
+    config = _config(tmp_path)
+    parsed = tmp_path / "build" / "parsed"
+    (parsed / "cases" / "007").mkdir(parents=True)
+    policy = _chunk("policy:page:1", None)
+    case = _chunk("case:7:track1", 7)
+    (parsed / "policy.json").write_text(
+        json.dumps([policy.model_dump(mode="json")]), encoding="utf-8"
+    )
+    (parsed / "cases" / "007" / "track-1.json").write_text(
+        json.dumps([case.model_dump(mode="json")]), encoding="utf-8"
+    )
+
+    assert main(
+        [
+            "--config",
+            str(config),
+            "experiment",
+            "materialize",
+            "--method",
+            "case_full",
+            "--case-id",
+            "7",
+        ]
+    ) == 0
+
+    snapshot = read_json(
+        tmp_path / "build" / "experiments" / "case_full" / "case-007" / "material.json"
+    )
+    assert snapshot["case_id"] == 7
+    assert len(snapshot["checkpoints"]) == 41
+
+
+def _chunk(chunk_id: str, case_id: int | None) -> EvidenceChunk:
+    return EvidenceChunk(
+        chunk_id=chunk_id,
+        case_id=case_id,
+        source_id="policy" if case_id is None else "case-7-track-1",
+        source_file="policy.pdf" if case_id is None else "track-1.docx",
+        source_type=SourceType.PDF if case_id is None else SourceType.DOCX,
+        location=SourceLocation(page=1),
+        content="official content",
+        content_kind=ContentKind.PARAGRAPH,
+        parser_name="test",
+        parser_version="1",
+        source_sha256="a" * 64,
+    )
 
 
 def test_experiment_group_is_visible_in_cli_help() -> None:

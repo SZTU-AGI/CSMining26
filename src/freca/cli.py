@@ -14,6 +14,7 @@ from freca.ablation import (
 )
 from freca.config import PipelineConfig
 from freca.cp import load_checkpoints
+from freca.experiments.materials import load_material_snapshot_from_parsed
 from freca.experiments.models import ExperimentMethod
 from freca.experiments.planning import build_execution_plan
 from freca.models import TaskStatus
@@ -136,6 +137,13 @@ def build_parser() -> argparse.ArgumentParser:
     )
     experiment_plan.add_argument("--method", choices=[method.value for method in ExperimentMethod], required=True)
     experiment_plan.add_argument("--case-id", type=int, required=True)
+    experiment_materialize = experiment_actions.add_parser(
+        "materialize", help="Write an official-material snapshot without contacting an LLM"
+    )
+    experiment_materialize.add_argument(
+        "--method", choices=[method.value for method in ExperimentMethod], required=True
+    )
+    experiment_materialize.add_argument("--case-id", type=int, required=True)
     experiment_run = experiment_actions.add_parser(
         "run", help="Run a materialized experiment only after explicit live-model approval"
     )
@@ -167,6 +175,31 @@ def main(argv: list[str] | None = None) -> int:
                 )
                 atomic_write_json(plan_path, plan.model_dump(mode="json"))
                 _print({"plan_path": plan_path, "units": len(plan.units), **plan.model_dump(mode="json")})
+                return 0
+            if args.experiment_action == "materialize":
+                method = ExperimentMethod(args.method)
+                snapshot = load_material_snapshot_from_parsed(
+                    parsed_dir=config.paths.build_dir / "parsed",
+                    case_id=args.case_id,
+                    checkpoints=load_checkpoints(config.paths.checkpoints_xlsx),
+                )
+                material_path = (
+                    config.paths.build_dir
+                    / "experiments"
+                    / method.value
+                    / f"case-{args.case_id:03d}"
+                    / "material.json"
+                )
+                atomic_write_json(material_path, snapshot.model_dump(mode="json"))
+                _print(
+                    {
+                        "material_path": material_path,
+                        "case_id": args.case_id,
+                        "chunks": len(snapshot.chunks),
+                        "images": len(snapshot.image_paths),
+                        "input_sha256": snapshot.input_sha256,
+                    }
+                )
                 return 0
             if not args.allow_live_model:
                 _print(
