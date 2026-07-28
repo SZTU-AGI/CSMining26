@@ -10,7 +10,11 @@
 
 ## Direct LLM experiment architecture (active)
 
-The active evaluation path is a direct, official-material LLM experiment framework rather than the legacy retrieval/agent chain. It compares `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval` using the original checkpoint text, policy, current-case evidence, and optional original images. It never uses external label workbooks or handmade CP-to-rule mappings.
+The active evaluation path is a direct, official-material LLM experiment framework rather than the legacy retrieval/agent chain. It compares `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval` using the original checkpoint text, policy, and current-case evidence. It never uses external label workbooks or handmade CP-to-rule mappings.
+
+**Evidence is text and tables only.** The 100 FRECA cases contain no embedded or standalone images (verified across all 898 source files), so the multimodal image-sending path exists and is tested but carries no images for this dataset; the text-only vs text+image ablation is therefore not applicable here.
+
+**Track 3 leakage control.** Every case's Track 3 (Pest Control Record) carries an `Audit scenario:` cell whose narrative states the compliance posture in plain language (e.g. "Fully compliant", "Active insect infestation ... not pest-free"). This is a near-answer field. `materialize` accepts `--track3 raw|masked` so the same method can be run under both conditions and compared; `masked` redacts the narrative to `[REDACTED]` while preserving cell structure and the label.
 
 Create a deterministic plan without contacting a model:
 
@@ -19,6 +23,8 @@ python -m freca.cli --config config.yaml experiment plan --method case_full --ca
 ```
 
 Plans are written to `build/experiments/plans/`. The execution API persists the request, material hash, raw response, validation result, and image paths. Candidate scores are **silver agreement** with a frozen LLM reference, never official accuracy. Live execution is intentionally gated behind `--allow-live-model`; this repository's tests make no provider calls.
+
+**Case scope.** `experiment cases --method checkpoint_full --limit N` (or `--cases 1,5,9`) lists the case subset a method should run on. Expensive methods such as `checkpoint_full` (41 calls/case × full material) should run on a bounded sample while `case_full` covers all 100.
 
 The older retrieval pipeline remains available for backward compatibility, but it is not a dependency of the direct experiment path. The detailed design and implementation plan are in `docs/superpowers/specs/2026-07-28-freca-direct-llm-experiment-design.md` and `docs/superpowers/plans/2026-07-28-freca-direct-llm-experiments.md`.
 

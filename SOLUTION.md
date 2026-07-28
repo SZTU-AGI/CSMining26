@@ -13,7 +13,9 @@
 
 This document preserves the legacy retrieval-heavy pipeline for compatibility and historical evidence. The active architecture for new evaluation work is the direct LLM experiment framework described in `docs/superpowers/specs/2026-07-28-freca-direct-llm-experiment-design.md`.
 
-Its baseline sends the official checkpoint text, full policy, all official evidence for the current case, and original images directly to a multimodal LLM. The comparison portfolio changes only execution granularity and automatic retrieval: `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval`. It does not use `signature_truth`, manual CP-to-rule mappings, hand-authored compliance rules, or automatic `N/A` filling. A frozen LLM reference is a silver comparator only, not ground-truth accuracy.
+Its baseline sends the official checkpoint text, full policy, and all official evidence for the current case directly to an LLM. The FRECA evidence is text and tables only (no images exist across the 898 source files), so the multimodal image path is tested but inert for this dataset. The comparison portfolio changes only execution granularity and automatic retrieval: `case_full`, `element_full`, `checkpoint_full`, and `automatic_retrieval`. It does not use `signature_truth`, manual CP-to-rule mappings, hand-authored compliance rules, or automatic `N/A` filling. A frozen LLM reference is a silver comparator only, not ground-truth accuracy.
+
+Track 3 carries an `Audit scenario:` near-answer narrative; `materialize --track3 raw|masked` runs either condition so the leakage effect can be measured rather than silently exploited. `checkpoint_full` is 41× the per-case cost of `case_full`, so `experiment cases --limit N` bounds it to a sample.
 
 `freca experiment plan` is provider-free and writes deterministic units. The underlying execution API records every request, source hash, raw response, verdict validation, and image list. A real run remains explicitly gated and is not exercised by tests.
 

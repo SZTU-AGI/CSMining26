@@ -29,6 +29,10 @@
 
 图像是横切开关：`text_only` 不附图，`multimodal` 附官方原始图片。两种条件共享相同提示词、CP 和文本材料。
 
+> **数据现状(2026-07-28 实测):** FRECA 100 个 case 的 898 个证据文件中**没有任何图像**(0 个 docx 内嵌媒体、0 个 xlsx 图形、无独立图片文件);"Farm Site Plan"和"Bait Station Map"也是纯文本+表格。因此 `multimodal` 开关对本数据集为空转,`text_only` vs `multimodal` 对照不适用。多模态发送链路已实现并测试,但 `image_paths` 实际为空。
+
+> **Track 3 近答案字段:** 每个 case 的 Track 3 封面格 `A14=Audit scenario: <叙述>` 用白话写明合规姿态(如"Fully compliant"、"Active insect infestation... not pest-free")。`materialize --track3 raw|masked` 提供两种条件:`masked` 仅把该叙述替换为 `[REDACTED]`,保留 `Audit scenario:` 标签与单元格结构。同一方法在 raw 与 masked 下各跑一次即可量化泄漏影响,而不是静默利用。silver 参考也须在相同条件下生成,否则一致率度量的是"双方都读了泄漏"。
+
 ## 模型请求和输出
 
 提示词固定声明审计角色、允许值 `1/0/N/A`、需要根据给定官方材料独立推理、不得把矛盾证据静默修正。它不包含 CP 专属规则或人工证据映射。
