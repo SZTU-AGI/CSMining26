@@ -3,6 +3,7 @@
 from freca.experiments.materials import (
     build_material_snapshot,
     load_material_snapshot_from_parsed,
+    select_automatic_retrieval_material,
 )
 from freca.experiments.evaluation import compare_to_reference
 from freca.experiments.models import (
@@ -27,5 +28,6 @@ __all__ = [
     "build_execution_plan",
     "build_material_snapshot",
     "load_material_snapshot_from_parsed",
+    "select_automatic_retrieval_material",
     "compare_to_reference",
 ]

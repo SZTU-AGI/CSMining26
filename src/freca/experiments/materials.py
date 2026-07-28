@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 from pathlib import Path
+import re
+
+from rank_bm25 import BM25Okapi
 
 from freca.experiments.models import MaterialSnapshot
 from freca.models import CheckpointDefinition, ContentKind, EvidenceChunk
@@ -84,3 +87,52 @@ def load_material_snapshot_from_parsed(
         case_chunks=case_chunks,
         image_paths=image_paths,
     )
+
+
+def select_automatic_retrieval_material(
+    snapshot: MaterialSnapshot,
+    *,
+    checkpoint_ids: tuple[str, ...],
+    per_scope_limit: int = 12,
+) -> MaterialSnapshot:
+    """Apply one generic lexical selector; no CP-specific rule or source map is used."""
+    if per_scope_limit < 1:
+        raise ValueError("per_scope_limit must be at least one")
+    checkpoint_by_id = {checkpoint.cp_id: checkpoint for checkpoint in snapshot.checkpoints}
+    if set(checkpoint_ids) - checkpoint_by_id.keys():
+        raise ValueError("requested checkpoints are absent from the material snapshot")
+    selected_checkpoints = tuple(checkpoint_by_id[cp_id] for cp_id in checkpoint_ids)
+    query_tokens = _tokens(" ".join(checkpoint.text for checkpoint in selected_checkpoints))
+    policy_chunks = tuple(chunk for chunk in snapshot.chunks if chunk.case_id is None)
+    case_chunks = tuple(chunk for chunk in snapshot.chunks if chunk.case_id == snapshot.case_id)
+    selected_policy = _select_top_chunks(policy_chunks, query_tokens, per_scope_limit)
+    selected_case = _select_top_chunks(case_chunks, query_tokens, per_scope_limit)
+    return build_material_snapshot(
+        case_id=snapshot.case_id,
+        checkpoints=selected_checkpoints,
+        policy_chunks=selected_policy,
+        case_chunks=selected_case,
+        image_paths=[Path(image_path) for image_path in snapshot.image_paths],
+    )
+
+
+def _select_top_chunks(
+    chunks: tuple[EvidenceChunk, ...], query_tokens: list[str], limit: int
+) -> tuple[EvidenceChunk, ...]:
+    if len(chunks) <= limit:
+        return chunks
+    corpus = [_tokens(chunk.content) for chunk in chunks]
+    scores = BM25Okapi(corpus).get_scores(query_tokens)
+    query_terms = set(query_tokens)
+    ranked = sorted(
+        (
+            (float(score), len(query_terms & set(tokens)), chunk)
+            for score, tokens, chunk in zip(scores, corpus, chunks, strict=True)
+        ),
+        key=lambda item: (-item[0], -item[1], item[2].chunk_id),
+    )
+    return tuple(chunk for _, _, chunk in ranked[:limit])
+
+
+def _tokens(value: str) -> list[str]:
+    return re.findall(r"[a-z0-9]+", value.casefold()) or ["_"]

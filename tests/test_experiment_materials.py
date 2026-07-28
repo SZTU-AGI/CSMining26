@@ -4,6 +4,7 @@ from pathlib import Path
 from freca.experiments.materials import (
     build_material_snapshot,
     load_material_snapshot_from_parsed,
+    select_automatic_retrieval_material,
 )
 from freca.models import (
     CheckpointDefinition,
@@ -102,3 +103,30 @@ def test_material_snapshot_loads_current_case_and_original_images_from_parsed_ar
 
     assert snapshot.chunk_ids == ("policy:page:1", "case:7:track1", "case:7:image:1")
     assert snapshot.image_paths == (str(image_path),)
+
+
+def test_automatic_retrieval_selects_chunks_by_official_checkpoint_text() -> None:
+    checkpoint = _checkpoint("CP1").model_copy(
+        update={"text": "Traceability records must identify consignments"}
+    )
+    snapshot = build_material_snapshot(
+        case_id=7,
+        checkpoints=[checkpoint],
+        policy_chunks=[
+            _chunk("policy:trace", "Traceability records identify consignments", case_id=None),
+            _chunk("policy:pests", "Pest controls are documented", case_id=None),
+        ],
+        case_chunks=[
+            _chunk("case:7:trace", "Consignment traceability record 2026", case_id=7),
+            _chunk("case:7:water", "Irrigation water analysis", case_id=7),
+        ],
+    )
+
+    selected = select_automatic_retrieval_material(
+        snapshot,
+        checkpoint_ids=("CP1",),
+        per_scope_limit=1,
+    )
+
+    assert selected.chunk_ids == ("policy:trace", "case:7:trace")
+    assert selected.input_sha256 != snapshot.input_sha256
