@@ -27,11 +27,22 @@ def run_execution(
     if unit.case_id != material.case_id:
         raise ValueError("execution unit and material snapshot case_id do not match")
     prompt = build_prompt(unit=unit, material=material)
-    raw = client.complete_json(
-        system=prompt.system,
-        user=prompt.text,
-        schema=VERDICT_SCHEMA,
-    )
+    if prompt.image_paths:
+        multimodal_complete = getattr(client, "complete_json_with_images", None)
+        if not callable(multimodal_complete):
+            raise TypeError("client does not support structured multimodal requests")
+        raw = multimodal_complete(
+            system=prompt.system,
+            user=prompt.text,
+            image_paths=[Path(image_path) for image_path in prompt.image_paths],
+            schema=VERDICT_SCHEMA,
+        )
+    else:
+        raw = client.complete_json(
+            system=prompt.system,
+            user=prompt.text,
+            schema=VERDICT_SCHEMA,
+        )
     result = validate_response(unit=unit, material=material, raw=raw, prompt_sha256=prompt.prompt_sha256)
     atomic_write_json(artifact_dir / "request.json", prompt.model_dump(mode="json"))
     atomic_write_json(artifact_dir / "response.json", raw)

@@ -6,7 +6,7 @@ import mimetypes
 import os
 import threading
 import time
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Protocol
@@ -70,6 +70,26 @@ class ReplayJsonClient:
         schema: dict[str, Any],
     ) -> dict[str, Any]:
         self.requests.append({"system": system, "user": user, "schema": schema})
+        if not self._responses:
+            raise ModelResponseError("replay responses exhausted")
+        return _parse_json_object(self._responses.pop(0))
+
+    def complete_json_with_images(
+        self,
+        *,
+        system: str,
+        user: str,
+        image_paths: Sequence[Path],
+        schema: dict[str, Any],
+    ) -> dict[str, Any]:
+        self.requests.append(
+            {
+                "system": system,
+                "user": user,
+                "image_paths": list(image_paths),
+                "schema": schema,
+            }
+        )
         if not self._responses:
             raise ModelResponseError("replay responses exhausted")
         return _parse_json_object(self._responses.pop(0))
@@ -163,6 +183,36 @@ class OpenAICompatibleJsonClient:
         user: str,
         schema: dict[str, Any],
     ) -> dict[str, Any]:
+        return self._complete_json(
+            system=system,
+            user=user,
+            image_paths=(),
+            schema=schema,
+        )
+
+    def complete_json_with_images(
+        self,
+        *,
+        system: str,
+        user: str,
+        image_paths: Sequence[Path],
+        schema: dict[str, Any],
+    ) -> dict[str, Any]:
+        return self._complete_json(
+            system=system,
+            user=user,
+            image_paths=image_paths,
+            schema=schema,
+        )
+
+    def _complete_json(
+        self,
+        *,
+        system: str,
+        user: str,
+        image_paths: Sequence[Path],
+        schema: dict[str, Any],
+    ) -> dict[str, Any]:
         api_key = os.environ.get(self.config.api_key_env)
         if not api_key:
             raise RuntimeError(
@@ -170,11 +220,23 @@ class OpenAICompatibleJsonClient:
                 f"{self.config.api_key_env}"
             )
         url = f"{self.config.base_url.rstrip('/')}/chat/completions"
+        user_content: str | list[dict[str, Any]] = user
+        if image_paths:
+            user_content = [{"type": "text", "text": user}]
+            for image_path in image_paths:
+                mime = mimetypes.guess_type(str(image_path))[0] or "application/octet-stream"
+                encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
+                user_content.append(
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:{mime};base64,{encoded}"},
+                    }
+                )
         payload: dict[str, Any] = {
             "model": self.config.model,
             "messages": [
                 {"role": "system", "content": system},
-                {"role": "user", "content": user},
+                {"role": "user", "content": user_content},
             ],
             "temperature": 0,
         }

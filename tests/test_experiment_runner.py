@@ -22,7 +22,7 @@ def _unit() -> ExecutionUnit:
     )
 
 
-def _material():
+def _material(*, image_paths: list[Path] | None = None):
     checkpoint = CheckpointDefinition(
         cp_id="CP1",
         element_id=1,
@@ -51,6 +51,7 @@ def _material():
         checkpoints=[checkpoint],
         policy_chunks=[],
         case_chunks=[evidence],
+        image_paths=image_paths or [],
     )
 
 
@@ -104,3 +105,33 @@ def test_runner_rejects_verdicts_that_cite_unknown_sources(tmp_path: Path) -> No
 
     assert result.valid is False
     assert result.errors == ("unknown citation_ids: other-case",)
+
+
+def test_runner_sends_original_images_with_the_structured_request(tmp_path: Path) -> None:
+    image_path = tmp_path / "official-photo.png"
+    image_path.write_bytes(b"not-a-real-png")
+    client = ReplayJsonClient(
+        [
+            {
+                "verdicts": [
+                    {
+                        "cp_id": "CP1",
+                        "verdict": "1",
+                        "reason": "documented",
+                        "citation_ids": ["case:7:track1"],
+                        "uncertainty": 0.1,
+                    }
+                ]
+            }
+        ]
+    )
+
+    result = run_execution(
+        unit=_unit(),
+        material=_material(image_paths=[image_path]),
+        client=client,
+        artifact_dir=tmp_path / "artifacts",
+    )
+
+    assert result.valid is True
+    assert client.requests[0]["image_paths"] == [image_path]
