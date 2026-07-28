@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import pytest
+
 from freca.manifest import build_manifest, recover_case_id
 
 
@@ -39,6 +41,10 @@ def test_build_manifest_splits_a_mixed_directory(tmp_path: Path) -> None:
     )
 
 
+@pytest.mark.skipif(
+    not (Path(__file__).parents[1] / "extracted" / "SFRE_cases").is_dir(),
+    reason="requires local competition case files",
+)
 def test_real_manifest_has_100_cases_and_898_sources() -> None:
     root = Path(__file__).parents[1] / "extracted" / "SFRE_cases"
     manifest = build_manifest(root)

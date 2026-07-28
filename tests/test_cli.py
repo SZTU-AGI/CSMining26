@@ -1,7 +1,16 @@
 from pathlib import Path
 
+import pytest
+
 from freca.cli import build_parser, main
 from freca.state import read_json
+
+
+_ROOT = Path(__file__).parents[1]
+_REAL_INPUTS_AVAILABLE = (
+    (_ROOT / "extracted" / "SFRE_cases").is_dir()
+    and (_ROOT / "1-Export Control (Plants and Plant Products)Rules 2021.pdf").is_file()
+)
 
 
 def _config(tmp_path: Path) -> Path:
@@ -26,6 +35,7 @@ models:
     return path
 
 
+@pytest.mark.skipif(not _REAL_INPUTS_AVAILABLE, reason="requires local competition inputs")
 def test_manifest_ingest_index_and_status_commands(tmp_path: Path) -> None:
     config = _config(tmp_path)
 
@@ -52,6 +62,7 @@ def test_manifest_ingest_index_and_status_commands(tmp_path: Path) -> None:
     assert main(["--config", str(config), "status", "--run-id", "smoke"]) == 0
 
 
+@pytest.mark.skipif(not _REAL_INPUTS_AVAILABLE, reason="requires local competition inputs")
 def test_audit_command_blocks_cleanly_when_model_secret_is_missing(
     tmp_path: Path,
 ) -> None:

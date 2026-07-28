@@ -1,9 +1,15 @@
 from pathlib import Path
 
+import pytest
+
 from case_filter import summarize_manifest
 from freca.manifest import build_manifest
 
 
+@pytest.mark.skipif(
+    not (Path(__file__).parents[1] / "extracted" / "SFRE_cases").is_dir(),
+    reason="requires local competition case files",
+)
 def test_legacy_filter_no_longer_excludes_anomalies_or_assigns_na() -> None:
     root = Path(__file__).parents[1] / "extracted" / "SFRE_cases"
     summary = summarize_manifest(build_manifest(root))

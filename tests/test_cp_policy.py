@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import pytest
+
 from freca.cp import build_policy_source, load_checkpoints
 from freca.parsing.pdf import parse_pdf
 
@@ -21,6 +23,10 @@ def test_loads_all_official_checkpoints_with_element_and_section_context() -> No
     assert checkpoints[-1].cell == "AO3"
 
 
+@pytest.mark.skipif(
+    not (Path(__file__).parents[1] / "1-Export Control (Plants and Plant Products)Rules 2021.pdf").is_file(),
+    reason="requires local competition policy PDF",
+)
 def test_policy_fallback_produces_one_provenance_chunk_per_page(tmp_path: Path) -> None:
     root = Path(__file__).parents[1]
     source = build_policy_source(
