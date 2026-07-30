@@ -7,6 +7,12 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+secrets/
+
 # Build artifacts
 build/
 

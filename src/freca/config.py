@@ -157,4 +157,29 @@ class PipelineConfig(StrictConfig):
             if not isinstance(value, Path)
         }
         merged = {**not_resolved, **resolved}
-        return config.model_copy(update={"paths": PathsConfig(**merged)})
+        config = config.model_copy(update={"paths": PathsConfig(**merged)})
+        return cls._apply_audit_env_overrides(config)
+
+    @classmethod
+    def _apply_audit_env_overrides(cls, config: PipelineConfig) -> PipelineConfig:
+        """Override models.audit.base_url/model from env vars when present.
+
+        Lets operators switch the audit endpoint (e.g. to a private MiniMax
+        deployment) without editing the tracked config.yaml. Existing values
+        are kept unless the env var is set, so CI / tests without the env
+        still load the YAML defaults.
+        """
+        import os
+
+        overrides: dict[str, str] = {}
+        base_url = os.environ.get("FRECA_AUDIT_BASE_URL")
+        model = os.environ.get("FRECA_AUDIT_MODEL")
+        if base_url:
+            overrides["base_url"] = base_url
+        if model:
+            overrides["model"] = model
+        if not overrides:
+            return config
+        audit = config.models.audit.model_copy(update=overrides)
+        models = config.models.model_copy(update={"audit": audit})
+        return config.model_copy(update={"models": models})
