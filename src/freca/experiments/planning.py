@@ -70,6 +70,8 @@ def _groups_for_method(
     if method in {
         ExperimentMethod.CHECKPOINT_FULL,
         ExperimentMethod.AUTOMATIC_RETRIEVAL,
+        ExperimentMethod.STAGE_AUDIT,
+        ExperimentMethod.AGENT_AUDIT,
     }:
         return tuple((checkpoint,) for checkpoint in checkpoints)
 

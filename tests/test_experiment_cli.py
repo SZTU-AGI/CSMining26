@@ -52,7 +52,21 @@ def test_experiment_plan_writes_a_provider_free_call_plan(tmp_path: Path) -> Non
 def test_experiment_run_is_explicitly_gated_before_provider_use(tmp_path: Path) -> None:
     config = _config(tmp_path)
 
-    assert main(["--config", str(config), "experiment", "run"]) == 2
+    assert (
+        main(
+            [
+                "--config",
+                str(config),
+                "experiment",
+                "run",
+                "--method",
+                "case_full",
+                "--case-id",
+                "7",
+            ]
+        )
+        == 2
+    )
 
 
 def test_experiment_materialize_writes_a_provider_free_snapshot(tmp_path: Path) -> None:

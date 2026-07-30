@@ -16,7 +16,9 @@ from freca.config import PipelineConfig
 from freca.cp import load_checkpoints
 from freca.experiments.materials import load_material_snapshot_from_parsed
 from freca.experiments.models import ExperimentMethod, Track3Condition
+from freca.experiments.orchestrator import run_experiment
 from freca.experiments.planning import build_execution_plan, select_cases
+from freca.llm import build_audit_client
 from freca.models import TaskStatus
 from freca.pipeline import (
     assemble_run_submission,
@@ -165,6 +167,16 @@ def build_parser() -> argparse.ArgumentParser:
     experiment_run = experiment_actions.add_parser(
         "run", help="Run a materialized experiment only after explicit live-model approval"
     )
+    experiment_run.add_argument(
+        "--method", choices=[method.value for method in ExperimentMethod], required=True
+    )
+    experiment_run.add_argument("--case-id", type=int, required=True)
+    experiment_run.add_argument(
+        "--track3",
+        choices=[condition.value for condition in Track3Condition],
+        default=Track3Condition.RAW.value,
+        help="send the Track 3 'Audit scenario' narrative raw or redacted",
+    )
     experiment_run.add_argument("--allow-live-model", action="store_true")
     return parser
 
@@ -176,6 +188,13 @@ def _print(payload) -> None:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
+        from freca.env_loader import find_env_file
+
+        env_file = find_env_file()
+        if env_file is not None:
+            from freca.env_loader import apply_env_file
+
+            apply_env_file(env_file)
         config = PipelineConfig.from_yaml(args.config)
         if args.command == "experiment":
             if args.experiment_action == "plan":
@@ -247,13 +266,38 @@ def main(argv: list[str] | None = None) -> int:
                     }
                 )
                 return 2
+            method = ExperimentMethod(args.method)
+            track3_condition = Track3Condition(args.track3)
+            checkpoints = load_checkpoints(config.paths.checkpoints_xlsx)
+            plan = build_execution_plan(
+                method,
+                case_id=args.case_id,
+                checkpoints=checkpoints,
+            )
+            parsed_dir = config.paths.build_dir / "parsed"
+            artifact_root = config.paths.build_dir / "experiments"
+            client = build_audit_client(config.models.audit)
+            results = run_experiment(
+                plan=plan,
+                checkpoints=checkpoints,
+                parsed_dir=parsed_dir,
+                track3_condition=track3_condition,
+                client=client,
+                artifact_root=artifact_root,
+            )
             _print(
                 {
-                    "status": "BLOCKED",
-                    "reason": "materialized experiment execution is not configured",
+                    "status": "EXECUTED",
+                    "method": method.value,
+                    "case_id": args.case_id,
+                    "track3_condition": track3_condition.value,
+                    "units_total": len(results),
+                    "units_valid": sum(1 for result in results if result.valid),
+                    "verdicts_total": sum(len(result.verdicts) for result in results),
+                    "summary_path": artifact_root / method.value / "summary.json",
                 }
             )
-            return 2
+            return 0 if all(result.valid for result in results) else 2
         if args.command == "manifest":
             _print(write_manifest(config))
             return 0
