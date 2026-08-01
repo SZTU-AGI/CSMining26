@@ -45,7 +45,7 @@ from freca.experiments.prompts import (
     JUDGMENT_SCHEMA,
     build_stage_prompt,
 )
-from freca.llm import JsonChatClient, ModelResponseError
+from freca.llm import JsonChatClient
 from freca.models import Verdict
 from freca.state import atomic_write_json
 
@@ -211,9 +211,13 @@ def _invoke_stage(
             schema=schema,
             max_tokens=2048,
         )
-    except ModelResponseError as exc:
-        atomic_write_json(artifact_dir / "response.json", {"error": str(exc)})
-        return _StageOutcome(ok=False, parsed={}, errors=(str(exc),))
+    except Exception as exc:
+        # Broaden beyond ModelResponseError: dense material prompts (~580k
+        # chars) can also trip httpx read/connect timeouts. Treat any client
+        # failure as a failed stage so the caller degrades gracefully instead
+        # of aborting the whole unit / run.
+        atomic_write_json(artifact_dir / "response.json", {"error": f"{type(exc).__name__}: {exc}"})
+        return _StageOutcome(ok=False, parsed={}, errors=(f"{type(exc).__name__}: {exc}",))
     atomic_write_json(artifact_dir / "response.json", raw)
     try:
         parsed = _enforce_schema(raw, schema)

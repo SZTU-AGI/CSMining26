@@ -14,6 +14,7 @@ class ExperimentMethod(StrEnum):
     AUTOMATIC_RETRIEVAL = "automatic_retrieval"
     STAGE_AUDIT = "stage_audit"
     AGENT_AUDIT = "agent_audit"
+    VERIFY_AUDIT = "verify_audit"
 
 
 class Track3Condition(StrEnum):

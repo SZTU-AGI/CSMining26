@@ -54,7 +54,7 @@ from freca.experiments.stage_audit import (
     _invoke_stage,
     run_stage_audit_unit,
 )
-from freca.llm import JsonChatClient, ModelResponseError
+from freca.llm import JsonChatClient
 from freca.models import Verdict
 from freca.state import atomic_write_json
 
@@ -104,6 +104,10 @@ def run_agent_audit_unit(
         artifact_dir=artifact_dir / "stage_audit",
     )
     if not base.valid or not base.verdicts:
+        # Persist the failed base verdict so resume_run / scoreboard see a result
+        # (not a silent gap). Without this, a stage-1 quota failure leaves no
+        # result.json and the unit looks "missing" rather than "failed".
+        atomic_write_json(artifact_dir / "result.json", base.model_dump(mode="json"))
         return base  # failure propagates verbatim — no agent pass over a broken stage
 
     cp_id = base.verdicts[0].cp_id
@@ -324,8 +328,12 @@ def _run_critic(
             schema=CRITIC_SCHEMA,
             max_tokens=1024,
         )
-    except ModelResponseError as exc:
-        atomic_write_json(artifact_dir / "response.json", {"error": str(exc)})
+    except Exception as exc:
+        # Broaden beyond ModelResponseError: a 582k-char critic prompt can also
+        # trip httpx read/connect timeouts or schema-parse errors. Treat any
+        # module failure as "no change" so the base stage verdict still persists
+        # to result.json instead of aborting the whole unit (and the run).
+        atomic_write_json(artifact_dir / "response.json", {"error": f"{type(exc).__name__}: {exc}"})
         return None, 1
     atomic_write_json(artifact_dir / "response.json", raw)
     new_verdict = raw.get("verdict")
@@ -371,8 +379,9 @@ def _run_verifier(
             schema=VERIFIER_SCHEMA,
             max_tokens=1024,
         )
-    except ModelResponseError as exc:
-        atomic_write_json(artifact_dir / "response.json", {"error": str(exc)})
+    except Exception as exc:
+        # See _run_critic: any client/parse failure -> keep base verdict.
+        atomic_write_json(artifact_dir / "response.json", {"error": f"{type(exc).__name__}: {exc}"})
         return None, 1
     atomic_write_json(artifact_dir / "response.json", raw)
     status = raw.get("status")

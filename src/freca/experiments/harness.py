@@ -371,7 +371,7 @@ reversible change to the harness configuration - never to the prompts, the CP
 rules, the regulation text, the Micro-Gold labels, or the scoring logic.
 
 You may ONLY change these knobs (the editable surface):
-  - method: one of case_full | element_full | checkpoint_full | automatic_retrieval | stage_audit | agent_audit
+  - method: one of case_full | element_full | checkpoint_full | automatic_retrieval | stage_audit | agent_audit | verify_audit
   - track3_condition: raw | masked
   - per_scope_limit: integer 1..50 (RAG retrieval depth; only affects automatic_retrieval)
   - uncertainty_threshold: float 0.0..1.0 (agent_audit verifier trigger)

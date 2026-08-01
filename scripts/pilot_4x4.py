@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import statistics
 import sys
 import time
@@ -66,15 +67,17 @@ def _run_case(
     track3_condition: Track3Condition,
 ) -> dict[str, object]:
     plan = build_execution_plan(method, case_id=case_id, checkpoints=checkpoints)
-    case_root = artifact_root / f"case-{case_id:03d}"
     started = time.monotonic()
+    # run_experiment already nests method/case-NNN/track3-cond/unit-NNN under
+    # artifact_root, which is exactly the tree scripts/scoreboard.py scans — so we
+    # pass artifact_root through verbatim rather than pre-pending a case dir.
     results = run_experiment(
         plan=plan,
         checkpoints=checkpoints,
         parsed_dir=parsed_dir,
         track3_condition=track3_condition,
         client=client,
-        artifact_root=case_root,
+        artifact_root=artifact_root,
     )
     elapsed = time.monotonic() - started
     return {
@@ -145,7 +148,8 @@ def main() -> int:
     parser.add_argument(
         "--artifact-root",
         type=Path,
-        default=Path("build/experiments/pilot"),
+        # Must match the tree scripts/scoreboard.py scans (method/case-NNN/track3-cond).
+        default=Path("build/experiments"),
     )
     parser.add_argument(
         "--inter-call-delay",
@@ -158,6 +162,10 @@ def main() -> int:
     env_file = find_env_file()
     if env_file is not None:
         apply_env_file(env_file)
+    # .env may omit llm_url; the MiniMax /anthropic gateway is public infra
+    # (not a secret), so default it when unset — otherwise build_audit_client
+    # falls back to the config.yaml placeholder and every call fails to connect.
+    os.environ.setdefault("FRECA_AUDIT_BASE_URL", "https://api.minimaxi.com/anthropic")
 
     case_ids = [int(value) for value in args.cases.split(",") if value.strip()]
     methods = [ExperimentMethod(value) for value in args.methods.split(",") if value.strip()]

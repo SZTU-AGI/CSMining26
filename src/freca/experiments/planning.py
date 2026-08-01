@@ -67,6 +67,11 @@ def _groups_for_method(
 ) -> tuple[tuple[CheckpointDefinition, ...], ...]:
     if method == ExperimentMethod.CASE_FULL:
         return (checkpoints,)
+    if method == ExperimentMethod.VERIFY_AUDIT:
+        # The base judgment is one-shot (all CPs in a single call, like
+        # CASE_FULL); the unconditional per-CP verify pass happens inside the
+        # experiment runner, not as extra plan units.
+        return (checkpoints,)
     if method in {
         ExperimentMethod.CHECKPOINT_FULL,
         ExperimentMethod.AUTOMATIC_RETRIEVAL,

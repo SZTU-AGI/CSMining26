@@ -29,6 +29,7 @@ from freca.experiments.scenarios import (
 )
 from freca.experiments.stage_audit import run_stage_audit_plan, run_stage_audit_unit
 from freca.experiments.agent_audit import run_agent_audit_plan, run_agent_audit_unit
+from freca.experiments.verify_audit import run_verify_audit_plan, run_verify_audit_unit
 from freca.experiments.harness import (
     FailureMode,
     FailureReport,
@@ -146,6 +147,8 @@ __all__ = [
     "run_regression",
     "run_stage_audit_plan",
     "run_stage_audit_unit",
+    "run_verify_audit_plan",
+    "run_verify_audit_unit",
     "run_with_config",
     "select_automatic_retrieval_material",
     "select_cases",
