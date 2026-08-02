@@ -3,6 +3,9 @@
 一套**任务一(包装材料差异挖掘)的标准评测 Pipeline**。数据加载、评分、提交格式都已标准化,
 **你只需实现一个模型接口,就能在同一套评测下跑自己的模型、和基线公平对比。**
 
+> 📌 **正式提交用 `run_ensemble.py`(多seed集成),诚实鲁棒 F1 ≈ 0.92~0.935。**
+> 方法论、对抗式审查记录、评估口径的详细说明见 [FINDINGS.md](FINDINGS.md)。
+
 ## 这是什么
 
 - **共享评测**:`evaluate.py` 实现官方指标 **全局 F1**(所有图的 TP/FP/FN 累加后再算,IoU≥0.5 贪心匹配)。
@@ -52,6 +55,11 @@ python validate.py --model unet           # U-Net,需 GPU,训练约 20 分钟
 python run.py --model unet                # 单模型 → outputs/submission.csv
 python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs/submission_ens.csv
 ```
+
+> ⚠️ **评估口径要诚实**(100张测试图无公开标签,只能在200张有标注图上评):
+> - `validate.py` 是**单一留出**(固定留40张)——一次抽样,易高估(我们那40张恰好只有3个误报,给出乐观的 0.945)。
+> - **真正该信的是 K折OOF**(200张4折,每张都被"没训过它的模型"预测一次,累加全200)——诚实、覆盖全、跨折稳定,集成 ≈ **0.92~0.935**。
+> - 详见 [FINDINGS.md](FINDINGS.md) 的"评估口径"一节。
 
 ## ★ 为什么提交要用集成(run_ensemble.py),而不是单模型 run.py
 
