@@ -8,7 +8,7 @@ import pytest
 from freca.cli import build_parser
 from freca.config import ModelEndpointConfig, ModelsConfig, PathsConfig, PipelineConfig
 from freca.models import PipelineRunSummary
-from freca.workflow import load_pilot_spec, run_full_workflow, run_pilot_workflow
+from freca.workflow import load_pilot_spec, prepare_workflow, run_full_workflow, run_pilot_workflow
 
 
 def _config(tmp_path: Path) -> PipelineConfig:
@@ -71,6 +71,25 @@ def test_pilot_stops_before_model_calls_when_doctor_is_not_ready(
 
     assert report["status"] == "BLOCKED"
     assert called is False
+
+
+def test_prepare_runs_integrity_gate_after_successful_ingest(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setattr(
+        "freca.workflow.check_readiness",
+        lambda config, stage: {"stage": stage, "ready": True, "checks": []},
+    )
+    monkeypatch.setattr("freca.workflow.write_manifest", lambda config: {"cases": 100})
+    monkeypatch.setattr("freca.workflow.ingest_sources", lambda config, **kwargs: {"failures": []})
+    monkeypatch.setattr(
+        "freca.workflow.run_evidence_integrity_gate",
+        lambda build_dir: {"summary": {"BLOCKER": 2, "REVIEW": 3, "PASS": 95}},
+    )
+    monkeypatch.setattr("freca.workflow.build_hybrid_indexes", lambda config: {"policy": 132})
+
+    report = prepare_workflow(_config(tmp_path))
+
+    assert report["status"] == "COMPLETED"
+    assert report["integrity"]["summary"]["BLOCKER"] == 2
 
 
 def test_full_workflow_assembles_only_after_audit_and_consistency_pass(

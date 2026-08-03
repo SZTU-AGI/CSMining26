@@ -19,6 +19,7 @@ from freca.pipeline import (
     build_hybrid_indexes,
     ingest_sources,
     retrieve_task_context,
+    run_evidence_integrity_gate,
     run_consistency_gate,
     run_audit_tasks,
     write_manifest,
@@ -68,6 +69,11 @@ def build_parser() -> argparse.ArgumentParser:
     ingest = subparsers.add_parser("ingest", help="Parse policy and case evidence")
     ingest.add_argument("--case-id", type=int, action="append")
     ingest.add_argument("--no-mineru", action="store_true")
+
+    subparsers.add_parser(
+        "integrity",
+        help="Run deterministic evidence-integrity checks over parsed case artifacts",
+    )
 
     subparsers.add_parser("index", help="Build policy and case hybrid indexes")
 
@@ -185,6 +191,9 @@ def main(argv: list[str] | None = None) -> int:
                     disable_mineru=args.no_mineru,
                 )
             )
+            return 0
+        if args.command == "integrity":
+            _print(run_evidence_integrity_gate(config.paths.build_dir))
             return 0
         if args.command == "index":
             _print(build_hybrid_indexes(config))

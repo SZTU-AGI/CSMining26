@@ -10,6 +10,7 @@ from freca.audit import audit_checkpoint
 from freca.config import PipelineConfig, RerankerMode, RetrievalAgentMode
 from freca.cp import build_policy_source, load_checkpoints
 from freca.index import HybridIndex
+from freca.integrity import assess_evidence_integrity
 from freca.index.rerankers import CrossEncoderApiReranker, LLMListwiseReranker
 from freca.llm import (
     CachedJsonClient,
@@ -280,6 +281,25 @@ def ingest_sources(
 
 def _load_chunk_file(path: Path) -> list[EvidenceChunk]:
     return [EvidenceChunk.model_validate(item) for item in read_json(path)]
+
+
+def run_evidence_integrity_gate(build_dir: Path) -> dict:
+    """Write deterministic source/identity findings before any LLM audit runs."""
+
+    manifest_path = build_dir / "manifests" / "cases.json"
+    manifest = CaseManifest.model_validate(read_json(manifest_path))
+    chunks: list[EvidenceChunk] = []
+    for case in manifest.cases:
+        case_dir = build_dir / "parsed" / "cases" / f"{case.case_id:03d}"
+        for source in case.sources:
+            chunk_path = case_dir / f"track-{source.track}.json"
+            if chunk_path.exists():
+                chunks.extend(_load_chunk_file(chunk_path))
+    report = assess_evidence_integrity(cases=manifest.cases, chunks=chunks)
+    output_path = build_dir / "integrity" / "evidence-integrity.json"
+    payload = report.to_dict()
+    atomic_write_json(output_path, payload)
+    return {"path": str(output_path), **payload}
 
 
 def build_hybrid_indexes(config: PipelineConfig) -> dict:

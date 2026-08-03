@@ -10,6 +10,7 @@ from freca.pipeline import (
     assemble_run_submission,
     build_hybrid_indexes,
     ingest_sources,
+    run_evidence_integrity_gate,
     run_audit_tasks,
     run_consistency_gate,
     write_manifest,
@@ -84,6 +85,7 @@ def prepare_workflow(config: PipelineConfig, *, disable_mineru: bool = False) ->
                 "ingest": ingest,
             },
         )
+    integrity = run_evidence_integrity_gate(config.paths.build_dir)
     index = build_hybrid_indexes(config)
     return _write_run_report(
         config,
@@ -94,6 +96,7 @@ def prepare_workflow(config: PipelineConfig, *, disable_mineru: bool = False) ->
             "readiness": readiness,
             "manifest": manifest,
             "ingest": ingest,
+            "integrity": integrity,
             "index": index,
         },
     )
