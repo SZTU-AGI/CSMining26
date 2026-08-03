@@ -21,12 +21,14 @@ from freca.cp import load_checkpoints
 from freca.experiments.agent_audit import run_agent_audit_unit
 from freca.experiments.materials import load_material_snapshot_from_parsed
 from freca.experiments.models import ExperimentMethod, Track3Condition
-from freca.experiments.orchestrator import run_experiment
+from freca.experiments.orchestrator import materialize_for_unit, run_experiment
 from freca.experiments.planning import build_execution_plan
+from freca.experiments.runner import run_execution
 from freca.experiments.stage_audit import run_stage_audit_unit
 from freca.experiments.verify_audit import run_verify_audit_unit
 from freca.llm import build_audit_client
 from freca.env_loader import apply_env_file, find_env_file
+from freca.state import atomic_write_json
 
 
 class _PacingClient:
@@ -58,6 +60,15 @@ class _PacingClient:
 PLAN_RUNNERS = {
     ExperimentMethod.STAGE_AUDIT: run_stage_audit_unit,
     ExperimentMethod.AGENT_AUDIT: run_agent_audit_unit,
+}
+
+# One LLM call per plan unit via run_execution, persisted to unit-NNN/result.json.
+# Idempotent: re-runs skip already-valid units so we never burn quota twice.
+SINGLE_SHOT_METHODS = {
+    ExperimentMethod.CASE_FULL,
+    ExperimentMethod.ELEMENT_FULL,
+    ExperimentMethod.CHECKPOINT_FULL,
+    ExperimentMethod.AUTOMATIC_RETRIEVAL,
 }
 
 
@@ -139,6 +150,10 @@ def main(argv: list[str] | None = None) -> int:
                 ran += 1
                 if result.valid:
                     valid += 1
+                print(
+                    json.dumps({"cp": f"cp-{original_idx:03d}", "valid": result.valid}, ensure_ascii=False),
+                    flush=True,
+                )
             elapsed = time.monotonic() - started
             summary.append(
                 {
@@ -150,7 +165,73 @@ def main(argv: list[str] | None = None) -> int:
                     "elapsed_seconds": round(elapsed, 2),
                 }
             )
+        elif method in SINGLE_SHOT_METHODS:
+            case_dir = args.artifact_root / method.value / f"case-{args.case_id:03d}" / "track3-raw"
+            base_material = load_material_snapshot_from_parsed(
+                parsed_dir=parsed_dir,
+                case_id=args.case_id,
+                checkpoints=list(checkpoints),
+                track3_condition=Track3Condition.RAW,
+            )
+            ran = valid = verdicts_total = 0
+            for idx, unit in enumerate(plan.units):
+                unit_dir = case_dir / f"unit-{idx:03d}"
+                rf = unit_dir / "result.json"
+                if rf.exists():
+                    try:
+                        data = json.loads(rf.read_text(encoding="utf-8"))
+                    except Exception:
+                        data = {}
+                    if data.get("valid") and data.get("verdicts"):
+                        verdicts_total += len(data["verdicts"])
+                        continue  # already valid, skip to save quota
+                mat = materialize_for_unit(
+                    parsed_dir=parsed_dir,
+                    case_id=args.case_id,
+                    checkpoints=checkpoints,
+                    unit_method=method,
+                    unit_checkpoint_ids=unit.checkpoint_ids,
+                    track3_condition=Track3Condition.RAW,
+                )
+                result = run_execution(unit=unit, material=mat, client=client, artifact_dir=unit_dir)
+                ran += 1
+                if result.valid:
+                    valid += 1
+                    verdicts_total += len(result.verdicts)
+                print(
+                    json.dumps({"unit": f"unit-{idx:03d}", "valid": result.valid}, ensure_ascii=False),
+                    flush=True,
+                )
+            atomic_write_json(
+                args.artifact_root / method.value / "summary.json",
+                {
+                    "method": method.value,
+                    "case_id": args.case_id,
+                    "track3_condition": "raw",
+                    "units_total": len(plan.units),
+                    "units_valid": sum(
+                        1
+                        for idx in range(len(plan.units))
+                        if (case_dir / f"unit-{idx:03d}" / "result.json").exists()
+                    ),
+                    "verdicts_total": verdicts_total,
+                },
+            )
+            elapsed = time.monotonic() - started
+            summary.append(
+                {
+                    "method": method.value,
+                    "case_id": args.case_id,
+                    "ran": ran,
+                    "valid": valid,
+                    "verdicts_total": verdicts_total,
+                    "elapsed_seconds": round(elapsed, 2),
+                }
+            )
         else:
+            # VERIFY_AUDIT: base + unconditional per-CP verify (run_verify_audit_unit
+            # does not skip existing results, but verify_audit is rarely partially
+            # run since one case is a single base + 41 atomic verify calls).
             results = run_experiment(
                 plan=plan,
                 checkpoints=checkpoints,
