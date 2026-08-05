@@ -3,6 +3,8 @@ pandas
 scikit-learn
 lightgbm
 xgboost
-# 可选(强烈建议):TabPFN 是集成里的关键成员,缺失会降级为 lgb+xgb(分数下降)
+# 表格基础模型(集成关键成员,权重2)。优先 TabICL v2(2026,最强,lgb+xgb+2·tabicl=0.8314):
+tabicl          # ★首选;首次运行从HF下checkpoint,国内机器需 export HF_ENDPOINT=https://hf-mirror.com
+# 兜底:TabICL 不可用时用 TabPFN v2(lgb+xgb+2·tabpfn=0.817);都没有则降级 lgb+xgb(分数下降)
 tabpfn
 torch
