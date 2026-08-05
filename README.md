@@ -30,7 +30,8 @@ models/
   unet.py      参考实现②(U-Net)
 run.py         选模型 → 全量训练 → 预测测试集 → submission.csv(单模型)
 run_ensemble.py ★推荐提交:多seed集成(热图平均)+ TTA → submission_ens.csv
-validate.py    选模型 → 训练集划分 → 验证集算 F1(调模型主要看这个)
+validate.py    选模型 → 单一留出(留40张)算 F1(快,但易被抽样运气误导)
+validate_oof.py ★诚实评估:K折 OOF(全200张,单模型/多seed集成),复现 ~0.93 口径
 bench_baselines.py  批量跑强baseline对比表(smp骨干/FC-Siam等)
 ```
 
@@ -59,6 +60,7 @@ python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs
 > ⚠️ **评估口径要诚实**(100张测试图无公开标签,只能在200张有标注图上评):
 > - `validate.py` 是**单一留出**(固定留40张)——一次抽样,易高估(我们那40张恰好只有3个误报,给出乐观的 0.945)。
 > - **真正该信的是 K折OOF**(200张4折,每张都被"没训过它的模型"预测一次,累加全200)——诚实、覆盖全、跨折稳定,集成 ≈ **0.92~0.935**。
+>   跑法:`python validate_oof.py --ensemble 3`(部署口径);换 `--split-seed 1` 再跑一次做多seed确认。
 > - 详见 [FINDINGS.md](FINDINGS.md) 的"评估口径"一节。
 
 ## ★ 为什么提交要用集成(run_ensemble.py),而不是单模型 run.py

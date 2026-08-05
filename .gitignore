@@ -14,3 +14,9 @@ data/
 # 系统
 .DS_Store
 Thumbs.db
+
+# 本地评估临时(junction/实验输出,不入库)
+_local_data/
+*_out.txt
+verify_*.py
+exp_verify_*.py
