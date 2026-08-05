@@ -1,0 +1,171 @@
+# Configuration for the ledger architecture
+# (docs/STRUCTURED_RUBRIC_AUDIT_PROPOSAL.md, docs/LEDGER_ARCHITECTURE.md).
+#
+#   legacy   freca --config config.yaml full --run-id r1
+#   ledger   python -m freca.ledger --config config.ledger.yaml run --run-id r1
+#
+# Everything above the `ledger:` block is the ordinary PipelineConfig and is
+# kept identical to config.yaml on purpose: the two architectures share the
+# same parsing artifacts, the same indexes and the same build/ directory.
+# Only build/ledger/** is written by this stack.
+
+paths:
+  cases_root: extracted/SFRE_cases
+  policy_pdf: 1-Export Control (Plants and Plant Products)Rules 2021.pdf
+  checkpoints_xlsx: checkingpoints_all_elements_onesheet.xlsx
+  submission_template: submission_template.xlsx
+  build_dir: build
+
+mineru:
+  mode: disabled
+  base_url: https://mineru.net/api/v4
+  token_env: MINERU_TOKEN
+  model: vlm
+  language: en
+  ocr: true
+  formula: true
+  table: true
+  timeout_seconds: 600
+  max_retries: 3
+
+retrieval:
+  recall_mode: hybrid
+  fusion_mode: rrf
+  reranker_mode: lexical
+  selector_mode: source_aware_mmr
+  bm25_weight: 0.5
+  vector_weight: 0.5
+  fusion_weight: 0.45
+  reranker_weight: 0.55
+  rrf_k: 60
+  candidate_limit: 40
+  mmr_lambda: 0.65
+  same_source_penalty: 0.5
+  same_track_penalty: 0.15
+  same_location_penalty: 0.1
+  min_unique_sources: 2
+  agent_mode: heuristic
+  max_repairs: 2
+  planner_max_rounds: 1
+  critic_min_confidence: 0.6
+
+arbitration:
+  tier: blind
+  confidence_threshold: 0.65
+  tiebreaker_required_on_disagreement: true
+
+models:
+  audit:
+    base_url: https://api.example.invalid/v1
+    model: configure-audit-model
+    api_key_env: FRECA_AUDIT_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  verifier:
+    base_url: https://api.example.invalid/v1
+    model: configure-verifier-model
+    api_key_env: FRECA_VERIFIER_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  arbitrator:
+    base_url: https://api.example.invalid/v1
+    model: configure-arbitrator-model
+    api_key_env: FRECA_ARBITRATOR_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  query_rewriter: null
+  embedding:
+    base_url: https://api.example.invalid/v1
+    model: configure-embedding-model
+    api_key_env: FRECA_EMBEDDING_API_KEY
+    timeout_seconds: 120
+    max_retries: 3
+    response_format: json_schema
+  vision: null
+  reranker: null
+  retrieval_agent: null
+  planner: null
+  critic: null
+  tiebreaker: null
+
+# --------------------------------------------------------------------------
+# Ledger-only settings. PipelineConfig never sees this block.
+# --------------------------------------------------------------------------
+ledger:
+  output_dirname: ledger
+
+  # Stage A — one materials pass per case (§4).
+  extraction:
+    # deterministic       no model at all; segment-level facts, fully offline
+    # llm                 model only; fails when no credential is present
+    # llm_with_fallback   model when available, deterministic otherwise
+    mode: llm_with_fallback
+    batch_char_budget: 12000
+    max_chunks_per_batch: 25
+    max_facts_per_batch: 40
+    # A quote that cannot be found in its own source chunk is flagged, never
+    # silently trusted.
+    require_verbatim_match: true
+    verbatim_min_length: 8
+    # §3 red line: Track 3 "Audit scenario" / "NOTE: NON-COMPLIANT" text is
+    # authoring metadata, not evidence. Dropped from the ledger by default.
+    drop_answer_like_facts: true
+    max_workers: 4
+    max_facts_per_chunk: 8
+    max_facts_per_case: 900
+    min_segment_chars: 12
+    segment_char_limit: 900
+
+  # Stage B — runtime regulatory rubric, one per checking point (§5).
+  rubric:
+    policy_limit: 12
+    max_criteria: 10
+    snippet_char_limit: 1800
+    cache_enabled: true
+    max_workers: 4
+
+  # Stage C — compact evidence pack (§5.4).
+  selection:
+    max_facts: 28
+    min_facts_per_criterion: 2
+    include_all_contradictions: true
+    topic_bonus: 1.5
+    category_bonus: 1.0
+    # Answer-like facts stay out of the pack; foreign-establishment paperwork
+    # stays in so the adjudicator can see and reject it explicitly.
+    include_answer_like: false
+    include_contaminated: true
+    verbatim_char_limit: 600
+
+  # Stage D — adjudication (§5.5, §7).
+  adjudication:
+    confidence_threshold: 0.65
+    require_dual_citation: true
+    max_workers: 4
+
+  # Stage E — conditional independent review (§7).
+  review:
+    # disabled | on_trigger | always
+    mode: on_trigger
+    max_facts: 14
+    snippet_char_limit: 1200
+    prefer_review_on_conflict: true
+
+  # §8 — artifact classification.
+  baseline:
+    # "Multi-method agreement" requires genuinely different evidence views.
+    require_distinct_views: true
+    min_distinct_views: 2
+    min_agreeing_methods: 2
+
+  # Per-stage endpoints. Any entry left null falls back to the legacy models
+  # block: extractor/rubric/adjudicator -> models.audit,
+  # reviewer -> models.verifier -> models.arbitrator -> models.audit.
+  models:
+    extractor: null
+    rubric: null
+    adjudicator: null
+    reviewer: null
