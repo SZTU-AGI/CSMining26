@@ -305,7 +305,26 @@ def build_silver_consistency(
 # --------------------------------------------------------------------------
 
 
-def build_production_candidate(outcomes: Sequence[TaskOutcome]) -> dict[str, Any]:
+def build_production_candidate(
+    outcomes: Sequence[TaskOutcome],
+    *,
+    config: BaselineConfig | None = None,
+) -> dict[str, Any]:
+    config = config or BaselineConfig()
+    threshold = config.production_priority_threshold
+
+    # 漏洞1 门禁:评分从不阻断 verdict(scoring.py 明令不得阈值化),所以一个引用
+    # 完整但判定逻辑错的 verdict 能直接溜进生产候选。这里补一道事后闸门——
+    # review_priority 达到阈值且未经独立复核的项计入 held_back,不进入可提交子集;
+    # 已复核(review 已确认或推翻 primary)的项放行。items 仍记全量以保留可追溯性。
+    held_back: list[str] = []
+    submittable = 0
+    for outcome in outcomes:
+        if outcome.primary_gate.review_priority >= threshold and not outcome.reviewed:
+            held_back.append(f"{outcome.case_id:03d}:{outcome.cp_id}")
+        else:
+            submittable += 1
+
     verdicts = Counter(outcome.final.verdict.value for outcome in outcomes)
     reviewed = sum(1 for outcome in outcomes if outcome.reviewed)
     resolutions = Counter(outcome.resolution for outcome in outcomes)
@@ -322,6 +341,11 @@ def build_production_candidate(outcomes: Sequence[TaskOutcome]) -> dict[str, Any
     return {
         "artifact_class": ArtifactClass.PRODUCTION_CANDIDATE.value,
         "items": len(outcomes),
+        "submittable_items": submittable,
+        "held_back_items": len(held_back),
+        "held_back_reason": "high_review_priority_without_review",
+        "held_back_examples": held_back[:20],
+        "production_priority_threshold": threshold,
         "verdict_distribution": dict(verdicts),
         "reviewed_items": reviewed,
         "review_disagreements": disagreements,
@@ -337,7 +361,7 @@ def build_production_candidate(outcomes: Sequence[TaskOutcome]) -> dict[str, Any
             if outcomes
             else 0.0
         ),
-        "permitted_use": "提交候选、逐项追溯",
+        "permitted_use": "提交候选、逐项追溯(已扣除高优先未复核项)",
         "forbidden_use": "取代官方金标",
     }
 
@@ -365,7 +389,7 @@ def build_baseline_report(
         run_id=run_id,
         integrity_qa=build_integrity_qa(ledgers=ledgers, outcomes=outcomes),
         silver=silver,
-        production=build_production_candidate(outcomes),
+        production=build_production_candidate(outcomes, config=config),
         disclaimers=list(DISCLAIMERS),
     )
 

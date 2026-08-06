@@ -100,6 +100,11 @@ class BaselineConfig(StrictConfig):
     require_distinct_views: bool = True
     min_distinct_views: int = Field(default=2, ge=1)
     min_agreeing_methods: int = Field(default=2, ge=1)
+    # 漏洞1 门禁:review_priority 达到该阈值、且未经独立复核的 verdict 不得进入
+    # production_candidate 的可提交子集(计入 held_back)。已复核(review 已确认或
+    # 推翻 primary)的项放行。0.5 = 证据弱过半即视为高风险未决;此为先验默认,接
+    # 模型后应用金标校准(见 OPTIMAL_PIPELINE_DELIVERY §5 漏洞 4)。
+    production_priority_threshold: float = Field(default=0.5, ge=0.0, le=1.0)
 
 
 class LedgerModelsConfig(StrictConfig):

@@ -384,11 +384,26 @@ def review_priority(
         + 0.15 * (1.0 - scorecard.regulatory_coverage)
     )
 
-    # Strong contrary signal only raises priority when it contradicts the label.
+    # The contrary dimension has opposite polarity for the two label directions,
+    # and both directions must raise priority so neither error class is buried:
+    #   - a COMPLIANT verdict with STRONG contrary evidence risks a missed breach
+    #     (false compliance) — the evidence points the other way;
+    #   - a NON_COMPLIANT verdict with WEAK contrary evidence risks a missed
+    #     compliance (false negative) — the case was judged non-compliant with
+    #     little evidence of non-compliance to back it.
+    # Under symmetric overall-accuracy scoring both errors cost the same. The
+    # earlier form added only 0.05*contrary for a non-compliant verdict, which
+    # meant the most suspicious non-compliant verdicts (little contrary support)
+    # got the LOWEST review priority — exactly the false negatives that should be
+    # reviewed first. Note support_coverage cannot play this role: it already
+    # appears in the generic weakness term with the opposite polarity (low
+    # support = weak evidence = review), so reusing it here would self-cancel.
     if decision.verdict == Verdict.COMPLIANT:
         weakness += 0.15 * scorecard.contrary_strength
-    else:
-        weakness += 0.05 * scorecard.contrary_strength
+    elif decision.verdict == Verdict.NON_COMPLIANT:
+        weakness += 0.15 * (1.0 - scorecard.contrary_strength)
+    # N/A carries no business label to contradict; it relies on the generic
+    # weakness terms above (low confidence, citation gaps, integrity findings).
 
     if decision.confidence < confidence_threshold:
         weakness += 0.10 * (confidence_threshold - decision.confidence)

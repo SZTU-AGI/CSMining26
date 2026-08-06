@@ -363,11 +363,16 @@ def test_review_priority_rises_as_evidence_weakens() -> None:
     assert weak > strong
 
 
-def test_contrary_signal_raises_priority_more_for_a_compliant_verdict() -> None:
+def test_contradictory_evidence_raises_priority_for_both_labels() -> None:
+    """The contrary dimension flips polarity with the label, treated symmetrically.
+
+    A compliant verdict is suspect when contrary evidence is STRONG (a missed
+    breach); a non-compliant verdict is suspect when contrary evidence is WEAK
+    (a false negative — judged non-compliant without much evidence of it). Both
+    must raise review priority so neither error class is buried.
+    """
     rubric = make_rubric()
     pack = make_pack(rubric=rubric, facts=[make_fact("f1")])
-    card = perfect_scorecard().model_copy(update={"contrary_strength": 0.9})
-
     compliant = make_decision(rubric=rubric, pack=pack)
     non_compliant = make_decision(
         rubric=rubric,
@@ -377,9 +382,22 @@ def test_contrary_signal_raises_priority_more_for_a_compliant_verdict() -> None:
         contrary=["f1"],
     )
 
-    assert review_priority(scorecard=card, decision=compliant) > review_priority(
-        scorecard=card, decision=non_compliant
+    # Compliant verdict: strong contrary evidence raises priority over a quiet card.
+    quiet = perfect_scorecard()
+    loud_contrary = perfect_scorecard().model_copy(update={"contrary_strength": 0.9})
+    assert review_priority(scorecard=loud_contrary, decision=compliant) > review_priority(
+        scorecard=quiet, decision=compliant
     )
+
+    # Non-compliant verdict: WEAK contrary evidence raises priority over strong
+    # contrary evidence — a non-compliant verdict sitting on little evidence of
+    # non-compliance is the false-negative signal. Previously this case got the
+    # lowest priority.
+    strong_contrary = perfect_scorecard().model_copy(update={"contrary_strength": 0.9})
+    weak_contrary = perfect_scorecard().model_copy(update={"contrary_strength": 0.1})
+    assert review_priority(
+        scorecard=weak_contrary, decision=non_compliant
+    ) > review_priority(scorecard=strong_contrary, decision=non_compliant)
 
 
 def test_review_priority_is_bounded_and_grows_with_contract_errors() -> None:

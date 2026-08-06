@@ -532,8 +532,48 @@ def test_production_candidate_describes_the_full_output_without_claiming_truth()
 def test_production_candidate_on_an_empty_run_does_not_divide_by_zero():
     production = build_production_candidate([])
     assert production["items"] == 0
+    assert production["submittable_items"] == 0
+    assert production["held_back_items"] == 0
     assert production["mean_review_priority"] == 0.0
     assert production["verdict_distribution"] == {}
+
+
+def test_production_candidate_holds_back_high_priority_unreviewed_items():
+    """漏洞1: 高 review_priority 但未经独立复核的 verdict 不得直接进入可提交子集。
+
+    否则一个引用完整但判定逻辑错的 verdict 会溜进生产候选。已复核的高优先项放行
+    (无论 review 是否改变 verdict),低优先项直接通过。items 仍记全量以保留可追溯性。
+    """
+    outcomes = [
+        _outcome(case_id=1, review_priority=0.2),  # 低优先 -> 直接通过
+        _outcome(
+            case_id=2, verdict=Verdict.NON_COMPLIANT, review_priority=0.6
+        ),  # 高优先未复核 -> 扣留
+        _outcome(case_id=3, review_priority=0.8, reviewed=True),  # 高优先但已复核 -> 放行
+    ]
+    production = build_production_candidate(outcomes, config=BaselineConfig())
+
+    assert production["items"] == 3  # 总数不变(可追溯)
+    assert production["submittable_items"] == 2  # case1 + case3
+    assert production["held_back_items"] == 1  # case2
+    assert production["held_back_examples"] == ["002:CP1"]
+    assert production["held_back_reason"] == "high_review_priority_without_review"
+
+
+def test_production_candidate_threshold_is_configurable():
+    """门禁阈值可调:更严扣留更多,更宽放行更多(校准时用)。"""
+    outcomes = [
+        _outcome(case_id=1, review_priority=0.4),
+        _outcome(case_id=2, review_priority=0.6),
+    ]
+    strict = build_production_candidate(
+        outcomes, config=BaselineConfig(production_priority_threshold=0.3)
+    )
+    lax = build_production_candidate(
+        outcomes, config=BaselineConfig(production_priority_threshold=0.7)
+    )
+    assert strict["held_back_items"] == 2  # 0.4, 0.6 都 >= 0.3
+    assert lax["held_back_items"] == 0  # 都 < 0.7
 
 
 # --------------------------------------------------------------------------
