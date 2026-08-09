@@ -39,13 +39,14 @@ def _member_heatmap(m, ch):
 
 
 def _boxes_from_hm(hm, s, mask_thr, box_thr):
-    """热图 -> 框(与 UNetModel.predict 的后处理一致)。"""
+    """热图 -> 框(与 UNetModel.predict 的后处理一致)。min-area 模式由 MIN_AREA_MODE 环境变量控制
+    (scaled/scaled3/abs4/abs8/abs12),便于把调参扫出的赢家一条命令应用到提交。"""
     mask = (hm > mask_thr).astype(np.uint8)
     nL, _, stats, _ = cv2.connectedComponentsWithStats(mask, connectivity=8)
     out = []
     for k in range(1, nL):
         x, y, w, h, area = stats[k]
-        if area < max(4, int(6 * s * s)):
+        if area < C.min_area(s):
             continue
         if float(hm[y:y + h, x:x + w].mean()) >= box_thr:
             out.append([int(x), int(y), int(x + w), int(y + h)])
@@ -60,7 +61,9 @@ def main():
 
     train_pairs = D.load_train_pairs()
     test_pairs = D.load_test_pairs()
-    print(f"训练 {len(train_pairs)} 测试 {len(test_pairs)}  N_SEEDS={N_SEEDS} TTA={TTA} 阈值=({MASK_THR},{BOX_THR})", flush=True)
+    print(f"训练 {len(train_pairs)} 测试 {len(test_pairs)}  N_SEEDS={N_SEEDS} TTA={TTA} "
+          f"阈值=({MASK_THR},{BOX_THR}) min-area={os.environ.get('MIN_AREA_MODE','scaled')} "
+          f"DINO通道={getattr(C,'USE_DINO_DIFF',False)}", flush=True)
 
     # 训练 N 个不同 seed 的成员(在全部训练数据上)
     members = []

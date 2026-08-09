@@ -65,3 +65,28 @@ LR = 1e-3
 # ---- 训练/验证划分(validate.py 用)----
 VAL_SEED = 0
 VAL_SIZE = 40       # 从 200 训练对里留出多少作验证
+
+# ============================================================
+# 前沿(Tier 1):DINOv2/v3 patch 特征差分通道(可选,默认关)
+# 打开后 models.unet._channels 会追加第 5 通道 = 模板↔对齐照片的语义特征距离图;
+# 语义特征对印刷/扫描噪声不敏感 → 主攻我们的第一痛点(噪声致误报方差)+ 对齐鲁棒性。
+# 注:DINO patch 步长粗(~14px),破不了 4–10px 微改动召回天花板,是"压误报"型互补通道。
+# ============================================================
+USE_DINO_DIFF = os.environ.get("USE_DINO_DIFF", "0") == "1"   # ★总开关(可用环境变量 USE_DINO_DIFF=1 打开,便于A/B);True 时全流程自动变 5 通道
+DINO_MODEL = "facebook/dinov2-base"         # 可换 dinov2-small(快)/ dinov3(若有权重;国内需 hf 镜像)
+DINO_LONG_SIDE = 700                        # 送入 DINO 前把长边缩到此(14 的倍数,700=14×50);越大越细但越慢
+DINO_CACHE_DIR = os.path.join(OUT_DIR, "dino_cache")  # 差分图按内容哈希缓存,算一次复用
+os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")  # 国内下 DINO 权重走镜像
+
+def in_channels():
+    """当前配置下 U-Net 的输入通道数(4 或 5)。"""
+    return 5 if USE_DINO_DIFF else 4
+
+# ---- 后处理 min-area 模式(run_ensemble 用;调参扫出赢家后一条命令应用)----
+# scaled=max(4,6s²)(当前部署) / scaled3=max(4,3s²) / abs4/abs8/abs12=绝对像素阈
+def min_area(s, mode=None):
+    mode = mode or os.environ.get("MIN_AREA_MODE", "scaled")
+    if mode == "scaled":  return max(4, int(6 * s * s))
+    if mode == "scaled3": return max(4, int(3 * s * s))
+    if mode.startswith("abs"): return int(mode[3:])
+    return max(4, int(6 * s * s))
