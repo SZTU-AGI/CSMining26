@@ -25,7 +25,9 @@ def _align(t, p):
 
 
 def _channels(t, pa, s):
-    """4 通道:[模板, 对齐照片, 加墨高通, 去墨高通]。高通抑制背景光照,突出真差异。"""
+    """4 通道:[模板, 对齐照片, 加墨高通, 去墨高通]。高通抑制背景光照,突出真差异。
+    若 C.USE_DINO_DIFF=True,追加第 5 通道 = DINO patch 特征差分(语义级、抗噪,压误报)。
+    注:通道 0/1(模板/照片)恒为前两位,切片/推理的白底填充依赖此顺序;新通道追加在末尾、填充默认 0。"""
     add = np.clip(t.astype(int) - pa.astype(int), 0, 255).astype(np.uint8)
     rem = np.clip(pa.astype(int) - t.astype(int), 0, 255).astype(np.uint8)
     kb = max(3, int(21 * s) | 1)
@@ -33,7 +35,11 @@ def _channels(t, pa, s):
     ahp = np.clip(dm.astype(int) - cv2.blur(dm, (kb, kb)).astype(int), 0, 255).astype(np.uint8)
     dr = cv2.medianBlur(rem, 3)
     rhp = np.clip(dr.astype(int) - cv2.blur(dr, (kb, kb)).astype(int), 0, 255).astype(np.uint8)
-    return np.stack([t, pa, ahp, rhp], 0)
+    chans = [t, pa, ahp, rhp]
+    if getattr(C, "USE_DINO_DIFF", False):
+        from models.dino_diff import dino_diff_map
+        chans.append(dino_diff_map(t, pa, s))
+    return np.stack(chans, 0)
 
 
 def _tiles_from(pair):
@@ -47,9 +53,10 @@ def _tiles_from(pair):
         fm[y1:y2, x1:x2] = 1
     rng = np.random.RandomState((int(t[:8, :8].sum()) + len(pair.boxes)) % (2**31))
     TILE = C.TILE; Xs, Ys = [], []
+    NCH = ch.shape[0]                     # 4 或 5(DINO 通道开时);切片通道数随数据走
 
     def cut(ox, oy):
-        til = np.zeros((4, TILE, TILE), np.uint8); til[0:2] = 255
+        til = np.zeros((NCH, TILE, TILE), np.uint8); til[0:2] = 255   # 通道0/1=模板/照片→白底255,其余(高通/DINO)默认0
         msk = np.zeros((TILE, TILE), np.uint8)
         sx0, sy0 = max(0, ox), max(0, oy)
         sx1, sy1 = min(W, ox + TILE), min(H, oy + TILE)
@@ -78,9 +85,9 @@ class _DC(nn.Module):
 
 
 class _UNet(nn.Module):
-    def __init__(s):
+    def __init__(s, in_ch=4):
         super().__init__()
-        s.e1, s.e2, s.e3, s.b = _DC(4, 32), _DC(32, 64), _DC(64, 128), _DC(128, 256)
+        s.e1, s.e2, s.e3, s.b = _DC(in_ch, 32), _DC(32, 64), _DC(64, 128), _DC(128, 256)
         s.pool = nn.MaxPool2d(2)
         s.u3 = nn.ConvTranspose2d(256, 128, 2, 2); s.d3 = _DC(256, 128)
         s.u2 = nn.ConvTranspose2d(128, 64, 2, 2);  s.d2 = _DC(128, 64)
@@ -112,7 +119,7 @@ class UNetModel(BaseModel):
 
     # ---- 可替换的网络(子类重写此方法即可换骨干,复用同一套切片/训练/推理)----
     def _build_net(self):
-        return _UNet()
+        return _UNet(C.in_channels())      # 4 通道;C.USE_DINO_DIFF=True 时自动 5 通道
 
     # ---- 训练 ----
     def fit(self, train_pairs):
@@ -161,7 +168,7 @@ class UNetModel(BaseModel):
         xs = sorted(set([max(0, x) for x in list(range(0, max(1, W - TILE) + 1, STR)) + ([W - TILE] if W > TILE else [0])]))
         for oy in ys:
             for ox in xs:
-                til = np.zeros((4, TILE, TILE), np.float32); til[0:2] = 1.0
+                til = np.zeros((ch.shape[0], TILE, TILE), np.float32); til[0:2] = 1.0
                 sx1, sy1 = min(W, ox + TILE), min(H, oy + TILE)
                 til[:, 0:sy1 - oy, 0:sx1 - ox] = ch[:, oy:sy1, ox:sx1] / 255.0
                 tiles.append(til); pos.append((ox, oy, sx1 - ox, sy1 - oy))
