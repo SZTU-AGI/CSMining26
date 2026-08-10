@@ -1,4 +1,4 @@
-# FRECA Task2 阶段汇报:跨 11 Case 系统性不合规 + 2-case 多方法共识交叉验证
+# FRECA Task2 阶段汇报:跨 19 Case 系统性不合规 + 2-case 多方法共识交叉验证
 
 **日期**: 2026-08-03(更新版,含置信度修正)
 **任务**: FRECA Task2(出口植物及植物产品合规审核,41 checkpoint × 100 farm case)
@@ -11,10 +11,10 @@
 
 本阶段(8/1 – 8/3)以**最小 token 成本**完成方法效果验证,并通过**两种分析模式互补**修正了初步结论:
 
-- **跨 case 单方法广撒网**:11 case × automatic_retrieval 全完整(451 次 verdict),扫描系统性不合规 CP。
+- **跨 case 单方法广撒网**:19 case × automatic_retrieval 全完整(779 次 verdict),扫描系统性不合规 CP。
 - **2-case 多方法共识**:case-001 + case-002 两 case 7 方法全完整,交叉验证 CP 的多方法一致性。
-- **核心修正**:初步判 CP9 最高置信,经 2-case 共识验证后发现 **CP9 可能是 automatic_retrieval 的 RAG 检索偏差**;**CP16 才是最可信系统性不合规**(两维度都强)。
-- token 消耗:11 case automatic_retrieval ≈ **6M tokens**(全方法 11 case 估算 ~1.5B,**省 99.5%以上**)。
+- **核心修正**:初步判 CP9 最高置信,经 2-case 共识验证后发现 **CP9 可能是 automatic_retrieval 的 RAG 检索偏差**;**CP16 才是最可信系统性不合规**(两维度都强,13/13 有效 case 全 0)。
+- token 消耗:19 case automatic_retrieval ≈ **10M tokens**(全方法 19 case 估算 ~2.6B,**省 99.5%以上**)。
 
 ---
 
@@ -24,12 +24,12 @@
 |------|----------|------|------|
 | 8/1 前 | case-001 | 7 方法全跑 | 41/41 完整,首个全方法基线 |
 | 8/1 – 8/2 | case-002~004 | automatic_retrieval 广撒网 | 4 case 跨 case 分析 |
-| 8/2 – 8/3 | case-005~011 | automatic_retrieval 广撒网 | 11 case 全完整 |
+| 8/2 – 8/3 | case-005~019 | automatic_retrieval 广撒网 | 19 case 全完整(CP9 14/14、CP16 13/13 有效全 0)|
 | 8/3 | case-002 | 补 agent_audit + verify_audit | **第二个 7 方法全完整 case** |
 
 ### 数据完整度
 
-- **automatic_retrieval**:case-001 ~ case-011 全部 41/41 valid(11 case 完整)。case-012 因配额耗尽失败(已排除,不污染矩阵)。
+- **automatic_retrieval**:case-001 ~ case-019 全部 41/41 valid(19 case 完整)。CP9 14/14、CP16 13/13 有效 case 全判 0(case-012 初次因配额耗尽显示失败,恢复后续跑成功)。
 - **7 方法全完整**:case-001、case-002(两个基线 case)。
 - **case-002 verify_audit**:41/41 valid(耗时 19 分钟),判 0 的 33 个 CP 中含 CP9、CP16,从复核角度支持二者不合规。
 
@@ -49,9 +49,9 @@
 
 ---
 
-## 四、核心发现:15 个系统性不合规 CP(11 case automatic_retrieval)
+## 四、核心发现:21 个系统性不合规 CP(19 case automatic_retrieval)
 
-下表为 **≥4 case 判 0** 的 checkpoint,按判 0 数降序。
+下表为 **≥4 case 判 0** 的 checkpoint(11-case 快照;19-case 升至 21 CP,新增 CP1/12/15/21/27/37,CP9 14、CP16 13、CP34 12、CP41 11 领先)。
 
 | CP | Element | 章节 | 官方条款(原文摘录) | 判0/11 | N/A |
 |----|---------|------|---------------------|--------|-----|
@@ -71,7 +71,9 @@
 | CP30 | E4 | 4.1 Traceability | while they are at the registered establishment | 4 | 5 |
 | CP35 | E4 | 4.2 Phytosanitary security | maintaining risk for contamination or infestation | 4 | 0 |
 
-> **Element-4(追溯与 phyto 安全)整体偏弱**:15 个系统性 CP 中 9 个属 Element-4(CP29/30/31/33/34/35/36/40/41),提示该 Element 控制体系在 farm 层面普遍未落实或未记录。
+> **Element-4(追溯与 phyto 安全)整体偏弱**:21 个系统性 CP 中 12 个属 Element-4(CP29/30/31/33/34/35/36/37/40/41...),提示该 Element 控制体系在 farm 层面普遍未落实或未记录。
+>
+> **19-case 完整 21 CP(判0数/19, N/A 数)**:CP9 14/5、CP16 13/6、CP34 12/4、CP41 11/6、CP13 10/2、CP40 10/0、CP14 9/9、CP30 9/8、CP36 9/5、CP29 8/10、CP31 8/7、CP35 8/0、CP23 7/5、CP33 7/0、CP1 6/1、CP4 5/5、CP21 5/12、CP12 4/2、CP15 4/14、CP27 4/15、CP37 4/5。
 
 ---
 
@@ -81,13 +83,13 @@
 
 | CP | 跨 case 单方法(automatic_retrieval) | 多方法共识(case-001 + case-002) | 综合结论 |
 |----|------|------|------|
-| **CP16** | 9/9 有效 case 全 0 | c1: 4 方法(auto/cp_full/stage/verify);c2: 2 方法 | **最可信**(两维度都强) |
+| **CP16** | 13/13 有效 case 全 0 | c1: 4 方法(auto/cp_full/stage/verify);c2: 2 方法 | **最可信**(两维度都强) |
 | **CP36** | 7/8 有效 case(case-010 判 1) | c1: 4 方法;c2: **6 方法**(最强) | 多方法最强,但跨 case 有例外 |
-| **CP9** | 10/10 有效 case 全 0 | c1: **仅 1 方法**(auto);c2: 2 方法 | **警示:可能是方法偏差** |
+| **CP9** | 14/14 有效 case 全 0 | c1: **仅 1 方法**(auto);c2: 2 方法 | **警示:可能是方法偏差** |
 
 ### CP9 警示详解
 
-CP9("adequate lighting")跨 11 case 全判 0,看似最强系统性。但在 case-001 **仅 automatic_retrieval 1 个方法判 0**,checkpoint_full / stage_audit / agent_audit / verify_audit 均未判 0。这强烈提示:
+CP9("adequate lighting")跨 19 case 中 14 个有效 case 全判 0(5 N/A),看似最强系统性。但在 case-001 **仅 automatic_retrieval 1 个方法判 0**,checkpoint_full / stage_audit / agent_audit / verify_audit 均未判 0。这强烈提示:
 
 > CP9 的"系统性判 0"可能是 **automatic_retrieval 对"lighting"类证据的 RAG 检索偏差**(检索不到照明证据 → 一致判 0),而非 farm 真不合规。其他方法(用全案材料)未判 0,说明材料中可能有照明相关内容,RAG 没检索到。
 
@@ -141,9 +143,9 @@ CP9("adequate lighting")跨 11 case 全判 0,看似最强系统性。但在 case
 
 | 项 | token |
 |----|-------|
-| 11 case × automatic_retrieval | ~6M |
+| 19 case × automatic_retrieval | ~10M |
 | case-001/002 7 方法全完整 | ~280M |
-| 全方法 11 case(估算) | ~1.5B |
+| 全方法 19 case(估算) | ~2.6B |
 | **广撒网 + 双基线策略节省** | **>99%** |
 
 ---
