@@ -15,6 +15,20 @@ except Exception as e:  # pragma: no cover
     print(f"[models] 提示:U-Net 未加载({e.__class__.__name__}: {e})。"
           f"如需用 unet 请先 pip install torch。", file=sys.stderr)
 
+# SCL:WACVW2026 Text-Aware SSIM 的 SCL 分支迁移,免训练纯 CPU(对照基线)
+try:
+    from models import scl  # noqa: F401
+except Exception as e:  # pragma: no cover
+    import sys
+    print(f"[models] scl 未加载({e.__class__.__name__}: {e})", file=sys.stderr)
+
+# 组内同学方案:my_tasl / my_tasl_ens(6通道 + ECC对齐 + TripletAttn/CorrDFE/深监督)
+try:
+    from models.SSIM import tasl  # noqa: F401
+except Exception as e:  # pragma: no cover
+    import sys
+    print(f"[models] my_tasl 未加载({e.__class__.__name__}: {e})", file=sys.stderr)
+
 # 强 baseline(汇报用,逐个容错导入,缺依赖不影响其余)
 for _mod in ("strong", "fc_siam", "sam_zs"):
     try:
