@@ -44,8 +44,9 @@ from freca.models import (
     PipelineRunSummary,
     Verdict,
 )
+from freca.methods import MethodRunLayout, gold_tasks
 from freca.pipeline import BlockedTaskError, create_audit_tasks, run_pending_tasks
-from freca.state import read_json
+from freca.state import atomic_write_json, read_json
 from freca.submission import assemble_submission
 
 from freca.ledger.adjudicate import Adjudicator
@@ -376,13 +377,15 @@ def run_ledger_tasks(
     run_id: str,
     case_ids: Iterable[int] = range(1, 101),
     cp_ids: Iterable[str] = ALL_CP_IDS,
+    task_pairs: Iterable[tuple[int, str]] | None = None,
     max_workers: int = 4,
 ) -> PipelineRunSummary:
     """Run Stage C→E over the durable task store."""
 
     store = make_store(config)
-    case_list = list(case_ids)
-    cp_list = list(cp_ids)
+    pairs = list(dict.fromkeys(task_pairs or ()))
+    case_list = sorted({case_id for case_id, _ in pairs}) if pairs else list(case_ids)
+    cp_list = sorted({cp_id for _, cp_id in pairs}) if pairs else list(cp_ids)
 
     ledgers: dict[int, CaseFactLedger] = {}
     for case_id in case_list:
@@ -416,7 +419,21 @@ def run_ledger_tasks(
         )
 
     task_store = store.task_store(run_id)
-    create_audit_tasks(task_store, run_id=run_id, case_ids=case_list, cp_ids=cp_list)
+    if pairs:
+        expected_tasks = [
+            AuditTask(
+                task_id=f"{run_id}:case-{case_id:03d}:{cp_id}",
+                run_id=run_id,
+                case_id=case_id,
+                cp_id=cp_id,
+            )
+            for case_id, cp_id in pairs
+        ]
+        initialized = task_store.initialize(expected_tasks)
+        if {(task.case_id, task.cp_id) for task in initialized} != set(pairs):
+            raise ValueError("ledger task state does not match requested task pairs")
+    else:
+        create_audit_tasks(task_store, run_id=run_id, case_ids=case_list, cp_ids=cp_list)
 
     def worker(task: AuditTask) -> str:
         if adjudicator.client is None:
@@ -658,6 +675,71 @@ def verdict_distribution(outcomes: Sequence[TaskOutcome]) -> dict[str, int]:
     return counts
 
 
+def export_ledger_final(
+    outcome: TaskOutcome,
+    *,
+    layout: MethodRunLayout,
+    store: LedgerStore,
+) -> Path:
+    """Project one completed Ledger outcome into the common method final layout."""
+    pack = store.read_pack(outcome.case_id, outcome.cp_id)
+    locators = {item.fact.fact_id: item.fact.locator() for item in pack.facts}
+    rubric = store.read_rubric(outcome.cp_id)
+    decision = to_audit_decision(
+        outcome.final,
+        rubric=rubric,
+        pack_locators=locators,
+    )
+    output = layout.final_path(outcome.case_id, outcome.cp_id)
+    atomic_write_json(output, decision.model_dump(mode="json"))
+    return output
+
+
+def run_ledger_gold_experiment(
+    config: LedgerConfig,
+    *,
+    run_id: str,
+    gold_path: Path,
+    max_workers: int = 1,
+) -> PipelineRunSummary:
+    """Run Ledger A–E and export exactly the confirmed Gold task pairs."""
+    layout = MethodRunLayout(config.build_dir, run_id)
+    gold = gold_tasks(gold_path)
+    settings = config.ledger.model_copy(
+        update={"output_dirname": str(layout.root.relative_to(config.build_dir) / "ledger")}
+    )
+    method_config = config.model_copy(update={"ledger": settings})
+    pairs = [(item.case_id, item.cp_id) for item in gold]
+    case_ids = sorted({case_id for case_id, _ in pairs})
+    cp_ids = sorted({cp_id for _, cp_id in pairs})
+    atomic_write_json(
+        layout.root / "method.json",
+        {"run_id": run_id, "method": "ledger_judge", "gold_path": str(gold_path), "gold_count": len(gold)},
+    )
+    facts = build_fact_ledgers(method_config, case_ids=case_ids, max_workers=max_workers)
+    if facts["failed"]:
+        raise RuntimeError(f"ledger fact extraction failed for {facts['failed']} Gold cases")
+    rubrics = build_rubrics(method_config, cp_ids=cp_ids, max_workers=max_workers)
+    if rubrics["failed"]:
+        raise RuntimeError(f"ledger rubric generation failed for {rubrics['failed']} Gold CPs")
+    summary = run_ledger_tasks(
+        method_config,
+        run_id=run_id,
+        task_pairs=pairs,
+        max_workers=max_workers,
+    )
+    store = make_store(method_config)
+    for task in store.task_store(run_id).all():
+        if task.status.value != "COMPLETED":
+            continue
+        export_ledger_final(
+            store.read_outcome(task.case_id, task.cp_id),
+            layout=layout,
+            store=store,
+        )
+    return summary
+
+
 __all__ = [
     "ALL_CP_IDS",
     "assemble_ledger_submission",
@@ -669,6 +751,8 @@ __all__ = [
     "process_ledger_task",
     "run_baseline",
     "run_ledger_tasks",
+    "run_ledger_gold_experiment",
+    "export_ledger_final",
     "run_ledger_workflow",
     "stage_client",
     "to_audit_decision",

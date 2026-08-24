@@ -16,6 +16,8 @@ from freca.ablation import (
 from freca.config import PipelineConfig
 from freca.evaluation import compare_reports, evaluate_run
 from freca.direct_judge import DIRECT_JUDGE_METHODS, run_direct_judge_experiment
+from freca.ledger.config import LedgerConfig
+from freca.ledger.pipeline import run_ledger_gold_experiment
 from freca.methods import MethodRunLayout
 from freca.models import TaskStatus
 from freca.pipeline import (
@@ -179,6 +181,17 @@ def build_parser() -> argparse.ArgumentParser:
         "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
     )
     method_direct.add_argument("--max-workers", type=int, default=1)
+    method_ledger = method_actions.add_parser(
+        "ledger", help="Run the Ledger architecture on exact Gold task pairs"
+    )
+    method_ledger.add_argument("--run-id", required=True)
+    method_ledger.add_argument(
+        "--ledger-config", type=Path, default=Path("config.ledger.minimax.yaml")
+    )
+    method_ledger.add_argument(
+        "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
+    )
+    method_ledger.add_argument("--max-workers", type=int, default=1)
     return parser
 
 
@@ -189,6 +202,15 @@ def _print(payload) -> None:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
+        if args.command == "method" and args.method_action == "ledger":
+            summary = run_ledger_gold_experiment(
+                LedgerConfig.from_yaml(args.ledger_config),
+                run_id=args.run_id,
+                gold_path=args.gold_labels,
+                max_workers=args.max_workers,
+            )
+            _print(summary.model_dump())
+            return 0 if summary.blocked == 0 and summary.failed == 0 else 2
         config = PipelineConfig.from_yaml(args.config)
         if args.command == "manifest":
             _print(write_manifest(config))

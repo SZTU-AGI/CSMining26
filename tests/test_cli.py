@@ -65,6 +65,14 @@ def test_cli_parses_method_direct_action() -> None:
     assert direct.method == "checkpoint_full_judge"
 
 
+def test_cli_parses_method_ledger_action() -> None:
+    parser = build_parser()
+
+    ledger = parser.parse_args(["method", "ledger", "--run-id", "ledger-gold-v1"])
+
+    assert ledger.method_action == "ledger"
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"
