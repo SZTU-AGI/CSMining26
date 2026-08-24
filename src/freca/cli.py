@@ -13,6 +13,7 @@ from freca.ablation import (
     write_ablation_report,
 )
 from freca.config import PipelineConfig
+from freca.evaluation import compare_reports, evaluate_run
 from freca.models import TaskStatus
 from freca.pipeline import (
     assemble_run_submission,
@@ -129,6 +130,22 @@ def build_parser() -> argparse.ArgumentParser:
         "report", help="Regenerate an experiment summary"
     )
     ablation_report.add_argument("--experiment-id", required=True)
+
+    evaluation = subparsers.add_parser(
+        "evaluation", help="Compare final verdicts with versioned Gold labels"
+    )
+    evaluation_actions = evaluation.add_subparsers(dest="evaluation_action", required=True)
+    evaluation_run = evaluation_actions.add_parser(
+        "run", help="Write one Gold comparison report"
+    )
+    evaluation_run.add_argument("--run-id", required=True)
+    evaluation_run.add_argument(
+        "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
+    )
+    evaluation_compare = evaluation_actions.add_parser(
+        "compare", help="Rank saved Gold reports"
+    )
+    evaluation_compare.add_argument("--run-id", action="append", required=True)
     return parser
 
 
@@ -283,6 +300,18 @@ def main(argv: list[str] | None = None) -> int:
                     test_results_path=args.test_results,
                 )
             )
+            return 0
+        if args.command == "evaluation":
+            if args.evaluation_action == "run":
+                _print(
+                    evaluate_run(
+                        config.paths.build_dir,
+                        run_id=args.run_id,
+                        gold_path=args.gold_labels,
+                    )
+                )
+                return 0
+            _print(compare_reports(config.paths.build_dir, args.run_id))
             return 0
         if args.command == "ablation":
             if args.ablation_action == "list":

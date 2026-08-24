@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from freca.evaluation import evaluate_run, load_gold_labels
+from freca.evaluation import compare_reports, evaluate_run, load_gold_labels
 from freca.models import Applicability, AuditDecision, Verdict
 from freca.state import atomic_write_json
 
@@ -76,3 +76,19 @@ def test_evaluate_run_reports_match_mismatch_and_missing(tmp_path: Path) -> None
     assert report["mismatches"][0]["task"] == "035/CP1"
     assert report["mismatches"][0]["actual_verdict"] == "0"
     assert (tmp_path / "evaluation" / "baseline-a.json").exists()
+
+
+def test_compare_reports_orders_runs_by_agreement_rate(tmp_path: Path) -> None:
+    (tmp_path / "evaluation").mkdir()
+    atomic_write_json(
+        tmp_path / "evaluation" / "slow.json",
+        {"agreement_rate": 0.5, "evaluated_count": 4, "matched_count": 2},
+    )
+    atomic_write_json(
+        tmp_path / "evaluation" / "fast.json",
+        {"agreement_rate": 0.75, "evaluated_count": 4, "matched_count": 3},
+    )
+
+    result = compare_reports(tmp_path, ["slow", "fast"])
+
+    assert [row["run_id"] for row in result["runs"]] == ["fast", "slow"]

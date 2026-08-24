@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -52,7 +53,13 @@ def _task_key(case_id: int, cp_id: str) -> str:
     return f"{case_id:03d}/{cp_id}"
 
 
+def _validate_run_id(run_id: str) -> None:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]{0,79}", run_id):
+        raise ValueError("run_id must be a safe 1-80 character identifier")
+
+
 def evaluate_run(build_dir: Path, *, run_id: str, gold_path: Path) -> dict:
+    _validate_run_id(run_id)
     payload = _read_gold_payload(gold_path)
     labels = load_gold_labels(gold_path)
     matched_count = 0
@@ -107,3 +114,31 @@ def evaluate_run(build_dir: Path, *, run_id: str, gold_path: Path) -> dict:
     }
     atomic_write_json(build_dir / "evaluation" / f"{run_id}.json", report)
     return report
+
+
+def compare_reports(build_dir: Path, run_ids: list[str]) -> dict:
+    rows = []
+    for run_id in dict.fromkeys(run_ids):
+        _validate_run_id(run_id)
+        path = build_dir / "evaluation" / f"{run_id}.json"
+        if not path.exists():
+            raise FileNotFoundError(path)
+        report = read_json(path)
+        rows.append(
+            {
+                "run_id": run_id,
+                "agreement_rate": report["agreement_rate"],
+                "evaluated_count": report["evaluated_count"],
+                "matched_count": report["matched_count"],
+            }
+        )
+    return {
+        "runs": sorted(
+            rows,
+            key=lambda row: (
+                row["agreement_rate"] is not None,
+                row["agreement_rate"] if row["agreement_rate"] is not None else -1,
+            ),
+            reverse=True,
+        )
+    }

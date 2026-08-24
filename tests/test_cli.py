@@ -4,6 +4,20 @@ from freca.cli import build_parser, main
 from freca.state import read_json
 
 
+def test_cli_parses_evaluation_actions() -> None:
+    parser = build_parser()
+
+    run = parser.parse_args(["evaluation", "run", "--run-id", "baseline-a"])
+    compare = parser.parse_args(
+        ["evaluation", "compare", "--run-id", "baseline-a", "--run-id", "review-b"]
+    )
+
+    assert run.command == "evaluation"
+    assert run.evaluation_action == "run"
+    assert compare.command == "evaluation"
+    assert compare.evaluation_action == "compare"
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"
