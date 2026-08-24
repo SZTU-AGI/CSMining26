@@ -15,8 +15,9 @@ from freca.index.rerankers import CrossEncoderApiReranker, LLMListwiseReranker
 from freca.llm import (
     CachedJsonClient,
     OpenAICompatibleEmbeddingProvider,
-    OpenAICompatibleJsonClient,
     OpenAICompatibleVisionDescriber,
+    build_json_client,
+    request_contract_metadata,
 )
 from freca.manifest import build_manifest
 from freca.models import (
@@ -30,6 +31,7 @@ from freca.models import (
     PipelineRunSummary,
     SourceType,
     TaskStatus,
+    Verdict,
 )
 from freca.parsing import parse_docx, parse_pdf, parse_xlsx
 from freca.parsing.mineru import build_mineru_client
@@ -65,7 +67,7 @@ class BlockedTaskError(RuntimeError):
 
 def _cached_model_client(config, build_dir: Path, *, name: str):
     return CachedJsonClient(
-        OpenAICompatibleJsonClient(config),
+        build_json_client(config),
         cache_dir=build_dir / "cache" / "models" / name,
         ledger_path=build_dir / "logs" / "model-calls.jsonl",
         client_name=name,
@@ -73,6 +75,7 @@ def _cached_model_client(config, build_dir: Path, *, name: str):
             "base_url": config.base_url,
             "model": config.model,
             "response_format": config.response_format.value,
+            **request_contract_metadata(config),
         },
     )
 
@@ -509,10 +512,20 @@ def process_audit_task(
         if not second_validation.passed:
             raise BlockedTaskError("arbitrated decision failed citation validation")
         if second_verification.status.value != "PASS":
-            raise BlockedTaskError(
-                f"arbitrated decision verifier status is {second_verification.status.value}"
+            if second.verdict != Verdict.NON_COMPLIANT:
+                raise BlockedTaskError(
+                    f"arbitrated decision verifier status is {second_verification.status.value}"
+                )
+            final = second.model_copy(
+                update={
+                    "review_flags": [
+                        *second.review_flags,
+                        "verifier_non_pass_for_noncompliance",
+                    ]
+                }
             )
-        final = second
+        else:
+            final = second
     elif not first_validation.passed:
         raise BlockedTaskError("mechanical citation validation failed")
     elif first_verification.status.value != "PASS":

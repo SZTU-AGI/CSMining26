@@ -75,6 +75,36 @@ def build_audit_messages(
     return _AUDIT_SYSTEM, user
 
 
+def _canonicalize_citations(payload: dict, retrieval: RetrievalBundle) -> dict:
+    """Keep only an exact chunk ID when a model appends an explanatory suffix."""
+    known_ids = {
+        *(hit.chunk.chunk_id for hit in retrieval.policy_hits),
+        *(hit.chunk.chunk_id for hit in retrieval.evidence_hits),
+    }
+
+    def canonicalize(value: object) -> object:
+        if not isinstance(value, str) or value in known_ids:
+            return value
+        for chunk_id in known_ids:
+            suffix = value.removeprefix(chunk_id)
+            if suffix != value and suffix.startswith((":", " (")):
+                return chunk_id
+        return value
+
+    normalized = dict(payload)
+    for field in ("policy_citations", "supporting_evidence", "contrary_evidence"):
+        citations = normalized.get(field)
+        if isinstance(citations, list):
+            normalized[field] = [canonicalize(citation) for citation in citations]
+    shared_facts = normalized.get("shared_facts")
+    if isinstance(shared_facts, dict):
+        normalized["shared_facts"] = {
+            str(key): value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
+            for key, value in shared_facts.items()
+        }
+    return normalized
+
+
 def audit_checkpoint(
     client: JsonChatClient,
     checkpoint: CheckpointDefinition,
@@ -88,7 +118,7 @@ def audit_checkpoint(
         user=user,
         schema=AuditDecision.model_json_schema(),
     )
-    decision = AuditDecision.model_validate(payload)
+    decision = AuditDecision.model_validate(_canonicalize_citations(payload, retrieval))
     if decision.case_id != retrieval.case_id or decision.cp_id != retrieval.cp_id:
         raise ValueError("model returned the wrong case_id or cp_id")
     return decision

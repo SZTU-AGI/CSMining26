@@ -221,6 +221,99 @@ class OpenAICompatibleJsonClient:
         ) from last_error
 
 
+class AnthropicMessagesClient:
+    """JSON client for the MiniMax Anthropic-compatible Messages endpoint."""
+
+    def __init__(
+        self,
+        config: ModelEndpointConfig,
+        *,
+        transport: httpx.BaseTransport | None = None,
+        sleep=time.sleep,
+    ) -> None:
+        self.config = config
+        self.transport = transport
+        self.sleep = sleep
+
+    def complete_json(
+        self,
+        *,
+        system: str,
+        user: str,
+        schema: dict[str, Any],
+    ) -> dict[str, Any]:
+        api_key = os.environ.get(self.config.api_key_env)
+        if not api_key:
+            raise RuntimeError(
+                f"required model credential environment variable is unset: "
+                f"{self.config.api_key_env}"
+            )
+        url = f"{self.config.base_url.rstrip('/')}/v1/messages"
+        payload = {
+            "model": self.config.model,
+            "system": (
+                f"{system}\n\n"
+                "Return only a JSON object that conforms to this JSON schema:\n"
+                f"{json.dumps(schema, ensure_ascii=False)}"
+            ),
+            "messages": [{"role": "user", "content": user}],
+            "temperature": 0,
+            "max_tokens": 4096,
+        }
+        last_error: Exception | None = None
+        for attempt in range(self.config.max_retries + 1):
+            try:
+                with httpx.Client(
+                    transport=self.transport,
+                    timeout=self.config.timeout_seconds,
+                ) as client:
+                    response = client.post(
+                        url,
+                        headers={
+                            "x-api-key": api_key,
+                            "anthropic-version": "2023-06-01",
+                            "content-type": "application/json",
+                        },
+                        json=payload,
+                    )
+                if response.status_code == 429 or response.status_code >= 500:
+                    raise httpx.HTTPStatusError(
+                        "retryable model response",
+                        request=response.request,
+                        response=response,
+                    )
+                response.raise_for_status()
+                content = response.json()["content"]
+                text = next(
+                    block["text"]
+                    for block in content
+                    if isinstance(block, Mapping) and block.get("type") == "text"
+                )
+                return _parse_json_object(text)
+            except (httpx.HTTPError, KeyError, IndexError, StopIteration, TypeError, ValueError) as exc:
+                last_error = exc
+                if attempt >= self.config.max_retries:
+                    break
+                self.sleep(min(2**attempt, 8))
+        raise ModelResponseError(
+            f"model request failed after {self.config.max_retries + 1} attempts"
+        ) from last_error
+
+
+def build_json_client(config: ModelEndpointConfig) -> JsonChatClient:
+    """Select the request protocol from the configured model endpoint."""
+    if config.base_url.rstrip("/").lower().endswith("/anthropic"):
+        return AnthropicMessagesClient(config)
+    return OpenAICompatibleJsonClient(config)
+
+
+def request_contract_metadata(config: ModelEndpointConfig) -> dict[str, Any]:
+    """Describe request-shaping behavior for cache-key isolation."""
+    if config.base_url.rstrip("/").lower().endswith("/anthropic"):
+        return {"protocol": "anthropic_messages", "request_contract_version": 2}
+    return {"protocol": "openai_chat_completions", "request_contract_version": 1}
+
+
 class OpenAICompatibleEmbeddingProvider:
     def __init__(
         self,

@@ -77,6 +77,16 @@ def _verification() -> dict:
     }
 
 
+def _failed_verification() -> dict:
+    return {
+        "case_id": 1,
+        "cp_id": "CP1",
+        "status": "FAIL",
+        "issues": ["missing proof of compliance"],
+        "checked_citations": ["p1", "e1"],
+    }
+
+
 def test_process_task_selectively_arbitrates_low_confidence_and_writes_final(
     tmp_path: Path,
 ) -> None:
@@ -117,6 +127,37 @@ def test_process_task_selectively_arbitrates_low_confidence_and_writes_final(
     assert final.confidence == 0.9
     assert "FIRST_ANCHOR" not in arbitrator_client.requests[0]["user"]
     assert (tmp_path / "arbitration" / "001" / "CP1.json").exists()
+
+
+def test_agreed_noncompliance_with_valid_citations_survives_verifier_failure(
+    tmp_path: Path,
+) -> None:
+    policy_index = HybridIndex(
+        [_chunk("p1", "registration must cover operations and applies", case_id=None)],
+        scope="policy",
+    )
+    case_index = HybridIndex(
+        [_chunk("e1", "registration scope is not demonstrated", case_id=1)],
+        scope="case",
+    )
+    payload = _payload(confidence=0.5)
+    payload["verdict"] = "0"
+    task = AuditTask(task_id="run:case-001:CP1", run_id="run", case_id=1, cp_id="CP1")
+
+    output = process_audit_task(
+        task=task,
+        checkpoint=_checkpoint(),
+        policy_index=policy_index,
+        case_index=case_index,
+        audit_client=ReplayJsonClient([payload]),
+        verifier_client=ReplayJsonClient([_failed_verification(), _failed_verification()]),
+        arbitrator_client=ReplayJsonClient([payload]),
+        build_dir=tmp_path,
+    )
+
+    final = AuditDecision.model_validate(read_json(output))
+    assert final.verdict == Verdict.NON_COMPLIANT
+    assert "verifier_non_pass_for_noncompliance" in final.review_flags
 
 
 def test_consistency_gate_blocks_completed_tasks_with_conflicting_shared_facts(

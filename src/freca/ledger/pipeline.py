@@ -33,7 +33,8 @@ from freca.index.rerankers import CrossEncoderApiReranker, LLMListwiseReranker
 from freca.llm import (
     CachedJsonClient,
     OpenAICompatibleEmbeddingProvider,
-    OpenAICompatibleJsonClient,
+    build_json_client,
+    request_contract_metadata,
 )
 from freca.models import (
     AuditDecision,
@@ -102,7 +103,7 @@ def stage_client(
     if not os.environ.get(endpoint.api_key_env):
         return None
     return CachedJsonClient(
-        OpenAICompatibleJsonClient(endpoint),
+        build_json_client(endpoint),
         cache_dir=store.cache_dir / stage,
         ledger_path=store.ledger_log_path,
         client_name=f"ledger-{stage}",
@@ -111,6 +112,7 @@ def stage_client(
             "model": endpoint.model,
             "response_format": endpoint.response_format.value,
             "stage": stage,
+            **request_contract_metadata(endpoint),
         },
     )
 
@@ -151,11 +153,15 @@ def _reranker(config: LedgerConfig, store: LedgerStore):
     if mode == RerankerMode.CROSS_ENCODER_API:
         return CrossEncoderApiReranker(endpoint)
     client = CachedJsonClient(
-        OpenAICompatibleJsonClient(endpoint),
+        build_json_client(endpoint),
         cache_dir=store.cache_dir / "reranker",
         ledger_path=store.ledger_log_path,
         client_name="ledger-reranker",
-        model_metadata={"base_url": endpoint.base_url, "model": endpoint.model},
+        model_metadata={
+            "base_url": endpoint.base_url,
+            "model": endpoint.model,
+            **request_contract_metadata(endpoint),
+        },
     )
     return LLMListwiseReranker(client)
 

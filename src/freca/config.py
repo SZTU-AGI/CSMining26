@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+import os
 from enum import StrEnum
 from pathlib import Path
 
 import yaml
 from pydantic import BaseModel, ConfigDict, Field
 
+from freca.env_loader import apply_env_file, find_env_file
 from freca.models import EscalationTier
 
 
@@ -142,6 +144,9 @@ class PipelineConfig(StrictConfig):
     @classmethod
     def from_yaml(cls, path: Path) -> PipelineConfig:
         path = path.resolve()
+        env_path = find_env_file(path.parent)
+        if env_path is not None:
+            apply_env_file(env_path)
         raw = yaml.safe_load(path.read_text(encoding="utf-8"))
         config = cls.model_validate(raw)
         base = path.parent
@@ -157,4 +162,13 @@ class PipelineConfig(StrictConfig):
             if not isinstance(value, Path)
         }
         merged = {**not_resolved, **resolved}
-        return config.model_copy(update={"paths": PathsConfig(**merged)})
+        config = config.model_copy(update={"paths": PathsConfig(**merged)})
+        overrides: dict[str, str] = {}
+        if base_url := os.environ.get("FRECA_AUDIT_BASE_URL"):
+            overrides["base_url"] = base_url
+        if model := os.environ.get("FRECA_AUDIT_MODEL"):
+            overrides["model"] = model
+        if not overrides:
+            return config
+        audit = config.models.audit.model_copy(update=overrides)
+        return config.model_copy(update={"models": config.models.model_copy(update={"audit": audit})})

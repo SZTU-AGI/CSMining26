@@ -102,6 +102,33 @@ def test_audit_uses_general_prompt_and_returns_structured_decision() -> None:
     assert "CP1 requires" not in request["system"]
 
 
+def test_audit_normalizes_known_chunk_ids_with_model_added_annotations() -> None:
+    payload = _valid_payload()
+    payload["supporting_evidence"] = [
+        "case-001:t1:p0: Registration covers grain storage."
+    ]
+    payload["policy_citations"] = [
+        "policy:p010:block-01 (official registration requirement)"
+    ]
+
+    decision = audit_checkpoint(ReplayJsonClient([payload]), _checkpoint(), _bundle())
+
+    assert decision.policy_citations == ["policy:p010:block-01"]
+    assert decision.supporting_evidence == ["case-001:t1:p0"]
+
+
+def test_audit_preserves_non_string_shared_facts_as_json_text() -> None:
+    payload = _valid_payload()
+    payload["shared_facts"] = {"registered_case_id": 1, "evidence_files": ["t1.docx"]}
+
+    decision = audit_checkpoint(ReplayJsonClient([payload]), _checkpoint(), _bundle())
+
+    assert decision.shared_facts == {
+        "registered_case_id": "1",
+        "evidence_files": '["t1.docx"]',
+    }
+
+
 def test_replay_client_rejects_malformed_json() -> None:
     client = ReplayJsonClient(["not-json"])
     with pytest.raises(ModelResponseError, match="valid JSON"):

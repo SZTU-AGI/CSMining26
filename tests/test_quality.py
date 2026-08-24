@@ -114,6 +114,7 @@ def test_verifier_returns_structured_status_and_checks_citations() -> None:
 
     assert result.status == VerificationStatus.PASS
     assert "p1" in client.requests[0]["user"]
+    assert "A verdict of 0 is supported" in client.requests[0]["system"]
 
 
 def test_consistency_check_flags_conflicting_shared_fact_values() -> None:

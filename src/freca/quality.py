@@ -67,7 +67,7 @@ def validate_citations(
 
 
 _VERIFY_SYSTEM = """Independently verify one audit decision against only the supplied official checking point, policy chunks, and case evidence chunks.
-Check that every stated regulatory requirement is supported by policy, every factual claim is supported by its cited case chunk, obvious contrary evidence is not ignored, and N/A is supported by applicability.
+Check that every stated regulatory requirement is supported by policy, every factual claim is supported by its cited case chunk, obvious contrary evidence is not ignored, and N/A is supported by applicability. A verdict of 0 is supported when cited contrary evidence or the absence of required supporting evidence justifies non-compliance; do not mark it FAIL merely because the evidence cannot support a compliant verdict.
 Return PASS, FAIL, or UNCERTAIN with concise issues. Do not rewrite the verdict."""
 
 
