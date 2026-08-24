@@ -47,6 +47,24 @@ def test_cli_parses_method_retrieval_action() -> None:
     assert retrieval.variant == ["bm25_only"]
 
 
+def test_cli_parses_method_direct_action() -> None:
+    parser = build_parser()
+
+    direct = parser.parse_args(
+        [
+            "method",
+            "direct",
+            "--run-id",
+            "checkpoint-full-gold-v1",
+            "--method",
+            "checkpoint_full_judge",
+        ]
+    )
+
+    assert direct.method_action == "direct"
+    assert direct.method == "checkpoint_full_judge"
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"

@@ -15,6 +15,7 @@ from freca.ablation import (
 )
 from freca.config import PipelineConfig
 from freca.evaluation import compare_reports, evaluate_run
+from freca.direct_judge import DIRECT_JUDGE_METHODS, run_direct_judge_experiment
 from freca.methods import MethodRunLayout
 from freca.models import TaskStatus
 from freca.pipeline import (
@@ -169,6 +170,15 @@ def build_parser() -> argparse.ArgumentParser:
         "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
     )
     method_retrieval.add_argument("--max-workers", type=int, default=1)
+    method_direct = method_actions.add_parser(
+        "direct", help="Run one approved direct LLM Gold judge"
+    )
+    method_direct.add_argument("--run-id", required=True)
+    method_direct.add_argument("--method", choices=DIRECT_JUDGE_METHODS, required=True)
+    method_direct.add_argument(
+        "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
+    )
+    method_direct.add_argument("--max-workers", type=int, default=1)
     return parser
 
 
@@ -353,6 +363,16 @@ def main(argv: list[str] | None = None) -> int:
                     config,
                     run_id=args.run_id,
                     variant_names=args.variant,
+                    gold_path=args.gold_labels,
+                    max_workers=args.max_workers,
+                )
+                _print(summary.model_dump())
+                return 0 if summary.blocked == 0 and summary.failed == 0 else 2
+            if args.method_action == "direct":
+                summary = run_direct_judge_experiment(
+                    config,
+                    run_id=args.run_id,
+                    method=args.method,
                     gold_path=args.gold_labels,
                     max_workers=args.max_workers,
                 )
