@@ -45,8 +45,8 @@ def load_gold_labels(path: Path) -> dict[tuple[int, str], GoldLabel]:
     return labels
 
 
-def _decision_path(build_dir: Path, case_id: int, cp_id: str) -> Path:
-    return build_dir / "final" / f"{case_id:03d}" / f"{cp_id}.json"
+def _decision_path(final_root: Path, case_id: int, cp_id: str) -> Path:
+    return final_root / f"{case_id:03d}" / f"{cp_id}.json"
 
 
 def _task_key(case_id: int, cp_id: str) -> str:
@@ -58,7 +58,13 @@ def _validate_run_id(run_id: str) -> None:
         raise ValueError("run_id must be a safe 1-80 character identifier")
 
 
-def evaluate_run(build_dir: Path, *, run_id: str, gold_path: Path) -> dict:
+def evaluate_run(
+    build_dir: Path,
+    *,
+    run_id: str,
+    gold_path: Path,
+    final_root: Path | None = None,
+) -> dict:
     _validate_run_id(run_id)
     payload = _read_gold_payload(gold_path)
     labels = load_gold_labels(gold_path)
@@ -68,13 +74,14 @@ def evaluate_run(build_dir: Path, *, run_id: str, gold_path: Path) -> dict:
     mismatches: list[dict] = []
     per_cp: dict[str, dict[str, int | float | None]] = {}
 
+    decision_root = final_root or build_dir / "final"
     for (case_id, cp_id), label in sorted(labels.items()):
         summary = per_cp.setdefault(
             cp_id,
             {"gold_count": 0, "evaluated_count": 0, "matched_count": 0, "agreement_rate": None},
         )
         summary["gold_count"] += 1
-        path = _decision_path(build_dir, case_id, cp_id)
+        path = _decision_path(decision_root, case_id, cp_id)
         if not path.exists():
             missing_tasks.append(_task_key(case_id, cp_id))
             continue

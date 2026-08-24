@@ -78,6 +78,22 @@ def test_evaluate_run_reports_match_mismatch_and_missing(tmp_path: Path) -> None
     assert (tmp_path / "evaluation" / "baseline-a.json").exists()
 
 
+def test_evaluate_run_reads_method_specific_final_root(tmp_path: Path) -> None:
+    gold = _gold_file(tmp_path, [(23, "CP1", "0")])
+    final_root = tmp_path / "method-runs" / "bm25-gold-v1" / "final"
+    _write_decision(final_root / "023" / "CP1.json", 23, "CP1", "0")
+
+    report = evaluate_run(
+        tmp_path,
+        run_id="bm25-gold-v1",
+        gold_path=gold,
+        final_root=final_root,
+    )
+
+    assert report["evaluated_count"] == 1
+    assert report["matched_count"] == 1
+
+
 def test_compare_reports_orders_runs_by_agreement_rate(tmp_path: Path) -> None:
     (tmp_path / "evaluation").mkdir()
     atomic_write_json(

@@ -18,6 +18,17 @@ def test_cli_parses_evaluation_actions() -> None:
     assert compare.evaluation_action == "compare"
 
 
+def test_cli_parses_method_evaluate_action() -> None:
+    parser = build_parser()
+
+    evaluate = parser.parse_args(
+        ["method", "evaluate", "--run-id", "bm25-gold-v1"]
+    )
+
+    assert evaluate.command == "method"
+    assert evaluate.method_action == "evaluate"
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"
