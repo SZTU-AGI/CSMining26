@@ -103,6 +103,22 @@ $env:MINERU_TOKEN = "..."
 .\.venv\Scripts\python.exe -m freca.cli --config config.yaml status --run-id full-001
 ```
 
+## 人工 Gold 评估
+
+每个方法完成后，**在下一次方法运行覆盖 `build/final/` 前**，立即生成与团队人工共识的对比报告：
+
+```powershell
+.\.venv\Scripts\python.exe -m freca.cli --config config.yaml evaluation run --run-id baseline-v1
+```
+
+报告保存到 `build/evaluation/{run-id}.json`，不会修改原始 verdict。多个方法均生成报告后，使用同一 Gold 口径排序：
+
+```powershell
+.\.venv\Scripts\python.exe -m freca.cli --config config.yaml evaluation compare --run-id baseline-v1 --run-id structured-v1 --run-id review-v1
+```
+
+当前 Gold 只包含已确认的团队共识；CP17、CP19，以及尚未形成一致结论的 CP24、CP26 不进入一致率分母。
+
 单案例或单 CP 调试：
 
 ```powershell
