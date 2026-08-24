@@ -29,6 +29,7 @@ from freca.models import (
     EvidenceChunk,
     EscalationTier,
     PipelineRunSummary,
+    RetrievalBundle,
     SourceType,
     TaskStatus,
     Verdict,
@@ -434,6 +435,34 @@ def process_audit_task(
         reranker=reranker,
         max_repairs=max_repairs,
     )
+    return process_retrieved_audit_task(
+        task=task,
+        checkpoint=checkpoint,
+        retrieval=retrieval,
+        audit_client=audit_client,
+        verifier_client=verifier_client,
+        arbitrator_client=arbitrator_client,
+        output_build_dir=build_dir,
+        tiebreaker_client=tiebreaker_client,
+        arbitration_tier=arbitration_tier,
+    )
+
+
+def process_retrieved_audit_task(
+    *,
+    task: AuditTask,
+    checkpoint: CheckpointDefinition,
+    retrieval: RetrievalBundle,
+    audit_client,
+    verifier_client,
+    arbitrator_client,
+    output_build_dir: Path,
+    tiebreaker_client=None,
+    arbitration_tier: EscalationTier = EscalationTier.BLIND,
+) -> Path:
+    if retrieval.case_id != task.case_id or retrieval.cp_id != task.cp_id:
+        raise ValueError("retrieval bundle does not belong to the audit task")
+    build_dir = output_build_dir
     retrieval_path = build_dir / "retrieval" / f"{task.case_id:03d}" / f"{task.cp_id}.json"
     atomic_write_json(retrieval_path, retrieval.model_dump(mode="json"))
     first = audit_checkpoint(audit_client, checkpoint, retrieval)

@@ -9,6 +9,7 @@ from freca.ablation import (
     ablation_artifact_path,
     build_variant_config,
     compute_retrieval_metrics,
+    run_retrieval_judge_experiment,
     validate_relevance_labels,
 )
 from freca.config import (
@@ -106,3 +107,13 @@ def test_label_validation_rejects_unknown_and_cross_case_chunks() -> None:
         validate_relevance_labels({"001:CP1": ["missing"]}, known)
     with pytest.raises(ValueError, match="cross-case"):
         validate_relevance_labels({"001:CP1": ["e2"]}, known)
+
+
+def test_retrieval_judge_requires_one_isolated_variant() -> None:
+    with pytest.raises(ValueError, match="exactly one"):
+        run_retrieval_judge_experiment(
+            None,
+            run_id="combined-gold-v1",
+            variant_names=["bm25_only", "full_retrieval"],
+            gold_path=Path("gold/consensus-v1.json"),
+        )

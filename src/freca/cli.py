@@ -10,6 +10,7 @@ from freca.ablation import (
     ABLATION_VARIANT_DESCRIPTIONS,
     ABLATION_VARIANT_NAMES,
     run_ablation_experiment,
+    run_retrieval_judge_experiment,
     write_ablation_report,
 )
 from freca.config import PipelineConfig
@@ -157,6 +158,17 @@ def build_parser() -> argparse.ArgumentParser:
     method_evaluate.add_argument(
         "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
     )
+    method_retrieval = method_actions.add_parser(
+        "retrieval", help="Run one retrieval variant through the shared Gold judge"
+    )
+    method_retrieval.add_argument("--run-id", required=True)
+    method_retrieval.add_argument(
+        "--variant", action="append", choices=ABLATION_VARIANT_NAMES, required=True
+    )
+    method_retrieval.add_argument(
+        "--gold-labels", type=Path, default=Path("gold/consensus-v1.json")
+    )
+    method_retrieval.add_argument("--max-workers", type=int, default=1)
     return parser
 
 
@@ -336,6 +348,16 @@ def main(argv: list[str] | None = None) -> int:
                     )
                 )
                 return 0
+            if args.method_action == "retrieval":
+                summary = run_retrieval_judge_experiment(
+                    config,
+                    run_id=args.run_id,
+                    variant_names=args.variant,
+                    gold_path=args.gold_labels,
+                    max_workers=args.max_workers,
+                )
+                _print(summary.model_dump())
+                return 0 if summary.blocked == 0 and summary.failed == 0 else 2
         if args.command == "ablation":
             if args.ablation_action == "list":
                 _print(

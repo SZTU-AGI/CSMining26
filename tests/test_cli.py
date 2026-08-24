@@ -29,6 +29,24 @@ def test_cli_parses_method_evaluate_action() -> None:
     assert evaluate.method_action == "evaluate"
 
 
+def test_cli_parses_method_retrieval_action() -> None:
+    parser = build_parser()
+
+    retrieval = parser.parse_args(
+        [
+            "method",
+            "retrieval",
+            "--run-id",
+            "bm25-gold-v1",
+            "--variant",
+            "bm25_only",
+        ]
+    )
+
+    assert retrieval.method_action == "retrieval"
+    assert retrieval.variant == ["bm25_only"]
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"

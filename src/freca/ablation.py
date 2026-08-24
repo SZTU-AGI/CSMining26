@@ -19,10 +19,18 @@ from freca.config import (
 )
 from freca.index import HybridIndex
 from freca.llm import OpenAICompatibleEmbeddingProvider
-from freca.models import CheckpointDefinition, EvidenceChunk, RetrievalBundle
-from freca.pipeline import _build_reranker, _build_retrieval_agent
+from freca.methods import MethodRunLayout, gold_tasks
+from freca.models import AuditTask, CheckpointDefinition, EvidenceChunk, PipelineRunSummary, RetrievalBundle
+from freca.pipeline import (
+    BlockedTaskError,
+    _build_reranker,
+    _build_retrieval_agent,
+    _cached_model_client,
+    process_retrieved_audit_task,
+    run_pending_tasks,
+)
 from freca.retrieval import retrieve_for_checkpoint
-from freca.state import atomic_write_json, read_json
+from freca.state import TaskStore, atomic_write_json, read_json
 
 
 ABLATION_VARIANT_NAMES = (
@@ -288,6 +296,127 @@ def run_ablation_experiment(
         config.paths.build_dir / "ablation" / experiment_id / "summary.json", summary
     )
     return summary
+
+
+def run_retrieval_judge_experiment(
+    config: PipelineConfig,
+    *,
+    run_id: str,
+    variant_names: Iterable[str],
+    gold_path: Path,
+    max_workers: int = 1,
+) -> PipelineRunSummary:
+    """Run one retrieval variant through the production judge on confirmed Gold tasks."""
+    variants = list(dict.fromkeys(variant_names))
+    if len(variants) != 1:
+        raise ValueError("retrieval judge requires exactly one isolated variant")
+    variant = variants[0]
+    retrieval = build_variant_config(variant, config.retrieval)
+    layout = MethodRunLayout(config.paths.build_dir, run_id)
+    effective_paths = config.paths.model_copy(update={"build_dir": layout.root})
+    effective = config.model_copy(
+        update={"paths": effective_paths, "retrieval": retrieval}
+    )
+    embedding_provider = None
+    endpoint = config.models.embedding
+    if endpoint is not None and os.environ.get(endpoint.api_key_env):
+        embedding_provider = OpenAICompatibleEmbeddingProvider(endpoint)
+    policy_index = HybridIndex.load(
+        config.paths.build_dir / "indexes" / "policy.json",
+        embedding_provider=embedding_provider,
+    )
+    case_index = HybridIndex.load(
+        config.paths.build_dir / "indexes" / "cases.json",
+        embedding_provider=embedding_provider,
+    )
+    checkpoints = _load_checkpoints(config.paths.build_dir / "parsed" / "checkpoints.json")
+    gold = gold_tasks(gold_path)
+    store = TaskStore(layout.root / "state" / "tasks.json")
+    expected_tasks = [
+        AuditTask(
+            task_id=f"{run_id}:case-{item.case_id:03d}:{item.cp_id}",
+            run_id=run_id,
+            case_id=item.case_id,
+            cp_id=item.cp_id,
+        )
+        for item in gold
+    ]
+    initialized = store.initialize(expected_tasks)
+    if {(task.case_id, task.cp_id) for task in initialized} != {
+        (item.case_id, item.cp_id) for item in gold
+    }:
+        raise ValueError("method task state does not match confirmed Gold tasks")
+    atomic_write_json(
+        layout.root / "method.json",
+        {
+            "run_id": run_id,
+            "method": f"{variant}_judge",
+            "gold_path": str(gold_path),
+            "gold_count": len(gold),
+            "retrieval_config": retrieval.model_dump(mode="json"),
+        },
+    )
+    audit_client = _cached_model_client(effective.models.audit, layout.root, name="audit")
+    verifier_client = (
+        _cached_model_client(effective.models.verifier, layout.root, name="verifier")
+        if effective.models.verifier is not None
+        else None
+    )
+    arbitrator_client = (
+        _cached_model_client(effective.models.arbitrator, layout.root, name="arbitrator")
+        if effective.models.arbitrator is not None
+        else None
+    )
+    reranker = _build_reranker(effective)
+    retrieval_agent = _build_retrieval_agent(effective)
+
+    def worker(task: AuditTask) -> str:
+        if not os.environ.get(effective.models.audit.api_key_env):
+            raise BlockedTaskError(
+                "required model credential environment variable is unset: "
+                f"{effective.models.audit.api_key_env}"
+            )
+        if verifier_client is None:
+            raise BlockedTaskError("verifier model endpoint is not configured")
+        if not os.environ.get(effective.models.verifier.api_key_env):
+            raise BlockedTaskError(
+                "required verifier credential environment variable is unset: "
+                f"{effective.models.verifier.api_key_env}"
+            )
+        bundle = retrieve_for_checkpoint(
+            checkpoint=checkpoints[task.cp_id],
+            case_id=task.case_id,
+            policy_index=policy_index,
+            case_index=case_index,
+            agent=retrieval_agent,
+            max_repairs=(
+                0
+                if retrieval.agent_mode == RetrievalAgentMode.DISABLED
+                else retrieval.max_repairs
+            ),
+            retrieval_config=retrieval,
+            reranker=reranker,
+        )
+        arbitrator_for_task = (
+            arbitrator_client
+            if arbitrator_client is not None
+            and os.environ.get(effective.models.arbitrator.api_key_env)
+            else None
+        )
+        return str(
+            process_retrieved_audit_task(
+                task=task,
+                checkpoint=checkpoints[task.cp_id],
+                retrieval=bundle,
+                audit_client=audit_client,
+                verifier_client=verifier_client,
+                arbitrator_client=arbitrator_for_task,
+                output_build_dir=layout.root,
+                arbitration_tier=effective.arbitration.tier,
+            ).resolve()
+        )
+
+    return run_pending_tasks(store, worker, max_workers=max_workers)
 
 
 def write_ablation_report(build_dir: Path, experiment_id: str) -> dict[str, Any]:

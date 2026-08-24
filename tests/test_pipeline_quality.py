@@ -11,10 +11,17 @@ from freca.models import (
     EvidenceChunk,
     SourceLocation,
     SourceType,
+    RetrievalBundle,
+    RetrievalHit,
+    RetrievalRound,
     TaskStatus,
     Verdict,
 )
-from freca.pipeline import process_audit_task, run_consistency_gate
+from freca.pipeline import (
+    process_audit_task,
+    process_retrieved_audit_task,
+    run_consistency_gate,
+)
 from freca.state import TaskStore, read_json
 
 
@@ -158,6 +165,49 @@ def test_agreed_noncompliance_with_valid_citations_survives_verifier_failure(
     final = AuditDecision.model_validate(read_json(output))
     assert final.verdict == Verdict.NON_COMPLIANT
     assert "verifier_non_pass_for_noncompliance" in final.review_flags
+
+
+def test_process_retrieved_task_uses_supplied_bundle_and_writes_method_final(
+    tmp_path: Path,
+) -> None:
+    task = AuditTask(
+        task_id="bm25:case-001:CP1",
+        run_id="bm25",
+        case_id=1,
+        cp_id="CP1",
+    )
+    bundle = RetrievalBundle(
+        case_id=1,
+        cp_id="CP1",
+        policy_hits=[RetrievalHit(chunk=_chunk("p1", "policy", case_id=None), score=1, rank=1)],
+        evidence_hits=[RetrievalHit(chunk=_chunk("e1", "record", case_id=1), score=1, rank=1)],
+        rounds=[
+            RetrievalRound(
+                round_number=0,
+                policy_query="policy",
+                evidence_query="record",
+                added_policy_chunk_ids=["p1"],
+                added_evidence_chunk_ids=["e1"],
+                gaps=[],
+            )
+        ],
+        complete=True,
+        stop_reason="complete",
+    )
+    method_build = tmp_path / "method-runs" / "bm25-gold-v1"
+
+    output = process_retrieved_audit_task(
+        task=task,
+        checkpoint=_checkpoint(),
+        retrieval=bundle,
+        audit_client=ReplayJsonClient([_payload(confidence=0.9)]),
+        verifier_client=ReplayJsonClient([_verification()]),
+        arbitrator_client=None,
+        output_build_dir=method_build,
+    )
+
+    assert AuditDecision.model_validate(read_json(output)).cp_id == "CP1"
+    assert output == method_build / "final" / "001" / "CP1.json"
 
 
 def test_consistency_gate_blocks_completed_tasks_with_conflicting_shared_facts(
