@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from freca.methods import MethodRunLayout, gold_tasks
+from freca.methods import MethodRunLayout, compare_method_runs, gold_tasks
 from freca.state import atomic_write_json
 
 
@@ -41,3 +41,26 @@ def test_method_layout_never_uses_shared_final_directory(tmp_path: Path) -> None
     assert layout.final_path(23, "CP1") == (
         tmp_path / "method-runs" / "bm25-gold-v1" / "final" / "023" / "CP1.json"
     )
+
+
+def test_comparison_excludes_low_coverage_run_from_winner(tmp_path: Path) -> None:
+    atomic_write_json(
+        tmp_path / "evaluation" / "high-score-low-coverage.json",
+        {"run_id": "high-score-low-coverage", "gold_count": 34, "evaluated_count": 10, "matched_count": 10, "agreement_rate": 1.0},
+    )
+    atomic_write_json(
+        tmp_path / "evaluation" / "eligible.json",
+        {"run_id": "eligible", "gold_count": 34, "evaluated_count": 32, "matched_count": 24, "agreement_rate": 0.75},
+    )
+    atomic_write_json(
+        tmp_path / "method-runs" / "high-score-low-coverage" / "state" / "tasks.json",
+        [],
+    )
+    atomic_write_json(
+        tmp_path / "method-runs" / "eligible" / "state" / "tasks.json",
+        [],
+    )
+
+    report = compare_method_runs(tmp_path, ["high-score-low-coverage", "eligible"])
+
+    assert report["winner"]["run_id"] == "eligible"
