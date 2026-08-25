@@ -252,7 +252,10 @@ def normalize_decision(
 
     # §7: N/A must be a policy conclusion. Withdraw it otherwise.
     if verdict == Verdict.NOT_APPLICABLE:
-        if not policy_citations:
+        if applicability != Applicability.NOT_APPLICABLE:
+            verdict = Verdict.NON_COMPLIANT
+            flags.append("na_withdrawn_nonlegal_applicability")
+        elif not policy_citations:
             verdict = Verdict.NON_COMPLIANT
             applicability = Applicability.UNKNOWN
             flags.append("na_withdrawn_no_policy_basis")

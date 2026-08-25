@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from freca.models import Applicability, Verdict
 
-from freca.ledger.adjudicate import blocked_decision
+from freca.ledger.adjudicate import blocked_decision, normalize_decision
 from freca.ledger.config import AdjudicationConfig
 from freca.ledger.gates import evaluate_gates, gate_flags, summarize_gate
 from freca.ledger.models import (
@@ -44,6 +44,21 @@ def _clean():
     pack = make_pack(rubric=rubric, facts=[make_fact("f1"), make_fact("f2")])
     decision = make_decision(rubric=rubric, pack=pack)
     return rubric, pack, decision
+
+
+def _na_payload(*, applicability: str) -> dict:
+    return {
+        "applicability": applicability,
+        "verdict": "N/A",
+        "criterion_outcomes": [],
+        "policy_citations": ["policy-1"],
+        "supporting_fact_ids": [],
+        "contrary_fact_ids": [],
+        "evidence_coverage": "partial",
+        "applicability_reasoning": "The cited clause is limited to another class of premises.",
+        "reasoning_summary": "Applicability conclusion.",
+        "confidence": 0.8,
+    }
 
 
 # --------------------------------------------------------------------------
@@ -112,6 +127,37 @@ def test_dual_citation_can_be_relaxed_by_configuration() -> None:
 # --------------------------------------------------------------------------
 # N/A (§7)
 # --------------------------------------------------------------------------
+
+
+def test_unknown_applicability_cannot_be_normalized_to_na() -> None:
+    rubric = make_rubric()
+    pack = make_pack(rubric=rubric, facts=[make_fact("f1")])
+
+    decision = normalize_decision(
+        _na_payload(applicability="UNKNOWN"),
+        rubric=rubric,
+        pack=pack,
+        config=AdjudicationConfig(),
+    )
+
+    assert decision.verdict == Verdict.NON_COMPLIANT
+    assert decision.applicability == Applicability.UNKNOWN
+    assert "na_withdrawn_nonlegal_applicability" in decision.quality_flags
+
+
+def test_legal_not_applicable_survives_normalization() -> None:
+    rubric = make_rubric()
+    pack = make_pack(rubric=rubric, facts=[make_fact("f1")])
+
+    decision = normalize_decision(
+        _na_payload(applicability="NOT_APPLICABLE"),
+        rubric=rubric,
+        pack=pack,
+        config=AdjudicationConfig(),
+    )
+
+    assert decision.verdict == Verdict.NOT_APPLICABLE
+    assert decision.applicability == Applicability.NOT_APPLICABLE
 
 
 def test_not_applicable_without_applicability_reasoning_fails() -> None:
