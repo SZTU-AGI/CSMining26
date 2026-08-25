@@ -22,3 +22,17 @@ def test_evidence_profile_expands_clean_evidence_only() -> None:
     assert config.ledger.selection.max_facts == 42
     assert config.ledger.selection.include_contaminated is False
     assert config.ledger.review.mode == ReviewMode.ON_TRIGGER
+
+
+def test_evidence_scope_profile_enables_only_scope_aware_adjudication() -> None:
+    config = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.evidence-scope.yaml")
+
+    assert config.ledger.adjudication.scope_aware_evidence is True
+    assert config.ledger.critic.enabled is False
+
+
+def test_conflict_critic_profile_enables_only_the_conflict_critic() -> None:
+    config = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.conflict-critic.yaml")
+
+    assert config.ledger.critic.enabled is True
+    assert config.ledger.adjudication.scope_aware_evidence is False

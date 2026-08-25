@@ -55,6 +55,7 @@ from freca.ledger.baseline import (
     method_from_legacy_finals,
 )
 from freca.ledger.config import LedgerConfig, ReviewMode
+from freca.ledger.critic import ConflictCritic
 from freca.ledger.extraction import (
     build_case_ledger,
     build_extractor,
@@ -416,6 +417,14 @@ def run_ledger_tasks(
             ),
             config=config.ledger.review,
             adjudication_config=config.ledger.adjudication,
+            critic=(
+                ConflictCritic(
+                    client=stage_client(config, "critic", store),
+                    config=config.ledger.critic,
+                )
+                if config.ledger.critic.enabled
+                else None
+            ),
         )
 
     task_store = store.task_store(run_id)

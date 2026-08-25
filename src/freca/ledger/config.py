@@ -98,6 +98,12 @@ class ReviewConfig(StrictConfig):
     prefer_review_on_conflict: bool = True
 
 
+class CriticConfig(StrictConfig):
+    enabled: bool = False
+    max_facts: int = Field(default=14, ge=1)
+    snippet_char_limit: int = Field(default=1200, ge=200)
+
+
 class BaselineConfig(StrictConfig):
     require_distinct_views: bool = True
     min_distinct_views: int = Field(default=2, ge=1)
@@ -116,6 +122,7 @@ class LedgerModelsConfig(StrictConfig):
     rubric: ModelEndpointConfig | None = None
     adjudicator: ModelEndpointConfig | None = None
     reviewer: ModelEndpointConfig | None = None
+    critic: ModelEndpointConfig | None = None
 
 
 class LedgerSettings(StrictConfig):
@@ -125,6 +132,7 @@ class LedgerSettings(StrictConfig):
     selection: SelectionConfig = SelectionConfig()
     adjudication: AdjudicationConfig = AdjudicationConfig()
     review: ReviewConfig = ReviewConfig()
+    critic: CriticConfig = CriticConfig()
     baseline: BaselineConfig = BaselineConfig()
     models: LedgerModelsConfig = LedgerModelsConfig()
 
@@ -135,6 +143,7 @@ _FALLBACKS: dict[str, tuple[str, ...]] = {
     "rubric": ("audit",),
     "adjudicator": ("audit",),
     "reviewer": ("verifier", "arbitrator", "audit"),
+    "critic": ("arbitrator", "verifier", "audit"),
 }
 
 
@@ -242,6 +251,7 @@ class LedgerConfig(StrictConfig):
 __all__ = [
     "AdjudicationConfig",
     "BaselineConfig",
+    "CriticConfig",
     "ExtractionConfig",
     "ExtractorMode",
     "LEDGER_SECTION",

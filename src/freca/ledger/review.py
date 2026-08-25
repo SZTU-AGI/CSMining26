@@ -26,6 +26,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from freca.ledger.adjudicate import Adjudicator
+from freca.ledger.critic import ConflictCritic
 from freca.ledger.config import AdjudicationConfig, ReviewConfig, ReviewMode
 from freca.ledger.gates import evaluate_gates, gate_flags
 from freca.ledger.models import (
@@ -46,6 +47,8 @@ ACCEPT_PRIMARY_REVIEW_FAILED_GATES = "ACCEPT_PRIMARY_REVIEW_FAILED_GATES"
 ACCEPT_PRIMARY_ON_CONFLICT = "ACCEPT_PRIMARY_ON_CONFLICT"
 ACCEPT_REVIEW_PRIMARY_FAILED_GATES = "ACCEPT_REVIEW_PRIMARY_FAILED_GATES"
 ACCEPT_REVIEW_ON_CONFLICT = "ACCEPT_REVIEW_ON_CONFLICT"
+ACCEPT_CRITIC_PRIMARY = "ACCEPT_CRITIC_PRIMARY"
+ACCEPT_CRITIC_REVIEW = "ACCEPT_CRITIC_REVIEW"
 ESCALATE_BOTH_GATES_FAILED = "ESCALATE_BOTH_GATES_FAILED"
 
 
@@ -115,6 +118,7 @@ class ReviewCoordinator:
     adjudicator: Adjudicator
     config: ReviewConfig = field(default_factory=ReviewConfig)
     adjudication_config: AdjudicationConfig = field(default_factory=AdjudicationConfig)
+    critic: ConflictCritic | None = None
 
     # -- policy -----------------------------------------------------------
 
@@ -182,6 +186,28 @@ class ReviewCoordinator:
             review_gate=review_gate,
             config=self.config,
         )
+        critic_record: dict[str, str] = {}
+        clean_conflict = (
+            review is not None
+            and review_gate is not None
+            and primary_gate.passed
+            and review_gate.passed
+            and primary.verdict != review.verdict
+        )
+        if clean_conflict and self.critic is not None:
+            choice, reasoning = self.critic.choose(
+                rubric=rubric,
+                pack=pack,
+                primary=primary,
+                primary_gate=primary_gate,
+                review=review,
+                review_gate=review_gate,
+            )
+            critic_record = {"choice": choice or "unavailable", "reasoning": reasoning}
+            if choice == "primary":
+                final, resolution = primary, ACCEPT_CRITIC_PRIMARY
+            elif choice == "review":
+                final, resolution = review, ACCEPT_CRITIC_REVIEW
 
         chosen_gate = (
             review_gate if (review is not None and final is review) else primary_gate
@@ -209,6 +235,7 @@ class ReviewCoordinator:
             final=_annotate(final, flags),
             reviewed=review is not None,
             resolution=resolution,
+            critic=critic_record,
             pack_summary={
                 **summarize_pack(pack),
                 "rubric_version": rubric.rubric_version,
@@ -251,6 +278,8 @@ __all__ = [
     "ACCEPT_PRIMARY_ON_CONFLICT",
     "ACCEPT_PRIMARY_REVIEW_BLOCKED",
     "ACCEPT_PRIMARY_REVIEW_FAILED_GATES",
+    "ACCEPT_CRITIC_PRIMARY",
+    "ACCEPT_CRITIC_REVIEW",
     "ACCEPT_REVIEW_ON_CONFLICT",
     "ACCEPT_REVIEW_PRIMARY_FAILED_GATES",
     "ESCALATE_BOTH_GATES_FAILED",

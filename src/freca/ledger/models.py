@@ -451,6 +451,7 @@ class TaskOutcome(StrictModel):
     final: LedgerDecision
     reviewed: bool = False
     resolution: str = "ACCEPT_PRIMARY"
+    critic: dict[str, Any] = Field(default_factory=dict)
     pack_summary: dict[str, Any] = Field(default_factory=dict)
 
 
