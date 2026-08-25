@@ -64,3 +64,17 @@ def test_comparison_excludes_low_coverage_run_from_winner(tmp_path: Path) -> Non
     report = compare_method_runs(tmp_path, ["high-score-low-coverage", "eligible"])
 
     assert report["winner"]["run_id"] == "eligible"
+
+
+def test_comparison_can_write_a_named_snapshot(tmp_path: Path) -> None:
+    atomic_write_json(
+        tmp_path / "evaluation" / "eligible.json",
+        {"run_id": "eligible", "gold_count": 34, "evaluated_count": 34, "matched_count": 25, "agreement_rate": 25 / 34},
+    )
+    atomic_write_json(tmp_path / "method-runs" / "eligible" / "state" / "tasks.json", [])
+
+    output = tmp_path / "method-comparison" / "gold-v2.json"
+    compare_method_runs(tmp_path, ["eligible"], output_path=output)
+
+    assert output.exists()
+    assert not (tmp_path / "method-comparison" / "gold-v1.json").exists()

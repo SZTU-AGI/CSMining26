@@ -73,6 +73,21 @@ def test_cli_parses_method_ledger_action() -> None:
     assert ledger.method_action == "ledger"
 
 
+def test_cli_parses_method_report_and_comparison_output() -> None:
+    parser = build_parser()
+
+    report = parser.parse_args(
+        ["method", "report", "--comparison", "build/method-comparison/gold-v2.json"]
+    )
+    compare = parser.parse_args(
+        ["method", "compare", "--run-id", "ledger-gold-v1", "--output", "build/method-comparison/gold-v2.json"]
+    )
+
+    assert report.method_action == "report"
+    assert report.comparison.name == "gold-v2.json"
+    assert compare.output.name == "gold-v2.json"
+
+
 def _config(tmp_path: Path) -> Path:
     root = Path(__file__).parents[1]
     path = tmp_path / "config.yaml"

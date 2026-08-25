@@ -41,7 +41,12 @@ def _method_tasks_path(build_dir: Path, run_id: str) -> Path:
     return build_dir / "method-runs" / run_id / "ledger" / "state" / f"{run_id}-tasks.json"
 
 
-def compare_method_runs(build_dir: Path, run_ids: list[str]) -> dict:
+def compare_method_runs(
+    build_dir: Path,
+    run_ids: list[str],
+    *,
+    output_path: Path | None = None,
+) -> dict:
     rows = []
     for run_id in dict.fromkeys(run_ids):
         _validate_run_id(run_id)
@@ -68,5 +73,5 @@ def compare_method_runs(build_dir: Path, run_ids: list[str]) -> dict:
     )
     winner = next((row for row in ranked if row["eligible"]), None)
     payload = {"runs": ranked, "winner": winner}
-    atomic_write_json(build_dir / "method-comparison" / "gold-v1.json", payload)
+    atomic_write_json(output_path or build_dir / "method-comparison" / "gold-v1.json", payload)
     return payload

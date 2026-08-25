@@ -18,6 +18,7 @@ from freca.evaluation import compare_reports, evaluate_run
 from freca.direct_judge import DIRECT_JUDGE_METHODS, run_direct_judge_experiment
 from freca.ledger.config import LedgerConfig
 from freca.ledger.pipeline import run_ledger_gold_experiment
+from freca.method_report import write_gold_html_report
 from freca.methods import MethodRunLayout, compare_method_runs
 from freca.models import TaskStatus
 from freca.pipeline import (
@@ -194,6 +195,12 @@ def build_parser() -> argparse.ArgumentParser:
     method_ledger.add_argument("--max-workers", type=int, default=1)
     method_compare = method_actions.add_parser("compare", help="Rank evaluated Gold methods")
     method_compare.add_argument("--run-id", action="append", required=True)
+    method_compare.add_argument("--output", type=Path)
+    method_report = method_actions.add_parser("report", help="Write a static Gold method report")
+    method_report.add_argument(
+        "--comparison", type=Path, default=Path("build/method-comparison/gold-v1.json")
+    )
+    method_report.add_argument("--output", type=Path)
     return parser
 
 
@@ -403,7 +410,26 @@ def main(argv: list[str] | None = None) -> int:
                 _print(summary.model_dump())
                 return 0 if summary.blocked == 0 and summary.failed == 0 else 2
             if args.method_action == "compare":
-                _print(compare_method_runs(config.paths.build_dir, args.run_id))
+                _print(
+                    compare_method_runs(
+                        config.paths.build_dir,
+                        args.run_id,
+                        output_path=args.output,
+                    )
+                )
+                return 0
+            if args.method_action == "report":
+                _print(
+                    {
+                        "output": str(
+                            write_gold_html_report(
+                                build_dir=config.paths.build_dir,
+                                comparison_path=args.comparison,
+                                output_path=args.output,
+                            )
+                        )
+                    }
+                )
                 return 0
         if args.command == "ablation":
             if args.ablation_action == "list":
