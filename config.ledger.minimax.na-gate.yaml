@@ -1,0 +1,20 @@
+paths:
+  cases_root: extracted/SFRE_cases
+  policy_pdf: 1-Export Control (Plants and Plant Products)Rules 2021.pdf
+  checkpoints_xlsx: checkingpoints_all_elements_onesheet.xlsx
+  submission_template: submission_template.xlsx
+  build_dir: build
+mineru:
+  mode: disabled
+retrieval:
+  agent_mode: heuristic
+  reranker_mode: lexical
+models:
+  audit: {base_url: https://api.minimaxi.com/anthropic, model: MiniMax-M3, api_key_env: FRECA_AUDIT_API_KEY, response_format: json_object}
+  verifier: {base_url: https://api.minimaxi.com/anthropic, model: MiniMax-M3, api_key_env: FRECA_AUDIT_API_KEY, response_format: json_object}
+  arbitrator: {base_url: https://api.minimaxi.com/anthropic, model: MiniMax-M3, api_key_env: FRECA_AUDIT_API_KEY, response_format: json_object}
+ledger:
+  extraction: {mode: llm_with_fallback, max_workers: 1}
+  rubric: {max_workers: 1}
+  adjudication: {max_workers: 1}
+  review: {mode: on_trigger}
