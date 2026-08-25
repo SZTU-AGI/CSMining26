@@ -87,6 +87,7 @@ class SelectionConfig(StrictConfig):
 class AdjudicationConfig(StrictConfig):
     confidence_threshold: float = Field(default=0.65, ge=0.0, le=1.0)
     require_dual_citation: bool = True
+    scope_aware_evidence: bool = False
     max_workers: int = Field(default=4, ge=1)
 
 

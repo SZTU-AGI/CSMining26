@@ -74,6 +74,19 @@ Hard rules:
 
 Return only an object matching the supplied JSON schema."""
 
+_SCOPE_AWARE_EVIDENCE_RULES = """
+
+Evidence-scope rules:
+- A fact marked as another establishment's material can never support this establishment.
+- A global identity contradiction is a quality risk, not a reason to discard a self-contained,
+  current-establishment fact whose own source and subject are clear.
+- For a design, construction, facility or equipment requirement, an execution incident, cleaning
+  lapse or procedure text alone does not prove a design or facility requirement is breached.
+  A contrary fact must directly describe the relevant design or facility condition.
+- For an execution, product-flow, batch or release requirement, a procedure alone is insufficient;
+  use an actual record for the current establishment and product.
+"""
+
 
 _ADJUDICATION_SCHEMA: dict[str, Any] = {
     "type": "object",
@@ -133,6 +146,7 @@ def build_adjudication_messages(
     *,
     rubric: CheckpointRubric,
     pack: EvidencePack,
+    scope_aware: bool = False,
 ) -> tuple[str, str]:
     user = "\n\n".join(
         (
@@ -143,7 +157,10 @@ def build_adjudication_messages(
             + (", ".join(sorted(pack.fact_ids)) if pack.facts else "(none)"),
         )
     )
-    return _ADJUDICATION_SYSTEM, user
+    system = _ADJUDICATION_SYSTEM
+    if scope_aware:
+        system += _SCOPE_AWARE_EVIDENCE_RULES
+    return system, user
 
 
 def _clean_ids(values: Any, allowed: set[str]) -> list[str]:
@@ -389,7 +406,11 @@ class Adjudicator:
                 reason="no adjudication model client configured",
                 stage=stage,
             )
-        system, user = build_adjudication_messages(rubric=rubric, pack=pack)
+        system, user = build_adjudication_messages(
+            rubric=rubric,
+            pack=pack,
+            scope_aware=self.config.scope_aware_evidence,
+        )
         try:
             payload = self.client.complete_json(
                 system=system,
