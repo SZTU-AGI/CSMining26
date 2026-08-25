@@ -28,6 +28,7 @@ from freca.config import (
     PipelineConfig,
     StrictConfig,
 )
+from freca.env_loader import apply_env_file, find_env_file
 
 LEDGER_SECTION = "ledger"
 
@@ -162,6 +163,9 @@ class LedgerConfig(StrictConfig):
     @classmethod
     def from_yaml(cls, path: Path) -> LedgerConfig:
         path = Path(path).resolve()
+        env_path = find_env_file(path.parent)
+        if env_path is not None:
+            apply_env_file(env_path)
         raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
         if not isinstance(raw, dict):
             raise ValueError(f"configuration root must be a mapping: {path}")

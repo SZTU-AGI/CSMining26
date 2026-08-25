@@ -8,6 +8,7 @@ from pathlib import Path
 import httpx
 
 from freca.config import ModelEndpointConfig, PipelineConfig, ResponseFormatMode
+from freca.ledger.config import LedgerConfig
 
 
 def _endpoint() -> ModelEndpointConfig:
@@ -107,3 +108,33 @@ def test_minimax_request_contract_metadata_invalidates_pre_schema_cache() -> Non
 
     assert metadata["protocol"] == "anthropic_messages"
     assert metadata["request_contract_version"] == 2
+
+
+def test_ledger_config_loads_the_same_local_minimax_credential(
+    monkeypatch, tmp_path: Path
+) -> None:
+    (tmp_path / ".env").write_text("llm_key='test-key'\n", encoding="utf-8")
+    monkeypatch.delenv("FRECA_AUDIT_API_KEY", raising=False)
+    config_path = tmp_path / "config.ledger.yaml"
+    config_path.write_text(
+        """
+paths:
+  cases_root: cases
+  policy_pdf: policy.pdf
+  checkpoints_xlsx: checkpoints.xlsx
+  submission_template: submission.xlsx
+  build_dir: build
+models:
+  audit:
+    base_url: https://api.minimaxi.com/anthropic
+    model: MiniMax-M3
+    api_key_env: FRECA_AUDIT_API_KEY
+ledger: {}
+""".strip(),
+        encoding="utf-8",
+    )
+
+    config = LedgerConfig.from_yaml(config_path)
+
+    assert config.endpoint("adjudicator") is not None
+    assert os.environ["FRECA_AUDIT_API_KEY"] == "test-key"
