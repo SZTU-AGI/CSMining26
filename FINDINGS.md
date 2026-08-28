@@ -73,11 +73,11 @@
 | TabPFN v2 单模 | 0.813 | 0.8114 | 复现 |
 | TabPFN-3 default / multiclass | 0.795 / 0.785 | 权重门控,未重测 | ❌ 小数据水土不服 |
 
-- **TabICL v2**(tabicl 2.1.1,checkpoint `tabicl-classifier-v2-20260212`,2026):替换 TabPFN v2 后集成 0.817→**0.8314**。无门控、可 `pip install tabicl` 本地跑。
+- **TabICL v2**(tabicl 2.1.1,checkpoint `tabicl-classifier-v2-20260212`,2026):替换 TabPFN v2 后集成 0.8173→**0.8234**(当时记录为 0.817→0.8314,见开头更正块)。无门控、可 `pip install tabicl` 本地跑。
 - **TabPFN-3**(tabpfn 8.2.0,arXiv 2605.13986,2026 SOTA):**反而更差**——它冲着大数据(百万行)优化,在 1285 小样本上不如为小数据设计的 TabPFN v2 / TabICL v2。**"最新 ≠ 最适合",实测甄别了。**
 - **两个额外想法也证伪**:①原始 10 维喂 TabICL(0.796)并进集成反而拖累(→0.826),证明我们 50 维特征工程更好;②测试集伪标签(自训练模拟,阈值 0.85/0.90/0.95)Δ≈0(确认偏置:高置信本就对、加不回低置信的信息不可分错误)。
 
-**修正"到顶"的说法**:0.817 是 **TabPFN-v2 专属**天花板,不是普适——换 2026 的 TabICL v2 就破了。+0.014 来自可分类的更强分类;Zoom 那 0/98 信息天花板仍在。**新最强 = 0.8314。** 复现:`exp_frontier2.py`。提交:`submissions/submission_task3_tabicl.csv`。
+**修正"到顶"的说法**:0.817 是 **TabPFN-v2 专属**天花板,不是普适——换 2026 的 TabICL v2 就破了。增益来自可分类的更强分类;Zoom 那 0/98 信息天花板仍在。**新最强 = 0.8234**(当时记为 0.8314,见开头更正块)。复现:`python run.py cv`(仓库内,已重测)。提交:`submissions/submission_task3_tabicl.csv`。
 
 ## 根本限制:Zoom 语音/视频信息层面不可分
 

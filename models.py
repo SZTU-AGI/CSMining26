@@ -4,7 +4,7 @@
 集成成员:
   lgb    : LightGBM(class_weight='balanced',对小类友好)
   xgb    : XGBoost(softprob)
-  tabicl : ★TabICL v2(2026 前沿,小表格最强,集成里权重 2)—— 实测 lgb+xgb+2·tabicl=0.8314
+  tabicl : ★TabICL v2(2026 前沿,小表格最强,集成里权重 2)—— 实测 lgb+xgb+2·tabicl=0.8234
   tabpfn : TabPFN v2(TabICL 不可用时的兜底)—— lgb+xgb+2·tabpfn=0.817
 优先级:装了 tabicl 用 tabicl;否则用 tabpfn;都没有就 lgb+xgb。任何缺失都自动降级、流程不中断。
 注:TabICL 首次运行会从 HuggingFace 下 checkpoint;国内机器需 `export HF_ENDPOINT=https://hf-mirror.com`。
