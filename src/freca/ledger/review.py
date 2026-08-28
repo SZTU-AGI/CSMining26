@@ -28,6 +28,7 @@ from dataclasses import dataclass, field
 from freca.ledger.adjudicate import Adjudicator
 from freca.ledger.critic import ConflictCritic
 from freca.ledger.config import AdjudicationConfig, ReviewConfig, ReviewMode
+from freca.ledger.criteria import CURATED_CHUNK_PREFIX
 from freca.ledger.gates import evaluate_gates, gate_flags
 from freca.ledger.models import (
     CaseFactLedger,
@@ -58,10 +59,19 @@ def compact_rubric(rubric: CheckpointRubric, *, snippet_char_limit: int) -> Chec
     Only the rendered text shrinks. ``policy_chunk_ids`` and every criterion's
     citations are preserved, so the rubric's citation contract still holds and
     the reviewer's citations remain checkable against the same clause ids.
+
+    Curated scoring-standard chunks (``curated:`` prefix) are exempt: they are
+    the team's authoritative criterion text, and truncating them would make the
+    review pass judge against a partial standard.
     """
 
     snippets = {
-        chunk_id: (text if len(text) <= snippet_char_limit else text[:snippet_char_limit] + " …")
+        chunk_id: (
+            text
+            if chunk_id.startswith(CURATED_CHUNK_PREFIX)
+            or len(text) <= snippet_char_limit
+            else text[:snippet_char_limit] + " …"
+        )
         for chunk_id, text in rubric.policy_snippets.items()
     }
     return rubric.model_copy(update={"policy_snippets": snippets})

@@ -70,6 +70,19 @@ def test_compact_rubric_leaves_short_snippets_untouched():
     assert tight.policy_snippets == rubric.policy_snippets
 
 
+def test_compact_rubric_keeps_curated_standard_full_text():
+    rubric = make_rubric(policy_chunk_ids=("curated:CP9", "policy-1", "policy-2"))
+
+    tight = compact_rubric(rubric, snippet_char_limit=200)
+
+    # The curated scoring standard is authoritative criterion text — the
+    # reviewer must see it whole, while ordinary policy snippets still shrink.
+    assert tight.policy_snippets["curated:CP9"] == rubric.policy_snippets["curated:CP9"]
+    assert len(tight.policy_snippets["curated:CP9"]) > 200
+    assert len(tight.policy_snippets["policy-1"]) <= 202
+    assert tight.policy_snippets["policy-1"].endswith("…")
+
+
 # --------------------------------------------------------------------------
 # choose_final — reconciliation table
 # --------------------------------------------------------------------------
