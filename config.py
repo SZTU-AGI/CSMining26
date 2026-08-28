@@ -57,7 +57,7 @@ XGB_PARAMS = dict(n_estimators=400, learning_rate=0.03, max_depth=4,
 # 加权平均各模型的 predict_proba,权重如下(TabPFN 权重 2);再除以训练先验做校正。
 ENSEMBLE_WEIGHTS = {"lgb": 1.0, "xgb": 1.0, "tabicl": 2.0, "tabpfn": 2.0}
 PRIOR_CORRECTION = True     # 测试集分布未公开且不一定均匀 → 除以训练先验,削弱多数类偏置
-USE_TABICL = True           # ★首选 TabICL v2(2026,lgb+xgb+2·tabicl=0.8314);未装则降级 TabPFN(见 models.py)
+USE_TABICL = True           # ★首选 TabICL v2(2026,lgb+xgb+2·tabicl=0.8234);未装则降级 TabPFN(见 models.py)
 USE_TABPFN = True           # TabICL 不可用时兜底(lgb+xgb+2·tabpfn=0.817);都没有则 lgb+xgb
 
 SUBMISSION_NAME = "submission.csv"   # 官方要求:无表头,327 行,"index,label",1-based
