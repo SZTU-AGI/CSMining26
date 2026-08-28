@@ -36,3 +36,34 @@ def test_conflict_critic_profile_enables_only_the_conflict_critic() -> None:
 
     assert config.ledger.critic.enabled is True
     assert config.ledger.adjudication.scope_aware_evidence is False
+
+
+def test_curated_na_gate_profile_changes_only_the_rubric_source() -> None:
+    from freca.ledger.config import RubricSource
+
+    config = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.curated-na-gate.yaml")
+    baseline = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.na-gate.yaml")
+
+    assert config.ledger.rubric.source is RubricSource.CURATED
+    assert config.ledger.rubric.criteria_xlsx == (ROOT / "FRECA_41CP_评分标准_最终合并版_材料并入.xlsx").resolve()
+    assert config.ledger.rubric.criteria_xlsx.exists()
+    assert config.ledger.critic.enabled is False
+    assert config.ledger.review.mode == baseline.ledger.review.mode
+    assert config.ledger.extraction == baseline.ledger.extraction
+    assert config.ledger.adjudication == baseline.ledger.adjudication
+
+
+def test_curated_conflict_critic_profile_changes_only_the_rubric_source() -> None:
+    from freca.ledger.config import RubricSource
+
+    config = LedgerConfig.from_yaml(
+        ROOT / "config.ledger.minimax.curated-conflict-critic.yaml"
+    )
+    baseline = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.conflict-critic.yaml")
+
+    assert config.ledger.rubric.source is RubricSource.CURATED
+    assert config.ledger.rubric.criteria_xlsx == (ROOT / "FRECA_41CP_评分标准_最终合并版_材料并入.xlsx").resolve()
+    assert config.ledger.critic.enabled is True
+    assert config.ledger.extraction == baseline.ledger.extraction
+    assert config.ledger.adjudication == baseline.ledger.adjudication
+    assert config.ledger.review == baseline.ledger.review
