@@ -510,6 +510,8 @@ def test_policy_source_rejects_criteria_xlsx() -> None:
 
 
 def test_from_yaml_resolves_criteria_xlsx_against_config_dir(tmp_path) -> None:
+    from pathlib import Path
+
     from freca.ledger.config import LedgerConfig
 
     root = Path(__file__).parents[1]
