@@ -22,6 +22,19 @@ def _evaluation(build_dir: Path, run_id: str) -> dict[str, Any]:
     return read_json(path) if path.exists() else {}
 
 
+def _gold_total(build_dir: Path, rows: list[dict[str, Any]]) -> str:
+    """Confirmed gold label count, derived from the evaluations on this page."""
+
+    counts = [
+        evaluation["gold_count"]
+        for evaluation in (
+            _evaluation(build_dir, str(row.get("run_id", ""))) for row in rows
+        )
+        if isinstance(evaluation.get("gold_count"), int)
+    ]
+    return str(max(counts)) if counts else "—"
+
+
 def _method_rows(build_dir: Path, rows: list[dict[str, Any]]) -> str:
     rendered: list[str] = []
     for row in rows:
@@ -79,6 +92,7 @@ def write_gold_html_report(
     rows = list(comparison.get("runs", []))
     winner = comparison.get("winner") or {}
     winner_id = escape(str(winner.get("run_id", "暂无达标方法")))
+    gold_total = _gold_total(build_dir, rows)
     output = output_path or build_dir / "reports" / "gold-method-selection.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     html = f"""<!doctype html>
@@ -95,11 +109,11 @@ main {{ max-width:1100px; margin:auto; padding:44px 24px 64px; }} h1 {{ font-siz
 .callout {{ background:#fff7eb; border:1px solid #f5d7ad; padding:16px; border-radius:10px; }} footer {{ color:var(--muted); margin-top:32px; font-size:13px; }}
 </style></head><body><main>
 <section class="hero"><p class="lead">FRECA Task2 · 离线实验汇报</p><h1>Gold 方法选择</h1>
-<p class="note">评测集为 34 条已确认 case×CP 共识。Gold 仅用于离线评分，未进入模型提示词；本页不代表 369/4,100 项正式结果。</p>
+<p class="note">评测集为 {gold_total} 条已确认 case×CP 共识。Gold 仅用于离线评分，未进入模型提示词；本页不代表 369/4,100 项正式结果。</p>
 <div class="winner"><strong>当前合格候选：{winner_id}</strong><br>资格门槛：coverage ≥ 90%，终态失败率 ≤ 10%；只有达标方法按一致率竞争。</div></section>
 <section><h2>方法排行榜</h2><table><thead><tr><th>运行</th><th>一致率</th><th>覆盖率</th><th>终态失败率</th><th>匹配 / 已评测</th><th>资格</th></tr></thead><tbody>{_method_rows(build_dir, rows)}</tbody></table></section>
 <section><h2>Ledger 误差诊断</h2><div class="callout"><strong>v2 重点：</strong>将“主体矛盾、证据不足或无法确认”错误输出为 N/A 的情况规范化为 0；N/A 仅允许模型原始适用性为 NOT_APPLICABLE 且具有法规依据。另行比较全量复核与扩大、去污染证据包。</div>{_ledger_cp_tables(build_dir, rows)}</section>
-<section><h2>解释口径</h2><div class="grid"><div class="card"><strong>一致率</strong>matched / evaluated，仅在有最终 verdict 的项上计算。</div><div class="card"><strong>覆盖率</strong>evaluated / 34；BLOCKED、FAILED 仍计入分母。</div><div class="card"><strong>失败率</strong>(BLOCKED + FAILED) / 34，不因缺失输出而抬高结果。</div></div></section>
+<section><h2>解释口径</h2><div class="grid"><div class="card"><strong>一致率</strong>matched / evaluated，仅在有最终 verdict 的项上计算。</div><div class="card"><strong>覆盖率</strong>evaluated / {gold_total}；BLOCKED、FAILED 仍计入分母。</div><div class="card"><strong>失败率</strong>(BLOCKED + FAILED) / {gold_total}，不因缺失输出而抬高结果。</div></div></section>
 <footer>生成时间：{datetime.now(timezone.utc).isoformat()} · 来源：{escape(str(comparison_path))}</footer>
 </main></body></html>"""
     output.write_text(html, encoding="utf-8")
