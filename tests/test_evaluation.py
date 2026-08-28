@@ -1,6 +1,11 @@
 from pathlib import Path
 
-from freca.evaluation import compare_reports, evaluate_run, load_gold_labels
+from freca.evaluation import (
+    GoldLabel,
+    compare_reports,
+    evaluate_run,
+    load_gold_labels,
+)
 from freca.models import Applicability, AuditDecision, Verdict
 from freca.state import atomic_write_json
 
@@ -15,6 +20,31 @@ def test_load_gold_labels_includes_only_confirmed_verdicts() -> None:
     assert (35, "CP35") not in labels
     assert (23, "CP17") not in labels
     assert (23, "CP19") not in labels
+
+
+def test_load_gold_labels_consensus_v2_has_37_labels_with_re_number() -> None:
+    labels = load_gold_labels(Path("gold/consensus-v2.json"))
+
+    assert len(labels) == 37
+    assert labels[(65, "CP24")].verdict == "1"
+    assert labels[(65, "CP26")].verdict == "0"
+    assert labels[(74, "CP26")].verdict == "0"
+    assert labels[(23, "CP1")].re_number == "RE-NSW-2020-0144"
+    assert labels[(74, "CP26")].re_number == "RE-NSW-2020-0088"
+
+
+def test_gold_label_accepts_missing_re_number() -> None:
+    label = GoldLabel.model_validate(
+        {
+            "case_id": 1,
+            "cp_id": "CP1",
+            "verdict": "0",
+            "confirmed": True,
+            "note": "test",
+        }
+    )
+
+    assert label.re_number is None
 
 
 def _gold_file(tmp_path: Path, labels: list[tuple[int, str, str]]) -> Path:

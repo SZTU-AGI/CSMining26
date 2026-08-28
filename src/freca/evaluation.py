@@ -17,6 +17,7 @@ class GoldLabel(BaseModel):
     verdict: Verdict
     confirmed: bool
     note: str
+    re_number: str | None = None
 
 
 def _read_gold_payload(path: Path) -> dict:
