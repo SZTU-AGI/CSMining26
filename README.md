@@ -13,7 +13,8 @@
       原始值 · 到达间隔IAT · 时长/字节率 · 包长统计/分桶计数 · 对数/差分/分位/标志位
    │
    ▼  models.py    ── 3 个成员
-      LightGBM(class_weight=balanced) + XGBoost(softprob) + TabPFN(权重×2)
+      LightGBM(class_weight=balanced) + XGBoost(softprob) + ★TabICL v2(权重×2)
+      (TabICL 不可用时自动换成 TabPFN v2,同样权重×2;两者只取其一)
    │
    ▼  ensemble.py  ── 加权平均 predict_proba,再 ÷ 训练先验(先验校正)
    │
@@ -22,7 +23,7 @@
 
 **为什么这样设计**
 - **前5包特征**:应用/模式的"握手协商指纹"集中在流的头几个包;包长分桶粗略对应不同媒体负载,IAT 抓时序节律。
-- **树模型 + TabPFN 集成**:样本仅 1285、表格型、类不均衡——GBDT 稳、TabPFN 在小样本表格上很强,互补;TabPFN 权重 2 是多 seed 实测的最优。
+- **树模型 + 表格基础模型集成**:样本仅 1285、表格型、类不均衡——GBDT 稳,表格基础模型在小样本表格上很强,互补;基础模型权重 2 是多 seed 实测的最优。**TabICL v2 优于 TabPFN v2**(同集成同权重下 0.8314 vs 0.817),故定版用 TabICL。
 - **先验校正**:测试集分布未公开且"不一定均匀"(官方原话),除以训练先验削弱多数类偏置,对**主指标 Macro-F1**(每类等权)有帮助。
 
 ## 目录结构
@@ -32,7 +33,7 @@
 | `config.py` | 全局配置:数据路径(自动探测/环境变量覆盖)、种子、CV、模型超参、集成权重、先验开关 |
 | `data.py` | 加载 Training/Testing_set.csv,标签编码,先验 |
 | `features.py` | 特征工程(`build_features`) |
-| `models.py` | 模型工厂(lgb/xgb/tabpfn);**未装 TabPFN 自动降级 lgb+xgb** |
+| `models.py` | 模型工厂(lgb/xgb/**tabicl**/tabpfn);优先 TabICL,未装则 TabPFN,都没有则仅 lgb+xgb |
 | `ensemble.py` | 加权集成 + 先验校正 |
 | `evaluate.py` | 主指标 Macro-F1 + 辅指标 Accuracy/Weighted-F1 + 逐类 F1 + 多seed CV |
 | `train.py` | 交叉验证评测,打印成绩表 |
@@ -58,11 +59,14 @@ python run.py all       # 先评测再生成提交
 - **主指标 Macro-F1**(10 类严重不均衡,每类等权更贴合目标);**辅指标** Accuracy(=Micro-F1)、Weighted-F1。
 - 5 折 CV · 3 seed 诚实成绩:
 
-| 指标 | 分数 |
+| 集成配置 | ★ Macro-F1 |
 |---|---|
-| ★ Macro-F1 | **≈ 0.817** |
-| Accuracy (Micro-F1) | ≈ 0.822 |
-| Weighted-F1 | ≈ 0.827 |
+| **LGB + XGB + 2×TabICL v2(定版)** | **≈ 0.8314** |
+| LGB + XGB + 2×TabPFN v2(兜底配置) | ≈ 0.817 |
+| TabICL v2 单模型 | ≈ 0.8226 |
+| TabPFN v2 单模型 | ≈ 0.813 |
+
+兜底配置的辅指标:Accuracy(Micro-F1)≈ 0.822、Weighted-F1 ≈ 0.827。
 
 ## 诚实的天花板说明
 
@@ -82,5 +86,15 @@ python run.py all       # 先评测再生成提交
 
 ## 复现说明
 
-- 固定 `SEED`、`CV_SEEDS`;GBDT 确定性、TabPFN 近确定性。
-- 与最终提交脚本 `scratchpad/t3_submit_v3.py`、成绩脚本 `t3_final_metrics.py` 完全同源(同特征、同超参、同集成权重、同先验校正)。
+- **定版提交 = `python run.py submit`**(即 `predict.py`),直接用仓库现有的 `config.py`,
+  不需要任何额外脚本。产出 `submissions/submission.csv`(327 行、无表头,
+  md5 `00f5eed8aa39e3c700ec50069304ffb4`)。
+- 固定 `SEED=42`、`CV_SEEDS`;GBDT 确定性,TabICL / TabPFN 近确定性。
+- ⚠️ **TabICL 会在首次 `fit()` 时从 HuggingFace 下载 checkpoint**
+  `tabicl-classifier-v2-20260212.ckpt`(repo `jingang/TabICL`);国内机器需
+  `export HF_ENDPOINT=https://hf-mirror.com`。**这一步没有被 try/except 包住**——
+  `models.py` 的自动降级只覆盖"未安装 tabicl",不覆盖"装了但拿不到权重",
+  后者会直接抛异常中断,而不是降级。离线复现请先把 checkpoint 放进 HF 缓存;
+  或设 `USE_TABICL=False` 走 TabPFN 兜底,但那样成绩降到 ≈0.817,**不是定版**。
+- ⚠️ `submissions/submission_task3.csv` 是**旧版本**(md5 不同)。定版是
+  `submission.csv`,与 `submission_task3_tabicl.csv` 内容相同。
