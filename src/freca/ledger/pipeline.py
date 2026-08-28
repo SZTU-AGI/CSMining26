@@ -54,8 +54,9 @@ from freca.ledger.baseline import (
     build_baseline_report,
     method_from_legacy_finals,
 )
-from freca.ledger.config import LedgerConfig, ReviewMode
+from freca.ledger.config import LedgerConfig, ReviewMode, RubricSource
 from freca.ledger.critic import ConflictCritic
+from freca.ledger.criteria import CriteriaTable
 from freca.ledger.extraction import (
     build_case_ledger,
     build_extractor,
@@ -265,6 +266,10 @@ def build_rubrics(
     client = stage_client(config, "rubric", store)
     endpoint = config.endpoint("rubric")
 
+    criteria = None
+    if config.ledger.rubric.source is RubricSource.CURATED:
+        criteria = CriteriaTable.load(config.ledger.rubric.criteria_xlsx)
+
     generator = RubricGenerator(
         config=config.ledger.rubric,
         client=client,
@@ -272,6 +277,7 @@ def build_rubrics(
         retrieval_config=config.pipeline.retrieval,
         reranker=_reranker(config, store),
         model_name=getattr(endpoint, "model", "unconfigured"),
+        criteria=criteria,
     )
 
     targets = list(cp_ids) if cp_ids is not None else list(ALL_CP_IDS)

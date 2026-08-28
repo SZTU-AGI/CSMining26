@@ -40,13 +40,15 @@ from freca.config import RetrievalConfig
 from freca.llm import JsonChatClient
 from freca.models import CheckpointDefinition, EvidenceChunk
 
-from freca.ledger.config import RubricConfig
+from freca.ledger.config import RubricConfig, RubricSource
+from freca.ledger.criteria import CURATED_CHUNK_PREFIX, CriteriaTable, curated_chunk
 from freca.ledger.models import CheckpointRubric, CriterionKind, RubricCriterion
 from freca.ledger.store import LedgerStore
 from freca.ledger.taxonomy import EVIDENCE_CATEGORIES
 from freca.state import build_cache_key
 
 RUBRIC_PROMPT_VERSION = "rubric-v1"
+RUBRIC_CURATED_PROMPT_VERSION = "rubric-curated-v1"
 
 _RUBRIC_SYSTEM = """You convert retrieved official regulation text into an explicit audit rubric
 for ONE checking point. You do not audit any case and you never see case material.
@@ -64,6 +66,33 @@ Hard rules:
    and the regulatory basis for it not applying) and at least one of kind "supporting".
    Add "contrary" criteria for what would demonstrate a breach, and "exception_timing"
    criteria when the regulation states exemptions, transition periods or deadlines.
+6. `facts_to_verify` lists the concrete factual questions an auditor must answer from case
+   material. `required_evidence_categories` names the form the proof must take.
+
+Return only an object matching the supplied JSON schema."""
+
+
+_CURATED_SYSTEM = """You convert the team's curated scoring standard and retrieved official
+regulation text into an explicit audit rubric for ONE checking point. You do not audit any
+case and you never see case material.
+
+Hard rules:
+1. The chunk whose chunk_id starts with "curated:" is the AUTHORITATIVE curated scoring
+   standard for this checking point (red line plus the full scoring criteria). Derive every
+   criterion primarily from that chunk; the remaining chunks are underlying regulation
+   clauses you may cite to enrich or sharpen criteria. If neither the curated standard nor
+   the clauses state a requirement, do not invent one.
+2. Every criterion MUST list at least one `policy_citations` entry, and each entry MUST be a
+   chunk_id present in the supplied chunks (the curated chunk's id included).
+3. Do not state a verdict, a score, a weighting, or a pass mark. You describe what the
+   standard requires and what would contradict it; you do not decide anything.
+4. Do not copy numeric thresholds, retention periods, or timing rules unless the supplied text
+   states them. Quote the curated standard's or the regulation's own wording in `statement`
+   where possible.
+5. Provide at least one criterion of kind "applicability" (when this checking point applies,
+   and the regulatory basis for it not applying) and at least one of kind "supporting".
+   Add "contrary" criteria for what would demonstrate a breach, and "exception_timing"
+   criteria when the standard states exemptions, transition periods or deadlines.
 6. `facts_to_verify` lists the concrete factual questions an auditor must answer from case
    material. `required_evidence_categories` names the form the proof must take.
 
@@ -164,12 +193,13 @@ def rubric_input_hash(
     checkpoint: CheckpointDefinition,
     policy_chunks: Sequence[EvidenceChunk],
     generator: dict[str, str],
+    prompt_version: str = RUBRIC_PROMPT_VERSION,
 ) -> str:
     """Hash everything a rubric derives from, so caching stays reproducible."""
 
     return build_cache_key(
         {
-            "prompt_version": RUBRIC_PROMPT_VERSION,
+            "prompt_version": prompt_version,
             "cp_id": checkpoint.cp_id,
             "cp_text": checkpoint.text,
             "element_title": checkpoint.element_title,
@@ -187,16 +217,29 @@ def _render_policy(chunks: Sequence[EvidenceChunk], *, char_limit: int) -> str:
     blocks = []
     for chunk in chunks:
         location = chunk.location.model_dump(exclude_none=True)
-        content = (chunk.content or "")[:char_limit]
+        content = chunk.content or ""
+        # The curated scoring standard is exempt from the snippet limit: it is
+        # the team's authoritative criterion text, not raw PDF noise.
+        if chunk.chunk_id.startswith(CURATED_CHUNK_PREFIX):
+            label = "CURATED SCORING STANDARD"
+        else:
+            label = "POLICY"
+            content = content[:char_limit]
         blocks.append(
-            f"POLICY chunk_id={chunk.chunk_id} source_file={chunk.source_file} "
+            f"{label} chunk_id={chunk.chunk_id} source_file={chunk.source_file} "
             f"location={location}\n{content}"
         )
     return "\n\n".join(blocks)
 
 
 def _snippets(chunks: Sequence[EvidenceChunk], *, char_limit: int) -> dict[str, str]:
-    return {chunk.chunk_id: (chunk.content or "")[:char_limit] for chunk in chunks}
+    snippets: dict[str, str] = {}
+    for chunk in chunks:
+        content = chunk.content or ""
+        if not chunk.chunk_id.startswith(CURATED_CHUNK_PREFIX):
+            content = content[:char_limit]
+        snippets[chunk.chunk_id] = content
+    return snippets
 
 
 def _fallback_rubric(
@@ -208,6 +251,7 @@ def _fallback_rubric(
     input_hash: str,
     config: RubricConfig,
     reason: str,
+    prompt_version: str = RUBRIC_PROMPT_VERSION,
 ) -> CheckpointRubric:
     """A minimal, honest rubric used when no model is available.
 
@@ -263,7 +307,7 @@ def _fallback_rubric(
         policy_snippets=_snippets(policy_chunks, char_limit=config.snippet_char_limit),
         retrieval_queries=list(queries),
         generator={**generator, "degraded": reason},
-        rubric_version=f"{RUBRIC_PROMPT_VERSION}:degraded",
+        rubric_version=f"{prompt_version}:degraded",
         input_hash=input_hash,
     )
 
@@ -278,11 +322,18 @@ class RubricGenerator:
     retrieval_config: RetrievalConfig | None = None
     reranker: Any = None
     model_name: str = "unconfigured"
+    criteria: CriteriaTable | None = None
+
+    @property
+    def prompt_version(self) -> str:
+        if self.config.source is RubricSource.CURATED:
+            return RUBRIC_CURATED_PROMPT_VERSION
+        return RUBRIC_PROMPT_VERSION
 
     @property
     def generator_identity(self) -> dict[str, str]:
         return {
-            "prompt_version": RUBRIC_PROMPT_VERSION,
+            "prompt_version": self.prompt_version,
             "model": self.model_name,
             "mode": "llm" if self.client is not None else "degraded",
         }
@@ -307,11 +358,22 @@ class RubricGenerator:
                 f"no policy context retrieved for {checkpoint.cp_id}; "
                 "a rubric cannot cite the regulation"
             )
+        if self.config.source is RubricSource.CURATED:
+            if self.criteria is None:
+                raise ValueError("rubric.source=curated requires a loaded criteria table")
+            policy_chunks = [
+                curated_chunk(
+                    self.criteria.entry(checkpoint.cp_id),
+                    cp_id=checkpoint.cp_id,
+                    table=self.criteria,
+                )
+            ] + list(policy_chunks)
         generator = self.generator_identity
         input_hash = rubric_input_hash(
             checkpoint=checkpoint,
             policy_chunks=policy_chunks,
             generator=generator,
+            prompt_version=self.prompt_version,
         )
 
         if self.store is not None and self.config.cache_enabled:
@@ -367,6 +429,7 @@ class RubricGenerator:
                 input_hash=input_hash,
                 config=self.config,
                 reason="no model client configured",
+                prompt_version=self.prompt_version,
             )
 
         available = {chunk.chunk_id for chunk in policy_chunks}
@@ -388,7 +451,11 @@ class RubricGenerator:
         )
         try:
             payload = self.client.complete_json(
-                system=_RUBRIC_SYSTEM,
+                system=(
+                    _CURATED_SYSTEM
+                    if self.config.source is RubricSource.CURATED
+                    else _RUBRIC_SYSTEM
+                ),
                 user=user,
                 schema=_RUBRIC_SCHEMA,
             )
@@ -406,7 +473,7 @@ class RubricGenerator:
                 ),
                 retrieval_queries=list(queries),
                 generator=generator,
-                rubric_version=RUBRIC_PROMPT_VERSION,
+                rubric_version=self.prompt_version,
                 input_hash=input_hash,
             )
         except Exception as exc:  # noqa: BLE001 - degrade instead of failing the run
@@ -418,6 +485,7 @@ class RubricGenerator:
                 input_hash=input_hash,
                 config=self.config,
                 reason=f"{type(exc).__name__}: {exc}",
+                prompt_version=self.prompt_version,
             )
         return rubric
 

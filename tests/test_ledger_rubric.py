@@ -526,3 +526,141 @@ def test_from_yaml_resolves_criteria_xlsx_against_config_dir(tmp_path) -> None:
     config = LedgerConfig.from_yaml(config_path)
 
     assert config.ledger.rubric.criteria_xlsx == (tmp_path / "my-criteria.xlsx").resolve()
+
+
+# -- curated rubric source ---------------------------------------------------
+
+
+def _criteria_table() -> "CriteriaTable":
+    from freca.ledger.criteria import CriteriaEntry, CriteriaTable
+
+    return CriteriaTable(
+        entries={
+            "CP9": CriteriaEntry(
+                redline="红线命题（含门槛）",
+                criteria_text="评分标准正文 TAIL_MARKER_" + "字" * 2000,
+                row_index=10,
+            )
+        },
+        sha256="c" * 64,
+        source_name="criteria.xlsx",
+        sheet_name="CP评分标准",
+    )
+
+
+def _curated_generator(payload: dict) -> RubricGenerator:
+    from pathlib import Path
+
+    from freca.ledger.config import RubricSource
+
+    return RubricGenerator(
+        config=RubricConfig(
+            source=RubricSource.CURATED, criteria_xlsx=Path("criteria.xlsx")
+        ),
+        client=StubJsonClient([payload]),
+        model_name="stub",
+        criteria=_criteria_table(),
+    )
+
+
+def test_curated_mode_prepends_untruncated_pseudo_chunk() -> None:
+    from freca.ledger.rubric import RUBRIC_CURATED_PROMPT_VERSION
+
+    generator = _curated_generator(
+        _rubric_payload(citations=("curated:CP9", "policy-1"))
+    )
+
+    rubric, _ = generator.generate(
+        checkpoint=_checkpoint(), policy_index=FakePolicyIndex(_chunks())
+    )
+
+    assert "curated:CP9" in rubric.policy_chunk_ids
+    assert "TAIL_MARKER_" in rubric.policy_snippets["curated:CP9"]
+    assert len(rubric.policy_snippets["curated:CP9"]) > 1800
+    user = generator.client.calls[0]["user"]
+    assert "TAIL_MARKER_" in user
+    assert "CURATED SCORING STANDARD chunk_id=curated:CP9" in user
+    assert rubric.rubric_version == RUBRIC_CURATED_PROMPT_VERSION
+    assert rubric.generator["prompt_version"] == RUBRIC_CURATED_PROMPT_VERSION
+
+
+def test_curated_mode_keeps_retrieval_queries_unchanged() -> None:
+    policy_generator = RubricGenerator(
+        config=RubricConfig(),
+        client=StubJsonClient([_rubric_payload()]),
+        model_name="stub",
+    )
+    curated_index = FakePolicyIndex(_chunks())
+    policy_index = FakePolicyIndex(_chunks())
+
+    _curated_generator(_rubric_payload(citations=("curated:CP9", "policy-1"))).generate(
+        checkpoint=_checkpoint(), policy_index=curated_index
+    )
+    policy_generator.generate(checkpoint=_checkpoint(), policy_index=policy_index)
+
+    assert curated_index.queries == policy_index.queries
+
+
+def test_curated_and_policy_arm_hashes_differ() -> None:
+    from freca.ledger.criteria import curated_chunk
+    from freca.ledger.rubric import RUBRIC_CURATED_PROMPT_VERSION
+
+    checkpoint = _checkpoint()
+    policy_chunks = _chunks()
+    generator_policy = {
+        "prompt_version": RUBRIC_PROMPT_VERSION,
+        "model": "m",
+        "mode": "llm",
+    }
+    generator_curated = {
+        "prompt_version": RUBRIC_CURATED_PROMPT_VERSION,
+        "model": "m",
+        "mode": "llm",
+    }
+
+    policy_hash = rubric_input_hash(
+        checkpoint=checkpoint, policy_chunks=policy_chunks, generator=generator_policy
+    )
+    curated_hash = rubric_input_hash(
+        checkpoint=checkpoint,
+        policy_chunks=[
+            curated_chunk(_criteria_table().entry("CP9"), cp_id="CP9", table=_criteria_table())
+        ]
+        + policy_chunks,
+        generator=generator_curated,
+        prompt_version=RUBRIC_CURATED_PROMPT_VERSION,
+    )
+    default_hash = rubric_input_hash(
+        checkpoint=checkpoint, policy_chunks=policy_chunks, generator=generator_policy
+    )
+
+    assert curated_hash != policy_hash
+    assert default_hash == policy_hash
+
+
+def test_curated_missing_cp_row_raises_key_error() -> None:
+    from freca.ledger.criteria import CriteriaTable
+
+    table = CriteriaTable(
+        entries={},
+        sha256="c" * 64,
+        source_name="criteria.xlsx",
+        sheet_name="CP评分标准",
+    )
+    generator = RubricGenerator(
+        config=RubricConfig(
+            source=_rubric_source_curated(), criteria_xlsx=__import__("pathlib").Path("x.xlsx")
+        ),
+        client=StubJsonClient([]),
+        model_name="stub",
+        criteria=table,
+    )
+
+    with pytest.raises(KeyError):
+        generator.generate(checkpoint=_checkpoint(), policy_index=FakePolicyIndex(_chunks()))
+
+
+def _rubric_source_curated():
+    from freca.ledger.config import RubricSource
+
+    return RubricSource.CURATED
