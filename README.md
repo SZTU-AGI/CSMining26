@@ -3,7 +3,9 @@
 一套**任务一(包装材料差异挖掘)的标准评测 Pipeline**。数据加载、评分、提交格式都已标准化,
 **你只需实现一个模型接口,就能在同一套评测下跑自己的模型、和基线公平对比。**
 
-> 📌 **正式提交用 `run_ensemble.py`(多seed集成),诚实鲁棒 F1 ≈ 0.92~0.935。**
+> 📌 **定版提交用 `make_submission_fused.py`** —— U-Net 3-seed 集成 **+ TASL 热图融合**。
+> 产出 `submissions/submission_task1.csv`(665 框,box 阈值 **0.55**,md5 `0c8a08f0cd7e887293863b8cf602844c`)。
+> ⚠️ `run_ensemble.py` 是**前一版**(纯 U-Net 集成,无 TASL),保留作对照,**不要用它出提交**。
 > 方法论、对抗式审查记录、评估口径的详细说明见 [FINDINGS.md](FINDINGS.md)。
 
 ## 这是什么
@@ -28,8 +30,10 @@ models/
   base.py      ★ 模型接口 BaseModel + 注册表
   classical.py 参考实现①(基线)
   unet.py      参考实现②(U-Net)
+  SSIM/tasl.py TASL(ECC 仿射对齐 + 文本感知 SSIM)—— 定版融合的第二路
+make_submission_fused.py ★定版提交:U-Net ens3 + TASL 热图融合(w=0.15),按 box 阈值各出一份
 run.py         选模型 → 全量训练 → 预测测试集 → submission.csv(单模型)
-run_ensemble.py ★推荐提交:多seed集成(热图平均)+ TTA → submission_ens.csv
+run_ensemble.py 多seed集成(热图平均)+ TTA → submission_ens.csv(**定版的前一版**,留作对照)
 validate.py    选模型 → 单一留出(留40张)算 F1(快,但易被抽样运气误导)
 validate_oof.py ★诚实评估:K折 OOF(全200张,单模型/多seed集成),复现 ~0.93 口径
 bench_baselines.py  批量跑强baseline对比表(smp骨干/FC-Siam等)
@@ -52,9 +56,13 @@ pip install torch                         # 用 U-Net 才需要(有 GPU 更快)
 python validate.py --model classical      # 基线,CPU,秒级
 python validate.py --model unet           # U-Net,需 GPU,训练约 20 分钟
 
-# 生成提交文件
+# ★ 生成定版提交(两步:先全量训 4 个模型,再融合出框)
+python make_submission_fused.py train     # U-Net×3(seed 0/1/2)+ TASL×1,全部 200 张,不留验证集
+python make_submission_fused.py infer     # 融合热图 → 0.45~0.65 各出一份;**我们交的是 box=0.55**
+
+# 对照用(非定版)
 python run.py --model unet                # 单模型 → outputs/submission.csv
-python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs/submission_ens.csv
+python run_ensemble.py                    # 纯 U-Net 3路集成+TTA → outputs/submission_ens.csv
 ```
 
 > ⚠️ **评估口径要诚实**(100张测试图无公开标签,只能在200张有标注图上评):
@@ -63,7 +71,7 @@ python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs
 >   跑法:`python validate_oof.py --ensemble 3`(部署口径);换 `--split-seed 1` 再跑一次做多seed确认。
 > - 详见 [FINDINGS.md](FINDINGS.md) 的"评估口径"一节。
 
-## ★ 为什么提交要用集成(run_ensemble.py),而不是单模型 run.py
+## ★ 为什么骨干要用集成,而不是单模型
 
 **单模型的误报方差极大。** 200 张小数据集 + 训练随机性下,某些噪声重的图会触发"误报级联"
 (单张几十~几百个假框:扫描/印刷斑点被高通差分读成小差异)。实测 K 折 OOF(全 200):
@@ -77,8 +85,34 @@ python run_ensemble.py                    # ★推荐:3路集成+TTA → outputs
 
 **多seed集成(对不同 seed 的成员热图取平均)是对症解**:一个假框要多个模型同时幻觉才存活,
 而级联是模型专属的 → 被平均掉。集成在好折也更优,不是以牺牲简单场景为代价。
-**故正式提交请用 `run_ensemble.py`。** 阈值默认 (0.3, 0.5) 是集成后 OOF 最优
-(集成已压住误报,用召回友好的较低 box 阈值;单模型时代的 box=0.6 是遮误报的"创可贴")。
+**故定版以 3-seed 集成为骨干**,并在其之上再融合 TASL(见下节)。
+(`run_ensemble.py` 的默认阈值 (0.3, 0.5) 是**纯 U-Net 集成**下的 OOF 最优:集成已压住误报,
+可以改用召回友好的较低 box 阈值;单模型时代的 box=0.6 是遮误报的"创可贴"。
+融合 TASL 后重扫的操作点是 **0.55**,见下节。)
+
+## ★ 定版方法:U-Net ens3 + TASL 热图融合
+
+集成压住了误报方差,但**漏检还在**。TASL(ECC 仿射对齐 + 文本感知 SSIM)与我们的高通差分
+**不同源**:它修的是"平移对不齐"的图,而我们漏的是另一类。单 seed / split0 / 289 个 GT 实测,
+U-Net 漏的 24 个里 TASL 捞回 **14 个(58%)**。
+
+融合在**热图层**做:`hm = (1−w)·hm_UNet + w·hm_TASL`,w=0.15(窗口很窄,w≥0.30 崩到 0.92)。
+
+| 双 split 留出 | split0 | split1 |
+|---|---|---|
+| U-Net ens3(前一版) | 0.9684 | 0.9581 |
+| **U-Net ens2 + TASL(同等 3 模型)** | **0.9738** | **0.9636** |
+| U-Net ens3 + TASL(定版,4 模型) | 0.9719 | 0.9711 |
+
+中间一行是**证据而非成绩**:只比 4 模型 vs 3 模型,赢了也说明不了问题——可能只是模型更多。
+设同等模型数对照后**两个 split 都赢**(+0.0054 / +0.0055),才能说 TASL 带来的是新信息。
+
+**定版产物**:`submissions/submission_task1.csv` —— 665 框 / 100 图,box 阈值 **0.55**,
+md5 `0c8a08f0cd7e887293863b8cf602844c`。`infer` 一次导出 0.45~0.65 五档,其中 **0.55 与 0.60
+出的是同一个文件**(md5 相同)——这个操作点是稳健的,不是踩点挑出来的。
+
+> ⚠️ `submissions/` 下另有 `submission_task1_tuned.csv`(662 框)是**被取代的旧定版**,
+> 由 `run_ensemble.py` 一路产出、不含 TASL。**别交它,也别拿它当复现目标。**
 
 ## ★ 接入你自己的模型(三步)
 
