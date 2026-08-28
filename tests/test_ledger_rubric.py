@@ -479,3 +479,48 @@ def test_the_module_contains_no_checkpoint_specific_answer_map():
     assert not re.search(r"\bCP\d+\b", code)
     # No verdict literal is produced here.
     assert '"1"' not in code and "'1'" not in code
+
+
+# -- curated rubric source config -------------------------------------------
+
+
+def test_curated_source_requires_criteria_xlsx() -> None:
+    from pydantic import ValidationError
+
+    from freca.ledger.config import RubricSource
+
+    with pytest.raises(ValidationError):
+        RubricConfig(source=RubricSource.CURATED)
+
+
+def test_policy_source_rejects_criteria_xlsx() -> None:
+    from pathlib import Path
+
+    from pydantic import ValidationError
+
+    from freca.ledger.config import RubricSource
+
+    with pytest.raises(ValidationError):
+        RubricConfig(
+            source=RubricSource.POLICY,
+            criteria_xlsx=Path("criteria.xlsx"),
+        )
+    with pytest.raises(ValidationError):
+        RubricConfig(source=RubricSource.CURATED, criteria_xlsx=None)
+
+
+def test_from_yaml_resolves_criteria_xlsx_against_config_dir(tmp_path) -> None:
+    from freca.ledger.config import LedgerConfig
+
+    root = Path(__file__).parents[1]
+    source = (root / "config.ledger.minimax.na-gate.yaml").read_text(encoding="utf-8")
+    source = source.replace(
+        "  rubric: {max_workers: 1}",
+        "  rubric: {max_workers: 1, source: curated, criteria_xlsx: my-criteria.xlsx}",
+    )
+    config_path = tmp_path / "config.test.curated.yaml"
+    config_path.write_text(source, encoding="utf-8")
+
+    config = LedgerConfig.from_yaml(config_path)
+
+    assert config.ledger.rubric.criteria_xlsx == (tmp_path / "my-criteria.xlsx").resolve()

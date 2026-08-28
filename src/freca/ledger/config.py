@@ -20,7 +20,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from pydantic import Field
+from pydantic import Field, model_validator
 
 from freca.config import (
     ModelEndpointConfig,
@@ -65,12 +65,29 @@ class ExtractionConfig(StrictConfig):
     segment_char_limit: int = Field(default=900, ge=100)
 
 
+class RubricSource(StrEnum):
+    """Where Stage B grounds the rubric."""
+
+    POLICY = "policy"
+    CURATED = "curated"
+
+
 class RubricConfig(StrictConfig):
     policy_limit: int = Field(default=12, ge=1)
     max_criteria: int = Field(default=10, ge=1)
     snippet_char_limit: int = Field(default=1800, ge=200)
     cache_enabled: bool = True
     max_workers: int = Field(default=4, ge=1)
+    source: RubricSource = RubricSource.POLICY
+    criteria_xlsx: Path | None = None
+
+    @model_validator(mode="after")
+    def source_matches_criteria_xlsx(self) -> "RubricConfig":
+        if self.source is RubricSource.CURATED and self.criteria_xlsx is None:
+            raise ValueError("rubric.source=curated requires rubric.criteria_xlsx")
+        if self.source is RubricSource.POLICY and self.criteria_xlsx is not None:
+            raise ValueError("rubric.criteria_xlsx is only valid with rubric.source=curated")
+        return self
 
 
 class SelectionConfig(StrictConfig):
@@ -183,9 +200,16 @@ class LedgerConfig(StrictConfig):
         ledger_raw = raw.pop(LEDGER_SECTION, None) or {}
         pipeline = PipelineConfig.model_validate(raw)
         pipeline = _resolve_paths(pipeline, path.parent)
+        settings = LedgerSettings.model_validate(ledger_raw)
+        criteria_xlsx = settings.rubric.criteria_xlsx
+        if criteria_xlsx is not None and not criteria_xlsx.is_absolute():
+            rubric = settings.rubric.model_copy(
+                update={"criteria_xlsx": (path.parent / criteria_xlsx).resolve()}
+            )
+            settings = settings.model_copy(update={"rubric": rubric})
         return cls(
             pipeline=pipeline,
-            ledger=LedgerSettings.model_validate(ledger_raw),
+            ledger=settings,
             source_path=path,
         )
 
@@ -261,5 +285,6 @@ __all__ = [
     "ReviewConfig",
     "ReviewMode",
     "RubricConfig",
+    "RubricSource",
     "SelectionConfig",
 ]
