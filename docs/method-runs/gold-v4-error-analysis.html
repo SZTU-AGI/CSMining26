@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRECA Task2 · Gold v4 双 rubric 对比与误差分析</title>
+<style>
+:root { color-scheme: light; --ink:#16233b; --muted:#62708a; --line:#dbe3ef; --blue:#2457d6; --soft:#edf4ff; --green:#057a55; --amber:#a15500; --red:#b3261e; }
+* { box-sizing:border-box } body { margin:0; background:#f5f8fc; color:var(--ink); font:15px/1.65 system-ui,-apple-system,"Microsoft YaHei",sans-serif; }
+main { max-width:1080px; margin:auto; padding:44px 24px 64px; } h1 { font-size:30px; margin:0 0 8px; } h2 { margin:38px 0 12px; font-size:21px; border-left:4px solid var(--blue); padding-left:10px; } h3 { margin:20px 0 8px; font-size:16px; }
+.lead,.note { color:var(--muted); margin:0; } .hero { background:linear-gradient(135deg,#edf4ff,#fff); border:1px solid var(--line); border-radius:16px; padding:28px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px; }
+.card { background:#fff; border:1px solid var(--line); padding:16px; border-radius:12px; } .card strong { display:block; font-size:20px; color:var(--blue); margin-bottom:4px; }
+table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; margin:10px 0 4px; } th,td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top; } th { background:#f0f5fc; font-weight:650; white-space:nowrap; } tr:last-child td { border-bottom:0 }
+code { font-size:13px; background:var(--soft); padding:1px 5px; border-radius:4px; }
+blockquote { margin:8px 0; padding:10px 14px; background:#fffdf6; border-left:3px solid #f5d7ad; border-radius:6px; font-size:13.5px; color:#4a4633; }
+.callout { background:#fff7eb; border:1px solid #f5d7ad; padding:16px; border-radius:10px; margin:12px 0; }
+.ok { color:var(--green); font-weight:650; } .bad { color:var(--red); font-weight:650; } .warn { color:var(--amber); font-weight:650; }
+.tag { display:inline-block; border-radius:999px; padding:1px 9px; font-size:12px; font-weight:650; } .t-strict { color:var(--red); background:#fdeceb; } .t-lenient { color:var(--amber); background:#fff1df; }
+footer { color:var(--muted); margin-top:36px; font-size:13px; }
+.small { font-size:12.5px; color:var(--muted); }
+</style></head><body><main>
+<section class="hero">
+<p class="lead">FRECA Task2 · 离线实验汇报 · 2026-08-29</p>
+<h1>Gold v4 双 rubric 对比 · 误差 Trace 分析 · v5 规则消融</h1>
+<p class="note">金标 <strong>37 条</strong>（consensus-v2：8/26 表 34 条 + 新增 3 条）；模型 MiniMax-M3；金标与人工共识理由未进入任何提示词；全部 run 覆盖率 100%、终态失败率 0。</p>
+<div class="grid">
+<div class="card"><strong>83.8%</strong>PDF rubric + na-gate（并列冠军）</div>
+<div class="card"><strong>-18.9pp</strong>人工评分标准直接作主源（64.9%）</div>
+<div class="card"><strong>6 格</strong>冠军残差 = 3 类人类审计约定</div>
+<div class="card"><strong id="v5-hero">v5 净 -2~-5</strong>规则精确命中靶点格，但整体净负 → 不并入</div>
+</div></section>
+
+<section><h2>1 · 实验怎么跑的</h2>
+<p>四条 v4 run 构成 <strong>2×2 单变量消融</strong>：<code>rubric 来源（PDF 检索派生 vs 正天 8/26 最终合并版）× conflict-critic（关 vs 开）</code>。每对比较只动一个变量：检索 queries 逐字节相同、Stage A/C/D/E 配置相同、缓存按 prompt 版本隔离。rubric 生成方式——PDF 臂由检索到的 Rules 2021 原文条款派生判定标准；curated 臂在检索结果前 prepend 该 CP 的「红线R3+评分标准」全文（伪 chunk，不截断），其余完全一致。消融验证抽查：<code>CP26.json</code> curated 臂含 <code>curated:CP26</code> 全文 3,177 字、版本 <code>rubric-curated-v1</code>，PDF 臂不受影响。</p></section>
+
+<section><h2>2 · v4 结果</h2>
+<table><thead><tr><th>运行</th><th>rubric 来源</th><th>critic</th><th>一致率</th><th>错误方向</th></tr></thead><tbody>
+<tr><td><code>ledger-na-gate-gold-v4</code></td><td>PDF 派生</td><td>无</td><td class="ok">31/37（83.8%）并列冠军</td><td>过严 5 / 过松 1</td></tr>
+<tr><td><code>ledger-curated-conflict-critic-gold-v4</code></td><td>人工评分标准</td><td>有</td><td class="ok">31/37（83.8%）并列冠军</td><td>含 1 个降级 rubric</td></tr>
+<tr><td><code>ledger-conflict-critic-gold-v4</code></td><td>PDF 派生</td><td>有</td><td>28/37（75.7%）</td><td></td></tr>
+<tr><td><code>ledger-curated-na-gate-gold-v4</code></td><td>人工评分标准</td><td>无</td><td class="bad">24/37（64.9%）</td><td>过严 8 / 过松 4 / N/A 1</td></tr>
+</tbody></table>
+<p class="small">两条冠军错误集不同：共同错 3 格，各自独有 3 格。rubric 来源与 critic 存在交互：PDF 臂加 critic −8.1pp，curated 臂加 critic +18.9pp。</p></section>
+
+<section><h2>3 · 为什么人工评分标准直接接入反而掉 18.9pp</h2>
+<p>正天的最终合并版本身没有问题——它塑造了人工金标、也支撑了王博流水线的 81%。问题出在<strong>把它直接喂给模型当判定依据</strong>：</p>
+<table><thead><tr><th>机制</th><th>说明</th></tr></thead><tbody>
+<tr><td><strong>压缩命题丢失推理链</strong></td><td>红线是结论式命题（如「害虫防治站应适合其用途并处于良好工作状态」），没有法规原文的定义、适用条件、例外。模型只能自己脑补「什么算达标」，方向漂移双向（8 严 / 4 松）。PDF 臂的 rubric 逐字引用条款操作用语（4-2(1)/4-2(3)/4-2(4)），而人工共识正是人读法规做出来的——<strong>逐字引用法规的推理恰好与人收敛</strong>。</td></tr>
+<tr><td><strong>适用链被读死</strong></td><td>023/CP15 curated 臂把标准里的适用条件当成绝对前提，直接输出 N/A。</td></tr>
+<tr><td><strong>判准粒度变粗</strong></td><td>CP12 上 PDF 臂生成 9 条带条款号的标准，curated 臂 8 条且更概括，锚点减少。</td></tr>
+</tbody></table>
+<p><strong>定位建议</strong>：人工评分标准不作 rubric 主源；留作复核 / 交叉验证信号（见 §7）。</p></section>
+
+<section><h2>4 · 为什么不是 100% —— 冠军 6 格残差全 trace 复盘</h2>
+<p>首先排除检索问题：每个错误的 supporting evidence 都有 3–15 条，<strong>证据是够的，错在证明权衡</strong>。6 格全部落在三类「人类审计约定」上——这些约定没有一条写在 Rules 2021 文本里：</p>
+<table><thead><tr><th>类型</th><th>格</th><th>裁决 trace（摘录）</th><th>人 vs 模型</th></tr></thead><tbody>
+<tr><td><span class="tag t-strict">过严</span> <strong>A. 植入矛盾权重过高</strong></td><td>065/CP24<br>(gold 1→0)</td><td><blockquote>the case fact pack contains unresolved cross-document contradictions … RE-NSW-2021-0222 (Wheat) … RE-NSW-2019-0312 … The integrity ledger flags this as a BLOCKER identity mismatch.</blockquote>模型其实已标记 <code>site_plan_relates_to_different_establishment</code>，却把「无法确认」当成判 0 的理由。</td><td>人：Site Plan 是<strong>干扰文档</strong>，剔除后按本案文档的卫生证据判 1</td></tr>
+<tr><td><span class="tag t-strict">过严</span> <strong>B. 跨 CP 语义混线</strong></td><td>023·065·074/CP12<br>(gold 1→0)</td><td><blockquote>it documents 'Some non-operational corners show debris accumulation pending weekend clean-out' … does not meet the design-and-construction outcomes required by section 4-2(4)</blockquote></td><td>人：CP12 是<strong>设计/建造</strong>合规，<strong>临时保洁状态</strong>不构成设计缺陷（那是 CP24 的辖域）</td></tr>
+<tr><td><span class="tag t-strict">过严</span> <strong>C. 证明门槛校准</strong></td><td>065/CP15<br>(gold 1→0)</td><td>证据充分但模型要求更直接的筛分措施证明。</td><td>人：适用性成立后按主体一致证据即可判 1</td></tr>
+<tr><td><span class="tag t-lenient">过松</span> <strong>C'. 证据原子性</strong></td><td>065/CP35<br>(gold 0→1)</td><td><blockquote>a multi-document system of controls (HACCP Plan §10 …; Hygiene &amp; Sanitation Plan …; Farm Management …)</blockquote></td><td>人：CP35 要的是<strong>具体的风险评估产物</strong>，体系性证据不能替代</td></tr>
+</tbody></table>
+<p class="small">另有 065/CP24 类同源错误：065 系案例普遍混入了错档文档（不同 RE 号 / 商品），是 trace 中 A 类错误的共同背景。</p></section>
+
+<section><h2>5 · v3 scope 规则的历史教训（为什么 v5 不是简单复用）</h2>
+<p>代码库里 v3 已有一套 scope-aware 证据规则（<code>scope_aware_evidence</code>），内容与 §4 诊断高度重合，但 v3 实测<strong>净 −1 格</strong>（26/34 vs 冠军 27/34）：修好了 065/CP35 的过松，却弄坏了 023/CP14、035/CP12。回看规则文本可解释：其中「execution 类要求只认实际记录」条款让模型把<strong>管理计划/规程里的设计声明</strong>也拒掉了——恰好伤及 CP12 类「site-level design evidence」判 1 的路径。</p>
+<div class="callout"><strong>结论：</strong>规则措辞本身就是实验变量。v5 把两条规则<strong>拆开独立消融</strong>、并针对 v3 的翻车点改写（明确「管理计划/场地平面图/规程可作设计证据」）。</div></section>
+
+<section><h2>6 · v5 证据纪律规则消融（进行中）</h2>
+<p>两条通用规则（不含任何 CP / case / verdict 字面量，flag 全关时提示词与 v4 逐字节一致——有测试锁定）：</p>
+<table><thead><tr><th>规则</th><th>针对</th><th>内容要点</th></tr></thead><tbody>
+<tr><td><code>misfiled_evidence_rule</code></td><td>A 类过严</td><td>错档文档（注册号/名称/商品指向别家）整体剔除出证据集、记 quality_flags；身份矛盾本身<strong>永远不是判 0 的依据</strong>，本案文档能定就按本案文档定。</td></tr>
+<tr><td><code>design_atomicity_rule</code></td><td>B 类过严</td><td>区分<strong>永久设计充分性</strong>与<strong>瞬时运行状态</strong>：孤立的保洁疏漏/待清理 ≠ 设计缺陷；管理计划、场地平面图、规格书、规程均可作设计证据。</td></tr>
+</tbody></table>
+<p>三条 run（misfiled 单开 / atomicity 单开 / 双开）均以 na-gate 为基线、37 条金标、单变量。<span id="v5-result">结果：三条全部净负，冠军仍为 v4 na-gate。</span></p>
+<table><thead><tr><th>运行</th><th>规则</th><th>一致率</th><th>vs v4 冠军</th><th>修好（正中靶点）</th><th>弄坏（附带损伤）</th></tr></thead><tbody>
+<tr id="v5-row-misfiled"><td><code>ledger-v5-misfiled-gold-v4</code></td><td>misfiled</td><td class="bad">26/37（70.3%）</td><td>净 −5</td><td>065/CP24、065/CP35（正是 A 类靶点）</td><td>7 格（变严 3 + 变松 4）</td></tr>
+<tr id="v5-row-atomicity"><td><code>ledger-v5-atomicity-gold-v4</code></td><td>atomicity</td><td class="bad">28/37（75.7%）</td><td>净 −3</td><td>065/CP12、074/CP12（正是 B 类靶点）</td><td>5 格（变严 3 + 变松 2）</td></tr>
+<tr id="v5-row-both"><td><code>ledger-v5-both-gold-v4</code></td><td>双开</td><td class="bad">29/37（78.4%）</td><td>净 −2</td><td>023/CP12、065/CP24、074/CP12（A+B 全部靶点）</td><td>5 格（变严 2 + 变松 3）</td></tr>
+</tbody></table>
+<div class="callout"><strong>v5 结论（阴性结果，同样有价值）：</strong>两条规则<strong>都精确命中了自己针对的错误格</strong>——misfiled 修复的正是 065/CP24+CP35，atomicity 修复的正是 CP12 系，双开把 A+B 靶点 4 格全部翻转——说明 §4 的错误机制诊断是正确的。但提示词级规则无法外科手术式起作用：它会<strong>整体重置模型的证据权衡分布</strong>，在规则未针对的格子上引入双向噪声（变严+变松都有）。这与 v3 scope 规则净 −1 的教训一致且证据更强。残留 6 格错误本质是<strong>校准选择</strong>而非可用通用规则修掉的 bug，单变量提示词规则此路不通；提升一致率的正确路径是 §7 的分歧路由 + 扩充金标。</div>
+<p class="small">解读提醒：单次 run 存在 ±2 格的固有抖动（v3→v4 同配置共享 34 格上 27→29 的波动）；−5、−3 明确为负，双开的 −2 也在噪声带边缘，且无一条为正——不采纳的结论稳健。</p></section>
+
+<section><h2>7 · 建议与生产流程</h2>
+<ol>
+<li><strong>正式方案维持 ledger-na-gate（PDF rubric，83.8%）</strong>：v5 三条规则消融全部净负（§6），不改裁决提示词。</li>
+<li><strong>人工评分标准的定位</strong>：质检 / 交叉验证信号，不作 rubric 主源。</li>
+<li><strong>分歧路由</strong>（v5 实验进一步强化了这条路）：两条冠军臂在 37 格上恰好 6 格分歧（16%）——正式跑 4,100 格时把<strong>双臂分歧格自动送人工复核</strong>，按此外推全量约 650 格人工，比全人工省 84%。v5 证明了残留错误是校准选择：与其用规则硬掰（双向副作用），不如让双臂分歧自动圈出这些格子交给人。</li>
+<li><strong>下一轮改进靶点</strong>：CP12（1/5）、CP35（1/4）为跨口径顽固项；扩充金标（当前仅 5 case / 37 格）比继续调提示词更有边际收益。</li>
+</ol></section>
+
+<footer>数据来源：<code>build/method-comparison/gold-v4.json</code> · <code>build/evaluation/*.json</code> · 各 run <code>ledger/final/*.json</code> 裁决 trace · 详细文档 <code>docs/method-runs/gold-v4-summary.md</code></footer>
+</main></body></html>
