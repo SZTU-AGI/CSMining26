@@ -31,7 +31,30 @@ footer { color:var(--muted); margin-top:36px; font-size:13px; }
 <section><h2>1 · 实验怎么跑的</h2>
 <p>四条 v4 run 构成 <strong>2×2 单变量消融</strong>：<code>rubric 来源（PDF 检索派生 vs 正天 8/26 最终合并版）× conflict-critic（关 vs 开）</code>。每对比较只动一个变量：检索 queries 逐字节相同、Stage A/C/D/E 配置相同、缓存按 prompt 版本隔离。rubric 生成方式——PDF 臂由检索到的 Rules 2021 原文条款派生判定标准；curated 臂在检索结果前 prepend 该 CP 的「红线R3+评分标准」全文（伪 chunk，不截断），其余完全一致。消融验证抽查：<code>CP26.json</code> curated 臂含 <code>curated:CP26</code> 全文 3,177 字、版本 <code>rubric-curated-v1</code>，PDF 臂不受影响。</p></section>
 
-<section><h2>2 · v4 结果</h2>
+<section><h2>2 · 法规是怎么接入的（定点检索，不是全塞）</h2>
+<p>常见误解是「把法规/标准全部塞给模型」。实际设计是<strong>按检查点定点检索</strong>，每次只让模型看到与该 CP 相关的法规切片：</p>
+<table><thead><tr><th>阶段</th><th>机制</th></tr></thead><tbody>
+<tr><td><strong>离线（一次性）</strong></td><td>Rules 2021 PDF → 解析成 132 个 chunk → 建混合索引（BM25 + 向量 + 词法重排）</td></tr>
+<tr><td><strong>运行时 · 每 CP</strong></td><td>① 种子查询 ×3，<strong>只用官方 CP 措辞</strong>构造（CP号+要素+小节+检查点原文），三个角度：义务 / 适用范围 / 例外时限；② 检索按 query 去重取最高分，<strong>只留 top-12 个 chunk</strong>；③ 这 ~12 个切片（每个截 1,800 字）+ CP 原文 → LLM 生成该 CP 的判定标准；④ 每条 criterion 必须引用具体 chunk_id，引用不落地的直接丢弃（门禁强制）</td></tr>
+<tr><td><strong>人工标准臂</strong></td><td>正天那份 xlsx 的<strong>该 CP 那一行</strong>（红线R3 + 评分标准全文，700-6,100 字）作为一条伪 chunk 前置进同一链路——一次一行，不是整表塞入</td></tr>
+</tbody></table>
+<p>每个 CP 看到的法规是 <strong>12/132 的相关子集</strong>；裁判阶段看到的也是这份 rubric + 引用切片，引用契约全程可校验（每个判定可回溯到具体法规页——可解释性的底牌）。</p>
+<h3>刻意不进模型的内容</h3>
+<table><thead><tr><th>内容</th><th>为什么不进</th></tr></thead><tbody>
+<tr><td>Act 层参考列</td><td>团队约定：Act 材料只作人工溯源，非本地案卷材料（解析器直接不读这列）</td></tr>
+<tr><td>金标 / 人工共识理由</td><td>防作弊纪律：评测答案永不进提示词</td></tr>
+<tr><td>整本 PDF 原文</td><td>检索已选出相关切片，全塞只会稀释信号 + 撑爆提示词</td></tr>
+</tbody></table>
+<h3>分工与方案归属（避免误传）</h3>
+<table><thead><tr><th>部分</th><th>归属</th></tr></thead><tbody>
+<tr><td>8/26 最终合并版 xlsx（41 CP 红线 + 评分标准；CP1-14 取 HTML 版 v4.2、CP15-41 取核验修正版）</td><td><strong>正天</strong>整理的法规侧人工成果</td></tr>
+<tr><td>接入方案（PDF→132 chunk→混合索引→每 CP 三路种子查询→top-12→LLM rubric→引用契约门禁）</td><td><strong>本流水线（Ledger）</strong>设计实现，v1→v4 四轮迭代，早于正天的表到位</td></tr>
+<tr><td>人工标准「按行注入伪 chunk + 截断豁免」接入代码</td><td><strong>本流水线</strong>（gold-v4 轮新写）：把正天的表作为可切换输入源接入并实测</td></tr>
+<tr><td>deepseek 打标流水线（4,100 格、81%）</td><td><strong>王博</strong>的独立线</td></tr>
+</tbody></table>
+<p class="small">一句话：正天提供「法规整理的原料」，我们设计「怎么用法规」的机器方案并实测了两种用法的优劣——直接当判定依据 64.9%，原文定点检索派生 83.8%，他的表最佳位置是质检对照。两条线 81% / 83.8% 互相印证。</p></section>
+
+<section><h2>3 · v4 结果</h2>
 <table><thead><tr><th>运行</th><th>rubric 来源</th><th>critic</th><th>一致率</th><th>错误方向</th></tr></thead><tbody>
 <tr><td><code>ledger-na-gate-gold-v4</code></td><td>PDF 派生</td><td>无</td><td class="ok">31/37（83.8%）并列冠军</td><td>过严 5 / 过松 1</td></tr>
 <tr><td><code>ledger-curated-conflict-critic-gold-v4</code></td><td>人工评分标准</td><td>有</td><td class="ok">31/37（83.8%）并列冠军</td><td>含 1 个降级 rubric</td></tr>
@@ -40,7 +63,7 @@ footer { color:var(--muted); margin-top:36px; font-size:13px; }
 </tbody></table>
 <p class="small">两条冠军错误集不同：共同错 3 格，各自独有 3 格。rubric 来源与 critic 存在交互：PDF 臂加 critic −8.1pp，curated 臂加 critic +18.9pp。</p></section>
 
-<section><h2>3 · 为什么人工评分标准直接接入反而掉 18.9pp</h2>
+<section><h2>4 · 为什么人工评分标准直接接入反而掉 18.9pp</h2>
 <p>正天的最终合并版本身没有问题——它塑造了人工金标、也支撑了王博流水线的 81%。问题出在<strong>把它直接喂给模型当判定依据</strong>：</p>
 <table><thead><tr><th>机制</th><th>说明</th></tr></thead><tbody>
 <tr><td><strong>压缩命题丢失推理链</strong></td><td>红线是结论式命题（如「害虫防治站应适合其用途并处于良好工作状态」），没有法规原文的定义、适用条件、例外。模型只能自己脑补「什么算达标」，方向漂移双向（8 严 / 4 松）。PDF 臂的 rubric 逐字引用条款操作用语（4-2(1)/4-2(3)/4-2(4)），而人工共识正是人读法规做出来的——<strong>逐字引用法规的推理恰好与人收敛</strong>。</td></tr>
@@ -49,7 +72,7 @@ footer { color:var(--muted); margin-top:36px; font-size:13px; }
 </tbody></table>
 <p><strong>定位建议</strong>：人工评分标准不作 rubric 主源；留作复核 / 交叉验证信号（见 §7）。</p></section>
 
-<section><h2>4 · 为什么不是 100% —— 冠军 6 格残差全 trace 复盘</h2>
+<section><h2>5 · 为什么不是 100% —— 冠军 6 格残差全 trace 复盘</h2>
 <p>首先排除检索问题：每个错误的 supporting evidence 都有 3–15 条，<strong>证据是够的，错在证明权衡</strong>。6 格全部落在三类「人类审计约定」上——这些约定没有一条写在 Rules 2021 文本里：</p>
 <table><thead><tr><th>类型</th><th>格</th><th>裁决 trace（摘录）</th><th>人 vs 模型</th></tr></thead><tbody>
 <tr><td><span class="tag t-strict">过严</span> <strong>A. 植入矛盾权重过高</strong></td><td>065/CP24<br>(gold 1→0)</td><td><blockquote>the case fact pack contains unresolved cross-document contradictions … RE-NSW-2021-0222 (Wheat) … RE-NSW-2019-0312 … The integrity ledger flags this as a BLOCKER identity mismatch.</blockquote>模型其实已标记 <code>site_plan_relates_to_different_establishment</code>，却把「无法确认」当成判 0 的理由。</td><td>人：Site Plan 是<strong>干扰文档</strong>，剔除后按本案文档的卫生证据判 1</td></tr>
@@ -59,11 +82,11 @@ footer { color:var(--muted); margin-top:36px; font-size:13px; }
 </tbody></table>
 <p class="small">另有 065/CP24 类同源错误：065 系案例普遍混入了错档文档（不同 RE 号 / 商品），是 trace 中 A 类错误的共同背景。</p></section>
 
-<section><h2>5 · v3 scope 规则的历史教训（为什么 v5 不是简单复用）</h2>
-<p>代码库里 v3 已有一套 scope-aware 证据规则（<code>scope_aware_evidence</code>），内容与 §4 诊断高度重合，但 v3 实测<strong>净 −1 格</strong>（26/34 vs 冠军 27/34）：修好了 065/CP35 的过松，却弄坏了 023/CP14、035/CP12。回看规则文本可解释：其中「execution 类要求只认实际记录」条款让模型把<strong>管理计划/规程里的设计声明</strong>也拒掉了——恰好伤及 CP12 类「site-level design evidence」判 1 的路径。</p>
+<section><h2>6 · v3 scope 规则的历史教训（为什么 v5 不是简单复用）</h2>
+<p>代码库里 v3 已有一套 scope-aware 证据规则（<code>scope_aware_evidence</code>），内容与 §5 诊断高度重合，但 v3 实测<strong>净 −1 格</strong>（26/34 vs 冠军 27/34）：修好了 065/CP35 的过松，却弄坏了 023/CP14、035/CP12。回看规则文本可解释：其中「execution 类要求只认实际记录」条款让模型把<strong>管理计划/规程里的设计声明</strong>也拒掉了——恰好伤及 CP12 类「site-level design evidence」判 1 的路径。</p>
 <div class="callout"><strong>结论：</strong>规则措辞本身就是实验变量。v5 把两条规则<strong>拆开独立消融</strong>、并针对 v3 的翻车点改写（明确「管理计划/场地平面图/规程可作设计证据」）。</div></section>
 
-<section><h2>6 · v5 证据纪律规则消融（进行中）</h2>
+<section><h2>7 · v5 证据纪律规则消融</h2>
 <p>两条通用规则（不含任何 CP / case / verdict 字面量，flag 全关时提示词与 v4 逐字节一致——有测试锁定）：</p>
 <table><thead><tr><th>规则</th><th>针对</th><th>内容要点</th></tr></thead><tbody>
 <tr><td><code>misfiled_evidence_rule</code></td><td>A 类过严</td><td>错档文档（注册号/名称/商品指向别家）整体剔除出证据集、记 quality_flags；身份矛盾本身<strong>永远不是判 0 的依据</strong>，本案文档能定就按本案文档定。</td></tr>
@@ -75,12 +98,12 @@ footer { color:var(--muted); margin-top:36px; font-size:13px; }
 <tr id="v5-row-atomicity"><td><code>ledger-v5-atomicity-gold-v4</code></td><td>atomicity</td><td class="bad">28/37（75.7%）</td><td>净 −3</td><td>065/CP12、074/CP12（正是 B 类靶点）</td><td>5 格（变严 3 + 变松 2）</td></tr>
 <tr id="v5-row-both"><td><code>ledger-v5-both-gold-v4</code></td><td>双开</td><td class="bad">29/37（78.4%）</td><td>净 −2</td><td>023/CP12、065/CP24、074/CP12（A+B 全部靶点）</td><td>5 格（变严 2 + 变松 3）</td></tr>
 </tbody></table>
-<div class="callout"><strong>v5 结论（阴性结果，同样有价值）：</strong>两条规则<strong>都精确命中了自己针对的错误格</strong>——misfiled 修复的正是 065/CP24+CP35，atomicity 修复的正是 CP12 系，双开把 A+B 靶点 4 格全部翻转——说明 §4 的错误机制诊断是正确的。但提示词级规则无法外科手术式起作用：它会<strong>整体重置模型的证据权衡分布</strong>，在规则未针对的格子上引入双向噪声（变严+变松都有）。这与 v3 scope 规则净 −1 的教训一致且证据更强。残留 6 格错误本质是<strong>校准选择</strong>而非可用通用规则修掉的 bug，单变量提示词规则此路不通；提升一致率的正确路径是 §7 的分歧路由 + 扩充金标。</div>
+<div class="callout"><strong>v5 结论（阴性结果，同样有价值）：</strong>两条规则<strong>都精确命中了自己针对的错误格</strong>——misfiled 修复的正是 065/CP24+CP35，atomicity 修复的正是 CP12 系，双开把 A+B 靶点 4 格全部翻转——说明 §5 的错误机制诊断是正确的。但提示词级规则无法外科手术式起作用：它会<strong>整体重置模型的证据权衡分布</strong>，在规则未针对的格子上引入双向噪声（变严+变松都有）。这与 v3 scope 规则净 −1 的教训一致且证据更强。残留 6 格错误本质是<strong>校准选择</strong>而非可用通用规则修掉的 bug，单变量提示词规则此路不通；提升一致率的正确路径是 §8 的分歧路由 + 扩充金标。</div>
 <p class="small">解读提醒：单次 run 存在 ±2 格的固有抖动（v3→v4 同配置共享 34 格上 27→29 的波动）；−5、−3 明确为负，双开的 −2 也在噪声带边缘，且无一条为正——不采纳的结论稳健。</p></section>
 
-<section><h2>7 · 建议与生产流程</h2>
+<section><h2>8 · 建议与生产流程</h2>
 <ol>
-<li><strong>正式方案维持 ledger-na-gate（PDF rubric，83.8%）</strong>：v5 三条规则消融全部净负（§6），不改裁决提示词。</li>
+<li><strong>正式方案维持 ledger-na-gate（PDF rubric，83.8%）</strong>：v5 三条规则消融全部净负（§7），不改裁决提示词。</li>
 <li><strong>人工评分标准的定位</strong>：质检 / 交叉验证信号，不作 rubric 主源。</li>
 <li><strong>分歧路由</strong>（v5 实验进一步强化了这条路）：两条冠军臂在 37 格上恰好 6 格分歧（16%）——正式跑 4,100 格时把<strong>双臂分歧格自动送人工复核</strong>，按此外推全量约 650 格人工，比全人工省 84%。v5 证明了残留错误是校准选择：与其用规则硬掰（双向副作用），不如让双臂分歧自动圈出这些格子交给人。</li>
 <li><strong>下一轮改进靶点</strong>：CP12（1/5）、CP35（1/4）为跨口径顽固项；扩充金标（当前仅 5 case / 37 格）比继续调提示词更有边际收益。</li>
