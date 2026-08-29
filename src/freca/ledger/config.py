@@ -105,6 +105,8 @@ class AdjudicationConfig(StrictConfig):
     confidence_threshold: float = Field(default=0.65, ge=0.0, le=1.0)
     require_dual_citation: bool = True
     scope_aware_evidence: bool = False
+    misfiled_evidence_rule: bool = False
+    design_atomicity_rule: bool = False
     max_workers: int = Field(default=4, ge=1)
 
 

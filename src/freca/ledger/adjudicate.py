@@ -88,6 +88,33 @@ Evidence-scope rules:
 """
 
 
+_MISFILED_EVIDENCE_RULE = """
+
+Misfiled-material rule:
+- A document whose own identifiers (registration number, establishment name, commodity) identify
+  an establishment other than the one under audit is misfiled material: exclude its facts from
+  the evidence base entirely, record the exclusion in quality_flags, and judge the audited
+  establishment only on its own documents.
+- An unresolved identity contradiction is a quality risk. It is never by itself a ground for a
+  non-compliant verdict: if the establishment's own documents settle a criterion, decide on them.
+"""
+
+
+_DESIGN_ATOMICITY_RULE = """
+
+Design-atomicity rule:
+- Distinguish permanent design adequacy from transient operating condition. For a requirement
+  about how the premises, facilities or equipment are designed, constructed or laid out, an
+  isolated housekeeping lapse, spill or pending clean-up shows a transient operating state,
+  not a design breach.
+- A contrary fact must directly describe the relevant design, construction or layout condition
+  to count against such a requirement.
+- Design statements in management plans, site plans and specifications are evidence of design
+  adequacy; a procedure document is not disqualified as design evidence merely for being a
+  procedure.
+"""
+
+
 _ADJUDICATION_SCHEMA: dict[str, Any] = {
     "type": "object",
     "additionalProperties": False,
@@ -147,6 +174,8 @@ def build_adjudication_messages(
     rubric: CheckpointRubric,
     pack: EvidencePack,
     scope_aware: bool = False,
+    misfiled_evidence_rule: bool = False,
+    design_atomicity_rule: bool = False,
 ) -> tuple[str, str]:
     user = "\n\n".join(
         (
@@ -160,6 +189,10 @@ def build_adjudication_messages(
     system = _ADJUDICATION_SYSTEM
     if scope_aware:
         system += _SCOPE_AWARE_EVIDENCE_RULES
+    if misfiled_evidence_rule:
+        system += _MISFILED_EVIDENCE_RULE
+    if design_atomicity_rule:
+        system += _DESIGN_ATOMICITY_RULE
     return system, user
 
 
@@ -410,6 +443,8 @@ class Adjudicator:
             rubric=rubric,
             pack=pack,
             scope_aware=self.config.scope_aware_evidence,
+            misfiled_evidence_rule=self.config.misfiled_evidence_rule,
+            design_atomicity_rule=self.config.design_atomicity_rule,
         )
         try:
             payload = self.client.complete_json(

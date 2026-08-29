@@ -67,3 +67,28 @@ def test_curated_conflict_critic_profile_changes_only_the_rubric_source() -> Non
     assert config.ledger.extraction == baseline.ledger.extraction
     assert config.ledger.adjudication == baseline.ledger.adjudication
     assert config.ledger.review == baseline.ledger.review
+
+
+def _v5_delta(profile: str, **flags: bool) -> None:
+    config = LedgerConfig.from_yaml(ROOT / f"config.ledger.minimax.{profile}.yaml")
+    baseline = LedgerConfig.from_yaml(ROOT / "config.ledger.minimax.na-gate.yaml")
+
+    adjudication = config.ledger.adjudication.model_dump()
+    assert all(adjudication[name] is value for name, value in flags.items())
+    assert adjudication["scope_aware_evidence"] is False
+    assert config.ledger.extraction == baseline.ledger.extraction
+    assert config.ledger.rubric == baseline.ledger.rubric
+    assert config.ledger.review == baseline.ledger.review
+    assert config.ledger.critic.enabled is False
+
+
+def test_v5_misfiled_profile_changes_only_the_misfiled_rule() -> None:
+    _v5_delta("v5-misfiled", misfiled_evidence_rule=True, design_atomicity_rule=False)
+
+
+def test_v5_atomicity_profile_changes_only_the_atomicity_rule() -> None:
+    _v5_delta("v5-atomicity", misfiled_evidence_rule=False, design_atomicity_rule=True)
+
+
+def test_v5_both_profile_enables_both_rules() -> None:
+    _v5_delta("v5-both", misfiled_evidence_rule=True, design_atomicity_rule=True)
