@@ -1,0 +1,373 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-041",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P4",
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P4",
+        "2_HACCPPlan_41_Nhill_Grain_Services_Trust.docx:P5"
+      ],
+      "reason": "Evidence shows the establishment is registered for wheat and rice, but the HACCP plan mentions wheat and barley under a different RE number (RE-NSW-3051), creating ambiguity about whether all operations are within registered scope. No clear evidence that all export operations are within the registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "No evidence provided regarding suspension status of registration. The evidence only states registration is approved, but does not confirm that registration is not suspended at the time of operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Nhill_Grain_Services_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual content is provided showing the area of the premises that is registered for export operations. Evidence is insufficient to establish the registered area."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Nhill_Grain_Services_Trust.docx:P7",
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P12"
+      ],
+      "reason": "The site plan is referenced but no actual content is provided showing important features of the registered area and adjoining sites. The management plan mentions buildings and facilities but does not detail all important features as required."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Nhill_Grain_Services_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual content is provided showing the layout of areas where export operations occur, including permanent fixtures and equipment layout. Evidence is insufficient."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_41_Nhill_Grain_Services_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no approval is required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no approval is required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_41_Nhill_Grain_Services_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P12",
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and infrastructure is designed and maintained to support export of wheat."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27"
+      ],
+      "reason": "Evidence shows cleaning procedures exist, but no evidence that the establishment is designed and constructed to facilitate effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27"
+      ],
+      "reason": "Evidence shows hygiene and cleaning procedures, but no evidence that design and construction minimize contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P24"
+      ],
+      "reason": "Evidence indicates floor drainage discharges directly to an agricultural drainage channel without containment, which does not demonstrate hygienic disposal of waste."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant but does not specify that it manages risk of contamination by large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant but does not specify that large contaminants are removed."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references s4-7A(2)(a) and includes procedures for cleaning, monitoring, and corrective actions, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P24"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal, and the Farm Management Plan describes drainage and waste management arrangements, indicating a system for waste control."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P43"
+      ],
+      "reason": "The plan is reviewed annually, includes detailed procedures, and has corrective action processes, demonstrating effectiveness for the grain handling operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Nhill_Grain_Services_Trust.docx:P4",
+        "3_PestControlRecord_41_Nhill_Grain_Services_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The bait station map and pest control record indicate a system for pest control including rodent bait stations and monitoring."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Nhill_Grain_Services_Trust.docx:P4",
+        "3_PestControlRecord_41_Nhill_Grain_Services_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system includes mapped stations, contractor verification, and trend review, indicating effectiveness for the grain storage operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years as stated in the registration record."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36",
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P39"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy; the plan is in English and dated."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P40"
+      ],
+      "reason": "The hygiene plan requires all areas to be maintained clean and hygienic, with cleaning logs and corrective actions, indicating compliance."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P8",
+        "7_Bait_Station_Map_Nhill_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "The establishment is kept clean and pest control measures are in place to prevent infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Nhill_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "The bait station map shows 17 mapped stations and contractor verification, indicating they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P24"
+      ],
+      "reason": "The drainage system is described, and the management plan indicates waste management arrangements to prevent contamination of products."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Nhill_Grain_Services_Trust.docx:P24"
+      ],
+      "reason": "The drainage and waste management arrangements are designed to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Nhill_Grain_Services_Trust_041.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but no evidence of traceability from the property from which products were transferred to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions storage logs and traceability records but does not explicitly demonstrate traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Nhill_Grain_Services_Trust_041.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but does not confirm traceability to the next premises for all products."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for traceability and integrity including labelling and record keeping."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Nhill_Grain_Services_Trust.docx:P5"
+      ],
+      "reason": "Site plan provided but no product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P40"
+      ],
+      "reason": "Evidence mentions corrective actions for cleaning but no system for managing goods that fail inspection including blending, rejections, treatments, and representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Nhill_Grain_Services_Trust.docx:P43"
+      ],
+      "reason": "Evidence shows cleaning issues but no evidence of a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Nhill_Grain_Services_Trust_041.docx:P9"
+      ],
+      "reason": "Evidence mentions seal checks but no evidence of a system to minimise risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "No evidence of packaging requirements being addressed."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records retained for two years but does not specify all required record types (receival, movement, treatment, transfer, dispatch, transport unit approval)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_41_Nhill_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "Evidence states registration for wheat but no evidence that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-041/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-041/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-041/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-041/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-041/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 26,
+    "N/A": 2,
+    "1": 13
+  }
+}

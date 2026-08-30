@@ -1,0 +1,27 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(f)",
+        "rules2021:4-2(5)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The inspection areas, equipment and facilities are designed, constructed and maintained to allow for the collection, inspection and analysis of samples by an Authorised Officer for the type of prescribed plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The inspection areas, equipment and facilities are designed, constructed and maintained to allow for the collection, inspection and analysis of samples by an Authorised Officer for the type of prescribed plant or plant products."
+        }
+      ],
+      "reason": "All four grounded norms address the same broad CP requirement: ensuring that inspection areas, equipment and facilities are designed, constructed and maintained to allow sample collection, inspection and analysis. They provide different legal expressions and operationalisations of that single requirement, but the CP does not explicitly require each as an independent cumulative condition. Therefore, they jointly support the same criterion rather than forming separate required leaves."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms all relate to the same CP requirement regarding inspection areas, equipment and facilities for sample collection, inspection and analysis. They are not explicitly cumulative or alternative in the CP text; they are different legal expressions supporting the same criterion."
+}

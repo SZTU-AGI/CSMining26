@@ -1,0 +1,44 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:11-2(1)(a)",
+        "rules2021:11-2(1)(c)",
+        "rules2021:11-2(1)(d)"
+      ],
+      "relation": "CUMULATIVE",
+      "criterion_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "CONNECTOR",
+          "quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-2(1)(a)",
+          "role": "CONNECTOR",
+          "quote": "(a) in English; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-2(1)(c)",
+          "role": "CONNECTOR",
+          "quote": "(c) dated; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-2(1)(d)",
+          "role": "CONNECTOR",
+          "quote": "(d) accurate, legible and able to be audited."
+        }
+      ],
+      "reason": "The CP explicitly lists three distinct requirements separated by semicolons and the word 'and' before the final item, indicating that all three must be satisfied. The Rules provision 11-2(1) similarly uses 'and' between paragraphs (a), (c), and (d), confirming cumulative conjunction. Each paragraph addresses a separate dimension: language, dating, and quality/auditability."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The three grounded norms correspond to three distinct requirements in CP40, connected by explicit cumulative language in both the CP and the Rules. They are not alternative ways to satisfy the same requirement, nor do they merely support the same proposition; each is independently required."
+}

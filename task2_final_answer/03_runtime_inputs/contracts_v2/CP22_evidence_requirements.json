@@ -1,0 +1,73 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP22",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "Records are retained for at least 2 years to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:11-5(2)",
+        "rules2021:11-5(4)",
+        "rules2021:11-6(2)",
+        "rules2021:11-7(2)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-5(2)",
+          "quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be)."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-5(4)",
+          "quote": "The person must retain each record referred to in subsection (3) for at least 2 years starting on the day the record is made by the person or comes into the person’s possession (as the case may be)."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-6(2)",
+          "quote": "The manager of the accredited property must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the manager or comes into the manager’s possession (as the case may be)."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-7(2)",
+          "quote": "The occupier of the registered establishment must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the occupier or comes into the occupier’s possession (as the case may be)."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:11-5(2)",
+        "rules2021:11-5(4)",
+        "rules2021:11-6(2)",
+        "rules2021:11-7(2)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

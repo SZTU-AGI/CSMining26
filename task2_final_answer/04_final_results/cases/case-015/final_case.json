@@ -1,0 +1,368 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-015",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "No evidence directly confirms registration is not suspended at the time of operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wimmera_Pulse_Partners.docx:P7"
+      ],
+      "reason": "Evidence mentions important features but does not explicitly identify the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wimmera_Pulse_Partners.docx:P7",
+        "4_Farm-Management-Plan_Wimmera_Pulse_Partners.docx:P12"
+      ],
+      "reason": "Evidence indicates the site plan includes important features and the management plan confirms buildings, equipment, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wimmera_Pulse_Partners.docx:P7"
+      ],
+      "reason": "Evidence does not explicitly describe layout of export operation areas, permanent fixtures, and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_15_Wimmera_Pulse_Partners.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence explicitly states none have occurred, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence explicitly states none have occurred, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_15_Wimmera_Pulse_Partners.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wimmera_Pulse_Partners.docx:P12",
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the registration record describes steel-frame construction with concrete flooring and annual maintenance inspections."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "The establishment is described as steel-frame with concrete flooring, and the hygiene plan requires all areas to be maintained clean and hygienic with visual inspections before production, indicating design and maintenance for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "The hygiene plan mandates clean and hygienic conditions and pre-production inspections, which supports minimization of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning all areas, with designated staff and verification inspections, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wimmera_Pulse_Partners.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P5"
+      ],
+      "reason": "The Farm Management Plan documents waste management arrangements, and the Hygiene and Sanitation Plan references the system of controls for waste, indicating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is site-specific, covers all areas, is reviewed annually, and includes verification inspections, demonstrating effectiveness for the export operations."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P18",
+        "7_Bait_Station_Map_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "The HACCP plan notes deficiencies in the pest control program, including no site-specific program, no monitoring schedule, and no records, despite a bait station map existing. Thus the system of controls for pests is not established."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P18",
+        "7_Bait_Station_Map_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "The HACCP plan explicitly states pest effectiveness cannot be demonstrated due to missing program elements, indicating the system is not effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P36"
+      ],
+      "reason": "The registration record states records are retained for a minimum of two years, satisfying the retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P36"
+      ],
+      "reason": "The record-keeping statement indicates records are maintained on site and in the business management system, and the policy requires records to be in English, dated, accurate, legible, and auditable. The evidence does not contradict these requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states all areas are maintained clean and hygienic, with specific procedures for receival and storage areas and verification inspections, demonstrating appropriate condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P18",
+        "7_Bait_Station_Map_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "The HACCP plan indicates deficiencies in pest control that could lead to infestation, and the bait station map notes delayed escalation of rodent activity, so the condition ensuring no infestation is not established."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P18",
+        "7_Bait_Station_Map_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "The HACCP plan states no monitoring schedule or records for bait stations, and the bait station map notes delayed escalation, so fitness for purpose and good working order are not demonstrated."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_15_Wimmera_Pulse_Partners.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence shows chemicals stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, so the requirement to prevent contamination is not met."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_15_Wimmera_Pulse_Partners.xlsx:Cover:R14"
+      ],
+      "reason": "The unlocked chemical storage inside the pulse grading shed directly risks contaminating preparation areas, failing the requirement."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P17",
+        "9_Traceability_Records_Wimmera_Pulse_Partners_015.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P17",
+        "9_Traceability_Records_Wimmera_Pulse_Partners_015.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records, but lacks specific records demonstrating traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Wimmera_Pulse_Partners_015.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are mentioned, but no details or evidence of actual traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P36",
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P21"
+      ],
+      "reason": "Records retention and product flow chart are mentioned, but no explicit system of controls for traceability and integrity (e.g., labelling, record keeping) is evidenced."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P17",
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P21"
+      ],
+      "reason": "A product flow description exists, but no formal product flow chart demonstrating movement and maintenance of product integrity is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P21"
+      ],
+      "reason": "A section on failed goods is mentioned, but no evidence of a system to manage blending, rejections, treatments, or representations of failed products."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wimmera_Pulse_Partners.docx:P38"
+      ],
+      "reason": "Hygiene and sanitation procedures are described, but no evidence of a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P17"
+      ],
+      "reason": "Segregation from non-registered commodities is mentioned, but no evidence of measures to minimise the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Wimmera_Pulse_Partners_015.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned, but no evidence of packaging requirements being met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P36"
+      ],
+      "reason": "Records retention of at least two years is stated, but no evidence of actual traceability records (receival, movement, treatment, transfer, dispatch, transport unit approval) is provided."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_15_Wimmera_Pulse_Partners.docx:P21"
+      ],
+      "reason": "Failed goods are mentioned, but no evidence of records for rejected/failed goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_15_Wimmera_Pulse_Partners.docx:P36"
+      ],
+      "reason": "Records are stated to be maintained, but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wimmera_Pulse_Partners.docx:P4"
+      ],
+      "reason": "The establishment is registered for lentils, but evidence mentions field peas and cotton, and no evidence of meeting importing country requirements is provided."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-015/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-015/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-015/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-015/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-015/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 11,
+    "0": 28,
+    "N/A": 2
+  }
+}

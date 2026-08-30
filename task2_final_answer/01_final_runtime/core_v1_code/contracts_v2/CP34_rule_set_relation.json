@@ -1,0 +1,119 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "role": "RELATION",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "role": "RELATION",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products."
+        }
+      ],
+      "reason": "Both provisions require a system of controls at different facility types (property vs establishment) to ensure compliance with conditions, each independently supporting the same broad CP requirement for a system of controls to manage failed goods. No explicit cumulative connector exists between them in the CP or rules; they are parallel operationalizations of the same criterion."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-9(3)",
+        "rules2021:4-9(3)(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(3)",
+          "role": "RELATION",
+          "quote": "If the plants or plant products fail an assessment because of:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(3)(c)",
+          "role": "RELATION",
+          "quote": "the plants or plant products must not be blended with other plants or plant products at the establishment."
+        }
+      ],
+      "reason": "4-9(3)(c) is a specific instance of the general condition in 4-9(3) regarding failed assessments, providing a narrower rule for mung beans with animal waste. The parent-child relationship is explicit in the citation structure."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:9-11(1)",
+        "rules2021:9-11(2)",
+        "rules2021:9-11(2)(a)",
+        "rules2021:9-11(2)(b)",
+        "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+        "rules2021:9-11(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(1)",
+          "role": "RELATION",
+          "quote": "If plants or plant products fail an assessment (the failed assessment), the plants or plant products must not be presented for another assessment (a reassessment) unless the reason for the failed assessment has been rectified."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(2)",
+          "role": "RELATION",
+          "quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected on the plants or plant products or in or on the flowpath for the plants or plant products, the relevant person for the"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(2)(a)",
+          "role": "RELATION",
+          "quote": "is effective to reduce the pests or contaminants to no higher than the applicable tolerance level; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(2)(b)",
+          "role": "RELATION",
+          "quote": "meets importing country requirements relating to the plants or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+          "role": "RELATION",
+          "quote": "(depending on where the pests or contaminants were detected) is treated using a method that:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-11(3)",
+          "role": "RELATION",
+          "quote": "If the plants or plant products are required to be treated under subsection (2) and the exporter of the plants or plant products is not the relevant person for the failed assessment, the exporter of the plants or plant products must agree to the method of treatment to be used."
+        }
+      ],
+      "reason": "These provisions collectively describe the reassessment and treatment requirements after a failed assessment, all supporting the same CP requirement for managing goods that fail inspection. They are not cumulative independent requirements for the CP; rather they jointly operationalize the treatment and reassessment aspects of the system of controls. No explicit cumulative connector exists in the CP or rules."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms fall into three main groups: (1) general system of controls requirements for properties and establishments, which support the same CP criterion without cumulative effect; (2) a specialization relationship between a general blending prohibition and a specific mung bean case; and (3) a set of reassessment/treatment provisions that jointly support the same CP criterion. No explicit cumulative or alternative connectors were found in the supplied text."
+}

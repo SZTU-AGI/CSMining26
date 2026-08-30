@@ -1,0 +1,112 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP8",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment and its equipment and facilities are designed and constructed to provide areas suitable for assessments, adequate lighting and ventilation, facilitate effective cleaning, minimise infestation or contamination, provide for waste disposal, facilitate safe and effective treatments, and allow samples to be taken.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)",
+          "quote": "to provide:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(i)",
+          "quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(ii)",
+          "quote": "adequate lighting and ventilation; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "quote": "to facilitate effective cleaning; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(d)",
+          "quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(e)",
+          "quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(f)",
+          "quote": "to allow samples of prescribed plants and plant products to be taken."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

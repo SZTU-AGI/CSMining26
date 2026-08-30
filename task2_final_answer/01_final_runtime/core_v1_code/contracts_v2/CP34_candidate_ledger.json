@@ -1,0 +1,3846 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP34",
+    "canonical_cp_id": "CP34",
+    "element": "Element-4",
+    "subelement": "4.1 System of controls – product traceability and integrity",
+    "criterion": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+    "sheet": "All Elements",
+    "column": 34
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.06505334374186834,
+      "rrf_score": 0.06505334374186834,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 13.037852058154284,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 19.315141103554524,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.328369228974898,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 32.64351033252943,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.06146441372247824,
+      "rrf_score": 0.06146441372247824,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 9.856549910301311,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 15.222194538368434,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.067774028803447,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 27.289968567171886,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)",
+      "citation": "4-9(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Blending",
+      "label": "(3)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(3)(a)",
+        "rules2021:4-9(3)(b)",
+        "rules2021:4-9(3)(c)"
+      ],
+      "own_text": "(3) If the plants or plant products fail an assessment because of:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\nBlending\n(3) If the plants or plant products fail an assessment because of:",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04715356328259554,
+      "rrf_score": 0.04715356328259554,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 11.39521191189514,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 17.94306724378377,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 18.306850320055624,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04501744589426548,
+      "rrf_score": 0.04501744589426548,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 14.408207695973767,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 11.90004703456508,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 14.410294039506894,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(1)",
+      "citation": "9-11(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11",
+      "child_ids": [],
+      "own_text": "(1) If plants or plant products fail an assessment (the failed assessment), the plants\nor plant products must not be presented for another assessment (a reassessment)\nunless the reason for the failed assessment has been rectified.",
+      "text": "9-11 Reassessment after failed assessment\n(1) If plants or plant products fail an assessment (the failed assessment), the plants\nor plant products must not be presented for another assessment (a reassessment)\nunless the reason for the failed assessment has been rectified.",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.0438301282051282,
+      "rrf_score": 0.0438301282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 11.930672799655902,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 14.06562923457217,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 14.06562923457217,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.04312491108265756,
+      "rrf_score": 0.04312491108265756,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 10.524237503122917,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 10.50570306287718,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 15.295554204901814,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.04312219416386083,
+      "rrf_score": 0.04312219416386083,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 9.311978571741955,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.94293355369499,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 16.19934585630511,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.042386491763605864,
+      "rrf_score": 0.042386491763605864,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 13.561119251566266,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 11.390017429072195,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 12.819271397790963,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.03969884113111485,
+      "rrf_score": 0.03969884113111485,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 10.648975857466173,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 9.67596310256436,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 14.113447042078205,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.03917748917748917,
+      "rrf_score": 0.03917748917748917,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 10.648975857466173,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 9.67596310256436,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 14.113447042078205,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(iv)",
+      "citation": "4-17(a)(iv)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iv)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.0369229337304542,
+      "rrf_score": 0.0369229337304542,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 9.460558869979796,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 9.592687567158265,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 13.866081108031729,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(iii)",
+      "citation": "4-17(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(iii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\na request made by an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(iii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\na request made by an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.03618937482478273,
+      "rrf_score": 0.03618937482478273,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 9.35522603736305,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 9.517202387756559,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 13.41333386561312,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.030309988518943745,
+      "rrf_score": 0.030309988518943745,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.898052602628539,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 16.00570272266807,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-30(3)",
+      "citation": "9-30(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-30",
+      "child_ids": [],
+      "own_text": "(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-30 Authorised officer may approve container\n(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.030090497737556562,
+      "rrf_score": 0.030090497737556562,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 11.473364744155987,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 11.760854505402602,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+      "citation": "9-11(2)(depending on where the pests or contaminants were detected)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "failed assessment must ensure that the plants or plant products or the flowpath",
+      "label": "(depending on where the pests or contaminants were detected)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(depending on where the pests or contaminants were detected) is treated using a\nmethod that:",
+      "text": "9-11 Reassessment after failed assessment\nfailed assessment must ensure that the plants or plant products or the flowpath\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(depending on where the pests or contaminants were detected) is treated using a\nmethod that:",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.029709507042253523,
+      "rrf_score": 0.029709507042253523,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 14.67191926731746,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 14.67191926731746,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.029211087420042643,
+      "rrf_score": 0.029211087420042643,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7027632796314105,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 15.22233494892992,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.029206349206349208,
+      "rrf_score": 0.029206349206349208,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 9.586610225622943,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 14.185210016896573,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.028404512489927477,
+      "rrf_score": 0.028404512489927477,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.4858624266017255,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 15.082469590145411,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.028006267136701922,
+      "rrf_score": 0.028006267136701922,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.307121326243124,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 14.954251608571317,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(1)(b)",
+      "citation": "11-6(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(1) The manager of a property that is accredited for a kind of export operations in\nrelation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.027745885954841176,
+      "rrf_score": 0.027745885954841176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 11.330844146369405,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 9.97205644945902,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(a)",
+      "citation": "9-11(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(a) is effective to reduce the pests or contaminants to no higher than the\napplicable tolerance level; and",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(a) is effective to reduce the pests or contaminants to no higher than the\napplicable tolerance level; and",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.02749719416386083,
+      "rrf_score": 0.02749719416386083,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 12.593206410685426,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 13.441996636940859,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(4)",
+      "citation": "4-9(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [],
+      "own_text": "(4) Subsection (3) does not prevent blending of prescribed plants or plant products\nthat contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(4) Subsection (3) does not prevent blending of prescribed plants or plant products\nthat contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.027402402402402402,
+      "rrf_score": 0.027402402402402402,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 10.506679209871756,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 10.260223686940924,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)(b)",
+      "citation": "11-7(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.027364110201042444,
+      "rrf_score": 0.027364110201042444,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 11.330844146369405,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 9.97205644945902,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.027272727272727275,
+      "rrf_score": 0.027272727272727275,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.176717408074621,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 14.687592938826764,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.027046783625730993,
+      "rrf_score": 0.027046783625730993,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.189261330948453,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 14.600671622687305,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.026547116736990152,
+      "rrf_score": 0.026547116736990152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.58123745966464,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 14.03427179321196,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.026171741361614778,
+      "rrf_score": 0.026171741361614778,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.99545538719722,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 14.203688617430572,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(c)",
+      "citation": "4-19(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.025062266500622665,
+      "rrf_score": 0.025062266500622665,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 10.458590168912828,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 9.449809806465659,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02478580171358629,
+      "rrf_score": 0.02478580171358629,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 8.911636248525904,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 10.05867669606782,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(c)",
+      "citation": "4-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.02474946856969329,
+      "rrf_score": 0.02474946856969329,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 10.458590168912828,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 9.449809806465659,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.024393871783430016,
+      "rrf_score": 0.024393871783430016,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.876739599513546,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 12.9423435018882,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(b)",
+      "citation": "4-19(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.024222968043192763,
+      "rrf_score": 0.024222968043192763,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 9.465488973498882,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 12.36891036712183,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.024184149184149184,
+      "rrf_score": 0.024184149184149184,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.058368584420556,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 12.584696060731074,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.024127906976744187,
+      "rrf_score": 0.024127906976744187,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.963329771560889,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 12.77283445928414,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(b)",
+      "citation": "4-21(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.02393162393162393,
+      "rrf_score": 0.02393162393162393,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 9.465488973498882,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 12.36891036712183,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.02368937482478273,
+      "rrf_score": 0.02368937482478273,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.747524658272875,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 12.665253340542458,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.023268398268398268,
+      "rrf_score": 0.023268398268398268,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 5.327557320251242,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 12.886244481091433,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8",
+      "citation": "4-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "4-8",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "text": "4-8 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.674287044498846,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-4",
+      "citation": "3-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "3-4",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "text": "3-4 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.310536826138739,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.858413910548661,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(e)",
+      "citation": "1-6(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        17,
+        18
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "text": "1-6 Definitions\n(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "page": 17,
+      "page_end": 18,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.726678004027894,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)",
+      "citation": "9-11(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11",
+      "child_ids": [
+        "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+        "rules2021:9-11(2)(a)",
+        "rules2021:9-11(2)(b)"
+      ],
+      "own_text": "(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 10.883116240760991,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)(a)",
+      "citation": "7-1(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1(2)",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products is ensured; and",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:\n(a) the integrity of the plants or plant products is ensured; and",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.632450319789029,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(b)",
+      "citation": "9-11(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(b) meets importing country requirements relating to the plants or plant\nproducts.",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(b) meets importing country requirements relating to the plants or plant\nproducts.",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 10.582122056279703,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2",
+      "citation": "2-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are taken not to be prescribed goods",
+      "label": "2-2",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-2(1)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(3)",
+        "rules2021:2-2(4)"
+      ],
+      "own_text": "",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nPlants and plant products that are taken not to be prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 10.281788594046109,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1",
+      "citation": "2-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are prescribed goods",
+      "label": "2-1",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-1(1)",
+        "rules2021:2-1(2)"
+      ],
+      "own_text": "",
+      "text": "2-1 Plants and plant products that are prescribed goods\nPlants and plant products that are prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 10.18019541087672,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(c)(ii)",
+      "citation": "9-10(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) the integrity of the plants or plant products can be ensured; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(c) the assessor reasonably believes that:\n(ii) the integrity of the plants or plant products can be ensured; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.234589101069533,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 9.55561070722143,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)",
+      "citation": "2-2(4)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Division 1 Prescribed goods",
+      "label": "(g)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(g)(i)",
+        "rules2021:2-2(4)(g)(ii)"
+      ],
+      "own_text": "(g) are exported in a consignment of not more than:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nDivision 1 Prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(g) are exported in a consignment of not more than:",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 10.024818294155331,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(2)",
+      "citation": "2-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [],
+      "own_text": "(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 9.879219967678267,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(c)",
+      "citation": "2-2(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 9.87805706963183,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(e)",
+      "citation": "2-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(e) are consigned to an external Territory for consumption in that Territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(e) are consigned to an external Territory for consumption in that Territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 9.695995842035458,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(b)",
+      "citation": "4-17(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        52,
+        53
+      ],
+      "parent_id": "rules2021:4-17",
+      "child_ids": [],
+      "own_text": "(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "text": "4-17 Other reasons for the Secretary to vary registration\nFor the purposes of paragraph 123(2)(h) of the Act, the following reasons for\nmaking a variation in relation to the registration of a registered establishment, or\nsetting an earlier expiry date for the registration of a registered establishment, are\nprescribed:\n(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "page": 52,
+      "page_end": 53,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 9.291412456072134,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(6)",
+      "citation": "1-8(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.636995165584347,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-16(2)(b)(ii)",
+      "citation": "11-16(2)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        117
+      ],
+      "parent_id": "rules2021:11-16(2)(b)",
+      "child_ids": [],
+      "own_text": "(ii) the vessel, including the cargo spaces of the vessel into or onto which\nprescribed plants or plant products of that kind are intended to be\nloaded, is suitable to transport prescribed plants or plant products of\nthat kind.",
+      "text": "11-16 Accredited marine surveyors and marine surveyor’s certificates\n(b) the accredited marine surveyor is satisfied that:\n(ii) the vessel, including the cargo spaces of the vessel into or onto which\nprescribed plants or plant products of that kind are intended to be\nloaded, is suitable to transport prescribed plants or plant products of\nthat kind.",
+      "page": 117,
+      "page_end": 117,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 9.269906699895042,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-16(2)(a)",
+      "citation": "11-16(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        117
+      ],
+      "parent_id": "rules2021:11-16(2)",
+      "child_ids": [],
+      "own_text": "(a) the accredited marine surveyor has carried out a survey of the vessel,\nincluding of the cargo spaces into or onto which prescribed plants or plant\nproducts of that kind are intended to be loaded; and",
+      "text": "11-16 Accredited marine surveyors and marine surveyor’s certificates\n(2) For the purposes of this instrument, an accredited marine surveyor may issue a\ncertificate for a bulk vessel that is to be used to transport prescribed plants or\nplant products to which subsection 9-23(2) applies, if:\n(a) the accredited marine surveyor has carried out a survey of the vessel,\nincluding of the cargo spaces into or onto which prescribed plants or plant\nproducts of that kind are intended to be loaded; and",
+      "page": 117,
+      "page_end": 117,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 9.232435423043949,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.605728462700105,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(d)",
+      "citation": "4-21(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        56,
+        57
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nObligations of occupiers of registered establishments Part 7",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nObligations of occupiers of registered establishments Part 7",
+      "page": 56,
+      "page_end": 57,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 9.043941280324727,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)",
+      "citation": "9-16(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88,
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [
+        "rules2021:9-16(1)(a)",
+        "rules2021:9-16(1)(b)",
+        "rules2021:9-16(1)(c)"
+      ],
+      "own_text": "(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nPests\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "page": 88,
+      "page_end": 89,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 5.5772114610081065,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(3)",
+      "citation": "9-11(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11",
+      "child_ids": [],
+      "own_text": "(3) If the plants or plant products are required to be treated under subsection (2) and\nthe exporter of the plants or plant products is not the relevant person for the\nfailed assessment, the exporter of the plants or plant products must agree to the\nmethod of treatment to be used.",
+      "text": "9-11 Reassessment after failed assessment\n(3) If the plants or plant products are required to be treated under subsection (2) and\nthe exporter of the plants or plant products is not the relevant person for the\nfailed assessment, the exporter of the plants or plant products must agree to the\nmethod of treatment to be used.",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 9.563858359924813,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1",
+      "citation": "3-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements for accreditation",
+      "label": "3-1",
+      "pages": [
+        34
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-1(1)",
+        "rules2021:3-1(2)",
+        "rules2021:3-1(3)"
+      ],
+      "own_text": "",
+      "text": "3-1 Other requirements for accreditation\nOther requirements for accreditation",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(1)",
+      "citation": "3-1(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "text": "3-1 Other requirements for accreditation\n(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(2)",
+      "citation": "3-1(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "text": "3-1 Other requirements for accreditation\n(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3",
+      "citation": "4-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements",
+      "label": "4-3",
+      "pages": [
+        46
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-3(1)",
+        "rules2021:4-3(2)",
+        "rules2021:4-3(3)"
+      ],
+      "own_text": "",
+      "text": "4-3 Other requirements\nOther requirements",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(1)",
+      "citation": "4-3(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Application of this section",
+      "label": "(1)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "text": "4-3 Other requirements\nApplication of this section\n(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(2)",
+      "citation": "4-3(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Importing country requirements must be able to be met",
+      "label": "(2)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "text": "4-3 Other requirements\nImporting country requirements must be able to be met\n(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9",
+      "citation": "4-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Conditions relating to prescribed grain etc.",
+      "label": "4-9",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-9(1)",
+        "rules2021:4-9(2)",
+        "rules2021:4-9(3)",
+        "rules2021:4-9(4)"
+      ],
+      "own_text": "",
+      "text": "4-9 Conditions relating to prescribed grain etc.\nConditions relating to prescribed grain etc.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(1)",
+      "citation": "4-9(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(1)(a)",
+        "rules2021:4-9(1)(b)"
+      ],
+      "own_text": "(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)",
+      "citation": "4-9(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)"
+      ],
+      "own_text": "(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(a)",
+      "citation": "4-9(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(a) infestation by pests; or",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(a) infestation by pests; or",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(b)",
+      "citation": "4-9(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(b) the presence of an animal carcase; or",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(b) the presence of an animal carcase; or",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(c)",
+      "citation": "4-9(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(3)",
+          "reason": "DIRECT_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11",
+      "citation": "9-11",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Reassessment after failed assessment",
+      "label": "9-11",
+      "pages": [
+        86
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-11(1)",
+        "rules2021:9-11(2)",
+        "rules2021:9-11(3)"
+      ],
+      "own_text": "",
+      "text": "9-11 Reassessment after failed assessment\nReassessment after failed assessment",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-11(1)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-11(2)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-11(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.06505334374186834,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires a system of controls, which is the core of the CP criterion, and the CP specifies the scope of that system for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CP_OPERATIONALIZES_BROADER_RULE",
+      "legal_basis_reason": "The CP requires a system of controls for failed goods; the rule requires a general system of controls at the establishment. The CP is a specific operationalisation of this broader system-of-controls requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.06146441372247824,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires a system of controls for accredited properties, which directly grounds the CP criterion's requirement for a system of controls to manage goods that fail inspection.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CP_OPERATIONALIZES_BROADER_RULE",
+      "legal_basis_reason": "The CP requires a system of controls to manage failed goods; the rule requires a general system of controls at the property to ensure compliance with specified conditions. The CP is a specific operationalisation of this broader system-of-controls requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04715356328259554,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly addresses goods that fail assessment, which is the subject of the CP criterion.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "If the plants or plant products fail an assessment because of:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule directly addresses goods that fail an assessment, which is a specific instance of goods that fail inspection. It provides a specific legal rule for such failed goods, thus specializing the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "If the plants or plant products fail an assessment because of:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04501744589426548,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns design and construction to facilitate treatments, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(1)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.0438301282051282,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly regulates the management of goods that fail inspection by prohibiting reassessment unless rectified.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "If plants or plant products fail an assessment (the failed assessment), the plants or plant products must not be presented for another assessment (a reassessment) unless the reason for the failed assessment has been rectified.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule directly addresses goods that fail an assessment and imposes a control on their representation for reassessment. This is a specific legal rule for managing failed goods, thus specializing the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "If plants or plant products fail an assessment (the failed assessment), the plants or plant products must not be presented for another assessment (a reassessment) unless the reason for the failed assessment has been rectified.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.04312491108265756,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities to an assessor, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.04312219416386083,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Exception for records entered into electronic system, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.042386491763605864,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns screening to manage contamination risk, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.03969884113111485,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities to an assessor, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.03917748917748917,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation grounds for failure to provide facilities to assessors, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(iv)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.0369229337304542,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with sampling requirements, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(iii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.03618937482478273,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with an assessor's request, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.030309988518943745,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision is part of the definition of 'applicable tolerance level'.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(1), a tolerance level for that kind of pest in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-30(3)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.030090497737556562,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns inspection facilities for container approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.029709507042253523,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision is part of the treatment requirement for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "(depending on where the pests or contaminants were detected) is treated using a method that:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule specifies the treatment method for failed goods, which is a specific legal requirement for managing failed goods. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "(depending on where the pests or contaminants were detected) is treated using a method that:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.029211087420042643,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or animal waste, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.029206349206349208,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for contaminants, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.028404512489927477,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for contaminants, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.028006267136701922,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision defines 'applicable tolerance level', which is used in the treatment requirements for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "The applicable tolerance level for a kind of pest in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-6(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.027745885954841176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns records retained by manager of accredited property, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(a)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.02749719416386083,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision specifies the required effectiveness of treatment for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "is effective to reduce the pests or contaminants to no higher than the applicable tolerance level; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule specifies the required effectiveness of treatment for failed goods, which is a specific legal requirement for managing failed goods. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "is effective to reduce the pests or contaminants to no higher than the applicable tolerance level; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(4)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.027402402402402402,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_NORM",
+      "reason": "This provision creates an exception to the blending prohibition in subsection (3), which is relevant to managing failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "Subsection (3) does not prevent blending of prescribed plants or plant products that contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule specifically addresses blending of failed products, which is one of the listed management actions in the CP. It provides a specific legal rule for blending, thus specializing the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "Subsection (3) does not prevent blending of prescribed plants or plant products that contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.027364110201042444,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns records retained by occupier of registered establishment, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.027272727272727275,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision is part of the definition of 'applicable tolerance level'.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "nil; or",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.027046783625730993,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision defines 'applicable tolerance level' for animal carcases or waste, relevant to treatment requirements.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.026547116736990152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns conditions for revocation of suspension of bulk vessel approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.026171741361614778,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or animal waste, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(c)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.025062266500622665,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns suspension grounds for failure to comply with food handling laws, not the system of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02478580171358629,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate is a chapeau for plants and plant products taken not to be prescribed goods, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(c)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.02474946856969329,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation grounds for failure to comply with food handling laws, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.024393871783430016,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification requirements for revocation of container approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(b)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.024222968043192763,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with an assessor's request, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.024184149184149184,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Defines 'applying a substance' which is unrelated to controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.024127906976744187,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification requirements for suspension of bulk vessel approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(b)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.02393162393162393,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation grounds for failure to comply with assessor requests, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.02368937482478273,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification requirements for revocation of bulk vessel approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.023268398268398268,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Exception for records entered into electronic system, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8",
+      "page": 48,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires ensuring integrity, which is directly related to managing failed goods as part of the system of controls.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The rule imposes a general integrity obligation but does not specifically address management of goods that fail inspection, blending, rejections, treatments, or representations. It is related background but not direct grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-4",
+      "page": 36,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires ensuring integrity of products, which is directly relevant to managing goods that fail inspection, including blending, rejections, and treatments.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The rule imposes a general integrity obligation but does not specifically address management of goods that fail inspection, blending, rejections, treatments, or representations. It is related background but not direct grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns conditions for approving tolerance levels for pests, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(e)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Defines 'repacking' which is unrelated to controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes treatment requirements for failed goods, which is part of the system of controls.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected on the plants or plant products or in or on the flowpath for the plants or plant products, the relevant person for the",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule directly addresses goods that fail an assessment due to pests or contaminants and imposes a treatment requirement. This is a specific legal rule for managing failed goods, thus specializing the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected on the plants or plant products or in or on the flowpath for the plants or plant products, the relevant person for the",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)(a)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns general export permit integrity, not the system of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(b)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision adds a requirement for treatment methods for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "meets importing country requirements relating to the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule specifies an additional requirement for treatment of failed goods, which is a specific legal requirement for managing failed goods. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "meets importing country requirements relating to the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2",
+      "page": 22,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Section heading only, no substantive content related to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1",
+      "page": 22,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Section heading only, no substantive content related to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(c)(ii)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns assessment criteria, not the system of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns management of toxic substances, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns export consignment size, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(2)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns plants and plant products taken not to be prescribed goods, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns fresh vegetables being taken not to be prescribed goods, which does not relate to the system of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns consignment to an external Territory, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(b)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with food handling laws, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(6)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns limits on amounts for small horticultural products registered establishment, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-16(2)(b)(ii)",
+      "page": 117,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns vessel suitability for transport, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-16(2)(a)",
+      "page": 117,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Concerns marine surveyor certificate issuance, unrelated to failed goods controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns conditions for bulk vessel approval, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(d)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation grounds for failure to comply with sampling requirements, not the system of controls for failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests, which is unrelated to the CP criterion about systems of controls for goods that fail inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(3)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes a consent requirement for treatment of failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "If the plants or plant products are required to be treated under subsection (2) and the exporter of the plants or plant products is not the relevant person for the failed assessment, the exporter of the plants or plant products must agree to the method of treatment to be used.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The rule imposes a specific control on treatment of failed goods, which is a specific legal requirement for managing failed goods. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "If the plants or plant products are required to be treated under subsection (2) and the exporter of the plants or plant products is not the relevant person for the failed assessment, the exporter of the plants or plant products must agree to the method of treatment to be used.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading providing structural context for accreditation requirements, not directly addressing the CP criterion.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "3-1 Other requirements for accreditation",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(1)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "SCOPE_DEFINITION",
+      "reason": "Defines the scope of accreditation requirements but does not address the specific controls for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other requirements that must be met for a property to be accredited for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(2)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPIC_MATCH",
+      "reason": "Addresses importing country requirements, not the management of failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the property in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading providing structural context, not directly addressing the CP criterion.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "4-3 Other requirements",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(1)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "SCOPE_DEFINITION",
+      "reason": "Defines applicability of the section but does not address the specific controls for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(2)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPIC_MATCH",
+      "reason": "Addresses importing country requirements, not the management of failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading providing structural context for conditions on prescribed grain, not directly addressing the CP criterion.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "4-9 Conditions relating to prescribed grain etc.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(1)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Defines the applicability of the section, which may contain relevant controls, but does not itself state the controls.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate defines the scope of section 4-9, identifying establishments and products to which the section applies. It does not itself establish any control for goods that fail inspection; it merely sets the applicability context for subsequent provisions.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPIC_MATCH",
+      "reason": "Addresses screening requirements, not the management of failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "If screening of the plants or plant products is carried out at the establishment, it must be carried out in a way that is appropriate:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPIC_MATCH",
+      "reason": "Lists a reason for failure but does not address the controls for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "infestation by pests; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(b)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPIC_MATCH",
+      "reason": "Lists a reason for failure but does not address the controls for failed goods.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "the presence of an animal carcase; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(c)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly prohibits blending of failed mung beans, which is a control for managing goods that fail inspection.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence of animal waste; the plants or plant products must not be blended with other plants or plant products at the establishment.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The candidate provides a specific control for goods that fail inspection due to animal waste: a prohibition on blending. This directly operationalizes the CP's reference to blending as a management control for failed goods, making it a legal specialization of the broader criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "legal_basis_policy_quote": "the plants or plant products must not be blended with other plants or plant products at the establishment.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-11",
+      "page": 86,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "INSUFFICIENT_TEXT",
+      "reason": "The candidate provides only a heading without substantive text, making it impossible to determine whether it supplies a normative rule, applicability condition, exception, definition, cross-reference, structural context, or operationalization support for the CP criterion.",
+      "cp_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "policy_quote": "9-11 Reassessment after failed assessment",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ]
+}

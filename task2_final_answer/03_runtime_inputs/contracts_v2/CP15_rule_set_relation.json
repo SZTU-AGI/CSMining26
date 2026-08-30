@@ -1,0 +1,38 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-9(2)",
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "manage the risk of contamination by large contaminants",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(2)",
+          "role": "RELATION",
+          "quote": "If screening of the plants or plant products is carried out at the establishment, it must be carried out in a way that is appropriate:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(2)(a)",
+          "role": "RELATION",
+          "quote": "to manage the risk of contamination by large contaminants; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(2)(b)",
+          "role": "RELATION",
+          "quote": "to ensure that any large contaminants are removed from the plants or plant products."
+        }
+      ],
+      "reason": "The parent subsection 4-9(2) establishes a general requirement that screening be appropriate, while paragraphs (a) and (b) provide specific purposes that define appropriateness. Paragraph (a) directly matches the CP criterion, and paragraph (b) is a further specification of managing contamination risk. Thus, the paragraphs are narrower expressions of the parent, and the parent-child relationship is one of specialization."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The three norms form a hierarchical structure: the parent subsection sets a general appropriateness requirement, and the two paragraphs specify distinct purposes that operationalize that requirement. The relationship is SPECIALIZES because the paragraphs are more specific legal expressions of the parent, and they should not be treated as independent cumulative requirements for the benchmark criterion."
+}

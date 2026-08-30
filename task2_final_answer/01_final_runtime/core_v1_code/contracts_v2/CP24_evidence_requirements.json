@@ -1,0 +1,97 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP24",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "The property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-3A(2)(a)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(a)",
+          "quote": "the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A1-G5",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7A(2)(a)"
+      ],
+      "source_group_ids": [
+        "G5"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products; and"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-3A(2)(a)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A1-G5",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G5"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-7A(2)(a)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

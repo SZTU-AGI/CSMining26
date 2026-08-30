@@ -1,0 +1,69 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-3(2)",
+        "rules2021:4-7"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "all importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(2)",
+          "role": "RELATION",
+          "quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7",
+          "role": "RELATION",
+          "quote": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met."
+        }
+      ],
+      "reason": "4-3(2) requires that requirements 'must be able to be met' (capability), while 4-7 requires that they 'must be met' (actual compliance). 4-7 is a stronger, more specific expression of the same obligation; 4-3(2) is a prerequisite capability condition. They are not independent cumulative requirements for the CP, but rather one specializes the other."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-7",
+        "rules2021:4-8A(b)",
+        "rules2021:7-1(2)(b)",
+        "rules2021:8-6(1)(f)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "all importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7",
+          "role": "RELATION",
+          "quote": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8A(b)",
+          "role": "RELATION",
+          "quote": "the treatment must meet importing country requirements relating to the export operations and the plants or plant products; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:7-1(2)(b)",
+          "role": "RELATION",
+          "quote": "the plants or plant products meet relevant importing country requirements;"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:8-6(1)(f)",
+          "role": "RELATION",
+          "quote": "any other information necessary to meet relevant importing country requirements relating to the plants or plant products."
+        }
+      ],
+      "reason": "These provisions all operationalise the same broad CP requirement that importing country requirements must be met. They address different aspects (treatment, plant condition, trade description information) but do not create separate independent benchmark leaves; they jointly support the single CP criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The CP contains a single broad requirement. 4-3(2) and 4-7 are related by specialization (capability vs actual compliance). The remaining provisions are specific operationalisations that support the same criterion rather than forming cumulative independent requirements."
+}

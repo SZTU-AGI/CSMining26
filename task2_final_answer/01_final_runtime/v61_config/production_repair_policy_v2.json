@@ -1,0 +1,43 @@
+{
+  "schema": "freca-core-production-repair-policy-v2",
+  "policy_id": "PRODUCTION_REPAIR_POLICY_V2",
+  "semantic_version": "2.1.0",
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "goal_action_dispatch": {
+    "FIND_SUPPORT": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "FIND_ATTACK": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME": "RESOLVE_TIME",
+    "RESOLVE_RELIABILITY": "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE": "COMPLETE_TARGETED_COVERAGE"
+  },
+  "allowed_action_types": [
+    "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME",
+    "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE"
+  ],
+  "repair_state_machine": {
+    "max_rounds": 2,
+    "max_selected_goals_per_round": 6,
+    "max_actions_per_round": 8,
+    "parent_alignment_budget": 24,
+    "execute_complete_round_before_stop": true,
+    "no_goal_state_change_is_hard_stop": false,
+    "bounded_search_progress_continuation": true,
+    "bounded_search_progress_max_extra_rounds": 1
+  },
+  "coverage": {
+    "typed_purposes_required": true,
+    "top_k_never_means_exhaustive": true,
+    "targeted_complete_requires_hashed_procedure_artifact": true
+  },
+  "safety": {
+    "missing_to_pass_forbidden": true,
+    "unknown_to_boolean_forbidden": true,
+    "absence_to_violation_forbidden": true,
+    "absence_to_non_applicability_forbidden": true,
+    "goal_direction_does_not_force_alignment_relation": true,
+    "v1_output_write_forbidden": true
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-021",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence shows the establishment is registered for wheat export, but also handles cotton and almonds, and has recently commenced domestic hay storage. The CP requires operations within registered operations; the evidence does not confirm all operations are within the registered scope, and there is ambiguity regarding the registered commodities."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P39"
+      ],
+      "reason": "No evidence explicitly states that the registration is not suspended at the time of export operations. The declaration does not address suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan or description of the registered area is provided in the evidence. The CP requires the area of the premises that is registered for export operations; evidence is insufficient."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan or description of important features and adjoining sites is provided. Evidence is insufficient to establish compliance."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual layout or equipment details are provided. Evidence is insufficient to establish compliance."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations, extensions, or rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations, extensions, or rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P9"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the site plan references Rule 4-2 for buildings, equipment, facilities and services."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan states areas must be maintained clean, but no evidence of design/construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Lockyer_Valley_Grains_Pty_Ltd_021.docx:P4"
+      ],
+      "reason": "The procedure mentions reducing contamination and infestation risk, but no evidence of design/construction to minimise pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The hygiene plan references a system of controls for hygiene and waste, but no evidence of design/construction for waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan references the rule and states cleaning is to be carried out as required, but there is no evidence of a documented system of controls for hygiene, only a plan and verbal direction."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P16"
+      ],
+      "reason": "Evidence explicitly states waste management procedures are NOT documented, so no system of controls for waste control and disposal is established."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P6",
+        "2_HACCPPlan_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The hygiene system relies on verbal direction and waste procedures are missing, so the system of controls is not shown to be effective for the export operations."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Lockyer_Valley_Grains_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_21_Lockyer_Valley_Grains_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "A bait station map and pest control record exist, but there is no evidence of a documented system of controls for pest management, including procedures for monitoring and corrective actions."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Lockyer_Valley_Grains_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_21_Lockyer_Valley_Grains_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "No evidence demonstrates that the pest control system is effective; only a map and a record cover sheet are provided, without details of implementation or effectiveness."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P26"
+      ],
+      "reason": "Records are stated to be retained for two years, but there is no evidence of actual records demonstrating compliance with hygiene, waste, and pest control systems."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P26"
+      ],
+      "reason": "No actual records are provided to verify that they are in English, dated, accurate, legible, and auditable; only statements about record retention exist."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P31"
+      ],
+      "reason": "The plan states areas must be clean, but there is no evidence of actual cleaning records or inspections demonstrating that all areas are currently clean and hygienic."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Lockyer_Valley_Grains_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_21_Lockyer_Valley_Grains_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "No evidence shows that the establishment is maintained to prevent pest infestation or contamination; only a bait station map and a record cover sheet are provided."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Lockyer_Valley_Grains_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The bait station map indicates a system exists, but there is no evidence that the stations are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence addresses chemical storage or prevention of contamination of plant products; the management plan mentions waste management but not chemical storage."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence addresses chemical storage or prevention of contamination of preparation areas; the management plan does not mention chemical storage."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Lockyer_Valley_Grains_Pty_Ltd_021.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Lockyer_Valley_Grains_Pty_Ltd_021.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Lockyer_Valley_Grains_Pty_Ltd_021.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are present, satisfying traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P36",
+        "2_HACCPPlan_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Records are maintained, but HACCP plan lacks formal procedure for managing failed goods, indicating incomplete system of controls."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow chart demonstrates movement and maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P23"
+      ],
+      "reason": "HACCP plan explicitly lacks formal procedure for managing failed goods, including blending, rejection, treatment, and re-presentation."
+    },
+    "CP35": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P31"
+      ],
+      "reason": "Hygiene plan and corrective actions demonstrate controls to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation from non-registered commodities by dedicated equipment and labelled storage zones minimizes risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Lockyer_Valley_Grains_Pty_Ltd_021.docx:P13"
+      ],
+      "reason": "Packaging QC records are occasionally attached to shift summary instead of individual lot files, indicating non-compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P36",
+        "3_PestControlRecord_21_Lockyer_Valley_Grains_Pty_Ltd.xlsx:Cover:R8"
+      ],
+      "reason": "Records are retained for at least two years, including receival, storage, treatment, dispatch, and transfer records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P23"
+      ],
+      "reason": "No evidence of records for rejected or failed goods; HACCP plan lacks record-keeping requirement for non-conforming lot disposition."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_21_Lockyer_Valley_Grains_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained in English, dated, accurate, legible, and auditable as per policy."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Lockyer_Valley_Grains_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence shows registration for cotton, but no evidence that all importing country requirements are met; no specific importing country requirements documented."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-021/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-021/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-021/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-021/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-021/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 31,
+    "N/A": 2,
+    "1": 8
+  }
+}

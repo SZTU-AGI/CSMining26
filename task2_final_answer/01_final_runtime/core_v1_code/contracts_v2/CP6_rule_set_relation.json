@@ -1,0 +1,63 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-15(a)",
+        "rules2021:3-15(b)",
+        "rules2021:3-15(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "persons in management and control",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(a)",
+          "role": "RELATION",
+          "quote": "a change in a person who manages or controls export operations carried out at the accredited property"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(b)",
+          "role": "RELATION",
+          "quote": "if the manager is a partnership—a change in the membership of the partnership."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(c)",
+          "role": "RELATION",
+          "quote": "if the manager is a corporation—the corporation:"
+        }
+      ],
+      "reason": "3-15(a) is the general requirement for changes in persons managing or controlling export operations. 3-15(b) and 3-15(c) provide specific instances for partnerships and corporations respectively, narrowing the general requirement."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:3-15(a)",
+        "rules2021:3-15(d)",
+        "rules2021:3-15(ia)"
+      ],
+      "relation": "CUMULATIVE",
+      "criterion_quote": "notification has been provided to the department of relevant changes to the registration, including the business structure, persons in management and control, trading name, address and contact details",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "CONNECTOR",
+          "quote": "including the business structure, persons in management and control, trading name, address and contact details"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15",
+          "role": "CONNECTOR",
+          "quote": "the following events are prescribed in relation to an accredited property:"
+        }
+      ],
+      "reason": "The CP explicitly lists multiple distinct categories of changes that must be notified: business structure, persons in management and control, trading name, address and contact details. The Rules prescribe separate events for each category, indicating that each is independently required for compliance with the CP."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms cover distinct aspects of the CP: management/control changes (with specializations for partnerships and corporations), trading name/address/contact details, and business restructuring. The CP's use of 'including' and the Rules' enumeration of separate prescribed events establish that these categories are cumulative requirements. Within the management/control category, the partnership and corporation provisions specialize the general requirement."
+}

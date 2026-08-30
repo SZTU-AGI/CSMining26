@@ -1,0 +1,366 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-056",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows the establishment is registered for wheat (grain) and almonds, but also mentions operations for apples, chickpeas, and lentils. This inconsistency fails to establish that all operations are within registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence provided regarding suspension status of registration. Missing evidence is insufficient to establish compliance."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence references important features but does not explicitly identify the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Evidence mentions important features and facilities but does not provide a detailed description of all important features and adjoining sites as required."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence references layout but does not provide specific details of layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., if changes occurred). Evidence explicitly states no changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., if changes occurred). Evidence explicitly states no changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., if alterations occurred). Evidence explicitly states no alterations have been carried out, so no approval was required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., if alterations occurred). Evidence explicitly states no alterations have been carried out, so no approval was required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P12",
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for the registered export operations and describes infrastructure (steel-frame, concrete flooring) supporting wheat export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence shows cleaning procedures and recent inspection confirming clean and hygienic condition, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Goondiwindi_Grain_Exports_Pty_Ltd_056.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence describes security zoning, sealed storage, pre-load inspections, and hygiene maintenance to reduce contamination and infestation risk."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, and includes procedures for cleaning and maintaining clean conditions. The most recent internal inspection found all areas clean and hygienic, demonstrating the system is in place and effective."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, and includes procedures for handling cleaning deficiencies and corrective actions, indicating a system for waste management is in place."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The internal inspection on 28 February 2025 found all areas clean and hygienic with no deficiencies, and the plan includes corrective actions for any deficiencies, demonstrating the system is effective for the export operations conducted."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_56_Goondiwindi_Grain_Exports_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map includes a Pest Control System Overview, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for pest control including rodent bait stations is in place."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_56_Goondiwindi_Grain_Exports_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The presence of a pest control system overview and pest control records indicates the system is effective for the type of export operations conducted at the establishment."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "The registration record states records are retained for a minimum of two years, and the hygiene plan states cleaning records are retained for at least two years, demonstrating compliance with the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are maintained in the business management system and on site, and the hygiene plan indicates records are dated and retained, implying they are in English, accurate, legible, and auditable as required."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The internal inspection found all areas clean and hygienic, and the plan states the objective to ensure all areas are maintained in a clean and hygienic condition, demonstrating compliance."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43",
+        "7_Bait_Station_Map_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The internal inspection found no deficiencies, and the pest control system overview indicates measures to prevent infestation and contamination, supporting that the establishment is maintained to prevent pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Bait Station Map includes a Pest Control System Overview, indicating that bait stations are mapped and presumably maintained, but no evidence of malfunction or unfitness is present, so the requirement is satisfied."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan includes controls to prevent contamination of plant products, and the internal inspection found no deficiencies, indicating chemicals are stored to prevent contamination of prescribed plant products."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan includes controls to prevent contamination in all areas of the establishment, and the internal inspection found no deficiencies, indicating chemicals are stored to prevent contamination of areas where plant products are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Goondiwindi_Grain_Exports_Pty_Ltd_056.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment and transfer records to next premises, but does not explicitly document traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Goondiwindi_Grain_Exports_Pty_Ltd_056.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment and transfer records to next premises, but does not explicitly document traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Goondiwindi_Grain_Exports_Pty_Ltd_056.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not provide details confirming traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36",
+        "2_HACCPPlan_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions records and a product flow chart, but does not explicitly describe a system of controls for traceability and integrity (e.g., labelling, record keeping)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P21",
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence references a product flow chart and describes product flow, but does not demonstrate that the chart is part of a system of controls or that it is current and accurate."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions 'Failed Goods' in a heading but provides no details on management of failed goods, blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Evidence addresses hygiene and cleanliness but does not specifically address maintaining risk for contamination or infestation in the context of phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not explicitly address minimising the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, but does not specify the types of traceability records (receival, product movement, treatment, transfer, dispatch, transport unit approval) as required."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records for export operations but does not specifically address records for rejected or failed goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence mentions compliance with the Rules and DAFF Performance Standards but does not specifically demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-056/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-056/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-056/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-056/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-056/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 24,
+    "N/A": 2,
+    "1": 15
+  }
+}

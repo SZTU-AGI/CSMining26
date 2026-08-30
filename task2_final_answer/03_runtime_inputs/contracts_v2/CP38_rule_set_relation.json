@@ -1,0 +1,25 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:11-10(3)",
+        "rules2021:11-5(2)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "At least 2 years of traceability records are retained",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "At least 2 years of traceability records are retained"
+        }
+      ],
+      "reason": "Both provisions impose a 2-year retention requirement on different categories of persons (authorised officers and exporters) for records related to traceability. They jointly support the single benchmark requirement that traceability records be retained for at least 2 years, without the CP indicating that each category must independently satisfy the criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms both operationalise the same CP requirement for 2-year retention of traceability records, but apply to different duty holders. No explicit connector in the CP or the supplied Rules establishes that they are cumulative or alternative; therefore they are best treated as supporting the same criterion."
+}

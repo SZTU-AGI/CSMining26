@@ -1,0 +1,338 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-099",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for barley export and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates the establishment is registered and operating within its registered scope; no evidence of suspension is present."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A scaled site plan is attached showing the registered area, including all infrastructure and product flow contained within the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17",
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan shows important features and adjoining sites; management plan confirms all necessary buildings, equipment, facilities and services are present."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The site plan shows layout of export operation areas, permanent fixtures, and equipment used for preparing plants and plant products."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence states the establishment began using a new trading name 'AgriPrime Exports' but DAFF has not been notified, violating the requirement to notify changes."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of any alterations or approvals; however, the trading name change is a change that may affect compliance and was not notified, indicating failure to notify relevant changes."
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P12",
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and provides a site plan showing infrastructure."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence shows cleaning procedures and maintenance of clean and hygienic condition, supporting effective cleaning design."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8",
+        "3_PestControlRecord_99_Wheatbelt_Storage_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence indicates hygiene maintenance and pest control records, supporting minimization of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning responsibilities, schedules, and recording in cleaning logs, covering all areas of the establishment."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P5",
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan and Farm Management Plan reference waste management arrangements and system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The plan is specific to the establishment's operations (pulse cleaning, storage, packing for export Red Lentils) and includes detailed procedures for each area, indicating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wheatbelt_Storage_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_99_Wheatbelt_Storage_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence includes a Pest Control System Overview and a Pest Control Record, indicating a system to manage pests and contaminants, including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wheatbelt_Storage_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_99_Wheatbelt_Storage_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system is documented and includes records, indicating it is effective for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy; the records are in English and dated as per the retention statement."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P27",
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The plan ensures all areas are maintained in a clean and hygienic condition, with specific cleaning procedures for storage silos and palletising areas, and facilities are maintained appropriately."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Wheatbelt_Storage_Co_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The establishment is kept clean and hygienic, and pest control measures are in place, ensuring goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wheatbelt_Storage_Co_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Pest Control System Overview indicates bait stations are mapped and part of the system, implying they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Farm Management Plan documents waste management arrangements and establishment condition, which includes appropriate storage of chemicals to prevent contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Farm Management Plan includes waste management arrangements and establishment condition, ensuring chemicals are stored to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Wheatbelt_Storage_Co_Pty_Ltd_099.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer records, but no specific evidence of tracing from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36",
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow and record keeping, but does not explicitly demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Wheatbelt_Storage_Co_Pty_Ltd_099.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records exist but no details on tracing to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36",
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions records and product flow, but no explicit system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow described but no formal product flow chart demonstrating integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of system to manage failed goods, blending, rejections, or treatments."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wheatbelt_Storage_Co_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Hygiene procedures exist but no explicit risk management for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation mentioned but no explicit system to prevent substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Wheatbelt_Storage_Co_Pty_Ltd_099.docx:P13"
+      ],
+      "reason": "Packaging QC records mentioned but no evidence of packaging requirements compliance."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records retained for 2 years stated, but no evidence of specific traceability records like receival, movement, treatment, dispatch, transport approvals."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_99_Wheatbelt_Storage_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records mentioned but no evidence they are in English, dated, accurate, legible, auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of meeting importing country requirements."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-099/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-099/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-099/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-099/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-099/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "1": 20,
+    "0": 21
+  }
+}

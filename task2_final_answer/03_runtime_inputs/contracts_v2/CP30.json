@@ -1,0 +1,3283 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP30",
+    "canonical_cp_id": "CP30",
+    "element": "Element-4",
+    "subelement": "4.1 System of controls – product traceability and integrity",
+    "criterion": "while they are at the registered establishment",
+    "sheet": "All Elements",
+    "column": 30
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:4-8",
+      "citation": "4-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "4-8",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "text": "4-8 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.06402049075403121,
+      "rrf_score": 0.06402049075403121,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 16.734962727299564,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 17.998417834717497,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.674287044498846,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 25.672704879216347,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-4",
+      "citation": "3-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "3-4",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "text": "3-4 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.060427742142132146,
+      "rrf_score": 0.060427742142132146,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 10.325197283645437,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 11.808243896595698,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.310536826138739,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 19.11878072273444,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.05586104564894824,
+      "rrf_score": 0.05586104564894824,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 9.19138802414845,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 9.424555892489805,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.58123745966464,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 16.005793352154445,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.05244182467728229,
+      "rrf_score": 0.05244182467728229,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 9.339822207708998,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 8.653824767756893,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.876739599513546,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 14.530564367270438,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.050306978883301164,
+      "rrf_score": 0.050306978883301164,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 9.19138802414845,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 8.504272350252066,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.747524658272875,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 14.251797008524942,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(b)",
+      "citation": "4-7B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the registered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(b) while they are at the registered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04891591750396616,
+      "rrf_score": 0.04891591750396616,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 27.2856666483832,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 23.45780036101223,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 25.3194060356927,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(b)",
+      "citation": "3-3B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the relevant property; and",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(b) while they are at the relevant property; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04738666351569577,
+      "rrf_score": 0.04738666351569577,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 20.088679911725947,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 16.287224161377647,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 18.116165982888756,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(c)",
+      "citation": "4-7B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04640151515151515,
+      "rrf_score": 0.04640151515151515,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 14.948322531687683,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 15.619849232659194,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 17.206496162138787,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(a)",
+      "citation": "4-7B(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04524201288907172,
+      "rrf_score": 0.04524201288907172,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 11.722374438572789,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 13.714323838739773,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 15.501456142122972,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(c)",
+      "citation": "3-3B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04482184482184482,
+      "rrf_score": 0.04482184482184482,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 13.61843087818771,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 12.87930106724549,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 14.385694040474085,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(d)",
+      "citation": "4-21(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        56,
+        57
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nObligations of occupiers of registered establishments Part 7",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nObligations of occupiers of registered establishments Part 7",
+      "page": 56,
+      "page_end": 57,
+      "score": 0.04103990868696751,
+      "rrf_score": 0.04103990868696751,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 8.536506372735431,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 10.061899569254514,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 13.818243866327833,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.039917840375586856,
+      "rrf_score": 0.039917840375586856,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 9.19138802414845,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.963329771560889,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 14.269634053403141,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)",
+      "citation": "8-6(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [
+        "rules2021:8-6(1)(c)(i)",
+        "rules2021:8-6(1)(c)(ii)"
+      ],
+      "own_text": "(c) the registration number of the registered establishment where:",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(c) the registration number of the registered establishment where:",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.03632183908045977,
+      "rrf_score": 0.03632183908045977,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 7.781133758527608,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 9.138207593581356,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 10.426545570893637,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.032266458495966696,
+      "rrf_score": 0.032266458495966696,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.328369228974898,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 19.507060287806212,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.029827662395050816,
+      "rrf_score": 0.029827662395050816,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.067774028803447,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 13.998543894461653,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(1)",
+      "citation": "1-8(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        18
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(1) A registered establishment is a small horticultural products registered\nestablishment for a financial year if the requirements in this section are met in\nrelation to the establishment in the financial year.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(1) A registered establishment is a small horticultural products registered\nestablishment for a financial year if the requirements in this section are met in\nrelation to the establishment in the financial year.",
+      "page": 18,
+      "page_end": 18,
+      "score": 0.027212143650499815,
+      "rrf_score": 0.027212143650499815,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 9.318746560457816,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 9.305781530530346,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.026984126984126985,
+      "rrf_score": 0.026984126984126985,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 9.586610225622943,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 9.907213694668663,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(iv)",
+      "citation": "4-17(a)(iv)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iv)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.02667140825035562,
+      "rrf_score": 0.02667140825035562,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 9.20665436680789,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 13.480047907681353,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-2(2)",
+      "citation": "12-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        119
+      ],
+      "parent_id": "rules2021:12-2",
+      "child_ids": [],
+      "own_text": "(2) If the application was in relation to a registered establishment, the application is\ntaken to have been withdrawn at the commencement time.",
+      "text": "12-2 Application for determination that establishment is a small horticultural\nproducts registered establishment for a financial year\n(2) If the application was in relation to a registered establishment, the application is\ntaken to have been withdrawn at the commencement time.",
+      "page": 119,
+      "page_end": 119,
+      "score": 0.0264301860545992,
+      "rrf_score": 0.0264301860545992,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 8.249489544146174,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 9.538063304364277,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(b)",
+      "citation": "4-7A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.02625745950554135,
+      "rrf_score": 0.02625745950554135,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 9.704744581313431,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 10.759706021208778,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(a)",
+      "citation": "4-7A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.026190476190476188,
+      "rrf_score": 0.026190476190476188,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 9.695244202908848,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 11.223726298797812,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.026144907723855092,
+      "rrf_score": 0.026144907723855092,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 9.005293859482316,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 13.442777798996161,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.02564102564102564,
+      "rrf_score": 0.02564102564102564,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 9.005293859482316,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 13.442777798996161,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(d)",
+      "citation": "4-19(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        54,
+        55
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nRevocation of registration Part 6\nRevocation requested by occupier Division 1",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(d) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with section 410 of\nthe Act when taking, testing or analysing samples at the establishment.\nRevocation of registration Part 6\nRevocation requested by occupier Division 1",
+      "page": 54,
+      "page_end": 55,
+      "score": 0.02548701298701299,
+      "rrf_score": 0.02548701298701299,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 9.005293859482316,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 12.669544136512958,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(6)",
+      "citation": "1-8(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.02538152610441767,
+      "rrf_score": 0.02538152610441767,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.636995165584347,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 13.80151977460827,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(b)",
+      "citation": "4-19(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.025003906860446942,
+      "rrf_score": 0.025003906860446942,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 8.956749261871359,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 12.596461892317825,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-22",
+      "citation": "4-22",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Changes in relation to registered establishment that was being treated as",
+      "label": "4-22",
+      "pages": [
+        57
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-22(a)",
+        "rules2021:4-22(b)",
+        "rules2021:4-22(c)"
+      ],
+      "own_text": "small horticultural products registered establishment for a financial\nyear\nFor the purposes of paragraph 145(1)(b) of the Act, the following changes are\nprescribed in relation to a registered establishment that, before the change, was\nbeing treated as a small horticultural products registered establishment for a\nfinancial year:",
+      "text": "4-22 Changes in relation to registered establishment that was being treated as\nChanges in relation to registered establishment that was being treated as\nsmall horticultural products registered establishment for a financial\nyear\nFor the purposes of paragraph 145(1)(b) of the Act, the following changes are\nprescribed in relation to a registered establishment that, before the change, was\nbeing treated as a small horticultural products registered establishment for a\nfinancial year:",
+      "page": 57,
+      "page_end": 57,
+      "score": 0.024706420619185605,
+      "rrf_score": 0.024706420619185605,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 8.49959252717071,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 8.77535999986124,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(b)",
+      "citation": "4-21(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(b) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to comply with a request\nmade by an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.024695121951219513,
+      "rrf_score": 0.024695121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 8.956749261871359,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 12.596461892317825,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.02428613482484545,
+      "rrf_score": 0.02428613482484545,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 8.572848690234904,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 13.362699832259537,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.02393162393162393,
+      "rrf_score": 0.02393162393162393,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 8.414360420491438,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.058368584420556,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-6(a)(i)",
+      "citation": "9-6(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        83
+      ],
+      "parent_id": "rules2021:9-6(a)",
+      "child_ids": [],
+      "own_text": "(i) the occupier of the registered establishment; or",
+      "text": "9-6 Relevant person for assessment\n(a) for an assessment at a registered establishment of prescribed plants or plant\nproducts in relation to which an application for a government certificate or\nan export permit has not been made is:\n(i) the occupier of the registered establishment; or",
+      "page": 83,
+      "page_end": 83,
+      "score": 0.023669467787114845,
+      "rrf_score": 0.023669467787114845,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 7.994678004904969,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 8.604719629377916,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(c)",
+      "citation": "9-17(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(c) a person who manages or controls operations at a registered establishment\nreferred to in paragraph (b) of this subsection;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(c) a person who manages or controls operations at a registered establishment\nreferred to in paragraph (b) of this subsection;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.023431077007399288,
+      "rrf_score": 0.023431077007399288,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 8.189509853717018,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 10.139514327334597,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(iii)",
+      "citation": "4-17(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(iii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\na request made by an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(iii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\na request made by an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.023411829134720702,
+      "rrf_score": 0.023411829134720702,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 8.524281257826292,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 12.420412735682852,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.023255813953488372,
+      "rrf_score": 0.023255813953488372,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 5.4240795406862246,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 10.497519920294907,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A(a)",
+      "citation": "4-8A(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-8A",
+      "child_ids": [],
+      "own_text": "(a) the operations must be safe and effective; and",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:\n(a) the operations must be safe and effective; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.022857889237199582,
+      "rrf_score": 0.022857889237199582,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 8.547970958505134,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 10.340038917828238,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.94293355369499,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-28(3)(d)",
+      "citation": "8-28(3)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        76
+      ],
+      "parent_id": "rules2021:8-28(3)",
+      "child_ids": [],
+      "own_text": "(d) if the official mark was applied to the plants or plant products at a\nregistered establishment—the occupier of the registered establishment; or",
+      "text": "8-28 Removal or defacement of official marks\n(3) If an official mark has been applied to plants or plant products and the official\nmark is required to be removed or defaced under subsection (1) or (2), the\nofficial mark must be removed or defaced by:\n(d) if the official mark was applied to the plants or plant products at a\nregistered establishment—the occupier of the registered establishment; or",
+      "page": 76,
+      "page_end": 76,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 10.392790960796349,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.898052602628539,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A",
+      "citation": "4-8A",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Conditions relating to treatment of prescribed plants or plant products",
+      "label": "4-8A",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-8A(a)",
+        "rules2021:4-8A(b)",
+        "rules2021:4-8A(c)"
+      ],
+      "own_text": "If the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nConditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 10.33871671466813,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.858413910548661,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(e)",
+      "citation": "1-6(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        17,
+        18
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "text": "1-6 Definitions\n(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "page": 17,
+      "page_end": 18,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.726678004027894,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-8(3)(b)",
+      "citation": "8-8(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        66
+      ],
+      "parent_id": "rules2021:8-8(3)",
+      "child_ids": [],
+      "own_text": "(b) if a part of the trade description that is in the foreign language was applied\nat a registered establishment—the occupier of the registered establishment;",
+      "text": "8-8 Trade descriptions in language other than English\n(3) On request, in writing, by the Secretary to one of the following persons, the\nperson must make available to the Secretary a translation in English of the part of\nthe trade description that is in the foreign language:\n(b) if a part of the trade description that is in the foreign language was applied\nat a registered establishment—the occupier of the registered establishment;",
+      "page": 66,
+      "page_end": 66,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 10.090389065319638,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7027632796314105,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B",
+      "citation": "4-7B",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products must be traced",
+      "label": "4-7B",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)",
+        "rules2021:4-7B(c)"
+      ],
+      "own_text": "Prescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "text": "4-7B Plants and plant products must be traced\nPlants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 9.606641877445018,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)(a)",
+      "citation": "7-1(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1(2)",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products is ensured; and",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:\n(a) the integrity of the plants or plant products is ensured; and",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.632450319789029,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(b)",
+      "citation": "9-21(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        93
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "page": 93,
+      "page_end": 93,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 9.445670923069555,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.4858624266017255,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.307121326243124,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(c)(ii)",
+      "citation": "9-10(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) the integrity of the plants or plant products can be ensured; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(c) the assessor reasonably believes that:\n(ii) the integrity of the plants or plant products can be ensured; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.234589101069533,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.189261330948453,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.176717408074621,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.99545538719722,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(5)",
+      "citation": "1-8(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(5) The occupier of the registered establishment must not be the occupier of another\nregistered establishment in the financial year.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(5) The occupier of the registered establishment must not be the occupier of another\nregistered establishment in the financial year.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 8.396744181995375,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(7)",
+      "citation": "1-8(7)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(7)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(7) The total amount of all horticultural products referred to in column 1 of item 14\nof the table in subsection (8) in relation to which export operations are to be\ncarried out at the registered establishment in the financial year must not exceed\nthe total amount referred to in column 2 of that item.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(7) The total amount of all horticultural products referred to in column 1 of item 14\nof the table in subsection (8) in relation to which export operations are to be\ncarried out at the registered establishment in the financial year must not exceed\nthe total amount referred to in column 2 of that item.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 8.871042265054463,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-22(b)",
+      "citation": "4-22(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        57
+      ],
+      "parent_id": "rules2021:4-22",
+      "child_ids": [],
+      "own_text": "(b) in the financial year, the occupier of the establishment becomes the\noccupier of another registered establishment;",
+      "text": "4-22 Changes in relation to registered establishment that was being treated as\nsmall horticultural products registered establishment for a financial\nyear\nFor the purposes of paragraph 145(1)(b) of the Act, the following changes are\nprescribed in relation to a registered establishment that, before the change, was\nbeing treated as a small horticultural products registered establishment for a\nfinancial year:\n(b) in the financial year, the occupier of the establishment becomes the\noccupier of another registered establishment;",
+      "page": 57,
+      "page_end": 57,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 8.834736100029607,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-13(1)",
+      "citation": "4-13(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        50
+      ],
+      "parent_id": "rules2021:4-13",
+      "child_ids": [],
+      "own_text": "(1) Prescribed plants or plant products at a registered establishment that are to be\nexported in a container must not be loaded into the container unless a container\napproval is in force for the container.",
+      "text": "4-13 Prescribed plants or plant products to be exported in containers\n(1) Prescribed plants or plant products at a registered establishment that are to be\nexported in a container must not be loaded into the container unless a container\napproval is in force for the container.",
+      "page": 50,
+      "page_end": 50,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 8.157101078004018,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.605728462700105,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)",
+      "citation": "9-16(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88,
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [
+        "rules2021:9-16(1)(a)",
+        "rules2021:9-16(1)(b)",
+        "rules2021:9-16(1)(c)"
+      ],
+      "own_text": "(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nPests\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "page": 88,
+      "page_end": 89,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 5.5772114610081065,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(b)",
+      "citation": "9-17(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 7.895730486903865,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17",
+      "citation": "4-17",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other reasons for the Secretary to vary registration",
+      "label": "4-17",
+      "pages": [
+        52
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-17(a)",
+        "rules2021:4-17(b)"
+      ],
+      "own_text": "For the purposes of paragraph 123(2)(h) of the Act, the following reasons for\nmaking a variation in relation to the registration of a registered establishment, or\nsetting an earlier expiry date for the registration of a registered establishment, are\nprescribed:",
+      "text": "4-17 Other reasons for the Secretary to vary registration\nOther reasons for the Secretary to vary registration\nFor the purposes of paragraph 123(2)(h) of the Act, the following reasons for\nmaking a variation in relation to the registration of a registered establishment, or\nsetting an earlier expiry date for the registration of a registered establishment, are\nprescribed:",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 7.799723530519959,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:4-8",
+      "page": 48,
+      "rrf_or_bm25_score": 0.06402049075403121,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires that the integrity of plants and plant products be ensured while they are at the establishment, which is the core of the CP criterion about integrity.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This section directly requires ensuring integrity while plants are at the registered establishment, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-4",
+      "page": 36,
+      "rrf_or_bm25_score": 0.060427742142132146,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "This provision requires integrity at an accredited property, not a registered establishment, so it is not a direct normative ground for the CP but provides analogous operational context.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "must be ensured while the plants or plant products are at the property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision ensures integrity at an accredited property, not a registered establishment. The CP is specific to registered establishments.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "must be ensured while the plants or plant products are at the property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.05586104564894824,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of suspension of bulk vessel approval, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.05244182467728229,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of container approval revocation, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the container is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the container—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.050306978883301164,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of bulk vessel approval revocation, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04891591750396616,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph directly states that plants and plant products must be traced while they are at the registered establishment, exactly matching the CP criterion.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "while they are at the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This paragraph explicitly states the tracing requirement while plants are at the registered establishment, directly matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "while they are at the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-3B(b)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04738666351569577,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "This provision requires tracing while at an accredited property, not a registered establishment, so it is not a direct normative ground for the CP but provides analogous operational context.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "while they are at the relevant property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns tracing at an accredited property, not a registered establishment. The CP specifically refers to registered establishments, so this is a related but distinct obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "while they are at the relevant property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-7B(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04640151515151515,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies the traceability requirement from the establishment to the next premises, which is part of the traceability chain relevant to the CP criterion.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "to the premises to which they are transferred from the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph addresses tracing after transfer from the establishment, not while at the establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "to the premises to which they are transferred from the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7B(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04524201288907172,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies the traceability requirement from the property to the establishment, which is part of the traceability chain relevant to the CP criterion.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "from the property (if any) from which they were transferred to the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph addresses tracing from a property to the establishment, not while at the establishment. It is a different stage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "from the property (if any) from which they were transferred to the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3B(c)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04482184482184482,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "This provision addresses tracing to a registered establishment, but not while at the establishment, so it is not a direct normative ground for the CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "to the accredited property or registered establishment to which they are transferred",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses tracing to a registered establishment, not while at the registered establishment. It is a different stage of traceability.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "to the accredited property or registered establishment to which they are transferred",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-21(d)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.04103990868696751,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with section 410 of the Act when taking, testing or analysing samples at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.039917840375586856,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of bulk vessel approval suspension, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.03632183908045977,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate requires inclusion of the registration number in the trade description, which supports traceability of products to the registered establishment, but does not independently create a scoring requirement for this CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the registration number of the registered establishment where:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns trade description requirements, specifically the registration number, which is a separate labeling obligation and does not directly ground the CP criterion about traceability and integrity while at the establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "the registration number of the registered establishment where:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.032266458495966696,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "SYSTEM_OF_CONTROLS_REQUIREMENT",
+      "reason": "This provision requires a system of controls to ensure compliance with sections 4-7A, 4-7B, and 4-8A, which include the traceability and integrity requirements relevant to the CP. It supports operationalization but does not itself state the specific requirement scored by the CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls at a registered establishment, but it does not directly state the tracing or integrity requirement while at the establishment. It is a general enabling requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.029827662395050816,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "This provision requires a system of controls for accredited properties, which is analogous to the CP's focus on controls at registered establishments, but it does not directly impose traceability and integrity requirements for registered establishments.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls at an accredited property, but it does not specifically address the tracing or integrity of plants while at a registered establishment. It is a general operational requirement, not the legal grounding for the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-8(1)",
+      "page": 18,
+      "rrf_or_bm25_score": 0.027212143650499815,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Definition of small horticultural products registered establishment does not address traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.026984126984126985,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of contaminant tolerance levels, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(iv)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.02667140825035562,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with sampling requirements, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with section 410 of the Act when taking, testing or analysing samples at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-2(2)",
+      "page": 119,
+      "rrf_or_bm25_score": 0.0264301860545992,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Deeming withdrawal of application for small establishment determination is unrelated to traceability and integrity.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(b)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.02625745950554135,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "CONDITION_OF_ESTABLISHMENT",
+      "reason": "This provision requires the establishment to be kept in a condition that prevents infestation or contamination, which supports product integrity but does not directly state the traceability or integrity requirement scored by the CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses pest and contamination prevention, not traceability or integrity. It is a different obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.026190476190476188,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "CONDITION_OF_ESTABLISHMENT",
+      "reason": "This provision requires the establishment to be kept in a condition appropriate for export operations, which indirectly supports product integrity but does not directly address traceability or integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns the condition of the establishment, not the tracing or integrity of plants while at the establishment. It is a separate requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.026144907723855092,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns suspension grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to provide facilities and assistance to an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.02564102564102564,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to provide facilities and assistance to an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(d)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.02548701298701299,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns suspension grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with section 410 of the Act when taking, testing or analysing samples at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(6)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.02538152610441767,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Quantity limits for small establishment status do not relate to traceability and integrity.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(b)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.025003906860446942,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns suspension grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with a request made by an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-22",
+      "page": 57,
+      "rrf_or_bm25_score": 0.024706420619185605,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns changes in relation to small horticultural products registered establishment, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "For the purposes of paragraph 145(1)(b) of the Act, the following changes are prescribed in relation to a registered establishment that, before the change, was being treated as a small horticultural products registered establishment for a financial year:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(b)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.024695121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation grounds, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with a request made by an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.02428613482484545,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities for assessment, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to provide facilities and assistance to an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.02393162393162393,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Definition of 'applying a substance' does not relate to product traceability and integrity at a registered establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-6(a)(i)",
+      "page": 83,
+      "rrf_or_bm25_score": 0.023669467787114845,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate identifies a relevant person for assessment, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the registered establishment; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(c)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.023431077007399288,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate identifies persons who may use an authorised computer program, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "a person who manages or controls operations at a registered establishment referred to in paragraph (b) of this subsection;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(iii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.023411829134720702,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to comply with assessor requests, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to comply with a request made by an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.023255813953488372,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance related to pest detection on vessels, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "a species of the genus Trogoderma is detected in or on the vessel",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.022857889237199582,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TREATMENT_OPERATIONS_REQUIREMENT",
+      "reason": "This provision requires treatment operations to be safe and effective, which supports product integrity but does not directly state the traceability or integrity requirement scored by the CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the operations must be safe and effective",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate imposes a safety and effectiveness requirement on treatment operations, which is a separate obligation and does not directly ground the CP criterion about traceability and integrity while at the establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "the operations must be safe and effective",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Exception for records entered into Department electronic system does not relate to traceability and integrity at registered establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-28(3)(d)",
+      "page": 76,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns removal or defacement of official marks, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the official mark was applied to the plants or plant products at a registered establishment—the occupier of the registered establishment; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approved pest tolerance levels, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(1), a tolerance level for that kind of pest in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A",
+      "page": 48,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITIONAL_APPLICABILITY",
+      "reason": "This provision sets a condition for the applicability of additional requirements related to treatment operations, which may affect the integrity requirement while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "If the export operations carried out at a registered establishment are, or include, operations to treat prescribed plants or plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate sets a condition for treatment operations at a registered establishment, but does not itself ground the CP criterion about product traceability and integrity while at the establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "If the export operations carried out at a registered establishment are, or include, operations to treat prescribed plants or plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the pest is not injurious to that kind of plant or plant product; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(e)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Definition of 'repacking' does not relate to product traceability and integrity at a registered establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-8(3)(b)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns translation of foreign language trade descriptions, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if a part of the trade description that is in the foreign language was applied at a registered establishment—the occupier of the registered establishment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approved tolerance levels for animal carcases/waste, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(2), a tolerance level for animal carcases or animal waste in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B",
+      "page": 48,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires that prescribed plants and plant products be traced, which is the core of the CP criterion about traceability while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This section directly establishes the tracing requirement for plants at a registered establishment, which includes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)(a)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "EXPORT_PERMIT_CONDITION",
+      "reason": "This provision requires the holder of an export permit to ensure integrity of plants or plant products, which is related to the CP but is a separate obligation on the permit holder, not directly the establishment's requirement while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the integrity of the plants or plant products is ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate explicitly requires ensuring the integrity of plants or plant products, which directly corresponds to the CP criterion of product traceability and integrity while at the registered establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products is ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-21(b)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance with bulk vessel requirements, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the requirements in paragraph 9-23(1)(a) or (b) are not continuing to be met in relation to the vessel;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns contaminant tolerance levels, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for pests, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "The applicable tolerance level for a kind of pest in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(c)(ii)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate provides a criterion for assessment that integrity can be ensured, which supports the CP's focus on integrity, but does not independently create a scoring requirement for this CP.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the integrity of the plants or plant products can be ensured; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate explicitly requires that the integrity of plants or plant products can be ensured, which directly corresponds to the CP criterion of product traceability and integrity while at the registered establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "while they are at the registered establishment",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products can be ensured; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or waste, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate is a sub-provision on pest tolerance levels, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "nil; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate is a sub-provision on animal carcase/waste tolerance levels, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "nil; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(5)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Occupier restriction for small establishment status is unrelated to traceability and integrity.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(7)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Total amount limit for small establishment status does not relate to traceability and integrity.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-22(b)",
+      "page": 57,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns changes in occupancy of a registered establishment, which is unrelated to the CP criterion about product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "in the financial year, the occupier of the establishment becomes the occupier of another registered establishment",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-13(1)",
+      "page": 50,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns container approval requirements for export, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "Prescribed plants or plant products at a registered establishment that are to be exported in a container must not be loaded into the container unless a container approval is in force for the container.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns bulk vessel approval conditions, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of pest tolerance levels, not product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "The Secretary may approve, in writing, a tolerance level higher than nil for a kind of pest in relation to a kind of plant or plant product for export to an importing country if:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(b)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate identifies persons who may use an authorised computer program, which is unrelated to the CP criterion about product traceability and integrity while at the registered establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "the occupier of a registered establishment where operations to prepare plants or plant products for export are carried out;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17",
+      "page": 52,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns variation of registration, not product traceability and integrity while at the establishment.",
+      "cp_quote": "while they are at the registered establishment",
+      "policy_quote": "For the purposes of paragraph 123(2)(h) of the Act, the following reasons for making a variation in relation to the registration of a registered establishment, or setting an earlier expiry date for the registration of a registered establishment, are prescribed:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ],
+  "contract": {
+    "cp_id": "CP30",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "Prescribed plants and plant products prepared at a registered establishment must be traced while they are at the registered establishment.",
+        "criterion_quote": "while they are at the registered establishment",
+        "basis_candidate_ids": [
+          "rules2021:4-7B(b)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "while they are at the registered establishment"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7B(b)",
+            "quote": "while they are at the registered establishment"
+          }
+        ]
+      },
+      {
+        "atom_id": "A2",
+        "proposition": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+        "criterion_quote": "while they are at the registered establishment",
+        "basis_candidate_ids": [
+          "rules2021:4-8"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "while they are at the registered establishment"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-8",
+            "quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment."
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ALL",
+      "children": [
+        {
+          "op": "ATOM",
+          "atom_id": "A1"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A2"
+        }
+      ]
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:4-7B",
+        "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:4-8",
+        "quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment."
+      }
+    ],
+    "notes": [
+      "The CP criterion 'while they are at the registered establishment' is a temporal qualifier that applies to both traceability and integrity requirements. The validated rule-set relation indicates that 4-7B(b) and 4-8 support the same criterion, but they impose distinct obligations (traceability vs integrity). Therefore, both must be satisfied, justifying an ALL combination.",
+      "Candidate rules2021:4-7B is a general tracing requirement that is specialized by 4-7B(b). Only 4-7B(b) is used as a basis for A1 because it directly matches the temporal scope of the CP. The general provision is not separately required.",
+      "Candidates with contract_eligible=false were not used as legal bases, even if they contained relevant text, per the hard rule."
+    ]
+  }
+}

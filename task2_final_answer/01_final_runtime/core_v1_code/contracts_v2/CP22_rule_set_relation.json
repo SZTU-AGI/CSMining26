@@ -1,0 +1,27 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:11-5(2)",
+        "rules2021:11-5(4)",
+        "rules2021:11-6(2)",
+        "rules2021:11-7(2)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control."
+        }
+      ],
+      "reason": "All four provisions impose a 2-year retention requirement on different categories of persons (exporter, person, manager, occupier) for records related to hygiene, waste and pest control. They collectively operationalise the single CP requirement for record retention, but the CP does not explicitly require each category's records to be independently retained; rather, they support the same overarching criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms all address the same CP requirement of retaining records for at least 2 years, but they apply to different responsible parties. Without explicit connector evidence in the CP or Rules indicating cumulative or alternative relationships, they are best classified as SUPPORTS_SAME_CRITERION."
+}

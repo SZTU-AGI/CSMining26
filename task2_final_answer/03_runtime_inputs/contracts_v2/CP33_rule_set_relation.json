@@ -1,0 +1,62 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "a product flow chart that demonstrates the movement and maintenance of product integrity through the registered establishment",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "role": "RELATION",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(a)",
+          "role": "RELATION",
+          "quote": "from the property (if any) from which they were transferred to the registered establishment; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(b)",
+          "role": "RELATION",
+          "quote": "while they are at the registered establishment; and"
+        }
+      ],
+      "reason": "4-7B(a) and 4-7B(b) are specific sub-requirements of the general tracing requirement in 4-7B, as indicated by the colon and list structure."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-8"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "a product flow chart that demonstrates the movement and maintenance of product integrity through the registered establishment",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "role": "RELATION",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8",
+          "role": "RELATION",
+          "quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment."
+        }
+      ],
+      "reason": "Both provisions address different aspects of the same CP requirement: tracing (movement) and integrity maintenance. They jointly support the single benchmark criterion without being independent cumulative requirements."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The tracing provisions form a specialization hierarchy, while tracing and integrity provisions support the same criterion."
+}

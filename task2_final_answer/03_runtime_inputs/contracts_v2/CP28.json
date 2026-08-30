@@ -1,0 +1,3203 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP28",
+    "canonical_cp_id": "CP28",
+    "element": "Element-3",
+    "subelement": "3.6 Chemical storage",
+    "criterion": "contaminate areas where prescribed plant or plant products are prepared",
+    "sheet": "All Elements",
+    "column": 28
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:4-8",
+      "citation": "4-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "4-8",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "text": "4-8 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04814747488101534,
+      "rrf_score": 0.04814747488101534,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 13.966425831149586,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.018063787495853,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 13.018063787495853,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(i)",
+      "citation": "4-2(4)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.047907090265630725,
+      "rrf_score": 0.047907090265630725,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 14.464981783868087,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.183683105272813,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 12.183683105272813,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(ii)",
+      "citation": "9-23(1)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(ii) there are no contaminants or other material in or on the cargo spaces\nthat could contaminate the plants or plant products, or that are likely\nto harbour pests that could infest the plants or plant products;",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(ii) there are no contaminants or other material in or on the cargo spaces\nthat could contaminate the plants or plant products, or that are likely\nto harbour pests that could infest the plants or plant products;",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.04617537313432836,
+      "rrf_score": 0.04617537313432836,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 12.45667857424483,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 11.952730724346598,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 11.952730724346598,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-6(1)",
+      "citation": "3-6(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-6",
+      "child_ids": [],
+      "own_text": "(1) This section applies in relation to an accredited property where prescribed plants\nor plant products are packed into packages for export.",
+      "text": "3-6 Requirements for packages for export\n(1) This section applies in relation to an accredited property where prescribed plants\nor plant products are packed into packages for export.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04459570280465803,
+      "rrf_score": 0.04459570280465803,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 12.417830387618526,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 11.585862432386543,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 11.585862432386543,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-11(1)",
+      "citation": "4-11(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-11",
+      "child_ids": [],
+      "own_text": "(1) This section applies in relation to a registered establishment where prescribed\nplants or plant products are packed into packages for export.",
+      "text": "4-11 Requirements for packages for export\n(1) This section applies in relation to a registered establishment where prescribed\nplants or plant products are packed into packages for export.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04394190454670985,
+      "rrf_score": 0.04394190454670985,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 12.417830387618526,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 11.585862432386543,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 11.585862432386543,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(ii)",
+      "citation": "2-2(4)(f)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(ii) the Greater Sunrise pipeline international offshore area within the\nmeaning of the Offshore Petroleum and Greenhouse Gas Storage Act\n2006;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(ii) the Greater Sunrise pipeline international offshore area within the\nmeaning of the Offshore Petroleum and Greenhouse Gas Storage Act\n2006;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.04314155461942409,
+      "rrf_score": 0.04314155461942409,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 9.042790109591682,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 4.852144319591434,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 13.894934429183115,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B",
+      "citation": "4-7B",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products must be traced",
+      "label": "4-7B",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)",
+        "rules2021:4-7B(c)"
+      ],
+      "own_text": "Prescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "text": "4-7B Plants and plant products must be traced\nPlants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04272954074684428,
+      "rrf_score": 0.04272954074684428,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 12.80392251029328,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 11.194402991940795,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 11.194402991940795,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(iv)",
+      "citation": "2-2(4)(f)(iv)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iv)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(iv) the Bayu-Undan pipeline international offshore area within the\nmeaning of the Offshore Petroleum and Greenhouse Gas Storage Act\n2006;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(iv) the Bayu-Undan pipeline international offshore area within the\nmeaning of the Offshore Petroleum and Greenhouse Gas Storage Act\n2006;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.04251878389809424,
+      "rrf_score": 0.04251878389809424,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 9.042790109591682,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 4.852144319591434,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 13.894934429183115,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(1)(b)",
+      "citation": "9-31(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        102,
+        103
+      ],
+      "parent_id": "rules2021:9-31(1)",
+      "child_ids": [],
+      "own_text": "(b) there are no contaminants or other material in or on the container that could\ncontaminate the plants or plant products, or that are likely to harbour pests\nthat could infest the plants or plant products;\nPowers and officials Chapter 9",
+      "text": "9-31 Requirements for approval of container\n(1) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products to which subsection (2) applies unless an\nauthorised officer is reasonably satisfied that the following requirements are met:\n(b) there are no contaminants or other material in or on the container that could\ncontaminate the plants or plant products, or that are likely to harbour pests\nthat could infest the plants or plant products;\nPowers and officials Chapter 9",
+      "page": 102,
+      "page_end": 103,
+      "score": 0.0419281045751634,
+      "rrf_score": 0.0419281045751634,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 11.853085758474563,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 11.290737495427473,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 11.290737495427473,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(4)(b)",
+      "citation": "9-22(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        95,
+        96
+      ],
+      "parent_id": "rules2021:9-22(4)",
+      "child_ids": [],
+      "own_text": "(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(4) An authorised officer need not:\n(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 95,
+      "page_end": 96,
+      "score": 0.04189515602559081,
+      "rrf_score": 0.04189515602559081,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 9.615937691696974,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 11.57265649912905,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 11.57265649912905,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B",
+      "citation": "3-3B",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products must be traced",
+      "label": "3-3B",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-3B(a)",
+        "rules2021:3-3B(b)",
+        "rules2021:3-3B(c)"
+      ],
+      "own_text": "Prescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:",
+      "text": "3-3B Plants and plant products must be traced\nPlants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04107921928817451,
+      "rrf_score": 0.04107921928817451,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 11.919928604124443,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 10.885636782111593,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 10.885636782111593,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-14(2)(c)",
+      "citation": "2-14(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        32
+      ],
+      "parent_id": "rules2021:2-14(2)",
+      "child_ids": [],
+      "own_text": "(c) in relation to prescribed plants or plant products—there are reasonable\ngrounds to suspect that a prescribed export condition relating to the plants\nor plant products has not been complied with in circumstances where the\ncondition should have been complied with.",
+      "text": "2-14 Changes that require applicant to give additional or corrected information\n(2) For the purposes of paragraph 66(1)(b) of the Act, each of the following changes\nis prescribed:\n(c) in relation to prescribed plants or plant products—there are reasonable\ngrounds to suspect that a prescribed export condition relating to the plants\nor plant products has not been complied with in circumstances where the\ncondition should have been complied with.",
+      "page": 32,
+      "page_end": 32,
+      "score": 0.03889751552795031,
+      "rrf_score": 0.03889751552795031,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 11.238093352944462,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 9.716224223054965,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 9.716224223054965,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-16(2)(c)",
+      "citation": "2-16(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        33
+      ],
+      "parent_id": "rules2021:2-16(2)",
+      "child_ids": [],
+      "own_text": "(c) in relation to prescribed plants or plant products—there are reasonable\ngrounds to suspect that a prescribed export condition relating to the plants\nor plant products has not been complied with in circumstances where the\ncondition should have been complied with.",
+      "text": "2-16 Changes that require holder of government certificate to give additional or\n(2) For the purposes of paragraph 74(1)(b) of the Act, each of the following changes\nis prescribed:\n(c) in relation to prescribed plants or plant products—there are reasonable\ngrounds to suspect that a prescribed export condition relating to the plants\nor plant products has not been complied with in circumstances where the\ncondition should have been complied with.",
+      "page": 33,
+      "page_end": 33,
+      "score": 0.0383960991804129,
+      "rrf_score": 0.0383960991804129,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 11.238093352944462,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 9.653788693934793,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 9.653788693934793,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A(c)",
+      "citation": "4-8A(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-8A",
+      "child_ids": [],
+      "own_text": "(c) if the treatment involves the application of a chemical such as an\ninsecticide or a fumigant—the use of the chemical must be lawful.",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:\n(c) if the treatment involves the application of a chemical such as an\ninsecticide or a fumigant—the use of the chemical must be lawful.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.03252247488101534,
+      "rrf_score": 0.03252247488101534,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 8.798156738468343,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 15.59832042468084,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(b)",
+      "citation": "4-7B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the registered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(b) while they are at the registered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.031024531024531024,
+      "rrf_score": 0.031024531024531024,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 12.040709341247279,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 12.040709341247279,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)",
+      "citation": "2-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(f)(i)",
+        "rules2021:2-2(4)(f)(ii)",
+        "rules2021:2-2(4)(f)(iii)",
+        "rules2021:2-2(4)(f)(iv)",
+        "rules2021:2-2(4)(f)(v)"
+      ],
+      "own_text": "(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.030090497737556562,
+      "rrf_score": 0.030090497737556562,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 11.727408721967329,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 11.727408721967329,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(b)",
+      "citation": "3-3B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the relevant property; and",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(b) while they are at the relevant property; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.02964426877470356,
+      "rrf_score": 0.02964426877470356,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 11.67904370027149,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 11.67904370027149,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-12",
+      "citation": "11-12",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Storage of samples",
+      "label": "11-12",
+      "pages": [
+        113
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-12(1)",
+        "rules2021:11-12(2)"
+      ],
+      "own_text": "",
+      "text": "11-12 Storage of samples\nStorage of samples",
+      "page": 113,
+      "page_end": 113,
+      "score": 0.0287391216352965,
+      "rrf_score": 0.0287391216352965,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 10.486431603889853,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 10.486431603889853,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(c)",
+      "citation": "4-7B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.027984344422700584,
+      "rrf_score": 0.027984344422700584,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 11.563391894526905,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 11.563391894526905,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(c)",
+      "citation": "3-3B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.027598020555767037,
+      "rrf_score": 0.027598020555767037,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 11.365444913308412,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 11.365444913308412,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)",
+      "citation": "8-6(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [
+        "rules2021:8-6(1)(c)(i)",
+        "rules2021:8-6(1)(c)(ii)"
+      ],
+      "own_text": "(c) the registration number of the registered establishment where:",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(c) the registration number of the registered establishment where:",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.026500526500526502,
+      "rrf_score": 0.026500526500526502,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 11.043320209735505,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 11.043320209735505,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)(ii)",
+      "citation": "8-6(1)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)(c)",
+      "child_ids": [],
+      "own_text": "(ii) an assessment of the plants or plant products was carried out;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(c) the registration number of the registered establishment where:\n(ii) an assessment of the plants or plant products was carried out;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.02581612258494337,
+      "rrf_score": 0.02581612258494337,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 10.673623741067917,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 10.673623741067917,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)(i)",
+      "citation": "8-6(1)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)(c)",
+      "child_ids": [],
+      "own_text": "(i) operations to prepare the plants or plant products for export were\ncarried out; or",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(c) the registration number of the registered establishment where:\n(i) operations to prepare the plants or plant products for export were\ncarried out; or",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.02548701298701299,
+      "rrf_score": 0.02548701298701299,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 10.49529604705348,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 10.49529604705348,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.025015634771732333,
+      "rrf_score": 0.025015634771732333,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 10.335893328593459,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 10.335893328593459,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(a)",
+      "citation": "4-7B(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.024706420619185605,
+      "rrf_score": 0.024706420619185605,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 9.757962142893154,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 9.757962142893154,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-8(c)",
+      "citation": "7-8(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        62,
+        63
+      ],
+      "parent_id": "rules2021:7-8",
+      "child_ids": [],
+      "own_text": "(c) there are reasonable grounds to suspect that a prescribed export condition\nrelating to the plants or plant products has not been complied with in\ncircumstances where the condition should have been complied with.\nExport permits Chapter 7",
+      "text": "7-8 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 235(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan export permit is in force:\n(c) there are reasonable grounds to suspect that a prescribed export condition\nrelating to the plants or plant products has not been complied with in\ncircumstances where the condition should have been complied with.\nExport permits Chapter 7",
+      "page": 62,
+      "page_end": 63,
+      "score": 0.024444444444444446,
+      "rrf_score": 0.024444444444444446,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 9.382267047085216,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 8.91164745758782,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(1)(c)",
+      "citation": "2-4(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        25
+      ],
+      "parent_id": "rules2021:2-4(1)",
+      "child_ids": [],
+      "own_text": "(c) the plants or plant products are not imported plants or plant products;\nthen:",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\n(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:\n(c) the plants or plant products are not imported plants or plant products;\nthen:",
+      "page": 25,
+      "page_end": 25,
+      "score": 0.024222968043192763,
+      "rrf_score": 0.024222968043192763,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 9.18121921763868,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 8.919818612516687,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(iii)",
+      "citation": "2-2(4)(f)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(iii) the area in or above the Bayu-Undan Gas Field within the meaning of\nthe Timor Sea Maritime Boundaries Treaty;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(iii) the area in or above the Bayu-Undan Gas Field within the meaning of\nthe Timor Sea Maritime Boundaries Treaty;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.0238230289279637,
+      "rrf_score": 0.0238230289279637,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 9.519888151881373,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 9.519888151881373,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(a)",
+      "citation": "3-3B(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(a) from the property (if any) from which they were transferred to the relevant\nproperty; and",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(a) from the property (if any) from which they were transferred to the relevant\nproperty; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.023542445644647556,
+      "rrf_score": 0.023542445644647556,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 9.489413348325506,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 9.489413348325506,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(i)",
+      "citation": "2-2(4)(f)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(i) the Greater Sunrise special regime area within the meaning of the\nSeas and Submerged Lands Act 1973;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(i) the Greater Sunrise special regime area within the meaning of the\nSeas and Submerged Lands Act 1973;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.023268398268398268,
+      "rrf_score": 0.023268398268398268,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 9.276571553394497,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 9.276571553394497,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(v)",
+      "citation": "2-2(4)(f)(v)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(v)",
+      "pages": [
+        23,
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "page": 23,
+      "page_end": 24,
+      "score": 0.023000660938532716,
+      "rrf_score": 0.023000660938532716,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 9.06226461819372,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 9.06226461819372,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(i)",
+      "citation": "9-23(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.022474747474747474,
+      "rrf_score": 0.022474747474747474,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 8.991635274927287,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 8.991635274927287,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-12(1)",
+      "citation": "11-12(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        113
+      ],
+      "parent_id": "rules2021:11-12",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of section 411 of the Act, a sample that may be tested or\nanalysed under the Act must be held under conditions that are unlikely to affect\nthe result of any testing or analysis of the sample.",
+      "text": "11-12 Storage of samples\n(1) For the purposes of section 411 of the Act, a sample that may be tested or\nanalysed under the Act must be held under conditions that are unlikely to affect\nthe result of any testing or analysis of the sample.",
+      "page": 113,
+      "page_end": 113,
+      "score": 0.015873015873015872,
+      "rrf_score": 0.015873015873015872,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 5.376411609748504,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-12(2)",
+      "citation": "11-12(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        113,
+        114
+      ],
+      "parent_id": "rules2021:11-12",
+      "child_ids": [],
+      "own_text": "(2) Subsection (1) does not apply in relation to a sample that may be tested or\nanalysed in the performance of functions or duties or the exercise of powers\nunder Chapter 10 of the Act (compliance and enforcement) or the Regulatory\nPowers Act.\nChapter 11 Miscellaneous",
+      "text": "11-12 Storage of samples\n(2) Subsection (1) does not apply in relation to a sample that may be tested or\nanalysed in the performance of functions or duties or the exercise of powers\nunder Chapter 10 of the Act (compliance and enforcement) or the Regulatory\nPowers Act.\nChapter 11 Miscellaneous",
+      "page": 113,
+      "page_end": 114,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 5.124721229107154,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-1",
+      "citation": "1-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Name",
+      "label": "1-1",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "text": "1-1 Name\nName\nThis instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-3",
+      "citation": "1-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Authority",
+      "label": "1-3",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is made under the Export Control Act 2020.",
+      "text": "1-3 Authority\nAuthority\nThis instrument is made under the Export Control Act 2020.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4",
+      "citation": "1-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Extension of the Act to Norfolk Island",
+      "label": "1-4",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:1-4(1)",
+        "rules2021:1-4(2)"
+      ],
+      "own_text": "",
+      "text": "1-4 Extension of the Act to Norfolk Island\nExtension of the Act to Norfolk Island",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)",
+      "citation": "1-4(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [
+        "rules2021:1-4(1)(a)",
+        "rules2021:1-4(1)(b)",
+        "rules2021:1-4(1)(c)"
+      ],
+      "own_text": "(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(a)",
+      "citation": "1-4(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(a) Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(a) Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(a)",
+      "citation": "9-17(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(a) the manager of an accredited property where export operations in relation\nto plants or plant products are carried out;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(a) the manager of an accredited property where export operations in relation\nto plants or plant products are carried out;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 11.049547435207934,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(b)",
+      "citation": "1-4(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(b)",
+      "citation": "9-17(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 11.049547435207934,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(c)",
+      "citation": "1-4(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-9(c)",
+      "citation": "7-9(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        63
+      ],
+      "parent_id": "rules2021:7-9",
+      "child_ids": [],
+      "own_text": "(c) there are reasonable grounds to suspect that a prescribed export condition\nrelating to the plants or plant products has not been complied with in\ncircumstances where the condition should have been complied with.",
+      "text": "7-9 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 240(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan application under section 224 of the Act for an export permit has been made:\n(c) there are reasonable grounds to suspect that a prescribed export condition\nrelating to the plants or plant products has not been complied with in\ncircumstances where the condition should have been complied with.",
+      "page": 63,
+      "page_end": 63,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 9.992967226355693,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(2)",
+      "citation": "1-4(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [],
+      "own_text": "(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5",
+      "citation": "1-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Simplified outline of this instrument",
+      "label": "1-5",
+      "pages": [
+        11,
+        12
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:1-5(a)",
+        "rules2021:1-5(b)",
+        "rules2021:1-5(c)",
+        "rules2021:1-5(d)",
+        "rules2021:1-5(e)",
+        "rules2021:1-5(f)",
+        "rules2021:1-5(g)",
+        "rules2021:1-5(h)",
+        "rules2021:1-5(j)",
+        "rules2021:1-5(k)",
+        "rules2021:1-5(l)",
+        "rules2021:1-5(m)",
+        "rules2021:1-5(n)",
+        "rules2021:1-5(Standard Provisions)"
+      ],
+      "own_text": "General\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "text": "1-5 Simplified outline of this instrument\nSimplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "page": 11,
+      "page_end": 12,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(Standard Provisions)",
+      "citation": "1-5(Standard Provisions)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(Standard Provisions)",
+      "pages": [
+        12,
+        13
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(Standard Provisions) Act 2014 as it applies in relation to the Export Control Act\n2020 and this instrument, extend to Norfolk Island and certain areas adjacent to\nNorfolk Island.\nStructure of this instrument and Chapter numbering\nThis instrument is arranged in Chapters that have the same number and name as\nthe corresponding Chapters in the Act. For example, the provisions of this\ninstrument that are made for the purposes of Chapter 3—Accredited properties of\nthe Act are included in Chapter 3—Accredited properties of this instrument. This\nmeans there are gaps in the Chapter numbering because there are no provisions\nfor the purposes of some Chapters of the Act.\nPreliminary Chapter 1",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(Standard Provisions) Act 2014 as it applies in relation to the Export Control Act\n2020 and this instrument, extend to Norfolk Island and certain areas adjacent to\nNorfolk Island.\nStructure of this instrument and Chapter numbering\nThis instrument is arranged in Chapters that have the same number and name as\nthe corresponding Chapters in the Act. For example, the provisions of this\ninstrument that are made for the purposes of Chapter 3—Accredited properties of\nthe Act are included in Chapter 3—Accredited properties of this instrument. This\nmeans there are gaps in the Chapter numbering because there are no provisions\nfor the purposes of some Chapters of the Act.\nPreliminary Chapter 1",
+      "page": 12,
+      "page_end": 13,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 9.201610810100908,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(a)",
+      "citation": "1-5(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Part 1 Preliminary",
+      "label": "(a)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(a)\nexemptions;",
+      "text": "1-5 Simplified outline of this instrument\nPart 1 Preliminary\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(a)\nexemptions;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(b)",
+      "citation": "1-5(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(b)\ngovernment certificates;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(b)\ngovernment certificates;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3",
+      "citation": "7-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Circumstances for varying export permit or conditions of export permit",
+      "label": "7-3",
+      "pages": [
+        60
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:7-3(a)",
+        "rules2021:7-3(b)",
+        "rules2021:7-3(c)",
+        "rules2021:7-3(d)",
+        "rules2021:7-3(e)",
+        "rules2021:7-3(f)",
+        "rules2021:7-3(g)"
+      ],
+      "own_text": "For the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nCircumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 9.040257005940543,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(c)",
+      "citation": "1-5(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(c)\naccredited properties;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(c)\naccredited properties;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-5",
+      "citation": "3-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Application of trade description",
+      "label": "3-5",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "If a trade description is applied to prescribed plants or plant products produced or\nprepared at an accredited property, the trade description must include at least the\ninformation referred to in paragraph 8-6(1)(d).",
+      "text": "3-5 Application of trade description\nApplication of trade description\nIf a trade description is applied to prescribed plants or plant products produced or\nprepared at an accredited property, the trade description must include at least the\ninformation referred to in paragraph 8-6(1)(d).",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 9.038652503268954,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(d)",
+      "citation": "1-5(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(d)\nregistered establishments;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(d)\nregistered establishments;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-4",
+      "citation": "3-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "3-4",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "text": "3-4 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 8.99680611834796,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(e)",
+      "citation": "1-5(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(e)\nexport permits;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(e)\nexport permits;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(e)",
+      "citation": "8-6(1)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 8.901265245500728,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(f)",
+      "citation": "1-5(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(f)\nnotices of intention to export;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(f)\nnotices of intention to export;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(1)",
+      "citation": "2-4(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "conditions are complied with",
+      "label": "(1)",
+      "pages": [
+        25
+      ],
+      "parent_id": "rules2021:2-4",
+      "child_ids": [
+        "rules2021:2-4(1)(a)",
+        "rules2021:2-4(1)(b)",
+        "rules2021:2-4(1)(c)",
+        "rules2021:2-4(1)(d)",
+        "rules2021:2-4(1)(e)",
+        "rules2021:2-4(1)(Prescribed Plants and Plant Products)"
+      ],
+      "own_text": "(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\nconditions are complied with\n(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:",
+      "page": 25,
+      "page_end": 25,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 8.689873101031502,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(g)",
+      "citation": "1-5(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(g)\ntrade descriptions;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(g)\ntrade descriptions;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:4-8",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04814747488101534,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns integrity of plants and plant products, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(i)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.047907090265630725,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns areas suitable for assessments, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.04617537313432836,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate provides a specific requirement for cargo spaces to be free of contaminants, which supports operationalizing the CP criterion by showing how contamination is prevented in a related context, but it does not directly govern preparation areas.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "there are no contaminants or other material in or on the cargo spaces that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns cargo spaces of bulk vessels, not areas where plants or products are prepared.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "there are no contaminants or other material in or on the cargo spaces that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-6(1)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04459570280465803,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns packaging for export, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-11(1)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04394190454670985,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns packaging for export at registered establishments, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(ii)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.04314155461942409,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns areas where plants are taken not to be prescribed goods, unrelated to chemical storage contaminating preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04272954074684428,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns traceability of plants and plant products, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(iv)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.04251878389809424,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns areas where plants are taken not to be prescribed goods, unrelated to chemical storage contaminating preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(1)(b)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.0419281045751634,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate provides a specific requirement for containers to be free of contaminants, which supports operationalizing the CP criterion by showing how contamination is prevented in a related context, but it does not directly govern preparation areas.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "there are no contaminants or other material in or on the container that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns containers, not preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "there are no contaminants or other material in or on the container that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(4)(b)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.04189515602559081,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns inspection of vessel areas for pests, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3B",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04107921928817451,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_REQUIREMENT",
+      "reason": "Traceability supports operationalization of preparation area integrity but does not directly address chemical storage contamination.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "Prescribed plants and plant products prepared at an accredited property (the relevant property) must be traced:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This section concerns traceability of plants and products, not contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "Prescribed plants and plant products prepared at an accredited property (the relevant property) must be traced:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-14(2)(c)",
+      "page": 32,
+      "rrf_or_bm25_score": 0.03889751552795031,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changes requiring additional information when non-compliance is suspected. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-16(2)(c)",
+      "page": 33,
+      "rrf_or_bm25_score": 0.0383960991804129,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changes requiring additional information when non-compliance is suspected. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.03252247488101534,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate addresses lawful use of chemicals in treatment, which relates to preventing contamination of preparation areas, but does not directly impose a storage requirement.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "if the treatment involves the application of a chemical such as an insecticide or a fumigant—the use of the chemical must be lawful.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph concerns lawful use of chemicals in treatment, not contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "if the treatment involves the application of a chemical such as an insecticide or a fumigant—the use of the chemical must be lawful.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7B(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.031024531024531024,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns traceability at establishment, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.030090497737556562,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a specific paragraph under the deeming provision for resources industry structures. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3B(b)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.02964426877470356,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_DETAIL",
+      "reason": "Detail of traceability requirement, indirectly supporting preparation area management but not directly about chemical storage contamination.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "while they are at the relevant property; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph details traceability while at the property, not contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "while they are at the relevant property; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-12",
+      "page": 113,
+      "rrf_or_bm25_score": 0.0287391216352965,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a section heading for storage of samples. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.027984344422700584,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns traceability to premises, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3B(c)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.027598020555767037,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_DETAIL",
+      "reason": "Detail of traceability requirement, indirectly supporting preparation area management but not directly about chemical storage contamination.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "to the accredited property or registered establishment to which they are transferred from the relevant property.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph details traceability to the next property, not contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "to the accredited property or registered establishment to which they are transferred from the relevant property.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.026500526500526502,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns trade description requirements, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)(ii)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.02581612258494337,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns trade description requirements, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)(i)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.02548701298701299,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns trade description requirements, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.025015634771732333,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns integrity of plants or plant products, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.024706420619185605,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns traceability from property, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-8(c)",
+      "page": 62,
+      "rrf_or_bm25_score": 0.024444444444444446,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changes requiring additional information for export permits, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(1)(c)",
+      "page": 25,
+      "rrf_or_bm25_score": 0.024222968043192763,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_APPLICABILITY",
+      "reason": "This paragraph is part of the conditions determining whether the export conditions, including those related to preparation areas, apply.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "the plants or plant products are not imported plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph sets a condition about imported status, unrelated to contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "the plants or plant products are not imported plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(iii)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.0238230289279637,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns areas where plants are taken not to be prescribed goods, unrelated to chemical storage contaminating preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3B(a)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.023542445644647556,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_DETAIL",
+      "reason": "Detail of traceability requirement, indirectly supporting preparation area management but not directly about chemical storage contamination.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "from the property (if any) from which they were transferred to the relevant property; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph details traceability from the source property, not contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "from the property (if any) from which they were transferred to the relevant property; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(i)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.023268398268398268,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns areas where plants are taken not to be prescribed goods, unrelated to chemical storage contaminating preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(v)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.023000660938532716,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns areas where plants are taken not to be prescribed goods, unrelated to chemical storage contaminating preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.022474747474747474,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate addresses contamination of plants or plant products in a vessel context, which is operationally related but not directly about preparation areas.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns vessel conditions, not preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-12(1)",
+      "page": 113,
+      "rrf_or_bm25_score": 0.015873015873015872,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns storage conditions for samples to avoid affecting test results. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-12(2)",
+      "page": 113,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate provides an exception to sample storage requirements. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-1",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only states the name of the instrument and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-3",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate states the enabling Act and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(a)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(a)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns persons who may use an authorised computer program, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(b)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(b)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns persons who may use an authorised computer program, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(c)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-9(c)",
+      "page": 63,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns changes requiring additional information to the Secretary, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(2)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5",
+      "page": 11,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "GENERAL_OUTLINE",
+      "reason": "The candidate provides a simplified outline of the instrument, indicating that it prescribes conditions for prescribed plants and plant products, which is structural context for the CP criterion but does not itself create a scoring requirement.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "This instrument prescribes matters and makes other provision in relation to certain plants and plant products (prescribed plants and plant products) for the purposes of the Export Control Act 2020 (the Act).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(Standard Provisions)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate introduces a deeming provision for plants and plant products not prescribed goods. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(a)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate lists exemptions as a topic in the outline and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(b)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate lists government certificates as a topic in the outline and does not relate to chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3",
+      "page": 60,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns circumstances for varying export permits, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(c)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline listing topics covered by the instrument, including accredited properties. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-5",
+      "page": 36,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns trade description information, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(d)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline listing topics covered by the instrument, including registered establishments. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-4",
+      "page": 36,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires ensuring integrity of plants/products at the property, which encompasses preventing contamination of preparation areas by chemicals.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "Ensuring integrity includes preventing contamination of areas where plants or products are prepared, making this a broader norm that the CP operationalizes.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-5(e)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline listing topics covered by the instrument, including export permits. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(e)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns trade description requirements, not chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(f)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline listing topics covered by the instrument, including notices of intention to export. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(1)",
+      "page": 25,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "GOVERNING_EXPORT_CONDITION",
+      "reason": "This provision establishes the general prohibition and condition framework under which the CP criterion operates, governing applicability of export requirements.",
+      "cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "policy_quote": "The export from Australian territory of prescribed plants or plant products is prohibited unless the conditions specified in the items in the following table are complied with.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision establishes the general prohibition and condition framework for export, but does not specifically address contamination of preparation areas.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "contaminate areas where prescribed plant or plant products are prepared",
+      "legal_basis_policy_quote": "The export from Australian territory of prescribed plants or plant products is prohibited unless the conditions specified in the items in the following table are complied with.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-5(g)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline listing topics covered by the instrument, including trade descriptions. It does not address chemical storage or contamination of preparation areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ],
+  "contract": {
+    "cp_id": "CP28",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "Areas where prescribed plant or plant products are prepared are not contaminated by chemicals.",
+        "criterion_quote": "contaminate areas where prescribed plant or plant products are prepared",
+        "basis_candidate_ids": [
+          "rules2021:3-4"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "contaminate areas where prescribed plant or plant products are prepared"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:3-4",
+            "quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property."
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ATOM",
+      "atom_id": "A1"
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [],
+    "notes": [
+      "Only one PRIMARY_NORM candidate (rules2021:3-4) is contract_eligible. All other candidates are contract_eligible=false and cannot be used as legal basis. The satisfaction expression is a single atom grounded in that PRIMARY_NORM. No ALL/ANY structure is needed because there is only one legal basis."
+    ]
+  }
+}

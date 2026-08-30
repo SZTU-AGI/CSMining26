@@ -1,0 +1,27 @@
+V6.6 deadline-final batch adjudicator: cases=1 model=deepseek-v4-flash
+Calls per case: 4 primary element calls + N/A verification only when proposed
+    parsing logical evidence once: case-001 files=9
+    parsing: 1_Farm_01_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_01_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_01_Wheatfield_Exports_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Wheatfield_Exports_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Wheatfield_Exports_Pty_Ltd_001.docx
+    parsing: 9_Traceability_Records_Wheatfield_Exports_Pty_Ltd_001.xlsx
+[1/1] case-001: chunks=555 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6997, 'completion_tokens': 475, 'total_tokens': 7472, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 6997}
+  Element-1: model labels={'1': 5, '0': 2}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9584, 'completion_tokens': 645, 'total_tokens': 10229, 'prompt_tokens_details': {'cached_tokens': 256}, 'prompt_cache_hit_tokens': 256, 'prompt_cache_miss_tokens': 9328}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10652, 'completion_tokens': 1373, 'total_tokens': 12025, 'prompt_tokens_details': {'cached_tokens': 2944}, 'prompt_cache_hit_tokens': 2944, 'prompt_cache_miss_tokens': 7708}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12258, 'completion_tokens': 1040, 'total_tokens': 13298, 'prompt_tokens_details': {'cached_tokens': 4608}, 'prompt_cache_hit_tokens': 4608, 'prompt_cache_miss_tokens': 7650}
+  Element-4: model labels={'0': 13}
+  FINAL {'1': 20, '0': 21}
+DONE 1 cases

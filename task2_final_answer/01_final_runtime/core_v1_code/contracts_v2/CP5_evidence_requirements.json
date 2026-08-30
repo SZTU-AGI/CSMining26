@@ -1,0 +1,111 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP5",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "The layout of the areas where export operations occur, including all permanent fixtures, and the layout of equipment used to prepare plants and plant products, includes areas suitable for assessments of prescribed plants or plant products.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)(i)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "quote": "(4) An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(i)",
+          "quote": "(i) areas that are suitable for assessments of prescribed plants or plant products to be carried out; and"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A1-G3",
+      "atom_id": "A1",
+      "proposition_to_establish": "The layout of the areas where export operations occur, including all permanent fixtures, and the layout of equipment used to prepare plants and plant products, is designed and constructed to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "source_group_ids": [
+        "G3"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "quote": "(4) An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)(i)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A1-G3",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G3"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

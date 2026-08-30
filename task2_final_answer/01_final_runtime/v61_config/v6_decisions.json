@@ -1,0 +1,33 @@
+{
+  "schema": "freca-v6-decision-manifest-v1",
+  "version_id": "FRECA-V6-WITNESS-REACHABILITY-20260830",
+  "provider": "deepseek",
+  "alignment_model": "deepseek-v4-flash",
+  "n_a_policy": {
+    "enabled": false,
+    "reason": "The branch is repaired and tested, but 0 of 454 completed coordinates and 0 of 30 readable DeepSeek smoke coordinates would flip. Trigger concentration therefore cannot justify activation."
+  },
+  "repair_policy": {
+    "mode_must_be_explicit": true,
+    "witness_trial_value": "on",
+    "metamorphic_production_fidelity_value": "on",
+    "cheap_diagnostic_value": "off"
+  },
+  "incumbent_relationship": {
+    "status": "EXPERIMENTAL_CHALLENGER",
+    "incumbent": "submission_task2_v5R_dupRE.xlsx",
+    "replacement_forbidden_until": [
+      "ONE_SOURCE_GROUNDED_SUBSTANTIVE_WITNESS",
+      "INDEPENDENT_ZERO_API_REPLAY",
+      "REGRESSION_AND_MUTATION_GATES_PASS",
+      "SEPARATELY_REVIEWED_SCALE_DECISION"
+    ]
+  },
+  "api_limits": {
+    "sample_coordinate_count": 1,
+    "max_logical_model_calls": 4,
+    "max_http_attempts": 6,
+    "max_prompt_tokens": 200000,
+    "max_completion_tokens": 20000
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "schema": "freca-core-end-to-end-semantic-replay-v1",
+  "case_id": "RE-NSW-2021-0177",
+  "cp_id": "CP12",
+  "proof": {
+    "schema": "freca-core-proof-standard-v1",
+    "cp_id": "CP12",
+    "proof_standard_templates": {
+      "AUDIT_SUFFICIENT": {
+        "proof_standard_id": "proof-audit-sufficient-v1",
+        "standard_kind": "AUDIT_SUFFICIENT",
+        "require_relevance": true,
+        "require_identity_match": true,
+        "require_temporal_match": true,
+        "require_reliability_gate": true,
+        "require_coverage_gate": true,
+        "contradiction_policy": "PRESERVE_BOTH"
+      },
+      "EXPLICIT_VIOLATION": {
+        "proof_standard_id": "proof-explicit-violation-v1",
+        "standard_kind": "EXPLICIT_VIOLATION",
+        "require_relevance": true,
+        "require_identity_match": true,
+        "require_temporal_match": true,
+        "require_reliability_gate": true,
+        "require_coverage_gate": true,
+        "contradiction_policy": "PRESERVE_BOTH"
+      }
+    },
+    "coverage_complete": false,
+    "requirement_reports": [
+      {
+        "requirement_id": "ER1",
+        "statement_id": "stmt-er1",
+        "atom_id": "A1",
+        "decisiveness": "DECISIVE",
+        "raw_state": "TRUE",
+        "accepted_state": "UNKNOWN",
+        "contradiction_state": "NONE",
+        "support_proof": {
+          "report_id": "proof-er1-support-v1",
+          "statement_id": "stmt-er1",
+          "requirement_id": "ER1",
+          "direction": "SUPPORT",
+          "proof_standard_id": "proof-audit-sufficient-v1",
+          "standard_kind": "AUDIT_SUFFICIENT",
+          "relevance_pass": true,
+          "identity_pass": true,
+          "temporal_pass": false,
+          "temporal_status": "UNRESOLVED",
+          "reliability_pass": false,
+          "reliability_status": "UNRESOLVED",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "CORRELATED_OR_UNKNOWN",
+          "accepted_direction": false,
+          "failure_codes": [
+            "TEMPORAL_ASSESSMENT_MISSING",
+            "INFORMATION_RELIABILITY_MISSING",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [
+            "1_Farm_38_MacIntyre_Grain_Services_Pty_Ltd.docx:P19#fc-1221b2c35b0f159e9ffe",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P12#fc-285ec845023ce4ccf3df",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P14#fc-1966f160119f35ca52c1",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P16#fc-25fae039b25adda7bb6f",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P20#fc-36f12bb936e1c209f4b6",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22#fc-07bf9295d2285eafec78"
+          ],
+          "basis_evidence_ids": [
+            "1_Farm_38_MacIntyre_Grain_Services_Pty_Ltd.docx:P19",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P12",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P14",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P16",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P20",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22"
+          ],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 6,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "attack_proof": {
+          "report_id": "proof-er1-attack-v1",
+          "statement_id": "stmt-er1",
+          "requirement_id": "ER1",
+          "direction": "ATTACK",
+          "proof_standard_id": "proof-explicit-violation-v1",
+          "standard_kind": "EXPLICIT_VIOLATION",
+          "relevance_pass": false,
+          "identity_pass": false,
+          "temporal_pass": false,
+          "temporal_status": "FAIL",
+          "reliability_pass": false,
+          "reliability_status": "FAIL",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "NOT_REQUIRED",
+          "accepted_direction": false,
+          "failure_codes": [
+            "NO_EXPLICIT_VIOLATION_BASIS",
+            "NO_TEMPORAL_BASIS_ROWS",
+            "NO_RELIABILITY_BASIS_ROWS",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [],
+          "basis_evidence_ids": [],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 0,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "failure_codes": [
+          "TEMPORAL_ASSESSMENT_MISSING",
+          "INFORMATION_RELIABILITY_MISSING",
+          "COVERAGE_INCOMPLETE",
+          "NO_EXPLICIT_VIOLATION_BASIS",
+          "NO_TEMPORAL_BASIS_ROWS",
+          "NO_RELIABILITY_BASIS_ROWS"
+        ],
+        "proof_standard_status": "UNRESOLVED"
+      },
+      {
+        "requirement_id": "ER2",
+        "statement_id": "stmt-er2",
+        "atom_id": "A1",
+        "decisiveness": "DECISIVE",
+        "raw_state": "BOTH",
+        "accepted_state": "UNKNOWN",
+        "contradiction_state": "PRESERVED",
+        "support_proof": {
+          "report_id": "proof-er2-support-v1",
+          "statement_id": "stmt-er2",
+          "requirement_id": "ER2",
+          "direction": "SUPPORT",
+          "proof_standard_id": "proof-audit-sufficient-v1",
+          "standard_kind": "AUDIT_SUFFICIENT",
+          "relevance_pass": true,
+          "identity_pass": true,
+          "temporal_pass": false,
+          "temporal_status": "UNRESOLVED",
+          "reliability_pass": false,
+          "reliability_status": "UNRESOLVED",
+          "coverage_pass": false,
+          "contradiction_state": "PRESERVED",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "CORRELATED_OR_UNKNOWN",
+          "accepted_direction": false,
+          "failure_codes": [
+            "TEMPORAL_ASSESSMENT_MISSING",
+            "INFORMATION_RELIABILITY_MISSING",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P20#fc-36f12bb936e1c209f4b6",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22#fc-07bf9295d2285eafec78",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22#fc-335ce4e33fd46f47f105",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P33#fc-1e48c908c1606bb99535",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P21#fc-a74f2f35b97774eebac9",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P27#fc-67f91630fe109b433f6d",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P43#fc-0f15f3854b23d94dd9f5",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P44#fc-cd51af590a4476488d59",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P44#fc-2324340e59533eac1c95"
+          ],
+          "basis_evidence_ids": [
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P20",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22",
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P33",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P21",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P27",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P43",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P44",
+            "6_Farms_Hygiene_Sanitation_Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P44"
+          ],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 9,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "attack_proof": {
+          "report_id": "proof-er2-attack-v1",
+          "statement_id": "stmt-er2",
+          "requirement_id": "ER2",
+          "direction": "ATTACK",
+          "proof_standard_id": "proof-explicit-violation-v1",
+          "standard_kind": "EXPLICIT_VIOLATION",
+          "relevance_pass": true,
+          "identity_pass": true,
+          "temporal_pass": false,
+          "temporal_status": "UNRESOLVED",
+          "reliability_pass": false,
+          "reliability_status": "UNRESOLVED",
+          "coverage_pass": false,
+          "contradiction_state": "PRESERVED",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "NOT_REQUIRED",
+          "accepted_direction": false,
+          "failure_codes": [
+            "TEMPORAL_ASSESSMENT_MISSING",
+            "INFORMATION_RELIABILITY_MISSING",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22#fc-ff358c98d7a16016ec81"
+          ],
+          "basis_evidence_ids": [
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22"
+          ],
+          "explicit_violation_candidate_ids": [
+            "4_Farm-Management-Plan_MacIntyre_Grain_Services_Pty_Ltd.docx:P22#fc-ff358c98d7a16016ec81"
+          ],
+          "gate_inputs": {
+            "basis_count": 1,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "failure_codes": [
+          "TEMPORAL_ASSESSMENT_MISSING",
+          "INFORMATION_RELIABILITY_MISSING",
+          "COVERAGE_INCOMPLETE"
+        ],
+        "proof_standard_status": "UNRESOLVED"
+      }
+    ],
+    "evaluation_locked": false,
+    "internal_outcome": "UNKNOWN",
+    "submission_label": null,
+    "notes": [
+      "Missing temporal, InformationReliability, or Coverage artifacts fail their typed gates; no inference is used to fill those gaps.",
+      "SUPPORT and ATTACK are evaluated independently; PRESERVE_BOTH never majority-votes contradictory evidence.",
+      "This substrate does not apply BurdenRule and cannot produce final 1/0/N/A."
+    ],
+    "bundle_sha256": "sha256:9213ca64889a4d23375eec888a0c24cc4dea023b4063a197a3f8f1646e83a903",
+    "coverage_source_sha256": "sha256:776a8d308a253efb7a31ad5525f31095f40e4ad9f7b9a8a3470be7307c5e801b",
+    "post_proof_argument": {
+      "status": "RUN",
+      "accepted_argument_evaluation": {
+        "diagnostic_only": false,
+        "uses_requirement_accepted_state": true,
+        "benchmark_statement_id": "stmt-a1-benchmark",
+        "state": "UNKNOWN",
+        "satisfaction_ast_state": "UNKNOWN",
+        "satisfaction_ast_reason_codes": [],
+        "atom_evaluations": {
+          "A1": {
+            "benchmark_statement_id": "stmt-a1-benchmark",
+            "state": "UNKNOWN",
+            "standing_pro_argument_ids": [],
+            "standing_con_argument_ids": [],
+            "conflicted_argument_ids": [],
+            "undecided_argument_ids": [
+              "arg-a1-benchmark-pro",
+              "arg-a1-er1-con",
+              "arg-a1-er2-con"
+            ]
+          }
+        },
+        "standing_pro_argument_ids": [],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [],
+        "undecided_argument_ids": [
+          "arg-a1-benchmark-pro",
+          "arg-a1-er1-con",
+          "arg-a1-er2-con"
+        ],
+        "argument_instances": [
+          {
+            "argument_id": "arg-a1-benchmark-pro",
+            "scheme": "BENCHMARK_OPERATIONALIZATION",
+            "direction": "PRO",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              },
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er1-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er2-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_shadow_evaluation": {
+        "diagnostic_only": true,
+        "uses_requirement_raw_state": true,
+        "must_not_drive_final_outcome": true,
+        "benchmark_statement_id": "stmt-a1-benchmark",
+        "state": "BOTH",
+        "satisfaction_ast_state": "BOTH",
+        "satisfaction_ast_reason_codes": [],
+        "atom_evaluations": {
+          "A1": {
+            "benchmark_statement_id": "stmt-a1-benchmark",
+            "state": "BOTH",
+            "standing_pro_argument_ids": [],
+            "standing_con_argument_ids": [],
+            "conflicted_argument_ids": [
+              "arg-a1-benchmark-pro",
+              "arg-a1-er2-con"
+            ],
+            "undecided_argument_ids": []
+          }
+        },
+        "standing_pro_argument_ids": [],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [
+          "arg-a1-benchmark-pro",
+          "arg-a1-er2-con"
+        ],
+        "undecided_argument_ids": [],
+        "argument_instances": [
+          {
+            "argument_id": "arg-a1-benchmark-pro",
+            "scheme": "BENCHMARK_OPERATIONALIZATION",
+            "direction": "PRO",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "CONFLICTED",
+            "standing_reason_codes": [
+              "ORDINARY_PREMISE_BOTH",
+              "stmt-er2"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              },
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "BOTH"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er1-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "OUT",
+            "standing_reason_codes": [
+              "ORDINARY_PREMISE_FAILED",
+              "stmt-er1"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er2-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "CONFLICTED",
+            "standing_reason_codes": [
+              "ORDINARY_PREMISE_BOTH",
+              "stmt-er2"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "BOTH"
+              }
+            ]
+          }
+        ]
+      },
+      "internal_outcome": "UNKNOWN",
+      "submission_label": null
+    }
+  },
+  "argument_evaluation_bundle": {
+    "schema": "freca-core-argument-evaluation-bundle-v1",
+    "case_uid": "RE-NSW-2021-0177",
+    "cp_id": "CP12",
+    "evaluations": [
+      {
+        "schema": "freca-core-argument-evaluation-adapter-v1",
+        "case_uid": "RE-NSW-2021-0177",
+        "cp_id": "CP12",
+        "interpretation_id": "core-single-current-contract",
+        "applicability_state": "TRUE",
+        "non_applicability_state": "FALSE",
+        "satisfaction_state": "UNKNOWN",
+        "violation_state": "UNKNOWN",
+        "satisfaction_four_valued_state": "UNKNOWN",
+        "atom_four_valued_states": {
+          "A1": {
+            "support": false,
+            "attack": false,
+            "state": "UNKNOWN",
+            "decisive_requirement_ids": [
+              "ER1",
+              "ER2"
+            ],
+            "reason_codes": []
+          }
+        },
+        "satisfaction_operator_support": {
+          "observed_supported_ops": [
+            "CONST",
+            "ATOM",
+            "ALL"
+          ],
+          "unsupported_ops_are_unknown": true
+        },
+        "accepted_argument_state": "UNKNOWN",
+        "standing_pro_argument_ids": [],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [],
+        "undecided_argument_ids": [
+          "arg-a1-benchmark-pro",
+          "arg-a1-er1-con",
+          "arg-a1-er2-con"
+        ],
+        "unresolved_reason_codes": [
+          "ACCEPTED_ARGUMENT_UNDECIDED",
+          "NO_BURDEN_FALLBACK",
+          "SATISFACTION_NOT_PROVEN",
+          "VIOLATION_NOT_PROVEN"
+        ],
+        "internal_outcome": "UNKNOWN",
+        "evaluation_locked": false,
+        "possible_outcomes_under_unknowns": [
+          "PROVEN_COMPLIANT",
+          "PROVEN_NON_COMPLIANT",
+          "PROVEN_NOT_APPLICABLE",
+          "NOT_DEMONSTRATED",
+          "CONFLICTING"
+        ],
+        "fold_gate_report": {
+          "report_id": "fold-gate-cd23436a4f0e7f6c05bd",
+          "positive_non_applicability_proven": false,
+          "na_countercheck_passed": false,
+          "activity_counterevidence_standing": false,
+          "applicability_standing": true,
+          "false_trigger_proven": false,
+          "vacuous_satisfaction_proven": false,
+          "vacuous_satisfaction_basis_id": null,
+          "residual_decisive_requirement_ids": [],
+          "all_decisive_requirements_meet_standard": false,
+          "decisive_rebuttal_standing": true,
+          "decisive_attack_or_violation_standing": false,
+          "insufficient_evidence_benchmark_fallback_permitted": false,
+          "supporting_statement_ids": [],
+          "blocking_statement_ids": [],
+          "proof_gate_report_ids": [
+            "proof-er1-attack-v1",
+            "proof-er1-support-v1",
+            "proof-er2-attack-v1",
+            "proof-er2-support-v1"
+          ],
+          "coverage_ids": [
+            "sha256:776a8d308a253efb7a31ad5525f31095f40e4ad9f7b9a8a3470be7307c5e801b"
+          ],
+          "burden_application_id": null,
+          "adapter_limitations": [
+            "NON_CONST_APPLICABILITY_REQUIRES_SEPARATE_SCOPE_EVALUATOR",
+            "NON_CONST_NON_APPLICABILITY_REQUIRES_NA_COUNTERCHECK",
+            "BURDEN_RULE_NOT_INFERRED",
+            "FALSE_TRIGGER_NOT_INFERRED",
+            "VACUOUS_SATISFACTION_NOT_INFERRED"
+          ],
+          "report_sha256": "sha256:b2c33046d6b53a3247a342450493497e7dcbabb3c5b8da843486cfd9200d1a2a"
+        },
+        "submission_label": null,
+        "answer_comparator_used": false,
+        "legacy_candidate_label_consumed": false,
+        "evaluation_sha256": "sha256:aac61f03089efda85589b56f6f47eae36a376fabac9c6f77d12119a68328c2be"
+      }
+    ],
+    "cross_interpretation_status": "ALL_UNKNOWN",
+    "common_internal_outcome": "UNKNOWN",
+    "archived_interpretation_ids": [],
+    "submission_label": null,
+    "answer_comparator_used": false,
+    "bundle_sha256": "sha256:cc589cd92b7f997829346ddeac04794af537ec12d994d0dadede0a77c549e030"
+  },
+  "fold_decision": {
+    "label": "0",
+    "finality": "UNKNOWN_BENCHMARK_FALLBACK",
+    "benchmark_fallback": true,
+    "forced": true,
+    "system_forced": false,
+    "branch_fold_results": [
+      {
+        "label": "0",
+        "finality": "UNKNOWN_BENCHMARK_FALLBACK",
+        "internal_outcome": "UNKNOWN",
+        "assurance_disposition": "EVIDENCE_LIMITATION",
+        "benchmark_fallback": true,
+        "forced": true,
+        "system_forced": false,
+        "fold_reason_code": "UNKNOWN_BENCHMARK_FALLBACK",
+        "fold_policy_version": "FOLD-POLICY-v3",
+        "fold_output_sha256": "sha256:e8c96d573ec5340fcbc7b568e1be1ef18887f78f1ef9d45505852d81bfcd3633"
+      }
+    ],
+    "fold_reason_code": "SAME_LABEL_ACROSS_VALID_BRANCHES",
+    "fold_policy_version": "FOLD-POLICY-v3",
+    "fold_output_sha256": "sha256:655d5c158391e3fc2f5dd04b8b0c6259e8d742d4ce9dc958dcd61daa5777c3e3"
+  },
+  "api_called": false,
+  "answer_comparator_used": false
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP41",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "Where applicable, all importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-3(2)",
+        "rules2021:4-7"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "Where applicable, all importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(2)",
+          "quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7",
+          "quote": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-3(2)",
+        "rules2021:4-7"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

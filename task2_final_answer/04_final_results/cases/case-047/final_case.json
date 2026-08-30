@@ -1,0 +1,358 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-047",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P4",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence states operations are within registered scope, but also states the primary operating address changed and DAFF records still reflect the original registered address, indicating operations may be occurring outside the registered premises."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "No evidence of suspension status; however, the change of operating address without updating registration suggests potential non-compliance with registration conditions, and there is no evidence that registration is not suspended."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21",
+        "5_Farm-Site-Plan_Kerang_Grain_and_Pulse_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but not provided; evidence indicates the registered area may not reflect the current operating address, so the area of registered premises is not clearly established."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kerang_Grain_and_Pulse_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but not provided; no evidence of important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kerang_Grain_and_Pulse_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but not provided; no evidence of layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence states the primary operating address changed but DAFF records still reflect the original registered address, indicating notification of change has not been provided."
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the trigger is absent.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the trigger is absent.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Kerang_Grain_and_Pulse_Trust.docx:P12",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the registration scope is for chickpeas."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting conditions at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The hygiene plan requires all areas to be maintained clean and hygienic, with cleaning procedures and records for the grain screening plant, indicating design and maintenance for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P27"
+      ],
+      "reason": "The hygiene plan includes measures to maintain cleanliness and control pests, which supports minimizing contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene, covers all areas of the establishment, assigns cleaning responsibilities, and requires cleaning records, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_47_Kerang_Grain_and_Pulse_Trust.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, with no waste streams, disposal methods, frequencies, or records, so there is no evidence of a system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_47_Kerang_Grain_and_Pulse_Trust.docx:P16",
+        "7_Bait_Station_Map_Kerang_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "The system of controls is not effective because waste management is not documented, and pest control shows delayed escalation follow-up for repeated rodent activity, indicating ineffectiveness for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kerang_Grain_and_Pulse_Trust.docx:P4",
+        "3_PestControlRecord_47_Kerang_Grain_and_Pulse_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The bait station map and pest control record demonstrate a system for managing pests and contaminants, including rodent surveillance with 20 mapped stations and contractor verification, satisfying the requirement for pest control including rodent control."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kerang_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "The pest control system is not fully effective because trend review identifies repeated rodent activity in receival zones with delayed escalation follow-up, indicating a lack of timely and effective control."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P35",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "The hygiene plan states cleaning records are retained for only six months, which is less than the required two years. Although other records are retained for two years, the cleaning records are part of the hygiene system, so the requirement is not met."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P35"
+      ],
+      "reason": "Records are described as maintained on site and in the business management system, retained for two years, and cleaning records are kept in the site office. The records are in English, dated, and auditable as per the plan, satisfying the requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The hygiene plan requires all areas to be maintained in a clean and hygienic condition, with designated staff responsible for cleaning the grain screening plant and sign-off by supervisors, demonstrating that areas are maintained appropriately."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kerang_Grain_and_Pulse_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8"
+      ],
+      "reason": "The bait station map states all operational and surrounding areas are maintained clean and free of harbourage, and the hygiene plan requires clean conditions, which together support that the establishment is maintained to prevent pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kerang_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "The bait station map shows 20 mapped stations with contractor verification, indicating that pest control stations are in place and monitored, and thus fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_47_Kerang_Grain_and_Pulse_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "The pest control record notes an audit scenario where chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, so the requirement to prevent contamination is not met."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_47_Kerang_Grain_and_Pulse_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "The same audit scenario shows chemicals stored in an unlocked cupboard inside the pulse grading shed, which is an area where product is prepared, so the requirement to prevent contamination of preparation areas is not met."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P17",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but does not explicitly document traceability from the property of transfer to receival. Also, the registered address changed without DAFF update, raising traceability concerns."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P17",
+        "9_Traceability_Records_Kerang_Grain_and_Pulse_Trust_047.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly demonstrate traceability while at the establishment. The transfer docket header is present but no actual records shown."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Kerang_Grain_and_Pulse_Trust_047.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence only shows a header for transfer records to next premises, but no actual records or details are provided to establish traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P36",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "Evidence mentions records for export operations and product flow, but does not explicitly describe a system of controls for traceability and integrity including labelling and record keeping."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P17",
+        "2_HACCPPlan_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence includes a product flow description and a section title for product flow chart, but the actual chart is not provided or described in sufficient detail."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence only mentions a section title for failed goods, but no details on the system of controls for managing failed goods, blending, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P8"
+      ],
+      "reason": "Evidence mentions hygiene and waste management but does not specifically address maintaining risk for contamination or infestation in the context of phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not explicitly describe measures to minimise the risk of substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Kerang_Grain_and_Pulse_Trust_047.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not provide details on packaging requirements or compliance with them."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Kerang_Grain_and_Pulse_Trust.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for two years, but cleaning records are retained for only six months, which may not cover all traceability records. Also, no actual records are shown."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence only mentions a section title for failed goods, but no records of rejected or failed goods, blending, treatments, or re-presentation are provided."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable. No actual records are shown to verify these attributes."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P4",
+        "1_Farm_47_Kerang_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "Evidence indicates the establishment is registered for chickpeas, but there is no evidence that all importing country requirements are met. The change of address without DAFF update raises compliance concerns."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-047/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-047/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-047/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-047/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-047/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 31,
+    "N/A": 1,
+    "1": 9
+  }
+}

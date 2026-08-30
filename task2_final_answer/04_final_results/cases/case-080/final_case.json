@@ -1,0 +1,393 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-080",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered (RE-QLD-2022-0077) and registered to handle and export Apples, and the plan documents infrastructure for export operations, indicating operations are within registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration. Missing evidence cannot establish compliance."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations. The site plan mentions important features but not the registered area boundary."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Valley_Grain_Co_operative.docx:P7",
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P12"
+      ],
+      "reason": "Evidence indicates the site plan includes important features of the registered area and adjoining sites, and the management plan states all buildings, equipment, facilities and services are present."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly describes the layout of areas where export operations occur, including permanent fixtures and equipment layout. The site plan is referenced but its content is not detailed in the evidence."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'where required' changes to registration. No evidence indicates any such changes occurred; the evidence shows the establishment's registration details are current and unchanged.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes to registration. No evidence indicates any such changes occurred; the evidence shows the establishment's registration details are current and unchanged.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4",
+          "exact_quote": "Condamine Valley Grain Co-operative is a registered export establishment located at 44 Cunningham Highway, Millmerran QLD 4357, QLD. The establishment holds RE Number RE-QLD-2022-0077 and is registered to handle and export Apples under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'where required' alterations. No evidence indicates any alterations, extensions, or rearrangements occurred; the evidence shows the establishment's infrastructure is as documented and no changes are mentioned.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' alterations. No evidence indicates any alterations, extensions, or rearrangements occurred; the evidence shows the establishment's infrastructure is as documented and no changes are mentioned.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4",
+          "exact_quote": "Condamine Valley Grain Co-operative is a registered export establishment located at 44 Cunningham Highway, Millmerran QLD 4357, QLD. The establishment holds RE Number RE-QLD-2022-0077 and is registered to handle and export Apples under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P12",
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The Farm Management Plan states that the establishment has all buildings, equipment, facilities and services required for the registered export operations and that facilities are maintained in an operational condition appropriate for handling and exporting Apples."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan describes cleaning procedures for receival, drying, and processing areas, and an internal inspection found all areas clean and hygienic, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P25"
+      ],
+      "reason": "The HACCP plan has a documented deficiency: no phytosanitary security section and no controls to prevent re-contamination or re-infestation, contradicting the requirement to minimise contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'if screening of the plants or plant products is carried out at the establishment'. The establishment handles apples, not grain, and no evidence indicates screening operations occur. Therefore the condition is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'if screening of the plants or plant products is carried out at the establishment'. The establishment handles apples, not grain, and no evidence indicates screening operations occur. Therefore the condition is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4",
+          "exact_quote": "Condamine Valley Grain Co-operative is a registered export establishment located at 44 Cunningham Highway, Millmerran QLD 4357, QLD. The establishment holds RE Number RE-QLD-2022-0077 and is registered to handle and export Apples under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP16": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'if screening of the plants or plant products is carried out at the establishment'. The establishment handles apples, not grain, and no evidence indicates screening operations occur. Therefore the condition is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'if screening of the plants or plant products is carried out at the establishment'. The establishment handles apples, not grain, and no evidence indicates screening operations occur. Therefore the condition is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4",
+          "exact_quote": "Condamine Valley Grain Co-operative is a registered export establishment located at 44 Cunningham Highway, Millmerran QLD 4357, QLD. The establishment holds RE Number RE-QLD-2022-0077 and is registered to handle and export Apples under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, responsibilities, and verification. The most recent internal inspection found all areas clean and hygienic with no deficiencies, demonstrating the system is in place and effective."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, with no waste streams, disposal methods, frequencies, or records. This contradicts the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P40"
+      ],
+      "reason": "The system of controls for hygiene is effective: internal inspection found no deficiencies, pre-production visual inspections are conducted, and deficiencies are corrected and recorded. This demonstrates effectiveness for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Valley_Grain_Co_operative.docx:P3",
+        "3_PestControlRecord_80_Condamine_Valley_Grain_Co_operative.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map includes a Pest Control System Overview, and the Pest Control Record is maintained under Chapter 4 of the Rules, indicating a system for pest control including rodent bait stations."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Valley_Grain_Co_operative.docx:P3",
+        "3_PestControlRecord_80_Condamine_Valley_Grain_Co_operative.xlsx:Cover:R2"
+      ],
+      "reason": "The existence of a pest control system overview and a dedicated pest control record indicates the system is effective for the type of export operations (handling and exporting apples)."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P35"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that cleaning records are retained at site for a minimum of two years from the date of completion, satisfying the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P35"
+      ],
+      "reason": "The plan states records are maintained using paper log sheets and digital entries, which are typically in English, dated, accurate, legible, and auditable. No evidence contradicts this."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P25"
+      ],
+      "reason": "The most recent internal inspection found all areas clean and hygienic, and cleaning procedures are in place for specific areas. This establishes the establishment is maintained in a clean and hygienic condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P8"
+      ],
+      "reason": "The internal inspection found no deficiencies, and the plan aims to ensure all areas are maintained in a clean and hygienic condition, which supports that goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43"
+      ],
+      "reason": "The CP is conditional on 'where applicable' pest control stations and traps. No evidence indicates the presence of pest control stations or traps at the establishment. The evidence shows a clean condition with no deficiencies, implying no such stations are present.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where applicable' pest control stations and traps. No evidence indicates the presence of pest control stations or traps at the establishment. The evidence shows a clean condition with no deficiencies, implying no such stations are present.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P43",
+          "exact_quote": "At the most recent internal inspection (29 June 2025), all areas of Condamine Valley Grain Co-operative were found to be in a clean and hygienic condition consistent with the requirements of this plan. No deficiencies were identified."
+        }
+      ]
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P16"
+      ],
+      "reason": "No evidence addresses chemical storage or prevention of contamination of plant products. The only relevant evidence is a deficiency in waste management, which does not cover chemical storage. Therefore, compliance is not established."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P16"
+      ],
+      "reason": "No evidence addresses chemical storage or prevention of contamination of preparation areas. The deficiency in waste management does not cover chemical storage. Therefore, compliance is not established."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Valley_Grain_Co_operative_080.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence only shows a header for transfer records to next premises, but no actual records of traceability from the property of origin to receival. No evidence of incoming traceability."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Valley_Grain_Co_operative_080.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability records while product is at the establishment. Only a header for transfer records is present."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Valley_Grain_Co_operative_080.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence only shows a header for transfer records to next premises, but no actual records of outgoing traceability. No evidence of dispatch records."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Valley_Grain_Co_operative_080.docx:P4"
+      ],
+      "reason": "Evidence mentions relabelling and security zoning but does not describe a system of controls for traceability and integrity, such as labelling and record keeping procedures."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P21"
+      ],
+      "reason": "Evidence references a product flow chart but does not provide the chart itself or demonstrate that it shows movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P21"
+      ],
+      "reason": "Evidence mentions 'Failed Goods' but does not describe a system of controls for managing failed goods, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Valley_Grain_Co_operative_080.docx:P4"
+      ],
+      "reason": "Evidence mentions reducing contamination and infestation risk but does not describe a system of controls for maintaining phytosanitary security, such as pest monitoring or sanitation procedures."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Valley_Grain_Co_operative_080.docx:P4"
+      ],
+      "reason": "Evidence mentions security zoning and sealed storage but does not describe measures to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding packaging requirements. The checking point applies as the establishment handles apples for export, but no evidence of compliance."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Valley_Grain_Co_operative_080.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows only a header for transfer records, not actual traceability records. No evidence of receival, product movement, treatment, or dispatch records retained for at least 2 years."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_80_Condamine_Valley_Grain_Co_operative.docx:P21"
+      ],
+      "reason": "Evidence mentions 'Failed Goods' but does not provide records of rejected or failed goods, including blending, treatments, or re-presentation. No evidence of retention for 2 years."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Valley_Grain_Co_operative.docx:P35"
+      ],
+      "reason": "Evidence states cleaning records are retained for two years, but does not confirm that all records are in English, dated, accurate, legible, and auditable. No evidence of actual records meeting these requirements."
+    },
+    "CP41": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'where applicable' importing country requirements. No evidence identifies any specific importing country requirements for apples. The evidence only shows the establishment is registered for apples, but does not establish that any importing country requirements exist or are applicable.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where applicable' importing country requirements. No evidence identifies any specific importing country requirements for apples. The evidence only shows the establishment is registered for apples, but does not establish that any importing country requirements exist or are applicable.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Condamine_Valley_Grain_Co_operative.docx:P4",
+          "exact_quote": "Condamine Valley Grain Co-operative is a registered export establishment located at 44 Cunningham Highway, Millmerran QLD 4357, QLD. The establishment holds RE Number RE-QLD-2022-0077 and is registered to handle and export Apples under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-080/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-080/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-080/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-080/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-080/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP15",
+      "CP6",
+      "CP41",
+      "CP16",
+      "CP26"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 12,
+    "0": 23,
+    "N/A": 6
+  }
+}

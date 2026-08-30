@@ -1,0 +1,52 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP26",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "Pest control stations and traps (for example, rodent bait stations) are fit for purpose and in good working order.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "Where applicable, pest control stations and traps (for example, rodent bait stations) are fit for purpose and in good working order.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7A(2)(b)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "Where applicable, pest control stations and traps (for example, rodent bait stations) are fit for purpose and in good working order."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-7A(2)(b)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

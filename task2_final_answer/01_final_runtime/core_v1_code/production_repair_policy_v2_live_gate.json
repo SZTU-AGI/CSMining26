@@ -1,0 +1,47 @@
+{
+  "schema": "freca-core-production-repair-policy-v2-live-gate",
+  "policy_id": "PRODUCTION_REPAIR_POLICY_V2_PHASE5_LIVE_GATE",
+  "semantic_version": "2.0.0-live-gate-1",
+  "base_policy_id": "PRODUCTION_REPAIR_POLICY_V2",
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "goal_action_dispatch": {
+    "FIND_SUPPORT": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "FIND_ATTACK": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME": "RESOLVE_TIME",
+    "RESOLVE_RELIABILITY": "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE": "COMPLETE_TARGETED_COVERAGE"
+  },
+  "allowed_action_types": [
+    "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME",
+    "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE"
+  ],
+  "repair_state_machine": {
+    "max_rounds": 1,
+    "max_selected_goals_per_round": 6,
+    "max_actions_per_round": 8,
+    "parent_alignment_budget": 4,
+    "execute_complete_round_before_stop": true,
+    "no_goal_state_change_is_hard_stop": true
+  },
+  "live_gate_limits": {
+    "sample_coordinate_count": 6,
+    "max_logical_model_calls": 24,
+    "max_http_attempts": 36,
+    "max_prompt_tokens": 1000000,
+    "max_completion_tokens": 100000,
+    "max_cost_usd": null,
+    "monetary_cost_cap_status": "NOT_ENFORCEABLE_WITHOUT_FROZEN_PRICE_FOR_CONFIGURED_MODEL",
+    "stop_on_first_limit": true
+  },
+  "safety": {
+    "missing_to_pass_forbidden": true,
+    "unknown_to_boolean_forbidden": true,
+    "absence_to_violation_forbidden": true,
+    "absence_to_non_applicability_forbidden": true,
+    "goal_direction_does_not_force_alignment_relation": true,
+    "v1_output_write_forbidden": true
+  }
+}

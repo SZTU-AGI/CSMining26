@@ -1,0 +1,3372 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP15",
+    "canonical_cp_id": "CP15",
+    "element": "Element-2",
+    "subelement": "2.4 Screening",
+    "criterion": "manage the risk of contamination by large contaminants",
+    "sheet": "All Elements",
+    "column": 15
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.06505334374186833,
+      "rrf_score": 0.06505334374186833,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 40.28293064522678,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 29.83975177828928,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 5.429745819789297,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 35.26949759807858,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(b)",
+      "citation": "4-9(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(b) to ensure that any large contaminants are removed from the plants or plant\nproducts.",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(b) to ensure that any large contaminants are removed from the plants or plant\nproducts.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.06401209677419355,
+      "rrf_score": 0.06401209677419355,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 12.090996726825903,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 9.551880024576036,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 5.22251559709451,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 14.774395621670546,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-14(2)(b)",
+      "citation": "8-14(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        69
+      ],
+      "parent_id": "rules2021:8-14(2)",
+      "child_ids": [],
+      "own_text": "(b) for a large size mark—column 3 of the following table; or",
+      "text": "8-14 Official mark—Australia approved\n(2) The dimensions are as specified in:\n(b) for a large size mark—column 3 of the following table; or",
+      "page": 69,
+      "page_end": 69,
+      "score": 0.04688263125763126,
+      "rrf_score": 0.04688263125763126,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 8.132172827993543,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.621246047216987,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.621246047216987,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(b)",
+      "citation": "9-4(5)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        82
+      ],
+      "parent_id": "rules2021:9-4(5)",
+      "child_ids": [],
+      "own_text": "(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "text": "9-4 Audit reports\n(5) The audit report may also:\n(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "page": 82,
+      "page_end": 82,
+      "score": 0.04642338900734423,
+      "rrf_score": 0.04642338900734423,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 7.151038376809117,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 7.660034265598705,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.660034265598705,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.04568764568764569,
+      "rrf_score": 0.04568764568764569,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 7.196897391441853,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.274715963714785,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.274715963714785,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04480274214213215,
+      "rrf_score": 0.04480274214213215,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 7.366941399426014,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.68956960990056,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.68956960990056,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(i)",
+      "citation": "9-23(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.043283143018383104,
+      "rrf_score": 0.043283143018383104,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 6.793716980591784,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.203092159713741,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.203092159713741,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(f)",
+      "citation": "2-12(3)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Phytosanitary certificates and phytosanitary certificates for re-export Division 2",
+      "label": "(f)",
+      "pages": [
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates and phytosanitary certificates for re-export Division 2\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "page": 31,
+      "page_end": 31,
+      "score": 0.0430274024024024,
+      "rrf_score": 0.0430274024024024,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 7.389647062602083,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 5.559047297917505,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 5.559047297917505,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-14(2)(d)",
+      "citation": "8-14(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        69
+      ],
+      "parent_id": "rules2021:8-14(2)",
+      "child_ids": [],
+      "own_text": "(d) for a computer-generated mark—column 5 of the following table.\nDimensions—Australia Approved official mark\nItem\nColumn 1\nSection of\nmark\nColumn 2\nNormal size\nmark (mm)\nColumn 3\nLarge size\nmark (mm)\nColumn 4",
+      "text": "8-14 Official mark—Australia approved\n(2) The dimensions are as specified in:\n(d) for a computer-generated mark—column 5 of the following table.\nDimensions—Australia Approved official mark\nItem\nColumn 1\nSection of\nmark\nColumn 2\nNormal size\nmark (mm)\nColumn 3\nLarge size\nmark (mm)\nColumn 4",
+      "page": 69,
+      "page_end": 69,
+      "score": 0.04187323331158947,
+      "rrf_score": 0.04187323331158947,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 5.375599952432488,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.031546362742809,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.031546362742809,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(a)",
+      "citation": "9-11(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(a) is effective to reduce the pests or contaminants to no higher than the\napplicable tolerance level; and",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(a) is effective to reduce the pests or contaminants to no higher than the\napplicable tolerance level; and",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.04001404001404002,
+      "rrf_score": 0.04001404001404002,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 5.289916057381782,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 4.958524061904147,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 4.958524061904147,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+      "citation": "9-11(2)(depending on where the pests or contaminants were detected)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "failed assessment must ensure that the plants or plant products or the flowpath",
+      "label": "(depending on where the pests or contaminants were detected)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(depending on where the pests or contaminants were detected) is treated using a\nmethod that:",
+      "text": "9-11 Reassessment after failed assessment\nfailed assessment must ensure that the plants or plant products or the flowpath\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(depending on where the pests or contaminants were detected) is treated using a\nmethod that:",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.03990062962719689,
+      "rrf_score": 0.03990062962719689,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 5.512512707656848,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 4.695728485240329,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 4.695728485240329,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(http://www.austlii.edu.au)",
+      "citation": "1-6(http://www.austlii.edu.au)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(http://www.austlii.edu.au)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(http://www.austlii.edu.au) .\ntreatment means any treatment that is useful or necessary to control or eradicate\npests or remove contaminants.\nExamples: The following are examples of treatment:",
+      "text": "1-6 Definitions\n(http://www.austlii.edu.au) .\ntreatment means any treatment that is useful or necessary to control or eradicate\npests or remove contaminants.\nExamples: The following are examples of treatment:",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.03897435897435897,
+      "rrf_score": 0.03897435897435897,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 4.733810377178495,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 4.77204717326847,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.77204717326847,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(2)(c)(i)",
+      "citation": "9-22(2)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(2)(c)",
+      "child_ids": [],
+      "own_text": "(i) contain pests or contaminants; or",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(c) materials and other cargo in or on the vessel, or to be loaded into or onto\nthe vessel, that could:\n(i) contain pests or contaminants; or",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.03874319454029599,
+      "rrf_score": 0.03874319454029599,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 6.503003300377538,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.394261832136844,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 4.394261832136844,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(c)(i)",
+      "citation": "9-10(2)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)(c)",
+      "child_ids": [],
+      "own_text": "(i) the plants or plant products contain no pests or contaminants above\nthe applicable tolerance level; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(c) the assessor reasonably believes that:\n(i) the plants or plant products contain no pests or contaminants above\nthe applicable tolerance level; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.03843708165997323,
+      "rrf_score": 0.03843708165997323,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 5.405405014283595,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 4.440498352209648,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 4.440498352209648,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(3)(a)",
+      "citation": "9-10(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(3)",
+      "child_ids": [],
+      "own_text": "(a) the flowpath contains no pests or contaminants above the applicable\ntolerance level; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(3) A flowpath for plants or plant products must not be passed unless an assessor\nreasonably believes that:\n(a) the flowpath contains no pests or contaminants above the applicable\ntolerance level; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.036891078270388615,
+      "rrf_score": 0.036891078270388615,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 5.784568575977476,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 4.006265120247617,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 4.006265120247617,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(4)",
+      "citation": "4-9(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [],
+      "own_text": "(4) Subsection (3) does not prevent blending of prescribed plants or plant products\nthat contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(4) Subsection (3) does not prevent blending of prescribed plants or plant products\nthat contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.03661805568167372,
+      "rrf_score": 0.03661805568167372,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 4.60506369340827,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.385283556721361,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 4.385283556721361,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(b)",
+      "citation": "3-3A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.03655690951516723,
+      "rrf_score": 0.03655690951516723,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 4.872229289281689,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 4.334705355293702,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 4.334705355293702,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(2)(b)",
+      "citation": "9-22(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(2)",
+      "child_ids": [],
+      "own_text": "(b) each other area of the vessel that could contain pests or contaminants that\ncould affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel; and",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(2) For the purpose of deciding whether to approve a bulk vessel, an authorised\nofficer must inspect:\n(b) each other area of the vessel that could contain pests or contaminants that\ncould affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel; and",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.0361971953662573,
+      "rrf_score": 0.0361971953662573,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 5.071292373764975,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 4.102365875053183,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 4.102365875053183,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(b)",
+      "citation": "4-7A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.03611535523300229,
+      "rrf_score": 0.03611535523300229,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 4.872229289281689,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 4.334705355293702,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 4.334705355293702,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(6)",
+      "citation": "4-2(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "text": "4-2 Construction, equipment and facilities\n(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.032266458495966696,
+      "rrf_score": 0.032266458495966696,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 7.37708541447811,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 7.916657927883553,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)",
+      "citation": "4-9(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)"
+      ],
+      "own_text": "(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.030834914611005692,
+      "rrf_score": 0.030834914611005692,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 6.0948145647560645,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.725041548792792,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16",
+      "citation": "9-16",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Approval of tolerance levels for pests and contaminants",
+      "label": "9-16",
+      "pages": [
+        88
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-16(1)",
+        "rules2021:9-16(2)",
+        "rules2021:9-16(3)"
+      ],
+      "own_text": "",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nApproval of tolerance levels for pests and contaminants",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.03007688828584351,
+      "rrf_score": 0.03007688828584351,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.962188388840465,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.962188388840465,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15",
+      "citation": "9-15",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Applicable tolerance levels for pests and contaminants",
+      "label": "9-15",
+      "pages": [
+        88
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-15(1)",
+        "rules2021:9-15(2)",
+        "rules2021:9-15(3)"
+      ],
+      "own_text": "",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nApplicable tolerance levels for pests and contaminants",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.028991596638655463,
+      "rrf_score": 0.028991596638655463,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.588878844782073,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.588878844782073,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(5)",
+      "citation": "4-2(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "text": "4-2 Construction, equipment and facilities\n(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.02871794871794872,
+      "rrf_score": 0.02871794871794872,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 4.457038060531776,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 5.12262974604092,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.027783137179239824,
+      "rrf_score": 0.027783137179239824,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 5.927305606291368,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 5.927305606291368,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.026856524873828405,
+      "rrf_score": 0.026856524873828405,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 4.9637924097696935,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 4.9637924097696935,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.02548701298701299,
+      "rrf_score": 0.02548701298701299,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 4.632809348544434,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 4.632809348544434,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0251661918328585,
+      "rrf_score": 0.0251661918328585,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.537726209807024,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.537726209807024,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.02485334979932078,
+      "rrf_score": 0.02485334979932078,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 4.514949353249762,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.514949353249762,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.023676099747828524,
+      "rrf_score": 0.023676099747828524,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 4.373571574286033,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 4.373571574286033,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)",
+      "citation": "9-11(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11",
+      "child_ids": [
+        "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+        "rules2021:9-11(2)(a)",
+        "rules2021:9-11(2)(b)"
+      ],
+      "own_text": "(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.022474747474747474,
+      "rrf_score": 0.022474747474747474,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 3.714891220959732,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 3.960854499147109,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-1",
+      "citation": "1-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Name",
+      "label": "1-1",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "text": "1-1 Name\nName\nThis instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-3",
+      "citation": "1-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Authority",
+      "label": "1-3",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is made under the Export Control Act 2020.",
+      "text": "1-3 Authority\nAuthority\nThis instrument is made under the Export Control Act 2020.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4",
+      "citation": "1-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Extension of the Act to Norfolk Island",
+      "label": "1-4",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:1-4(1)",
+        "rules2021:1-4(2)"
+      ],
+      "own_text": "",
+      "text": "1-4 Extension of the Act to Norfolk Island\nExtension of the Act to Norfolk Island",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)",
+      "citation": "1-4(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [
+        "rules2021:1-4(1)(a)",
+        "rules2021:1-4(1)(b)",
+        "rules2021:1-4(1)(c)"
+      ],
+      "own_text": "(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(a)",
+      "citation": "1-4(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(a) Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(a) Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(b)",
+      "citation": "1-4(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(c)",
+      "citation": "1-4(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(2)",
+      "citation": "1-4(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [],
+      "own_text": "(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5",
+      "citation": "1-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Simplified outline of this instrument",
+      "label": "1-5",
+      "pages": [
+        11,
+        12
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:1-5(a)",
+        "rules2021:1-5(b)",
+        "rules2021:1-5(c)",
+        "rules2021:1-5(d)",
+        "rules2021:1-5(e)",
+        "rules2021:1-5(f)",
+        "rules2021:1-5(g)",
+        "rules2021:1-5(h)",
+        "rules2021:1-5(j)",
+        "rules2021:1-5(k)",
+        "rules2021:1-5(l)",
+        "rules2021:1-5(m)",
+        "rules2021:1-5(n)",
+        "rules2021:1-5(Standard Provisions)"
+      ],
+      "own_text": "General\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "text": "1-5 Simplified outline of this instrument\nSimplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "page": 11,
+      "page_end": 12,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(Standard Provisions)",
+      "citation": "1-5(Standard Provisions)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(Standard Provisions)",
+      "pages": [
+        12,
+        13
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(Standard Provisions) Act 2014 as it applies in relation to the Export Control Act\n2020 and this instrument, extend to Norfolk Island and certain areas adjacent to\nNorfolk Island.\nStructure of this instrument and Chapter numbering\nThis instrument is arranged in Chapters that have the same number and name as\nthe corresponding Chapters in the Act. For example, the provisions of this\ninstrument that are made for the purposes of Chapter 3—Accredited properties of\nthe Act are included in Chapter 3—Accredited properties of this instrument. This\nmeans there are gaps in the Chapter numbering because there are no provisions\nfor the purposes of some Chapters of the Act.\nPreliminary Chapter 1",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(Standard Provisions) Act 2014 as it applies in relation to the Export Control Act\n2020 and this instrument, extend to Norfolk Island and certain areas adjacent to\nNorfolk Island.\nStructure of this instrument and Chapter numbering\nThis instrument is arranged in Chapters that have the same number and name as\nthe corresponding Chapters in the Act. For example, the provisions of this\ninstrument that are made for the purposes of Chapter 3—Accredited properties of\nthe Act are included in Chapter 3—Accredited properties of this instrument. This\nmeans there are gaps in the Chapter numbering because there are no provisions\nfor the purposes of some Chapters of the Act.\nPreliminary Chapter 1",
+      "page": 12,
+      "page_end": 13,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(a)",
+      "citation": "1-5(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Part 1 Preliminary",
+      "label": "(a)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(a)\nexemptions;",
+      "text": "1-5 Simplified outline of this instrument\nPart 1 Preliminary\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(a)\nexemptions;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(b)",
+      "citation": "1-5(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(b)\ngovernment certificates;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(b)\ngovernment certificates;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(c)",
+      "citation": "1-5(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(c)\naccredited properties;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(c)\naccredited properties;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(d)",
+      "citation": "1-5(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(d)\nregistered establishments;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(d)\nregistered establishments;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(e)",
+      "citation": "1-5(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(e)\nexport permits;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(e)\nexport permits;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(1)(ba)",
+      "citation": "11-10(1)(ba)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(ba)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10(1)",
+      "child_ids": [],
+      "own_text": "(ba) each video recording made by the authorised officer of a bulk vessel\ninspection carried out by the authorised officer;",
+      "text": "11-10 Records to be retained by authorised officers\n(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11\n(ba) each video recording made by the authorised officer of a bulk vessel\ninspection carried out by the authorised officer;",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 4.074448647369019,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(f)",
+      "citation": "1-5(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(f)\nnotices of intention to export;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(f)\nnotices of intention to export;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-23(d)",
+      "citation": "8-23(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        75
+      ],
+      "parent_id": "rules2021:8-23",
+      "child_ids": [],
+      "own_text": "(d) the possession of the official mark by the person is in accordance with a\ndirection given by an authorised officer; or",
+      "text": "8-23 Persons who may possess official marks that have not been applied to\nplants or plant products\nA person may possess a kind of official mark for plants or plant products that has\nnot been applied to any plants or plant products only if:\n(d) the possession of the official mark by the person is in accordance with a\ndirection given by an authorised officer; or",
+      "page": 75,
+      "page_end": 75,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 4.027226881823787,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(g)",
+      "citation": "1-5(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(g)\ntrade descriptions;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(g)\ntrade descriptions;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-30(1)(c)",
+      "citation": "8-30(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        77
+      ],
+      "parent_id": "rules2021:8-30(1)",
+      "child_ids": [],
+      "own_text": "(c) official marks of that kind destroyed by the person;",
+      "text": "8-30 Records of official marks applied, removed, defaced, destroyed or returned\n(1) Except as provided by subsection (2), a person who is permitted by section 8-23\nto possess a kind of official mark must make a written record of the following:\n(c) official marks of that kind destroyed by the person;",
+      "page": 77,
+      "page_end": 77,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 3.924052536681024,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(h)",
+      "citation": "1-5(h)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(h)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [
+        "rules2021:1-5(h)(i)"
+      ],
+      "own_text": "(h)\nofficial marks and official marking devices;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(h)\nofficial marks and official marking devices;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-30(1)(d)",
+      "citation": "8-30(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        77
+      ],
+      "parent_id": "rules2021:8-30(1)",
+      "child_ids": [],
+      "own_text": "(d) official marks of that kind returned by the person.",
+      "text": "8-30 Records of official marks applied, removed, defaced, destroyed or returned\n(1) Except as provided by subsection (2), a person who is permitted by section 8-23\nto possess a kind of official mark must make a written record of the following:\n(d) official marks of that kind returned by the person.",
+      "page": 77,
+      "page_end": 77,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 3.924052536681024,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(h)(i)",
+      "citation": "1-5(h)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5(h)",
+      "child_ids": [],
+      "own_text": "(i)\naudits;",
+      "text": "1-5 Simplified outline of this instrument\n(h)\nofficial marks and official marking devices;\n(i)\naudits;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(ii)",
+      "citation": "9-23(1)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(ii) there are no contaminants or other material in or on the cargo spaces\nthat could contaminate the plants or plant products, or that are likely\nto harbour pests that could infest the plants or plant products;",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(ii) there are no contaminants or other material in or on the cargo spaces\nthat could contaminate the plants or plant products, or that are likely\nto harbour pests that could infest the plants or plant products;",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 3.848813223577849,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(j)",
+      "citation": "1-5(j)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(j)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(j)\nassessments;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(j)\nassessments;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(b)(ii)",
+      "citation": "9-24(2)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)(b)",
+      "child_ids": [],
+      "own_text": "(ii) be accompanied by any documents required by the form.",
+      "text": "9-24 Bulk vessel inspection record\n(b) if the Secretary has approved, in writing, a form for the inspection record:\n(ii) be accompanied by any documents required by the form.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 3.8281819583010592,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(k)",
+      "citation": "1-5(k)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(k)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(k)\nbulk vessel approvals and container approvals;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(k)\nbulk vessel approvals and container approvals;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)(ii)",
+      "citation": "9-33(2)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)(b)",
+      "child_ids": [],
+      "own_text": "(ii) be accompanied by any documents required by the form.",
+      "text": "9-33 Container inspection record\n(b) if the Secretary has approved, in writing, a form for the inspection record:\n(ii) be accompanied by any documents required by the form.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 3.8281819583010592,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(l)",
+      "citation": "1-5(l)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(l)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(l)\nrecords;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(l)\nrecords;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 0.0,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9",
+      "citation": "4-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Conditions relating to prescribed grain etc.",
+      "label": "4-9",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-9(1)",
+        "rules2021:4-9(2)",
+        "rules2021:4-9(3)",
+        "rules2021:4-9(4)"
+      ],
+      "own_text": "",
+      "text": "4-9 Conditions relating to prescribed grain etc.\nConditions relating to prescribed grain etc.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(2)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(1)",
+      "citation": "4-9(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(1)(a)",
+        "rules2021:4-9(1)(b)"
+      ],
+      "own_text": "(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)",
+      "citation": "4-9(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Blending",
+      "label": "(3)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(3)(a)",
+        "rules2021:4-9(3)(b)",
+        "rules2021:4-9(3)(c)"
+      ],
+      "own_text": "(3) If the plants or plant products fail an assessment because of:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\nBlending\n(3) If the plants or plant products fail an assessment because of:",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.06505334374186833,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph explicitly states the requirement to manage the risk of contamination by large contaminants, directly matching the CP criterion.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "to manage the risk of contamination by large contaminants; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The policy text is identical to the CP criterion, providing direct textual grounding.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "to manage the risk of contamination by large contaminants; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(b)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.06401209677419355,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies the outcome of removing large contaminants, which is part of managing the risk of contamination by large contaminants.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "to ensure that any large contaminants are removed from the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifies the outcome of managing the risk by requiring removal of large contaminants, directly supporting the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "to ensure that any large contaminants are removed from the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-14(2)(b)",
+      "page": 69,
+      "rrf_or_bm25_score": 0.04688263125763126,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns official mark dimensions, unrelated to screening for large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(b)",
+      "page": 82,
+      "rrf_or_bm25_score": 0.04642338900734423,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report risk identification, not directly related to managing contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.04568764568764569,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not directly related to managing contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04480274214213215,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "Design and construction to minimise contamination supports the screening objective but does not directly require screening for large contaminants.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires design and construction to minimise contamination generally, but does not specifically address large contaminants or screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.043283143018383104,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision sets a condition for vessel approval related to contamination risk, directly grounding the CP criterion.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel; or",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses vessel condition to avoid contamination, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel; or",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(f)",
+      "page": 31,
+      "rrf_or_bm25_score": 0.0430274024024024,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns phytosanitary certificate issuance conditions, not screening for large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-14(2)(d)",
+      "page": 69,
+      "rrf_or_bm25_score": 0.04187323331158947,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns official mark dimensions, unrelated to screening for large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(a)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.04001404001404002,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires that treatment be effective to reduce contaminants to tolerance, directly addressing contamination risk management.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "is effective to reduce the pests or contaminants to no higher than the applicable tolerance level",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires effectiveness in reducing pests or contaminants, but does not specifically address large contaminants or screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "is effective to reduce the pests or contaminants to no higher than the applicable tolerance level",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.03990062962719689,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_APPLICATION",
+      "reason": "This phrase specifies the scope of the treatment requirement based on detection location, affecting applicability of the rule.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "depending on where the pests or contaminants were detected",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses treatment after failed assessment due to pests or contaminants, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "depending on where the pests or contaminants were detected",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:1-6(http://www.austlii.edu.au)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.03897435897435897,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM_IN_CP",
+      "reason": "The candidate defines 'treatment' as including removal of contaminants, which is relevant to interpreting the CP criterion about managing contamination risk.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "treatment means any treatment that is useful or necessary to control or eradicate pests or remove contaminants.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-22(2)(c)(i)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.03874319454029599,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "This provision is part of inspection criteria for materials and cargo, supporting operationalization but not independently scoring the CP.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "contain pests or contaminants; or",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is a fragment about materials containing pests or contaminants, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "contain pests or contaminants; or",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(c)(i)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.03843708165997323,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires that plants or plant products contain no contaminants above tolerance, which is a normative rule for managing contamination risk.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "the plants or plant products contain no pests or contaminants above the applicable tolerance level",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision sets a general tolerance for pests and contaminants, but does not specifically address large contaminants or screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "the plants or plant products contain no pests or contaminants above the applicable tolerance level",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-10(3)(a)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.036891078270388615,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires that the flowpath contain no contaminants above tolerance, which is a normative rule for managing contamination risk.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "the flowpath contains no pests or contaminants above the applicable tolerance level",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision sets a general tolerance for pests and contaminants in the flowpath, but does not specifically address large contaminants or screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "the flowpath contains no pests or contaminants above the applicable tolerance level",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(4)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.03661805568167372,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_OR_DEEMING",
+      "reason": "This provision creates an exception to blending restrictions, which may affect how large contaminants are managed, but it does not directly set the screening requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "Subsection (3) does not prevent blending of prescribed plants or plant products that contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses blending of contaminants other than those specified, and does not directly ground the requirement to manage large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "Subsection (3) does not prevent blending of prescribed plants or plant products that contain contaminants other than those referred to in paragraph (3)(b) or (c).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(b)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.03655690951516723,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "General pest and contaminant control at the property supports the operational environment for screening but is not the specific screening requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires general control of pests and contaminants at the property, but does not specifically address managing the risk of contamination by large contaminants through screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(2)(b)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.0361971953662573,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "This provision describes inspection areas for bulk vessel approval, which supports operationalizing contamination risk management but is not an independent scoring requirement for this CP.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "each other area of the vessel that could contain pests or contaminants that could affect the integrity of prescribed plants or plant products loaded into or onto the vessel; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns inspection of vessel areas for pests or contaminants, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "each other area of the vessel that could contain pests or contaminants that could affect the integrity of prescribed plants or plant products loaded into or onto the vessel; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.03611535523300229,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "General pest and contaminant control at the establishment supports the screening environment but is not the specific screening requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires general control of pests and contaminants at the establishment, but does not specifically address large contaminants or screening.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(6)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.032266458495966696,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_CONTEXT",
+      "reason": "This provision ensures facilities can support screening, which is necessary for the screening activity but does not itself set the screening performance requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "If screening of prescribed plants or plant products described in paragraph 4-9(1)(a) or (b) is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires facilities to allow screening, but does not itself set the requirement to manage the risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "If screening of prescribed plants or plant products described in paragraph 4-9(1)(a) or (b) is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.030834914611005692,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection introduces the requirement that screening be carried out appropriately, which directly grounds the CP criterion.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "If screening of the plants or plant products is carried out at the establishment, it must be carried out in a way that is appropriate:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision introduces the specific requirement that screening be carried out appropriately, which directly encompasses the CP criterion as one of its purposes.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "If screening of the plants or plant products is carried out at the establishment, it must be carried out in a way that is appropriate:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-16",
+      "page": 88,
+      "rrf_or_bm25_score": 0.03007688828584351,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is the section heading that provides structural context for the approval of tolerance levels, but does not itself create a scoring requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "9-16 Approval of tolerance levels for pests and contaminants",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15",
+      "page": 88,
+      "rrf_or_bm25_score": 0.028991596638655463,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This section defines the applicable tolerance levels, which are essential for interpreting the contamination requirements.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "Applicable tolerance levels for pests and contaminants",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(5)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.02871794871794872,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns testing and analysis facilities, not screening for large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.027783137179239824,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision establishes the applicable tolerance level for contaminants, which directly grounds the requirement to manage contamination risk.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate defines tolerance levels for contaminants generally, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.026856524873828405,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision empowers the Secretary to approve tolerance levels for contaminants, which is a normative rule directly relevant to managing contamination risk.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate provides authority to approve tolerance levels for contaminants, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.02548701298701299,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision defines the applicable tolerance level for pests, which is necessary to interpret contamination thresholds.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "The applicable tolerance level for a kind of pest in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0251661918328585,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision specifies that the tolerance level may be nil, which is part of the definition of applicable tolerance levels.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "nil",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.02485334979932078,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM",
+      "reason": "This provision defines the applicable tolerance level for animal carcases or waste, relevant to contamination thresholds.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.023676099747828524,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies a nil tolerance level for animal carcases or animal waste, which does not address the management of risk of contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.022474747474747474,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_APPLICATION",
+      "reason": "This provision sets a condition under which reassessment and treatment requirements apply, relevant to when the CP's governing rule is triggered.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses reassessment after failure due to pests or contaminants, but does not directly ground the requirement to manage large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-1",
+      "page": 11,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only states the name of the instrument and does not contribute to interpreting the CP criterion about managing contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-3",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only states the authority under which the instrument is made and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(a)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(b)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(c)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(2)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5",
+      "page": 11,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "GENERAL_OUTLINE",
+      "reason": "The candidate provides a simplified outline of the instrument, indicating that it prescribes export conditions for plants and plant products. It is structural context that helps locate the CP criterion within the instrument but does not itself create a scoring requirement.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "This instrument prescribes matters and makes other provision in relation to certain plants and plant products (prescribed plants and plant products) for the purposes of the Export Control Act 2020 (the Act).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(Standard Provisions)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns extension of the Act to Norfolk Island and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(a)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only lists 'exemptions' as a topic and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(b)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only lists 'government certificates' as a topic and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(c)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'accredited properties' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(d)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'registered establishments' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(e)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'export permits' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(1)(ba)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns retention of video recordings by authorised officers, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(f)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'notices of intention to export' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-23(d)",
+      "page": 75,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns possession of official marks, which is unrelated to managing contamination risk by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(g)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'trade descriptions' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-30(1)(c)",
+      "page": 77,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns records of destroyed official marks, unrelated to contamination risk management.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(h)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'official marks and official marking devices' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-30(1)(d)",
+      "page": 77,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns records of returned official marks, unrelated to contamination risk management.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(h)(i)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'audits' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision sets a requirement for bulk vessel approval that directly addresses the absence of contaminants, grounding the CP criterion.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "there are no contaminants or other material in or on the cargo spaces that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires absence of contaminants in cargo spaces, but does not specifically address managing risk of contamination by large contaminants.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "there are no contaminants or other material in or on the cargo spaces that could contaminate the plants or plant products, or that are likely to harbour pests that could infest the plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-5(j)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'assessments' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(b)(ii)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns documentation requirements for inspection records, unrelated to managing contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(k)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'bulk vessel approvals and container approvals' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)(ii)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns documentation requirements for container inspection records, unrelated to managing contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(l)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate lists 'records' as a topic in the simplified outline, which does not relate to managing contamination by large contaminants.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "The section heading provides structural context for the subsections but does not itself state a normative requirement for this CP.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "Conditions relating to prescribed grain etc.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(1)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "This subsection defines the scope of establishments and products to which the section applies, governing whether the CP's underlying rule applies.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate defines the scope of application for section 4-9, but does not itself establish a legal requirement to manage contamination risk by large contaminants. It is structural applicability context for the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "manage the risk of contamination by large contaminants",
+      "legal_basis_policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "INSUFFICIENT_TEXT",
+      "reason": "The excerpt is incomplete and does not provide enough information to determine its relationship to the CP criterion.",
+      "cp_quote": "manage the risk of contamination by large contaminants",
+      "policy_quote": "If the plants or plant products fail an assessment because of:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ]
+}

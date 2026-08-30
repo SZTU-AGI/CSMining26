@@ -1,0 +1,354 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-009",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat (grain) and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Riverina_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The site plan specifies the registered export area as 3.2 ha with GPS coordinates and boundary description."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Riverina_Grain_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Riverina_Grain_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan references important features of the registered area and adjoining sites, and the management plan states the establishment has all buildings, equipment, facilities and services required for export operations."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Riverina_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The site plan provides layout details including the registered area, boundaries, and security fence, which covers the layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Riverina_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure supporting wheat export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The evidence includes a hygiene and sanitation plan and cleaning procedures, but there is no evidence that the system of controls is actually implemented or effective. The plan is a document, not proof of current practice."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The evidence includes a hygiene and sanitation plan and cleaning procedures, but there is no evidence of a system of controls for waste control and disposal. The plan does not specifically address waste management."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The evidence includes a hygiene and sanitation plan and cleaning procedures, but there is no evidence that the system of controls is effective for the type of export operations and activities conducted. The plan is a document, not proof of effectiveness."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The evidence mentions integrated pest management and bait stations, but does not provide details of a system of controls for pests and contaminants, including rodent control. The evidence is insufficient to establish compliance."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The evidence mentions integrated pest management and bait stations, but does not demonstrate that the system of controls is effective for the type of export operations and activities conducted. The evidence is insufficient."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence states that records are retained for a minimum of two years, but does not specifically mention records for hygiene, waste control, and pest control. The evidence is insufficient to establish compliance."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence mentions records are maintained and retained, but does not confirm that they are in English, dated, accurate, legible, and able to be audited. The evidence is insufficient."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The evidence includes a plan and procedures for cleaning, but does not establish that all areas are actually maintained in a clean and hygienic condition. The plan is not proof of current condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The evidence mentions pest management and bait stations, but does not establish that all areas are maintained in a condition that ensures goods are not infested or contaminated. The evidence is insufficient."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The evidence mentions bait stations and pest management, but does not provide details on whether the stations are fit for purpose and in good working order. The evidence is insufficient."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage and prevention of contamination of prescribed plant or plant products. The checking point applies but evidence is missing."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage and prevention of contamination of areas where prescribed plant or plant products are prepared. The checking point applies but evidence is missing."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Riverina_Grain_Pty_Ltd_009.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer dockets but does not specifically confirm traceability from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Riverina_Grain_Pty_Ltd_009.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not specifically confirm traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Riverina_Grain_Pty_Ltd_009.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not confirm traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Riverina_Grain_Pty_Ltd_009.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not provide a product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for managing goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Riverina_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence mentions hygiene and corrective actions but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation but does not describe measures to minimise risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Riverina_Grain_Pty_Ltd_009.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not confirm packaging requirements are met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records retained for two years but does not specify all required record types."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not specifically address records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_09_Riverina_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence mentions registered scope but does not confirm all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-009/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-009/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-009/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-009/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-009/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 5,
+    "0": 34,
+    "N/A": 2
+  }
+}

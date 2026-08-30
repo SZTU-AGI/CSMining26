@@ -1,0 +1,3307 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP18",
+    "canonical_cp_id": "CP18",
+    "element": "Element-3",
+    "subelement": "3.1 Systems of controls – hygiene and waste control",
+    "criterion": "the system of controls to manage waste control and disposal",
+    "sheet": "All Elements",
+    "column": 18
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:4-2(4)(d)",
+      "citation": "4-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06530936012691697,
+      "rrf_score": 0.06530936012691697,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 15.933201987008768,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 15.266486577163219,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 7.470257458478535,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 22.736744035641756,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.06303457966764418,
+      "rrf_score": 0.06303457966764418,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 8.733633166114451,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 14.433715634608346,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.817617371584771,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 21.251333006193114,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.06214382750377048,
+      "rrf_score": 0.06214382750377048,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 9.03588210380042,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 7.758869683665736,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 7.504556754642365,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 15.2634264383081,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.0605961770345332,
+      "rrf_score": 0.0605961770345332,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 7.695225731237505,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 13.199421275828758,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.104166342180387,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 19.30358761800915,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.06004052599447336,
+      "rrf_score": 0.06004052599447336,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 6.1859619581896235,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 8.122609268814006,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 7.163895613084794,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 15.2865048818988,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.05743048328649733,
+      "rrf_score": 0.05743048328649733,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 6.310596121109261,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 7.542993362709204,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.615066092481072,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 14.158059455190275,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)",
+      "citation": "1-4(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [
+        "rules2021:1-4(1)(a)",
+        "rules2021:1-4(1)(b)",
+        "rules2021:1-4(1)(c)"
+      ],
+      "own_text": "(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.05705128205128205,
+      "rrf_score": 0.05705128205128205,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 7.744751345534415,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 7.281883821817268,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.151702949268955,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 13.433586771086222,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.055145442792501616,
+      "rrf_score": 0.055145442792501616,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 6.162570616056473,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.992279069606875,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.58123745966464,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 13.573516529271515,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-1",
+      "citation": "12-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Definitions",
+      "label": "12-1",
+      "pages": [
+        118,
+        119
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "In this Chapter:\ncommencement time means the time when section 3 of the Export Control Act\n2020 commences.\nold Export Control (General) Order means the Export Control (Prescribed\nGoods—General) Order 2005, as in force immediately before the\ncommencement time.\nold Export Control (Plants) Order means the Export Control (Plants and Plant\nProducts) Order 2011, as in force immediately before the commencement time.\nTransitional provisions Chapter 12",
+      "text": "12-1 Definitions\nDefinitions\nIn this Chapter:\ncommencement time means the time when section 3 of the Export Control Act\n2020 commences.\nold Export Control (General) Order means the Export Control (Prescribed\nGoods—General) Order 2005, as in force immediately before the\ncommencement time.\nold Export Control (Plants) Order means the Export Control (Plants and Plant\nProducts) Order 2011, as in force immediately before the commencement time.\nTransitional provisions Chapter 12",
+      "page": 118,
+      "page_end": 119,
+      "score": 0.05474316993304335,
+      "rrf_score": 0.05474316993304335,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 6.560514552650778,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 6.621447757573719,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.242885566040947,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 12.864333323614664,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(c)",
+      "citation": "3-3A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        35,
+        36
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(c) if operations to prepare prescribed plants or plant products for export are\ncarried out at the property—waste at the property must be appropriately\ntreated and disposed of.\nChapter 3 Accredited properties",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) if operations to prepare prescribed plants or plant products for export are\ncarried out at the property—waste at the property must be appropriately\ntreated and disposed of.\nChapter 3 Accredited properties",
+      "page": 35,
+      "page_end": 36,
+      "score": 0.054710623936630134,
+      "rrf_score": 0.054710623936630134,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 6.689677285067315,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.718356228995,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 5.971615107832497,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 12.689971336827497,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.05246525404420141,
+      "rrf_score": 0.05246525404420141,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 6.284015031236425,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.638317790553236,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 5.876739599513546,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 12.51505739006678,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.05165303831970498,
+      "rrf_score": 0.05165303831970498,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 6.162570616056473,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 6.397952802462645,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 5.963329771560889,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 12.361282574023532,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(a)",
+      "citation": "1-6(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(a) dismantling, repairing, cleaning or deodorising;",
+      "text": "1-6 Definitions\n(a) dismantling, repairing, cleaning or deodorising;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.05157797232605417,
+      "rrf_score": 0.05157797232605417,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 6.65985036320615,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 6.099591114140317,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 5.801560560575681,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 11.901151674715997,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.050636968516715355,
+      "rrf_score": 0.050636968516715355,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 6.162570616056473,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 6.4968784566967575,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.747524658272875,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 12.244403114969634,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-1",
+      "citation": "1-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Name",
+      "label": "1-1",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "text": "1-1 Name\nName\nThis instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.049931334533536445,
+      "rrf_score": 0.049931334533536445,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 6.49104366906989,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 5.92970040957699,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.639970842058634,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 11.569671251635624,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.047485623557352336,
+      "rrf_score": 0.047485623557352336,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 6.049479877467797,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 6.004278681562406,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 4.789851142024633,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 10.794129823587038,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.04570188828584351,
+      "rrf_score": 0.04570188828584351,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 7.908379286820571,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.0615435063383165,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 14.969922793158887,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(c)",
+      "citation": "4-9(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04559690732505488,
+      "rrf_score": 0.04559690732505488,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 5.605912751300997,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 5.647621920631579,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 4.662903592318733,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 10.310525512950312,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.04501587087188492,
+      "rrf_score": 0.04501587087188492,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 7.843655504716596,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 6.923988282995742,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 14.767643787712338,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04351873814041746,
+      "rrf_score": 0.04351873814041746,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 12.69731473642626,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 9.173690753928193,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 10.602944722646964,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.04307001428863033,
+      "rrf_score": 0.04307001428863033,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 7.313355182700192,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.407926813901989,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 13.721281996602182,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(a)",
+      "citation": "1-4(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(a) Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(a) Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.04186764422149335,
+      "rrf_score": 0.04186764422149335,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 7.275638303707131,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.1665203486336,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 13.442158652340732,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(b)",
+      "citation": "1-4(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.04037003838734192,
+      "rrf_score": 0.04037003838734192,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 7.132101814618668,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 5.959197476040915,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 13.091299290659583,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(c)",
+      "citation": "1-4(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.0376738626198336,
+      "rrf_score": 0.0376738626198336,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.629746248207532,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.44264292747993,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 12.072389175687462,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(2)",
+      "citation": "9-16(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(2) The Secretary may approve, in writing, a tolerance level higher than nil for\nanimal carcases or animal waste (or both) in relation to a kind of plant or plant\nproduct for export to an importing country if the approved tolerance level is\nconsistent with the importing country requirements.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(2) The Secretary may approve, in writing, a tolerance level higher than nil for\nanimal carcases or animal waste (or both) in relation to a kind of plant or plant\nproduct for export to an importing country if the approved tolerance level is\nconsistent with the importing country requirements.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.036886479975910866,
+      "rrf_score": 0.036886479975910866,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 6.3862695281461415,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.463679587083362,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 11.849949115229503,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-2(4)(b)",
+      "citation": "12-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        119
+      ],
+      "parent_id": "rules2021:12-2(4)",
+      "child_ids": [],
+      "own_text": "(b) the Secretary had requested, under subsection 13A(5) of the old Export\nControl (Plants) Order, the applicant to provide further information in\nrelation to the application; and",
+      "text": "12-2 Application for determination that establishment is a small horticultural\n(4) If:\n(b) the Secretary had requested, under subsection 13A(5) of the old Export\nControl (Plants) Order, the applicant to provide further information in\nrelation to the application; and",
+      "page": 119,
+      "page_end": 119,
+      "score": 0.036814714971996516,
+      "rrf_score": 0.036814714971996516,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 6.542170074455212,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 5.536096872790278,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 10.00818085590578,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.036148076627065755,
+      "rrf_score": 0.036148076627065755,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 6.276575425909641,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.4240795406862246,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 11.700654966595865,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.03482042648709316,
+      "rrf_score": 0.03482042648709316,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 6.118165417238681,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 5.496951968932348,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 9.934435908446192,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.03007688828584351,
+      "rrf_score": 0.03007688828584351,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 7.510232271040464,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.949841227644005,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-12(1)(a)",
+      "citation": "12-12(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        125
+      ],
+      "parent_id": "rules2021:12-12(1)",
+      "child_ids": [],
+      "own_text": "(a) an authorised officer had suspended a vessel approval under\nsubsection 39.1 of the old Export Control (Plants) Order; and",
+      "text": "12-12 Bulk vessel approval suspended before commencement time\n(1) This section applies if:\n(a) an authorised officer had suspended a vessel approval under\nsubsection 39.1 of the old Export Control (Plants) Order; and",
+      "page": 125,
+      "page_end": 125,
+      "score": 0.023669467787114845,
+      "rrf_score": 0.023669467787114845,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 5.970865867013038,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 4.767576417426677,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.023542445644647556,
+      "rrf_score": 0.023542445644647556,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 5.759745624475904,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 6.38066262214161,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.023431077007399288,
+      "rrf_score": 0.023431077007399288,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 6.118165417238681,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 9.934435908446192,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-13(1)(a)",
+      "citation": "12-13(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        127
+      ],
+      "parent_id": "rules2021:12-13(1)",
+      "child_ids": [],
+      "own_text": "(a) an authorised officer had issued a container approval for a container under\nsection 27 of the old Export Control (Plants) Order; and",
+      "text": "12-13 Container approval in force before commencement time\n(1) This section applies if:\n(a) an authorised officer had issued a container approval for a container under\nsection 27 of the old Export Control (Plants) Order; and",
+      "page": 127,
+      "page_end": 127,
+      "score": 0.02299154334038055,
+      "rrf_score": 0.02299154334038055,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 5.734173418532903,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 4.664833635623582,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-9(1)(a)(ii)",
+      "citation": "12-9(1)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        124
+      ],
+      "parent_id": "rules2021:12-9(1)(a)",
+      "child_ids": [],
+      "own_text": "(ii) under the Export Control (Plants and Plant Products—Norfolk\nIsland) Order 2016 (as in force immediately before the\ncommencement time); and",
+      "text": "12-9 Declaration by authorised officer before commencement time that\n(a) an authorised officer had declared a consignment of prescribed goods to be\npassed as export compliant:\n(ii) under the Export Control (Plants and Plant Products—Norfolk\nIsland) Order 2016 (as in force immediately before the\ncommencement time); and",
+      "page": 124,
+      "page_end": 124,
+      "score": 0.02299154334038055,
+      "rrf_score": 0.02299154334038055,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 5.876758363917877,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 4.570023658494176,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-11(1)(a)",
+      "citation": "12-11(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        125
+      ],
+      "parent_id": "rules2021:12-11(1)",
+      "child_ids": [],
+      "own_text": "(a) an authorised officer had issued a vessel approval for a bulk vessel under\nsection 37 of the old Export Control (Plants) Order; and",
+      "text": "12-11 Bulk vessel approval in force before commencement time\n(1) This section applies if:\n(a) an authorised officer had issued a vessel approval for a bulk vessel under\nsection 37 of the old Export Control (Plants) Order; and",
+      "page": 125,
+      "page_end": 125,
+      "score": 0.02247191011235955,
+      "rrf_score": 0.02247191011235955,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 5.622727510088371,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 29,
+          "raw_score": 4.566425715163582,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-15(a)",
+      "citation": "3-15(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        43
+      ],
+      "parent_id": "rules2021:3-15",
+      "child_ids": [],
+      "own_text": "(a) a change in a person who manages or controls export operations carried out at the\naccredited property;",
+      "text": "3-15 Events of which Secretary must be notified\nFor the purposes of subsection 108(1) of the Act, the following events are\nprescribed in relation to an accredited property:\n(a) a change in a person who manages or controls export operations carried out at the\naccredited property;",
+      "page": 43,
+      "page_end": 43,
+      "score": 0.022222222222222223,
+      "rrf_score": 0.022222222222222223,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 30,
+          "raw_score": 4.540298861876623,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 9.901695741348703,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(n)",
+      "citation": "1-5(n)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(n)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(n)\ndamaged or destroyed plants or plant products.\nExtension to Norfolk Island\nThe Export Control Act 2020 and this instrument, and the Regulatory Powers",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(n)\ndamaged or destroyed plants or plant products.\nExtension to Norfolk Island\nThe Export Control Act 2020 and this instrument, and the Regulatory Powers",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 6.443873263338545,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-10(1)(a)",
+      "citation": "12-10(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        125
+      ],
+      "parent_id": "rules2021:12-10(1)",
+      "child_ids": [],
+      "own_text": "(a) a marine surveyor had issued a certificate in relation to a bulk vessel under\nsubsection 33.2 of the old Export Control (Plants) Order; and",
+      "text": "12-10 Marine surveyor’s certificate issued in relation to bulk vessel before\n(1) This section applies if:\n(a) a marine surveyor had issued a certificate in relation to a bulk vessel under\nsubsection 33.2 of the old Export Control (Plants) Order; and",
+      "page": 125,
+      "page_end": 125,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 6.153628277449573,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(c)",
+      "citation": "9-17(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(c) a person who manages or controls operations at a registered establishment\nreferred to in paragraph (b) of this subsection;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(c) a person who manages or controls operations at a registered establishment\nreferred to in paragraph (b) of this subsection;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 5.933288567857644,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(1)",
+      "citation": "3-3A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A",
+      "child_ids": [
+        "rules2021:3-3A(1)(a)",
+        "rules2021:3-3A(1)(b)"
+      ],
+      "own_text": "(1) An accredited property must be kept in a condition:",
+      "text": "3-3A Property must be kept in appropriate condition\n(1) An accredited property must be kept in a condition:",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(2)(c)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(1)(a)",
+      "citation": "3-3A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the property and the\nplants or plant products at the property; and",
+      "text": "3-3A Property must be kept in appropriate condition\n(1) An accredited property must be kept in a condition:\n(a) appropriate for the export operations carried out at the property and the\nplants or plant products at the property; and",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(1)(b)",
+      "citation": "3-3A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the property are\nnot, or not likely to be, infested by pests or contaminated.",
+      "text": "3-3A Property must be kept in appropriate condition\n(1) An accredited property must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the property are\nnot, or not likely to be, infested by pests or contaminated.",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)",
+      "citation": "3-3A(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A",
+      "child_ids": [
+        "rules2021:3-3A(2)(a)",
+        "rules2021:3-3A(2)(b)",
+        "rules2021:3-3A(2)(c)"
+      ],
+      "own_text": "(2) Without limiting subsection (1):",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(2)(c)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(a)",
+      "citation": "3-3A(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(a) the property must be kept in a clean and hygienic condition appropriate for\nthe export operations carried out at the property and the kind of plants or\nplant products at the property; and",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(a) the property must be kept in a clean and hygienic condition appropriate for\nthe export operations carried out at the property and the kind of plants or\nplant products at the property; and",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(2)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(b)",
+      "citation": "3-3A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3A(2)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)",
+      "citation": "4-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Design and construction—general",
+      "label": "(4)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "own_text": "(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "text": "4-2 Construction, equipment and facilities\nDesign and construction—general\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)",
+      "citation": "4-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)"
+      ],
+      "own_text": "(a) to provide:",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(a) to provide:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(b)",
+      "citation": "4-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(b) to facilitate effective cleaning; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(b) to facilitate effective cleaning; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(f)",
+      "citation": "4-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(f) to allow samples of prescribed plants and plant products to be taken.",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(f) to allow samples of prescribed plants and plant products to be taken.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)",
+      "citation": "4-7A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(1)(b)"
+      ],
+      "own_text": "(1) A registered establishment must be kept in a condition:",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(d)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(a)",
+      "citation": "4-7A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(b)",
+      "citation": "4-7A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)",
+      "citation": "4-7A(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "own_text": "(2) Without limiting subsection (1):",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(d)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(a)",
+      "citation": "4-7A(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(b)",
+      "citation": "4-7A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(d)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:4-2(4)(d)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06530936012691697,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires waste disposal facilities, which is a core component of the waste control and disposal system scored by the CP.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly addresses waste disposal in an appropriate and hygienic manner, matching the CP's focus on waste control and disposal.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.06303457966764418,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision establishes the requirement for a system of controls at registered establishments, which directly grounds the CP criterion for waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision establishes a general system of controls for compliance with sections 4-7A and 4-7B, but does not specifically address waste control and disposal. It is a broader obligation that encompasses the CP but is not a direct legal grounding for the specific waste management criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.06214382750377048,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires appropriate treatment and disposal of waste, which is the core of the CP criterion.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires waste treatment and disposal at the establishment, which is the core of the CP criterion for waste control and disposal.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0605961770345332,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision establishes the requirement for a system of controls at accredited properties, which directly grounds the CP criterion for waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision establishes a general system of controls for compliance with sections 3-3A and 3-3B, but does not specifically address waste control and disposal. It is a broader obligation that encompasses the CP but is not a direct legal grounding for the specific waste management criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.06004052599447336,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns approved tolerance levels, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(2), a tolerance level for animal carcases or animal waste in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.05743048328649733,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision sets tolerance levels for animal waste, not the system of controls for waste disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.05705128205128205,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.055145442792501616,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of revocation of bulk vessel approval, not waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-1",
+      "page": 118,
+      "rrf_or_bm25_score": 0.05474316993304335,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate provides transitional definitions and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(c)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.054710623936630134,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly imposes the waste treatment and disposal requirement that the CP criterion's system of controls must manage.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "waste at the property must be appropriately treated and disposed of",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires waste treatment and disposal at the property, which is the core of the CP criterion for waste control and disposal.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "waste at the property must be appropriately treated and disposed of",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.05246525404420141,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of revocation of container approval, not waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.05165303831970498,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns notification of bulk vessel suspension, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(a)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.05157797232605417,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a term unrelated to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.050636968516715355,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of revocation of bulk vessel approval, not waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-1",
+      "page": 11,
+      "rrf_or_bm25_score": 0.049931334533536445,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only provides the name of the instrument and does not contribute to interpreting the waste control and disposal criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.047485623557352336,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities for assessment and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.04570188828584351,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns approval of tolerance levels for contaminants, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(c)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04559690732505488,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision addresses blending restrictions when animal waste is present, not the system of controls for waste disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence of animal waste;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.04501587087188492,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision sets tolerance levels for contaminants, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04351873814041746,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns screening for large contaminants, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to manage the risk of contamination by large contaminants; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.04307001428863033,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision specifies a tolerance level option, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "nil; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(a)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.04186764422149335,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(b)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.04037003838734192,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(c)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.0376738626198336,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(2)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.036886479975910866,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns approval of tolerance levels, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "The Secretary may approve, in writing, a tolerance level higher than nil for animal carcases or animal waste (or both) in relation to a kind of plant or plant product for export to an importing country if the approved tolerance level is consistent with the importing country requirements.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-2(4)(b)",
+      "page": 119,
+      "rrf_or_bm25_score": 0.036814714971996516,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns transitional provisions for small horticultural establishment applications and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.036148076627065755,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns directions for non-compliance related to Trogoderma detection, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "a species of the genus Trogoderma is detected in or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.03482042648709316,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns grounds for suspension related to assessment facilities and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.03007688828584351,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns record retention exceptions and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-12(1)(a)",
+      "page": 125,
+      "rrf_or_bm25_score": 0.023669467787114845,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns transitional provisions for bulk vessel approvals and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.023542445644647556,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns record retention exceptions and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.023431077007399288,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns grounds for revocation related to assessment facilities and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-13(1)(a)",
+      "page": 127,
+      "rrf_or_bm25_score": 0.02299154334038055,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns transitional provisions for container approvals and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-9(1)(a)(ii)",
+      "page": 124,
+      "rrf_or_bm25_score": 0.02299154334038055,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns transitional provisions for declarations of export compliance and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-11(1)(a)",
+      "page": 125,
+      "rrf_or_bm25_score": 0.02247191011235955,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional provisions for bulk vessel approvals and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-15(a)",
+      "page": 43,
+      "rrf_or_bm25_score": 0.022222222222222223,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of changes in management or control and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(n)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is part of a simplified outline and does not provide a normative rule for waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-10(1)(a)",
+      "page": 125,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional provisions for marine surveyor certificates and does not relate to waste control and disposal.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(c)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision identifies persons who may use computer programs, not waste control and disposal systems.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "a person who manages or controls operations at a registered establishment referred to in paragraph (b) of this subsection;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(1)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision establishes the overarching requirement that the property be kept in a condition, which directly grounds the CP criterion for waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "An accredited property must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "General condition requirement; does not specifically address waste control and disposal.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "An accredited property must be kept in a condition:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(1)(a)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies that the condition must be appropriate for export operations, which includes waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "appropriate for the export operations carried out at the property and the plants or plant products at the property; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "General appropriateness condition; no specific waste control or disposal requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "appropriate for the export operations carried out at the property and the plants or plant products at the property; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(1)(b)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires prevention of contamination, which is directly related to waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Focuses on pest infestation and contamination prevention, not waste control and disposal.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "This is a chapeau that introduces additional requirements without limiting subsection (1), providing structural context for the subsequent paragraphs.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "Without limiting subsection (1):",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(a)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires a clean and hygienic condition, which directly relates to waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Cleanliness and hygiene requirement; waste control and disposal not explicitly mentioned.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(b)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires control of pests and contaminants, which includes waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Pest and contaminant control; waste control and disposal not directly addressed.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision establishes design and construction requirements that support waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "General design and construction requirement; no specific waste control and disposal provision.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "This is an introductory phrase that leads to specific design requirements, providing structural context.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to provide:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(b)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires design to facilitate effective cleaning, which is directly related to waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to facilitate effective cleaning; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Cleaning facilitation; waste control and disposal not mentioned.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "to facilitate effective cleaning; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires design to minimise contamination, which is directly related to waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Infestation and contamination minimisation; waste control and disposal not directly addressed.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires design to facilitate treatments, which may involve waste control and disposal as part of the system of controls.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Treatment facilitation; waste control and disposal not mentioned.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(f)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph requires design to allow sampling, which is part of the system of controls including waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Sampling allowance; waste control and disposal not addressed.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the system of controls to manage waste control and disposal",
+      "legal_basis_policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This is the chapeau introducing the general condition requirement; it does not specifically address waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "A registered establishment must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_LINK",
+      "reason": "This paragraph concerns general appropriateness for export operations, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(b)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_LINK",
+      "reason": "This paragraph addresses pest infestation and contamination, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This is a chapeau introducing specific requirements under subsection (1); it does not itself address waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "Without limiting subsection (1):",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_LINK",
+      "reason": "This paragraph concerns cleanliness and hygiene, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_LINK",
+      "reason": "This paragraph addresses pest and contaminant control, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_LINK",
+      "reason": "This paragraph concerns management of toxic substances, not waste control and disposal.",
+      "cp_quote": "the system of controls to manage waste control and disposal",
+      "policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ]
+}

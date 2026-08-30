@@ -1,0 +1,338 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-091",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_91_Dawson_Valley_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registered for sorghum and oats, but HACCP plan indicates canola and linseed at a different facility (RE-QLD-1882, Kwinana), conflicting with registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence indicates change of ownership in March 2025 and registration certificate still records previous owner, implying possible suspension or non-compliance; no evidence that registration is not suspended."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan document exists but no specific evidence of the registered area is provided; evidence is insufficient."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan document exists but no specific evidence of important features is provided; evidence is insufficient."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan document exists but no specific evidence of layout is provided; evidence is insufficient."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence shows change of ownership but no notification to department; registration still lists previous owner, indicating failure to notify."
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations, and infrastructure is designed and maintained to support export of sorghum."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence indicates establishment is maintained in clean and hygienic condition, with cleaning procedures and logs for grain screening/cleaning plant."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence shows hygiene and sanitation plan covering all areas, with cleaning procedures to minimize contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The hygiene plan exists and references the relevant rule, but the internal inspection found product residue accumulation, indicating the system of controls is not effectively implemented."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The hygiene plan mentions waste control but the inspection found residue accumulation, showing the waste control system is not effective."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The internal inspection found product residue accumulation, indicating the system of controls is not effective for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Dawson_Valley_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence shows integrated pest management with 20 mapped stations, contractor verification, and trend review with low activity and closure evidence."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Dawson_Valley_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped stations, contractor verification, and trend review with low activity and closure evidence, demonstrating effectiveness."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years from the date of the relevant export activity."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy and compliance."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Internal inspection found product residue accumulation, indicating areas are not maintained in a clean and hygienic condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Product residue accumulation could harbour pests and contaminate goods, so the condition does not ensure goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Dawson_Valley_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Bait stations are mapped and monitored with contractor verification, indicating they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "No evidence of chemical storage management; residue accumulation indicates potential contamination risk."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "No evidence of chemical storage management; residue accumulation in preparation areas indicates contamination risk."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Dawson_Valley_Grain_Pty_Ltd_091.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific records of traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Dawson_Valley_Grain_Pty_Ltd_091.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but lacks explicit traceability records while product is at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Dawson_Valley_Grain_Pty_Ltd_091.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records exist but no evidence of traceability to the next premises is provided."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are mentioned but no specific system of controls for traceability and integrity is described."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow is described but no formal product flow chart is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Dawson_Valley_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Evidence shows a hygiene issue with product residue, indicating risk of contamination is not adequately maintained."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation is mentioned but no specific controls to prevent substitution are documented."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Dawson_Valley_Grain_Pty_Ltd_091.docx:P13"
+      ],
+      "reason": "Packaging QC records are not consistently attached to lot files, indicating packaging requirements may not be met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are stated to be retained for two years, but no actual records are provided to verify compliance."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_91_Dawson_Valley_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are mentioned but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence that importing country requirements are met for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-091/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-091/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-091/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-091/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-091/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 32,
+    "N/A": 1,
+    "1": 8
+  }
+}

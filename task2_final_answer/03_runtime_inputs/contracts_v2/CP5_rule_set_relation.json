@@ -1,0 +1,75 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products"
+        }
+      ],
+      "reason": "All four provisions operationalise the same broad CP requirement about layout of areas and equipment. They do not create independent cumulative benchmark dimensions; they jointly support the single CP criterion."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)(i)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "(4) An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(i)",
+          "role": "RELATION",
+          "quote": "(i) areas that are suitable for assessments of prescribed plants or plant products to be carried out; and"
+        }
+      ],
+      "reason": "4-2(4)(a)(i) is a specific sub-requirement under the general design and construction requirement of 4-2(4)."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "the layout of the areas where export operations occur, including all permanent fixtures, and layout of equipment used to prepare plants and plant products",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "(4) An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "role": "RELATION",
+          "quote": "(c) to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and"
+        }
+      ],
+      "reason": "4-2(4)(c) is a specific sub-requirement under the general design and construction requirement of 4-2(4)."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The CP criterion is a single broad requirement about layout of areas and equipment. The supplied Rules provisions all operationalise this same criterion. No explicit connector in the CP or Rules establishes cumulative independent dimensions. The general design requirement (4-2(4)) is specialised by its subparagraphs (4-2(4)(a)(i) and 4-2(4)(c))."
+}

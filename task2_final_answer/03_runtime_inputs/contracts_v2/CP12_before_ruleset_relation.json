@@ -1,0 +1,3697 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP12",
+    "canonical_cp_id": "CP12",
+    "element": "Element-2",
+    "subelement": "2.2 Design and construction of the establishment",
+    "criterion": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+    "sheet": "All Elements",
+    "column": 12
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:4-2(4)",
+      "citation": "4-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Design and construction—general",
+      "label": "(4)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "own_text": "(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "text": "4-2 Construction, equipment and facilities\nDesign and construction—general\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06427650713907986,
+      "rrf_score": 0.06427650713907986,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 21.932366518622494,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 19.25545446106455,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 17.572066637065195,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 36.82752109812974,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06346604215456675,
+      "rrf_score": 0.06346604215456675,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 32.4172003184895,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 44.96770035194319,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 9.48475668585783,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 54.45245703780102,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(5)",
+      "citation": "4-2(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "text": "4-2 Construction, equipment and facilities\n(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.062119801754268796,
+      "rrf_score": 0.062119801754268796,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 15.729567308135621,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 16.860652957923133,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 14.029084678546813,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 30.88973763646995,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(6)",
+      "citation": "4-2(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "text": "4-2 Construction, equipment and facilities\n(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.05918003151942153,
+      "rrf_score": 0.05918003151942153,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 16.455224145749007,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 17.605960190892798,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 9.137335691082432,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 26.74329588197523,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(a)",
+      "citation": "4-7A(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.05015307990917747,
+      "rrf_score": 0.05015307990917747,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 11.761421831266466,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 11.303647178054216,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 30,
+          "raw_score": 5.718872665230968,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 17.022519843285185,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)",
+      "citation": "4-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)"
+      ],
+      "own_text": "(a) to provide:",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(a) to provide:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0471386476426799,
+      "rrf_score": 0.0471386476426799,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 19.906743461510892,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 10.30269372638118,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 30.209437187892075,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(b)",
+      "citation": "4-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(b) to facilitate effective cleaning; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(b) to facilitate effective cleaning; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04618300439195962,
+      "rrf_score": 0.04618300439195962,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 19.43117086694988,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 10.051938525790488,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 29.48310939274037,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(f)",
+      "citation": "4-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(f) to allow samples of prescribed plants and plant products to be taken.",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(f) to allow samples of prescribed plants and plant products to be taken.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.045028884159318945,
+      "rrf_score": 0.045028884159318945,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 18.30049236074803,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 9.679694321276063,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 27.980186682024097,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.044782770638784684,
+      "rrf_score": 0.044782770638784684,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 18.171248771581926,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 9.70630402173148,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 27.877552793313406,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(d)",
+      "citation": "4-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.043496271748135876,
+      "rrf_score": 0.043496271748135876,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 17.50813547409074,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 9.329397867703033,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 26.83753334179377,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.041540404040404044,
+      "rrf_score": 0.041540404040404044,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 12.521633572091867,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 12.434290260003221,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 16.222002377787984,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.0414978579362141,
+      "rrf_score": 0.0414978579362141,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 12.02272034223507,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 12.044036749294746,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 17.366400028135537,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(b)",
+      "citation": "4-7A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04038941538941539,
+      "rrf_score": 0.04038941538941539,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 11.965343951888874,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 11.817096301515967,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 17.064162735244107,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.040245885954841173,
+      "rrf_score": 0.040245885954841173,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 12.231296977219873,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 11.32692079664087,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 16.28774831749843,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.03982544562254707,
+      "rrf_score": 0.03982544562254707,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 12.02272034223507,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 11.32216237867282,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 16.517714744574437,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(a)",
+      "citation": "4-7A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.03890471764491274,
+      "rrf_score": 0.03890471764491274,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 11.862733489303107,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 11.23238182984668,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 16.58739545085528,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.038649789029535864,
+      "rrf_score": 0.038649789029535864,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 11.339440643728146,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 11.60655123206968,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 16.259224506394307,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.03818439089823494,
+      "rrf_score": 0.03818439089823494,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 12.02272034223507,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 11.111732646687795,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 15.998572378726923,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A(b)",
+      "citation": "4-8A(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-8A",
+      "child_ids": [],
+      "own_text": "(b) the treatment must meet importing country requirements relating to the\nexport operations and the plants or plant products; and",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:\n(b) the treatment must meet importing country requirements relating to the\nexport operations and the plants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.03736870559159716,
+      "rrf_score": 0.03736870559159716,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 10.275636873858826,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 11.794788631762623,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 15.675285324082184,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-6",
+      "citation": "4-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Construction, equipment and facilities",
+      "label": "4-6",
+      "pages": [
+        47
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The requirements for registration of an establishment prescribed by section 4-2\nmust continue to be met in relation to a registered establishment after it is\nregistered.",
+      "text": "4-6 Construction, equipment and facilities\nConstruction, equipment and facilities\nThe requirements for registration of an establishment prescribed by section 4-2\nmust continue to be met in relation to a registered establishment after it is\nregistered.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.030158730158730156,
+      "rrf_score": 0.030158730158730156,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 11.66965939815761,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 20.036681743444998,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(3)",
+      "citation": "4-2(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(3) An establishment must have handwashing and toilet facilities.",
+      "text": "4-2 Construction, equipment and facilities\n(3) An establishment must have handwashing and toilet facilities.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.029709507042253523,
+      "rrf_score": 0.029709507042253523,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 10.8969289192864,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 17.509410527577447,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(i)",
+      "citation": "9-23(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.02967032967032967,
+      "rrf_score": 0.02967032967032967,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 14.03819927749734,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 12.928082277291539,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(c)",
+      "citation": "9-16(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.028404512489927477,
+      "rrf_score": 0.028404512489927477,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 12.137195560728149,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 12.307961111683918,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(2)",
+      "citation": "4-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(2) An establishment must have the buildings, equipment, facilities and services that\nare necessary to ensure that export operations in relation to prescribed plants or\nplant products can be carried out in a way that will ensure that the requirements\nof the Act are complied with.",
+      "text": "4-2 Construction, equipment and facilities\n(2) An establishment must have the buildings, equipment, facilities and services that\nare necessary to ensure that export operations in relation to prescribed plants or\nplant products can be carried out in a way that will ensure that the requirements\nof the Act are complied with.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.027402402402402402,
+      "rrf_score": 0.027402402402402402,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 7.922126480404353,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 17.434542179917777,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(f)",
+      "citation": "2-12(3)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Phytosanitary certificates and phytosanitary certificates for re-export Division 2",
+      "label": "(f)",
+      "pages": [
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates and phytosanitary certificates for re-export Division 2\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "page": 31,
+      "page_end": 31,
+      "score": 0.026742734890354787,
+      "rrf_score": 0.026742734890354787,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 10.747404765317816,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 12.637999829709251,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(b)",
+      "citation": "9-16(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(b) the pest is not a quarantine pest for the importing country; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(b) the pest is not a quarantine pest for the importing country; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.025679012345679014,
+      "rrf_score": 0.025679012345679014,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 10.187909605071145,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 11.899001421405549,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A(a)",
+      "citation": "4-8A(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-8A",
+      "child_ids": [],
+      "own_text": "(a) the operations must be safe and effective; and",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:\n(a) the operations must be safe and effective; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.025503573749187783,
+      "rrf_score": 0.025503573749187783,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 11.849188203151769,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 16.019223633119594,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(c)",
+      "citation": "4-19(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.024652147610405323,
+      "rrf_score": 0.024652147610405323,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 11.032456309662,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 14.789872657249374,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(3)(a)",
+      "citation": "8-16(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-16(3)",
+      "child_ids": [],
+      "own_text": "(a) the registration number of the registered establishment where operations to\nprepare the relevant plants or plant products for export were carried out is\nto be substituted for ‘A’;",
+      "text": "8-16 Official mark—carton seal\n(3) The substitutions in the design of the mark are as follows:\n(a) the registration number of the registered establishment where operations to\nprepare the relevant plants or plant products for export were carried out is\nto be substituted for ‘A’;",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.024422933730454205,
+      "rrf_score": 0.024422933730454205,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 7.01409646336702,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 15.099439235107422,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(c)",
+      "citation": "4-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.024350649350649352,
+      "rrf_score": 0.024350649350649352,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 11.032456309662,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 14.789872657249374,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-14(1)",
+      "citation": "8-14(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        68,
+        69
+      ],
+      "parent_id": "rules2021:8-14",
+      "child_ids": [],
+      "own_text": "(1) A mark of the following design (with the registration number of the registered\nestablishment where operations to prepare the relevant plants or plant products\nfor export were carried out inserted in the space marked ‘A’), and of the\ndimensions provided by subsection (2), is an official mark for the purposes of the\nAct.\nOther matters relating to export Chapter 8\nOfficial marks Part 3",
+      "text": "8-14 Official mark—Australia approved\n(1) A mark of the following design (with the registration number of the registered\nestablishment where operations to prepare the relevant plants or plant products\nfor export were carried out inserted in the space marked ‘A’), and of the\ndimensions provided by subsection (2), is an official mark for the purposes of the\nAct.\nOther matters relating to export Chapter 8\nOfficial marks Part 3",
+      "page": 68,
+      "page_end": 69,
+      "score": 0.024250440917107582,
+      "rrf_score": 0.024250440917107582,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 6.716301789778819,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 15.646560172948696,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.023255813953488372,
+      "rrf_score": 0.023255813953488372,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 9.74718472412265,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 14.835532552736106,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)(a)",
+      "citation": "11-7(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7(1)",
+      "child_ids": [],
+      "own_text": "(a) that is made by the occupier or that comes into the occupier’s possession;\nand",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:\n(a) that is made by the occupier or that comes into the occupier’s possession;\nand",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.022347066167290888,
+      "rrf_score": 0.022347066167290888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 10.383316941565365,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 14.754643056333155,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2",
+      "citation": "4-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Construction, equipment and facilities",
+      "label": "4-2",
+      "pages": [
+        45
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-2(1)",
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)",
+        "rules2021:4-2(5)",
+        "rules2021:4-2(6)"
+      ],
+      "own_text": "",
+      "text": "4-2 Construction, equipment and facilities\nConstruction, equipment and facilities",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 10.153302868388131,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(ii)",
+      "citation": "4-2(4)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(ii) adequate lighting and ventilation; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(ii) adequate lighting and ventilation; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 8.213561660342343,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(1)(a)",
+      "citation": "8-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        70
+      ],
+      "parent_id": "rules2021:8-16(1)",
+      "child_ids": [],
+      "own_text": "(a) of the following design (but with the substitutions provided by\nsubsection (3)); and",
+      "text": "8-16 Official mark—carton seal\n(1) A mark:\n(a) of the following design (but with the substitutions provided by\nsubsection (3)); and",
+      "page": 70,
+      "page_end": 70,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 7.556798473832081,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(1)",
+      "citation": "4-2(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Application of this section",
+      "label": "(1)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(1) The requirements prescribed by this section apply in relation to all\nestablishments.\nBuildings, equipment, facilities and services",
+      "text": "4-2 Construction, equipment and facilities\nApplication of this section\n(1) The requirements prescribed by this section apply in relation to all\nestablishments.\nBuildings, equipment, facilities and services",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 7.458630223927636,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(i)",
+      "citation": "4-2(4)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 7.290804861914462,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(b)",
+      "citation": "4-17(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        52,
+        53
+      ],
+      "parent_id": "rules2021:4-17",
+      "child_ids": [],
+      "own_text": "(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "text": "4-17 Other reasons for the Secretary to vary registration\nFor the purposes of paragraph 123(2)(h) of the Act, the following reasons for\nmaking a variation in relation to the registration of a registered establishment, or\nsetting an earlier expiry date for the registration of a registered establishment, are\nprescribed:\n(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "page": 52,
+      "page_end": 53,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 10.77517210838759,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-19(1)",
+      "citation": "8-19(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        73
+      ],
+      "parent_id": "rules2021:8-19",
+      "child_ids": [],
+      "own_text": "(1) A mark of the following design, and of the dimensions provided by\nsubsection (2), is an official mark for the purposes of the Act.",
+      "text": "8-19 Official mark—European Union\n(1) A mark of the following design, and of the dimensions provided by\nsubsection (2), is an official mark for the purposes of the Act.",
+      "page": 73,
+      "page_end": 73,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 7.120112317821221,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-17(1)(a)",
+      "citation": "8-17(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-17(1)",
+      "child_ids": [],
+      "own_text": "(a) of the following design (but with the substitutions provided by\nsubsection (3)); and",
+      "text": "8-17 Official mark—carton seal: plants or plant products opened for assessment\n(1) A mark:\n(a) of the following design (but with the substitutions provided by\nsubsection (3)); and",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 6.949449474996582,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(b)",
+      "citation": "3-3A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the property must be controlled in a manner that\nis appropriate for the export operations and the kind of prescribed plants or\nplant products; and",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 9.869451026839673,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(3)",
+      "citation": "8-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-16",
+      "child_ids": [
+        "rules2021:8-16(3)(a)",
+        "rules2021:8-16(3)(b)",
+        "rules2021:8-16(3)(c)"
+      ],
+      "own_text": "(3) The substitutions in the design of the mark are as follows:",
+      "text": "8-16 Official mark—carton seal\n(3) The substitutions in the design of the mark are as follows:",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 6.687037906763795,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 9.851217579632861,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(3)(b)",
+      "citation": "8-16(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-16(3)",
+      "child_ids": [],
+      "own_text": "(b) a number, or a combination of letters and numbers, associated with the\nmanufacturer of the mark is to be substituted for ‘B’;",
+      "text": "8-16 Official mark—carton seal\n(3) The substitutions in the design of the mark are as follows:\n(b) a number, or a combination of letters and numbers, associated with the\nmanufacturer of the mark is to be substituted for ‘B’;",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 6.451729631970041,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 9.851217579632861,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(3)(c)",
+      "citation": "8-16(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-16(3)",
+      "child_ids": [],
+      "own_text": "(c) a number, or a combination of letters and numbers, that is unique to each\nmark is to be substituted for ‘C’.",
+      "text": "8-16 Official mark—carton seal\n(3) The substitutions in the design of the mark are as follows:\n(c) a number, or a combination of letters and numbers, that is unique to each\nmark is to be substituted for ‘C’.",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 6.399973438282788,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-11(1)",
+      "citation": "8-11(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        67
+      ],
+      "parent_id": "rules2021:8-11",
+      "child_ids": [],
+      "own_text": "(1) A mark of the following design (with the relevant foreign country identification\nmark substituted for ‘A’), and of the dimensions provided by subsection (3), is\nan official mark for the purposes of the Act.",
+      "text": "8-11 Official mark—foreign country identification\n(1) A mark of the following design (with the relevant foreign country identification\nmark substituted for ‘A’), and of the dimensions provided by subsection (3), is\nan official mark for the purposes of the Act.",
+      "page": 67,
+      "page_end": 67,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 6.3905100716174426,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 10.836205786842545,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 9.784885284275845,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-15(1)",
+      "citation": "8-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        69,
+        70
+      ],
+      "parent_id": "rules2021:8-15",
+      "child_ids": [],
+      "own_text": "(1) A mark of the following design, and of the dimensions provided by\nsubsection (2), is an official mark for the purposes of the Act.\nChapter 8 Other matters relating to export\nPart 3 Official marks",
+      "text": "8-15 Official mark—approved for export\n(1) A mark of the following design, and of the dimensions provided by\nsubsection (2), is an official mark for the purposes of the Act.\nChapter 8 Other matters relating to export\nPart 3 Official marks",
+      "page": 69,
+      "page_end": 70,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 6.30945829825054,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 10.74641229893565,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7",
+      "citation": "4-7",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Importing country requirements must be met",
+      "label": "4-7",
+      "pages": [
+        47
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "All importing country requirements relating to the export operations carried out\nat a registered establishment in relation to prescribed plants or plant products and\nthe plants or plant products must be met.",
+      "text": "4-7 Importing country requirements must be met\nImporting country requirements must be met\nAll importing country requirements relating to the export operations carried out\nat a registered establishment in relation to prescribed plants or plant products and\nthe plants or plant products must be met.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 9.596216419722992,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-17(3)",
+      "citation": "8-17(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        72
+      ],
+      "parent_id": "rules2021:8-17",
+      "child_ids": [
+        "rules2021:8-17(3)(a)",
+        "rules2021:8-17(3)(b)"
+      ],
+      "own_text": "(3) The substitutions in the design of the mark are as follows:",
+      "text": "8-17 Official mark—carton seal: plants or plant products opened for assessment\n(3) The substitutions in the design of the mark are as follows:",
+      "page": 72,
+      "page_end": 72,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 6.125241488009771,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 10.667453862819764,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A",
+      "citation": "4-8A",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Conditions relating to treatment of prescribed plants or plant products",
+      "label": "4-8A",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-8A(a)",
+        "rules2021:4-8A(b)",
+        "rules2021:4-8A(c)"
+      ],
+      "own_text": "If the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nConditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 9.444004796091185,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-17(3)(a)",
+      "citation": "8-17(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        72
+      ],
+      "parent_id": "rules2021:8-17(3)",
+      "child_ids": [],
+      "own_text": "(a) a number, or a combination of letters and numbers, associated with the\nmanufacturer of the mark is to be substituted for ‘A’;",
+      "text": "8-17 Official mark—carton seal: plants or plant products opened for assessment\n(3) The substitutions in the design of the mark are as follows:\n(a) a number, or a combination of letters and numbers, associated with the\nmanufacturer of the mark is to be substituted for ‘A’;",
+      "page": 72,
+      "page_end": 72,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 6.047114193963717,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(4)(b)",
+      "citation": "9-22(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        95,
+        96
+      ],
+      "parent_id": "rules2021:9-22(4)",
+      "child_ids": [],
+      "own_text": "(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(4) An authorised officer need not:\n(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 95,
+      "page_end": 96,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 10.541572429963642,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(1)",
+      "citation": "4-9(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(1)(a)",
+        "rules2021:4-9(1)(b)"
+      ],
+      "own_text": "(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(1) This section applies in relation to an establishment that is registered to prepare\nfor export any of the following prescribed plants and plant products:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.011235955056179775,
+      "rrf_score": 0.011235955056179775,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 9.396619484032444,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-17(3)(b)",
+      "citation": "8-17(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        72
+      ],
+      "parent_id": "rules2021:8-17(3)",
+      "child_ids": [],
+      "own_text": "(b) a number, or a combination of letters and numbers, that is unique to each\nmark is to be substituted for ‘B’.",
+      "text": "8-17 Official mark—carton seal: plants or plant products opened for assessment\n(3) The substitutions in the design of the mark are as follows:\n(b) a number, or a combination of letters and numbers, that is unique to each\nmark is to be substituted for ‘B’.",
+      "page": 72,
+      "page_end": 72,
+      "score": 0.011235955056179775,
+      "rrf_score": 0.011235955056179775,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 29,
+          "raw_score": 5.9826937105371085,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)",
+      "citation": "4-7A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(1)(b)"
+      ],
+      "own_text": "(1) A registered establishment must be kept in a condition:",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(b)",
+      "citation": "4-7A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)",
+      "citation": "4-7A(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "own_text": "(2) Without limiting subsection (1):",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:4-2(4)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06427650713907986,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires that the establishment and its equipment and facilities be designed and constructed, which is the core normative requirement for the CP criterion.",
+      "cp_quote": "designed, constructed and maintained to minimise the contamination, infestation and pest harbourage",
+      "policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This subsection introduces the specific design and construction requirements that directly implement the CP criterion. It is the operative legal norm that specialises the general CP requirement by detailing how the establishment must be designed and constructed to achieve the minimisation of contamination, infestation and pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06346604215456675,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly states the design and construction purpose of minimising infestation or contamination during export operations, which is the core of the CP criterion.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This paragraph directly mirrors the CP criterion: it requires the establishment to be designed and constructed to minimise the possibility of infestation or contamination during export operations. The CP adds 'pest harbourage' and 'maintained', but the core proposition is the same. This is a direct textual match.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(5)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.062119801754268796,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Testing and analysis capability is operational and not directly about minimising contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses design and construction for testing and analysis, not for minimising contamination, infestation, or pest harbourage. It is a separate operational requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(6)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.05918003151942153,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Screening capability is operational and not directly about minimising contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "If screening of prescribed plants or plant products described in paragraph 4-9(1)(a) or (b) is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires design and construction to allow screening, not specifically to minimise contamination, infestation, or pest harbourage. It is a separate operational requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "If screening of prescribed plants or plant products described in paragraph 4-9(1)(a) or (b) is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.05015307990917747,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires cleanliness and hygiene, which are essential to minimising contamination and pest harbourage, and thus grounds the CP criterion.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The candidate directly addresses the maintenance aspect of the CP by requiring the establishment to be kept clean and hygienic, which is a specific legal rule that operationalises the broader CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0471386476426799,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This is the introductory chapeau for the list of design and construction purposes; it does not independently create a scoring requirement but provides necessary structure for the subparagraphs.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "An establishment and its equipment and facilities must be designed and constructed: (a) to provide:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(b)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04618300439195962,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Effective cleaning supports minimising contamination but is a separate operational requirement; it does not directly state the minimisation of contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to facilitate effective cleaning",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires design to facilitate effective cleaning. While cleaning can contribute to minimising contamination, the provision itself does not state that the purpose is to minimise contamination, infestation and pest harbourage. It is a related but separate design objective and only context for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to facilitate effective cleaning",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(f)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.045028884159318945,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Sampling capability is operational and not directly about minimising contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to allow samples of prescribed plants and plant products to be taken",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires design to allow sampling. It does not relate to minimising contamination, infestation or pest harbourage. It is a separate design requirement and only context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to allow samples of prescribed plants and plant products to be taken",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.044782770638784684,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Facilitating treatments may indirectly affect contamination or infestation but is not the direct minimisation requirement; it is operational support.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires design to facilitate treatments. It does not directly address minimising contamination, infestation or pest harbourage. It is a separate design objective and only context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(d)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.043496271748135876,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Waste disposal supports hygiene and contamination control but is a separate operational requirement; it does not directly state minimisation of contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires waste disposal facilities. While waste disposal can affect contamination, the provision does not explicitly link to minimising contamination, infestation and pest harbourage. It is a separate design requirement and only context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.041540404040404044,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_DETAIL",
+      "reason": "This provision provides an operational detail for managing contamination risk in specific contexts, but it does not independently establish the general design and construction requirement.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "to manage the risk of contamination by large contaminants;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses screening operations to manage contamination risk, but does not directly address the design, construction, or maintenance of the establishment to minimise contamination, infestation, and pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "to manage the risk of contamination by large contaminants;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.0414978579362141,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation of suspension of bulk vessel approval, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04038941538941539,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires control of pests and contaminants, which is a core aspect of minimising contamination, infestation and pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The candidate directly addresses the control of pests and contaminants, which is a specific legal rule that operationalises the CP's objective of minimising contamination, infestation, and pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.040245885954841173,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of revocation of container approval, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.03982544562254707,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of suspension of bulk vessel approval, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.03890471764491274,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires the establishment to be kept in a condition appropriate for export operations, which encompasses design, construction and maintenance to minimise contamination and pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "A registered establishment must be kept in a condition: (a) appropriate for the export operations carried out at the establishment and the plants or plant products at the property;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.038649789029535864,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "GENERAL_APPLICABILITY_CONDITION",
+      "reason": "This provision establishes a general system of controls requirement that ensures compliance with other sections, including those that may relate to design, construction and maintenance. It does not directly specify design or construction requirements but sets a framework for their application.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires a system of controls to ensure compliance with other sections, but does not itself specify design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.03818439089823494,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of revocation of bulk vessel approval, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.03736870559159716,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "This provision concerns importing country requirements for treatment, not the establishment's design or construction for contamination and pest control.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "the treatment must meet importing country requirements relating to the export operations and the plants or plant products;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-6",
+      "page": 47,
+      "rrf_or_bm25_score": 0.030158730158730156,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONTINUING_OBLIGATION_APPLICABILITY",
+      "reason": "This provision requires that registration requirements, which likely include design and construction standards, continue to be met. It does not itself specify the design or construction criteria but ensures their ongoing applicability.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is a continuing compliance requirement referencing section 4-2, but does not itself state the design, construction, and maintenance objective of minimising contamination, infestation, and pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(3)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.029709507042253523,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires handwashing and toilet facilities, which are part of the design and construction requirements to minimise contamination.",
+      "cp_quote": "designed, constructed and maintained",
+      "policy_quote": "An establishment must have handwashing and toilet facilities.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection requires handwashing and toilet facilities, which is a specific facility requirement. It does not address the overall design, construction and maintenance to minimise contamination, infestation and pest harbourage. It is a separate obligation and only context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "designed, constructed and maintained",
+      "legal_basis_policy_quote": "An establishment must have handwashing and toilet facilities.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.02967032967032967,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions of bulk vessel areas likely to result in infestation or contamination, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(c)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.028404512489927477,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approval of tolerance levels consistent with importing country requirements, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(2)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.027402402402402402,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires that establishments have necessary buildings, equipment, facilities and services to ensure compliance with the Act, which grounds the design and construction aspect of the CP criterion.",
+      "cp_quote": "designed, constructed and maintained to minimise the contamination, infestation and pest harbourage",
+      "policy_quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection requires the establishment to have necessary buildings, equipment, facilities and services for compliance with the Act generally. It does not specifically require design, construction and maintenance to minimise contamination, infestation and pest harbourage. It is a broader general obligation and only context for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "designed, constructed and maintained to minimise the contamination, infestation and pest harbourage",
+      "legal_basis_policy_quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(f)",
+      "page": 31,
+      "rrf_or_bm25_score": 0.026742734890354787,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns conditions for issuing a phytosanitary certificate for re-export, not establishment design, construction, or maintenance.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(b)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.025679012345679014,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approval of tolerance levels based on quarantine pest status, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.025503573749187783,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "This provision concerns the safety and effectiveness of treatment operations, not the design, construction or maintenance of the establishment to minimise contamination or pests.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "the operations must be safe and effective;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(c)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.024652147610405323,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns compliance with State and Territory food handling laws, not establishment design, construction, or maintenance.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(3)(a)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.024422933730454205,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(c)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.024350649350649352,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns compliance with food handling laws as a ground for revocation; it does not relate to design and construction to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "if the registration of the establishment covers export operations in relation to prescribed plants or plant products for human consumption—the occupier of the establishment failed to comply with applicable State and Territory laws relating to food handling in carrying out those export operations",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-14(1)",
+      "page": 68,
+      "rrf_or_bm25_score": 0.024250440917107582,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for export, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.023255813953488372,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities and assistance to an assessor, not design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)(a)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.022347066167290888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns record retention by occupier, not design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2",
+      "page": 45,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "The candidate is the section heading for construction, equipment and facilities, providing structural context for the detailed requirements that follow.",
+      "cp_quote": "designed, constructed and maintained",
+      "policy_quote": "Construction, equipment and facilities",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(ii)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "Lighting and ventilation may indirectly support hygiene but are not directly about minimising contamination, infestation, or pest harbourage; they are operational support, not a primary norm for this CP.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "adequate lighting and ventilation",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subparagraph requires adequate lighting and ventilation. It does not specifically target minimisation of contamination, infestation or pest harbourage. It is a separate design requirement and only context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "adequate lighting and ventilation",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-16(1)(a)",
+      "page": 70,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(1)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "APPLICABILITY_SCOPE",
+      "reason": "The candidate states that the requirements of section 4-2 apply to all establishments, which governs the applicability of the design and construction requirements relevant to the CP.",
+      "cp_quote": "The establishment is designed, constructed and maintained",
+      "policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection merely states the scope of application of section 4-2. It does not itself impose the design, construction or maintenance requirement that minimises contamination, infestation and pest harbourage. It is structural context.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained",
+      "legal_basis_policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(i)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT_ONLY",
+      "reason": "This provision supports operational aspects (assessment areas) but does not directly address minimising contamination, infestation, or pest harbourage; it is not an independent scoring requirement for this CP.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subparagraph requires areas suitable for assessments. While it is part of the design and construction requirements, it does not directly address minimising contamination, infestation or pest harbourage. It is a separate design objective and only context for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-17(b)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns compliance with State and Territory food handling laws, not establishment design, construction, or maintenance.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-19(1)",
+      "page": 73,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for export, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-17(1)(a)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(b)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate provides an operational requirement for controlling pests and contaminants at the property, which supports how the CP criterion may be evidenced, but it is not an independent design/construction requirement.",
+      "cp_quote": "minimise the contamination, infestation and pest harbourage",
+      "policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate imposes a general duty to control pests and contaminants at the property, but it does not address the design, construction or maintenance of the establishment to minimise contamination, infestation and pest harbourage. It is a separate operational obligation and therefore only context for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimise the contamination, infestation and pest harbourage",
+      "legal_basis_policy_quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-16(3)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns failure to provide facilities and assistance to an assessor, not design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(3)(b)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns grounds for revocation of registration due to failure to provide facilities for assessment; it does not relate to design and construction to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to provide facilities and assistance to an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(3)(c)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-11(1)",
+      "page": 67,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "This provision concerns official marks, which are unrelated to the design, construction and maintenance of the establishment for contamination and pest control.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "A mark of the following design (with the relevant foreign country identification mark substituted for ‘A’), and of the dimensions provided by subsection (3), is an official mark for the purposes of the Act.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies an approved tolerance level, which is not directly about the design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns directions for non-compliance related to Trogoderma detection, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-15(1)",
+      "page": 69,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for export, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines applicable tolerance levels for pests, which is not directly about the design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7",
+      "page": 47,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "This provision concerns importing country requirements, which are separate from the design, construction and maintenance standards for minimising contamination and pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-17(3)",
+      "page": 72,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approval of tolerance levels based on pest injuriousness, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A",
+      "page": 48,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITIONAL_APPLICABILITY",
+      "reason": "This provision sets a condition for the application of treatment-related requirements, which may be relevant if treatment operations are part of export operations, but it does not directly address design or construction.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "If the export operations carried out at a registered establishment are, or include, operations to treat prescribed plants or plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is a conditional applicability clause for treatment operations, not a rule about design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "If the export operations carried out at a registered establishment are, or include, operations to treat prescribed plants or plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-17(3)(a)",
+      "page": 72,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-22(4)(b)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns inspection of vessel areas for pest infestation, not the design, construction, or maintenance of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(1)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.011235955056179775,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_APPLICABILITY",
+      "reason": "This provision defines the scope of application for specific conditions related to certain plant products, which may include design or construction requirements for those establishments.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is an applicability provision for a specific category of plants and plant products, not a rule about design, construction, or maintenance to minimise contamination, infestation, or pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "This section applies in relation to an establishment that is registered to prepare for export any of the following prescribed plants and plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-17(3)(b)",
+      "page": 72,
+      "rrf_or_bm25_score": 0.011235955056179775,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks for carton seals, not design, construction, or maintenance of the establishment to minimise contamination, infestation, or pest harbourage.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection establishes the general obligation to keep the establishment in a condition, which directly grounds the CP requirement that the establishment is maintained to minimise contamination, infestation and pest harbourage.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "A registered establishment must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The subsection imposes a general condition on the establishment, directly corresponding to the CP's requirement that the establishment be maintained to minimise contamination, infestation and pest harbourage.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "legal_basis_policy_quote": "A registered establishment must be kept in a condition:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(b)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies the required condition to prevent infestation and contamination, directly supporting the CP criterion's focus on minimising contamination and infestation.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies the condition in terms of preventing infestation and contamination of prescribed plants and plant products, directly specializing the CP's objective of minimising contamination and infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimise the contamination, infestation and pest harbourage during export operations",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This subsection serves as a chapeau introducing non-exhaustive examples of conditions under subsection (1), providing structural context rather than an independent scoring requirement.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "Without limiting subsection (1):",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_DETAIL",
+      "reason": "This paragraph provides an operational example of how to maintain the establishment to prevent contamination, but it is not an independent requirement scored by this CP; it supports the operationalisation of the general maintenance obligation.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph addresses management of toxic substances, which is a separate operational requirement and does not directly ground the CP's design, construction and maintenance criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimise the contamination, infestation and pest harbourage during export operations",
+      "legal_basis_policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_DETAIL",
+      "reason": "This paragraph provides an operational example of maintaining the establishment to prevent contamination and pest harbourage, but it is not an independent scoring requirement; it supports the general maintenance obligation.",
+      "cp_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph concerns waste treatment and disposal, a distinct obligation that does not directly establish the design, construction and maintenance requirement of the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimise the contamination, infestation and pest harbourage during export operations",
+      "legal_basis_policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    }
+  ],
+  "contract": {
+    "cp_id": "CP12",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "The establishment is designed and constructed to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations.",
+        "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+        "basis_candidate_ids": [
+          "rules2021:4-2(4)",
+          "rules2021:4-2(4)(c)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)",
+            "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(c)",
+            "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations"
+          }
+        ]
+      },
+      {
+        "atom_id": "A2",
+        "proposition": "The establishment is maintained in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products.",
+        "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+        "basis_candidate_ids": [
+          "rules2021:4-7A(2)(a)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(a)",
+            "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+          }
+        ]
+      },
+      {
+        "atom_id": "A3",
+        "proposition": "Pests and contaminants at the establishment are controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products.",
+        "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+        "basis_candidate_ids": [
+          "rules2021:4-7A(2)(b)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(b)",
+            "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+          }
+        ]
+      },
+      {
+        "atom_id": "A4",
+        "proposition": "The establishment is kept in a condition that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+        "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+        "basis_candidate_ids": [
+          "rules2021:4-7A(1)",
+          "rules2021:4-7A(1)(b)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(1)",
+            "quote": "A registered establishment must be kept in a condition:"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(1)(b)",
+            "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ALL",
+      "children": [
+        {
+          "op": "ATOM",
+          "atom_id": "A1"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A2"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A3"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A4"
+        }
+      ]
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "CP",
+        "candidate_id": null,
+        "quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations."
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:4-2(4)",
+        "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:4-7A(1)",
+        "quote": "A registered establishment must be kept in a condition:"
+      }
+    ],
+    "notes": [
+      "The CP criterion combines design, construction, and maintenance aspects. The satisfaction expression uses ALL to require that each aspect is met, as the CP uses the conjunctive 'and' and the legal provisions impose separate obligations that together achieve the overall objective.",
+      "Candidates with contract_eligible == false were not used as legal basis for any atom, but may be considered as context for interpretation.",
+      "The atom A1 is grounded by two PRIMARY_NORM candidates that together specify the design and construction requirement to minimise infestation or contamination. The CP also mentions 'pest harbourage', which is addressed by A3 and A4 through maintenance and control obligations."
+    ]
+  }
+}

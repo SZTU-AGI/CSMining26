@@ -1,0 +1,223 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)",
+        "rules2021:3-3A(1)(a)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)",
+          "role": "RELATION",
+          "quote": "(1) An accredited property must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)(a)",
+          "role": "RELATION",
+          "quote": "(a) appropriate for the export operations carried out at the property and the plants or plant products at the property; and"
+        }
+      ],
+      "reason": "3-3A(1)(a) is a specific element of the condition required by 3-3A(1), providing the detailed appropriateness requirement."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)",
+        "rules2021:3-3A(2)(a)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)",
+          "role": "RELATION",
+          "quote": "(1) An accredited property must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(a)",
+          "role": "RELATION",
+          "quote": "(a) the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and"
+        }
+      ],
+      "reason": "3-3A(2)(a) is a specific elaboration of the general condition in 3-3A(1), adding the clean and hygienic requirement."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(a)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "(1) A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(a)",
+          "role": "RELATION",
+          "quote": "(a) appropriate for the export operations carried out at the establishment and the plants or plant products at the property; and"
+        }
+      ],
+      "reason": "4-7A(1)(a) is a specific element of the condition required by 4-7A(1), providing the detailed appropriateness requirement."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "(1) A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "role": "RELATION",
+          "quote": "(b) that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        }
+      ],
+      "reason": "4-7A(1)(b) is a specific element of the condition required by 4-7A(1), providing the pest and contamination prevention requirement."
+    },
+    {
+      "group_id": "G5",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(2)(a)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "(1) A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "role": "RELATION",
+          "quote": "(a) the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products; and"
+        }
+      ],
+      "reason": "4-7A(2)(a) is a specific elaboration of the general condition in 4-7A(1), adding the clean and hygienic requirement."
+    },
+    {
+      "group_id": "G6",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "(1) A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "(b) pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and"
+        }
+      ],
+      "reason": "4-7A(2)(b) is a specific elaboration of the general condition in 4-7A(1), adding the pest and contaminant control requirement."
+    },
+    {
+      "group_id": "G7",
+      "member_candidate_ids": [
+        "rules2021:3-3A(2)(a)",
+        "rules2021:4-7A(2)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(a)",
+          "role": "RELATION",
+          "quote": "(a) the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "role": "RELATION",
+          "quote": "(a) the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products; and"
+        }
+      ],
+      "reason": "Both provisions express the same clean and hygienic condition requirement for different types of premises (accredited property vs registered establishment), supporting the same benchmark criterion."
+    },
+    {
+      "group_id": "G8",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)(a)",
+        "rules2021:4-7A(1)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "appropriate for the type of export operations and type of plant or plant products",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)(a)",
+          "role": "RELATION",
+          "quote": "(a) appropriate for the export operations carried out at the property and the plants or plant products at the property; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(a)",
+          "role": "RELATION",
+          "quote": "(a) appropriate for the export operations carried out at the establishment and the plants or plant products at the property; and"
+        }
+      ],
+      "reason": "Both provisions express the same appropriateness requirement for different types of premises, supporting the same benchmark criterion."
+    },
+    {
+      "group_id": "G9",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "role": "RELATION",
+          "quote": "(b) that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "(b) pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products; and"
+        }
+      ],
+      "reason": "Both provisions address pest and contamination control, supporting the same benchmark criterion of clean and hygienic condition."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms are organized into specialization groups where parent subsections are specialized by their paragraphs, and support groups where analogous provisions for accredited properties and registered establishments support the same benchmark criterion. No cumulative or alternative relationships are established by the supplied text."
+}

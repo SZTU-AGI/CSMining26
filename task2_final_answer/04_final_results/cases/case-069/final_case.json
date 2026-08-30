@@ -1,0 +1,341 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-069",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P6"
+      ],
+      "reason": "Evidence is contradictory: one document states registration for wheat, another for pears, and another for canola. No single registered operation is consistently established."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence addresses whether registration is suspended. Applicability is certain because the establishment is registered, but absence of evidence on suspension leads to non-compliance."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17",
+        "5_Farm-Site-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "A site plan is referenced but not provided as evidence; no explicit description of the registered area boundaries is present."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17",
+        "5_Farm-Site-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but not included; no detailed description of buildings, facilities, and services is provided."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The site plan is referenced but not provided; no layout details of equipment or permanent fixtures are included."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence states a new trading name was adopted but DAFF was not notified, directly contradicting the requirement."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of any alterations or notifications; absence of evidence on this CP leads to non-compliance."
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states facilities are maintained for handling and exporting Pears, but the farm is registered for wheat and canola, and no evidence of buildings/equipment for wheat export operations is provided."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence shows cleaning procedures exist, but no evidence that the design and construction facilitate effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence shows hygiene procedures, but no evidence that design and construction minimize contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal design and construction."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant, but no evidence that screening manages risk of contamination by large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant, but no evidence that large contaminants are removed from plants or plant products."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning, designated staff, and corrective actions, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P5",
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste management and disposal as part of the system of controls, and the Farm Management Plan documents waste management arrangements."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The plan is reviewed annually and includes corrective actions, indicating the system is effective for the grain handling operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "2_HACCPPlan_69_Hay_Plains_Grain_Pty_Ltd.docx:P18",
+        "7_Bait_Station_Map_Hay_Plains_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The HACCP plan includes a Pest Control Program and the Bait Station Map provides an overview of the pest control system, including bait stations."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_69_Hay_Plains_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan notes that pest effectiveness cannot be demonstrated without records, indicating the system is not effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years, covering export operations including hygiene, waste, and pest control."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy; the plan references dated records and corrective actions."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The plan states all areas are maintained in a clean and hygienic condition, with cleaning logs and corrective actions."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P8",
+        "8_Phytosanitary_Security_Procedure_Hay_Plains_Grain_Pty_Ltd_069.docx:P4"
+      ],
+      "reason": "The hygiene plan ensures clean conditions, and the phytosanitary procedure mentions sealed storage and pre-load inspections to prevent infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Hay_Plains_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Bait Station Map provides an overview of the pest control system, indicating bait stations are in place and presumably functional."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence found regarding chemical storage to prevent contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence found regarding chemical storage to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Hay_Plains_Grain_Pty_Ltd_069.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific traceability records from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Hay_Plains_Grain_Pty_Ltd_069.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability records while product is at the establishment; only a general statement of record retention."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Hay_Plains_Grain_Pty_Ltd_069.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Dispatch/transfer dockets exist but no evidence of content or that they trace to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Hay_Plains_Grain_Pty_Ltd_069.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of a documented system of controls for traceability and integrity; only a product flow description and record titles."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A product flow description exists but no formal product flow chart demonstrating movement and integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_69_Hay_Plains_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "HACCP plan explicitly lacks a procedure for managing failed goods, including blending, rejection, treatment, and re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Hygiene and sanitation procedures exist but no evidence of a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Hay_Plains_Grain_Pty_Ltd_069.docx:P4"
+      ],
+      "reason": "Mentions security zoning and sealed storage but no evidence of a system to minimise substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of packaging requirements or procedures."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "States records retained for two years but no evidence of actual traceability records (receival, movement, treatment, dispatch, transport approvals)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_69_Hay_Plains_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "No evidence of records for rejected/failed goods; HACCP plan lacks required procedures and record-keeping."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "No evidence that records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of importing country requirements being met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-069/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-069/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-069/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-069/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-069/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "0": 32,
+    "1": 9
+  }
+}

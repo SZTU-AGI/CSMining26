@@ -1,0 +1,355 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-077",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing all important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no alterations have occurred, so no approval is required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no alterations have occurred, so no approval is required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P12",
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the infrastructure description confirms suitable design and capacity for chia seed export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The hygiene and sanitation plan requires all areas to be maintained clean and hygienic, with documented cleaning checks and corrective actions, demonstrating effective cleaning is facilitated and maintained."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The establishment uses steel-frame construction with concrete flooring in grain-contact areas, and the hygiene plan includes pest control and cleaning procedures, collectively minimising contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements at the establishment."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants from plants or plant products."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, responsibilities, and corrective actions, satisfying the requirement for a system of controls to manage hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The Farm Management Plan includes waste management arrangements, and the Hygiene and Sanitation Plan references waste control, indicating a system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The documented hygiene and waste control system includes specific procedures, responsibilities, and corrective actions, demonstrating effectiveness for the export operations (chia seeds) conducted at the establishment."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Katherine_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Bait Station Map documents an integrated pest management system with 13 mapped stations, contractor verification, and trend review, indicating a system of controls for pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Katherine_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped bait stations, contractor verification, and trend review, demonstrating effectiveness for the export operations conducted at the establishment."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, satisfying the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence indicates records are maintained on site and in the business management system, and are retained for two years, implying they are accurate, legible, and auditable. The plan references compliance with Rule 4-7B, which includes record requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan requires all areas to be maintained clean and hygienic, with specific cleaning procedures and verification, demonstrating the establishment is kept in appropriate condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Katherine_Specialty_Crops_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The pest control system and hygiene plan together ensure the establishment is maintained to prevent pest infestation and contamination, satisfying the condition."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Katherine_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Bait Station Map indicates 13 mapped stations and contractor verification, implying the stations are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of prescribed plant or plant products. The checking point applies as the establishment handles plant products, but evidence is missing."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of areas where prescribed plant or plant products are prepared. The checking point applies, but evidence is missing."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Katherine_Specialty_Crops_Pty_Ltd_077.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific records of traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Katherine_Specialty_Crops_Pty_Ltd_077.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and storage but lacks specific records demonstrating traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Katherine_Specialty_Crops_Pty_Ltd_077.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not provide details or examples of such records."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P36",
+        "2_HACCPPlan_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence indicates records are kept but lacks a documented system of controls for traceability and integrity, and HACCP plan has deficiencies."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not include a formal product flow chart as required."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence explicitly states that there is no formal procedure for managing goods that fail inspection, including blending, rejection, treatment, and re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence shows cleaning procedures but does not specifically address maintaining risk for contamination or infestation in the context of phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not provide a system to minimize substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Katherine_Specialty_Crops_Pty_Ltd_077.docx:P13"
+      ],
+      "reason": "Evidence indicates packaging QC records are not consistently attached to lot files, suggesting non-compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Katherine_Specialty_Crops_Pty_Ltd_077.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence states records are retained for two years but does not provide specific examples of receival, movement, treatment, transfer, dispatch, or transport unit approval records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence indicates no records for rejected or failed goods are maintained, as the HACCP plan lacks a failed goods management procedure."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_77_Katherine_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Katherine_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence mentions compliance with DAFF Performance Standards but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-077/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-077/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-077/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-077/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-077/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 14,
+    "0": 25,
+    "N/A": 2
+  }
+}

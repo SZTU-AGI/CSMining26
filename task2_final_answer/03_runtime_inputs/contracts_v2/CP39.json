@@ -1,0 +1,3495 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP39",
+    "canonical_cp_id": "CP39",
+    "element": "Element-4",
+    "subelement": "4.3 Record Keeping - traceability",
+    "criterion": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+    "sheet": "All Elements",
+    "column": 39
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:2-2(2)",
+      "citation": "2-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [],
+      "own_text": "(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.0866204852495175,
+      "rrf_score": 0.0866204852495175,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 21.727008575234287,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 19.697308712554417,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 23.795911799463457,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 22.423823733348232,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 23.795911799463457,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 22.423823733348232,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)",
+      "citation": "11-10(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Period during which records must be retained",
+      "label": "(3)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(3)(as the case may be)"
+      ],
+      "own_text": "(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "text": "11-10 Records to be retained by authorised officers\nPeriod during which records must be retained\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.044150521609538,
+      "rrf_score": 0.044150521609538,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 15.48581525098418,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 26.45072283658296,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 30.21866629650468,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.043590401799357026,
+      "rrf_score": 0.043590401799357026,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 19.589802454955553,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 23.38180843768972,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 23.38180843768972,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-8",
+      "citation": "11-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marks",
+      "label": "11-8",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-8 Records relating to official marks\nRecords relating to official marks\nA person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.04251650246575944,
+      "rrf_score": 0.04251650246575944,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 15.430004125134165,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 23.416124758853968,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 27.26458425467382,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(c)",
+      "citation": "2-2(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.041564273652454915,
+      "rrf_score": 0.041564273652454915,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 18.93658507598939,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 22.808076310726413,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 22.808076310726413,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-9",
+      "citation": "11-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marking devices",
+      "label": "11-9",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-9 Records relating to official marking devices\nRecords relating to official marking devices\nA person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.041476880607315386,
+      "rrf_score": 0.041476880607315386,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 15.430004125134165,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 23.004009100680044,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 26.798414271081324,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)",
+      "citation": "11-5(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to non-prescribed plants or plant products",
+      "label": "(3)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(3)(a)",
+        "rules2021:11-5(3)(b)"
+      ],
+      "own_text": "(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to non-prescribed plants or plant products\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.040726365672336645,
+      "rrf_score": 0.040726365672336645,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 20.370973286535893,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 22.136882645020606,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 22.136882645020606,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(1)(b)",
+      "citation": "11-6(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(1) The manager of a property that is accredited for a kind of export operations in\nrelation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.03505898398414348,
+      "rrf_score": 0.03505898398414348,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 16.236653972936548,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 21.33525816821071,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 21.33525816821071,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)(b)",
+      "citation": "11-7(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.034653556755758666,
+      "rrf_score": 0.034653556755758666,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 16.236653972936548,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 21.33525816821071,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 21.33525816821071,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2",
+      "citation": "2-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are taken not to be prescribed goods",
+      "label": "2-2",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-2(1)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(3)",
+        "rules2021:2-2(4)"
+      ],
+      "own_text": "",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nPlants and plant products that are taken not to be prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.030621785881252923,
+      "rrf_score": 0.030621785881252923,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 23.871731675906442,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 23.871731675906442,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(c)",
+      "citation": "2-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(c) are imported into Australian territory and held in bond at all times before\nbeing exported; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(c) are imported into Australian territory and held in bond at all times before\nbeing exported; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.030158730158730156,
+      "rrf_score": 0.030158730158730156,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 23.847618872137588,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 23.847618872137588,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)",
+      "citation": "2-2(4)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Division 1 Prescribed goods",
+      "label": "(g)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(g)(i)",
+        "rules2021:2-2(4)(g)(ii)"
+      ],
+      "own_text": "(g) are exported in a consignment of not more than:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nDivision 1 Prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(g) are exported in a consignment of not more than:",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.029709507042253523,
+      "rrf_score": 0.029709507042253523,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 23.846529172905157,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 23.846529172905157,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(2)",
+      "citation": "11-5(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.029138513513513514,
+      "rrf_score": 0.029138513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 22.4403349114503,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 26.156446963384838,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(2)",
+      "citation": "11-6(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6",
+      "child_ids": [],
+      "own_text": "(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.028371628371628373,
+      "rrf_score": 0.028371628371628373,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 22.359367987589827,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 25.928202573631772,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(f)",
+      "citation": "2-12(3)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Phytosanitary certificates and phytosanitary certificates for re-export Division 2",
+      "label": "(f)",
+      "pages": [
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates and phytosanitary certificates for re-export Division 2\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "page": 31,
+      "page_end": 31,
+      "score": 0.02803921568627451,
+      "rrf_score": 0.02803921568627451,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 23.292416513278592,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 23.292416513278592,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(2)",
+      "citation": "11-7(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7",
+      "child_ids": [],
+      "own_text": "(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.027972027972027972,
+      "rrf_score": 0.027972027972027972,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 22.359367987589827,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 25.928202573631772,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)",
+      "citation": "2-12(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(3)(a)",
+        "rules2021:2-12(3)(b)",
+        "rules2021:2-12(3)(c)",
+        "rules2021:2-12(3)(d)",
+        "rules2021:2-12(3)(e)",
+        "rules2021:2-12(3)(f)"
+      ],
+      "own_text": "(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to prescribed plants or plant products may be issued\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027757078986587184,
+      "rrf_score": 0.027757078986587184,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 22.17906510921371,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 21.31909401543604,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(b)",
+      "citation": "2-12(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(b) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(b) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027443609022556388,
+      "rrf_score": 0.027443609022556388,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 22.96784048790206,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 22.96784048790206,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(4)",
+      "citation": "11-5(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.027425373134328357,
+      "rrf_score": 0.027425373134328357,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 22.072622264531816,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 25.788734316466346,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(e)",
+      "citation": "2-2(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.026709401709401708,
+      "rrf_score": 0.026709401709401708,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 22.67823586739335,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 22.67823586739335,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(e)",
+      "citation": "2-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(e) are consigned to an external Territory for consumption in that Territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(e) are consigned to an external Territory for consumption in that Territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.026356857985087564,
+      "rrf_score": 0.026356857985087564,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 22.559522744536892,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 22.559522744536892,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(c)",
+      "citation": "2-12(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(c) an assessment of the plants or plant products has been carried out; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(c) an assessment of the plants or plant products has been carried out; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.025503573749187783,
+      "rrf_score": 0.025503573749187783,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 22.3667359351972,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 22.3667359351972,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)(a)",
+      "citation": "11-5(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5(3)",
+      "child_ids": [],
+      "own_text": "(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "text": "11-5 Records to be retained by exporter etc.\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:\n(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.024393871783430016,
+      "rrf_score": 0.024393871783430016,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 21.656821628861223,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 21.656821628861223,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)",
+      "citation": "2-12(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [
+        "rules2021:2-12(3)(e)(i)",
+        "rules2021:2-12(3)(e)(ii)"
+      ],
+      "own_text": "(e) the plants or plant products are accompanied by:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(e) the plants or plant products are accompanied by:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023959827833572454,
+      "rrf_score": 0.023959827833572454,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 21.60943013240949,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 21.60943013240949,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(b)",
+      "citation": "2-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.023676099747828524,
+      "rrf_score": 0.023676099747828524,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 21.57128728293093,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 21.57128728293093,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(a)",
+      "citation": "2-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(a) are stores for the use of passengers and crew on an aircraft or a vessel on a\nflight or voyage from Australian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(a) are stores for the use of passengers and crew on an aircraft or a vessel on a\nflight or voyage from Australian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.023399014778325122,
+      "rrf_score": 0.023399014778325122,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 21.41962720277232,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 21.41962720277232,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)",
+      "citation": "2-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(f)(i)",
+        "rules2021:2-2(4)(f)(ii)",
+        "rules2021:2-2(4)(f)(iii)",
+        "rules2021:2-2(4)(f)(iv)",
+        "rules2021:2-2(4)(f)(v)"
+      ],
+      "own_text": "(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.023128342245989305,
+      "rrf_score": 0.023128342245989305,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 21.405070870978,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 21.405070870978,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14",
+      "citation": "9-14",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Record of assessment",
+      "label": "9-14",
+      "pages": [
+        87
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-14(1)",
+        "rules2021:9-14(2)"
+      ],
+      "own_text": "",
+      "text": "9-14 Record of assessment\nRecord of assessment",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.01639344262295082,
+      "rrf_score": 0.01639344262295082,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33",
+      "citation": "9-33",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Container inspection record",
+      "label": "9-33",
+      "pages": [
+        104
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-33(1)",
+        "rules2021:9-33(2)",
+        "rules2021:9-33(3)",
+        "rules2021:9-33(4)",
+        "rules2021:9-33(5)"
+      ],
+      "own_text": "",
+      "text": "9-33 Container inspection record\nContainer inspection record",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.016129032258064516,
+      "rrf_score": 0.016129032258064516,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24",
+      "citation": "9-24",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Bulk vessel inspection record",
+      "label": "9-24",
+      "pages": [
+        97
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-24(1)",
+        "rules2021:9-24(2)",
+        "rules2021:9-24(3)",
+        "rules2021:9-24(4)",
+        "rules2021:9-24(5)"
+      ],
+      "own_text": "",
+      "text": "9-24 Bulk vessel inspection record\nBulk vessel inspection record",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015873015873015872,
+      "rrf_score": 0.015873015873015872,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-11",
+      "citation": "2-11",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Phytosanitary certificate, or phytosanitary certificate for re-export, may be",
+      "label": "2-11",
+      "pages": [
+        29
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "issued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "text": "2-11 Phytosanitary certificate, or phytosanitary certificate for re-export, may be\nPhytosanitary certificate, or phytosanitary certificate for re-export, may be\nissued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "page": 29,
+      "page_end": 29,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 20.006121981806114,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)",
+      "citation": "9-33(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [
+        "rules2021:9-33(2)(a)",
+        "rules2021:9-33(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)",
+      "citation": "9-33(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [
+        "rules2021:9-33(2)(b)(i)",
+        "rules2021:9-33(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 5.034467210083209,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)",
+      "citation": "9-24(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(2)(a)",
+        "rules2021:9-24(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 5.031031983094587,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(http://www.awe.gov.au)",
+      "citation": "1-6(http://www.awe.gov.au)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(http://www.awe.gov.au)",
+      "pages": [
+        15,
+        16
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(http://www.awe.gov.au) , but access to some parts of the manual requires a password.\nChapter 1 Preliminary\nPart 2 Interpretation\nnon-prescribed plants or plant products means plants or plant products that are\nnot prescribed goods under Division 1 of Part 1 of Chapter 2.",
+      "text": "1-6 Definitions\n(http://www.awe.gov.au) , but access to some parts of the manual requires a password.\nChapter 1 Preliminary\nPart 2 Interpretation\nnon-prescribed plants or plant products means plants or plant products that are\nnot prescribed goods under Division 1 of Part 1 of Chapter 2.",
+      "page": 15,
+      "page_end": 16,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 19.25766059734417,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(b)",
+      "citation": "9-24(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [
+        "rules2021:9-24(2)(b)(i)",
+        "rules2021:9-24(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 5.00338612941645,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-1",
+      "citation": "11-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Purpose of this Part",
+      "label": "11-1",
+      "pages": [
+        108
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "text": "11-1 Purpose of this Part\nPurpose of this Part\nFor the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 19.149784618830104,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)(as the case may be)",
+      "citation": "11-10(3)(as the case may be)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "made by the authorised officer or comes into the authorised officer’s possession",
+      "label": "(as the case may be)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10(3)",
+      "child_ids": [],
+      "own_text": "(as the case may be) .",
+      "text": "11-10 Records to be retained by authorised officers\nmade by the authorised officer or comes into the authorised officer’s possession\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is\n(as the case may be) .",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 24.542012904817778,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(5)",
+      "citation": "9-33(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-33 Container inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 4.853564872249845,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(5)",
+      "citation": "9-24(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-24 Bulk vessel inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 4.824670909545926,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 18.363937526071204,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(1)",
+      "citation": "9-14(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        87
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "text": "9-14 Record of assessment\n(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(1)",
+      "citation": "9-33(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-33 Container inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-7(c)",
+      "citation": "9-7(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        84
+      ],
+      "parent_id": "rules2021:9-7",
+      "child_ids": [],
+      "own_text": "(c) records of assessments of plants or plant products;",
+      "text": "9-7 Purpose of this Division\nFor the purposes of section 279 of the Act, this Division makes provision for and\nin relation to the following matters:\n(c) records of assessments of plants or plant products;",
+      "page": 84,
+      "page_end": 84,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 18.115452429125327,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-13",
+      "citation": "2-13",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "When phytosanitary certificate, or phytosanitary certificate for re-export,",
+      "label": "2-13",
+      "pages": [
+        31,
+        32
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "in relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "text": "2-13 When phytosanitary certificate, or phytosanitary certificate for re-export,\nWhen phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "page": 31,
+      "page_end": 32,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 17.962652751198668,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(1)",
+      "citation": "9-24(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-24 Bulk vessel inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 4.6852122322021925,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 23.42139511258457,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-10",
+      "citation": "2-10",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Government certificate may be issued in relation to prescribed plants or",
+      "label": "2-10",
+      "pages": [
+        29
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a government certificate\nmay be issued in relation to prescribed plants or plant products that are to be, or\nthat have been, exported.",
+      "text": "2-10 Government certificate may be issued in relation to prescribed plants or\nGovernment certificate may be issued in relation to prescribed plants or\nplant products\nFor the purposes of subsections 62(1) and (2) of the Act, a government certificate\nmay be issued in relation to prescribed plants or plant products that are to be, or\nthat have been, exported.",
+      "page": 29,
+      "page_end": 29,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 17.789389028421585,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(3)",
+      "citation": "9-24(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(3)(a)",
+        "rules2021:9-24(3)(b)"
+      ],
+      "own_text": "(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "text": "9-24 Bulk vessel inspection record\n(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 4.682236954544075,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(1)",
+      "citation": "11-5(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to prescribed plants or plant products",
+      "label": "(1)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(1)(a)",
+        "rules2021:11-5(1)(b)",
+        "rules2021:11-5(1)(c)"
+      ],
+      "own_text": "(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to prescribed plants or plant products\n(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 17.393353536104158,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)",
+      "citation": "9-14(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [
+        "rules2021:9-14(2)(c)(i)",
+        "rules2021:9-14(2)(c)(ii)"
+      ],
+      "own_text": "(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 4.631660374113694,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "citation": "1-6(whether organic or inorganic, but not including a pest)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(whether organic or inorganic, but not including a pest)",
+      "pages": [
+        14
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(whether organic or inorganic, but not including a pest) that:",
+      "text": "1-6 Definitions\n(whether organic or inorganic, but not including a pest) that:",
+      "page": 14,
+      "page_end": 14,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 17.34492232491853,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(a)",
+      "citation": "9-33(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the container is approved or not approved; and",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(a) state whether the container is approved or not approved; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 4.602466177534989,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-7(1)(a)",
+      "citation": "1-7(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        18
+      ],
+      "parent_id": "rules2021:1-7(1)",
+      "child_ids": [],
+      "own_text": "(a) barley (being whole grain of Hordeum vulgare (whether 2-row or 6-row),\nbut not including hulled, milled or malted grain of that kind);",
+      "text": "1-7 Meaning of prescribed grain\n(1) Prescribed grain means any of the following:\n(a) barley (being whole grain of Hordeum vulgare (whether 2-row or 6-row),\nbut not including hulled, milled or malted grain of that kind);",
+      "page": 18,
+      "page_end": 18,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 17.091839509532335,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(a)",
+      "citation": "9-24(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the bulk vessel is approved or not approved; and",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(a) state whether the bulk vessel is approved or not approved; and",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 4.5253679610186,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(2)",
+      "citation": "2-12(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Phytosanitary certificates—plants or plant products that have been exported",
+      "label": "(2)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(2)(a)",
+        "rules2021:2-12(2)(b)"
+      ],
+      "own_text": "(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates—plants or plant products that have been exported\nin relation to prescribed plants or plant products may be issued\n(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 17.013923938774415,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)",
+      "citation": "9-14(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        87,
+        88
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [
+        "rules2021:9-14(2)(a)",
+        "rules2021:9-14(2)(b)",
+        "rules2021:9-14(2)(c)",
+        "rules2021:9-14(2)(d)"
+      ],
+      "own_text": "(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "page": 87,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 4.4877794402543,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(9)(Excise)",
+      "citation": "1-8(9)(Excise)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "on which levy is imposed under Schedule 13 or 26 to the Primary Industries",
+      "label": "(Excise)",
+      "pages": [
+        21,
+        22
+      ],
+      "parent_id": "rules2021:1-8(9)",
+      "child_ids": [],
+      "own_text": "(Excise) Levies Act 1999.\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 1 Prescribed goods",
+      "text": "1-8 Meaning of small horticultural products registered establishment\non which levy is imposed under Schedule 13 or 26 to the Primary Industries\n(9) In the table in subsection (8):\napple means a fruit of any species of the genus Malus.\navocado means a fruit of the species Persea americana.\ncherry means a fruit of the species Prunus avium.\ncitrus:\n(Excise) Levies Act 1999.\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 1 Prescribed goods",
+      "page": 21,
+      "page_end": 22,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 16.975217936032795,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(3)(b)",
+      "citation": "11-11(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        112,
+        113
+      ],
+      "parent_id": "rules2021:11-11(3)",
+      "child_ids": [],
+      "own_text": "(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(3) If, during the retention period, notations or markings are made on the record (the\noriginal record) in accordance with ordinary practice, the person who is required\nto retain the original record must also retain, during the retention period, each\ndocument:\n(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "page": 112,
+      "page_end": 113,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.454843947479746,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(1)(e)",
+      "citation": "2-4(1)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        25,
+        26
+      ],
+      "parent_id": "rules2021:2-4(1)",
+      "child_ids": [],
+      "own_text": "(e) at the time the export operations are carried out, the accreditation of the property must\nnot be suspended in relation to those operations.\nRegistered establishment\nOperations to prepare the plants or plant products for export (other than operations to which\nsubsection (3) applies) must be carried out at an establishment that is registered for those\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 2 Prohibited export and prescribed export conditions\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\noperations in relation to the plants or plant products. At the time the operations are carried\nout, the registration of the establishment must not be suspended in relation to those\noperations.\nBulk vessel approval\nIf the plants or plant products are intended to be transported in or on a bulk vessel, a bulk\nvessel approval, covering the cargo spaces of the vessel into or onto which it is intended to\nload the plants or plant products, must be in force for the bulk vessel, and not suspended,\nwhen the plants or plant products are loaded into or onto the vessel.\nNotice of intention to export\nA person prescribed by section 8-1 must, at the time prescribed by section 8-3, give the\nSecretary a notice of intention to export a consignment of, or including, the plants or plant\nproducts.\nExport permit\nThe exporter of the plants or plant products must hold an export permit for the plants or\nplant products and the export permit must be in force, and not suspended, at the time the\nplants or plant products are exported.",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\n(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:\n(e) at the time the export operations are carried out, the accreditation of the property must\nnot be suspended in relation to those operations.\nRegistered establishment\nOperations to prepare the plants or plant products for export (other than operations to which\nsubsection (3) applies) must be carried out at an establishment that is registered for those\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 2 Prohibited export and prescribed export conditions\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\noperations in relation to the plants or plant products. At the time the operations are carried\nout, the registration of the establishment must not be suspended in relation to those\noperations.\nBulk vessel approval\nIf the plants or plant products are intended to be transported in or on a bulk vessel, a bulk\nvessel approval, covering the cargo spaces of the vessel into or onto which it is intended to\nload the plants or plant products, must be in force for the bulk vessel, and not suspended,\nwhen the plants or plant products are loaded into or onto the vessel.\nNotice of intention to export\nA person prescribed by section 8-1 must, at the time prescribed by section 8-3, give the\nSecretary a notice of intention to export a consignment of, or including, the plants or plant\nproducts.\nExport permit\nThe exporter of the plants or plant products must hold an export permit for the plants or\nplant products and the export permit must be in force, and not suspended, at the time the\nplants or plant products are exported.",
+      "page": 25,
+      "page_end": 26,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 16.8139123279884,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10",
+      "citation": "11-10",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by authorised officers",
+      "label": "11-10",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-10(1)",
+        "rules2021:11-10(2)",
+        "rules2021:11-10(3)",
+        "rules2021:11-10(3A)",
+        "rules2021:11-10(4)"
+      ],
+      "own_text": "",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by authorised officers",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-10(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(1)",
+      "citation": "11-10(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records to be retained by all authorised officers",
+      "label": "(1)",
+      "pages": [
+        110,
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(1)(a)",
+        "rules2021:11-10(1)(b)",
+        "rules2021:11-10(1)(ba)",
+        "rules2021:11-10(1)(c)",
+        "rules2021:11-10(1)(d)",
+        "rules2021:11-10(1)(e)",
+        "rules2021:11-10(1)(f)",
+        "rules2021:11-10(1)(g)"
+      ],
+      "own_text": "(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by all authorised officers\n(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11",
+      "page": 110,
+      "page_end": 111,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-10(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(2)",
+      "citation": "11-10(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records to be retained by third party authorised officers",
+      "label": "(2)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(2)(a)",
+        "rules2021:11-10(2)(b)",
+        "rules2021:11-10(2)(c)",
+        "rules2021:11-10(2)(d)",
+        "rules2021:11-10(2)(e)",
+        "rules2021:11-10(2)(f)"
+      ],
+      "own_text": "(2) In addition to subsection (1), a third party authorised officer who is, or was,\nauthorised to perform functions or exercise powers under the Act in relation to\nplants or plant products must retain the following records:",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by third party authorised officers\n(2) In addition to subsection (1), a third party authorised officer who is, or was,\nauthorised to perform functions or exercise powers under the Act in relation to\nplants or plant products must retain the following records:",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-10(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3A)",
+      "citation": "11-10(3A)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3A)",
+      "pages": [
+        111,
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "text": "11-10 Records to be retained by authorised officers\n(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "page": 111,
+      "page_end": 112,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-10(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5",
+      "citation": "11-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by exporter etc.",
+      "label": "11-5",
+      "pages": [
+        109
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-5(1)",
+        "rules2021:11-5(2)",
+        "rules2021:11-5(3)",
+        "rules2021:11-5(4)",
+        "rules2021:11-5(5)"
+      ],
+      "own_text": "",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords to be retained by exporter etc.",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:2-2(2)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.0866204852495175,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.044150521609538,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes a 2-year retention requirement on authorised officers for records, which aligns with the CP's retention period for rejected/failed goods.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision directly imposes a 2-year retention obligation on records, matching the CP's core requirement for retention of records for at least 2 years.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "legal_basis_policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.043590401799357026,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-8",
+      "page": 110,
+      "rrf_or_bm25_score": 0.04251650246575944,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records relating to official marks, not records for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.041564273652454915,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-9",
+      "page": 110,
+      "rrf_or_bm25_score": 0.041476880607315386,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records relating to official marking devices, not records for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.040726365672336645,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Relates to non-prescribed plants or plant products, whereas the CP concerns prescribed goods that have been rejected/failed.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-6(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.03505898398414348,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records to be retained by the manager of an accredited property, not specifically records for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.034653556755758666,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records to be retained by the occupier of a registered establishment, not specifically records for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2",
+      "page": 22,
+      "rrf_or_bm25_score": 0.030621785881252923,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a heading with no substantive content relevant to record keeping.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.030158730158730156,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns plants and plant products taken not to be prescribed goods; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.029709507042253523,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns plants and plant products taken not to be prescribed goods; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(2)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.029138513513513514,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes the 2-year retention period for exporter records, matching the CP's requirement.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly imposes a 2-year retention period on records required to be kept by exporters, matching the CP's core requirement for retention of records for at least 2 years.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "legal_basis_policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.028371628371628373,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate sets a 2-year retention period for records of an accredited property manager, not specifically for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(f)",
+      "page": 31,
+      "rrf_or_bm25_score": 0.02803921568627451,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing a phytosanitary certificate for re-export, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.027972027972027972,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate sets a 2-year retention period for records of a registered establishment occupier, not specifically for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027757078986587184,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing phytosanitary certificates for re-export, not record retention for rejected or failed export inspection goods. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027443609022556388,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing a phytosanitary certificate for re-export, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(4)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.027425373134328357,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate sets a 2-year retention period for records related to non-prescribed plants or plant products, not for prescribed goods that have been rejected and/or failed export inspection. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.026709401709401708,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.026356857985087564,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns plants and plant products taken not to be prescribed goods; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(c)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.025503573749187783,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing a phytosanitary certificate for re-export, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)(a)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.024393871783430016,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records for non-prescribed plants or plant products, while the CP criterion concerns prescribed goods that have been rejected and/or failed export inspection. No material contribution to interpreting this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023959827833572454,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing a phytosanitary certificate for re-export, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(b)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.023676099747828524,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(a)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.023399014778325122,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.023128342245989305,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns plants and plant products taken not to be prescribed goods; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14",
+      "page": 87,
+      "rrf_or_bm25_score": 0.01639344262295082,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate is a section heading for record of assessment; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33",
+      "page": 104,
+      "rrf_or_bm25_score": 0.016129032258064516,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015873015873015872,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate is a section heading for bulk vessel inspection record; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-11",
+      "page": 29,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns issuance of phytosanitary certificates for non-prescribed plants or plant products, not record retention for rejected or failed export inspection goods. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(http://www.awe.gov.au)",
+      "page": 15,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINES_TERM_IN_CP",
+      "reason": "Defines 'non-prescribed plants or plant products' which is related to the CP's 'prescribed goods' but does not independently create a retention requirement.",
+      "cp_quote": "prescribed goods",
+      "policy_quote": "non-prescribed plants or plant products means plants or plant products that are not prescribed goods under Division 1 of Part 1 of Chapter 2.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(b)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-1",
+      "page": 108,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "PART_PURPOSE_PROVISION",
+      "reason": "Provides the purpose of Part 11, which includes record retention, but does not itself impose the specific 2-year retention requirement for rejected/failed goods.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes provision for and in relation to the retention of records in relation to plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)(as the case may be)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Completes the 2-year retention requirement for authorised officers, directly supporting the CP's retention period.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(5)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(5)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns establishment design for treatments; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(1)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns assessment records by assessors; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(1)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-7(c)",
+      "page": 84,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONALIZATION_SUPPORT",
+      "reason": "The candidate indicates that records of assessments are part of the record-keeping framework, which may support operationalizing the CP's record retention requirement, but it does not independently establish the specific 2-year retention for rejected/failed goods.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+      "policy_quote": "records of assessments of plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision identifies records of assessments as a matter for which the Division makes provision, but it does not establish a 2-year retention requirement or specifically address records of blending, treatments, or re-presentation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+      "legal_basis_policy_quote": "records of assessments of plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-13",
+      "page": 31,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns when a phytosanitary certificate ceases to be in force, not record keeping for rejected or failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(1)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns bulk vessel inspection records; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_RETENTION",
+      "reason": "Provides an exception to the retention requirement for records entered into the Department's electronic system, which affects the applicability of the CP's retention rule.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection creates an exception to the retention obligation for records entered into a Department electronic system. It does not itself establish the 2-year retention requirement; it only limits its application.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "legal_basis_policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-10",
+      "page": 29,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns issuance of government certificates for prescribed plants or plant products, not record retention for rejected or failed export inspection goods. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(3)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(1)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes a record retention obligation on exporters of prescribed goods, which is directly relevant to the CP's requirement for records of rejected/failed goods.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection imposes a record-keeping obligation on exporters of prescribed plants or plant products, but it does not specify the 2-year retention period or link to rejected/failed export inspection. It is a related but separate obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "legal_basis_policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns approved form for assessment records; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "page": 14,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Fragment of a definition unrelated to record retention for rejected/failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(a)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns container inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-7(1)(a)",
+      "page": 18,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Defines barley as prescribed grain; not relevant to record retention for rejected/failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(a)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not records of rejected or failed export inspection for prescribed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(2)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing phytosanitary certificates for prescribed plants or plant products that have been exported, not record retention for rejected or failed export inspection goods. No material contribution to this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns content of assessment records; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(9)(Excise)",
+      "page": 21,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Defines horticultural products and levies; not relevant to record retention for rejected/failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-11(3)(b)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "SUPPORTS_RECORD_INTEGRITY",
+      "reason": "Relates to maintaining records of changes, which supports the operationalization of retaining records for blending, treatments, and re-presentation, but does not independently impose the 2-year retention requirement.",
+      "cp_quote": "including but not limited to records of blending, treatments and re-presentation of goods",
+      "policy_quote": "that shows how the original record was changed.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns retention of documents showing changes to records during the retention period. It does not establish the 2-year retention requirement for rejected/failed goods, nor does it specifically address records of blending, treatments, or re-presentation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "including but not limited to records of blending, treatments and re-presentation of goods",
+      "legal_basis_policy_quote": "that shows how the original record was changed.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-4(1)(e)",
+      "page": 25,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns prescribed export conditions for accredited property; CP concerns record keeping for rejected/failed export inspection goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The section heading concerns records retained by authorised officers, not records for prescribed goods rejected or failed export inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(1)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The subsection imposes record-keeping obligations on authorised officers, not on exporters or for rejected/failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(2)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The subsection imposes additional record-keeping obligations on third party authorised officers, not on exporters or for rejected/failed goods.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3A)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The subsection specifies retention period for a record referred to in paragraph (1)(ba) for third party authorised officers, not for prescribed goods rejected or failed export inspection.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The section heading indicates that this section governs records to be retained by exporters, which directly relates to the CP criterion requiring retention of records for prescribed goods that have been rejected or failed export inspection.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+      "policy_quote": "11-5 Records to be retained by exporter etc.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_GOVERNING_RULE",
+      "reason": "The subsection provides an exception to the record retention requirements in section 11-5, which is the governing rule for the CP criterion.",
+      "cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+      "policy_quote": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is an exception to record-keeping requirements for records entered into a departmental electronic system. It does not establish the two-year retention obligation for rejected/failed export inspection records, nor does it directly constrain or specialize that obligation. It is a neighbouring provision about record-keeping exceptions, not the legal grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+      "legal_basis_policy_quote": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ],
+  "contract": {
+    "cp_id": "CP39",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "Records for prescribed goods that have been rejected and/or failed export inspection are retained for at least 2 years, including records of blending, treatments and re-presentation of goods.",
+        "criterion_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods.",
+        "basis_candidate_ids": [
+          "rules2021:11-10(3)",
+          "rules2021:11-5(2)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained; including but not limited to records of blending, treatments and re-presentation of goods."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:11-10(3)",
+            "quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:11-5(2)",
+            "quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be)."
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ATOM",
+      "atom_id": "A1"
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [],
+    "notes": [
+      "The two PRIMARY_NORM candidates (rules2021:11-10(3) and rules2021:11-5(2)) are grouped under SUPPORTS_SAME_CRITERION in the validated RuleSetRelation. They jointly ground a single holistic proposition rather than separate ALL branches, as the CP criterion does not require independent satisfaction by each actor.",
+      "Candidates with contract_eligible=false were not used as legal basis for any atom. They may provide context but do not create additional scoring requirements.",
+      "The exception provisions (rules2021:11-10(4) and rules2021:11-5(5)) are not incorporated into the satisfaction expression because they are not part of the CP criterion and would require additional logical structure not grounded in the official CP. They are noted as context only."
+    ]
+  }
+}

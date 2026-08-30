@@ -1,0 +1,3692 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP32",
+    "canonical_cp_id": "CP32",
+    "element": "Element-4",
+    "subelement": "4.1 System of controls – product traceability and integrity",
+    "criterion": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+    "sheet": "All Elements",
+    "column": 32
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.06132939536735914,
+      "rrf_score": 0.06132939536735914,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 11.807330265917209,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 13.563306647434873,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.328369228974898,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 26.891675876409778,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8",
+      "citation": "4-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "4-8",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "text": "4-8 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.06088454525954526,
+      "rrf_score": 0.06088454525954526,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 11.96693689750412,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 13.613606983671662,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.674287044498846,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 21.287894028170506,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(e)",
+      "citation": "1-6(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        17,
+        18
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "text": "1-6 Definitions\n(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "page": 17,
+      "page_end": 18,
+      "score": 0.059754738015607586,
+      "rrf_score": 0.059754738015607586,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 13.016038372808932,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 12.616549171980273,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.726678004027894,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 19.343227176008167,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.0593785596016769,
+      "rrf_score": 0.0593785596016769,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 11.661111955295592,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 13.289519153439391,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.067774028803447,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 25.35729318224284,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)(a)",
+      "citation": "7-1(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1(2)",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products is ensured; and",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:\n(a) the integrity of the plants or plant products is ensured; and",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.05786990903661074,
+      "rrf_score": 0.05786990903661074,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 15.04514607834092,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 11.753781805622854,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.632450319789029,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 18.386232125411883,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-4",
+      "citation": "3-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "3-4",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "text": "3-4 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.057524766899766905,
+      "rrf_score": 0.057524766899766905,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 11.23265734982414,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 13.359752981399271,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.310536826138739,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 20.670289807538012,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(c)(ii)",
+      "citation": "9-10(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) the integrity of the plants or plant products can be ensured; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(c) the assessor reasonably believes that:\n(ii) the integrity of the plants or plant products can be ensured; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.05699754901960785,
+      "rrf_score": 0.05699754901960785,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 14.67775597011253,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 12.029449109416461,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.234589101069533,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 18.264038210485996,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.0548195084485407,
+      "rrf_score": 0.0548195084485407,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 15.391536928175611,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 11.07241148376937,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.605728462700105,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 16.678139946469475,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(2)(c)(ii)",
+      "citation": "9-22(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel.",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(c) materials and other cargo in or on the vessel, or to be loaded into or onto\nthe vessel, that could:\n(ii) affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel.",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.053162360898246365,
+      "rrf_score": 0.053162360898246365,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 12.758666876554289,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 11.097870237818412,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 5.368726008213727,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 16.46659624603214,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04641136376990423,
+      "rrf_score": 0.04641136376990423,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 18.10417035820417,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 13.643817939024178,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 16.15406494396599,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-15(a)",
+      "citation": "2-15(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        32
+      ],
+      "parent_id": "rules2021:2-15",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products cannot be ensured;",
+      "text": "2-15 Circumstances for refusing to issue government certificate\nFor the purposes of paragraph 67(3)(g) of the Act, each of the following\ncircumstances is prescribed in relation to an application for a government\ncertificate in relation to plants or plant products:\n(a) the integrity of the plants or plant products cannot be ensured;",
+      "page": 32,
+      "page_end": 32,
+      "score": 0.042938266443701224,
+      "rrf_score": 0.042938266443701224,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 11.759289873810127,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 13.597365257822513,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 17.769271954329064,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(iii)",
+      "citation": "9-23(1)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.039943699568112716,
+      "rrf_score": 0.039943699568112716,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 12.35822003893522,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 10.916959875214902,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 15.58058830518339,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(2)(b)",
+      "citation": "9-22(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(2)",
+      "child_ids": [],
+      "own_text": "(b) each other area of the vessel that could contain pests or contaminants that\ncould affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel; and",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(2) For the purpose of deciding whether to approve a bulk vessel, an authorised\nofficer must inspect:\n(b) each other area of the vessel that could contain pests or contaminants that\ncould affect the integrity of prescribed plants or plant products loaded into\nor onto the vessel; and",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.03911330049261084,
+      "rrf_score": 0.03911330049261084,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 12.376284796498641,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 10.394100607922335,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 15.41908318036861,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.035763258721516436,
+      "rrf_score": 0.035763258721516436,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 11.273350030783664,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 10.26811658359244,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 15.057967725617074,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.031024531024531024,
+      "rrf_score": 0.031024531024531024,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 9.586610225622943,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 19.321717439678956,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)",
+      "citation": "2-2(4)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Division 1 Prescribed goods",
+      "label": "(g)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(g)(i)",
+        "rules2021:2-2(4)(g)(ii)"
+      ],
+      "own_text": "(g) are exported in a consignment of not more than:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nDivision 1 Prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(g) are exported in a consignment of not more than:",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.03009207275993712,
+      "rrf_score": 0.03009207275993712,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.88572680036838,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 15.667185016119035,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(e)",
+      "citation": "2-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(e) are consigned to an external Territory for consumption in that Territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(e) are consigned to an external Territory for consumption in that Territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.027692895339954164,
+      "rrf_score": 0.027692895339954164,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 13.274909598993187,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 14.950922514761693,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(e)",
+      "citation": "8-6(1)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.027031963470319637,
+      "rrf_score": 0.027031963470319637,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 11.832969871478593,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 12.090848281541689,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.026709401709401708,
+      "rrf_score": 0.026709401709401708,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.58123745966464,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 14.897114132780207,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0266900790166813,
+      "rrf_score": 0.0266900790166813,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.898052602628539,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 13.911673315251223,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)(i)",
+      "citation": "2-2(4)(g)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(g)",
+      "child_ids": [],
+      "own_text": "(i) if the plants or plant products are in liquid form—10 litres; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(g) are exported in a consignment of not more than:\n(i) if the plants or plant products are in liquid form—10 litres; or",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.0264808362369338,
+      "rrf_score": 0.0264808362369338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 12.610293094106638,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 14.019342020337874,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.02606951871657754,
+      "rrf_score": 0.02606951871657754,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.858413910548661,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 13.787120375004397,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(e)",
+      "citation": "2-2(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.025989268947015427,
+      "rrf_score": 0.025989268947015427,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 12.498100248794945,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 13.941897372491884,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(g)",
+      "citation": "1-5(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(g)\ntrade descriptions;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(g)\ntrade descriptions;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.025561706284597852,
+      "rrf_score": 0.025561706284597852,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 12.069701187202178,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 13.99583050747329,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(1)(a)",
+      "citation": "2-4(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        25
+      ],
+      "parent_id": "rules2021:2-4(1)",
+      "child_ids": [],
+      "own_text": "(a) the plants or plant products are covered by the Accredited Properties (Prescribed Plants\nand Plant Products) List in relation to an importing country and a kind of export\noperations; and",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\n(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:\n(a) the plants or plant products are covered by the Accredited Properties (Prescribed Plants\nand Plant Products) List in relation to an importing country and a kind of export\noperations; and",
+      "page": 25,
+      "page_end": 25,
+      "score": 0.025252525252525252,
+      "rrf_score": 0.025252525252525252,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 12.171503586095922,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 10.298224384212698,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)(ii)",
+      "citation": "2-2(4)(g)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(g)",
+      "child_ids": [],
+      "own_text": "(ii) in any other case—10 kilograms.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(g) are exported in a consignment of not more than:\n(ii) in any other case—10 kilograms.",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.025124843945068663,
+      "rrf_score": 0.025124843945068663,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 12.254079850390877,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 13.776753820942233,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(a)",
+      "citation": "7-3(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products cannot be ensured;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(a) the integrity of the plants or plant products cannot be ensured;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.025003906860446942,
+      "rrf_score": 0.025003906860446942,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 11.759289873810127,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 14.157703943811567,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(e)",
+      "citation": "1-5(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(e)\nexport permits;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(e)\nexport permits;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.024652147610405323,
+      "rrf_score": 0.024652147610405323,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 11.893761740420173,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 13.819891060691285,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02454819277108434,
+      "rrf_score": 0.02454819277108434,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 11.750505805756418,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 10.683923156321697,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.024422933730454205,
+      "rrf_score": 0.024422933730454205,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 11.408149998552656,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 14.347926187565909,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.024127906976744187,
+      "rrf_score": 0.024127906976744187,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 11.408149998552656,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 14.347926187565909,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.024127906976744187,
+      "rrf_score": 0.024127906976744187,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.963329771560889,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 13.867800919142297,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.02345679012345679,
+      "rrf_score": 0.02345679012345679,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.876739599513546,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 13.687923368136417,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-18(g)",
+      "citation": "9-18(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        91,
+        92
+      ],
+      "parent_id": "rules2021:9-18",
+      "child_ids": [],
+      "own_text": "(g) the power under subsection 9-33(5) to approve a manner for giving a\ncontainer inspection record.\nChapter 9 Powers and officials",
+      "text": "9-18 Functions and powers that must not be subdelegated\nFor the purposes of paragraph 288(4)(b) of the Act, the following functions and\npowers of the Secretary must not be subdelegated under subsection 288(2) of the\nAct:\n(g) the power under subsection 9-33(5) to approve a manner for giving a\ncontainer inspection record.\nChapter 9 Powers and officials",
+      "page": 91,
+      "page_end": 92,
+      "score": 0.0227390180878553,
+      "rrf_score": 0.0227390180878553,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 11.135266105212125,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 10.410564643684609,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.94293355369499,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-19(5)",
+      "citation": "9-19(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Notification of conviction of offence or order to pay pecuniary penalty",
+      "label": "(5)",
+      "pages": [
+        92
+      ],
+      "parent_id": "rules2021:9-19",
+      "child_ids": [],
+      "own_text": "(5) For the purposes of subparagraph 374(1)(g) of the Act, a third party authorised\nofficer who may perform functions and exercise powers in relation to plants or\nplant products is prescribed.",
+      "text": "9-19 Third party authorised officers\nNotification of conviction of offence or order to pay pecuniary penalty\nOther requirements that must be met for person to be a third party authorised\n(5) For the purposes of subparagraph 374(1)(g) of the Act, a third party authorised\nofficer who may perform functions and exercise powers in relation to plants or\nplant products is prescribed.",
+      "page": 92,
+      "page_end": 92,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 12.778710524724815,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(f)",
+      "citation": "4-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(f) to allow samples of prescribed plants and plant products to be taken.",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(f) to allow samples of prescribed plants and plant products to be taken.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 12.688960129625537,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-6",
+      "citation": "7-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other circumstances in which export permit may be revoked",
+      "label": "7-6",
+      "pages": [
+        61
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:7-6(a)",
+        "rules2021:7-6(b)",
+        "rules2021:7-6(c)"
+      ],
+      "own_text": "For the purposes of paragraph 233(1)(g) of the Act, the following circumstances\nare prescribed in relation to an export permit for prescribed plants or plant\nproducts:",
+      "text": "7-6 Other circumstances in which export permit may be revoked\nOther circumstances in which export permit may be revoked\nFor the purposes of paragraph 233(1)(g) of the Act, the following circumstances\nare prescribed in relation to an export permit for prescribed plants or plant\nproducts:",
+      "page": 61,
+      "page_end": 61,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 12.386916880685696,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7027632796314105,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.4858624266017255,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(e)",
+      "citation": "9-17(2)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(e) an agent of the exporter of plants or plant products;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(e) an agent of the exporter of plants or plant products;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 11.975506694892186,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.307121326243124,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.189261330948453,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(1)(Prescribed Plants and Plant Products)",
+      "citation": "2-4(1)(Prescribed Plants and Plant Products)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(Prescribed Plants and Plant Products)",
+      "pages": [
+        26
+      ],
+      "parent_id": "rules2021:2-4(1)",
+      "child_ids": [],
+      "own_text": "(Prescribed Plants and Plant Products) List",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\n(1) The export from Australian territory of prescribed plants or plant products is\nprohibited unless the conditions specified in the items in the following table are\ncomplied with.\nPrescribed export conditions for prescribed plants or plant products\nItem\nPrescribed export conditions\nAccredited property\nIf:\n(Prescribed Plants and Plant Products) List",
+      "page": 26,
+      "page_end": 26,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 11.772212995231685,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.176717408074621,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.058368584420556,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(b)",
+      "citation": "9-14(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [],
+      "own_text": "(b) if the plants or plant products passed the assessment and a validity period\nfor the plants or plant products applies—state the validity period; and",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(b) if the plants or plant products passed the assessment and a validity period\nfor the plants or plant products applies—state the validity period; and",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 11.346049592110639,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.99545538719722,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 11.685802511875105,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(a)",
+      "citation": "9-14(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the plants or plant products passed or failed the assessment;\nand",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(a) state whether the plants or plant products passed or failed the assessment;\nand",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 10.723740992591985,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.747524658272875,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(6)",
+      "citation": "1-8(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.636995165584347,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-15",
+      "citation": "4-15",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Requirements for renewal of registration",
+      "label": "4-15",
+      "pages": [
+        51
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of paragraph 117(2)(g) of the Act, the requirements prescribed\nby Part 1 of this Chapter are prescribed in relation to an establishment that is\nregistered to prepare prescribed plants or plant products for export.",
+      "text": "4-15 Requirements for renewal of registration\nRequirements for renewal of registration\nFor the purposes of paragraph 117(2)(g) of the Act, the requirements prescribed\nby Part 1 of this Chapter are prescribed in relation to an establishment that is\nregistered to prepare prescribed plants or plant products for export.",
+      "page": 51,
+      "page_end": 51,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 11.637657788249673,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5",
+      "citation": "1-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Simplified outline of this instrument",
+      "label": "1-5",
+      "pages": [
+        11,
+        12
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:1-5(a)",
+        "rules2021:1-5(b)",
+        "rules2021:1-5(c)",
+        "rules2021:1-5(d)",
+        "rules2021:1-5(e)",
+        "rules2021:1-5(f)",
+        "rules2021:1-5(g)",
+        "rules2021:1-5(h)",
+        "rules2021:1-5(j)",
+        "rules2021:1-5(k)",
+        "rules2021:1-5(l)",
+        "rules2021:1-5(m)",
+        "rules2021:1-5(n)",
+        "rules2021:1-5(Standard Provisions)"
+      ],
+      "own_text": "General\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "text": "1-5 Simplified outline of this instrument\nSimplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary",
+      "page": 11,
+      "page_end": 12,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 11.428726511873323,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)",
+      "citation": "2-12(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [
+        "rules2021:2-12(3)(e)(i)",
+        "rules2021:2-12(3)(e)(ii)"
+      ],
+      "own_text": "(e) the plants or plant products are accompanied by:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(e) the plants or plant products are accompanied by:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 10.67132100107221,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(2)(a)",
+      "citation": "2-4(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        26
+      ],
+      "parent_id": "rules2021:2-4(2)",
+      "child_ids": [],
+      "own_text": "(a) the plants or plant products are listed in that List in relation to that\nimporting country and export operations of that kind; and",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\n(2) For the purposes of item 1 of the table in subsection (1), plants or plant products\nare covered by the Accredited Properties (Prescribed Plants and Plant Products)\nList in relation to an importing country and a kind of export operations if:\n(a) the plants or plant products are listed in that List in relation to that\nimporting country and export operations of that kind; and",
+      "page": 26,
+      "page_end": 26,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 10.483131330205552,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)",
+      "citation": "9-16(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88,
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [
+        "rules2021:9-16(1)(a)",
+        "rules2021:9-16(1)(b)",
+        "rules2021:9-16(1)(c)"
+      ],
+      "own_text": "(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nPests\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2",
+      "page": 88,
+      "page_end": 89,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 5.5772114610081065,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 5.4240795406862246,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 5.327557320251242,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-15",
+      "citation": "2-15",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Circumstances for refusing to issue government certificate",
+      "label": "2-15",
+      "pages": [
+        32
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-15(a)",
+        "rules2021:2-15(b)"
+      ],
+      "own_text": "For the purposes of paragraph 67(3)(g) of the Act, each of the following\ncircumstances is prescribed in relation to an application for a government\ncertificate in relation to plants or plant products:",
+      "text": "2-15 Circumstances for refusing to issue government certificate\nCircumstances for refusing to issue government certificate\nFor the purposes of paragraph 67(3)(g) of the Act, each of the following\ncircumstances is prescribed in relation to an application for a government\ncertificate in relation to plants or plant products:",
+      "page": 32,
+      "page_end": 32,
+      "score": 0.011235955056179775,
+      "rrf_score": 0.011235955056179775,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 11.214730373364997,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1",
+      "citation": "3-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements for accreditation",
+      "label": "3-1",
+      "pages": [
+        34
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-1(1)",
+        "rules2021:3-1(2)",
+        "rules2021:3-1(3)"
+      ],
+      "own_text": "",
+      "text": "3-1 Other requirements for accreditation\nOther requirements for accreditation",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(1)",
+      "citation": "3-1(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "text": "3-1 Other requirements for accreditation\n(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(2)",
+      "citation": "3-1(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "text": "3-1 Other requirements for accreditation\n(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3",
+      "citation": "4-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements",
+      "label": "4-3",
+      "pages": [
+        46
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-3(1)",
+        "rules2021:4-3(2)",
+        "rules2021:4-3(3)"
+      ],
+      "own_text": "",
+      "text": "4-3 Other requirements\nOther requirements",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(1)",
+      "citation": "4-3(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Application of this section",
+      "label": "(1)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "text": "4-3 Other requirements\nApplication of this section\n(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(2)",
+      "citation": "4-3(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Importing country requirements must be able to be met",
+      "label": "(2)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "text": "4-3 Other requirements\nImporting country requirements must be able to be met\n(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)",
+      "citation": "7-1(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1",
+      "child_ids": [
+        "rules2021:7-1(2)(a)",
+        "rules2021:7-1(2)(b)"
+      ],
+      "own_text": "(2) The holder of the export permit must ensure that:",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:7-1(2)(a)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)(b)",
+      "citation": "7-1(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1(2)",
+      "child_ids": [],
+      "own_text": "(b) the plants or plant products meet relevant importing country requirements;\nuntil the plants or plant products are exported.",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:\n(b) the plants or plant products meet relevant importing country requirements;\nuntil the plants or plant products are exported.",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:7-1(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.06132939536735914,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly requires a system of controls at the establishment, which is the core of the CP criterion.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision directly requires a system of controls at the establishment, matching the CP's requirement for systems of controls.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-8",
+      "page": 48,
+      "rrf_or_bm25_score": 0.06088454525954526,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes an integrity requirement, which is part of the CP criterion.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The provision specifically requires ensuring integrity of prescribed plants or plant products at the establishment, which is a material part of the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-6(e)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.059754738015607586,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Definition of repacking is not directly about traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "repacking.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0593785596016769,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly requires a system of controls for accredited properties, which is the core of the CP criterion.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "For a property to be accredited for operations to prepare prescribed plants or plant products for export, there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with in relation to those operations and the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires a system of controls for accredited properties, which is the core of the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "For a property to be accredited for operations to prepare prescribed plants or plant products for export, there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with in relation to those operations and the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)(a)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.05786990903661074,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes an integrity obligation on export permit holders, directly relevant to the CP criterion.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "the integrity of the plants or plant products is ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The provision imposes a direct obligation on the export permit holder to ensure integrity, which is a specific legal rule directly constraining the integrity aspect of the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products is ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-4",
+      "page": 36,
+      "rrf_or_bm25_score": 0.057524766899766905,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly requires integrity of prescribed plants or plant products at accredited properties, a key aspect of the CP criterion.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly mandates integrity of prescribed plants or plant products, which is a key component of the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "The integrity of prescribed plants or plant products in relation to which export operations are carried out at an accredited property must be ensured while the plants or plant products are at the property.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(c)(ii)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.05699754901960785,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Assessment criterion references integrity, but does not establish a system of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "the integrity of the plants or plant products can be ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision is a criterion for assessment decisions, not a system of controls for maintaining traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products can be ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.0548195084485407,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_INTEGRITY_CONTROL",
+      "reason": "The candidate sets a condition for vessel approval related to other areas' integrity, supporting operationalisation of integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses vessel condition affecting integrity of prescribed plants, but does not establish a system of controls for traceability and integrity as required by the CP. It is a related operational condition, not a legal grounding for the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(2)(c)(ii)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.053162360898246365,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_INTEGRITY_CONTROL",
+      "reason": "The candidate addresses inspection of materials and cargo that could affect integrity, supporting operationalisation of integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "affect the integrity of prescribed plants or plant products loaded into or onto the vessel",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns inspection of materials and cargo that could affect integrity, not a system of controls for maintaining traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "affect the integrity of prescribed plants or plant products loaded into or onto the vessel",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04641136376990423,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Facility design supports integrity through safe treatments, but is not a system of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns facility design for treatments, not a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-15(a)",
+      "page": 32,
+      "rrf_or_bm25_score": 0.042938266443701224,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Mentions integrity but in the context of refusing a government certificate, not a control system requirement.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "the integrity of the plants or plant products cannot be ensured;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(iii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.039943699568112716,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_INTEGRITY_CONTROL",
+      "reason": "The candidate sets a condition for vessel approval related to cargo space integrity, supporting operationalisation of integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "the cargo spaces are not in a condition that could affect the integrity of the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns vessel cargo space conditions, which is related to integrity but not a system of controls for maintaining traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "the cargo spaces are not in a condition that could affect the integrity of the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(2)(b)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.03911330049261084,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_INTEGRITY_CONTROL",
+      "reason": "The candidate describes an inspection requirement that helps ensure vessel areas do not affect integrity, supporting operationalisation of integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "each other area of the vessel that could contain pests or contaminants that could affect the integrity of prescribed plants or plant products loaded into or onto the vessel",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns inspection of vessel areas for pests or contaminants, which is related to integrity but not a system of controls for maintaining traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "each other area of the vessel that could contain pests or contaminants that could affect the integrity of prescribed plants or plant products loaded into or onto the vessel",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.035763258721516436,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns failure to provide facilities for assessment, not systems of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "the occupier of the establishment, or a person who manages or controls export operations at the establishment, failed to provide facilities and assistance to an assessor for the purpose of enabling an assessment of prescribed plants or plant products to be carried out at the establishment; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.031024531024531024,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "Although the candidate mentions 'integrity', it concerns tolerance levels for contaminants, not the systems of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.03009207275993712,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Specifies a condition under which plants and plant products are not prescribed goods, affecting applicability of the CP.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "are exported in a consignment of not more than:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is a threshold exclusion from prescribed goods, not a control system for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "prescribed plant and plant products",
+      "legal_basis_policy_quote": "are exported in a consignment of not more than:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.027692895339954164,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Specifies a condition under which plants and plant products are not prescribed goods, affecting applicability of the CP.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "are consigned to an external Territory for consumption in that Territory; or",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is a specific exclusion from prescribed goods, not a control system for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "prescribed plant and plant products",
+      "legal_basis_policy_quote": "are consigned to an external Territory for consumption in that Territory; or",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(e)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.027031963470319637,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Trade description requirement supports traceability, but is not itself a system of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "if the plants or plant products are imported plants or plant products—the country of origin of the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision requires trade description information, which supports traceability but is not itself a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "if the plants or plant products are imported plants or plant products—the country of origin of the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.026709401709401708,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns revocation of suspension of bulk vessel approval, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0266900790166813,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns tolerance levels for pests, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(1), a tolerance level for that kind of pest in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)(i)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.0264808362369338,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Specifies a quantity threshold for non-prescribed goods, affecting applicability of the CP.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "if the plants or plant products are in liquid form—10 litres; or",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is a quantitative exclusion from prescribed goods, not a control system for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "prescribed plant and plant products",
+      "legal_basis_policy_quote": "if the plants or plant products are in liquid form—10 litres; or",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.02606951871657754,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate is a condition for tolerance level approval, not related to traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "the pest is not injurious to that kind of plant or plant product",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.025989268947015427,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns exemption from prescribed goods, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "a phytosanitary certificate, or a phytosanitary certificate for re-export, in relation to the plants or plant products is not required to meet importing country requirements.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5(g)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.025561706284597852,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Trade descriptions are not directly about traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "trade descriptions;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(1)(a)",
+      "page": 25,
+      "rrf_or_bm25_score": 0.025252525252525252,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Specifies a condition for export prohibition, which may affect the scope of the CP criterion.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "the plants or plant products are covered by the Accredited Properties (Prescribed Plants and Plant Products) List in relation to an importing country and a kind of export operations; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision sets a condition for export prohibition, not a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "prescribed plant and plant products",
+      "legal_basis_policy_quote": "the plants or plant products are covered by the Accredited Properties (Prescribed Plants and Plant Products) List in relation to an importing country and a kind of export operations; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)(ii)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.025124843945068663,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Specifies a quantity threshold for non-prescribed goods, affecting applicability of the CP.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "in any other case—10 kilograms.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is a quantitative exclusion from prescribed goods, not a control system for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "prescribed plant and plant products",
+      "legal_basis_policy_quote": "in any other case—10 kilograms.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:7-3(a)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.025003906860446942,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_OR_DEEMING",
+      "reason": "Prescribes a circumstance where integrity cannot be ensured, affecting the application of integrity requirements.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "the integrity of the plants or plant products cannot be ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision addresses circumstances for varying an export permit when integrity cannot be ensured, which is a consequence rather than a system of controls for maintaining integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products cannot be ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:1-5(e)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.024652147610405323,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Mentions export permits, which is not directly related to traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "export permits;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02454819277108434,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Defines when plants and plant products are not prescribed goods, thereby limiting the scope of the CP criterion to prescribed goods.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "Plants and plant products are taken not to be prescribed goods for the purposes of the Act if the plants or plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision defines exclusions from prescribed goods, which affects the scope of the CP but does not establish the systems of controls themselves.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "Plants and plant products are taken not to be prescribed goods for the purposes of the Act if the plants or plant products:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.024422933730454205,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Provision concerns suspension grounds for failure to provide facilities to assessor, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.024127906976744187,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Provision concerns revocation grounds for failure to provide facilities to assessor, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.024127906976744187,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of suspension of bulk vessel approval, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.02345679012345679,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of revocation of container approval, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-18(g)",
+      "page": 91,
+      "rrf_or_bm25_score": 0.0227390180878553,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns non-subdelegable powers, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_RECORD_KEEPING",
+      "reason": "Provides an exception to record retention requirements, which are part of traceability controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision creates an exception for records entered into a departmental electronic system, but does not itself establish a system of controls for traceability and integrity; it is a related record-keeping exception.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-19(5)",
+      "page": 92,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate prescribes third party authorised officers, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(f)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Sampling capability supports verification of integrity, but is not itself a system of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "to allow samples of prescribed plants and plant products to be taken",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns facility design to allow sampling, which is operationally related but does not itself establish a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "to allow samples of prescribed plants and plant products to be taken",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:7-6",
+      "page": 61,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Chapeau for revocation circumstances, no direct traceability or integrity control requirement.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or waste, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(2), a tolerance level for animal carcases or animal waste in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns tolerance levels for contaminants, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(e)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns who may use an authorised computer program for decisions, not systems of controls for traceability and integrity.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns tolerance levels for pests, which is not directly related to the systems of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The applicable tolerance level for a kind of pest in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or waste, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(1)(Prescribed Plants and Plant Products)",
+      "page": 26,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "TABLE_HEADING",
+      "reason": "Provides structural context for the table of prescribed export conditions, not an independent requirement for this CP.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "(Prescribed Plants and Plant Products) List",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate is a component of tolerance level provisions, not related to traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "nil",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Definition of applying a substance is not relevant to traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "applying a substance;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_KEEPING_OPERATIONALIZATION",
+      "reason": "The candidate specifies a record-keeping requirement that supports traceability and integrity controls, but it does not independently establish the system of controls scored by this CP.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "if the plants or plant products passed the assessment and a validity period for the plants or plant products applies—state the validity period",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns record content of assessment, which is a record-keeping requirement but not a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "if the plants or plant products passed the assessment and a validity period for the plants or plant products applies—state the validity period",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate is a component of tolerance level provisions, not related to traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "nil",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Design requirement helps maintain integrity by minimising contamination, but does not itself establish a system of controls for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns facility design to minimise infestation/contamination, not a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_KEEPING_OPERATIONALIZATION",
+      "reason": "The candidate specifies a record-keeping requirement that supports traceability and integrity controls, but it does not independently establish the system of controls scored by this CP.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "state whether the plants or plant products passed or failed the assessment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision concerns record content of assessment, which is a record-keeping requirement but not a system of controls for traceability and integrity.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "state whether the plants or plant products passed or failed the assessment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns notification of revocation of bulk vessel approval, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(6)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns quantity limits for small horticultural products registered establishment, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The total amount of a kind of horticultural product referred to in column 1 of any of items 1 to 13 of the table in subsection (8) in relation to which export operations are to be carried out at the registered establishment in the financial year must not exceed the total amount referred to in column 2 of the item relating to that kind of horticultural product.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-15",
+      "page": 51,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "CROSS_REFERENCE_DEPENDENCY",
+      "selected": true,
+      "reason_code": "CROSS_REFERENCE",
+      "reason": "References Part 1 requirements for registered establishments, which may include systems of controls relevant to the CP.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "policy_quote": "For the purposes of paragraph 117(2)(g) of the Act, the requirements prescribed by Part 1 of this Chapter are prescribed in relation to an establishment that is registered to prepare prescribed plants or plant products for export.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-5",
+      "page": 11,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "Provides general outline and scope of the instrument, not a specific control requirement for traceability and integrity.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "This instrument prescribes matters and makes other provision in relation to certain plants and plant products (prescribed plants and plant products) for the purposes of the Export Control Act 2020 (the Act).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns phytosanitary certificate issuance conditions, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "the plants or plant products are accompanied by:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(2)(a)",
+      "page": 26,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "DEFINITION",
+      "selected": true,
+      "reason_code": "DEFINITIONAL_ELEMENT",
+      "reason": "Defines what it means for plants or plant products to be covered by the Accredited Properties List, a term used in the CP context.",
+      "cp_quote": "prescribed plant and plant products",
+      "policy_quote": "the plants or plant products are listed in that List in relation to that importing country and export operations of that kind; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_DIRECT_RELATION",
+      "reason": "The candidate concerns approval of tolerance levels, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The Secretary may approve, in writing, a tolerance level higher than nil for a kind of pest in relation to a kind of plant or plant product for export to an importing country if:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns directions for non-compliance, not traceability or integrity controls.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_RECORD_KEEPING",
+      "reason": "Provides an exception to record retention requirements, which are part of traceability controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is an exception to record retention requirements, not a system of controls for traceability and integrity; it is contextually related but does not ground the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-15",
+      "page": 32,
+      "rrf_or_bm25_score": 0.011235955056179775,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns refusal of government certificate, not traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "For the purposes of paragraph 67(3)(g) of the Act, each of the following circumstances is prescribed in relation to an application for a government certificate in relation to plants or plant products:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading providing structural context for accreditation requirements; does not independently create a scoring requirement for traceability and integrity controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "3-1 Other requirements for accreditation",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(1)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Defines the applicability of accreditation requirements, including any traceability and integrity controls, to properties seeking accreditation.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other requirements that must be met for a property to be accredited for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision establishes the scope of accreditation requirements but does not itself specify traceability or integrity controls.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other requirements that must be met for a property to be accredited for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(2)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_ACCREDITATION",
+      "reason": "Imposes a condition that importing country requirements must be able to be met, which may include traceability and integrity controls, but does not itself specify the systems of controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the property in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires meeting importing country requirements generally, but does not directly address traceability or integrity systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "All importing country requirements relating to the export operations to be carried out at the property in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading providing structural context for establishment requirements; does not independently create a scoring requirement.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "4-3 Other requirements",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(1)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "States that the section's requirements, which may include traceability and integrity controls, apply to all establishments.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision only defines the applicability of the section and does not contain traceability or integrity requirements.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3(2)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_ESTABLISHMENT",
+      "reason": "Imposes a condition that importing country requirements must be able to be met, which may include traceability and integrity controls, but does not itself specify the systems of controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires meeting importing country requirements generally, but does not directly address traceability or integrity systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_EXPORT",
+      "reason": "Introduces conditions that the export permit holder must ensure, which may include traceability and integrity requirements, but does not itself specify the systems of controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "The holder of the export permit must ensure that:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision is an introductory clause for export permit conditions and does not itself specify traceability or integrity controls.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "The holder of the export permit must ensure that:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)(b)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "CONDITION_FOR_EXPORT",
+      "reason": "Requires that plants or plant products meet importing country requirements until export, which may include traceability and integrity controls, but does not itself specify the systems of controls.",
+      "cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "policy_quote": "the plants or plant products meet relevant importing country requirements; until the plants or plant products are exported.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires meeting importing country requirements until export, but does not directly address traceability or integrity systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products (e.g., labelling, record keeping)",
+      "legal_basis_policy_quote": "the plants or plant products meet relevant importing country requirements; until the plants or plant products are exported.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ]
+}

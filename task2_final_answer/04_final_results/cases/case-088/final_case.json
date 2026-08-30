@@ -1,0 +1,369 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-088",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states that all export activities are within the registered scope as approved by DAFF, confirming operations are within registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence details important features of the registered area and adjoining sites, including buildings, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence describes the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Murray_Almond_Packers_Pty_Ltd.docx:P12",
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure (steel-frame, concrete flooring) supporting export of almonds."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P41"
+      ],
+      "reason": "Evidence indicates establishment is maintained in clean and hygienic condition, with cleaning procedures and corrective actions, supporting effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Murray_Almond_Packers_Pty_Ltd_088.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence shows controls to reduce contamination and infestation risk, and hygiene maintenance, supporting minimization of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P41",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes detailed procedures, cleaning schedules, and records, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P41",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, with procedures and records for cleaning and waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P41",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The plan is tailored to the establishment's operations (almonds, lemons, macadamias) and includes detailed procedures, training, and recent inspection confirming effectiveness."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Murray_Almond_Packers_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_88_Murray_Almond_Packers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management program with mapped bait stations, contractor verification, and trend review, demonstrating a system for pest and contaminant control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Murray_Almond_Packers_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_88_Murray_Almond_Packers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control program includes monitoring, trend review, and escalation actions with closure evidence, indicating effectiveness for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years as stated in the registration record and hygiene plan."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained in Mandarin, not English, and translation is only available on request, failing the requirement that records be in English."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Recent internal inspection found all areas clean and hygienic, and the plan includes procedures for maintaining cleanliness."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Murray_Almond_Packers_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44"
+      ],
+      "reason": "Pest control measures and clean conditions are maintained, as evidenced by the bait station map and recent inspection."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Murray_Almond_Packers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Bait stations are mapped and monitored with contractor verification, indicating they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_88_Murray_Almond_Packers_Pty_Ltd.docx:P25"
+      ],
+      "reason": "Evidence indicates a deficiency: no phytosanitary security section in the HACCP plan, and no controls to prevent re-contamination or re-infestation, failing to ensure chemicals do not contaminate products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_88_Murray_Almond_Packers_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The same deficiency shows lack of controls to prevent re-contamination or re-infestation in preparation areas, failing to ensure chemicals do not contaminate areas where products are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Murray_Almond_Packers_Pty_Ltd_088.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow and transfer records but does not explicitly confirm traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Murray_Almond_Packers_Pty_Ltd_088.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly confirm traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Murray_Almond_Packers_Pty_Ltd_088.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records exist but no evidence confirms traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Murray_Almond_Packers_Pty_Ltd_088.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records are mentioned but no explicit system of controls for traceability and integrity is evidenced."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P17",
+        "2_HACCPPlan_88_Murray_Almond_Packers_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Product flow is described but no product flow chart is provided as evidence."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_88_Murray_Almond_Packers_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Mention of failed goods but no system of controls for managing them is evidenced."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P44"
+      ],
+      "reason": "Hygiene and sanitation are addressed but no evidence of maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation is mentioned but no evidence of minimising substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_88_Murray_Almond_Packers_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Murray_Almond_Packers_Pty_Ltd_088.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records retention is stated but no evidence of at least 2 years of traceability records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_88_Murray_Almond_Packers_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Murray_Almond_Packers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are in Mandarin, not English, and no evidence of date, accuracy, legibility, or auditability."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Murray_Almond_Packers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-088/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-088/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-088/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-088/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-088/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 13,
+    "0": 26,
+    "N/A": 2
+  }
+}

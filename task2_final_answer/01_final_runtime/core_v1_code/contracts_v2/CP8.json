@@ -1,0 +1,3432 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP8",
+    "canonical_cp_id": "CP8",
+    "element": "Element-2",
+    "subelement": "2.1 Buildings, equipment, facilities and service",
+    "criterion": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+    "sheet": "All Elements",
+    "column": 8
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:4-2(1)",
+      "citation": "4-2(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Application of this section",
+      "label": "(1)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(1) The requirements prescribed by this section apply in relation to all\nestablishments.\nBuildings, equipment, facilities and services",
+      "text": "4-2 Construction, equipment and facilities\nApplication of this section\n(1) The requirements prescribed by this section apply in relation to all\nestablishments.\nBuildings, equipment, facilities and services",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06557377049180328,
+      "rrf_score": 0.06557377049180328,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 25.959873373035972,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 30.314525715817084,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 22.158003756270233,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 52.47252947208732,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(2)",
+      "citation": "4-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(2) An establishment must have the buildings, equipment, facilities and services that\nare necessary to ensure that export operations in relation to prescribed plants or\nplant products can be carried out in a way that will ensure that the requirements\nof the Act are complied with.",
+      "text": "4-2 Construction, equipment and facilities\n(2) An establishment must have the buildings, equipment, facilities and services that\nare necessary to ensure that export operations in relation to prescribed plants or\nplant products can be carried out in a way that will ensure that the requirements\nof the Act are complied with.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06451612903225806,
+      "rrf_score": 0.06451612903225806,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 21.67406031053844,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 30.28058284252792,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 18.118515633558705,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 48.399098476086614,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)",
+      "citation": "4-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Design and construction—general",
+      "label": "(4)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "own_text": "(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "text": "4-2 Construction, equipment and facilities\nDesign and construction—general\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.06156066156066156,
+      "rrf_score": 0.06156066156066156,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 16.89714262027238,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 18.279950163155604,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 15.701804470957168,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 33.981754634112775,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(3)",
+      "citation": "4-2(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(3) An establishment must have handwashing and toilet facilities.",
+      "text": "4-2 Construction, equipment and facilities\n(3) An establishment must have handwashing and toilet facilities.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.05662400911045794,
+      "rrf_score": 0.05662400911045794,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 10.883095636396957,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 17.628406358870095,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 14.758969704273136,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 32.38737606314323,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(6)",
+      "citation": "4-2(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "text": "4-2 Construction, equipment and facilities\n(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.05540352741067452,
+      "rrf_score": 0.05540352741067452,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 12.137692488438137,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 16.54930960558386,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 12.710614351892945,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 29.259923957476808,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(5)",
+      "citation": "4-2(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "text": "4-2 Construction, equipment and facilities\n(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.05351825509720247,
+      "rrf_score": 0.05351825509720247,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 11.234961205306538,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 15.547903811042932,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 11.88606072736559,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 27.433964538408524,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(ii)",
+      "citation": "4-17(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(ii) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to provide\nfacilities and assistance to an assessor for the purpose of enabling an\nassessment of prescribed plants or plant products to be carried out at\nthe establishment; or",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.05236080591859835,
+      "rrf_score": 0.05236080591859835,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 12.838356717567216,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 12.821481535314794,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 4.041894429853635,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 16.86337596516843,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(a)",
+      "citation": "4-19(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.051786762273653655,
+      "rrf_score": 0.051786762273653655,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 12.981002065410152,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 12.24365190594647,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 29,
+          "raw_score": 3.622131981759318,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 15.865783887705787,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(a)",
+      "citation": "4-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(a) the occupier of the establishment, or a person who manages or controls\nexport operations at the establishment, failed to provide facilities and\nassistance to an assessor for the purpose of enabling an assessment of\nprescribed plants or plant products to be carried out at the establishment;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.05111597606194704,
+      "rrf_score": 0.05111597606194704,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 12.981002065410152,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 12.24365190594647,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 30,
+          "raw_score": 3.622131981759318,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 15.865783887705787,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)",
+      "citation": "4-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)"
+      ],
+      "own_text": "(a) to provide:",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(a) to provide:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.046634615384615385,
+      "rrf_score": 0.046634615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 18.355503780276745,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 15.744222549893799,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 34.09972633017054,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04603174603174603,
+      "rrf_score": 0.04603174603174603,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 21.361928874245912,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 14.063933015563505,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 35.425861889809426,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2",
+      "citation": "4-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Construction, equipment and facilities",
+      "label": "4-2",
+      "pages": [
+        45
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-2(1)",
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)",
+        "rules2021:4-2(5)",
+        "rules2021:4-2(6)"
+      ],
+      "own_text": "",
+      "text": "4-2 Construction, equipment and facilities\nConstruction, equipment and facilities",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04538690476190476,
+      "rrf_score": 0.04538690476190476,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 17.154563219905484,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 17.154563219905484,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 34.30912643981097,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(b)",
+      "citation": "4-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(b) to facilitate effective cleaning; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(b) to facilitate effective cleaning; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04500226142017187,
+      "rrf_score": 0.04500226142017187,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 17.975274723209488,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 15.460939732160496,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 33.436214455369985,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-6",
+      "citation": "4-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Construction, equipment and facilities",
+      "label": "4-6",
+      "pages": [
+        47
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The requirements for registration of an establishment prescribed by section 4-2\nmust continue to be met in relation to a registered establishment after it is\nregistered.",
+      "text": "4-6 Construction, equipment and facilities\nConstruction, equipment and facilities\nThe requirements for registration of an establishment prescribed by section 4-2\nmust continue to be met in relation to a registered establishment after it is\nregistered.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.04376625789669268,
+      "rrf_score": 0.04376625789669268,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 18.3210962324639,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 13.682299425007079,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 32.00339565747098,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04307610368090898,
+      "rrf_score": 0.04307610368090898,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 17.292179785598854,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 14.689719445651441,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 31.9818992312503,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(f)",
+      "citation": "4-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(f) to allow samples of prescribed plants and plant products to be taken.",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(f) to allow samples of prescribed plants and plant products to be taken.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.042862974951156214,
+      "rrf_score": 0.042862974951156214,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 17.30698354180993,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 14.674884469387965,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 31.981868011197896,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(d)",
+      "citation": "4-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.042679278284083584,
+      "rrf_score": 0.042679278284083584,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 17.666544680060937,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 14.003196336501532,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 31.66974101656247,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(ii)",
+      "citation": "4-2(4)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(ii) adequate lighting and ventilation; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(ii) adequate lighting and ventilation; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.04018985820716174,
+      "rrf_score": 0.04018985820716174,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 13.473564058538258,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 13.473564058538258,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 26.947128117076517,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-18(a)",
+      "citation": "4-18(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        53
+      ],
+      "parent_id": "rules2021:4-18",
+      "child_ids": [],
+      "own_text": "(a) a circumstance has arisen that prevents, or will prevent, a kind of export\noperations being carried out at the establishment;",
+      "text": "4-18 Circumstances in which occupier may request suspension of registration\nFor the purposes of subsection 125(2) of the Act, the circumstances in which the\noccupier of a registered establishment may make a request under\nsubsection 125(1) of the Act are as follows:\n(a) a circumstance has arisen that prevents, or will prevent, a kind of export\noperations being carried out at the establishment;",
+      "page": 53,
+      "page_end": 53,
+      "score": 0.040047933730454205,
+      "rrf_score": 0.040047933730454205,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 14.860634748952602,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 12.551019669844429,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 12.551019669844429,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(i)",
+      "citation": "4-2(4)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.038815789473684206,
+      "rrf_score": 0.038815789473684206,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 12.482257655882705,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 11.45111995322162,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 23.933377609104326,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-2(1)",
+      "citation": "9-2(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        80
+      ],
+      "parent_id": "rules2021:9-2",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of paragraph 266(1)(g) of the Act, the Secretary may require an\naudit to be conducted of export operations carried out in relation to prescribed\nplants or plant products in relation to which an exemption is in force under Part 2\nof Chapter 2 of the Act.",
+      "text": "9-2 Other circumstances in which audit of export operations may be required\n(1) For the purposes of paragraph 266(1)(g) of the Act, the Secretary may require an\naudit to be conducted of export operations carried out in relation to prescribed\nplants or plant products in relation to which an exemption is in force under Part 2\nof Chapter 2 of the Act.",
+      "page": 80,
+      "page_end": 80,
+      "score": 0.037443718228031955,
+      "rrf_score": 0.037443718228031955,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 9.755504450537703,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 14.56064217758177,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 14.56064217758177,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)(b)",
+      "citation": "11-7(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.03737725688945201,
+      "rrf_score": 0.03737725688945201,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 10.232594062858398,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 12.83844001538777,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 13.611673677870971,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(a)",
+      "citation": "4-7A(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.037340320995741895,
+      "rrf_score": 0.037340320995741895,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 11.921461372714031,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 10.806177685714093,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 12.5245660151032,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.03682697238297561,
+      "rrf_score": 0.03682697238297561,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 11.873452057555104,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 11.329026832136922,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 12.191869171705168,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(a)",
+      "citation": "1-6(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(a) dismantling, repairing, cleaning or deodorising;",
+      "text": "1-6 Definitions\n(a) dismantling, repairing, cleaning or deodorising;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.036556467876692596,
+      "rrf_score": 0.036556467876692596,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 9.40962670579272,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.460497413575405,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 14.842704277995196,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(a)",
+      "citation": "4-7A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.036191222570532915,
+      "rrf_score": 0.036191222570532915,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 11.796381119762907,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 10.685977634380844,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 12.214459730269809,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.025124843945068663,
+      "rrf_score": 0.025124843945068663,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 11.873452057555104,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 10.660027067363151,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(2)(c)",
+      "citation": "9-29(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(2)",
+      "child_ids": [],
+      "own_text": "(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "text": "9-29 Revocation of bulk vessel approval\n(2) For the purposes of deciding whether to revoke a bulk vessel approval, the\nSecretary may do any of the following:\nPowers and officials Chapter 9\n(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.024706420619185605,
+      "rrf_score": 0.024706420619185605,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.5497313503715064,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 13.17384216253577,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-21(2)(a)",
+      "citation": "8-21(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        74
+      ],
+      "parent_id": "rules2021:8-21(2)",
+      "child_ids": [],
+      "own_text": "(a) a bolt seal is applied to plants or plant products if the bolt seal is applied to\na unit of cargo handling equipment into which the plants or plant products\nhave been loaded; and",
+      "text": "8-21 Interpretation\n(2) For the purposes of this instrument and without limiting subsection (1):\n(a) a bolt seal is applied to plants or plant products if the bolt seal is applied to\na unit of cargo handling equipment into which the plants or plant products\nhave been loaded; and",
+      "page": 74,
+      "page_end": 74,
+      "score": 0.024404761904761905,
+      "rrf_score": 0.024404761904761905,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.433967699997442,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 12.793968170303316,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-19(c)",
+      "citation": "4-19(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        54
+      ],
+      "parent_id": "rules2021:4-19",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-19 Other grounds for suspension of registration\nFor the purposes of paragraph 127(1)(k) of the Act, the following grounds for\nsuspending the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 54,
+      "page_end": 54,
+      "score": 0.024098124098124098,
+      "rrf_score": 0.024098124098124098,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 11.11286158454566,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 10.616148004673056,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(b)",
+      "citation": "4-7A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.023769338959212377,
+      "rrf_score": 0.023769338959212377,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 10.909200305542146,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 12.04765898802787,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-2",
+      "citation": "9-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other circumstances in which audit of export operations may be required",
+      "label": "9-2",
+      "pages": [
+        80
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-2(1)",
+        "rules2021:9-2(2)"
+      ],
+      "own_text": "",
+      "text": "9-2 Other circumstances in which audit of export operations may be required\nOther circumstances in which audit of export operations may be required",
+      "page": 80,
+      "page_end": 80,
+      "score": 0.023284147827264113,
+      "rrf_score": 0.023284147827264113,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 12.066943371397528,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 12.066943371397528,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-11(a)",
+      "citation": "3-11(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        39
+      ],
+      "parent_id": "rules2021:3-11",
+      "child_ids": [],
+      "own_text": "(a) a circumstance has arisen that prevents, or will prevent, a kind of export\noperations being carried out at the property;",
+      "text": "3-11 Circumstances in which manager may request suspension of accreditation\nFor the purposes of subsection 92(2) of the Act, the circumstances in which the\nmanager of an accredited property may make a request under subsection 92(1) of\nthe Act are as follows:\n(a) a circumstance has arisen that prevents, or will prevent, a kind of export\noperations being carried out at the property;",
+      "page": 39,
+      "page_end": 39,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 12.375432159915157,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 12.072120641308462,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 11.873452057555104,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(b)",
+      "citation": "2-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 7.318187361630011,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-21(c)",
+      "citation": "4-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        56
+      ],
+      "parent_id": "rules2021:4-21",
+      "child_ids": [],
+      "own_text": "(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "text": "4-21 Other grounds for revocation of registration\nFor the purposes of paragraph 138(1)(k) of the Act, the following grounds for\nrevoking the registration of a registered establishment are prescribed:\n(c) if the registration of the establishment covers export operations in relation\nto prescribed plants or plant products for human consumption—the\noccupier of the establishment failed to comply with applicable State and\nTerritory laws relating to food handling in carrying out those export\noperations;",
+      "page": 56,
+      "page_end": 56,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 11.11286158454566,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(b)",
+      "citation": "4-17(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        52,
+        53
+      ],
+      "parent_id": "rules2021:4-17",
+      "child_ids": [],
+      "own_text": "(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "text": "4-17 Other reasons for the Secretary to vary registration\nFor the purposes of paragraph 123(2)(h) of the Act, the following reasons for\nmaking a variation in relation to the registration of a registered establishment, or\nsetting an earlier expiry date for the registration of a registered establishment, are\nprescribed:\n(b) if the establishment is registered for export operations in relation to\nprescribed plants or plant products for human consumption—the occupier\nof the establishment failed to comply with applicable State and Territory\nlaws relating to food handling in carrying out the export operations.\nSuspension of registration Part 5\nSuspension requested by occupier Division 1",
+      "page": 52,
+      "page_end": 53,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 10.465721547718825,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(2)(c)",
+      "citation": "9-36(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(2)",
+      "child_ids": [],
+      "own_text": "(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\ncontainer, to provide those facilities or that assistance.",
+      "text": "9-36 Revocation of container approval\n(2) For the purposes of deciding whether to revoke a container approval, the\nSecretary may do any of the following:\n(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\ncontainer, to provide those facilities or that assistance.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.911351679553042,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(2)(c)",
+      "citation": "9-27(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(2)",
+      "child_ids": [],
+      "own_text": "(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "text": "9-27 Suspension of bulk vessel approval\n(2) For the purposes of deciding whether to suspend a bulk vessel approval, the\nSecretary may do any of the following:\n(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.849336643492427,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(h)",
+      "citation": "9-17(2)(h)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(h)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(h) a person performing services for the Department under a contract;\nif the Secretary has given the person a unique identifier to enable the person to\naccess the computer program.",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(h) a person performing services for the Department under a contract;\nif the Secretary has given the person a unique identifier to enable the person to\naccess the computer program.",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 10.201032091391369,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(2)(c)",
+      "citation": "9-28(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(2)",
+      "child_ids": [],
+      "own_text": "(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(2) For the purposes of deciding whether to revoke the suspension of a bulk vessel\napproval, the Secretary may do any of the following:\n(c) request a person who the Secretary considers may be able to provide\nfacilities or assistance to the Secretary in carrying out an inspection of the\nvessel, to provide those facilities or that assistance.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 4.700941124116072,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-22(c)",
+      "citation": "4-22(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        57
+      ],
+      "parent_id": "rules2021:4-22",
+      "child_ids": [],
+      "own_text": "(c) in the financial year, the occupier of the establishment starts to carry out\noperations to prepare goods for export other than horticultural products\nreferred to in column 1 of the table in subsection 1-8(8).",
+      "text": "4-22 Changes in relation to registered establishment that was being treated as\nsmall horticultural products registered establishment for a financial\nyear\nFor the purposes of paragraph 145(1)(b) of the Act, the following changes are\nprescribed in relation to a registered establishment that, before the change, was\nbeing treated as a small horticultural products registered establishment for a\nfinancial year:\n(c) in the financial year, the occupier of the establishment starts to carry out\noperations to prepare goods for export other than horticultural products\nreferred to in column 1 of the table in subsection 1-8(8).",
+      "page": 57,
+      "page_end": 57,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 11.559347778545666,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-17(2)(b)",
+      "citation": "9-17(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        90
+      ],
+      "parent_id": "rules2021:9-17(2)",
+      "child_ids": [],
+      "own_text": "(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "text": "9-17 Decisions that may be made by operation of computer program\n(2) For the purposes of paragraph 286(2)(b) of the Act, the following persons may\nuse an authorised computer program for a decision referred to in subsection (1):\n(b) the occupier of a registered establishment where operations to prepare\nplants or plant products for export are carried out;",
+      "page": 90,
+      "page_end": 90,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 9.988557934347465,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-30(4)(b)",
+      "citation": "9-30(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-30(4)",
+      "child_ids": [],
+      "own_text": "(b) requesting a person who an authorised officer considers may be able to\nprovide facilities or assistance to the authorised officer in carrying out an\ninspection to provide those facilities or that assistance.",
+      "text": "9-30 Authorised officer may approve container\n(4) In addition to inspecting the container, an authorised officer may do any other\nthing the authorised officers considers necessary for the purpose of deciding\nwhether to approve the container, including:\n(b) requesting a person who an authorised officer considers may be able to\nprovide facilities or assistance to the authorised officer in carrying out an\ninspection to provide those facilities or that assistance.",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 4.58860760571163,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(5)(b)",
+      "citation": "9-22(5)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-22(5)",
+      "child_ids": [],
+      "own_text": "(b) requesting a person who an authorised officer considers may be able to\nprovide facilities or assistance to an authorised officer in carrying out an\ninspection, to provide those facilities or that assistance.",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(5) In addition to carrying out an inspection under subsection (2), an authorised\nofficer may do any other thing an authorised officer considers necessary for the\npurpose of deciding whether to approve the bulk vessel, including:\n(b) requesting a person who an authorised officer considers may be able to\nprovide facilities or assistance to an authorised officer in carrying out an\ninspection, to provide those facilities or that assistance.",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 4.429825192780872,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(3)(a)",
+      "citation": "8-16(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-16(3)",
+      "child_ids": [],
+      "own_text": "(a) the registration number of the registered establishment where operations to\nprepare the relevant plants or plant products for export were carried out is\nto be substituted for ‘A’;",
+      "text": "8-16 Official mark—carton seal\n(3) The substitutions in the design of the mark are as follows:\n(a) the registration number of the registered establishment where operations to\nprepare the relevant plants or plant products for export were carried out is\nto be substituted for ‘A’;",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 9.559109873630547,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-2(2)(b)",
+      "citation": "9-2(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        80
+      ],
+      "parent_id": "rules2021:9-2(2)",
+      "child_ids": [],
+      "own_text": "(b) whether the conditions (if any) of the exemption are being, have been, or\nare likely to be complied with;",
+      "text": "9-2 Other circumstances in which audit of export operations may be required\n(2) For the purposes of paragraph 266(2)(f) of the Act, an audit of export operations\ncarried out in relation to prescribed plants or plant products in relation to which\nan exemption is in force under Part 2 of Chapter 2 of the Act must relate to one\nor more of the following:\n(b) whether the conditions (if any) of the exemption are being, have been, or\nare likely to be complied with;",
+      "page": 80,
+      "page_end": 80,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 10.797257127413502,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 9.5414721880236,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-30(3)",
+      "citation": "9-30(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-30",
+      "child_ids": [],
+      "own_text": "(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-30 Authorised officer may approve container\n(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 4.008606105494601,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-1",
+      "citation": "4-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Purpose of this Part",
+      "label": "4-1",
+      "pages": [
+        45
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of paragraphs 112(2)(c) and (f) of the Act, this Part prescribes\nrequirements that must be met for the establishment to be registered for a kind of\nexport operations in relation to a kind of prescribed plants or plant products.",
+      "text": "4-1 Purpose of this Part\nPurpose of this Part\nFor the purposes of paragraphs 112(2)(c) and (f) of the Act, this Part prescribes\nrequirements that must be met for the establishment to be registered for a kind of\nexport operations in relation to a kind of prescribed plants or plant products.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 9.491818468113541,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(1)(a)",
+      "citation": "9-29(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-29(1)",
+      "child_ids": [],
+      "own_text": "(a) a person responsible for the bulk vessel fails to provide facilities or\nassistance to the Secretary for the purposes of an inspection of the vessel;\nor",
+      "text": "9-29 Revocation of bulk vessel approval\n(1) The Secretary may revoke a bulk vessel approval if:\n(a) a person responsible for the bulk vessel fails to provide facilities or\nassistance to the Secretary for the purposes of an inspection of the vessel;\nor",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 3.847950286352845,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.011111111111111112,
+      "rrf_score": 0.011111111111111112,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 9.405101383786663,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)",
+      "citation": "4-7A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(1)(b)"
+      ],
+      "own_text": "(1) A registered establishment must be kept in a condition:",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)(a)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(b)",
+      "citation": "4-7A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)(a)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(1)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)",
+      "citation": "4-7A(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "own_text": "(2) Without limiting subsection (1):",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7A(2)(b)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:4-2(1)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06557377049180328,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "APPLICABILITY_CONDITION",
+      "reason": "This subsection states that the requirements in section 4-2 apply to all establishments, which is an applicability condition for the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "(1) The requirements prescribed by this section apply in relation to all establishments.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection only states the scope of application of the section; it does not itself impose the requirement that the establishment has the necessary buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(2)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06451612903225806,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection directly states the general requirement for buildings, equipment, facilities and services necessary for export operations, which is the core of the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The policy text directly requires the establishment to have the buildings, equipment, facilities and services necessary for export operations, which is the same proposition as the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.06156066156066156,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection introduces the design and construction requirements for establishment, equipment and facilities, which are part of the buildings, equipment and facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This subsection imposes design and construction requirements on the establishment and its equipment and facilities, which is a specific aspect of having the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(3)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.05662400911045794,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection specifies a particular facility (handwashing and toilet) that is required, directly supporting the CP criterion's requirement for facilities.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "An establishment must have handwashing and toilet facilities.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This subsection specifies a particular type of facility (handwashing and toilet) that is part of the required facilities for export operations, thus specializing the general CP requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "An establishment must have handwashing and toilet facilities.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(6)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.05540352741067452,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly requires establishment, equipment and facilities to be designed and constructed for screening, which is a specific type of export operation.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifies design and construction requirements for establishments conducting screening, a specific export operation. It directly constrains the buildings, equipment, and facilities required for that operation, thus specializing the general CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "If screening of prescribed plants or plant products described in paragraph 4-9(1)(a) or (b) is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(5)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.05351825509720247,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection specifies a conditional requirement for testing and analysis facilities, which is part of the facilities required by the CP when such operations are conducted.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifies design and construction requirements for establishments conducting testing and analysis, which is a specific type of export operation. It directly constrains the buildings, equipment, and facilities required for that operation, thus specializing the general CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(ii)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.05236080591859835,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns variation of registration due to failure to provide facilities and assistance to an assessor, not the substantive requirement for buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(a)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.051786762273653655,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns suspension of registration due to failure to provide facilities and assistance to an assessor, not the substantive requirement for buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(a)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.05111597606194704,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns revocation grounds for failure to provide facilities to an assessor, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.046634615384615385,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph is part of the design and construction requirements, specifying what the establishment must provide, directly supporting the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to provide:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph introduces specific design and construction purposes that further define the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to provide:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04603174603174603,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a design requirement to minimise infestation or contamination, which is part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies a design and construction purpose (minimising infestation or contamination) that is part of the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04538690476190476,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is the heading of the section that contains the substantive requirements for construction, equipment and facilities. It is structural context for the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "4-2 Construction, equipment and facilities",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(b)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04500226142017187,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a design requirement to facilitate cleaning, which is part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to facilitate effective cleaning; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies a design and construction purpose (facilitating effective cleaning) that is part of the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to facilitate effective cleaning; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-6",
+      "page": 47,
+      "rrf_or_bm25_score": 0.04376625789669268,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Requires continued compliance with section 4-2, which includes construction, equipment and facilities requirements, directly grounding the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly incorporates the requirements of section 4-2, which includes the design and construction requirements for buildings, equipment, and facilities. It ensures the establishment continues to meet those requirements, directly matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04307610368090898,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a design requirement to facilitate treatments, which is part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies a design and construction purpose (facilitating treatments) that is part of the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(f)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.042862974951156214,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a design requirement to allow sampling, which is part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies a design and construction purpose (allowing samples to be taken) that is part of the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(d)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.042679278284083584,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a waste disposal requirement, which is part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This paragraph specifies a design and construction purpose (waste disposal) that is part of the required buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(ii)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.04018985820716174,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subparagraph specifies required lighting and ventilation, which are part of the facilities required by the CP.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "adequate lighting and ventilation; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This subparagraph specifies particular facility requirements (adequate lighting and ventilation) that are part of the required facilities for export operations.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "adequate lighting and ventilation; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-18(a)",
+      "page": 53,
+      "rrf_or_bm25_score": 0.040047933730454205,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns suspension of registration due to circumstances preventing export operations, not the substantive requirement for buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(i)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.038815789473684206,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subparagraph specifies a required area for assessments, which is a facility requirement under the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This subparagraph specifies a particular facility requirement (areas suitable for assessments) that is part of the required facilities for export operations.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-2(1)",
+      "page": 80,
+      "rrf_or_bm25_score": 0.037443718228031955,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audits of export operations under exemptions, not the physical or service requirements of the establishment.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.03737725688945201,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns record retention requirements, not the buildings, equipment, facilities and services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.037340320995741895,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Requires clean and hygienic condition appropriate for export operations, which is part of having appropriate facilities and services.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifies that the establishment must be kept clean and hygienic appropriate for the export operations, which is a specific aspect of the condition of the buildings, equipment, and facilities. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.03682697238297561,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of suspension of bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(a)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.036556467876692596,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines 'dismantling, repairing, cleaning or deodorising' which is not relevant to the CP criterion about buildings, equipment, facilities and services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.036191222570532915,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Requires the establishment to be kept in a condition appropriate for the export operations, directly relating to the suitability of buildings, equipment, facilities and services.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision requires the establishment to be kept in a condition appropriate for the export operations, which includes the buildings, equipment, facilities, and services. It specializes the CP criterion by focusing on the ongoing condition of the establishment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.025124843945068663,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of suspension of bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(2)(c)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.024706420619185605,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-21(2)(a)",
+      "page": 74,
+      "rrf_or_bm25_score": 0.024404761904761905,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns definition of bolt seal application, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-19(c)",
+      "page": 54,
+      "rrf_or_bm25_score": 0.024098124098124098,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns suspension of registration due to failure to comply with food handling laws, not the substantive requirement for buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.023769338959212377,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Requires pest and contaminant control appropriate for export operations, which is part of having appropriate facilities and services.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision requires pest and contaminant control appropriate for the export operations, which is a specific aspect of the condition of the establishment. It specializes the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-2",
+      "page": 80,
+      "rrf_or_bm25_score": 0.023284147827264113,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate is a heading for audit requirements, not related to the establishment's buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-11(a)",
+      "page": 39,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns suspension of accreditation for properties, not the buildings, equipment, facilities and services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notice of revocation of container approval, not buildings, equipment, facilities, or services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notice of revocation of bulk vessel approval, not buildings, equipment, facilities, or services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(b)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods for aircraft or vessel service, unrelated to the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-21(c)",
+      "page": 56,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns compliance with State and Territory food handling laws, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-17(b)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns variation of registration due to failure to comply with food handling laws, not the substantive requirement for buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(2)(c)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate concerns obtaining facilities for container inspection, which may support how facility requirements are verified but does not itself impose a requirement on the establishment.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "request a person who the Secretary considers may be able to provide facilities or assistance to the Secretary in carrying out an inspection of the container, to provide those facilities or that assistance.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision allows the Secretary to request facilities for container inspection, not the establishment's required facilities for export operations. It is contextually related but does not ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "request a person who the Secretary considers may be able to provide facilities or assistance to the Secretary in carrying out an inspection of the container, to provide those facilities or that assistance.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-27(2)(c)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns suspension of bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(h)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns persons authorised to use a computer program for decisions, not buildings, equipment, facilities or services required for export operations.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-28(2)(c)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of suspension of bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-22(c)",
+      "page": 57,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns changes in registration status for small horticultural products registered establishments, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-17(2)(b)",
+      "page": 90,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns persons who may use authorised computer programs, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-30(4)(b)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate describes how an authorised officer may obtain facilities for inspection, which relates to operationalisation of facility requirements but does not independently require the establishment to have such facilities.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "requesting a person who an authorised officer considers may be able to provide facilities or assistance to the authorised officer in carrying out an inspection to provide those facilities or that assistance.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision allows an authorised officer to request facilities for inspection, not the establishment's required facilities for export operations. It is contextually related but does not ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "requesting a person who an authorised officer considers may be able to provide facilities or assistance to the authorised officer in carrying out an inspection to provide those facilities or that assistance.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(5)(b)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns authorised officer powers for bulk vessel approval, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(3)(a)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns official mark design, not the requirement to have appropriate buildings, equipment, facilities and services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-2(2)(b)",
+      "page": 80,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audit scope regarding exemption conditions, not the establishment's buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance and detection of Trogoderma, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-30(3)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The candidate indicates that inspections require adequate facilities, which may inform how the establishment's facilities are assessed, but it does not itself impose a requirement on the establishment.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "An inspection may be carried out at any place where there are adequate facilities to carry out the inspection.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns inspection locations and facilities for inspection, not the establishment's buildings, equipment, facilities, and services required for export operations. It is contextually related but does not ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "An inspection may be carried out at any place where there are adequate facilities to carry out the inspection.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-1",
+      "page": 45,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This section provides the purpose of Part 4, which includes the requirements for buildings, equipment, facilities and services. It is structural context for the CP criterion.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "For the purposes of paragraphs 112(2)(c) and (f) of the Act, this Part prescribes requirements that must be met for the establishment to be registered for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(1)(a)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of bulk vessel approval for failure to provide facilities for inspection, not the establishment's required buildings, equipment, facilities or services.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.011111111111111112,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Requires a system of controls to ensure compliance with conditions, which supports operationalisation of the CP but does not independently require buildings, equipment, facilities and services.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls, not the physical buildings, equipment, facilities, or services. It is a separate operational requirement and does not directly ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection imposes a general condition requirement on the establishment, which directly grounds the CP's requirement that the establishment have the necessary buildings, equipment, facilities and services.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "A registered establishment must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CP_OPERATIONALIZES_BROADER_RULE",
+      "legal_basis_reason": "The CP criterion specifies that the establishment must have the necessary buildings, equipment, facilities and services for its export operations, which is a specific operationalization of the broader legal requirement that a registered establishment be kept in an appropriate condition.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "A registered establishment must be kept in a condition:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(b)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a condition that the establishment must meet to prevent infestation or contamination, which is a specific requirement for the facilities and services needed for export operations.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses pest and contamination prevention, which is a separate obligation related to the condition of the establishment but does not directly ground the requirement for buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This subsection serves as a chapeau introducing additional specific requirements without independently creating a scoring requirement.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "Without limiting subsection (1):",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph imposes a specific requirement for managing toxic substances, which is part of the facilities and services necessary for safe export operations.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns the management and storage of toxic substances, which is a specific operational requirement but does not directly establish the need for buildings, equipment, facilities and services as required by the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph imposes a specific requirement for waste treatment and disposal, which is part of the facilities and services necessary for export operations.",
+      "cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses waste treatment and disposal, which is a separate obligation and does not directly ground the requirement for buildings, equipment, facilities and services.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "legal_basis_policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    }
+  ],
+  "contract": {
+    "cp_id": "CP8",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+        "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+        "basis_candidate_ids": [
+          "rules2021:4-2(2)",
+          "rules2021:4-2(3)",
+          "rules2021:4-2(4)",
+          "rules2021:4-2(4)(a)",
+          "rules2021:4-2(4)(a)(i)",
+          "rules2021:4-2(4)(a)(ii)",
+          "rules2021:4-2(4)(b)",
+          "rules2021:4-2(4)(c)",
+          "rules2021:4-2(4)(d)",
+          "rules2021:4-2(4)(e)",
+          "rules2021:4-2(4)(f)",
+          "rules2021:4-2(5)",
+          "rules2021:4-2(6)",
+          "rules2021:4-6",
+          "rules2021:4-7A(1)",
+          "rules2021:4-7A(1)(a)",
+          "rules2021:4-7A(2)(a)",
+          "rules2021:4-7A(2)(b)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(2)",
+            "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(3)",
+            "quote": "An establishment must have handwashing and toilet facilities."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)",
+            "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(a)",
+            "quote": "to provide:"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(a)(i)",
+            "quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(a)(ii)",
+            "quote": "adequate lighting and ventilation; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(b)",
+            "quote": "to facilitate effective cleaning; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(c)",
+            "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(d)",
+            "quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(e)",
+            "quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(4)(f)",
+            "quote": "to allow samples of prescribed plants and plant products to be taken."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(5)",
+            "quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-2(6)",
+            "quote": "the establishment and its equipment and facilities must be designed and constructed to allow the screening to be carried out."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-6",
+            "quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(1)",
+            "quote": "A registered establishment must be kept in a condition:"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(1)(a)",
+            "quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(a)",
+            "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(b)",
+            "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ATOM",
+      "atom_id": "A1"
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [],
+    "notes": [
+      "The CP criterion is a single broad requirement. Multiple legal provisions elaborate this requirement but do not create independent cumulative obligations. Therefore, a single satisfaction atom is used with multiple legal bases.",
+      "Candidates with contract_eligible=false were excluded from basis_candidate_ids as required.",
+      "No ALL/ANY structure is used because the validated RuleSetRelation indicates SUPPORTS_SAME_CRITERION and SPECIALIZES relationships, not cumulative or alternative connectors."
+    ]
+  }
+}

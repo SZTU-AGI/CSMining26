@@ -1,0 +1,348 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-036",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly describes all important features of the registered area and adjoining sites, including buildings, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly provides the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P19",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Cunderdin_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and infrastructure is designed and maintained to support wheat export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly addresses system of controls for hygiene (s4-7A(2)(a)), includes procedures for cleaning, corrective actions, and recent inspection confirms clean condition."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P40",
+        "4_Farm-Management-Plan_Cunderdin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, and the Farm Management Plan documents waste management arrangements."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The plan is tailored to the establishment's operations (nut processing and packing for export walnuts), includes detailed procedures for each area, and recent inspection confirms effectiveness."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18",
+        "7_Bait_Station_Map_Cunderdin_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "Evidence shows a deficiency: no formal pest control program documented, no bait station map, monitoring schedule, or corrective action procedures. Although a bait station map exists, the HACCP plan explicitly notes the lack of a formal program, so the system of controls for pests is not established."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan states no formal pest control program is documented, indicating the system is not effective for the operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence indicates records are maintained on site and in the business management system, retained for two years, and are subject to audit, implying they are accurate, legible, and auditable. The plan references compliance with rules requiring English and dated records."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Recent internal inspection found all areas clean and hygienic, and cleaning procedures are in place for the receival/intake area."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan notes no formal pest control program, so the establishment condition does not ensure goods are not likely to be infested by pests."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "No evidence that pest control stations and traps are fit for purpose and in good working order; the HACCP plan indicates lack of a formal program."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "No evidence regarding chemical storage to prevent contamination of plant products; the HACCP plan deficiency indicates lack of pest control, but no specific chemical storage evidence."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "No evidence regarding chemical storage to prevent contamination of preparation areas; the HACCP plan deficiency indicates lack of pest control, but no specific chemical storage evidence."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34",
+        "9_Traceability_Records_Cunderdin_Grain_Pty_Ltd_036.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer records but does not specifically demonstrate tracing from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P15",
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence describes product flow and record retention but does not explicitly confirm traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Cunderdin_Grain_Pty_Ltd_036.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but lacks detail on tracing to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence mentions record keeping but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P15"
+      ],
+      "reason": "Evidence describes product flow but does not provide a formal product flow chart demonstrating maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_36_Cunderdin_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence mentions blending in scope but does not describe a system for managing goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Cunderdin_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Evidence shows hygiene maintenance but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P15"
+      ],
+      "reason": "Evidence mentions segregation but does not explicitly address minimizing risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P15"
+      ],
+      "reason": "Evidence describes bulk dispatch but does not mention packaging requirements."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, covering receival, storage, treatment, dispatch, and audit reports."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence mentions treatment records but does not specifically address records for rejected or failed export inspection goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_36_Cunderdin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states operations are within registered scope but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-036/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-036/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-036/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-036/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-036/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 9,
+    "0": 30,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "freca-core-production-repair-policy-v1",
+  "policy_id": "PRODUCTION_REPAIR_POLICY_V1",
+  "frozen_before_full_4100_run": true,
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "selected_repair_primitive": {
+    "name": "TOP_K_NEXT_BATCH_EXPANSION",
+    "action_type": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "parent_alignment_budget": 24,
+    "selection_order": "PERSISTED_CANDIDATE_UNIVERSE_ORDER",
+    "query_modified": false,
+    "new_channel_added": false,
+    "semantic_relation_not_forced_by_goal_direction": true
+  },
+  "disabled_experimental_arm": {
+    "name": "CHANNEL_COMPLETION_ONLY",
+    "production_enabled": false,
+    "reason": "Across three frozen CP12 pilots it expanded retrieval space but produced zero truth-bearing semantic signal under equal parent budget."
+  },
+  "repair_state_machine": {
+    "max_rounds": 2,
+    "stop_evaluated_after_complete_round_only": true,
+    "immediate_stop_reasons": [
+      "NO_NEW_ARTIFACT",
+      "NO_NEW_EVIDENCE_OR_ALIGNMENT",
+      "NO_GOAL_STATE_CHANGE",
+      "REPEATED_EVALUATION_HASH",
+      "NO_NOVEL_ACTION",
+      "NEW_BLOCKING_CONFLICT",
+      "BUDGET_EXHAUSTED",
+      "TOOL_OR_MODEL_FAILURE_WITHOUT_FALLBACK"
+    ],
+    "substantive_change_does_not_override_no_goal_state_change": true,
+    "history_uses_executed_actions_only": true
+  },
+  "pilot_evidence": {
+    "S023_RE_NSW_2020_0144": {
+      "arm_a": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 4,
+        "off_goal_verified_signal_gain": 4,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 20,
+        "tokens": 19809
+      },
+      "arm_b": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 0,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 0,
+        "tokens": 16687
+      }
+    },
+    "S038_RE_NSW_2021_0177": {
+      "arm_a": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 4,
+        "off_goal_verified_signal_gain": 4,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 20,
+        "tokens": 21742
+      },
+      "arm_b": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 0,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 0,
+        "tokens": 16941
+      }
+    },
+    "S065_RE_NSW_2021_0222": {
+      "arm_a": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 1,
+        "off_goal_verified_signal_gain": 1,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 20,
+        "tokens": null
+      },
+      "arm_b": {
+        "goal_aligned_verified_signal_gain": 0,
+        "verified_signal_gain": 0,
+        "resolved_decisive_goal_count": 0,
+        "proof_blocker_delta": 0,
+        "candidate_disposition_gain": 0,
+        "tokens": null
+      }
+    }
+  },
+  "interpretation": "NEXT_BATCH is retained as the only bounded production repair primitive because it consistently produced validated information/disposition gain while CHANNEL_COMPLETION produced no semantic signal. This is a relative selection, not evidence that repair resolves decisive goals. The D8.10 stop gate remains authoritative.",
+  "manifest_sha256": "sha256:f79a84e513221f2dbb10157ca1363aa1f5d0ed99fc02d84619f986a266760093"
+}

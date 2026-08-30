@@ -1,0 +1,79 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-3B",
+        "rules2021:3-3B(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "to the next premises which they are transferred to",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3B",
+          "role": "RELATION",
+          "quote": "Prescribed plants and plant products prepared at an accredited property (the relevant property) must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3B(c)",
+          "role": "RELATION",
+          "quote": "(c) to the accredited property or registered establishment to which they are transferred from the relevant property."
+        }
+      ],
+      "reason": "3-3B(c) is a specific sub-requirement of the general tracing requirement in 3-3B, providing the exact destination for tracing."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-7B(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "to the next premises which they are transferred to",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "role": "RELATION",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(c)",
+          "role": "RELATION",
+          "quote": "(c) to the premises to which they are transferred from the registered establishment."
+        }
+      ],
+      "reason": "4-7B(c) is a specific sub-requirement of the general tracing requirement in 4-7B, providing the exact destination for tracing."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:3-3B(c)",
+        "rules2021:4-7B(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "to the next premises which they are transferred to",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3B(c)",
+          "role": "RELATION",
+          "quote": "(c) to the accredited property or registered establishment to which they are transferred from the relevant property."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(c)",
+          "role": "RELATION",
+          "quote": "(c) to the premises to which they are transferred from the registered establishment."
+        }
+      ],
+      "reason": "Both provisions operationalise the same CP requirement of tracing to the next premises, but apply to different types of originating properties (accredited property vs registered establishment). They are not cumulative requirements for a single entity; rather, they are alternative expressions depending on the context."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms consist of two parallel sets: one for accredited properties (3-3B and 3-3B(c)) and one for registered establishments (4-7B and 4-7B(c)). Within each set, the paragraph is a specialization of the section. Across the sets, the specific destination paragraphs support the same CP criterion but apply to different contexts, so they are not cumulative."
+}

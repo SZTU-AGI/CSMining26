@@ -1,0 +1,138 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP6",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "Notification has been provided to the department of a change in a person who manages or controls export operations carried out at the accredited property.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "Where required, notification has been provided to the department of relevant changes to the registration, including the business structure, persons in management and control, trading name, address and contact details.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-15(a)"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "persons in management and control"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(a)",
+          "quote": "a change in a person who manages or controls export operations carried out at the accredited property"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A2-G4-1",
+      "atom_id": "A2",
+      "proposition_to_establish": "Notification has been provided to the department of a change in the trading name, business address or contact details of the manager.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "Where required, notification has been provided to the department of relevant changes to the registration, including the business structure, persons in management and control, trading name, address and contact details.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-15(d)"
+      ],
+      "source_group_ids": [
+        "G4"
+      ],
+      "seed_relation": "CUMULATIVE_MEMBER",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "trading name, address and contact details"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(d)",
+          "quote": "there is a change in the trading name, business address or contact details of the manager"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER3",
+      "facet_seed_id": "FS-A3-G4-1",
+      "atom_id": "A3",
+      "proposition_to_establish": "Notification has been provided to the department of the manager beginning restructuring (within the meaning of section 453A of the Act).",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "Where required, notification has been provided to the department of relevant changes to the registration, including the business structure, persons in management and control, trading name, address and contact details.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-15(ia)"
+      ],
+      "source_group_ids": [
+        "G4"
+      ],
+      "seed_relation": "CUMULATIVE_MEMBER",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "business structure"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-15(ia)",
+          "quote": "begins restructuring (within the meaning of section 453A of that Act);"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-15(a)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A2-G4-1",
+      "atom_id": "A2",
+      "source_group_ids": [
+        "G4"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-15(d)"
+      ],
+      "seed_relation": "CUMULATIVE_MEMBER"
+    },
+    {
+      "facet_seed_id": "FS-A3-G4-1",
+      "atom_id": "A3",
+      "source_group_ids": [
+        "G4"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-15(ia)"
+      ],
+      "seed_relation": "CUMULATIVE_MEMBER"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

@@ -1,0 +1,563 @@
+{
+  "schema": "freca-core-end-to-end-semantic-replay-v1",
+  "case_id": "RE-NSW-2020-0144",
+  "cp_id": "CP12",
+  "proof": {
+    "schema": "freca-core-proof-standard-v1",
+    "cp_id": "CP12",
+    "proof_standard_templates": {
+      "AUDIT_SUFFICIENT": {
+        "proof_standard_id": "proof-audit-sufficient-v1",
+        "standard_kind": "AUDIT_SUFFICIENT",
+        "require_relevance": true,
+        "require_identity_match": true,
+        "require_temporal_match": true,
+        "require_reliability_gate": true,
+        "require_coverage_gate": true,
+        "contradiction_policy": "PRESERVE_BOTH"
+      },
+      "EXPLICIT_VIOLATION": {
+        "proof_standard_id": "proof-explicit-violation-v1",
+        "standard_kind": "EXPLICIT_VIOLATION",
+        "require_relevance": true,
+        "require_identity_match": true,
+        "require_temporal_match": true,
+        "require_reliability_gate": true,
+        "require_coverage_gate": true,
+        "contradiction_policy": "PRESERVE_BOTH"
+      }
+    },
+    "coverage_complete": false,
+    "requirement_reports": [
+      {
+        "requirement_id": "ER1",
+        "statement_id": "stmt-er1",
+        "atom_id": "A1",
+        "decisiveness": "DECISIVE",
+        "raw_state": "TRUE",
+        "accepted_state": "UNKNOWN",
+        "contradiction_state": "NONE",
+        "support_proof": {
+          "report_id": "proof-er1-support-v1",
+          "statement_id": "stmt-er1",
+          "requirement_id": "ER1",
+          "direction": "SUPPORT",
+          "proof_standard_id": "proof-audit-sufficient-v1",
+          "standard_kind": "AUDIT_SUFFICIENT",
+          "relevance_pass": true,
+          "identity_pass": true,
+          "temporal_pass": false,
+          "temporal_status": "UNRESOLVED",
+          "reliability_pass": false,
+          "reliability_status": "UNRESOLVED",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "CORRELATED_OR_UNKNOWN",
+          "accepted_direction": false,
+          "failure_codes": [
+            "TEMPORAL_ASSESSMENT_MISSING",
+            "INFORMATION_RELIABILITY_MISSING",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [
+            "1_Farm_23_Namoi_Grain_Trust.docx:P19#fc-a70cc4208a67119ac96f",
+            "1_Farm_23_Namoi_Grain_Trust.docx:T4:R2#fc-6a2012900f5ebba0792c",
+            "1_Farm_23_Namoi_Grain_Trust.docx:T4:R4#fc-910e71c30f28fdde1102",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12#fc-7cc5822e01141afcfa16",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P20#fc-7371e0ae7e44cfccecc2",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P22#fc-543d89ffd10c09123db4",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:T2:R2#fc-f8a78399ea6b9db4ed53",
+            "5_Farm-Site-Plan_Namoi_Grain_Trust.docx:P17#fc-37883bad8909cfc4f7b5"
+          ],
+          "basis_evidence_ids": [
+            "1_Farm_23_Namoi_Grain_Trust.docx:P19",
+            "1_Farm_23_Namoi_Grain_Trust.docx:T4:R2",
+            "1_Farm_23_Namoi_Grain_Trust.docx:T4:R4",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P20",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P22",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:T2:R2",
+            "5_Farm-Site-Plan_Namoi_Grain_Trust.docx:P17"
+          ],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 8,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "attack_proof": {
+          "report_id": "proof-er1-attack-v1",
+          "statement_id": "stmt-er1",
+          "requirement_id": "ER1",
+          "direction": "ATTACK",
+          "proof_standard_id": "proof-explicit-violation-v1",
+          "standard_kind": "EXPLICIT_VIOLATION",
+          "relevance_pass": false,
+          "identity_pass": false,
+          "temporal_pass": false,
+          "temporal_status": "FAIL",
+          "reliability_pass": false,
+          "reliability_status": "FAIL",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "NOT_REQUIRED",
+          "accepted_direction": false,
+          "failure_codes": [
+            "NO_EXPLICIT_VIOLATION_BASIS",
+            "NO_TEMPORAL_BASIS_ROWS",
+            "NO_RELIABILITY_BASIS_ROWS",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [],
+          "basis_evidence_ids": [],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 0,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "failure_codes": [
+          "TEMPORAL_ASSESSMENT_MISSING",
+          "INFORMATION_RELIABILITY_MISSING",
+          "COVERAGE_INCOMPLETE",
+          "NO_EXPLICIT_VIOLATION_BASIS",
+          "NO_TEMPORAL_BASIS_ROWS",
+          "NO_RELIABILITY_BASIS_ROWS"
+        ],
+        "proof_standard_status": "UNRESOLVED"
+      },
+      {
+        "requirement_id": "ER2",
+        "statement_id": "stmt-er2",
+        "atom_id": "A1",
+        "decisiveness": "DECISIVE",
+        "raw_state": "TRUE",
+        "accepted_state": "UNKNOWN",
+        "contradiction_state": "NONE",
+        "support_proof": {
+          "report_id": "proof-er2-support-v1",
+          "statement_id": "stmt-er2",
+          "requirement_id": "ER2",
+          "direction": "SUPPORT",
+          "proof_standard_id": "proof-audit-sufficient-v1",
+          "standard_kind": "AUDIT_SUFFICIENT",
+          "relevance_pass": true,
+          "identity_pass": true,
+          "temporal_pass": false,
+          "temporal_status": "UNRESOLVED",
+          "reliability_pass": false,
+          "reliability_status": "UNRESOLVED",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "CORRELATED_OR_UNKNOWN",
+          "accepted_direction": false,
+          "failure_codes": [
+            "TEMPORAL_ASSESSMENT_MISSING",
+            "INFORMATION_RELIABILITY_MISSING",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P20#fc-7371e0ae7e44cfccecc2",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P22#fc-543d89ffd10c09123db4",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P35#fc-39d45acafc09ecb02d31",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P21#fc-9ed45481ab2a9d30b576",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P42#fc-f04ed056f85d5892bc8b",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P43#fc-7c7e57eee050f127ad94"
+          ],
+          "basis_evidence_ids": [
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P20",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P22",
+            "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P35",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P21",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P42",
+            "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P43"
+          ],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 6,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "attack_proof": {
+          "report_id": "proof-er2-attack-v1",
+          "statement_id": "stmt-er2",
+          "requirement_id": "ER2",
+          "direction": "ATTACK",
+          "proof_standard_id": "proof-explicit-violation-v1",
+          "standard_kind": "EXPLICIT_VIOLATION",
+          "relevance_pass": false,
+          "identity_pass": false,
+          "temporal_pass": false,
+          "temporal_status": "FAIL",
+          "reliability_pass": false,
+          "reliability_status": "FAIL",
+          "coverage_pass": false,
+          "contradiction_state": "NONE",
+          "contradiction_policy": "PRESERVE_BOTH",
+          "source_independence_state": "NOT_REQUIRED",
+          "accepted_direction": false,
+          "failure_codes": [
+            "NO_EXPLICIT_VIOLATION_BASIS",
+            "NO_TEMPORAL_BASIS_ROWS",
+            "NO_RELIABILITY_BASIS_ROWS",
+            "COVERAGE_INCOMPLETE"
+          ],
+          "basis_artifact_ids": [],
+          "basis_evidence_ids": [],
+          "explicit_violation_candidate_ids": [],
+          "gate_inputs": {
+            "basis_count": 0,
+            "coverage_required": true,
+            "lineage_independence_assessed": false
+          }
+        },
+        "failure_codes": [
+          "TEMPORAL_ASSESSMENT_MISSING",
+          "INFORMATION_RELIABILITY_MISSING",
+          "COVERAGE_INCOMPLETE",
+          "NO_EXPLICIT_VIOLATION_BASIS",
+          "NO_TEMPORAL_BASIS_ROWS",
+          "NO_RELIABILITY_BASIS_ROWS"
+        ],
+        "proof_standard_status": "UNRESOLVED"
+      }
+    ],
+    "evaluation_locked": false,
+    "internal_outcome": "UNKNOWN",
+    "submission_label": null,
+    "notes": [
+      "Missing temporal, InformationReliability, or Coverage artifacts fail their typed gates; no inference is used to fill those gaps.",
+      "SUPPORT and ATTACK are evaluated independently; PRESERVE_BOTH never majority-votes contradictory evidence.",
+      "This substrate does not apply BurdenRule and cannot produce final 1/0/N/A."
+    ],
+    "bundle_sha256": "sha256:89a3c6b177fd34745dedea1e0edb061c845c01cdd989c7adcfa29609517bae27",
+    "coverage_source_sha256": "sha256:2ed2ce4c57600ec9301aa8fb70079951542fac7f852f309813d58d0e93c28890",
+    "post_proof_argument": {
+      "status": "RUN",
+      "accepted_argument_evaluation": {
+        "diagnostic_only": false,
+        "uses_requirement_accepted_state": true,
+        "benchmark_statement_id": "stmt-a1-benchmark",
+        "state": "UNKNOWN",
+        "satisfaction_ast_state": "UNKNOWN",
+        "satisfaction_ast_reason_codes": [],
+        "atom_evaluations": {
+          "A1": {
+            "benchmark_statement_id": "stmt-a1-benchmark",
+            "state": "UNKNOWN",
+            "standing_pro_argument_ids": [],
+            "standing_con_argument_ids": [],
+            "conflicted_argument_ids": [],
+            "undecided_argument_ids": [
+              "arg-a1-benchmark-pro",
+              "arg-a1-er1-con",
+              "arg-a1-er2-con"
+            ]
+          }
+        },
+        "standing_pro_argument_ids": [],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [],
+        "undecided_argument_ids": [
+          "arg-a1-benchmark-pro",
+          "arg-a1-er1-con",
+          "arg-a1-er2-con"
+        ],
+        "argument_instances": [
+          {
+            "argument_id": "arg-a1-benchmark-pro",
+            "scheme": "BENCHMARK_OPERATIONALIZATION",
+            "direction": "PRO",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              },
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er1-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er2-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "UNDECIDED",
+            "standing_reason_codes": [
+              "PREMISE_UNKNOWN_OR_ASSUMPTION_UNRESOLVED"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "UNKNOWN"
+              }
+            ]
+          }
+        ]
+      },
+      "raw_shadow_evaluation": {
+        "diagnostic_only": true,
+        "uses_requirement_raw_state": true,
+        "must_not_drive_final_outcome": true,
+        "benchmark_statement_id": "stmt-a1-benchmark",
+        "state": "TRUE",
+        "satisfaction_ast_state": "TRUE",
+        "satisfaction_ast_reason_codes": [],
+        "atom_evaluations": {
+          "A1": {
+            "benchmark_statement_id": "stmt-a1-benchmark",
+            "state": "TRUE",
+            "standing_pro_argument_ids": [
+              "arg-a1-benchmark-pro"
+            ],
+            "standing_con_argument_ids": [],
+            "conflicted_argument_ids": [],
+            "undecided_argument_ids": []
+          }
+        },
+        "standing_pro_argument_ids": [
+          "arg-a1-benchmark-pro"
+        ],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [],
+        "undecided_argument_ids": [],
+        "argument_instances": [
+          {
+            "argument_id": "arg-a1-benchmark-pro",
+            "scheme": "BENCHMARK_OPERATIONALIZATION",
+            "direction": "PRO",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "IN",
+            "standing_reason_codes": [
+              "ALL_PREMISES_STANDING"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              },
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "POSITIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er1-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "OUT",
+            "standing_reason_codes": [
+              "ORDINARY_PREMISE_FAILED",
+              "stmt-er1"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er1",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              }
+            ]
+          },
+          {
+            "argument_id": "arg-a1-er2-con",
+            "scheme": "RULE_VIOLATION",
+            "direction": "CON",
+            "conclusion_statement_id": "stmt-a1-benchmark",
+            "standing": "OUT",
+            "standing_reason_codes": [
+              "ORDINARY_PREMISE_FAILED",
+              "stmt-er2"
+            ],
+            "premises": [
+              {
+                "statement_id": "stmt-er2",
+                "required_polarity": "NEGATIVE",
+                "premise_role": "ORDINARY",
+                "observed_state": "TRUE"
+              }
+            ]
+          }
+        ]
+      },
+      "internal_outcome": "UNKNOWN",
+      "submission_label": null
+    }
+  },
+  "argument_evaluation_bundle": {
+    "schema": "freca-core-argument-evaluation-bundle-v1",
+    "case_uid": "RE-NSW-2020-0144",
+    "cp_id": "CP12",
+    "evaluations": [
+      {
+        "schema": "freca-core-argument-evaluation-adapter-v1",
+        "case_uid": "RE-NSW-2020-0144",
+        "cp_id": "CP12",
+        "interpretation_id": "core-single-current-contract",
+        "applicability_state": "TRUE",
+        "non_applicability_state": "FALSE",
+        "satisfaction_state": "UNKNOWN",
+        "violation_state": "UNKNOWN",
+        "satisfaction_four_valued_state": "UNKNOWN",
+        "atom_four_valued_states": {
+          "A1": {
+            "support": false,
+            "attack": false,
+            "state": "UNKNOWN",
+            "decisive_requirement_ids": [
+              "ER1",
+              "ER2"
+            ],
+            "reason_codes": []
+          }
+        },
+        "satisfaction_operator_support": {
+          "observed_supported_ops": [
+            "CONST",
+            "ATOM",
+            "ALL"
+          ],
+          "unsupported_ops_are_unknown": true
+        },
+        "accepted_argument_state": "UNKNOWN",
+        "standing_pro_argument_ids": [],
+        "standing_con_argument_ids": [],
+        "conflicted_argument_ids": [],
+        "undecided_argument_ids": [
+          "arg-a1-benchmark-pro",
+          "arg-a1-er1-con",
+          "arg-a1-er2-con"
+        ],
+        "unresolved_reason_codes": [
+          "ACCEPTED_ARGUMENT_UNDECIDED",
+          "NO_BURDEN_FALLBACK",
+          "SATISFACTION_NOT_PROVEN",
+          "VIOLATION_NOT_PROVEN"
+        ],
+        "internal_outcome": "UNKNOWN",
+        "evaluation_locked": false,
+        "possible_outcomes_under_unknowns": [
+          "PROVEN_COMPLIANT",
+          "PROVEN_NON_COMPLIANT",
+          "PROVEN_NOT_APPLICABLE",
+          "NOT_DEMONSTRATED",
+          "CONFLICTING"
+        ],
+        "fold_gate_report": {
+          "report_id": "fold-gate-0892a740fbbf6bab0b44",
+          "positive_non_applicability_proven": false,
+          "na_countercheck_passed": false,
+          "activity_counterevidence_standing": false,
+          "applicability_standing": true,
+          "false_trigger_proven": false,
+          "vacuous_satisfaction_proven": false,
+          "vacuous_satisfaction_basis_id": null,
+          "residual_decisive_requirement_ids": [],
+          "all_decisive_requirements_meet_standard": false,
+          "decisive_rebuttal_standing": false,
+          "decisive_attack_or_violation_standing": false,
+          "insufficient_evidence_benchmark_fallback_permitted": false,
+          "supporting_statement_ids": [],
+          "blocking_statement_ids": [],
+          "proof_gate_report_ids": [
+            "proof-er1-attack-v1",
+            "proof-er1-support-v1",
+            "proof-er2-attack-v1",
+            "proof-er2-support-v1"
+          ],
+          "coverage_ids": [
+            "sha256:2ed2ce4c57600ec9301aa8fb70079951542fac7f852f309813d58d0e93c28890"
+          ],
+          "burden_application_id": null,
+          "adapter_limitations": [
+            "NON_CONST_APPLICABILITY_REQUIRES_SEPARATE_SCOPE_EVALUATOR",
+            "NON_CONST_NON_APPLICABILITY_REQUIRES_NA_COUNTERCHECK",
+            "BURDEN_RULE_NOT_INFERRED",
+            "FALSE_TRIGGER_NOT_INFERRED",
+            "VACUOUS_SATISFACTION_NOT_INFERRED"
+          ],
+          "report_sha256": "sha256:e7338d10978d2d5a00909b4ff8c43b0fcc68dc76335d55b3b96352ae7f9bcd10"
+        },
+        "submission_label": null,
+        "answer_comparator_used": false,
+        "legacy_candidate_label_consumed": false,
+        "evaluation_sha256": "sha256:2ba778f855ce5fa33b307d1d0dca2ae637ac14efd403092429490c35a4cbe2db"
+      }
+    ],
+    "cross_interpretation_status": "ALL_UNKNOWN",
+    "common_internal_outcome": "UNKNOWN",
+    "archived_interpretation_ids": [],
+    "submission_label": null,
+    "answer_comparator_used": false,
+    "bundle_sha256": "sha256:56102dfc3964f6f007d277f2b15266fe1b4d6a70be15c066445355cf3d2a7fef"
+  },
+  "fold_decision": {
+    "label": "0",
+    "finality": "UNKNOWN_BENCHMARK_FALLBACK",
+    "benchmark_fallback": true,
+    "forced": true,
+    "system_forced": false,
+    "branch_fold_results": [
+      {
+        "label": "0",
+        "finality": "UNKNOWN_BENCHMARK_FALLBACK",
+        "internal_outcome": "UNKNOWN",
+        "assurance_disposition": "EVIDENCE_LIMITATION",
+        "benchmark_fallback": true,
+        "forced": true,
+        "system_forced": false,
+        "fold_reason_code": "UNKNOWN_BENCHMARK_FALLBACK",
+        "fold_policy_version": "FOLD-POLICY-v3",
+        "fold_output_sha256": "sha256:e8c96d573ec5340fcbc7b568e1be1ef18887f78f1ef9d45505852d81bfcd3633"
+      }
+    ],
+    "fold_reason_code": "SAME_LABEL_ACROSS_VALID_BRANCHES",
+    "fold_policy_version": "FOLD-POLICY-v3",
+    "fold_output_sha256": "sha256:655d5c158391e3fc2f5dd04b8b0c6259e8d742d4ce9dc958dcd61daa5777c3e3"
+  },
+  "api_called": false,
+  "answer_comparator_used": false
+}

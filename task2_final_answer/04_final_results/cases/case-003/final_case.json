@@ -1,0 +1,344 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-003",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P4",
+        "4_Farm-Management-Plan_Grampians_Grain_Trust.docx:P4",
+        "2_HACCPPlan_03_Grampians_Grain_Trust.docx:P5"
+      ],
+      "reason": "Evidence shows registration for barley and canola, but HACCP plan mentions canola and linseed at a different facility (RE-VIC-1882, Kwinana) and hygiene plan mentions mangoes, indicating operations outside registered scope or inconsistent registration details."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P4",
+        "4_Farm-Management-Plan_Grampians_Grain_Trust.docx:P4",
+        "2_HACCPPlan_03_Grampians_Grain_Trust.docx:P5"
+      ],
+      "reason": "No evidence explicitly confirms registration is not suspended at the time of operations. Inconsistencies in registration details (RE numbers, commodities) raise doubt about current registration status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Grain_Trust.docx:P7",
+        "4_Farm-Management-Plan_Grampians_Grain_Trust.docx:P4"
+      ],
+      "reason": "Site plan mentions important features but does not clearly delineate the registered area. Registration details are inconsistent (RE-VIC-2020-0093 vs RE-VIC-1882), so the registered area is not established."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Grain_Trust.docx:P7",
+        "4_Farm-Management-Plan_Grampians_Grain_Trust.docx:P12"
+      ],
+      "reason": "Site plan references important features but does not provide details of buildings, facilities, and services. Management plan states facilities exist but lacks specifics. Inconsistent registration details undermine evidence."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Grain_Trust.docx:P7"
+      ],
+      "reason": "Site plan mentions important features but does not provide a layout of areas where export operations occur, permanent fixtures, or equipment layout. No evidence of such a layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred, so notification was not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred, so notification was not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_03_Grampians_Grain_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations were carried out, so no notice/approval was required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations were carried out, so no notice/approval was required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_03_Grampians_Grain_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Grampians_Grain_Trust.docx:P12",
+        "5_Farm-Site-Plan_Grampians_Grain_Trust.docx:P10"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the Site Plan references Rule s4-2 for buildings, equipment, facilities and services."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8"
+      ],
+      "reason": "Evidence shows a hygiene plan exists but does not demonstrate an implemented system of controls for hygiene at the establishment."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8"
+      ],
+      "reason": "No evidence of a system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8"
+      ],
+      "reason": "No evidence that the hygiene and waste control system is effective for the export operations."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Grain_Trust.docx:P3"
+      ],
+      "reason": "Evidence mentions a pest control system overview but lacks details on pest and contaminant control measures such as bait stations."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Grain_Trust.docx:P3"
+      ],
+      "reason": "No evidence that the pest control system is effective for the type of export operations."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for two years, but does not specifically demonstrate retention of hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P35"
+      ],
+      "reason": "No evidence that records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P27"
+      ],
+      "reason": "Evidence mentions cleaning procedures but does not establish that all areas are currently clean and hygienic."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8"
+      ],
+      "reason": "No evidence that the establishment condition prevents pest infestation or contamination."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Grain_Trust.docx:P3"
+      ],
+      "reason": "No evidence that pest control stations and traps are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence regarding chemical storage to prevent contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence regarding chemical storage to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Grampians_Grain_Trust_003.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer records but does not specifically demonstrate tracing from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Grampians_Grain_Trust_003.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not specifically demonstrate tracing while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Grampians_Grain_Trust_003.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not provide details of tracing to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Grampians_Grain_Trust_003.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not include a product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding management of goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Grain_Trust.docx:P8"
+      ],
+      "reason": "Evidence mentions maintaining clean and hygienic condition but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding minimising the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Grampians_Grain_Trust_003.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not demonstrate compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records retained for minimum two years but does not specify all required record types (receival, product movement, treatment, transfer, dispatch, transport unit approval)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding records for rejected or failed export inspection goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_03_Grampians_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding meeting importing country requirements."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-003/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-003/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-003/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-003/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-003/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 38,
+    "N/A": 2,
+    "1": 1
+  }
+}

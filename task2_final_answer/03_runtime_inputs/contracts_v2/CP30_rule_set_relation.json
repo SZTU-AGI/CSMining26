@@ -1,0 +1,55 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-7B(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "while they are at the registered establishment",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "role": "RELATION",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(b)",
+          "role": "RELATION",
+          "quote": "(b) while they are at the registered establishment; and"
+        }
+      ],
+      "reason": "4-7B(b) is a specific sub-requirement of the general tracing requirement in 4-7B, narrowing the temporal scope to 'while they are at the registered establishment'."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-7B(b)",
+        "rules2021:4-8"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "while they are at the registered establishment",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(b)",
+          "role": "RELATION",
+          "quote": "while they are at the registered establishment"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8",
+          "role": "RELATION",
+          "quote": "The integrity of prescribed plants or plant products prepared at a registered establishment must be ensured while the plants or plant products are at the establishment."
+        }
+      ],
+      "reason": "Both provisions address the same temporal scope of the criterion, with 4-7B(b) focusing on traceability and 4-8 on integrity, jointly supporting the requirement that controls apply while plants/products are at the establishment."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "4-7B(b) specializes the general tracing requirement of 4-7B. 4-7B(b) and 4-8 support the same criterion by addressing traceability and integrity respectively within the same temporal scope."
+}

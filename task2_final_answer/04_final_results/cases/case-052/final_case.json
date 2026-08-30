@@ -1,0 +1,362 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-052",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states that the establishment is registered to conduct export operations for apples and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates the establishment is registered and operating within its registered scope; no evidence of suspension is present, and the registration is current."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The management plan provides the registered address and RE number, and the site plan references the registered area, indicating the area of the premises that is registered."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The management plan states the establishment has all necessary buildings, equipment, facilities, and services, and the site plan references important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan includes layout and important features of the registered area, covering the required layout of areas and equipment."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on alterations/extensions/rearrangements occurring; evidence indicates no such changes occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations/extensions/rearrangements occurring; evidence indicates no such changes occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P12",
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence claims buildings/equipment/facilities are present, but there is a material contradiction: an extension to cold storage was completed without prior DAFF notification, which may affect compliance with registration conditions. Also, the evidence is inconsistent regarding the type of operations (apples vs berries vs pulses), so compliance is not established."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment. The checking point applies to all establishments, and absence of evidence means compliance is not established."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities. The checking point applies to all establishments, and absence of evidence means compliance is not established."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Evidence shows a hygiene plan and a recent inspection found clean conditions, but there is no specific evidence that the establishment is designed and constructed to facilitate effective cleaning. The plan describes procedures, not actual design/construction. Also, there is a material contradiction: the cold storage extension was done without notification, which may affect compliance."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Evidence shows a hygiene plan and a recent inspection found clean conditions, but there is no specific evidence that the establishment is designed and constructed to minimise contamination, infestation, and pest harbourage. The plan describes procedures, not actual design/construction. Also, there is a material contradiction: the cold storage extension was done without notification, which may affect compliance."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements. The checking point applies to all establishments, and absence of evidence means compliance is not established."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis. The checking point applies to all establishments, and absence of evidence means compliance is not established."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening operations or management of large contaminants. The checking point applies if screening is carried out; since the evidence does not confirm whether screening is carried out, and applicability is uncertain, the verdict is 0."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants. The checking point applies if screening is carried out; since the evidence does not confirm whether screening is carried out, and applicability is uncertain, the verdict is 0."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly addresses system of controls for hygiene (s4-7A(2)(a)) and includes procedures for cleaning, monitoring, and corrective actions. Recent internal inspection found all areas clean and hygienic, demonstrating implementation."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P16"
+      ],
+      "reason": "Evidence explicitly states that waste management procedures are NOT documented in the HACCP plan, and no waste streams, disposal methods, frequencies, or records are documented. This contradicts the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The hygiene system is documented and includes procedures for cleaning, monitoring, and corrective actions. Recent inspection confirmed effectiveness for the export operations (pulse cleaning, storage, packing)."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_52_Manjimup_Horticulture_Exports_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence includes a pest control system overview and a pest control record, indicating a system for managing pests and contaminants, including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_52_Manjimup_Horticulture_Exports_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system is documented and includes bait station mapping and pest control records, demonstrating effectiveness for the export operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, including cleaning records and other export operation records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are maintained on site and in the business management system, retained for two years, and cleaning records are kept in paper and digital formats, implying they are dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Recent internal inspection found all areas clean and hygienic, and cleaning procedures are in place for storage areas, indicating appropriate condition for export operations."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P43",
+        "7_Bait_Station_Map_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P3"
+      ],
+      "reason": "Inspection found clean and hygienic conditions, and pest control measures are in place, supporting that goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The bait station map indicates a pest control system with bait stations, and the pest control record implies they are maintained and functional."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage procedures to prevent contamination of plant products. The HACCP plan lacks waste management, and no chemical storage documentation is provided."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage procedures to prevent contamination of preparation areas. The HACCP plan lacks waste management, and no chemical storage documentation is provided."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Manjimup_Horticulture_Exports_Pty_Ltd_052.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment but no specific records of traceability from the property of origin to receival. The traceability records file header indicates transfer records to next premises, but no evidence of incoming traceability from previous property."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Manjimup_Horticulture_Exports_Pty_Ltd_052.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not demonstrate a system for tracing products while at the establishment. No specific traceability records for internal movement or storage are provided."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Manjimup_Horticulture_Exports_Pty_Ltd_052.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence indicates transfer records to next premises exist, but the content of these records is not provided. Therefore, it cannot be established that traceability to the next premises is maintained."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P36",
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions records are maintained and product flow is described, but there is no explicit description of a system of controls for traceability and integrity, such as labelling or record keeping procedures."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow in text but does not provide a product flow chart. The checking point requires a chart, and text description is not sufficient."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence mentions corrective actions for cleaning deficiencies but does not address management of goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P33"
+      ],
+      "reason": "Evidence shows organic residue and flies in drain channels, indicating a risk of contamination/infestation. This contradicts the requirement to maintain phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not provide a system to prevent substitution or switching of goods. No specific controls are described."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes bulk dispatch but does not mention packaging requirements. No evidence of compliance with packaging standards is provided."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for two years, but does not specify the types of traceability records (receival, movement, treatment, transfer, dispatch, transport unit approval). The evidence is insufficient to confirm all required records are retained."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence mentions a Non-Conformance Register for cleaning deficiencies, but does not address records for rejected or failed export inspection goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable. No specific record samples are provided to verify these attributes."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for apples, but no evidence is provided that all importing country requirements are met. The checking point requires actual compliance, not just registration."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-052/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-052/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-052/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-052/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-052/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 14,
+    "N/A": 2,
+    "0": 25
+  }
+}

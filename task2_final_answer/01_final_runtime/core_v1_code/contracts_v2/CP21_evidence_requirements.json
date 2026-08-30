@@ -1,0 +1,59 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP21",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment has a system of controls in place that is effective for the type of export operations and activities conducted at the establishment.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

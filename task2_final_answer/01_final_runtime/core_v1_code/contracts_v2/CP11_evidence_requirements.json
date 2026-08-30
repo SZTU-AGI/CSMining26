@@ -1,0 +1,63 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP11",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment is designed, constructed and maintained to allow for the effective cleaning of buildings, equipment and facilities used to conduct export operations.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment is designed, constructed and maintained to allow for the effective cleaning of buildings, equipment and facilities used to conduct export operations.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The establishment is designed, constructed and maintained to allow for the effective cleaning of buildings, equipment and facilities used to conduct export operations."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "quote": "to facilitate effective cleaning; and"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

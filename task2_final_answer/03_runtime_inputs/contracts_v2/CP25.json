@@ -1,0 +1,3176 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP25",
+    "canonical_cp_id": "CP25",
+    "element": "Element-3",
+    "subelement": "3.5 Establishment condition – pest control",
+    "criterion": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+    "sheet": "All Elements",
+    "column": 25
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:2-2(2)",
+      "citation": "2-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [],
+      "own_text": "(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.0816535602961902,
+      "rrf_score": 0.0816535602961902,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 23.31480261197167,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 21.093277489600695,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 25.032827607581027,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 23.07116506255702,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 25.032827607581027,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 23.07116506255702,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(b)",
+      "citation": "4-7A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the establishment\nare not, or not likely to be, infested by pests or contaminated.",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.06480532786885246,
+      "rrf_score": 0.06480532786885246,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 51.393930125498535,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 55.20267007203915,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 8.484776524770801,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 63.68744659680995,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(1)(b)",
+      "citation": "3-3A(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A(1)",
+      "child_ids": [],
+      "own_text": "(b) that ensures that prescribed plants and plant products at the property are\nnot, or not likely to be, infested by pests or contaminated.",
+      "text": "3-3A Property must be kept in appropriate condition\n(1) An accredited property must be kept in a condition:\n(b) that ensures that prescribed plants and plant products at the property are\nnot, or not likely to be, infested by pests or contaminated.",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.05962305183037332,
+      "rrf_score": 0.05962305183037332,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 49.05363019635039,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 51.634178414306255,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 29,
+          "raw_score": 5.09814714943473,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 56.73232556374099,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(4)(a)",
+      "citation": "9-22(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(4)",
+      "child_ids": [],
+      "own_text": "(a) inspect wet stores or refrigerated or cold stores in or on the bulk vessel\nunless an authorised officer reasonably believes that these areas may have\nbecome infested by pests; or",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(4) An authorised officer need not:\n(a) inspect wet stores or refrigerated or cold stores in or on the bulk vessel\nunless an authorised officer reasonably believes that these areas may have\nbecome infested by pests; or",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.04043062200956938,
+      "rrf_score": 0.04043062200956938,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 21.23583346923017,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 24.013483530845185,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 24.013483530845185,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.04006291459960845,
+      "rrf_score": 0.04006291459960845,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 21.46685681161822,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 23.905836273495733,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 23.905836273495733,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(c)",
+      "citation": "2-2(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.035784147827264114,
+      "rrf_score": 0.035784147827264114,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 20.809241623416327,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 22.184639892605823,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 22.184639892605823,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(c)",
+      "citation": "2-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(c) are imported into Australian territory and held in bond at all times before\nbeing exported; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(c) are imported into Australian territory and held in bond at all times before\nbeing exported; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.03149801587301587,
+      "rrf_score": 0.03149801587301587,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 27.187263074567596,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 27.187263074567596,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)",
+      "citation": "2-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(f)(i)",
+        "rules2021:2-2(4)(f)(ii)",
+        "rules2021:2-2(4)(f)(iii)",
+        "rules2021:2-2(4)(f)(iv)",
+        "rules2021:2-2(4)(f)(v)"
+      ],
+      "own_text": "(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.031009615384615385,
+      "rrf_score": 0.031009615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 26.581936940254483,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 26.581936940254483,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(i)",
+      "citation": "9-23(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.030798389007344232,
+      "rrf_score": 0.030798389007344232,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 24.16724878870433,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 27.55752213726244,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)(a)",
+      "citation": "4-7A(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(1)",
+      "child_ids": [],
+      "own_text": "(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:\n(a) appropriate for the export operations carried out at the establishment and\nthe plants or plant products at the property; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.03057889822595705,
+      "rrf_score": 0.03057889822595705,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 8.654319669329023,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 25.203358199090083,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A",
+      "citation": "4-7A",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Establishment must be kept in appropriate condition",
+      "label": "4-7A",
+      "pages": [
+        47
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(2)"
+      ],
+      "own_text": "",
+      "text": "4-7A Establishment must be kept in appropriate condition\nEstablishment must be kept in appropriate condition",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.03009207275993712,
+      "rrf_score": 0.03009207275993712,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 9.938310129563789,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 24.207974304984607,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(1)",
+      "citation": "4-7A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(1)(b)"
+      ],
+      "own_text": "(1) A registered establishment must be kept in a condition:",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(1) A registered establishment must be kept in a condition:",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.030017921146953404,
+      "rrf_score": 0.030017921146953404,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 9.679931244001661,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 24.324279744694234,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)",
+      "citation": "2-2(4)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Division 1 Prescribed goods",
+      "label": "(g)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(g)(i)",
+        "rules2021:2-2(4)(g)(ii)"
+      ],
+      "own_text": "(g) are exported in a consignment of not more than:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nDivision 1 Prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(g) are exported in a consignment of not more than:",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.029877369007803793,
+      "rrf_score": 0.029877369007803793,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 25.05369025121157,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 25.05369025121157,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(a)",
+      "citation": "9-21(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        93
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(a) a marine surveyor’s certificate for the vessel was not\nissued by an accredited marine surveyor, or was\nobtained fraudulently;",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(a) a marine surveyor’s certificate for the vessel was not\nissued by an accredited marine surveyor, or was\nobtained fraudulently;",
+      "page": 93,
+      "page_end": 93,
+      "score": 0.029631255487269532,
+      "rrf_score": 0.029631255487269532,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 23.441392508993626,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 23.441392508993626,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(a)",
+      "citation": "4-7A(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(a) the establishment must be kept in a clean and hygienic condition\nappropriate for the export operations carried out at the establishment and\nthe kind of plants or plant products; and",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.02946912242686891,
+      "rrf_score": 0.02946912242686891,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 8.375442911361416,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 24.773557856741906,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(b)",
+      "citation": "4-7A(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(b) pests and contaminants at the establishment must be controlled in a manner\nthat is appropriate for the export operations and the kind of prescribed\nplants or plant products; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.029236022193768675,
+      "rrf_score": 0.029236022193768675,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.454484906085195,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 26.448435910204214,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2",
+      "citation": "2-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are taken not to be prescribed goods",
+      "label": "2-2",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-2(1)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(3)",
+        "rules2021:2-2(4)"
+      ],
+      "own_text": "",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nPlants and plant products that are taken not to be prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.02821939586645469,
+      "rrf_score": 0.02821939586645469,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 24.12203514279185,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 24.12203514279185,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)",
+      "citation": "9-23(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)",
+      "child_ids": [
+        "rules2021:9-23(1)(b)(i)",
+        "rules2021:9-23(1)(b)(ii)"
+      ],
+      "own_text": "(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:",
+      "text": "9-23 Requirements for approval of bulk vessel\n(1) An authorised officer must not approve a bulk vessel unless:\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.02813852813852814,
+      "rrf_score": 0.02813852813852814,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 23.79997000187933,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 24.009510792773593,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.027912386121341344,
+      "rrf_score": 0.027912386121341344,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 22.384517363878757,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 25.94463377246604,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(e)",
+      "citation": "2-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(e) are consigned to an external Territory for consumption in that Territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(e) are consigned to an external Territory for consumption in that Territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02782608695652174,
+      "rrf_score": 0.02782608695652174,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 24.106037465136726,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 24.106037465136726,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(b)",
+      "citation": "9-21(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        93
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "page": 93,
+      "page_end": 93,
+      "score": 0.027212143650499815,
+      "rrf_score": 0.027212143650499815,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 21.710486483343445,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 21.710486483343445,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-12(a)",
+      "citation": "3-12(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        40
+      ],
+      "parent_id": "rules2021:3-12",
+      "child_ids": [],
+      "own_text": "(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "text": "3-12 Other grounds for suspension of accreditation\nFor the purposes of paragraph 94(1)(h) of the Act, the following grounds for\nsuspending the accreditation of an accredited property are prescribed:\n(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "page": 40,
+      "page_end": 40,
+      "score": 0.026736111111111113,
+      "rrf_score": 0.026736111111111113,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 25.1297748514345,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 20.398291644214474,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(b)",
+      "citation": "2-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.026547116736990152,
+      "rrf_score": 0.026547116736990152,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 23.375928897069436,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 23.375928897069436,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(1)(a)",
+      "citation": "9-31(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-31(1)",
+      "child_ids": [],
+      "own_text": "(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "text": "9-31 Requirements for approval of container\n(1) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products to which subsection (2) applies unless an\nauthorised officer is reasonably satisfied that the following requirements are met:\n(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.0264301860545992,
+      "rrf_score": 0.0264301860545992,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 21.7559289946947,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 21.55444444316823,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)(i)",
+      "citation": "2-2(4)(g)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(g)",
+      "child_ids": [],
+      "own_text": "(i) if the plants or plant products are in liquid form—10 litres; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(g) are exported in a consignment of not more than:\n(i) if the plants or plant products are in liquid form—10 litres; or",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.0261986301369863,
+      "rrf_score": 0.0261986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 23.2118022349022,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 23.2118022349022,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(v)",
+      "citation": "2-2(4)(f)(v)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(v)",
+      "pages": [
+        23,
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "page": 23,
+      "page_end": 24,
+      "score": 0.025859192525859193,
+      "rrf_score": 0.025859192525859193,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 23.122302259370247,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 23.122302259370247,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)(a)",
+      "citation": "9-31(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(3)",
+      "child_ids": [],
+      "own_text": "(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "text": "9-31 Requirements for approval of container\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:\n(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.025793650793650792,
+      "rrf_score": 0.025793650793650792,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 21.7559289946947,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 21.303780232333644,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-6(c)",
+      "citation": "7-6(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        61,
+        62
+      ],
+      "parent_id": "rules2021:7-6",
+      "child_ids": [],
+      "own_text": "(c) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country is present in\nAustralian territory.\nChapter 7 Export permits",
+      "text": "7-6 Other circumstances in which export permit may be revoked\nFor the purposes of paragraph 233(1)(g) of the Act, the following circumstances\nare prescribed in relation to an export permit for prescribed plants or plant\nproducts:\n(c) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country is present in\nAustralian territory.\nChapter 7 Export permits",
+      "page": 61,
+      "page_end": 62,
+      "score": 0.025278219395866455,
+      "rrf_score": 0.025278219395866455,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.342849082988783,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 22.891427374270936,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(a)",
+      "citation": "2-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(a) are stores for the use of passengers and crew on an aircraft or a vessel on a\nflight or voyage from Australian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(a) are stores for the use of passengers and crew on an aircraft or a vessel on a\nflight or voyage from Australian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.025206087507926443,
+      "rrf_score": 0.025206087507926443,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 23.05405487242847,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 23.05405487242847,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(d)",
+      "citation": "2-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(d) are imported into Australian territory and then exported in the same\ncovering in which, and with the same trade description with which, they\nwere imported; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(d) are imported into Australian territory and then exported in the same\ncovering in which, and with the same trade description with which, they\nwere imported; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02431476569407604,
+      "rrf_score": 0.02431476569407604,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 22.258916773452324,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 22.258916773452324,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(g)",
+      "citation": "7-3(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(g) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country covered by, or to be\ncovered by, the export permit is present in Australian territory.",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(g) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country covered by, or to be\ncovered by, the export permit is present in Australian territory.",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.024250440917107582,
+      "rrf_score": 0.024250440917107582,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.554406368533641,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 22.935987071793004,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(iii)",
+      "citation": "2-2(4)(f)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(iii) the area in or above the Bayu-Undan Gas Field within the meaning of\nthe Timor Sea Maritime Boundaries Treaty;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(iii) the area in or above the Bayu-Undan Gas Field within the meaning of\nthe Timor Sea Maritime Boundaries Treaty;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02402186421173763,
+      "rrf_score": 0.02402186421173763,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 22.206821805133668,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 22.206821805133668,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(iii)",
+      "citation": "9-23(1)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.023392612859097127,
+      "rrf_score": 0.023392612859097127,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 20.64307751290775,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 22.51900698727549,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)(b)",
+      "citation": "9-31(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(3)",
+      "child_ids": [],
+      "own_text": "(b) there are no residues of plants or plant products in or on the container that\nare likely to harbour pests that could infest the plants or plant products;",
+      "text": "9-31 Requirements for approval of container\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:\n(b) there are no residues of plants or plant products in or on the container that\nare likely to harbour pests that could infest the plants or plant products;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.022727272727272728,
+      "rrf_score": 0.022727272727272728,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 19.835190692974674,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 20.4928367634692,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-10(a)",
+      "citation": "3-10(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        38
+      ],
+      "parent_id": "rules2021:3-10",
+      "child_ids": [],
+      "own_text": "(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "text": "3-10 Other reasons for Secretary to make variation in relation to accreditation\nFor the purposes of paragraph 90(2)(d) of the Act, the following reasons for\nmaking a variation in relation to the accreditation of a property, or setting an\nearlier expiry date for the accreditation of a property, are prescribed:\n(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "page": 38,
+      "page_end": 38,
+      "score": 0.015873015873015872,
+      "rrf_score": 0.015873015873015872,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 25.1297748514345,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-14(a)",
+      "citation": "3-14(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        42
+      ],
+      "parent_id": "rules2021:3-14",
+      "child_ids": [],
+      "own_text": "(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "text": "3-14 Other grounds for revocation of accreditation\nFor the purposes of paragraph 102(1)(h) of the Act, the following grounds for\nrevoking the accreditation of an accredited property are prescribed:\n(a) importing country requirements relating to the export operations or\nprescribed plants or plant products covered by the accreditation are not\nbeing met or are not likely to be met;",
+      "page": 42,
+      "page_end": 42,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 25.1297748514345,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)",
+      "citation": "4-7A(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        47
+      ],
+      "parent_id": "rules2021:4-7A",
+      "child_ids": [
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "own_text": "(2) Without limiting subsection (1):",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):",
+      "page": 47,
+      "page_end": 47,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 8.000662046559441,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 7.663495817850128,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.611478303196635,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.5691128768783225,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "citation": "1-6(whether organic or inorganic, but not including a pest)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(whether organic or inorganic, but not including a pest)",
+      "pages": [
+        14
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(whether organic or inorganic, but not including a pest) that:",
+      "text": "1-6 Definitions\n(whether organic or inorganic, but not including a pest) that:",
+      "page": 14,
+      "page_end": 14,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.525450043755739,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)(i)",
+      "citation": "4-2(4)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)(a)",
+      "child_ids": [],
+      "own_text": "(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "text": "4-2 Construction, equipment and facilities\n(a) to provide:\n(i) areas that are suitable for assessments of prescribed plants or plant\nproducts to be carried out; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 22.539566877136664,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(b)",
+      "citation": "9-16(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(b) the pest is not a quarantine pest for the importing country; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(b) the pest is not a quarantine pest for the importing country; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.445502545355194,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-15(b)",
+      "citation": "2-15(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        32
+      ],
+      "parent_id": "rules2021:2-15",
+      "child_ids": [],
+      "own_text": "(b) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country is present in\nAustralian territory.",
+      "text": "2-15 Circumstances for refusing to issue government certificate\nFor the purposes of paragraph 67(3)(g) of the Act, each of the following\ncircumstances is prescribed in relation to an application for a government\ncertificate in relation to plants or plant products:\n(b) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country is present in\nAustralian territory.",
+      "page": 32,
+      "page_end": 32,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.342849082988783,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A",
+      "citation": "3-3A",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Property must be kept in appropriate condition",
+      "label": "3-3A",
+      "pages": [
+        35
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-3A(1)",
+        "rules2021:3-3A(2)"
+      ],
+      "own_text": "",
+      "text": "3-3A Property must be kept in appropriate condition\nProperty must be kept in appropriate condition",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.322875085128527,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(e)",
+      "citation": "7-3(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(e) the requirements of the Act in relation to the export of the plants or plant\nproducts have not been complied with, or are not likely to be complied\nwith before the plants or plant products are imported into the importing\ncountry covered by, or to be covered by, the export permit;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(e) the requirements of the Act in relation to the export of the plants or plant\nproducts have not been complied with, or are not likely to be complied\nwith before the plants or plant products are imported into the importing\ncountry covered by, or to be covered by, the export permit;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 21.68509327751264,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(c)",
+      "citation": "9-16(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.179377585282861,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(1)",
+      "citation": "3-3A(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        35
+      ],
+      "parent_id": "rules2021:3-3A",
+      "child_ids": [
+        "rules2021:3-3A(1)(a)",
+        "rules2021:3-3A(1)(b)"
+      ],
+      "own_text": "(1) An accredited property must be kept in a condition:",
+      "text": "3-3A Property must be kept in appropriate condition\n(1) An accredited property must be kept in a condition:",
+      "page": 35,
+      "page_end": 35,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.158491261646884,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-14(2)(b)",
+      "citation": "2-14(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        32
+      ],
+      "parent_id": "rules2021:2-14(2)",
+      "child_ids": [],
+      "own_text": "(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "text": "2-14 Changes that require applicant to give additional or corrected information\n(2) For the purposes of paragraph 66(1)(b) of the Act, each of the following changes\nis prescribed:\n(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "page": 32,
+      "page_end": 32,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 21.146067835831055,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-4(3)",
+      "citation": "2-4(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exceptions from condition requiring preparation at registered establishment",
+      "label": "(3)",
+      "pages": [
+        26
+      ],
+      "parent_id": "rules2021:2-4",
+      "child_ids": [
+        "rules2021:2-4(3)(a)",
+        "rules2021:2-4(3)(b)"
+      ],
+      "own_text": "(3) This subsection applies in relation to the following operations to prepare\nprescribed plants or plant products for export:",
+      "text": "2-4 Export of prescribed plants or plant products is prohibited unless prescribed\nExceptions from condition requiring preparation at registered establishment\n(3) This subsection applies in relation to the following operations to prepare\nprescribed plants or plant products for export:",
+      "page": 26,
+      "page_end": 26,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 5.829429747739857,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-2(1)(a)",
+      "citation": "12-2(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        119
+      ],
+      "parent_id": "rules2021:12-2(1)",
+      "child_ids": [],
+      "own_text": "(a) an application had been made to the Secretary under subsection 13A(1) of\nthe old Export Control (Plants) Order for a determination under\nsubsection 13A(6) of that Order that the establishment is a small\nhorticultural products registered establishment for a financial year; and",
+      "text": "12-2 Application for determination that establishment is a small horticultural\n(1) This section applies if:\n(a) an application had been made to the Secretary under subsection 13A(1) of\nthe old Export Control (Plants) Order for a determination under\nsubsection 13A(6) of that Order that the establishment is a small\nhorticultural products registered establishment for a financial year; and",
+      "page": 119,
+      "page_end": 119,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.653479976109795,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-16(2)(b)",
+      "citation": "2-16(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        33
+      ],
+      "parent_id": "rules2021:2-16(2)",
+      "child_ids": [],
+      "own_text": "(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "text": "2-16 Changes that require holder of government certificate to give additional or\n(2) For the purposes of paragraph 74(1)(b) of the Act, each of the following changes\nis prescribed:\n(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "page": 33,
+      "page_end": 33,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 21.146067835831055,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-3(1)",
+      "citation": "12-3(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "registered establishment for financial year ending on 30 June 2021",
+      "label": "(1)",
+      "pages": [
+        119,
+        120
+      ],
+      "parent_id": "rules2021:12-3",
+      "child_ids": [],
+      "own_text": "(1) This section applies if a determination is in force under subsection 13A(6) of the\nold Export Control (Plants) Order that a registered establishment is a small\nChapter 12 Transitional provisions\nPart 2 Registered establishments\nhorticultural products registered establishment for the financial year ending on\n30 June 2021.",
+      "text": "12-3 Determination in force that establishment is a small horticultural products\nregistered establishment for financial year ending on 30 June 2021\n(1) This section applies if a determination is in force under subsection 13A(6) of the\nold Export Control (Plants) Order that a registered establishment is a small\nChapter 12 Transitional provisions\nPart 2 Registered establishments\nhorticultural products registered establishment for the financial year ending on\n30 June 2021.",
+      "page": 119,
+      "page_end": 120,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.641259094166151,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-8(b)",
+      "citation": "7-8(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        62
+      ],
+      "parent_id": "rules2021:7-8",
+      "child_ids": [],
+      "own_text": "(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "text": "7-8 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 235(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan export permit is in force:\n(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "page": 62,
+      "page_end": 62,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 21.146067835831055,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-9(b)",
+      "citation": "7-9(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        63
+      ],
+      "parent_id": "rules2021:7-9",
+      "child_ids": [],
+      "own_text": "(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "text": "7-9 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 240(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan application under section 224 of the Act for an export permit has been made:\n(b) there are reasonable grounds to suspect that an importing country\nrequirement relating to the plants or plant products will not be, or is not\nlikely to be, met before the plants or plant products are imported into the\nimporting country;",
+      "page": 63,
+      "page_end": 63,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 21.146067835831055,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(i)",
+      "citation": "2-2(4)(f)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(i) the Greater Sunrise special regime area within the meaning of the\nSeas and Submerged Lands Act 1973;",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(i) the Greater Sunrise special regime area within the meaning of the\nSeas and Submerged Lands Act 1973;",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 21.47486425982806,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.3011919310603,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)(ii)",
+      "citation": "2-2(4)(g)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(g)",
+      "child_ids": [],
+      "own_text": "(ii) in any other case—10 kilograms.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(g) are exported in a consignment of not more than:\n(ii) in any other case—10 kilograms.",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 21.311186017170805,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.270080241441549,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)(ii)",
+      "citation": "1-6(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        16
+      ],
+      "parent_id": "rules2021:1-6(b)",
+      "child_ids": [],
+      "own_text": "(ii) the exporter of plants or plant products that are intended to be, or that\nhave been, loaded into the container.\npest means:",
+      "text": "1-6 Definitions\n(b) applying a substance;\n(ii) the exporter of plants or plant products that are intended to be, or that\nhave been, loaded into the container.\npest means:",
+      "page": 16,
+      "page_end": 16,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.232620027317341,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:2-2(2)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.0816535602961902,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(b)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.06480532786885246,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly states the requirement that a registered establishment be kept in a condition ensuring prescribed plants and plant products are not infested by pests or contaminated, which is the core normative rule for this CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate provision is almost identical to the CP criterion, with only minor wording differences ('prescribed plants and plant products' vs 'prescribed goods'). It directly grounds the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3A(1)(b)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.05962305183037332,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "ANALOGOUS_REQUIREMENT_FOR_PROPERTY",
+      "reason": "This provision sets a similar pest/contamination condition for accredited properties, which may inform operationalization of the CP criterion for establishments, but it is not the direct normative rule for establishments.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate provision directly mirrors the CP criterion, substituting 'prescribed plants and plant products at the property' for 'prescribed goods' and 'property' for 'establishment', but the operative legal proposition is substantially the same.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(4)(a)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.04043062200956938,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns inspection of wet stores or refrigerated stores on bulk vessels, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.04006291459960845,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.035784147827264114,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.03149801587301587,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods when held in bond, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.031009615384615385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods when consigned to resources industry structure, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.030798389007344232,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions on bulk vessels that could result in infestation or contamination, not the condition of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.03057889822595705,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RELATED_CONDITION_REQUIREMENT",
+      "reason": "This provision requires the establishment to be appropriate for export operations, which is related to but distinct from the pest/contamination condition in the CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires the establishment to be kept in a condition appropriate for export operations, but it does not specifically address pest infestation or contamination of prescribed goods. It is a related but separate obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A",
+      "page": 47,
+      "rrf_or_bm25_score": 0.03009207275993712,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This section heading provides structural context for the requirement that a registered establishment be kept in appropriate condition, which directly relates to the CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "Establishment must be kept in appropriate condition",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(1)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.030017921146953404,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This subsection introduces the condition requirement for registered establishments, providing structural context for the specific pest/contamination requirement in paragraph (b).",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "A registered establishment must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.029877369007803793,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods when exported in small consignments, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(a)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.029631255487269532,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns marine surveyor certificates for vessels, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(a)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.02946912242686891,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires the establishment to be kept in a clean and hygienic condition, which is a core aspect of ensuring prescribed goods are not infested or contaminated.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifies a particular aspect of maintaining the establishment condition (clean and hygienic) that directly supports the prevention of pest infestation and contamination, thus specializing the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.029236022193768675,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires control of pests and contaminants, which is the central requirement of the CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision directly addresses the control of pests and contaminants, which is a specific operationalization of the CP's requirement to prevent infestation and contamination.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2",
+      "page": 22,
+      "rrf_or_bm25_score": 0.02821939586645469,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a heading for plants and plant products taken not to be prescribed goods and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.02813852813852814,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions of other areas on bulk vessels, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.027912386121341344,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions on bulk vessels that could affect integrity of plants, not the condition of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02782608695652174,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods when consigned to external Territory, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(b)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.027212143650499815,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns requirements for vessel approval, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-12(a)",
+      "page": 40,
+      "rrf_or_bm25_score": 0.026736111111111113,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns suspension of accreditation due to importing country requirements, not pest control or contamination conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(b)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.026547116736990152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods for service of aircraft/vessels, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(1)(a)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.0264301860545992,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns pest-free requirements for containers, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)(i)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.0261986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate specifies a quantity limit for the small consignment exception, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(v)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.025859192525859193,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate defines a specific area for the resources industry structure exception, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)(a)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.025793650793650792,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns pest-free requirements for containers, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-6(c)",
+      "page": 61,
+      "rrf_or_bm25_score": 0.025278219395866455,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns revocation of export permits, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "a condition, pest or contaminant that is likely to affect the acceptability of the plants or plant products to the importing country is present in Australian territory.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(a)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.025206087507926443,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods for stores on aircraft/vessels, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(d)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02431476569407604,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods when re-exported in same covering, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(g)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.024250440917107582,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns circumstances for varying export permits, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "a condition, pest or contaminant that is likely to affect the acceptability of the plants or plant products to the importing country covered by, or to be covered by, the export permit is present in Australian territory.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(iii)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02402186421173763,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate defines a specific area for the resources industry structure exception, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(iii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.023392612859097127,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns cargo space conditions on bulk vessels, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)(b)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.022727272727272728,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns residue-free requirements for containers, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-10(a)",
+      "page": 38,
+      "rrf_or_bm25_score": 0.015873015873015872,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns variation of accreditation due to importing country requirements, not pest control or contamination conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-14(a)",
+      "page": 42,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns revocation of accreditation due to importing country requirements, not pest control or contamination conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)",
+      "page": 47,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This is a chapeau introducing the specific requirements in paragraphs (a)-(d). It does not independently create a scoring requirement.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "Without limiting subsection (1):",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Appropriate waste treatment and disposal is essential to prevent pest infestation and contamination, directly supporting the CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses waste management, which is indirectly related to pest and contamination control but does not by itself ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a fragment of a definition of 'applying a substance' and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Proper management and storage of toxic substances is necessary to prevent contamination of prescribed goods, directly supporting the CP criterion.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any);",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns the management of toxic substances, which is related to pest control but does not directly ensure that prescribed goods are not infested or contaminated. It is a separate operational requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "legal_basis_policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any);",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "page": 14,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a fragment of a definition of 'contaminant' and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)(i)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns areas suitable for assessments, not pest control or contamination conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(b)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests in exported plants, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-15(b)",
+      "page": 32,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns circumstances for refusing a government certificate and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A",
+      "page": 35,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This section heading provides structural context for the requirement that an accredited property be kept in appropriate condition, which is analogous to the CP criterion but applies to properties rather than establishments.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "Property must be kept in appropriate condition",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(e)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns circumstances for varying export permits, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "the requirements of the Act in relation to the export of the plants or plant products have not been complied with, or are not likely to be complied with before the plants or plant products are imported into the importing country covered by, or to be covered by, the export permit;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(c)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests in exported plants, not the condition of establishment areas to prevent infestation or contamination.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(1)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_OR_PARENT_PROVISION",
+      "reason": "This subsection introduces the condition requirement for accredited properties, providing structural context but not directly applying to establishments.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "An accredited property must be kept in a condition:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-14(2)(b)",
+      "page": 32,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changes requiring additional information for import country requirements and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-4(3)",
+      "page": 26,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns operations to prepare prescribed plants or plant products for export and does not address pest control or contamination conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-2(1)(a)",
+      "page": 119,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional provisions for small horticultural products registered establishments and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-16(2)(b)",
+      "page": 33,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changes requiring additional information for import country requirements and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-3(1)",
+      "page": 119,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional provisions for small horticultural products registered establishments and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-8(b)",
+      "page": 62,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns changes requiring additional information, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "there are reasonable grounds to suspect that an importing country requirement relating to the plants or plant products will not be, or is not likely to be, met before the plants or plant products are imported into the importing country;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-9(b)",
+      "page": 63,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns changes requiring additional information, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "there are reasonable grounds to suspect that an importing country requirement relating to the plants or plant products will not be, or is not likely to be, met before the plants or plant products are imported into the importing country;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(i)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate defines a specific area for the resources industry structure exception, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns tolerance levels for pests, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(1), a tolerance level for that kind of pest in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)(ii)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate specifies a quantity limit for the small consignment exception, which does not relate to pest control or contamination of establishment areas.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_TOPIC",
+      "reason": "This provision concerns approval of tolerance levels, not the condition of the establishment.",
+      "cp_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "policy_quote": "the pest is not injurious to that kind of plant or plant product;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)(ii)",
+      "page": 16,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a fragment of a definition of 'applying a substance' and does not relate to pest control or establishment conditions.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    }
+  ],
+  "contract": {
+    "cp_id": "CP25",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+        "criterion_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+        "basis_candidate_ids": [
+          "rules2021:4-7A(1)(b)",
+          "rules2021:4-7A(2)(a)",
+          "rules2021:4-7A(2)(b)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(1)(b)",
+            "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(a)",
+            "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7A(2)(b)",
+            "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ATOM",
+      "atom_id": "A1"
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [],
+    "notes": [
+      "The three PRIMARY_NORM candidates (rules2021:4-7A(1)(b), rules2021:4-7A(2)(a), rules2021:4-7A(2)(b)) are grouped under SUPPORTS_SAME_CRITERION in the validated RuleSetRelation. They jointly ground a single holistic proposition rather than separate ALL children, as no explicit connector in the CP or rules establishes cumulative or alternative satisfaction. The proposition is formulated as a single testable condition that encompasses the general outcome and its specific operationalisations."
+    ]
+  }
+}

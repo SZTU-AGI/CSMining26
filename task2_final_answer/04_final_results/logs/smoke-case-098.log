@@ -1,0 +1,27 @@
+V6.6 deadline-final batch adjudicator: cases=1 model=deepseek-v4-flash
+Calls per case: 4 primary element calls + N/A verification only when proposed
+    parsing logical evidence once: case-098 files=9
+    parsing: 1_Farm_98_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_98_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_98_Capricorn_Coast_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Capricorn_Coast_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Capricorn_Coast_Grain_Pty_Ltd_098.docx
+    parsing: 9_Traceability_Records_Capricorn_Coast_Grain_Pty_Ltd_098.xlsx
+[1/1] case-098: chunks=532 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7130, 'completion_tokens': 585, 'total_tokens': 7715, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 7130}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9335, 'completion_tokens': 494, 'total_tokens': 9829, 'prompt_tokens_details': {'cached_tokens': 2176}, 'prompt_cache_hit_tokens': 2176, 'prompt_cache_miss_tokens': 7159}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10677, 'completion_tokens': 1414, 'total_tokens': 12091, 'prompt_tokens_details': {'cached_tokens': 2944}, 'prompt_cache_hit_tokens': 2944, 'prompt_cache_miss_tokens': 7733}
+  Element-3: model labels={'1': 8, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12075, 'completion_tokens': 1033, 'total_tokens': 13108, 'prompt_tokens_details': {'cached_tokens': 4608}, 'prompt_cache_hit_tokens': 4608, 'prompt_cache_miss_tokens': 7467}
+  Element-4: model labels={'0': 13}
+  FINAL {'1': 15, '0': 26}
+DONE 1 cases

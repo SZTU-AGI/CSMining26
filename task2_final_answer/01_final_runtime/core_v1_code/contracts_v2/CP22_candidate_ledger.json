@@ -1,0 +1,3649 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP22",
+    "canonical_cp_id": "CP22",
+    "element": "Element-3",
+    "subelement": "3.3 Record keeping – hygiene, waste and pest control",
+    "criterion": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+    "sheet": "All Elements",
+    "column": 22
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.05683480765029191,
+      "rrf_score": 0.05683480765029191,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 13.120760565851674,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 13.973585219843772,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 7.689459083641198,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 21.66304430348497,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.05390589528520563,
+      "rrf_score": 0.05390589528520563,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 13.078210099032662,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 27,
+          "raw_score": 12.76960792271317,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.163008160362234,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 19.932616083075406,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)",
+      "citation": "1-4(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [
+        "rules2021:1-4(1)(a)",
+        "rules2021:1-4(1)(b)",
+        "rules2021:1-4(1)(c)"
+      ],
+      "own_text": "(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.05375454197743355,
+      "rrf_score": 0.05375454197743355,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 15.176316497301128,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 13.847176787374012,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.708148632179031,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 19.555325419553043,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-1",
+      "citation": "12-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Definitions",
+      "label": "12-1",
+      "pages": [
+        118,
+        119
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "In this Chapter:\ncommencement time means the time when section 3 of the Export Control Act\n2020 commences.\nold Export Control (General) Order means the Export Control (Prescribed\nGoods—General) Order 2005, as in force immediately before the\ncommencement time.\nold Export Control (Plants) Order means the Export Control (Plants and Plant\nProducts) Order 2011, as in force immediately before the commencement time.\nTransitional provisions Chapter 12",
+      "text": "12-1 Definitions\nDefinitions\nIn this Chapter:\ncommencement time means the time when section 3 of the Export Control Act\n2020 commences.\nold Export Control (General) Order means the Export Control (Prescribed\nGoods—General) Order 2005, as in force immediately before the\ncommencement time.\nold Export Control (Plants) Order means the Export Control (Plants and Plant\nProducts) Order 2011, as in force immediately before the commencement time.\nTransitional provisions Chapter 12",
+      "page": 118,
+      "page_end": 119,
+      "score": 0.050820432835936714,
+      "rrf_score": 0.050820432835936714,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 13.07574769321239,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 12.841413374337204,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.022543219073819,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 18.86395659341102,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3A(2)(c)",
+      "citation": "3-3A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        35,
+        36
+      ],
+      "parent_id": "rules2021:3-3A(2)",
+      "child_ids": [],
+      "own_text": "(c) if operations to prepare prescribed plants or plant products for export are\ncarried out at the property—waste at the property must be appropriately\ntreated and disposed of.\nChapter 3 Accredited properties",
+      "text": "3-3A Property must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) if operations to prepare prescribed plants or plant products for export are\ncarried out at the property—waste at the property must be appropriately\ntreated and disposed of.\nChapter 3 Accredited properties",
+      "page": 35,
+      "page_end": 36,
+      "score": 0.04974090949700706,
+      "rrf_score": 0.04974090949700706,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 12.620251034530394,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 13.515494342788164,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.6998340003872805,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 19.215328343175443,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.04891591750396616,
+      "rrf_score": 0.04891591750396616,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 16.803027149417378,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 25.377076775091382,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 27.008547292722106,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)",
+      "citation": "11-10(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Period during which records must be retained",
+      "label": "(3)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(3)(as the case may be)"
+      ],
+      "own_text": "(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "text": "11-10 Records to be retained by authorised officers\nPeriod during which records must be retained\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.048651507139079855,
+      "rrf_score": 0.048651507139079855,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 16.161542626701397,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 23.368119114644003,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 27.136062574565724,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.047371031746031744,
+      "rrf_score": 0.047371031746031744,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 15.010046113872406,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 23.293451559948355,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 24.647299364479224,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(2)",
+      "citation": "11-5(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.04595588235294118,
+      "rrf_score": 0.04595588235294118,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 13.722358999626676,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 20.499485199628857,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 24.21559725156339,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(2)",
+      "citation": "11-6(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6",
+      "child_ids": [],
+      "own_text": "(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.04568764568764569,
+      "rrf_score": 0.04568764568764569,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 13.95317194976173,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 20.19121682326207,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 23.76005140930402,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(2)",
+      "citation": "11-7(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7",
+      "child_ids": [],
+      "own_text": "(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.04500226142017187,
+      "rrf_score": 0.04500226142017187,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 13.95317194976173,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 20.19121682326207,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 23.76005140930402,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(4)",
+      "citation": "11-5(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.04329700150595673,
+      "rrf_score": 0.04329700150595673,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 13.028458599382521,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 20.13177255271037,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 23.8478846046449,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-8",
+      "citation": "11-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marks",
+      "label": "11-8",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-8 Records relating to official marks\nRecords relating to official marks\nA person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.04307001428863033,
+      "rrf_score": 0.04307001428863033,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 13.244645315068103,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 18.3681148562751,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 22.216574352094952,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-9",
+      "citation": "11-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marking devices",
+      "label": "11-9",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-9 Records relating to official marking devices\nRecords relating to official marking devices\nA person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.042460317460317455,
+      "rrf_score": 0.042460317460317455,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 13.244645315068103,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 18.041390234658028,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 21.835795405059308,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(c)",
+      "citation": "9-16(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(c) the pest is a quarantine pest for the importing country and the approved\ntolerance level is consistent with importing country requirements.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.041336351892355114,
+      "rrf_score": 0.041336351892355114,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 12.928070178995018,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 7.613967391699085,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 20.542037570694102,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(c)",
+      "citation": "9-21(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        93,
+        94,
+        95
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(c) a species of the genus Trogoderma is detected in or\nChapter 9 Powers and officials\nPart 4 Authorised officers\nDirections to deal with non-compliance with the requirements of the Act etc.\nItem\nColumn 1\nRelevant person\nColumn 2\nGrounds for giving direction\nperson who manages or\ncontrols export operations at\nthe establishment, is not a\nperson responsible for the\nbulk vessel—the occupier of\nthe establishment or another\nperson who manages or\ncontrols export operations at\nthe establishment\non the vessel\nPowers and officials Chapter 9",
+      "page": 93,
+      "page_end": 95,
+      "score": 0.04077238261666144,
+      "rrf_score": 0.04077238261666144,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 13.470296262682584,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 17.038951227508953,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 18.02049896339324,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(d)",
+      "citation": "4-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.039437898653437276,
+      "rrf_score": 0.039437898653437276,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 25,
+          "raw_score": 11.603964274173926,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.178618862476942,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 17.62644857380935,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3A)",
+      "citation": "11-10(3A)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3A)",
+      "pages": [
+        111,
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "text": "11-10 Records to be retained by authorised officers\n(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "page": 111,
+      "page_end": 112,
+      "score": 0.03785111085865078,
+      "rrf_score": 0.03785111085865078,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 11.36183982284673,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 15.381786440622516,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 19.072513876053367,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(a)",
+      "citation": "1-4(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(a) Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(a) Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.03769869570040729,
+      "rrf_score": 0.03769869570040729,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 13.662559440095224,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.732159890726882,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 19.394719330822106,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(b)",
+      "citation": "1-4(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(b) the exclusive economic zone adjacent to Norfolk Island; and",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.035784147827264114,
+      "rrf_score": 0.035784147827264114,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 13.345462585437982,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 29,
+          "raw_score": 5.537934727610708,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 18.88339731304869,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)(as the case may be)",
+      "citation": "11-10(3)(as the case may be)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "made by the authorised officer or comes into the authorised officer’s possession",
+      "label": "(as the case may be)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10(3)",
+      "child_ids": [],
+      "own_text": "(as the case may be) .",
+      "text": "11-10 Records to be retained by authorised officers\nmade by the authorised officer or comes into the authorised officer’s possession\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is\n(as the case may be) .",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.029411764705882353,
+      "rrf_score": 0.029411764705882353,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 19.161613346090252,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 22.661101826826414,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(b)",
+      "citation": "9-16(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(b) the pest is not a quarantine pest for the importing country; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(b) the pest is not a quarantine pest for the importing country; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.029116045245077504,
+      "rrf_score": 0.029116045245077504,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 7.683523432570881,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 19.277120439051366,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.028205128205128206,
+      "rrf_score": 0.028205128205128206,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 14.591570215031513,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 14.021989684679717,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.027777777777777776,
+      "rrf_score": 0.027777777777777776,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 17.001636657404458,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 20.715536355295157,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.027056277056277056,
+      "rrf_score": 0.027056277056277056,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.837851243481607,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 17.615373652744005,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.02594183740912095,
+      "rrf_score": 0.02594183740912095,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.531904215784188,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 16.248434599653862,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.02571241401899771,
+      "rrf_score": 0.02571241401899771,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.493569709276281,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 17.129093210010527,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.025252525252525252,
+      "rrf_score": 0.025252525252525252,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.314000140310158,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 16.398877918938588,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.024481265860576206,
+      "rrf_score": 0.024481265860576206,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 14.219683524004276,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 16.635894350131885,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(a)",
+      "citation": "1-6(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(a) dismantling, repairing, cleaning or deodorising;",
+      "text": "1-6 Definitions\n(a) dismantling, repairing, cleaning or deodorising;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.023769338959212377,
+      "rrf_score": 0.023769338959212377,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.801560560575681,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 16.209481087990596,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21(b)",
+      "citation": "9-21(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        93
+      ],
+      "parent_id": "rules2021:9-21",
+      "child_ids": [],
+      "own_text": "(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:\n(b) the requirements in paragraph 9-23(1)(a) or (b) are\nnot continuing to be met in relation to the vessel;",
+      "page": 93,
+      "page_end": 93,
+      "score": 0.023268398268398268,
+      "rrf_score": 0.023268398268398268,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 11.605957584027186,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 12.728018740621316,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.569538304379266,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "citation": "1-6(whether organic or inorganic, but not including a pest)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(whether organic or inorganic, but not including a pest)",
+      "pages": [
+        14
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(whether organic or inorganic, but not including a pest) that:",
+      "text": "1-6 Definitions\n(whether organic or inorganic, but not including a pest) that:",
+      "page": 14,
+      "page_end": 14,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.525450043755739,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-10(1)(a)",
+      "citation": "12-10(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        125
+      ],
+      "parent_id": "rules2021:12-10(1)",
+      "child_ids": [],
+      "own_text": "(a) a marine surveyor had issued a certificate in relation to a bulk vessel under\nsubsection 33.2 of the old Export Control (Plants) Order; and",
+      "text": "12-10 Marine surveyor’s certificate issued in relation to bulk vessel before\n(1) This section applies if:\n(a) a marine surveyor had issued a certificate in relation to a bulk vessel under\nsubsection 33.2 of the old Export Control (Plants) Order; and",
+      "page": 125,
+      "page_end": 125,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 13.3619271892392,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.496702171174323,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.1162882179003955,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-4(2)",
+      "citation": "11-4(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records Part 1",
+      "label": "(2)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-4",
+      "child_ids": [],
+      "own_text": "(2) Subsection (1) does not apply in relation to an export permit that was issued by\nelectronic means.",
+      "text": "11-4 Export permits must be retained in secure place\nRecords Part 1\n(2) Subsection (1) does not apply in relation to an export permit that was issued by\nelectronic means.",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 15.13383080646242,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-3",
+      "citation": "11-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Government certificates must be retained in secure place",
+      "label": "11-3",
+      "pages": [
+        108
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-3(1)",
+        "rules2021:11-3(2)"
+      ],
+      "own_text": "",
+      "text": "11-3 Government certificates must be retained in secure place\nGovernment certificates must be retained in secure place",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 14.944234750909397,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 5.961109560593794,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-1",
+      "citation": "11-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Purpose of this Part",
+      "label": "11-1",
+      "pages": [
+        108
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "text": "11-1 Purpose of this Part\nPurpose of this Part\nFor the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 13.040582081918277,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-4",
+      "citation": "11-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Export permits must be retained in secure place",
+      "label": "11-4",
+      "pages": [
+        108
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-4(1)",
+        "rules2021:11-4(2)"
+      ],
+      "own_text": "",
+      "text": "11-4 Export permits must be retained in secure place\nExport permits must be retained in secure place",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 14.944234750909397,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(a)",
+      "citation": "9-33(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the container is approved or not approved; and",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(a) state whether the container is approved or not approved; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 5.959606267065002,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(a)",
+      "citation": "9-24(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the bulk vessel is approved or not approved; and",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(a) state whether the bulk vessel is approved or not approved; and",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 5.848065519629217,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 5.8353557950120045,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-2(4)(b)",
+      "citation": "12-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        119
+      ],
+      "parent_id": "rules2021:12-2(4)",
+      "child_ids": [],
+      "own_text": "(b) the Secretary had requested, under subsection 13A(5) of the old Export\nControl (Plants) Order, the applicant to provide further information in\nrelation to the application; and",
+      "text": "12-2 Application for determination that establishment is a small horticultural\n(4) If:\n(b) the Secretary had requested, under subsection 13A(5) of the old Export\nControl (Plants) Order, the applicant to provide further information in\nrelation to the application; and",
+      "page": 119,
+      "page_end": 119,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 12.272893540591415,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(c)",
+      "citation": "4-9(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(c) in the case of mung beans referred to in paragraph 1-7(1)(h)—the presence\nof animal waste;\nthe plants or plant products must not be blended with other plants or plant\nproducts at the establishment.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 12.077306544904275,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)",
+      "citation": "9-14(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        87,
+        88
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [
+        "rules2021:9-14(2)(a)",
+        "rules2021:9-14(2)(b)",
+        "rules2021:9-14(2)(c)",
+        "rules2021:9-14(2)(d)"
+      ],
+      "own_text": "(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "page": 87,
+      "page_end": 88,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.793903100234089,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(2)",
+      "citation": "1-4(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4",
+      "child_ids": [],
+      "own_text": "(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(2) To avoid doubt, the reference in subsection (1) to the Export Control Act 2020\ndoes not include a reference to legislative instruments made under that Act.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 11.909990270749567,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)",
+      "citation": "9-14(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [
+        "rules2021:9-14(2)(c)(i)",
+        "rules2021:9-14(2)(c)(ii)"
+      ],
+      "own_text": "(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.742852799143662,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-17(a)(iv)",
+      "citation": "4-17(a)(iv)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iv)",
+      "pages": [
+        52
+      ],
+      "parent_id": "rules2021:4-17(a)",
+      "child_ids": [],
+      "own_text": "(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "text": "4-17 Other reasons for the Secretary to vary registration\n(a) in relation to any registered establishment:\n(iv) the occupier of the establishment, or a person who manages or\ncontrols export operations at the establishment, failed to comply with\nsection 410 of the Act when taking, testing or analysing samples at the\nestablishment;",
+      "page": 52,
+      "page_end": 52,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 11.7478014379798,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-30(3)",
+      "citation": "9-30(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-30",
+      "child_ids": [],
+      "own_text": "(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-30 Authorised officer may approve container\n(3) An inspection may be carried out at any place where there are adequate facilities\nto carry out the inspection.\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 11.607736318858539,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-21",
+      "citation": "9-21",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Directions to deal with non-compliance with the Act etc.",
+      "label": "9-21",
+      "pages": [
+        93
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-21(a)",
+        "rules2021:9-21(b)",
+        "rules2021:9-21(a)",
+        "rules2021:9-21(b)",
+        "rules2021:9-21(c)",
+        "rules2021:9-21(a)",
+        "rules2021:9-21(b)",
+        "rules2021:9-21(c)",
+        "rules2021:9-21(a)",
+        "rules2021:9-21(b)",
+        "rules2021:9-21(a)",
+        "rules2021:9-21(b)",
+        "rules2021:9-21(c)"
+      ],
+      "own_text": "For the purposes of item 8 of the table in subsection 305(1) of the Act:",
+      "text": "9-21 Directions to deal with non-compliance with the Act etc.\nDirections to deal with non-compliance with the Act etc.\nFor the purposes of item 8 of the table in subsection 305(1) of the Act:",
+      "page": 93,
+      "page_end": 93,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 13.132385366319234,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-1",
+      "citation": "1-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Name",
+      "label": "1-1",
+      "pages": [
+        11
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "This instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "text": "1-1 Name\nName\nThis instrument is the Export Control (Plants and Plant Products) Rules 2021.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 5.639970842058634,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-4(1)(c)",
+      "citation": "1-4(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        11
+      ],
+      "parent_id": "rules2021:1-4(1)",
+      "child_ids": [],
+      "own_text": "(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "text": "1-4 Extension of the Act to Norfolk Island\n(1) For the purposes of subsection 8(2) of the Export Control Act 2020, that Act and\nthis instrument, and the Regulatory Powers (Standard Provisions) Act 2014 as it\napplies in relation to the Export Control Act 2020 and this instrument, extend to:\n(c) the area that is on or in the continental shelf adjacent to Norfolk Island and\nis not within the exclusive economic zone adjacent to Norfolk Island.",
+      "page": 11,
+      "page_end": 11,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 17.570550236108836,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(a)",
+      "citation": "9-14(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the plants or plant products passed or failed the assessment;\nand",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(a) state whether the plants or plant products passed or failed the assessment;\nand",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 5.571504254845207,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.011627906976744186,
+      "rrf_score": 0.011627906976744186,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 11.602873586926561,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)(i)",
+      "citation": "9-14(2)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)(c)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-14 Record of assessment\n(c) if the Secretary has approved, in writing, a form for the assessment record:\n(i) include any other information required by the form; and",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.011494252873563218,
+      "rrf_score": 0.011494252873563218,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 5.537947014022139,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:10-1(2)(c)",
+      "citation": "10-1(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        107
+      ],
+      "parent_id": "rules2021:10-1(2)",
+      "child_ids": [
+        "rules2021:10-1(2)(c)(i)",
+        "rules2021:10-1(2)(c)(ii)",
+        "rules2021:10-1(2)(c)(iii)"
+      ],
+      "own_text": "(c) kept in the custody or control of an authorised officer until whichever of\nthe following first occurs:",
+      "text": "10-1 Samples taken in exercising monitoring or investigation powers\n(2) The sample must be:\n(c) kept in the custody or control of an authorised officer until whichever of\nthe following first occurs:",
+      "page": 107,
+      "page_end": 107,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 11.35916689272481,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)(i)",
+      "citation": "9-33(2)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)(b)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-33 Container inspection record\n(b) if the Secretary has approved, in writing, a form for the inspection record:\n(i) include any other information required by the form; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.011363636363636364,
+      "rrf_score": 0.011363636363636364,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 5.537947014022139,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:10-2(b)",
+      "citation": "10-2(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        107
+      ],
+      "parent_id": "rules2021:10-2",
+      "child_ids": [
+        "rules2021:10-2(b)(i)",
+        "rules2021:10-2(b)(ii)",
+        "rules2021:10-2(b)(iii)",
+        "rules2021:10-2(b)(iv)",
+        "rules2021:10-2(b)(v)",
+        "rules2021:10-2(b)(vi)"
+      ],
+      "own_text": "(b) kept in the custody or control of an authorised officer until whichever of\nthe following first occurs:",
+      "text": "10-2 Dealing with things seized in exercising investigation powers\nIf a thing has been seized at premises that have been entered under an\ninvestigation warrant or under subsection 347(1) of the Act, the thing must be:\n(b) kept in the custody or control of an authorised officer until whichever of\nthe following first occurs:",
+      "page": 107,
+      "page_end": 107,
+      "score": 0.011235955056179775,
+      "rrf_score": 0.011235955056179775,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 11.35916689272481,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5",
+      "citation": "11-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by exporter etc.",
+      "label": "11-5",
+      "pages": [
+        109
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-5(1)",
+        "rules2021:11-5(2)",
+        "rules2021:11-5(3)",
+        "rules2021:11-5(4)",
+        "rules2021:11-5(5)"
+      ],
+      "own_text": "",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords to be retained by exporter etc.",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_PARENT"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(4)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(1)",
+      "citation": "11-5(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to prescribed plants or plant products",
+      "label": "(1)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(1)(a)",
+        "rules2021:11-5(1)(b)",
+        "rules2021:11-5(1)(c)"
+      ],
+      "own_text": "(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to prescribed plants or plant products\n(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(4)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)",
+      "citation": "11-5(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to non-prescribed plants or plant products",
+      "label": "(3)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(3)(a)",
+        "rules2021:11-5(3)(b)"
+      ],
+      "own_text": "(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to non-prescribed plants or plant products\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_SIBLING"
+        },
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(4)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6",
+      "citation": "11-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by manager of accredited property",
+      "label": "11-6",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-6(1)",
+        "rules2021:11-6(2)"
+      ],
+      "own_text": "",
+      "text": "11-6 Records to be retained by manager of accredited property\nRecords to be retained by manager of accredited property",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-6(2)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(1)",
+      "citation": "11-6(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6",
+      "child_ids": [
+        "rules2021:11-6(1)(a)",
+        "rules2021:11-6(1)(b)"
+      ],
+      "own_text": "(1) The manager of a property that is accredited for a kind of export operations in\nrelation to a kind of prescribed plants or plant products must retain each\ndocument:",
+      "text": "11-6 Records to be retained by manager of accredited property\n(1) The manager of a property that is accredited for a kind of export operations in\nrelation to a kind of prescribed plants or plant products must retain each\ndocument:",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-6(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7",
+      "citation": "11-7",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by occupier of registered establishment",
+      "label": "11-7",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-7(1)",
+        "rules2021:11-7(2)"
+      ],
+      "own_text": "",
+      "text": "11-7 Records to be retained by occupier of registered establishment\nRecords to be retained by occupier of registered establishment",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-7(2)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)",
+      "citation": "11-7(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7",
+      "child_ids": [
+        "rules2021:11-7(1)(a)",
+        "rules2021:11-7(1)(b)"
+      ],
+      "own_text": "(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-7(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.05683480765029191,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a term unrelated to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.05390589528520563,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "WASTE_CONTROL_REQUIREMENT",
+      "reason": "The candidate specifies a waste control condition that is part of the system of controls whose compliance the CP requires records to demonstrate. It is an underlying operational requirement, not the record retention rule itself.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate addresses waste treatment/disposal but not record retention or the two-year requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "waste at the establishment must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.05375454197743355,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-1",
+      "page": 118,
+      "rrf_or_bm25_score": 0.050820432835936714,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines transitional terms only and does not relate to record retention for hygiene, waste or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3A(2)(c)",
+      "page": 35,
+      "rrf_or_bm25_score": 0.04974090949700706,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "WASTE_CONTROL_REQUIREMENT",
+      "reason": "The candidate specifies a waste control condition that is part of the system of controls whose compliance the CP requires records to demonstrate. It is an underlying operational requirement, not the record retention rule itself.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "waste at the property must be appropriately treated and disposed of.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision is about waste treatment and disposal, not record retention. It is part of the system of controls but does not ground the record-keeping requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "waste at the property must be appropriately treated and disposed of.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.04891591750396616,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "SYSTEM_OF_CONTROLS_CONTEXT",
+      "reason": "The candidate establishes the requirement for a system of controls at registered establishments, which is the system whose compliance the CP requires records to demonstrate. It provides operational context but does not itself impose the record retention requirement.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires a system of controls but does not mention record retention or the two-year period; it is a broader operational requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.048651507139079855,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes a 2-year retention requirement for records, matching the CP's 2-year retention criterion.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision imposes a 2-year retention requirement on authorised officers, not on the exporter or establishment, and does not relate to hygiene, waste, or pest control systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.047371031746031744,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "SYSTEM_OF_CONTROLS_CONTEXT",
+      "reason": "The candidate establishes the requirement for a system of controls at accredited properties, which is the system whose compliance the CP requires records to demonstrate. It provides operational context but does not itself impose the record retention requirement.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls but does not address record retention or the 2-year period. It is background to the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(2)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.04595588235294118,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes a 2-year retention requirement on exporters for records, directly supporting the CP's 2-year retention criterion.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires the exporter to retain records for at least 2 years, matching the CP's 2-year retention requirement. The records referred to in subsection (1) are those required to demonstrate compliance with the system of controls, including hygiene, waste, and pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.04568764568764569,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes a 2-year retention requirement on managers of accredited properties, directly supporting the CP's 2-year retention criterion.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The manager of the accredited property must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the manager or comes into the manager’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires the manager of an accredited property to retain records for at least 2 years, matching the CP's 2-year retention requirement. The records referred to in subsection (1) are those required to demonstrate compliance with the system of controls, including hygiene, waste, and pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The manager of the accredited property must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the manager or comes into the manager’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-7(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.04500226142017187,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes a 2-year retention requirement on occupiers of registered establishments, directly supporting the CP's 2-year retention criterion.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The occupier of the registered establishment must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the occupier or comes into the occupier’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires the occupier of a registered establishment to retain records for at least 2 years, matching the CP's 2-year retention requirement. The records referred to in subsection (1) are those required to demonstrate compliance with the system of controls, including hygiene, waste, and pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The occupier of the registered establishment must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the occupier or comes into the occupier’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(4)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.04329700150595673,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Imposes a 2-year retention requirement on persons for records, directly supporting the CP's 2-year retention criterion.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The person must retain each record referred to in subsection (3) for at least 2 years starting on the day the record is made by the person or comes into the person’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This provision directly requires a person to retain records for at least 2 years, matching the CP's 2-year retention requirement. The records referred to in subsection (3) are those required to demonstrate compliance with the system of controls, including hygiene, waste, and pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The person must retain each record referred to in subsection (3) for at least 2 years starting on the day the record is made by the person or comes into the person’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-8",
+      "page": 110,
+      "rrf_or_bm25_score": 0.04307001428863033,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns retention of records relating to official marks, not records demonstrating compliance with hygiene, waste control and pest control systems.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-9",
+      "page": 110,
+      "rrf_or_bm25_score": 0.042460317460317455,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns retention of records relating to official marking devices, not records demonstrating compliance with hygiene, waste control and pest control systems.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(c)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.041336351892355114,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests in plants for export, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(c)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.04077238261666144,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance with the Act, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(d)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.039437898653437276,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "WASTE_CONTROL_REQUIREMENT",
+      "reason": "The candidate specifies a waste disposal requirement that is part of the system of controls whose compliance the CP requires records to demonstrate. It is an underlying operational requirement, not the record retention rule itself.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate imposes a design/construction requirement for waste disposal, but does not address record retention or the system of controls for hygiene, waste and pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(3A)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.03785111085865078,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_OR_ALTERNATIVE_EFFECT",
+      "reason": "Provides a different retention period (1 year) for a specific category, creating an exception to the general 2-year rule.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "A third party authorised officer must retain each record referred to in paragraph (1)(ba) for at least 1 year starting on the day the record is made by the third party authorised officer.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision specifies a 1-year retention period for third party authorised officers, which is different from the 2-year requirement and does not relate to hygiene, waste, or pest control.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "A third party authorised officer must retain each record referred to in paragraph (1)(ba) for at least 1 year starting on the day the record is made by the third party authorised officer.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(a)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.03769869570040729,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(b)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.035784147827264114,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)(as the case may be)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.029411764705882353,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Completes the 2-year retention requirement in 11-10(3), forming part of the primary norm.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "(as the case may be) .",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This fragment is part of the authorised officer retention provision and does not independently ground the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "(as the case may be) .",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(b)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.029116045245077504,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests in plants for export, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.028205128205128206,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns screening to manage contamination risk, not record retention for hygiene, waste or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.027777777777777776,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_OR_ALTERNATIVE_EFFECT",
+      "reason": "Carves out an exception to the retention requirement for records entered into a Department electronic system.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is an exception to the authorised officer retention requirements and does not establish the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.027056277056277056,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies approved tolerance levels for animal carcases or waste, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.02594183740912095,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies approved tolerance levels for pests, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.02571241401899771,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for pests in plants for export, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.025252525252525252,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines tolerance levels for animal carcases or waste, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.024481265860576206,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_OR_ALTERNATIVE_EFFECT",
+      "reason": "Provides an exception to the retention requirements for records entered into a Department electronic system.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is an exception to the exporter/person retention requirements and does not establish the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-6(a)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.023769338959212377,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a term unrelated to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21(b)",
+      "page": 93,
+      "rrf_or_bm25_score": 0.023268398268398268,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance with the Act, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of tolerance levels for contaminants in plants for export, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "page": 14,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a term unrelated to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-10(1)(a)",
+      "page": 125,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns a marine surveyor's certificate under old transitional provisions, unrelated to record retention for hygiene, waste or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines tolerance levels for contaminants, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies a nil tolerance level for animal carcases or waste, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-4(2)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Exception for electronic export permits; unrelated to the CP's 2-year retention requirement for hygiene, waste, and pest control records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-3",
+      "page": 108,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns retention of government certificates in a secure place, not the 2-year retention period for hygiene, waste, and pest control records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines tolerance levels for pests, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-1",
+      "page": 108,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This section establishes the purpose of Part 11, which governs record retention, directly grounding the CP requirement for retaining records.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes provision for and in relation to the retention of records in relation to plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This section is a general purpose statement for the Part on record retention. It does not specify the 2-year retention period or link records to hygiene, waste, or pest control systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes provision for and in relation to the retention of records in relation to plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-4",
+      "page": 108,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns retention of export permits in a secure place, not the 2-year retention period for hygiene, waste, and pest control records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(a)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns container inspection records, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(a)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns bulk vessel inspection records, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies a nil tolerance level for pests, not record retention requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-2(4)(b)",
+      "page": 119,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional application processes, not record retention for hygiene, waste or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(c)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns blending restrictions for mung beans with animal waste, unrelated to record retention for hygiene, waste, and pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision mandates the existence of an assessment record, which is a record that may be retained to demonstrate compliance.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The assessment record must:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns assessment records, not records demonstrating compliance with hygiene, waste and pest control systems.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The assessment record must:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:1-4(2)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate clarifies the extension of the Act and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision conditions the content of the assessment record, which is part of the records to be retained.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "if the Secretary has approved, in writing, a form for the assessment record:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns the form of assessment records, not retention of compliance records.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "if the Secretary has approved, in writing, a form for the assessment record:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-17(a)(iv)",
+      "page": 52,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns variation of registration due to non-compliance with sampling provisions, unrelated to record retention for hygiene, waste or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-30(3)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns container inspection facilities, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-21",
+      "page": 93,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns directions for non-compliance with the Act, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-1",
+      "page": 11,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate only provides the name of the instrument and does not contribute to interpreting the record retention requirement.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-4(1)(c)",
+      "page": 11,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the extension of the Act to Norfolk Island and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This specifies required content of the assessment record, which is part of the records to be retained.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "state whether the plants or plant products passed or failed the assessment;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate specifies content of assessment records, unrelated to the CP's record retention requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "state whether the plants or plant products passed or failed the assessment;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.011627906976744186,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audit report recommendations, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)(i)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.011494252873563218,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This specifies additional required content of the assessment record, which is part of the records to be retained.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "include any other information required by the form;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is about additional information in assessment records, not the CP's record retention requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "include any other information required by the form;",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:10-1(2)(c)",
+      "page": 107,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns custody of samples and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)(i)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.011363636363636364,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns container inspection record forms, not record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:10-2(b)",
+      "page": 107,
+      "rrf_or_bm25_score": 0.011235955056179775,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns custody of seized things and does not relate to record retention for hygiene, waste, or pest control.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is a section heading that introduces the record retention obligations for exporters, but does not itself specify the retention period or the specific records related to hygiene, waste, and pest control.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "11-5 Records to be retained by exporter etc.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(1)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes a record retention obligation on exporters of prescribed plants or plant products, which is directly relevant to the CP's requirement to retain records demonstrating compliance with hygiene, waste, and pest control systems.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate imposes a record-keeping obligation on exporters of prescribed plants or plant products, but does not specify the retention period of at least 2 years nor link the records to hygiene, waste control or pest control systems. It is a related record-keeping provision but not the legal grounding for this specific CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes a record retention obligation on persons issued phytosanitary certificates for non-prescribed plants or plant products, which is directly relevant to the CP's requirement to retain records demonstrating compliance with hygiene, waste, and pest control systems.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "A person to whom a phytosanitary certificate, or a phytosanitary certificate for re-export, has been issued in relation to non-prescribed plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns record-keeping for non-prescribed plants or plant products and does not mention a 2-year retention period or the specific systems of hygiene, waste control and pest control. It is a neighbouring record-keeping obligation, not the legal grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "A person to whom a phytosanitary certificate, or a phytosanitary certificate for re-export, has been issued in relation to non-prescribed plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is a section heading that introduces record retention obligations for managers of accredited properties, but does not itself specify the retention period or the specific records related to hygiene, waste, and pest control.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "11-6 Records to be retained by manager of accredited property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-6(1)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes a record retention obligation on managers of accredited properties, which is directly relevant to the CP's requirement to retain records demonstrating compliance with hygiene, waste, and pest control systems.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The manager of a property that is accredited for a kind of export operations in relation to a kind of prescribed plants or plant products must retain each document:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate imposes a record-keeping duty on managers of accredited properties but does not specify a 2-year retention period or tie the records to hygiene, waste control or pest control systems. It is a related record-keeping provision but not the legal grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The manager of a property that is accredited for a kind of export operations in relation to a kind of prescribed plants or plant products must retain each document:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-7",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is a section heading that introduces record retention obligations for occupiers of registered establishments, but does not itself specify the retention period or the specific records related to hygiene, waste, and pest control.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "11-7 Records to be retained by occupier of registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision imposes a record retention obligation on occupiers of registered establishments, which is directly relevant to the CP's requirement to retain records demonstrating compliance with hygiene, waste, and pest control systems.",
+      "cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "policy_quote": "The occupier of an establishment that is registered for a kind of export operations in relation to a kind of prescribed plants or plant products must retain each document:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires occupiers of registered establishments to retain documents but does not mention a 2-year retention period or the specific systems of hygiene, waste control and pest control. It is a related record-keeping obligation, not the legal grounding for this CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of records are retained to demonstrate compliance with the system of controls in place to manage hygiene, waste control and pest control.",
+      "legal_basis_policy_quote": "The occupier of an establishment that is registered for a kind of export operations in relation to a kind of prescribed plants or plant products must retain each document:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ]
+}

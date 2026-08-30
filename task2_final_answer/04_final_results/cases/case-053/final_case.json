@@ -1,0 +1,375 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-053",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_53_Condamine_Pulse_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registration for mung beans and citrus, but HACCP plan indicates almonds at a different facility (RE-QLD-3318). This contradicts the registered operations, so compliance is not established."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that registration is not suspended at the time of operations. The evidence only states registration scope, not current suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Pulse_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual content is provided to show the registered area. Evidence is insufficient to establish the area of the premises that is registered."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Pulse_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan is referenced but no content is provided. The management plan mentions buildings and facilities but does not detail all important features and adjoining sites as required."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Pulse_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no content is provided to show layout of areas, permanent fixtures, and equipment. Evidence is insufficient."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no changes have occurred, so no approval requirement is triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no changes have occurred, so no approval requirement is triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P12",
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all required buildings, equipment, facilities and services for registered export operations, and infrastructure is designed and maintained for mung bean export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, with corrective actions for non-compliance, supporting effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Pulse_Pty_Ltd_053.docx:P4"
+      ],
+      "reason": "Evidence indicates security zoning, sealed storage, and pre-load inspections reduce contamination and infestation risk."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene, includes procedures for cleaning all areas, and records cleaning activities, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P35",
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, and the Farm Management Plan documents waste management arrangements, indicating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is tailored to the establishment's operations (mung beans), includes detailed step-by-step procedures for each area, and includes corrective actions, demonstrating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Pulse_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_53_Condamine_Pulse_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map provides a pest control system overview, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for managing pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Pulse_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_53_Condamine_Pulse_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system is documented with a bait station map and pest control records, indicating an effective system for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are maintained on site and in the business management system, retained for two years, and cleaning records are kept in paper and digital formats, implying they are dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan requires all areas to be maintained clean and hygienic, with specific cleaning procedures for the Pre-Cool Chamber and corrective actions for non-compliance."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Condamine_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The establishment maintains clean and hygienic conditions and has a pest control system, ensuring goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Bait Station Map indicates a pest control system with bait stations, and no evidence suggests they are not fit for purpose or in good working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The Farm Management Plan documents waste management arrangements and the Hygiene Plan ensures clean conditions, preventing contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The establishment's management plan and hygiene procedures ensure that chemicals and waste are managed to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Condamine_Pulse_Pty_Ltd_053.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Condamine_Pulse_Pty_Ltd_053.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Pulse_Pty_Ltd_053.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Dispatch/transfer dockets record transfer to next premises."
+    },
+    "CP32": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Condamine_Pulse_Pty_Ltd_053.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A product flow chart is provided in the registration record."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_53_Condamine_Pulse_Pty_Ltd.docx:P23"
+      ],
+      "reason": "HACCP plan explicitly lacks a formal procedure for managing failed goods, including blending, rejection, treatment, and re-presentation."
+    },
+    "CP35": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Hygiene and sanitation plan includes procedures to maintain clean conditions and cleaning logs, controlling contamination and infestation risks."
+    },
+    "CP36": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation from non-registered commodities is maintained by dedicated equipment and labelled storage zones, minimizing substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Pulse_Pty_Ltd_053.docx:P13"
+      ],
+      "reason": "Packaging QC records are not consistently attached to individual lot files, indicating inadequate packaging record keeping."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P36",
+        "3_PestControlRecord_53_Condamine_Pulse_Pty_Ltd.xlsx:Cover:R8"
+      ],
+      "reason": "Records are retained for at least two years, and pest control records cover 2022-2025."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_53_Condamine_Pulse_Pty_Ltd.docx:P23"
+      ],
+      "reason": "No records of rejected or failed goods are retained because no procedure exists for managing such goods."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and are retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_53_Condamine_Pulse_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The establishment is registered for mung beans and the management plan references compliance with Chapter 4 of the Rules and DAFF Performance Standards, indicating importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-053/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-053/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-053/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-053/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-053/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 15,
+    "N/A": 2,
+    "1": 24
+  }
+}

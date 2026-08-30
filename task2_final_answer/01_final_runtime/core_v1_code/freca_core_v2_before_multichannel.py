@@ -1,0 +1,1860 @@
+from __future__ import annotations
+
+import argparse
+import json
+import re
+from pathlib import Path
+from typing import Any
+
+import freca_core_v1 as core
+from policy_units import extract_policy_units
+
+
+# ============================================================
+# FRECA Core V2
+#
+# Main change from V1:
+#
+# Rules retrieval
+#   -> CandidateRelationDecision
+#   -> validated CandidateLedger
+#   -> grounded contract compilation
+#
+# This is a minimal extraction from the full Layer-2 design.
+# ============================================================
+
+
+PROJECT_ROOT = core.PROJECT_ROOT
+
+CONTRACT_DIR_V2 = (
+    PROJECT_ROOT / "contracts_v2"
+)
+
+RESULT_DIR_V2 = (
+    PROJECT_ROOT / "results_v2"
+)
+
+
+RELATIONS = {
+    "PRIMARY_NORM",
+    "APPLICABILITY",
+    "EXCEPTION_OR_DEEMING",
+    "DEFINITION",
+    "CROSS_REFERENCE_DEPENDENCY",
+    "STRUCTURAL_CONTEXT",
+    "CP_OPERATIONALIZATION_SUPPORT",
+    "IRRELEVANT",
+    "UNRESOLVED",
+}
+
+
+SELECTED_RELATIONS = {
+    "PRIMARY_NORM",
+    "APPLICABILITY",
+    "EXCEPTION_OR_DEEMING",
+    "DEFINITION",
+    "CROSS_REFERENCE_DEPENDENCY",
+    "STRUCTURAL_CONTEXT",
+    "CP_OPERATIONALIZATION_SUPPORT",
+}
+
+
+# ============================================================
+# Exact grounding
+# ============================================================
+
+def whitespace_normalize(
+    value: Any,
+) -> str:
+    return re.sub(
+        r"\s+",
+        " ",
+        str(value),
+    ).strip()
+
+
+def quote_match_mode(
+    quote: str,
+    source: str,
+) -> str | None:
+    """
+    Full architecture rule:
+      EXACT_RAW
+      or
+      WHITESPACE_NORMALIZED
+
+    No fuzzy / semantic quote matching.
+    """
+
+    quote = str(quote)
+    source = str(source)
+
+    if quote and quote in source:
+        return "EXACT_RAW"
+
+    q = whitespace_normalize(
+        quote
+    )
+
+    s = whitespace_normalize(
+        source
+    )
+
+    if q and q in s:
+        return (
+            "WHITESPACE_NORMALIZED"
+        )
+
+    return None
+
+
+# ============================================================
+# Stage 1:
+# Candidate Relation Classification
+# ============================================================
+
+CANDIDATE_RELATION_SYSTEM = r"""
+You are the Candidate Relation Classifier for a legal rule compiler.
+
+You are NOT a compliance classifier.
+
+You receive:
+1. one official FRECA checking-point criterion;
+2. a set of candidate excerpts retrieved from the official Rules.
+
+Your task is NOT to build the final CP contract.
+
+Your only task is to classify the relationship between EACH
+candidate Rules chunk and THIS CP criterion.
+
+This distinction is critical:
+
+A provision can be legally relevant to the same general topic
+without being an independent scoring requirement for this CP.
+
+Use exactly one of these relation labels:
+
+PRIMARY_NORM
+
+    The candidate directly supplies or defines a normative rule
+    that grounds what THIS CP criterion scores.
+
+    A PRIMARY_NORM may later support a mandatory proposition in
+    the satisfaction logic.
+
+APPLICABILITY
+
+    The candidate supplies a condition governing whether the whole
+    CP or its governing legal rule applies.
+
+EXCEPTION_OR_DEEMING
+
+    The candidate supplies an exception, non-applicability rule,
+    deeming provision, or alternative legal effect relevant to the
+    governing rule.
+
+DEFINITION
+
+    The candidate defines a legal term needed to interpret a
+    selected governing provision.
+
+    A definition is context. It does not independently create a
+    satisfaction requirement.
+
+CROSS_REFERENCE_DEPENDENCY
+
+    The candidate is required because a selected governing rule
+    explicitly depends on or refers to it.
+
+    It is context unless its own normative role is separately
+    established.
+
+STRUCTURAL_CONTEXT
+
+    The candidate is necessary structural context such as a
+    chapeau or parent provision.
+
+    It does not independently create a scoring requirement.
+
+CP_OPERATIONALIZATION_SUPPORT
+
+    The candidate helps explain how the CP criterion may be
+    operationalised or evidenced, but it is NOT by itself an
+    independent requirement scored by this CP.
+
+    This category is especially important.
+
+    Do not upgrade an operationally related obligation into
+    PRIMARY_NORM merely because both concern the same topic.
+
+IRRELEVANT
+
+    The candidate does not materially contribute to interpreting
+    this CP.
+
+UNRESOLVED
+
+    The supplied text is insufficient to determine the relationship.
+
+Important rules:
+
+1. Use only the supplied CP and Rules chunks.
+2. Never use case evidence.
+3. Never output 1, 0, N/A, PASS, FAIL or compliance conclusions.
+4. Never infer a legal provision that is not supplied.
+5. Do not classify every retrieved provision as PRIMARY_NORM.
+6. Similar topic does not mean same scoring criterion.
+7. For every non-IRRELEVANT/non-UNRESOLVED relation, provide:
+   - an exact CP quote;
+   - an exact policy quote.
+8. Quotes must be copied from the supplied text.
+9. Do not paraphrase source quotes.
+10. If grounding cannot be made exact, use UNRESOLVED.
+
+Return JSON:
+
+{
+  "decisions": [
+    {
+      "candidate_id": "RULE-P45-C2",
+      "relation": "PRIMARY_NORM",
+      "cp_quote": "exact phrase from CP",
+      "policy_quote": "exact phrase from candidate",
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "brief explanation"
+    }
+  ]
+}
+
+Return one decision for every candidate_id supplied.
+
+Return JSON only.
+"""
+
+
+def make_candidate_prompt(
+    cp: dict,
+    candidates: list[dict],
+) -> str:
+
+    candidate_text = "\n\n".join(
+        (
+            f"[{candidate['id']}]\n"
+            f"CITATION={candidate.get('citation', '')}\n"
+            f"TYPE={candidate.get('unit_type', '')}\n"
+            f"PAGE={candidate['page']}\n"
+            f"OWN_TEXT:\n"
+            f"{candidate.get('own_text', candidate['text'])}\n"
+            f"CONTEXT_VIEW:\n"
+            f"{candidate['text']}"
+        )
+        for candidate
+        in candidates
+    )
+
+    return f"""
+OFFICIAL CHECKING POINT
+
+CP_ID:
+{cp["cp_id"]}
+
+ELEMENT:
+{cp["element"]}
+
+SUBELEMENT:
+{cp["subelement"]}
+
+CRITERION:
+{cp["criterion"]}
+
+
+RETRIEVED RULES CANDIDATES
+
+{candidate_text}
+
+
+Classify the relation of EVERY candidate to the CP criterion.
+
+Do not build the contract yet.
+
+Return JSON only.
+"""
+
+
+def validate_candidate_ledger(
+    raw: dict,
+    cp: dict,
+    candidates: list[dict],
+) -> list[dict]:
+
+    candidate_map = {
+        candidate["id"]:
+            candidate
+        for candidate
+        in candidates
+    }
+
+    raw_map = {}
+
+    for decision in raw.get(
+        "decisions",
+        [],
+    ):
+
+        candidate_id = (
+            decision.get(
+                "candidate_id"
+            )
+        )
+
+        if (
+            candidate_id
+            in candidate_map
+            and candidate_id
+            not in raw_map
+        ):
+            raw_map[
+                candidate_id
+            ] = decision
+
+    ledger = []
+
+    for candidate in candidates:
+
+        candidate_id = (
+            candidate["id"]
+        )
+
+        raw_decision = (
+            raw_map.get(
+                candidate_id
+            )
+        )
+
+        # Missing model decision:
+        # preserve as unresolved.
+        if raw_decision is None:
+
+            ledger.append(
+                {
+                    "candidate_id":
+                        candidate_id,
+                    "page":
+                        candidate["page"],
+                    "rrf_or_bm25_score":
+                        candidate.get(
+                            "score"
+                        ),
+                    "relation":
+                        "UNRESOLVED",
+                    "selected":
+                        False,
+                    "reason_code":
+                        "NO_MODEL_DECISION",
+                    "reason":
+                        "Classifier returned "
+                        "no decision.",
+                    "cp_quote":
+                        "",
+                    "policy_quote":
+                        "",
+                    "cp_match_mode":
+                        None,
+                    "policy_match_mode":
+                        None,
+                    "validation_error":
+                        None,
+                }
+            )
+
+            continue
+
+        relation = (
+            raw_decision.get(
+                "relation",
+                "UNRESOLVED",
+            )
+        )
+
+        if relation not in RELATIONS:
+            relation = "UNRESOLVED"
+
+        cp_quote = str(
+            raw_decision.get(
+                "cp_quote",
+                "",
+            )
+        ).strip()
+
+        policy_quote = str(
+            raw_decision.get(
+                "policy_quote",
+                "",
+            )
+        ).strip()
+
+        cp_match = None
+        policy_match = None
+        validation_error = None
+
+        # Grounding required for every
+        # meaningful legal relationship.
+        if relation not in {
+            "IRRELEVANT",
+            "UNRESOLVED",
+        }:
+
+            cp_match = quote_match_mode(
+                cp_quote,
+                cp["criterion"],
+            )
+
+            policy_match = (
+                quote_match_mode(
+                    policy_quote,
+                    candidate.get(
+                        "own_text",
+                        candidate["text"],
+                    ),
+                )
+            )
+
+            if cp_match is None:
+
+                validation_error = (
+                    "CP_QUOTE_NOT_GROUNDED"
+                )
+
+            elif policy_match is None:
+
+                validation_error = (
+                    "POLICY_QUOTE_NOT_GROUNDED"
+                )
+
+        # IMPORTANT:
+        # semantic grounding failure is NOT
+        # repaired by asking the same model
+        # to rewrite until accepted.
+        if validation_error:
+
+            final_relation = (
+                "UNRESOLVED"
+            )
+
+            selected = False
+
+        else:
+
+            final_relation = relation
+
+            selected = (
+                relation
+                in SELECTED_RELATIONS
+            )
+
+        ledger.append(
+            {
+                "candidate_id":
+                    candidate_id,
+                "page":
+                    candidate["page"],
+                "rrf_or_bm25_score":
+                    candidate.get(
+                        "score"
+                    ),
+                "relation":
+                    final_relation,
+                "selected":
+                    selected,
+                "reason_code":
+                    str(
+                        raw_decision.get(
+                            "reason_code",
+                            "",
+                        )
+                    ),
+                "reason":
+                    str(
+                        raw_decision.get(
+                            "reason",
+                            "",
+                        )
+                    ),
+                "cp_quote":
+                    cp_quote,
+                "policy_quote":
+                    policy_quote,
+                "cp_match_mode":
+                    cp_match,
+                "policy_match_mode":
+                    policy_match,
+                "validation_error":
+                    validation_error,
+            }
+        )
+
+    return ledger
+
+
+# ============================================================
+# Batched Candidate Relation Classification
+#
+# Extracted from the full Layer-2 design:
+# shortlisted candidates are classified in small independent
+# batches, then merged into one CandidateLedger.
+# ============================================================
+
+def classify_candidate_batches(
+    cp: dict,
+    candidates: list[dict],
+    batch_size: int = 6,
+) -> dict:
+
+    all_decisions = []
+
+    total_batches = (
+        len(candidates)
+        + batch_size
+        - 1
+    ) // batch_size
+
+    for start in range(
+        0,
+        len(candidates),
+        batch_size,
+    ):
+
+        batch = candidates[
+            start:start + batch_size
+        ]
+
+        batch_no = (
+            start // batch_size
+            + 1
+        )
+
+        print(
+            f"    relation batch "
+            f"{batch_no}/{total_batches}: "
+            f"{len(batch)} candidates"
+        )
+
+        print(
+            "      "
+            + ", ".join(
+                item["id"]
+                for item in batch
+            )
+        )
+
+        raw = core.deepseek_json(
+            model=
+                core.CONTRACT_MODEL,
+            system_prompt=
+                CANDIDATE_RELATION_SYSTEM,
+            user_prompt=
+                make_candidate_prompt(
+                    cp,
+                    batch,
+                ),
+            thinking=False,
+            max_tokens=5000,
+        )
+
+        decisions = raw.get(
+            "decisions"
+        )
+
+        if not isinstance(
+            decisions,
+            list,
+        ):
+            raise RuntimeError(
+                f"Candidate relation batch "
+                f"{batch_no} returned no "
+                f"'decisions' list."
+            )
+
+        # Do not decide semantic validity here.
+        # Grounding/enum validation happens later
+        # in validate_candidate_ledger().
+        all_decisions.extend(
+            decisions
+        )
+
+    return {
+        "decisions":
+            all_decisions
+    }
+
+
+# ============================================================
+# Stage 2:
+# Grounded contract compilation
+# ============================================================
+
+CONTRACT_SYSTEM_V2 = r"""
+You are the second stage of a legal rule compiler.
+
+You are NOT given arbitrary retrieved Rules text.
+
+You receive:
+
+1. one official FRECA CP criterion;
+2. a VALIDATED CandidateLedger.
+
+Every legal candidate in the ledger already has:
+- a relation type;
+- an exact CP span;
+- an exact Rules span.
+
+Your task is to compile an executable CP contract using ONLY
+those validated relationships.
+
+Do not re-retrieve law.
+Do not invent new legal provisions.
+Do not output a compliance result.
+
+RELATION SEMANTICS
+
+PRIMARY_NORM
+
+    May ground a mandatory satisfaction proposition.
+
+APPLICABILITY
+
+    May ground an applicability proposition.
+
+EXCEPTION_OR_DEEMING
+
+    May ground an exception or positive non-applicability proposition.
+
+CP_OPERATIONALIZATION_SUPPORT
+
+    May help explain or formulate a proposition already grounded
+    by PRIMARY_NORM.
+
+    IMPORTANT:
+    CP_OPERATIONALIZATION_SUPPORT can NEVER be the sole legal basis
+    for a mandatory satisfaction atom.
+
+DEFINITION
+CROSS_REFERENCE_DEPENDENCY
+STRUCTURAL_CONTEXT
+
+    May help interpret the governing legal material but must not
+    independently create a new scoring requirement.
+
+IRRELEVANT
+UNRESOLVED
+
+    Must not be used.
+
+CRITICAL LOGIC RULE
+
+Multiple selected legal candidates do NOT automatically imply ALL.
+
+Do not create ALL merely because several PRIMARY_NORM or supporting
+provisions were retrieved.
+
+ALL / ANY must be justified by:
+- explicit wording or structure in the official CP; or
+- explicit connector/structure in a validated legal candidate.
+
+For every ALL or ANY root with multiple children, provide a
+logic_basis entry quoting the source text that justifies that
+logical combination.
+
+Each scoring atom must contain:
+
+- atom_id
+- proposition
+- criterion_quote
+- basis_candidate_ids
+
+criterion_quote must be copied from the official CP criterion.
+
+A satisfaction atom must contain at least one PRIMARY_NORM
+basis_candidate_id.
+
+It may additionally contain CP_OPERATIONALIZATION_SUPPORT,
+DEFINITION or structural/context candidates.
+
+Return JSON:
+
+{
+  "cp_id": "CP12",
+
+  "atoms": [
+    {
+      "atom_id": "A1",
+      "proposition": "testable factual proposition",
+      "criterion_quote": "exact CP phrase",
+      "basis_candidate_ids": [
+        "RULE-P45-C2"
+      ]
+    }
+  ],
+
+  "applicability": {
+    "op": "CONST",
+    "value": true
+  },
+
+  "satisfaction": {
+    "op": "ATOM",
+    "atom_id": "A1"
+  },
+
+  "non_applicability": {
+    "op": "CONST",
+    "value": false
+  },
+
+  "logic_basis": [],
+
+  "notes": []
+}
+
+Allowed expressions:
+
+{"op":"ATOM","atom_id":"A1"}
+
+{"op":"ALL","children":[...]}
+
+{"op":"ANY","children":[...]}
+
+{"op":"NOT","children":[one_expression]}
+
+{"op":"CONST","value":true}
+
+{"op":"CONST","value":false}
+
+A logic_basis item has this form:
+
+{
+  "root": "satisfaction",
+  "operator": "ALL",
+  "source": "CP",
+  "candidate_id": null,
+  "quote": "exact source phrase containing the structural basis"
+}
+
+or:
+
+{
+  "root": "satisfaction",
+  "operator": "ALL",
+  "source": "RULES",
+  "candidate_id": "RULE-P45-C2",
+  "quote": "exact source phrase containing the structural basis"
+}
+
+Do not manufacture a logical connector.
+
+If the logical relationship cannot be justified from supplied
+grounded material, prefer one holistic proposition or state the
+problem in notes rather than inventing ALL/ANY.
+
+Return JSON only.
+"""
+
+
+def make_contract_prompt_v2(
+    cp: dict,
+    ledger: list[dict],
+) -> str:
+
+    allowed = [
+        item
+        for item in ledger
+        if item["selected"]
+    ]
+
+    return f"""
+OFFICIAL CHECKING POINT
+
+CP_ID:
+{cp["cp_id"]}
+
+ELEMENT:
+{cp["element"]}
+
+SUBELEMENT:
+{cp["subelement"]}
+
+CRITERION:
+{cp["criterion"]}
+
+
+VALIDATED CANDIDATE LEDGER
+
+{json.dumps(
+    allowed,
+    ensure_ascii=False,
+    indent=2,
+)}
+
+
+Compile the grounded CP contract.
+
+Return JSON only.
+"""
+
+
+# ============================================================
+# Contract validation
+# ============================================================
+
+def collect_atom_ids(
+    expression: dict,
+) -> set[str]:
+
+    op = expression["op"]
+
+    if op == "ATOM":
+        return {
+            expression["atom_id"]
+        }
+
+    result = set()
+
+    for child in expression.get(
+        "children",
+        [],
+    ):
+        result |= collect_atom_ids(
+            child
+        )
+
+    return result
+
+
+def validate_logic_basis(
+    raw_contract: dict,
+    cp: dict,
+    ledger_map: dict[str, dict],
+):
+
+    logic_basis = (
+        raw_contract.get(
+            "logic_basis",
+            [],
+        )
+    )
+
+    basis_lookup = set()
+
+    for item in logic_basis:
+
+        root = item.get(
+            "root"
+        )
+
+        operator = item.get(
+            "operator"
+        )
+
+        source = item.get(
+            "source"
+        )
+
+        quote = str(
+            item.get(
+                "quote",
+                "",
+            )
+        )
+
+        if root not in {
+            "applicability",
+            "satisfaction",
+            "non_applicability",
+        }:
+            continue
+
+        if operator not in {
+            "ALL",
+            "ANY",
+        }:
+            continue
+
+        valid = False
+
+        if source == "CP":
+
+            valid = (
+                quote_match_mode(
+                    quote,
+                    cp["criterion"],
+                )
+                is not None
+            )
+
+        elif source == "RULES":
+
+            candidate_id = (
+                item.get(
+                    "candidate_id"
+                )
+            )
+
+            candidate = (
+                ledger_map.get(
+                    candidate_id
+                )
+            )
+
+            if candidate:
+
+                valid = (
+                    quote_match_mode(
+                        quote,
+                        candidate[
+                            "policy_quote"
+                        ],
+                    )
+                    is not None
+                )
+
+        if valid:
+
+            basis_lookup.add(
+                (
+                    root,
+                    operator,
+                )
+            )
+
+    # Minimal structural gate:
+    # multi-child ALL/ANY at each root
+    # requires a grounded logic basis.
+    for root in (
+        "applicability",
+        "satisfaction",
+        "non_applicability",
+    ):
+
+        expression = (
+            raw_contract[root]
+        )
+
+        op = expression.get(
+            "op"
+        )
+
+        children = expression.get(
+            "children",
+            [],
+        )
+
+        if (
+            op in {
+                "ALL",
+                "ANY",
+            }
+            and len(children) > 1
+        ):
+
+            if (
+                root,
+                op,
+            ) not in basis_lookup:
+
+                raise ValueError(
+                    f"{root} uses {op} "
+                    "without grounded "
+                    "logic_basis."
+                )
+
+
+def validate_and_materialize_contract(
+    raw_contract: dict,
+    cp: dict,
+    ledger: list[dict],
+) -> dict:
+
+    if (
+        core.canonical_cp_id(
+            raw_contract.get(
+                "cp_id",
+                "",
+            )
+        )
+        != cp[
+            "canonical_cp_id"
+        ]
+    ):
+        raise ValueError(
+            "Contract CP ID mismatch."
+        )
+
+    ledger_map = {
+        item["candidate_id"]:
+            item
+        for item in ledger
+    }
+
+    atoms = raw_contract.get(
+        "atoms"
+    )
+
+    if (
+        not isinstance(
+            atoms,
+            list,
+        )
+        or not atoms
+    ):
+        raise ValueError(
+            "No contract atoms."
+        )
+
+    atom_ids = set()
+
+    materialized_atoms = []
+
+    atom_relation_map = {}
+
+    for atom in atoms:
+
+        atom_id = str(
+            atom.get(
+                "atom_id",
+                "",
+            )
+        ).strip()
+
+        proposition = str(
+            atom.get(
+                "proposition",
+                "",
+            )
+        ).strip()
+
+        criterion_quote = str(
+            atom.get(
+                "criterion_quote",
+                "",
+            )
+        ).strip()
+
+        basis_ids = (
+            atom.get(
+                "basis_candidate_ids",
+                []
+            )
+        )
+
+        if not atom_id:
+            raise ValueError(
+                "Atom missing atom_id."
+            )
+
+        if atom_id in atom_ids:
+            raise ValueError(
+                f"Duplicate atom "
+                f"{atom_id}"
+            )
+
+        atom_ids.add(
+            atom_id
+        )
+
+        if not proposition:
+            raise ValueError(
+                f"{atom_id}: "
+                "missing proposition"
+            )
+
+        if (
+            quote_match_mode(
+                criterion_quote,
+                cp["criterion"],
+            )
+            is None
+        ):
+            raise ValueError(
+                f"{atom_id}: "
+                "criterion_quote "
+                "not grounded."
+            )
+
+        if (
+            not isinstance(
+                basis_ids,
+                list,
+            )
+            or not basis_ids
+        ):
+            raise ValueError(
+                f"{atom_id}: "
+                "no basis candidates."
+            )
+
+        relations = []
+        anchors = [
+            {
+                "source":
+                    "CP",
+                "quote":
+                    criterion_quote,
+            }
+        ]
+
+        for candidate_id in basis_ids:
+
+            candidate = (
+                ledger_map.get(
+                    candidate_id
+                )
+            )
+
+            if candidate is None:
+                raise ValueError(
+                    f"{atom_id}: "
+                    f"unknown basis "
+                    f"{candidate_id}"
+                )
+
+            if not candidate[
+                "selected"
+            ]:
+                raise ValueError(
+                    f"{atom_id}: "
+                    f"unselected basis "
+                    f"{candidate_id}"
+                )
+
+            relation = (
+                candidate[
+                    "relation"
+                ]
+            )
+
+            relations.append(
+                relation
+            )
+
+            policy_quote = (
+                candidate[
+                    "policy_quote"
+                ]
+            )
+
+            if not policy_quote:
+                raise ValueError(
+                    f"{atom_id}: "
+                    f"{candidate_id} "
+                    "has no grounded quote."
+                )
+
+            anchors.append(
+                {
+                    "source":
+                        "RULES",
+                    "chunk_id":
+                        candidate_id,
+                    "quote":
+                        policy_quote,
+                }
+            )
+
+        atom_relation_map[
+            atom_id
+        ] = relations
+
+        materialized_atoms.append(
+            {
+                "atom_id":
+                    atom_id,
+                "proposition":
+                    proposition,
+                "criterion_quote":
+                    criterion_quote,
+                "basis_candidate_ids":
+                    basis_ids,
+                "anchors":
+                    anchors,
+            }
+        )
+
+    # Validate logic syntax using
+    # V1's deterministic evaluator schema.
+    for root in (
+        "applicability",
+        "satisfaction",
+        "non_applicability",
+    ):
+
+        if root not in raw_contract:
+            raise ValueError(
+                f"Missing root {root}"
+            )
+
+        core.validate_expression(
+            raw_contract[root],
+            atom_ids,
+        )
+
+    satisfaction_atoms = (
+        collect_atom_ids(
+            raw_contract[
+                "satisfaction"
+            ]
+        )
+    )
+
+    applicability_atoms = (
+        collect_atom_ids(
+            raw_contract[
+                "applicability"
+            ]
+        )
+    )
+
+    na_atoms = (
+        collect_atom_ids(
+            raw_contract[
+                "non_applicability"
+            ]
+        )
+    )
+
+    # Key extraction from full architecture:
+    #
+    # Operationalisation support cannot
+    # independently create scoring criteria.
+    for atom_id in satisfaction_atoms:
+
+        relations = (
+            atom_relation_map[
+                atom_id
+            ]
+        )
+
+        if (
+            "PRIMARY_NORM"
+            not in relations
+        ):
+            raise ValueError(
+                f"{atom_id}: "
+                "satisfaction atom lacks "
+                "PRIMARY_NORM basis. "
+                "Operationalisation/context "
+                "alone cannot create a "
+                "mandatory scoring atom."
+            )
+
+    for atom_id in applicability_atoms:
+
+        relations = (
+            atom_relation_map[
+                atom_id
+            ]
+        )
+
+        if (
+            "APPLICABILITY"
+            not in relations
+        ):
+            raise ValueError(
+                f"{atom_id}: "
+                "applicability atom lacks "
+                "APPLICABILITY basis."
+            )
+
+    for atom_id in na_atoms:
+
+        relations = (
+            atom_relation_map[
+                atom_id
+            ]
+        )
+
+        if (
+            "EXCEPTION_OR_DEEMING"
+            not in relations
+        ):
+            raise ValueError(
+                f"{atom_id}: "
+                "non-applicability atom "
+                "lacks "
+                "EXCEPTION_OR_DEEMING "
+                "basis."
+            )
+
+    validate_logic_basis(
+        raw_contract,
+        cp,
+        ledger_map,
+    )
+
+    contract = dict(
+        raw_contract
+    )
+
+    contract[
+        "atoms"
+    ] = materialized_atoms
+
+    return contract
+
+
+# ============================================================
+# Compile V2
+# ============================================================
+
+def compile_cp_v2(
+    cp_id: str,
+    policy_top_k: int,
+):
+
+    CONTRACT_DIR_V2.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    print(
+        "\n"
+        + "=" * 72
+    )
+
+    print(
+        "FRECA CORE V2 — "
+        "GROUNDED COMPILE"
+    )
+
+    print(
+        "=" * 72
+    )
+
+    cp = core.get_cp(
+        cp_id
+    )
+
+    print(
+        f"\nCP: {cp['cp_id']}"
+    )
+
+    print(
+        "Criterion:\n"
+        f"{cp['criterion']}"
+    )
+
+    # --------------------------------------------------------
+    # Retrieval
+    # --------------------------------------------------------
+
+    print(
+        "\n[1/4] Parsing Rules PDF..."
+    )
+
+    all_rules = (
+        extract_policy_units(
+            core.RULES_PATH
+        )
+    )
+
+    print(
+        "PolicyUnits:",
+        len(all_rules),
+    )
+
+    query = " ".join(
+        [
+            cp["element"],
+            cp["subelement"],
+            cp["criterion"],
+        ]
+    )
+
+    print(
+        "\n[2/4] BM25 candidate "
+        "retrieval..."
+    )
+
+    candidates = (
+        core.bm25_rank(
+            query,
+            all_rules,
+            policy_top_k,
+        )
+    )
+
+    for candidate in candidates:
+
+        print(
+            f"  {candidate['id']}: "
+            f"{candidate['score']:.3f}"
+        )
+
+    # --------------------------------------------------------
+    # CandidateRelationDecision
+    # --------------------------------------------------------
+
+    print(
+        "\n[3/4] Candidate relation "
+        f"classification with "
+        f"{core.CONTRACT_MODEL}..."
+    )
+
+    raw_decisions = (
+        classify_candidate_batches(
+            cp,
+            candidates,
+            batch_size=6,
+        )
+    )
+
+    ledger = (
+        validate_candidate_ledger(
+            raw_decisions,
+            cp,
+            candidates,
+        )
+    )
+
+    ledger_path = (
+        CONTRACT_DIR_V2
+        / (
+            f"{cp['cp_id']}"
+            "_candidate_ledger.json"
+        )
+    )
+
+    core.save_json(
+        {
+            "schema":
+                "freca-core-"
+                "candidate-ledger-v2",
+            "cp":
+                cp,
+            "model":
+                core.CONTRACT_MODEL,
+            "candidates":
+                candidates,
+            "decisions":
+                ledger,
+        },
+        ledger_path,
+    )
+
+    print(
+        "\nCandidateLedger:"
+    )
+
+    relation_counts = {}
+
+    for item in ledger:
+
+        relation = (
+            item["relation"]
+        )
+
+        relation_counts[
+            relation
+        ] = (
+            relation_counts.get(
+                relation,
+                0,
+            )
+            + 1
+        )
+
+        marker = (
+            "*"
+            if item["selected"]
+            else " "
+        )
+
+        print(
+            f"{marker} "
+            f"{item['candidate_id']:15s} "
+            f"{relation:32s} "
+            f"{item['reason_code']}"
+        )
+
+        if item[
+            "validation_error"
+        ]:
+
+            print(
+                "    GROUNDING ERROR:",
+                item[
+                    "validation_error"
+                ],
+            )
+
+    print(
+        "\nRelation counts:"
+    )
+
+    for relation, count in sorted(
+        relation_counts.items()
+    ):
+
+        print(
+            f"  {relation}: {count}"
+        )
+
+    primary = [
+        item
+        for item in ledger
+        if (
+            item["selected"]
+            and item["relation"]
+            == "PRIMARY_NORM"
+        )
+    ]
+
+    if not primary:
+
+        raise RuntimeError(
+            "COMPILE_REVIEW_REQUIRED: "
+            "no grounded PRIMARY_NORM "
+            "candidate was identified. "
+            "CandidateLedger has been "
+            f"saved to {ledger_path}"
+        )
+
+    # --------------------------------------------------------
+    # Contract compilation from ledger
+    # --------------------------------------------------------
+
+    print(
+        "\n[4/4] Compiling contract "
+        "from grounded CandidateLedger..."
+    )
+
+    raw_contract = (
+        core.deepseek_json(
+            model=
+                core.CONTRACT_MODEL,
+            system_prompt=
+                CONTRACT_SYSTEM_V2,
+            user_prompt=
+                make_contract_prompt_v2(
+                    cp,
+                    ledger,
+                ),
+            thinking=False,
+            max_tokens=7000,
+        )
+    )
+
+    # No semantic "rewrite until validator likes it".
+    # A semantic contract error means review required.
+    contract = (
+        validate_and_materialize_contract(
+            raw_contract,
+            cp,
+            ledger,
+        )
+    )
+
+    output_path = (
+        CONTRACT_DIR_V2
+        / f"{cp['cp_id']}.json"
+    )
+
+    core.save_json(
+        {
+            "schema":
+                "freca-core-contract-v2",
+            "cp":
+                cp,
+            "model":
+                core.CONTRACT_MODEL,
+            "retrieved_rules":
+                candidates,
+            "candidate_ledger":
+                ledger,
+            "contract":
+                contract,
+        },
+        output_path,
+    )
+
+    print(
+        "\n"
+        + "-" * 72
+    )
+
+    print(
+        "CONTRACT COMPILED"
+    )
+
+    print(
+        "-" * 72
+    )
+
+    print(
+        "\nATOMS:"
+    )
+
+    for atom in contract[
+        "atoms"
+    ]:
+
+        print(
+            f"\n{atom['atom_id']}: "
+            f"{atom['proposition']}"
+        )
+
+        print(
+            "  CP:",
+            atom[
+                "criterion_quote"
+            ],
+        )
+
+        print(
+            "  BASIS:",
+            ", ".join(
+                atom[
+                    "basis_candidate_ids"
+                ]
+            ),
+        )
+
+        relations = []
+
+        ledger_map = {
+            item[
+                "candidate_id"
+            ]:
+                item
+            for item in ledger
+        }
+
+        for candidate_id in atom[
+            "basis_candidate_ids"
+        ]:
+
+            relations.append(
+                ledger_map[
+                    candidate_id
+                ][
+                    "relation"
+                ]
+            )
+
+        print(
+            "  RELATIONS:",
+            ", ".join(
+                relations
+            ),
+        )
+
+    print(
+        "\nAPPLICABILITY:"
+    )
+
+    print(
+        json.dumps(
+            contract[
+                "applicability"
+            ],
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
+
+    print(
+        "\nSATISFACTION:"
+    )
+
+    print(
+        json.dumps(
+            contract[
+                "satisfaction"
+            ],
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
+
+    print(
+        "\nNON-APPLICABILITY:"
+    )
+
+    print(
+        json.dumps(
+            contract[
+                "non_applicability"
+            ],
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
+
+    print(
+        "\nLOGIC BASIS:"
+    )
+
+    print(
+        json.dumps(
+            contract.get(
+                "logic_basis",
+                [],
+            ),
+            indent=2,
+            ensure_ascii=False,
+        )
+    )
+
+    print(
+        "\nSaved CandidateLedger:"
+    )
+
+    print(
+        ledger_path
+    )
+
+    print(
+        "\nSaved Contract:"
+    )
+
+    print(
+        output_path
+    )
+
+
+# ============================================================
+# Evaluate using existing V1 evidence/evaluator machinery
+# ============================================================
+
+def evaluate_v2(
+    cp_id: str,
+    case_name: str,
+    evidence_top_k: int,
+):
+
+    cp = core.get_cp(
+        cp_id
+    )
+
+    contract_path = (
+        CONTRACT_DIR_V2
+        / f"{cp['cp_id']}.json"
+    )
+
+    if not contract_path.exists():
+
+        raise FileNotFoundError(
+            "No V2 contract found:\n"
+            f"{contract_path}\n\n"
+            "Compile it first."
+        )
+
+    RESULT_DIR_V2.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    # Reuse existing evidence parser,
+    # alignment model and deterministic
+    # evaluator, but isolate V2 results.
+    old_result_dir = (
+        core.RESULT_DIR
+    )
+
+    core.RESULT_DIR = (
+        RESULT_DIR_V2
+    )
+
+    try:
+
+        core.evaluate_case(
+            contract_path,
+            case_name,
+            evidence_top_k,
+        )
+
+    finally:
+
+        core.RESULT_DIR = (
+            old_result_dir
+        )
+
+
+# ============================================================
+# CLI
+# ============================================================
+
+def main():
+
+    parser = argparse.ArgumentParser(
+        description=
+            "FRECA Core V2"
+    )
+
+    sub = parser.add_subparsers(
+        dest="command",
+        required=True,
+    )
+
+    compile_parser = (
+        sub.add_parser(
+            "compile"
+        )
+    )
+
+    compile_parser.add_argument(
+        "--cp",
+        required=True,
+    )
+
+    compile_parser.add_argument(
+        "--policy-topk",
+        type=int,
+        default=24,
+    )
+
+    evaluate_parser = (
+        sub.add_parser(
+            "evaluate"
+        )
+    )
+
+    evaluate_parser.add_argument(
+        "--cp",
+        required=True,
+    )
+
+    evaluate_parser.add_argument(
+        "--case",
+        required=True,
+    )
+
+    evaluate_parser.add_argument(
+        "--evidence-topk",
+        type=int,
+        default=60,
+    )
+
+    args = parser.parse_args()
+
+    if args.command == "compile":
+
+        compile_cp_v2(
+            args.cp,
+            args.policy_topk,
+        )
+
+        return
+
+    if args.command == "evaluate":
+
+        evaluate_v2(
+            args.cp,
+            args.case,
+            args.evidence_topk,
+        )
+
+        return
+
+
+if __name__ == "__main__":
+    main()

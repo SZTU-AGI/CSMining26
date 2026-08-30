@@ -1,0 +1,3473 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP36",
+    "canonical_cp_id": "CP36",
+    "element": "Element-4",
+    "subelement": "4.2 System of controls – phytosanitary security",
+    "criterion": "minimising the risk of substitution (switching of goods)",
+    "sheet": "All Elements",
+    "column": 36
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:2-2(2)",
+      "citation": "2-2(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [],
+      "own_text": "(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(2) Plants and plant products that are intended to be exported from Norfolk Island, or\nan area prescribed by paragraph 1-4(1)(b) or (c) of this instrument, are taken not\nto be prescribed goods for the purposes of the Act.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.05458378962698939,
+      "rrf_score": 0.05458378962698939,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 6.537400324838656,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 4.39109635105571,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 5.826708778765587,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 4.870835467764226,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(b)",
+      "citation": "9-4(5)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        82
+      ],
+      "parent_id": "rules2021:9-4(5)",
+      "child_ids": [],
+      "own_text": "(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "text": "9-4 Audit reports\n(5) The audit report may also:\n(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "page": 82,
+      "page_end": 82,
+      "score": 0.046759212119155104,
+      "rrf_score": 0.046759212119155104,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 7.881811084092767,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 7.993431931609206,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 8.326829597619707,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.046342571558382555,
+      "rrf_score": 0.046342571558382555,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 7.896869937790137,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 7.700018631741682,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 8.12532129976858,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04476645849596669,
+      "rrf_score": 0.04476645849596669,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 9.745170640367373,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 7.01810321379652,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 7.413326258772498,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)(ii)",
+      "citation": "2-12(3)(e)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        30,
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)(e)",
+      "child_ids": [],
+      "own_text": "(ii) a certified copy of the original phytosanitary certificate; and\nExporting goods Chapter 2\nGovernment certificates Part 3",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(e) the plants or plant products are accompanied by:\n(ii) a certified copy of the original phytosanitary certificate; and\nExporting goods Chapter 2\nGovernment certificates Part 3",
+      "page": 30,
+      "page_end": 31,
+      "score": 0.043879283009717794,
+      "rrf_score": 0.043879283009717794,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 5.700187406245297,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.882358007617594,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 10.926632636973986,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.03278688524590164,
+      "rrf_score": 0.03278688524590164,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 11.696898711344177,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 12.708462576519048,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.03225806451612903,
+      "rrf_score": 0.03225806451612903,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 10.71392622427258,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 11.634182071276841,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-33",
+      "citation": "8-33",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Security of official marking devices",
+      "label": "8-33",
+      "pages": [
+        78
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is in possession of an official marking device, as permitted by\nsection 8-32, must ensure that the official marking device is stored securely when\nit is not being used.",
+      "text": "8-33 Security of official marking devices\nSecurity of official marking devices\nA person who is in possession of an official marking device, as permitted by\nsection 8-32, must ensure that the official marking device is stored securely when\nit is not being used.",
+      "page": 78,
+      "page_end": 78,
+      "score": 0.03125763125763126,
+      "rrf_score": 0.03125763125763126,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 8.202923698817402,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 9.330535766848433,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(1)",
+      "citation": "2-1(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1",
+      "child_ids": [
+        "rules2021:2-1(1)(a)",
+        "rules2021:2-1(1)(b)",
+        "rules2021:2-1(1)(c)",
+        "rules2021:2-1(1)(d)"
+      ],
+      "own_text": "(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.03125,
+      "rrf_score": 0.03125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 6.867643105619417,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 6.1857236849070425,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-27",
+      "citation": "8-27",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Security of official marks",
+      "label": "8-27",
+      "pages": [
+        76
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is in possession of an official mark that has not been applied to\nany plants or plant products, as permitted by section 8-23, must ensure that the\nofficial mark is stored securely.",
+      "text": "8-27 Security of official marks\nSecurity of official marks\nA person who is in possession of an official mark that has not been applied to\nany plants or plant products, as permitted by section 8-23, must ensure that the\nofficial mark is stored securely.",
+      "page": 76,
+      "page_end": 76,
+      "score": 0.030776515151515152,
+      "rrf_score": 0.030776515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 8.146033292484134,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 9.266583527264503,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-13",
+      "citation": "2-13",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "When phytosanitary certificate, or phytosanitary certificate for re-export,",
+      "label": "2-13",
+      "pages": [
+        31,
+        32
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "in relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "text": "2-13 When phytosanitary certificate, or phytosanitary certificate for re-export,\nWhen phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "page": 31,
+      "page_end": 32,
+      "score": 0.029709507042253523,
+      "rrf_score": 0.029709507042253523,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.777056886027913,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 9.674163103425299,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)(v)",
+      "citation": "2-2(4)(f)(v)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(v)",
+      "pages": [
+        23,
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)(f)",
+      "child_ids": [],
+      "own_text": "(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:\n(v) the area in or above the Kitan Oil Field within the meaning of the\nTimor Sea Maritime Boundaries Treaty;\nChapter 2 Exporting goods\nPart 1 Goods",
+      "page": 23,
+      "page_end": 24,
+      "score": 0.029236022193768675,
+      "rrf_score": 0.029236022193768675,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 6.531240335147073,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 5.506427311804229,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-11",
+      "citation": "2-11",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Phytosanitary certificate, or phytosanitary certificate for re-export, may be",
+      "label": "2-11",
+      "pages": [
+        29
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "issued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "text": "2-11 Phytosanitary certificate, or phytosanitary certificate for re-export, may be\nPhytosanitary certificate, or phytosanitary certificate for re-export, may be\nissued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "page": 29,
+      "page_end": 29,
+      "score": 0.029211087420042643,
+      "rrf_score": 0.029211087420042643,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 7.230556738639496,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 8.125414149753674,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(9)(Excise)",
+      "citation": "1-8(9)(Excise)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "on which levy is imposed under Schedule 13 or 26 to the Primary Industries",
+      "label": "(Excise)",
+      "pages": [
+        21,
+        22
+      ],
+      "parent_id": "rules2021:1-8(9)",
+      "child_ids": [],
+      "own_text": "(Excise) Levies Act 1999.\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 1 Prescribed goods",
+      "text": "1-8 Meaning of small horticultural products registered establishment\non which levy is imposed under Schedule 13 or 26 to the Primary Industries\n(9) In the table in subsection (8):\napple means a fruit of any species of the genus Malus.\navocado means a fruit of the species Persea americana.\ncherry means a fruit of the species Prunus avium.\ncitrus:\n(Excise) Levies Act 1999.\nChapter 2 Exporting goods\nPart 1 Goods\nDivision 1 Prescribed goods",
+      "page": 21,
+      "page_end": 22,
+      "score": 0.028594771241830064,
+      "rrf_score": 0.028594771241830064,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 6.415562869421723,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 5.475168776899076,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(f)",
+      "citation": "2-12(3)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Phytosanitary certificates and phytosanitary certificates for re-export Division 2",
+      "label": "(f)",
+      "pages": [
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates and phytosanitary certificates for re-export Division 2\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "page": 31,
+      "page_end": 31,
+      "score": 0.028594771241830064,
+      "rrf_score": 0.028594771241830064,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.915655458025631,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 7.978925181660796,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-13(a)",
+      "citation": "8-13(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        68
+      ],
+      "parent_id": "rules2021:8-13",
+      "child_ids": [],
+      "own_text": "(a) is a high security bolt seal; and",
+      "text": "8-13 Official mark—bolt seal\nA seal that:\n(a) is a high security bolt seal; and",
+      "page": 68,
+      "page_end": 68,
+      "score": 0.028205128205128206,
+      "rrf_score": 0.028205128205128206,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.517935754645415,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 7.517935754645415,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)(i)",
+      "citation": "2-12(3)(e)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)(e)",
+      "child_ids": [],
+      "own_text": "(i) a phytosanitary certificate (the original phytosanitary certificate) in\nrelation to the plants or plant products that was issued by the country\nof origin of the plants or plant products, that meets importing country\nrequirements and that has not expired; or",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(e) the plants or plant products are accompanied by:\n(i) a phytosanitary certificate (the original phytosanitary certificate) in\nrelation to the plants or plant products that was issued by the country\nof origin of the plants or plant products, that meets importing country\nrequirements and that has not expired; or",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027984344422700584,
+      "rrf_score": 0.027984344422700584,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7943673814827825,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 7.877095216936375,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-9",
+      "citation": "2-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Variation of conditions of exemption—matters to which Secretary must have",
+      "label": "2-9",
+      "pages": [
+        28,
+        29
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "regard\nFor the purposes of subsection 58(3) of the Act, a matter to which the Secretary\nmust have regard is whether varying a condition of an exemption in relation to\nrelevant goods will ensure that one or more objects of the Act will be met in\nrelation to the goods.\nExporting goods Chapter 2\nGovernment certificates Part 3\nGeneral Division 1",
+      "text": "2-9 Variation of conditions of exemption—matters to which Secretary must have\nVariation of conditions of exemption—matters to which Secretary must have\nregard\nFor the purposes of subsection 58(3) of the Act, a matter to which the Secretary\nmust have regard is whether varying a condition of an exemption in relation to\nrelevant goods will ensure that one or more objects of the Act will be met in\nrelation to the goods.\nExporting goods Chapter 2\nGovernment certificates Part 3\nGeneral Division 1",
+      "page": 28,
+      "page_end": 29,
+      "score": 0.027984344422700584,
+      "rrf_score": 0.027984344422700584,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 6.35086693567276,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 5.353280578379929,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-9(3)",
+      "citation": "12-9(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        124
+      ],
+      "parent_id": "rules2021:12-9",
+      "child_ids": [],
+      "own_text": "(3) The validity period for the prescribed goods after the commencement time is the\nperiod remaining immediately before the commencement time of the export\ncompliant period for the prescribed goods.",
+      "text": "12-9 Declaration by authorised officer before commencement time that\n(3) The validity period for the prescribed goods after the commencement time is the\nperiod remaining immediately before the commencement time of the export\ncompliant period for the prescribed goods.",
+      "page": 124,
+      "page_end": 124,
+      "score": 0.027650648360030512,
+      "rrf_score": 0.027650648360030512,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 6.358418294280442,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 5.330193406815768,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12",
+      "citation": "2-12",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "When phytosanitary certificate, or phytosanitary certificate for re-export,",
+      "label": "2-12",
+      "pages": [
+        30
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-12(1)",
+        "rules2021:2-12(2)",
+        "rules2021:2-12(3)"
+      ],
+      "own_text": "in relation to prescribed plants or plant products may be issued",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nWhen phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to prescribed plants or plant products may be issued",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02749719416386083,
+      "rrf_score": 0.02749719416386083,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.3655549376929565,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 7.3655549376929565,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(2)",
+      "citation": "2-12(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Phytosanitary certificates—plants or plant products that have been exported",
+      "label": "(2)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(2)(a)",
+        "rules2021:2-12(2)(b)"
+      ],
+      "own_text": "(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates—plants or plant products that have been exported\nin relation to prescribed plants or plant products may be issued\n(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027402402402402402,
+      "rrf_score": 0.027402402402402402,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.707756418812176,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 7.663984808150867,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(c)",
+      "citation": "2-2(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(c) fresh vegetables;\nare taken not to be prescribed goods for the purposes of the Act if:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.027402402402402402,
+      "rrf_score": 0.027402402402402402,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 5.969328592469921,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 5.334395888363206,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)",
+      "citation": "2-12(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Phytosanitary certificates—plants or plant products that are to be exported",
+      "label": "(1)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(1)(a)",
+        "rules2021:2-12(1)(b)"
+      ],
+      "own_text": "(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates—plants or plant products that are to be exported\nin relation to prescribed plants or plant products may be issued\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027031963470319637,
+      "rrf_score": 0.027031963470319637,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.651246530014294,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 7.595698148301356,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(d)",
+      "citation": "2-12(3)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(d) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet importing\ncountry requirements relating to the plants or plant products; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(d) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet importing\ncountry requirements relating to the plants or plant products; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02667140825035562,
+      "rrf_score": 0.02667140825035562,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.6423521607752445,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 7.575432144118169,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)",
+      "citation": "2-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2",
+      "child_ids": [
+        "rules2021:2-2(4)(a)",
+        "rules2021:2-2(4)(b)",
+        "rules2021:2-2(4)(c)",
+        "rules2021:2-2(4)(d)",
+        "rules2021:2-2(4)(e)",
+        "rules2021:2-2(4)(f)",
+        "rules2021:2-2(4)(g)"
+      ],
+      "own_text": "(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.02632034632034632,
+      "rrf_score": 0.02632034632034632,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 5.2561726886916365,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 5.334395888363206,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(1)(b)",
+      "citation": "8-16(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        70
+      ],
+      "parent_id": "rules2021:8-16(1)",
+      "child_ids": [],
+      "own_text": "(b) printed in black, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "text": "8-16 Official mark—carton seal\n(1) A mark:\n(b) printed in black, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "page": 70,
+      "page_end": 70,
+      "score": 0.0259915611814346,
+      "rrf_score": 0.0259915611814346,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.627325640309193,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 7.510741249269876,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)(b)",
+      "citation": "2-12(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(1)",
+      "child_ids": [],
+      "own_text": "(b) an assessment of the plants or plant products has been carried out.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:\n(b) an assessment of the plants or plant products has been carried out.",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.025974025974025976,
+      "rrf_score": 0.025974025974025976,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.371677451313261,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 7.557672146462102,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-7",
+      "citation": "2-7",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Conditions of exemption—matters to which Secretary must have regard",
+      "label": "2-7",
+      "pages": [
+        27
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of subsection 55(2) of the Act, a matter to which the Secretary\nmust have regard is whether imposing a condition on an exemption in relation to\nrelevant goods will ensure that one or more objects of the Act will be met in\nrelation to the goods.",
+      "text": "2-7 Conditions of exemption—matters to which Secretary must have regard\nConditions of exemption—matters to which Secretary must have regard\nFor the purposes of subsection 55(2) of the Act, a matter to which the Secretary\nmust have regard is whether imposing a condition on an exemption in relation to\nrelevant goods will ensure that one or more objects of the Act will be met in\nrelation to the goods.",
+      "page": 27,
+      "page_end": 27,
+      "score": 0.025893752088205813,
+      "rrf_score": 0.025893752088205813,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 5.838492985762768,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.818708814543813,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)",
+      "citation": "2-12(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [
+        "rules2021:2-12(3)(e)(i)",
+        "rules2021:2-12(3)(e)(ii)"
+      ],
+      "own_text": "(e) the plants or plant products are accompanied by:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(e) the plants or plant products are accompanied by:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.024725274725274724,
+      "rrf_score": 0.024725274725274724,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.2064124033524735,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 7.237896611016051,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(2)(b)",
+      "citation": "2-12(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(2)",
+      "child_ids": [],
+      "own_text": "(b) an assessment of the plants or plant products had been carried out before\nthe plants or plant products were exported.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:\n(b) an assessment of the plants or plant products had been carried out before\nthe plants or plant products were exported.",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02454080096356519,
+      "rrf_score": 0.02454080096356519,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 6.149754512252207,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 7.3283887503140015,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-6(a)",
+      "citation": "2-6(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        27
+      ],
+      "parent_id": "rules2021:2-6",
+      "child_ids": [
+        "rules2021:2-6(a)(i)",
+        "rules2021:2-6(a)(ii)"
+      ],
+      "own_text": "(a) for an exemption in relation to operations to produce or prepare the\nrelevant goods for export—the period of 120 days ending on the day that is\n10 business days before:",
+      "text": "2-6 Period for making application for exemption\nFor the purposes of subparagraph 53(3)(f)(i) of the Act, the period within which\nan application for an exemption in relation to relevant goods must be made is:\n(a) for an exemption in relation to operations to produce or prepare the\nrelevant goods for export—the period of 120 days ending on the day that is\n10 business days before:",
+      "page": 27,
+      "page_end": 27,
+      "score": 0.024127906976744187,
+      "rrf_score": 0.024127906976744187,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 4.578142876145353,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 4.7289377006568545,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-6(a)(i)",
+      "citation": "2-6(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        27
+      ],
+      "parent_id": "rules2021:2-6(a)",
+      "child_ids": [],
+      "own_text": "(i) if the operations have started—the date it is proposed to export the\nrelevant goods; or",
+      "text": "2-6 Period for making application for exemption\n(a) for an exemption in relation to operations to produce or prepare the\nrelevant goods for export—the period of 120 days ending on the day that is\n10 business days before:\n(i) if the operations have started—the date it is proposed to export the\nrelevant goods; or",
+      "page": 27,
+      "page_end": 27,
+      "score": 0.02411038489469862,
+      "rrf_score": 0.02411038489469862,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 4.549134774078789,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 4.729940400338268,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)(c)(ii)",
+      "citation": "9-31(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "text": "9-31 Requirements for approval of container\n(c) cereal grains, pulses, oil seeds or nuts:\n(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.02402186421173763,
+      "rrf_score": 0.02402186421173763,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 6.201790001307881,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 7.055694831051698,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)(a)",
+      "citation": "2-12(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(1)",
+      "child_ids": [],
+      "own_text": "(a) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:\n(a) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.0238230289279637,
+      "rrf_score": 0.0238230289279637,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 6.143109380966639,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 7.162385228934722,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(c)",
+      "citation": "2-12(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(c) an assessment of the plants or plant products has been carried out; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(c) an assessment of the plants or plant products has been carried out; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02381289865343728,
+      "rrf_score": 0.02381289865343728,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 6.119306944145685,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 7.258326555417504,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(2)(c)(ii)",
+      "citation": "9-23(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-23(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "text": "9-23 Requirements for approval of bulk vessel\n(c) cereal grains, pulses, oil seeds or nuts:\n(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.02361111111111111,
+      "rrf_score": 0.02361111111111111,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 6.153531094861544,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 6.998032314052885,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)",
+      "citation": "2-12(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(3)(a)",
+        "rules2021:2-12(3)(b)",
+        "rules2021:2-12(3)(c)",
+        "rules2021:2-12(3)(d)",
+        "rules2021:2-12(3)(e)",
+        "rules2021:2-12(3)(f)"
+      ],
+      "own_text": "(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to prescribed plants or plant products may be issued\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023542445644647556,
+      "rrf_score": 0.023542445644647556,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 6.143109380966639,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 7.111411949047998,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(a)",
+      "citation": "2-12(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(a) the plants or plant products consist of imported plants or plant products\nonly; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(a) the plants or plant products consist of imported plants or plant products\nonly; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023392612859097127,
+      "rrf_score": 0.023392612859097127,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 6.0891593838355265,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 7.222567467079958,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-6(b)",
+      "citation": "2-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        27
+      ],
+      "parent_id": "rules2021:2-6",
+      "child_ids": [],
+      "own_text": "(b) for an exemption in relation to any other kind of export operations in\nrelation to the relevant goods—the period of 120 days ending on the day\nthat is 10 business days before the date it is proposed to start carrying out\nthose export operations.",
+      "text": "2-6 Period for making application for exemption\nFor the purposes of subparagraph 53(3)(f)(i) of the Act, the period within which\nan application for an exemption in relation to relevant goods must be made is:\n(b) for an exemption in relation to any other kind of export operations in\nrelation to the relevant goods—the period of 120 days ending on the day\nthat is 10 business days before the date it is proposed to start carrying out\nthose export operations.",
+      "page": 27,
+      "page_end": 27,
+      "score": 0.02286386203292396,
+      "rrf_score": 0.02286386203292396,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 26,
+          "raw_score": 4.315057448744044,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 29,
+          "raw_score": 4.499073167885275,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(2)(a)",
+      "citation": "2-1(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(2)",
+      "child_ids": [],
+      "own_text": "(a) plants or plant products (other than plants or plant products referred to in\nsubsection (1) or plants or plant products that are narcotic goods within the\nmeaning of the Customs Act 1901or plant-based oils), are intended to be\nexported to a country (the importing country); and",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(2) If:\n(a) plants or plant products (other than plants or plant products referred to in\nsubsection (1) or plants or plant products that are narcotic goods within the\nmeaning of the Customs Act 1901or plant-based oils), are intended to be\nexported to a country (the importing country); and",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.02259959141981614,
+      "rrf_score": 0.02259959141981614,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 3.6438330094320337,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 4.56496560917672,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(1)(a)",
+      "citation": "2-1(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(1)",
+      "child_ids": [],
+      "own_text": "(a) prescribed grain;",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:\n(a) prescribed grain;",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 6.092913307966436,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(1)(c)",
+      "citation": "2-1(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(1)",
+      "child_ids": [],
+      "own_text": "(c) fresh fruit;",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:\n(c) fresh fruit;",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.092913307966436,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-14(1)(b)",
+      "citation": "11-14(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        114
+      ],
+      "parent_id": "rules2021:11-14(1)",
+      "child_ids": [],
+      "own_text": "(b) during an assessment of the goods carried out under Part 2 of that Chapter; or",
+      "text": "11-14 Amount of compensation\n(1) For the purposes of subsection 420(5) of the Act, the amount of compensation\npayable under subsection 419(1) of the Act in respect of plants or plant products\nthat are damaged by a person in the course of performing functions or duties, or\nexercising powers, under the Act is the lesser of the following amounts:\n(b) during an assessment of the goods carried out under Part 2 of that Chapter; or",
+      "page": 114,
+      "page_end": 114,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 6.528753192605884,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(1)(d)",
+      "citation": "2-1(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(1)",
+      "child_ids": [],
+      "own_text": "(d) fresh vegetables.",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:\n(d) fresh vegetables.",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.092913307966436,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(3)(e)",
+      "citation": "2-2(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(3)",
+      "child_ids": [],
+      "own_text": "(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(3) The following plants and plant products:\n(e) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is not required to meet importing\ncountry requirements.",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 8.444252131148987,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(1)(b)",
+      "citation": "2-1(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(1)",
+      "child_ids": [],
+      "own_text": "(b) hay and straw;",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(1) For the purposes of subsection 28(1) of the Act, the following goods (other than\nnarcotic goods within the meaning of the Customs Act 1901 or plant-based oils)\nare prescribed for the purposes of the Act:\n(b) hay and straw;",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.062603406108588,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1(2)(b)",
+      "citation": "2-1(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        22
+      ],
+      "parent_id": "rules2021:2-1(2)",
+      "child_ids": [],
+      "own_text": "(b) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet an importing\ncountry requirement;\nthen, for the purposes of subsection 28(1) of the Act, the plants or plant products\nthat are intended to be exported to the importing country are prescribed for the\npurposes of the Act.",
+      "text": "2-1 Plants and plant products that are prescribed goods\n(2) If:\n(b) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet an importing\ncountry requirement;\nthen, for the purposes of subsection 28(1) of the Act, the plants or plant products\nthat are intended to be exported to the importing country are prescribed for the\npurposes of the Act.",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 8.409171376257895,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(g)",
+      "citation": "2-2(4)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Division 1 Prescribed goods",
+      "label": "(g)",
+      "pages": [
+        24
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(g)(i)",
+        "rules2021:2-2(4)(g)(ii)"
+      ],
+      "own_text": "(g) are exported in a consignment of not more than:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nDivision 1 Prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(g) are exported in a consignment of not more than:",
+      "page": 24,
+      "page_end": 24,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 5.757813451868868,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-14(1)(a)",
+      "citation": "11-14(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        114
+      ],
+      "parent_id": "rules2021:11-14(1)",
+      "child_ids": [],
+      "own_text": "(a) during an audit conducted in relation to the goods under Part 1 of Chapter 9 of the\nAct; or",
+      "text": "11-14 Amount of compensation\n(1) For the purposes of subsection 420(5) of the Act, the amount of compensation\npayable under subsection 419(1) of the Act in respect of plants or plant products\nthat are damaged by a person in the course of performing functions or duties, or\nexercising powers, under the Act is the lesser of the following amounts:\n(a) during an audit conducted in relation to the goods under Part 1 of Chapter 9 of the\nAct; or",
+      "page": 114,
+      "page_end": 114,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 6.172292562214112,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:12-9(1)(a)",
+      "citation": "12-9(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        124
+      ],
+      "parent_id": "rules2021:12-9(1)",
+      "child_ids": [
+        "rules2021:12-9(1)(a)(i)",
+        "rules2021:12-9(1)(a)(ii)"
+      ],
+      "own_text": "(a) an authorised officer had declared a consignment of prescribed goods to be\npassed as export compliant:",
+      "text": "12-9 Declaration by authorised officer before commencement time that\n(1) This section applies if:\n(a) an authorised officer had declared a consignment of prescribed goods to be\npassed as export compliant:",
+      "page": 124,
+      "page_end": 124,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 5.457726143672222,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)(a)",
+      "citation": "11-5(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5(3)",
+      "child_ids": [],
+      "own_text": "(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "text": "11-5 Records to be retained by exporter etc.\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:\n(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.52132848529758,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-6",
+      "citation": "2-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Period for making application for exemption",
+      "label": "2-6",
+      "pages": [
+        27
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-6(a)",
+        "rules2021:2-6(b)"
+      ],
+      "own_text": "For the purposes of subparagraph 53(3)(f)(i) of the Act, the period within which\nan application for an exemption in relation to relevant goods must be made is:",
+      "text": "2-6 Period for making application for exemption\nPeriod for making application for exemption\nFor the purposes of subparagraph 53(3)(f)(i) of the Act, the period within which\nan application for an exemption in relation to relevant goods must be made is:",
+      "page": 27,
+      "page_end": 27,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 5.29030138362076,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-1",
+      "citation": "2-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are prescribed goods",
+      "label": "2-1",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-1(1)",
+        "rules2021:2-1(2)"
+      ],
+      "own_text": "",
+      "text": "2-1 Plants and plant products that are prescribed goods\nPlants and plant products that are prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 5.148127678293618,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(b)",
+      "citation": "2-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(b) are for the service of an aircraft or a vessel on a flight or voyage from\nAustralian territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.891506328087408,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-8(a)",
+      "citation": "2-8(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        27,
+        28
+      ],
+      "parent_id": "rules2021:2-8",
+      "child_ids": [],
+      "own_text": "(a) indefinitely; or\nChapter 2 Exporting goods",
+      "text": "2-8 Period of effect of exemption\nFor the purposes of paragraph 57(b) of the Act, an exemption granted under\nparagraph 54(1)(a) of the Act remains in force (unless it is revoked under\nsection 59 of the Act):\n(a) indefinitely; or\nChapter 2 Exporting goods",
+      "page": 27,
+      "page_end": 28,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 5.113668100329183,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-22(c)",
+      "citation": "4-22(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        57
+      ],
+      "parent_id": "rules2021:4-22",
+      "child_ids": [],
+      "own_text": "(c) in the financial year, the occupier of the establishment starts to carry out\noperations to prepare goods for export other than horticultural products\nreferred to in column 1 of the table in subsection 1-8(8).",
+      "text": "4-22 Changes in relation to registered establishment that was being treated as\nsmall horticultural products registered establishment for a financial\nyear\nFor the purposes of paragraph 145(1)(b) of the Act, the following changes are\nprescribed in relation to a registered establishment that, before the change, was\nbeing treated as a small horticultural products registered establishment for a\nfinancial year:\n(c) in the financial year, the occupier of the establishment starts to carry out\noperations to prepare goods for export other than horticultural products\nreferred to in column 1 of the table in subsection 1-8(8).",
+      "page": 57,
+      "page_end": 57,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 4.837386216110696,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(f)",
+      "citation": "2-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [
+        "rules2021:2-2(4)(f)(i)",
+        "rules2021:2-2(4)(f)(ii)",
+        "rules2021:2-2(4)(f)(iii)",
+        "rules2021:2-2(4)(f)(iv)",
+        "rules2021:2-2(4)(f)(v)"
+      ],
+      "own_text": "(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(f) are consigned to a resources industry structure that is installed in any of the\nfollowing areas, for consumption on the structure:",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 4.854177940210664,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(e)",
+      "citation": "2-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(e) are consigned to an external Territory for consumption in that Territory; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(e) are consigned to an external Territory for consumption in that Territory; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.850728777353219,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(9)(c)",
+      "citation": "1-8(9)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        20,
+        21
+      ],
+      "parent_id": "rules2021:1-8(9)",
+      "child_ids": [],
+      "own_text": "(c) of the species Prunus persica, commonly called nectarine or peach.\nPreliminary Chapter 1\nInterpretation Part 2\nstrawberry means a fruit of the species Fragaria X Ananassa.\ntable grapes means fresh grapes other than fresh grapes that are prescribed goods",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(9) In the table in subsection (8):\napple means a fruit of any species of the genus Malus.\navocado means a fruit of the species Persea americana.\ncherry means a fruit of the species Prunus avium.\ncitrus:\n(c) of the species Prunus persica, commonly called nectarine or peach.\nPreliminary Chapter 1\nInterpretation Part 2\nstrawberry means a fruit of the species Fragaria X Ananassa.\ntable grapes means fresh grapes other than fresh grapes that are prescribed goods",
+      "page": 20,
+      "page_end": 21,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 4.50873655487873,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2",
+      "citation": "2-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products that are taken not to be prescribed goods",
+      "label": "2-2",
+      "pages": [
+        22
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-2(1)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(2)",
+        "rules2021:2-2(3)",
+        "rules2021:2-2(4)"
+      ],
+      "own_text": "",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\nPlants and plant products that are taken not to be prescribed goods",
+      "page": 22,
+      "page_end": 22,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 4.811627539243716,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1",
+      "citation": "3-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements for accreditation",
+      "label": "3-1",
+      "pages": [
+        34
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-1(1)",
+        "rules2021:3-1(2)",
+        "rules2021:3-1(3)"
+      ],
+      "own_text": "",
+      "text": "3-1 Other requirements for accreditation\nOther requirements for accreditation",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(1)",
+      "citation": "3-1(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "text": "3-1 Other requirements for accreditation\n(1) For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other\nrequirements that must be met for a property to be accredited for a kind of export\noperations in relation to a kind of prescribed plants or plant products.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(2)",
+      "citation": "3-1(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "text": "3-1 Other requirements for accreditation\n(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-1(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3",
+      "citation": "4-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Other requirements",
+      "label": "4-3",
+      "pages": [
+        46
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-3(1)",
+        "rules2021:4-3(2)",
+        "rules2021:4-3(3)"
+      ],
+      "own_text": "",
+      "text": "4-3 Other requirements\nOther requirements",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(1)",
+      "citation": "4-3(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Application of this section",
+      "label": "(1)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "text": "4-3 Other requirements\nApplication of this section\n(1) The requirements prescribed by this section apply in relation to all\nestablishments.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(2)",
+      "citation": "4-3(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Importing country requirements must be able to be met",
+      "label": "(2)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "text": "4-3 Other requirements\nImporting country requirements must be able to be met\n(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-3(3)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:2-2(2)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.05458378962698939,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants from Norfolk Island or prescribed areas, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(b)",
+      "page": 82,
+      "rrf_or_bm25_score": 0.046759212119155104,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report identification of non-compliance risks, not specifically substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.046342571558382555,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations for addressing non-compliance risks, not specifically substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04476645849596669,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns screening to manage contamination by large contaminants, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)(ii)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.043879283009717794,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns a certified copy of the original certificate, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.03278688524590164,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires a system of controls to ensure compliance with conditions in sections 4-7A and 4-7B, which include measures to minimise substitution risk. It directly grounds the CP criterion.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CP_OPERATIONALIZES_BROADER_RULE",
+      "legal_basis_reason": "The rule requires a system of controls for registered establishments to ensure compliance with specified conditions. The CP criterion 'minimising the risk of substitution' is a specific operationalisation of such a system of controls, as substitution risk is a key concern addressed by those controls.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.03225806451612903,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires a system of controls to ensure compliance with conditions in sections 3-3A and 3-3B, which include measures to minimise substitution risk. It directly grounds the CP criterion.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CP_OPERATIONALIZES_BROADER_RULE",
+      "legal_basis_reason": "The rule requires a system of controls for accredited properties to ensure compliance with specified conditions. The CP criterion 'minimising the risk of substitution' is a specific operationalisation of such a system of controls, as substitution risk is a key concern addressed by those controls.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-33",
+      "page": 78,
+      "rrf_or_bm25_score": 0.03125763125763126,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Secure storage of marking devices helps prevent unauthorised marking that could facilitate substitution, but this is an operational measure, not an independent scoring requirement.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "must ensure that the official marking device is stored securely when it is not being used",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This rule requires secure storage of official marking devices. Although secure storage may indirectly reduce substitution risk, the provision does not directly address substitution of goods; it is a separate security obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "must ensure that the official marking device is stored securely when it is not being used",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-1(1)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.03125,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "This provision defines the scope of prescribed goods to which phytosanitary controls apply, thereby conditioning the applicability of any substitution risk minimisation requirement.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "the following goods (other than narcotic goods within the meaning of the Customs Act 1901 or plant-based oils) are prescribed for the purposes of the Act",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision prescribes goods for the Act, establishing the scope of regulated goods. It does not address substitution risk or any control measure.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "the following goods (other than narcotic goods within the meaning of the Customs Act 1901 or plant-based oils) are prescribed for the purposes of the Act",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-27",
+      "page": 76,
+      "rrf_or_bm25_score": 0.030776515151515152,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Secure storage of official marks helps prevent unauthorised use that could facilitate substitution, but this is an operational measure, not an independent scoring requirement.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "must ensure that the official mark is stored securely",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This rule requires secure storage of official marks. Although secure storage may indirectly reduce substitution risk, the provision does not directly address substitution of goods; it is a separate security obligation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "must ensure that the official mark is stored securely",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-13",
+      "page": 31,
+      "rrf_or_bm25_score": 0.029709507042253523,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns cessation of force of certificates for non-prescribed plants, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)(v)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.029236022193768675,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a specific area for the resources industry structure exception, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-11",
+      "page": 29,
+      "rrf_or_bm25_score": 0.029211087420042643,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate addresses issuance of certificates for non-prescribed goods, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(9)(Excise)",
+      "page": 21,
+      "rrf_or_bm25_score": 0.028594771241830064,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines terms for small horticultural products levy, unrelated to phytosanitary security or substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(f)",
+      "page": 31,
+      "rrf_or_bm25_score": 0.028594771241830064,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns exposure to pests or contamination, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-13(a)",
+      "page": 68,
+      "rrf_or_bm25_score": 0.028205128205128206,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "High security bolt seals are used to secure containers and prevent substitution, but this provision only defines a characteristic of an official mark, not an independent requirement for the CP.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "is a high security bolt seal",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision defines a type of seal. While seals may be used to prevent substitution, this rule only specifies a characteristic of an official mark and does not itself impose a control to minimise substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "is a high security bolt seal",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)(i)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027984344422700584,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the original phytosanitary certificate, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-9",
+      "page": 28,
+      "rrf_or_bm25_score": 0.027984344422700584,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns matters to which the Secretary must have regard for varying conditions of exemptions, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-9(3)",
+      "page": 124,
+      "rrf_or_bm25_score": 0.027650648360030512,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns validity periods for export compliance, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02749719416386083,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a heading for certificate issuance and does not address substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(2)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027402402402402402,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns certificates for goods already exported, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(c)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.027402402402402402,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns fresh vegetables being taken not to be prescribed goods, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027031963470319637,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate sets conditions for issuing certificates for prescribed goods to be exported, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(d)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02667140825035562,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns importing country requirements for a phytosanitary certificate, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.02632034632034632,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(1)(b)",
+      "page": 70,
+      "rrf_or_bm25_score": 0.0259915611814346,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision specifies printing details for carton seals, which does not relate to substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.025974025974025976,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires an assessment, which does not address substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-7",
+      "page": 27,
+      "rrf_or_bm25_score": 0.025893752088205813,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns matters to which the Secretary must have regard for imposing conditions on exemptions, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.024725274725274724,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns documentation accompanying plants or plant products, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(2)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02454080096356519,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires pre-export assessment, not addressing substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-6(a)",
+      "page": 27,
+      "rrf_or_bm25_score": 0.024127906976744187,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the period for making an application for exemption for operations to produce or prepare goods, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-6(a)(i)",
+      "page": 27,
+      "rrf_or_bm25_score": 0.02411038489469862,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the date for proposed export when operations have started, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)(c)(ii)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.02402186421173763,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns requirements for container approval based on importing country phytosanitary certificate requirements, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)(a)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.0238230289279637,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires an export permit, which does not address substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(c)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02381289865343728,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns an assessment requirement for issuing a phytosanitary certificate for re-export, which does not address minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(2)(c)(ii)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.02361111111111111,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns requirements for bulk vessel approval based on importing country phytosanitary certificate requirements, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023542445644647556,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns re-export certificates, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(a)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023392612859097127,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies imported goods only for re-export, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-6(b)",
+      "page": 27,
+      "rrf_or_bm25_score": 0.02286386203292396,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the period for making an application for exemption for other export operations, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1(2)(a)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.02259959141981614,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines conditions for prescribed goods for export but does not relate to substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1(1)(a)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Prescribed grain is within the scope of goods subject to phytosanitary controls, affecting the applicability of substitution risk minimisation.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "prescribed grain",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This merely lists a prescribed good. It has no direct legal grounding for minimising substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "prescribed grain",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-1(1)(c)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Fresh fruit is within the scope of goods subject to phytosanitary controls, affecting the applicability of substitution risk minimisation.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "fresh fruit",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This merely lists a prescribed good. It has no direct legal grounding for minimising substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "fresh fruit",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-14(1)(b)",
+      "page": 114,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns compensation for damaged goods during assessment, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1(1)(d)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate merely lists fresh vegetables as prescribed goods and does not address minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(3)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns importing country requirements for certificates, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1(1)(b)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "Hay and straw are within the scope of goods subject to phytosanitary controls, affecting the applicability of substitution risk minimisation.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "hay and straw",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This merely lists a prescribed good. It has no direct legal grounding for minimising substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "hay and straw",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:2-1(2)(b)",
+      "page": 22,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns phytosanitary certificate requirements for export and is unrelated to substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(g)",
+      "page": 24,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products exported in a consignment of not more than a certain amount, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-14(1)(a)",
+      "page": 114,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns compensation for damaged goods during audit, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:12-9(1)(a)",
+      "page": 124,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns transitional declarations of export compliance, not substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)(a)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "Retaining the application for a phytosanitary certificate may help verify the identity of goods, supporting substitution risk mitigation, but does not itself impose a substitution control requirement.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "the application made by the person for the phytosanitary certificate or phytosanitary certificate for re-export",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The rule requires retention of the application for a phytosanitary certificate, which is a record-keeping obligation. It does not itself establish a control to minimise substitution risk; it is only contextually related to export certification.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "the application made by the person for the phytosanitary certificate or phytosanitary certificate for re-export",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-6",
+      "page": 27,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the period for making an application for exemption, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-1",
+      "page": 22,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "CHAPEAU_CONTEXT",
+      "reason": "The section heading provides structural context for the prescribed goods list, which may be relevant to identifying goods subject to phytosanitary controls, but does not itself address substitution risk.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "Plants and plant products that are prescribed goods",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(b)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products taken not to be prescribed goods for aircraft/vessel service, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-8(a)",
+      "page": 27,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the period of effect of an exemption, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-22(c)",
+      "page": 57,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns changes in registration status for small horticultural products establishments and does not relate to substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(f)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products consigned to a resources industry structure, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(e)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns plants and plant products consigned to an external Territory for consumption, which does not relate to minimising the risk of substitution.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(9)(c)",
+      "page": 20,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines nectarine/peach for levy purposes, unrelated to phytosanitary security or substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-2",
+      "page": 22,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a heading with no substantive content relevant to substitution risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is a section heading providing structural context for the subsections that follow; it does not itself contain a normative requirement relevant to the CP.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "3-1 Other requirements for accreditation",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(1)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "This subsection defines the scope of the section, indicating that the requirements apply to accreditation for export operations; it does not directly address substitution risk.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other requirements that must be met for a property to be accredited for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision merely introduces the section prescribing accreditation requirements; it does not itself address substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "For the purposes of paragraph 79(2)(b) of the Act, this section prescribes other requirements that must be met for a property to be accredited for a kind of export operations in relation to a kind of prescribed plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(2)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_REQUIREMENT",
+      "reason": "This requirement ensures that importing country requirements can be met, which may indirectly support controls against substitution, but it does not specifically mandate measures to minimise substitution risk.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the property in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires that importing country requirements be met, but does not specifically address minimising substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "All importing country requirements relating to the export operations to be carried out at the property in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "This is a section heading providing structural context for the subsections that follow; it does not itself contain a normative requirement relevant to the CP.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "4-3 Other requirements",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(1)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "This subsection defines the scope of the section, indicating that the requirements apply to all establishments; it does not directly address substitution risk.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision only states the scope of application of the section; it does not contain a substantive requirement about substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "The requirements prescribed by this section apply in relation to all establishments.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-3(2)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_REQUIREMENT",
+      "reason": "This requirement ensures that importing country requirements can be met, which may indirectly support controls against substitution, but it does not specifically mandate measures to minimise substitution risk.",
+      "cp_quote": "minimising the risk of substitution (switching of goods)",
+      "policy_quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires that importing country requirements be met, but does not specifically address minimising substitution risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "minimising the risk of substitution (switching of goods)",
+      "legal_basis_policy_quote": "All importing country requirements relating to the export operations to be carried out at the establishment in relation to prescribed plants or plant products and the plants or plant products must be able to be met.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ]
+}

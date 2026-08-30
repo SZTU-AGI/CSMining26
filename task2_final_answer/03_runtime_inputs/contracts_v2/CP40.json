@@ -1,0 +1,3210 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP40",
+    "canonical_cp_id": "CP40",
+    "element": "Element-4",
+    "subelement": "4.3 Record Keeping - traceability",
+    "criterion": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+    "sheet": "All Elements",
+    "column": 40
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:11-2(1)(d)",
+      "citation": "11-2(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(d) accurate, legible and able to be audited.",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(d) accurate, legible and able to be audited.",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.04918032786885246,
+      "rrf_score": 0.04918032786885246,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 42.80070615634064,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 37.325848495601484,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 40.300837304278126,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(2)",
+      "citation": "4-3(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Importing country requirements must be able to be met",
+      "label": "(2)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "text": "4-3 Other requirements\nImporting country requirements must be able to be met\n(2) All importing country requirements relating to the export operations to be carried\nout at the establishment in relation to prescribed plants or plant products and the\nplants or plant products must be able to be met.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.04568764568764569,
+      "rrf_score": 0.04568764568764569,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 15.696017052021872,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 16.133698777745977,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 16.133698777745977,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)(a)",
+      "citation": "11-2(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(a) in English; and",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(a) in English; and",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.045598154684933424,
+      "rrf_score": 0.045598154684933424,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 12.259185626493425,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 16.97609471472593,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 20.088170210111123,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-26(a)",
+      "citation": "8-26(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        75
+      ],
+      "parent_id": "rules2021:8-26",
+      "child_ids": [],
+      "own_text": "(a) legible; and",
+      "text": "8-26 Official marks must be legible and securely applied\nAn official mark applied to plants or plant products must be:\n(a) legible; and",
+      "page": 75,
+      "page_end": 75,
+      "score": 0.044156243721117136,
+      "rrf_score": 0.044156243721117136,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 11.711178201392755,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 18.01377827151514,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 18.01377827151514,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-7(1)(a)",
+      "citation": "8-7(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        65,
+        66
+      ],
+      "parent_id": "rules2021:8-7(1)",
+      "child_ids": [],
+      "own_text": "(a) be accurate and unambiguous; and\nChapter 8 Other matters relating to export",
+      "text": "8-7 General requirements for trade descriptions\n(1) A trade description applied to prescribed plants or plant products must:\n(a) be accurate and unambiguous; and\nChapter 8 Other matters relating to export",
+      "page": 65,
+      "page_end": 66,
+      "score": 0.043857360295716456,
+      "rrf_score": 0.043857360295716456,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 16.72242229406774,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 14.02515295164542,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 14.02515295164542,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iv)",
+      "citation": "9-4(5)(a)(iv)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iv)",
+      "pages": [
+        81,
+        82
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iv) action to assess the effectiveness of an action referred to in\nsubparagraph (i), (ii) or (iii); and\nChapter 9 Powers and officials\nPart 1 Audits\nDivision 2 Conduct of audit etc.",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iv) action to assess the effectiveness of an action referred to in\nsubparagraph (i), (ii) or (iii); and\nChapter 9 Powers and officials\nPart 1 Audits\nDivision 2 Conduct of audit etc.",
+      "page": 81,
+      "page_end": 82,
+      "score": 0.04350961538461538,
+      "rrf_score": 0.04350961538461538,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 11.64316233693973,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 17.56647999989384,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 17.56647999989384,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-7(1)(c)",
+      "citation": "8-7(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        66
+      ],
+      "parent_id": "rules2021:8-7(1)",
+      "child_ids": [],
+      "own_text": "(c) be legible; and",
+      "text": "8-7 General requirements for trade descriptions\n(1) A trade description applied to prescribed plants or plant products must:\n(c) be legible; and",
+      "page": 66,
+      "page_end": 66,
+      "score": 0.04335125448028674,
+      "rrf_score": 0.04335125448028674,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 19.01492065049413,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 13.906208881453606,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 13.906208881453606,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(2)",
+      "citation": "3-1(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        34
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "text": "3-1 Other requirements for accreditation\n(2) All importing country requirements relating to the export operations to be carried\nout at the property in relation to prescribed plants or plant products and the plants\nor plant products must be able to be met.",
+      "page": 34,
+      "page_end": 34,
+      "score": 0.0416165611814346,
+      "rrf_score": 0.0416165611814346,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 15.696017052021872,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 13.557520211962416,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 13.557520211962416,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-8(4)",
+      "citation": "8-8(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        66
+      ],
+      "parent_id": "rules2021:8-8",
+      "child_ids": [
+        "rules2021:8-8(4)(a)",
+        "rules2021:8-8(4)(b)"
+      ],
+      "own_text": "(4) The translation into English required by subsection (3) must be done by a person\nwho:",
+      "text": "8-8 Trade descriptions in language other than English\n(4) The translation into English required by subsection (3) must be done by a person\nwho:",
+      "page": 66,
+      "page_end": 66,
+      "score": 0.04148554148554148,
+      "rrf_score": 0.04148554148554148,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 14.39756665413233,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 13.645430215573874,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 13.645430215573874,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-8(2)",
+      "citation": "8-8(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        66
+      ],
+      "parent_id": "rules2021:8-8",
+      "child_ids": [],
+      "own_text": "(2) The part of the trade description that is in the foreign language must not be\ninconsistent with the part of the trade description that is in English.",
+      "text": "8-8 Trade descriptions in language other than English\n(2) The part of the trade description that is in the foreign language must not be\ninconsistent with the part of the trade description that is in English.",
+      "page": 66,
+      "page_end": 66,
+      "score": 0.04058326787117046,
+      "rrf_score": 0.04058326787117046,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 13.840401934764396,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 13.148097298848771,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 13.148097298848771,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-26",
+      "citation": "8-26",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Official marks must be legible and securely applied",
+      "label": "8-26",
+      "pages": [
+        75
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:8-26(a)",
+        "rules2021:8-26(b)"
+      ],
+      "own_text": "An official mark applied to plants or plant products must be:",
+      "text": "8-26 Official marks must be legible and securely applied\nOfficial marks must be legible and securely applied\nAn official mark applied to plants or plant products must be:",
+      "page": 75,
+      "page_end": 75,
+      "score": 0.03200204813108039,
+      "rrf_score": 0.03200204813108039,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 18.128538707856404,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 18.128538707856404,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(ii)",
+      "citation": "9-4(5)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(ii) action to ensure that any such non-compliance does not recur;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(ii) action to ensure that any such non-compliance does not recur;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.029850746268656716,
+      "rrf_score": 0.029850746268656716,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 15.777168987315727,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 15.777168987315727,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(i)",
+      "citation": "9-4(5)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(i) action to address any non-compliance with a requirement to which the\naudit relates;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(i) action to address any non-compliance with a requirement to which the\naudit relates;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.029411764705882353,
+      "rrf_score": 0.029411764705882353,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 15.508014120288536,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 15.508014120288536,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.02877846790890269,
+      "rrf_score": 0.02877846790890269,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 14.789943270806472,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 14.789943270806472,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-26(b)",
+      "citation": "8-26(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        75,
+        76
+      ],
+      "parent_id": "rules2021:8-26",
+      "child_ids": [],
+      "own_text": "(b) securely applied.\nChapter 8 Other matters relating to export\nPart 3 Official marks",
+      "text": "8-26 Official marks must be legible and securely applied\nAn official mark applied to plants or plant products must be:\n(b) securely applied.\nChapter 8 Other matters relating to export\nPart 3 Official marks",
+      "page": 75,
+      "page_end": 76,
+      "score": 0.027598020555767037,
+      "rrf_score": 0.027598020555767037,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 13.938639299326889,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 13.938639299326889,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)(c)",
+      "citation": "11-2(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(c) dated; and",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(c) dated; and",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.02690501986276634,
+      "rrf_score": 0.02690501986276634,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 11.413644331214401,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 14.561988540876936,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-8(4)(a)",
+      "citation": "8-8(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        66
+      ],
+      "parent_id": "rules2021:8-8(4)",
+      "child_ids": [],
+      "own_text": "(a) has appropriate qualifications for doing the translation; and",
+      "text": "8-8 Trade descriptions in language other than English\n(4) The translation into English required by subsection (3) must be done by a person\nwho:\n(a) has appropriate qualifications for doing the translation; and",
+      "page": 66,
+      "page_end": 66,
+      "score": 0.026856524873828405,
+      "rrf_score": 0.026856524873828405,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 13.768907595116996,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 13.768907595116996,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)(b)",
+      "citation": "11-2(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(b) if the record was required to be in another language to meet importing\ncountry requirements—in that other language; and",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(b) if the record was required to be in another language to meet importing\ncountry requirements—in that other language; and",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.026687875574407917,
+      "rrf_score": 0.026687875574407917,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 11.103137125787644,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 14.844985400494014,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-3(1)",
+      "citation": "8-3(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        64
+      ],
+      "parent_id": "rules2021:8-3",
+      "child_ids": [],
+      "own_text": "(1) For the purposes of paragraph 243(1)(g) of the Act, a notice of intention to\nexport a consignment of, or including, prescribed plants or plant products must\nbe given as soon as reasonably practicable before the date the consignment is\nproposed to be exported.",
+      "text": "8-3 When notice of intention to export must be given\n(1) For the purposes of paragraph 243(1)(g) of the Act, a notice of intention to\nexport a consignment of, or including, prescribed plants or plant products must\nbe given as soon as reasonably practicable before the date the consignment is\nproposed to be exported.",
+      "page": 64,
+      "page_end": 64,
+      "score": 0.025833333333333333,
+      "rrf_score": 0.025833333333333333,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 11.955870262351164,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 11.167701517802366,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)",
+      "citation": "11-10(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Period during which records must be retained",
+      "label": "(3)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(3)(as the case may be)"
+      ],
+      "own_text": "(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "text": "11-10 Records to be retained by authorised officers\nPeriod during which records must be retained\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.02565359477124183,
+      "rrf_score": 0.02565359477124183,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 10.731560434682795,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 14.499503894604516,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)",
+      "citation": "11-2(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2",
+      "child_ids": [
+        "rules2021:11-2(1)(a)",
+        "rules2021:11-2(1)(b)",
+        "rules2021:11-2(1)(c)",
+        "rules2021:11-2(1)(d)"
+      ],
+      "own_text": "(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.025035205758097326,
+      "rrf_score": 0.025035205758097326,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 11.310639238257693,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 13.768726477868645,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(3)",
+      "citation": "11-11(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-11",
+      "child_ids": [
+        "rules2021:11-11(3)(a)",
+        "rules2021:11-11(3)(b)"
+      ],
+      "own_text": "(3) If, during the retention period, notations or markings are made on the record (the\noriginal record) in accordance with ordinary practice, the person who is required\nto retain the original record must also retain, during the retention period, each\ndocument:",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(3) If, during the retention period, notations or markings are made on the record (the\noriginal record) in accordance with ordinary practice, the person who is required\nto retain the original record must also retain, during the retention period, each\ndocument:",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.022857889237199582,
+      "rrf_score": 0.022857889237199582,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 28,
+          "raw_score": 4.265961618316328,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 12.111848187224645,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14",
+      "citation": "9-14",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Record of assessment",
+      "label": "9-14",
+      "pages": [
+        87
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-14(1)",
+        "rules2021:9-14(2)"
+      ],
+      "own_text": "",
+      "text": "9-14 Record of assessment\nRecord of assessment",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.01639344262295082,
+      "rrf_score": 0.01639344262295082,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33",
+      "citation": "9-33",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Container inspection record",
+      "label": "9-33",
+      "pages": [
+        104
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-33(1)",
+        "rules2021:9-33(2)",
+        "rules2021:9-33(3)",
+        "rules2021:9-33(4)",
+        "rules2021:9-33(5)"
+      ],
+      "own_text": "",
+      "text": "9-33 Container inspection record\nContainer inspection record",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.016129032258064516,
+      "rrf_score": 0.016129032258064516,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24",
+      "citation": "9-24",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Bulk vessel inspection record",
+      "label": "9-24",
+      "pages": [
+        97
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-24(1)",
+        "rules2021:9-24(2)",
+        "rules2021:9-24(3)",
+        "rules2021:9-24(4)",
+        "rules2021:9-24(5)"
+      ],
+      "own_text": "",
+      "text": "9-24 Bulk vessel inspection record\nBulk vessel inspection record",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015873015873015872,
+      "rrf_score": 0.015873015873015872,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)",
+      "citation": "9-33(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [
+        "rules2021:9-33(2)(a)",
+        "rules2021:9-33(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)",
+      "citation": "9-33(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [
+        "rules2021:9-33(2)(b)(i)",
+        "rules2021:9-33(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 5.034467210083209,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)",
+      "citation": "9-24(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(2)(a)",
+        "rules2021:9-24(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 5.031031983094587,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(b)",
+      "citation": "9-24(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [
+        "rules2021:9-24(2)(b)(i)",
+        "rules2021:9-24(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 5.00338612941645,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(5)",
+      "citation": "9-33(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-33 Container inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 4.853564872249845,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)",
+      "citation": "9-4(5)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)",
+      "child_ids": [
+        "rules2021:9-4(5)(a)(i)",
+        "rules2021:9-4(5)(a)(ii)",
+        "rules2021:9-4(5)(a)(iii)",
+        "rules2021:9-4(5)(a)(iv)"
+      ],
+      "own_text": "(a) include recommendations that any of the following actions be taken:",
+      "text": "9-4 Audit reports\n(5) The audit report may also:\n(a) include recommendations that any of the following actions be taken:",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 13.070931006998244,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-6(2)",
+      "citation": "3-6(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-6",
+      "child_ids": [],
+      "own_text": "(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "text": "3-6 Requirements for packages for export\n(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 12.61941947164889,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(5)",
+      "citation": "9-24(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-24 Bulk vessel inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 4.824670909545926,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-11(2)",
+      "citation": "4-11(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-11",
+      "child_ids": [],
+      "own_text": "(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "text": "4-11 Requirements for packages for export\n(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 12.61941947164889,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(1)",
+      "citation": "9-14(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        87
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "text": "9-14 Record of assessment\n(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(1)",
+      "citation": "9-33(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-33 Container inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-15(2)(c)(iii)",
+      "citation": "11-15(2)(c)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        115
+      ],
+      "parent_id": "rules2021:11-15(2)(c)",
+      "child_ids": [],
+      "own_text": "(iii) whether the person who gave the payment undertaking will be able to\ncomply with the undertaking and, if applicable, meet the cost of the\nexport operations referred to in subparagraph (ii);",
+      "text": "11-15 Circumstances in which relevant Commonwealth liability of a person is\n(c) the Secretary has accepted the payment undertaking, having considered the\nfollowing matters:\n(iii) whether the person who gave the payment undertaking will be able to\ncomply with the undertaking and, if applicable, meet the cost of the\nexport operations referred to in subparagraph (ii);",
+      "page": 115,
+      "page_end": 115,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 12.151534991745095,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(1)",
+      "citation": "9-24(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-24 Bulk vessel inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 4.6852122322021925,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8A(a)",
+      "citation": "4-8A(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-8A",
+      "child_ids": [],
+      "own_text": "(a) the operations must be safe and effective; and",
+      "text": "4-8A Conditions relating to treatment of prescribed plants or plant products\nIf the export operations carried out at a registered establishment are, or include,\noperations to treat prescribed plants or plant products:\n(a) the operations must be safe and effective; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 12.0735924800128,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(3)",
+      "citation": "9-24(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(3)(a)",
+        "rules2021:9-24(3)(b)"
+      ],
+      "own_text": "(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "text": "9-24 Bulk vessel inspection record\n(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 4.682236954544075,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(6)",
+      "citation": "4-2(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "text": "4-2 Construction, equipment and facilities\n(6) If screening of prescribed plants or plant products described in\nparagraph 4-9(1)(a) or (b) is to be carried out at an establishment, the\nestablishment and its equipment and facilities must be designed and constructed\nto allow the screening to be carried out.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 11.997876159855645,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)",
+      "citation": "9-14(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [
+        "rules2021:9-14(2)(c)(i)",
+        "rules2021:9-14(2)(c)(ii)"
+      ],
+      "own_text": "(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 4.631660374113694,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(a)",
+      "citation": "9-33(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the container is approved or not approved; and",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(a) state whether the container is approved or not approved; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 4.602466177534989,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(5)",
+      "citation": "4-2(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [],
+      "own_text": "(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "text": "4-2 Construction, equipment and facilities\n(5) If testing and analysis of samples of prescribed plants or plant products or other\nthings is to be carried out at an establishment, the establishment and its\nequipment and facilities must be designed and constructed to allow the testing\nand analysis to be carried out.\nDesign and construction—establishments where screening of prescribed grain\netc. is to be carried out",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 11.836893479114735,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(a)",
+      "citation": "9-24(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the bulk vessel is approved or not approved; and",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(a) state whether the bulk vessel is approved or not approved; and",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 4.5253679610186,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-6(3)(a)",
+      "citation": "3-6(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-6(3)",
+      "child_ids": [],
+      "own_text": "(a) be appropriate for the plants or plant products to be packed in them; and",
+      "text": "3-6 Requirements for packages for export\n(3) The packages must:\n(a) be appropriate for the plants or plant products to be packed in them; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 11.797625785268403,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-8(4)(b)",
+      "citation": "8-8(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        66,
+        67
+      ],
+      "parent_id": "rules2021:8-8(4)",
+      "child_ids": [],
+      "own_text": "(b) is not employed by, and is independent of, the person referred to in\nsubsection (3) who is required to make the translation available to the\nSecretary.\nOther matters relating to export Chapter 8\nOfficial marks Part 3\nMarks that are official marks Division 1",
+      "text": "8-8 Trade descriptions in language other than English\n(4) The translation into English required by subsection (3) must be done by a person\nwho:\n(b) is not employed by, and is independent of, the person referred to in\nsubsection (3) who is required to make the translation available to the\nSecretary.\nOther matters relating to export Chapter 8\nOfficial marks Part 3\nMarks that are official marks Division 1",
+      "page": 66,
+      "page_end": 67,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 11.649105418140232,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)",
+      "citation": "9-14(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        87,
+        88
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [
+        "rules2021:9-14(2)(a)",
+        "rules2021:9-14(2)(b)",
+        "rules2021:9-14(2)(c)",
+        "rules2021:9-14(2)(d)"
+      ],
+      "own_text": "(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "page": 87,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 4.4877794402543,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(3)(b)",
+      "citation": "11-11(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        112,
+        113
+      ],
+      "parent_id": "rules2021:11-11(3)",
+      "child_ids": [],
+      "own_text": "(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(3) If, during the retention period, notations or markings are made on the record (the\noriginal record) in accordance with ordinary practice, the person who is required\nto retain the original record must also retain, during the retention period, each\ndocument:\n(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "page": 112,
+      "page_end": 113,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.454843947479746,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-11(3)(a)",
+      "citation": "4-11(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-11(3)",
+      "child_ids": [],
+      "own_text": "(a) be appropriate for the plants or plant products to be packed in them; and",
+      "text": "4-11 Requirements for packages for export\n(3) The packages must:\n(a) be appropriate for the plants or plant products to be packed in them; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 11.797625785268403,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(a)",
+      "citation": "8-6(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(a) the kind of plants or plant products in the consignment to be exported;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(a) the kind of plants or plant products in the consignment to be exported;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 11.169580657876745,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(d)",
+      "citation": "9-14(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [],
+      "own_text": "(d) if the Secretary has approved, in writing, a manner for giving the\nassessment record—be given in the approved manner.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(d) if the Secretary has approved, in writing, a manner for giving the\nassessment record—be given in the approved manner.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 4.453498556040799,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(4)",
+      "citation": "9-33(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(4) If the container is not approved, the inspection record must set out the reasons for\nthe decision not to approve the container.",
+      "text": "9-33 Container inspection record\n(4) If the container is not approved, the inspection record must set out the reasons for\nthe decision not to approve the container.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 4.343468902471731,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(1)",
+      "citation": "11-11(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-11",
+      "child_ids": [],
+      "own_text": "(1) A record that is retained as required by this Part must not be altered or defaced\nduring the period (the retention period) in which it is required to be retained.",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(1) A record that is retained as required by this Part must not be altered or defaced\nduring the period (the retention period) in which it is required to be retained.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 13.032669419585805,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(d)",
+      "citation": "4-7A(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(d) waste at the establishment must be appropriately treated and disposed of.",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(d) waste at the establishment must be appropriately treated and disposed of.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 11.517303581155428,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)",
+      "citation": "8-6(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "that are intended to be exported",
+      "label": "(1)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6",
+      "child_ids": [
+        "rules2021:8-6(1)(a)",
+        "rules2021:8-6(1)(b)",
+        "rules2021:8-6(1)(c)",
+        "rules2021:8-6(1)(d)",
+        "rules2021:8-6(1)(e)",
+        "rules2021:8-6(1)(f)"
+      ],
+      "own_text": "(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\nthat are intended to be exported\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 11.150831560738647,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)(i)",
+      "citation": "9-14(2)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)(c)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-14 Record of assessment\n(c) if the Secretary has approved, in writing, a form for the assessment record:\n(i) include any other information required by the form; and",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.308829858686338,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(2)",
+      "citation": "11-5(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 12.735083418640366,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-3(2)",
+      "citation": "8-3(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        64
+      ],
+      "parent_id": "rules2021:8-3",
+      "child_ids": [],
+      "own_text": "(2) If an assessment of the plants or plant products in the consignment is required to\nbe carried out, the notice of intention to export the consignment must be given at\na time that will ensure there will be sufficient time for the assessment to be\ncarried out.",
+      "text": "8-3 When notice of intention to export must be given\n(2) If an assessment of the plants or plant products in the consignment is required to\nbe carried out, the notice of intention to export the consignment must be given at\na time that will ensure there will be sufficient time for the assessment to be\ncarried out.",
+      "page": 64,
+      "page_end": 64,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 11.379367445427084,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)(i)",
+      "citation": "9-33(2)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)(b)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-33 Container inspection record\n(b) if the Secretary has approved, in writing, a form for the inspection record:\n(i) include any other information required by the form; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.308829858686338,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:11-2(1)(d)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.04918032786885246,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires records to be accurate, legible and auditable, matching the CP requirement.",
+      "cp_quote": "be accurate, legible and able to be audited",
+      "policy_quote": "accurate, legible and able to be audited.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate directly requires records to be accurate, legible and auditable, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "be accurate, legible and able to be audited",
+      "legal_basis_policy_quote": "accurate, legible and able to be audited.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-3(2)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.04568764568764569,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns importing country requirements, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)(a)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.045598154684933424,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires records to be in English, matching the CP requirement.",
+      "cp_quote": "be in English",
+      "policy_quote": "in English; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate directly requires records to be in English, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "be in English",
+      "legal_basis_policy_quote": "in English; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-26(a)",
+      "page": 75,
+      "rrf_or_bm25_score": 0.044156243721117136,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns legibility of official marks, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-7(1)(a)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.043857360295716456,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns trade description accuracy, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iv)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.04350961538461538,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not the record-keeping requirements for inspection records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-7(1)(c)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.04335125448028674,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns trade description legibility, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(2)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.0416165611814346,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns accreditation requirements, not record attributes.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-8(4)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.04148554148554148,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns translation qualifications, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-8(2)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.04058326787117046,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns trade description language consistency, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-26",
+      "page": 75,
+      "rrf_or_bm25_score": 0.03200204813108039,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns official marks, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(ii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.029850746268656716,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not the record-keeping requirements for inspection records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(i)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.029411764705882353,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not the record-keeping requirements for inspection records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.02877846790890269,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not the record-keeping requirements for inspection records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-26(b)",
+      "page": 75,
+      "rrf_or_bm25_score": 0.027598020555767037,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns secure application of official marks, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)(c)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.02690501986276634,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires records to be dated, matching the CP requirement.",
+      "cp_quote": "include the date of action",
+      "policy_quote": "dated; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The candidate requires records to be dated, directly matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "include the date of action",
+      "legal_basis_policy_quote": "dated; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-8(4)(a)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.026856524873828405,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns translation qualifications, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)(b)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.026687875574407917,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "ALTERNATIVE_LANGUAGE_REQUIREMENT",
+      "reason": "This provides an exception to the English requirement when importing country requires another language.",
+      "cp_quote": "be in English",
+      "policy_quote": "if the record was required to be in another language to meet importing country requirements—in that other language; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The candidate provides an exception to the English requirement, specializing the CP criterion for records required in another language.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "be in English",
+      "legal_basis_policy_quote": "if the record was required to be in another language to meet importing country requirements—in that other language; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-3(1)",
+      "page": 64,
+      "rrf_or_bm25_score": 0.025833333333333333,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns timing of export notice, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.02565359477124183,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns retention period, not the required attributes of records (English, date, accuracy, legibility, auditability).",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.025035205758097326,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is the chapeau introducing the list of requirements that directly match the CP attributes.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "A record that is required to be retained under this Part in relation to plants or plant products must be:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-11(3)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.022857889237199582,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns retention of documents showing changes, not the CP attributes.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14",
+      "page": 87,
+      "rrf_or_bm25_score": 0.01639344262295082,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "Section heading provides structural context for the record of assessment requirement.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "9-14 Record of assessment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33",
+      "page": 104,
+      "rrf_or_bm25_score": 0.016129032258064516,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "HEADING",
+      "reason": "This is a section heading providing structural context for the container inspection record provisions, but it does not contain normative requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "9-33 Container inspection record",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015873015873015872,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "HEADING",
+      "reason": "This is a section heading providing structural context for the bulk vessel inspection record provisions, but it does not contain normative requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "9-24 Bulk vessel inspection record",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This chapeau introduces mandatory content requirements for the inspection record, directly grounding the CP's record requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "The inspection record must:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate introduces requirements for the inspection record but does not itself specify language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "The inspection record must:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This condition triggers additional mandatory content requirements, directly affecting what the record must include.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "if the Secretary has approved, in writing, a form for the inspection record:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate sets a condition for additional requirements but does not itself specify language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "if the Secretary has approved, in writing, a form for the inspection record:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This is a chapeau introducing requirements for the inspection record, but it does not itself state the specific requirements of the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(2) The inspection record must:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(b)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns a condition about an approved form, not the CP criterion's requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(5)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This imposes a requirement on how the record is given, which relates to the record's handling and could affect auditability.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "If the Secretary has approved, in writing, a manner for giving the inspection record, the inspection record must be given in the approved manner.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns the manner of giving the record, not its language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "If the Secretary has approved, in writing, a manner for giving the inspection record, the inspection record must be given in the approved manner.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns audit report recommendations, not the record-keeping requirements for inspection records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-6(2)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns package cleaning and reconditioning, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(5)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns the manner of giving the record, not the content requirements specified in the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(5) If the Secretary has approved, in writing, a manner for giving the inspection record, the inspection record must be given in the approved manner.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-11(2)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns package cleaning and reconditioning, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(1)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision directly requires making a written record, which is the subject of the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "As soon as practicable after an assessor completes an assessment of plants or plant products, the assessor must make a written record (an assessment record) of the assessment.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires making a written record but does not specify the record's language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "As soon as practicable after an assessor completes an assessment of plants or plant products, the assessor must make a written record (an assessment record) of the assessment.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-33(1)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires creation of a written record, which is the subject of the CP's record-keeping requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "As soon as practicable after an authorised officer completes an inspection of a container, the authorised officer must make a written record (an inspection record) of the inspection.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires making a written record but does not specify the record's language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "As soon as practicable after an authorised officer completes an inspection of a container, the authorised officer must make a written record (an inspection record) of the inspection.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-15(2)(c)(iii)",
+      "page": 115,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns payment undertakings, unrelated to record attributes.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(1)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision requires making a record, but does not address the specific content requirements of the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(1) As soon as practicable after an authorised officer completes an inspection of a bulk vessel, the authorised officer must make a written record (an inspection record) of the inspection.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8A(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns safety and effectiveness of treatment operations, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(3)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision introduces additional specifications for approved vessels, not related to the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(6)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns establishment design for screening, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns a condition about an approved form, which is not related to the CP criterion's requirements of English, date, accuracy, legibility, or auditability.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(a)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This is a mandatory content requirement for the record, contributing to the record's accuracy and auditability.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "state whether the container is approved or not approved; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate specifies content of the inspection record but does not address language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "state whether the container is approved or not approved; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(5)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns establishment design for testing and analysis, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(a)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision requires stating approval status, which is not related to the CP criterion's requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(a) state whether the bulk vessel is approved or not approved; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-6(3)(a)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns package appropriateness, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-8(4)(b)",
+      "page": 66,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns translation independence, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This is a chapeau introducing requirements for an assessment record, but it does not itself state the specific requirements of the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(2) The assessment record must:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-11(3)(b)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision specifies a document showing changes, not the CP attributes.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-11(3)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns package appropriateness, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(a)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns trade description content, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(d)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns the manner of giving the record, not the content requirements specified in the CP criterion.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(d) if the Secretary has approved, in writing, a manner for giving the assessment record—be given in the approved manner.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(4)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This adds a mandatory content requirement for certain records, contributing to accuracy and auditability.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "If the container is not approved, the inspection record must set out the reasons for the decision not to approve the container.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate specifies content for a particular situation but does not address language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "If the container is not approved, the inspection record must set out the reasons for the decision not to approve the container.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-11(1)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision prohibits alteration or defacement, which is not among the CP attributes.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(d)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns waste treatment and disposal, which is unrelated to record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns trade description application, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)(i)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision requires inclusion of information from an approved form, which is not related to the CP criterion's specific requirements.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "(i) include any other information required by the form; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(2)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This provision concerns retention period, not the required attributes of records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-3(2)",
+      "page": 64,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns timing of export notice, not record keeping requirements.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)(i)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This mandates inclusion of additional information, directly shaping the record's content and completeness.",
+      "cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "policy_quote": "include any other information required by the form; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate allows additional information but does not address language, date, accuracy, legibility or auditability, so it is only context for the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "legal_basis_policy_quote": "include any other information required by the form; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    }
+  ],
+  "contract": {
+    "cp_id": "CP40",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "Records are in English.",
+        "criterion_quote": "be in English",
+        "basis_candidate_ids": [
+          "rules2021:11-2(1)(a)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "be in English"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:11-2(1)(a)",
+            "quote": "in English; and"
+          }
+        ]
+      },
+      {
+        "atom_id": "A2",
+        "proposition": "Records include the date of action.",
+        "criterion_quote": "include the date of action",
+        "basis_candidate_ids": [
+          "rules2021:11-2(1)(c)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "include the date of action"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:11-2(1)(c)",
+            "quote": "dated; and"
+          }
+        ]
+      },
+      {
+        "atom_id": "A3",
+        "proposition": "Records are accurate, legible and able to be audited.",
+        "criterion_quote": "be accurate, legible and able to be audited",
+        "basis_candidate_ids": [
+          "rules2021:11-2(1)(d)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "be accurate, legible and able to be audited"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:11-2(1)(d)",
+            "quote": "accurate, legible and able to be audited."
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ALL",
+      "children": [
+        {
+          "op": "ATOM",
+          "atom_id": "A1"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A2"
+        },
+        {
+          "op": "ATOM",
+          "atom_id": "A3"
+        }
+      ]
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "CP",
+        "candidate_id": null,
+        "quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited."
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:11-2(1)(a)",
+        "quote": "(a) in English; and"
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:11-2(1)(c)",
+        "quote": "(c) dated; and"
+      },
+      {
+        "root": "satisfaction",
+        "operator": "ALL",
+        "source": "RULES",
+        "candidate_id": "rules2021:11-2(1)(d)",
+        "quote": "(d) accurate, legible and able to be audited."
+      }
+    ],
+    "notes": [
+      "The exception candidate rules2021:11-2(1)(b) is contract_eligible but is not used as a basis for any atom because it represents an exception to the English requirement, not a primary norm for the CP criterion. It may be relevant for non-applicability in specific contexts, but the CP does not mention such exception, so it is not included in the satisfaction expression.",
+      "All other candidates are contract_eligible=false and are not used as legal bases."
+    ]
+  }
+}

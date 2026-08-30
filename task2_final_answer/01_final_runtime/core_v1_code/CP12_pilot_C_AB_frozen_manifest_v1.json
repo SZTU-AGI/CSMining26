@@ -1,0 +1,58 @@
+{
+  "schema": "freca-core-paired-experiment-frozen-result-v1",
+  "experiment_id": "CP12-PILOT-C-AB-V1",
+  "case_id": "RE-NSW-2021-0222",
+  "cp_id": "CP12",
+  "frozen_before_cross_case_replication": true,
+  "evaluator_version": "repair_feedback_v1_1",
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "comparison_policy": {
+    "hard_gates_first": true,
+    "lexicographic_order": [
+      "GoalAlignedVerifiedSignalGain",
+      "ResolvedDecisiveGoalCount",
+      "ProofBlockerDelta",
+      "CandidateDispositionGain",
+      "VerifiedSignalGain",
+      "NewConflictCount"
+    ],
+    "cost_used_for_pilot_c_ranking": false,
+    "overall_weighted_score": null
+  },
+  "arm_a": {
+    "name": "TOP_K_NEXT_BATCH_EXPANSION",
+    "parent_budget": 24,
+    "hard_gates": "PASS",
+    "goal_aligned_verified_signal_gain": 0,
+    "verified_signal_gain": 1,
+    "off_goal_verified_signal_gain": 1,
+    "resolved_decisive_goal_count": 0,
+    "proof_blocker_delta": 0,
+    "candidate_disposition_gain": 20,
+    "new_conflict_count": 0,
+    "statement_change_count": 0,
+    "argument_change_count": 0,
+    "status": "VALID_INFORMATION_GAIN_WITHOUT_GOAL_ADVANCE"
+  },
+  "arm_b": {
+    "name": "CHANNEL_COMPLETION_ONLY",
+    "parent_budget": 24,
+    "hard_gates": "PASS",
+    "structure_records_scanned": 533,
+    "new_outside_frozen_universe": 391,
+    "goal_aligned_verified_signal_gain": 0,
+    "verified_signal_gain": 0,
+    "off_goal_verified_signal_gain": 0,
+    "resolved_decisive_goal_count": 0,
+    "proof_blocker_delta": 0,
+    "candidate_disposition_gain": 0,
+    "new_conflict_count": 0,
+    "statement_change_count": 0,
+    "argument_change_count": 0,
+    "status": "VALID_COVERAGE_EXPANSION_WITHOUT_SEMANTIC_GAIN"
+  },
+  "paired_result": "ARM_A_RELATIVELY_PREFERRED",
+  "interpretation": "Arm A used the equal semantic-alignment budget more productively on Pilot C, but neither arm produced goal-aligned decisive progress. This result is frozen before replication and is not sufficient to promote either arm to the Core default.",
+  "manifest_sha256": "sha256:2f7b352bd07b388b56d3bff9fe4235c364e51ad83f9c3037a178c947a65b8a10"
+}

@@ -1,0 +1,353 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-011",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_11_Swan_Valley_Almonds_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registration for almonds and citrus, but HACCP plan indicates operations for canola, linseed, and faba beans at a different facility (RE-WA-1882), creating ambiguity about whether all operations are within registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence provided regarding suspension status of registration; absence of evidence means cannot establish compliance."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence mentions important features but does not explicitly identify the area of premises registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Site plan references important features of registered area and adjoining sites; management plan confirms buildings, equipment, facilities, and services for export operations."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence mentions important features but does not provide specific layout details of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The management plan explicitly states that the establishment has all buildings, equipment, facilities and services required for the registered export operations."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, and facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene, and includes procedures for cleaning and maintaining areas in a clean and hygienic condition."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P5",
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, and the Farm Management Plan documents waste management arrangements."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is tailored to the establishment's operations (pulse cleaning, storage, packing) and includes detailed step-by-step procedures for each area, indicating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Swan_Valley_Almonds_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_11_Swan_Valley_Almonds_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map documents an integrated pest management system with 11 mapped stations and contractor verification, and the Pest Control Record references Chapter 4 of the Rules, demonstrating a system for pest and rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes trend review and identifies repeated rodent activity in receival zones, indicating it is effective for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years as stated in the registration record and the Hygiene and Sanitation Plan."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are described as maintained on site and in the business management system, with cleaning records using paper log sheets and digital entries, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that all areas of the establishment are maintained in a clean and hygienic condition, with specific procedures for storage silos/bins."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Swan_Valley_Almonds_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The Bait Station Map indicates all operational and surrounding areas are maintained clean and free of harbourage, and the Hygiene Plan ensures clean conditions, preventing pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Bait Station Map shows 11 mapped stations with contractor verification, indicating they are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P23",
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene Plan specifies appropriate cleaning agents and procedures to prevent contamination, and the Farm Management Plan documents waste management arrangements, ensuring chemicals do not contaminate products."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P23",
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene Plan includes procedures for cleaning storage and processing areas, and the Farm Management Plan documents waste management, preventing chemical contamination in preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Swan_Valley_Almonds_Pty_Ltd_011.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no specific evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Swan_Valley_Almonds_Pty_Ltd_011.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Swan_Valley_Almonds_Pty_Ltd_011.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are mentioned but no details or evidence of actual traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained but no explicit description of a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow is described but no formal product flow chart is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Hygiene plan mentions maintaining clean conditions but no specific evidence of controlling contamination or infestation risk."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation is mentioned but no evidence of measures to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Swan_Valley_Almonds_Pty_Ltd_011.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned but no evidence of packaging requirements being met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for two years, but no evidence of specific traceability records such as receival, movement, treatment, transfer, dispatch, or transport unit approval."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_11_Swan_Valley_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are said to be maintained but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Swan_Valley_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The plan mentions compliance with the Rules but no evidence that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-011/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-011/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-011/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-011/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-011/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 25,
+    "1": 14,
+    "N/A": 2
+  }
+}

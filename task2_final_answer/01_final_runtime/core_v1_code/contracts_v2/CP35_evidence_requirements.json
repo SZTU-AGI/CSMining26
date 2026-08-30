@@ -1,0 +1,108 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP35",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The risk of contamination or infestation of plants or plant products is maintained at an acceptable level through compliance with applicable phytosanitary requirements.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "maintaining risk for contamination or infestation",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:2-12(3)(f)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)",
+        "rules2021:9-23(1)(b)(i)",
+        "rules2021:9-23(1)(b)(ii)",
+        "rules2021:9-31(3)(a)",
+        "rules2021:9-31(3)(b)",
+        "rules2021:9-31(3)(c)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "maintaining risk for contamination or infestation"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:2-12(3)(f)",
+          "quote": "the plants or plant products have not been exposed to infestation by pests or contamination that could result in any of the matters stated in the original phytosanitary certificate being incorrect."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(2)(a)",
+          "quote": "to manage the risk of contamination by large contaminants"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(2)(b)",
+          "quote": "to ensure that any large contaminants are removed from the plants or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-23(1)(b)(i)",
+          "quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-23(1)(b)(ii)",
+          "quote": "could affect the integrity of prescribed plants or plant products in or on the vessel; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-31(3)(a)",
+          "quote": "there are no pests in or on the container that are likely to infest the plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-31(3)(b)",
+          "quote": "there are no residues of plants or plant products in or on the container that are likely to harbour pests that could infest the plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-31(3)(c)",
+          "quote": "the container is not in a condition that could result in infestation of the plants or plant products"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:2-12(3)(f)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)",
+        "rules2021:9-23(1)(b)(i)",
+        "rules2021:9-23(1)(b)(ii)",
+        "rules2021:9-31(3)(a)",
+        "rules2021:9-31(3)(b)",
+        "rules2021:9-31(3)(c)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

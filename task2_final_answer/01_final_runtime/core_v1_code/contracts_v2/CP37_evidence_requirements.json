@@ -1,0 +1,148 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP37",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "Packages must meet relevant importing country requirements.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "packaging requirements (where applicable)",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-11(5)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "packaging requirements (where applicable)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-11(5)",
+          "quote": "The packages must meet relevant importing country requirements."
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A2-G3",
+      "atom_id": "A2",
+      "proposition_to_establish": "Packages must be cleaned and reconditioned before each subsequent use if intended to be used more than once and previously used; otherwise, packages must be unused and clean.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "packaging requirements (where applicable)",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-6(2)",
+        "rules2021:4-11(2)"
+      ],
+      "source_group_ids": [
+        "G3"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "packaging requirements (where applicable)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-6(2)",
+          "quote": "If the packages are intended to be used more than once and they have been used previously, the packages must be cleaned and reconditioned before each subsequent use. In any other case, the packages must be unused and clean."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-11(2)",
+          "quote": "If the packages are intended to be used more than once and they have been used previously, the packages must be cleaned and reconditioned before each subsequent use. In any other case, the packages must be unused and clean."
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER3",
+      "facet_seed_id": "FS-A3-G4",
+      "atom_id": "A3",
+      "proposition_to_establish": "Packages must be sufficiently strong to withstand handling ordinarily occurring before and during transport, including transport to their final overseas destination.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "packaging requirements (where applicable)",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-6(4)",
+        "rules2021:4-11(4)"
+      ],
+      "source_group_ids": [
+        "G4"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "packaging requirements (where applicable)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-6(4)",
+          "quote": "The packages must be sufficiently strong to withstand handling ordinarily occurring before and during transport, including transport to their final overseas destination."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-11(4)",
+          "quote": "The packages must be sufficiently strong to withstand handling ordinarily occurring before and during transport, including transport to their final overseas destination."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-11(5)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    },
+    {
+      "facet_seed_id": "FS-A2-G3",
+      "atom_id": "A2",
+      "source_group_ids": [
+        "G3"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-6(2)",
+        "rules2021:4-11(2)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A3-G4",
+      "atom_id": "A3",
+      "source_group_ids": [
+        "G4"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-6(4)",
+        "rules2021:4-11(4)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

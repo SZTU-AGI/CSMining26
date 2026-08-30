@@ -1,0 +1,368 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-023",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P17",
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence shows the establishment is registered for export operations (RE-NSW-2020-0144) and operations are conducted within the registered area for handling and exporting onions/chickpeas."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P39"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The declaration does not address suspension status."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P17"
+      ],
+      "reason": "A scaled site plan is attached showing the registered area, including all infrastructure and product flow contained within the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P17",
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12"
+      ],
+      "reason": "The site plan shows important features (silos, sheds, hardstand, weighbridge, access roads) and the management plan confirms buildings, equipment, facilities and services are present."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P17"
+      ],
+      "reason": "The site plan includes layout of receival, storage, processing, dispatch areas, permanent fixtures, and equipment used for preparation."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_23_Namoi_Grain_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no alterations have occurred, so no approval is required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no alterations have occurred, so no approval is required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_23_Namoi_Grain_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12",
+        "1_Farm_23_Namoi_Grain_Trust.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support export of chickpeas."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, responsibilities, and records, satisfying the requirement for a system of controls to manage hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes waste control and disposal procedures, as part of the system of controls, satisfying the requirement."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "The documented hygiene and sanitation plan is specific to the establishment's operations (handling and exporting onions) and includes procedures for cleaning, waste, and records, demonstrating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Namoi_Grain_Trust.docx:P3",
+        "3_PestControlRecord_23_Namoi_Grain_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map and Pest Control Record indicate a system of controls for pests, including rodent bait stations, satisfying the requirement."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Namoi_Grain_Trust.docx:P3",
+        "3_PestControlRecord_23_Namoi_Grain_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system includes bait station mapping and records, demonstrating effectiveness for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years, as stated in the registration record and hygiene plan."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are described as maintained on site and in the business management system, with retention for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P27",
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12"
+      ],
+      "reason": "The hygiene plan states all areas are maintained in a clean and hygienic condition, and the management plan confirms facilities are maintained appropriately for onion handling."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P12"
+      ],
+      "reason": "The establishment is maintained in a condition appropriate for export operations, and the hygiene plan ensures cleanliness, which supports that goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Namoi_Grain_Trust.docx:P3"
+      ],
+      "reason": "The bait station map indicates the presence of pest control stations, and no evidence suggests they are not fit for purpose or in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_23_Namoi_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence explicitly states chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, contradicting the requirement."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_23_Namoi_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "The same evidence shows chemicals stored in an unlocked cupboard inside the pulse grading shed, which is a preparation area, directly contradicting the requirement."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Namoi_Grain_Trust_023.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer dockets, but no specific evidence that traceability from the property of origin to receival is implemented."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Namoi_Grain_Trust_023.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not demonstrate that traceability is maintained while product is at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Namoi_Grain_Trust_023.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer dockets exist but no evidence that they include details of next premises or that traceability to next premises is maintained."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "9_Traceability_Records_Namoi_Grain_Trust_023.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions records but no explicit system of controls for traceability and integrity (e.g., labelling, record keeping procedures)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_23_Namoi_Grain_Trust.docx:P21"
+      ],
+      "reason": "A product flow chart is referenced but not provided; no evidence of its content or that it demonstrates integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_23_Namoi_Grain_Trust.docx:P21"
+      ],
+      "reason": "Failed goods are mentioned but no evidence of a system for managing them (blending, rejections, treatments, representations)."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P27"
+      ],
+      "reason": "Hygiene procedures exist but no evidence of a system to maintain risk for contamination or infestation (e.g., pest monitoring, sanitation controls)."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P17"
+      ],
+      "reason": "Segregation is mentioned but no evidence of a system to prevent substitution (e.g., labelling, lot integrity controls)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Namoi_Grain_Trust_023.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned but no evidence of packaging requirements being met or documented."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records retention is stated but no evidence of actual records covering receival, movement, treatment, transfer, dispatch, and transport unit approval."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_23_Namoi_Grain_Trust.docx:P21"
+      ],
+      "reason": "Failed goods are mentioned but no evidence of records for rejected/failed goods including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_23_Namoi_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are said to be retained but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Grain_Trust.docx:P4"
+      ],
+      "reason": "The establishment is registered for onions but evidence mentions chickpeas; no evidence that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-023/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-023/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-023/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-023/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-023/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 15,
+    "0": 24,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP34",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "There is a system of controls in place to manage goods that fail inspection, including blending, rejections, treatments and representations of failed products, where applicable, specifically addressing the prohibition on blending mung beans with animal waste.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-9(3)",
+        "rules2021:4-9(3)(c)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the system of controls to manage goods that fail inspection – including blending, rejections, treatments and representations of failed products, where applicable"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(3)",
+          "quote": "If the plants or plant products fail an assessment because of:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-9(3)(c)",
+          "quote": "the plants or plant products must not be blended with other plants or plant products at the establishment."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-9(3)",
+        "rules2021:4-9(3)(c)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

@@ -1,0 +1,348 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-027",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat and all activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing all important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_27_Avon_Valley_Exports_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations, extensions, or rearrangements occurring; evidence explicitly states none have occurred, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations, extensions, or rearrangements occurring; evidence explicitly states none have occurred, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_27_Avon_Valley_Exports_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Avon_Valley_Exports_Trust.docx:P12"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations and are maintained appropriately."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, and includes procedures for cleaning, designated staff responsibilities, and sign-off records, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, with procedures for cleaning and waste management, satisfying the requirement for a system to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P38"
+      ],
+      "reason": "The documented hygiene and waste control system includes detailed procedures, designated responsibilities, and verification via cleaning logs and supervisor sign-off, demonstrating effectiveness for the export operations (wheat receival, storage, and dispatch)."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The bait station map and integrated pest management description confirm a system of controls for pests including rodent surveillance with 18 mapped stations, contractor verification, and trend review, satisfying the requirement for pest and contaminant control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped bait stations, contractor verification, trend review, and escalation actions with closure evidence, demonstrating effectiveness for the type of export operations (grain storage and handling)."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records relating to export operations are retained for a minimum of two years, covering hygiene, waste, and pest control records, satisfying the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P36"
+      ],
+      "reason": "The evidence indicates records are maintained on site and in the business management system, and the registration record is in English and dated, implying records are accurate, legible, and auditable as required."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that all areas of the establishment are maintained in a clean and hygienic condition, with specific procedures for the Pre-Cool Chamber and cleaning logs, demonstrating appropriate condition for the export operations."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8"
+      ],
+      "reason": "The pest control evidence shows all operational and surrounding areas are maintained clean and free of harbourage, and the hygiene plan ensures cleanliness, collectively ensuring goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The bait station map indicates 18 mapped stations with contractor verification and trend review, implying the stations are functional and monitored, satisfying the requirement for pest control stations to be fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The hygiene and pest control systems ensure that chemicals are managed to prevent contamination of plant products, as the establishment is maintained clean and free of harbourage, and the system of controls includes appropriate storage and handling."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "7_Bait_Station_Map_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The establishment's hygiene and pest control measures ensure that chemicals do not contaminate areas where plant products are prepared, as the plan maintains all areas clean and free of harbourage, and pest control is managed appropriately."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P17",
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific records of traceability from the property of transfer to receival. The dispatch docket template is empty, and no evidence of incoming transfer records."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P17",
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability records while product is at the establishment. The product flow description is not a traceability record, and the dispatch docket template is empty."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The dispatch/transfer docket template is empty, providing no evidence of traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P36",
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The farm management plan mentions records are maintained, but the traceability spreadsheet shows empty dispatch dockets, and no evidence of a system of controls for traceability and integrity is provided."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P17"
+      ],
+      "reason": "The product flow description is not a formal product flow chart and does not demonstrate maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding management of goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Avon_Valley_Exports_Trust.docx:P27"
+      ],
+      "reason": "Evidence shows cleaning procedures but no specific system of controls to maintain risk for contamination or infestation, such as pest monitoring or segregation procedures."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P17"
+      ],
+      "reason": "The product flow mentions segregation from non-registered commodities, but no evidence of a system to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Avon_Valley_Exports_Trust_027.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but notes they are occasionally attached to shift summary instead of individual lot files, indicating non-compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P36",
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The farm management plan states records are retained for two years, but the traceability spreadsheet shows empty dispatch dockets, and no evidence of receival, treatment, or transfer records is provided."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P36",
+        "9_Traceability_Records_Avon_Valley_Exports_Trust_027.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The farm management plan claims records are maintained, but the traceability spreadsheet shows empty dispatch dockets, and no evidence that records are in English, dated, accurate, legible, or auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_27_Avon_Valley_Exports_Trust.docx:P4"
+      ],
+      "reason": "The establishment is registered for wheat, but the HACCP plan mentions canola and linseed, indicating potential operations outside registered scope. No evidence that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-027/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-027/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-027/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-027/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-027/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 14,
+    "0": 25,
+    "N/A": 2
+  }
+}

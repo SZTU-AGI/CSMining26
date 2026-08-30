@@ -1,0 +1,32 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:2-4(1)(d)",
+        "rules2021:4-1",
+        "rules2021:4-3(3)",
+        "rules2021:4-7",
+        "rules2021:4-7B",
+        "rules2021:4-8A(a)",
+        "rules2021:4-8A(b)",
+        "rules2021:4-8A(c)",
+        "rules2021:9-8(1)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The establishment is operating within its registered operations and, where applicable, its registered functions to prepare plants or plant products for export.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The establishment is operating within its registered operations and, where applicable, its registered functions to prepare plants or plant products for export."
+        }
+      ],
+      "reason": "All supplied legal norms provide grounding, operationalisation, or specific requirements that collectively support the single benchmark criterion regarding operating within registered operations and functions for export preparation. No explicit connector in the CP or legal text establishes that each norm must independently fail the whole criterion; they are different aspects of the same overarching requirement."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms all relate to the same CP criterion about operating within registered operations and functions for export. They are not cumulative independent requirements because the CP does not explicitly require each as a separate failure condition; rather, they jointly support the single criterion. No alternative or specialization relationships are evident from the supplied text."
+}

@@ -1,0 +1,345 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-095",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_95_Tablelands_Almond_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_95_Tablelands_Almond_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Tablelands_Almond_Trust.docx:P12",
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P19"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the registration record confirms infrastructure is designed and maintained to support the export of almonds."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P38"
+      ],
+      "reason": "The hygiene plan requires all areas to be maintained in a clean and hygienic condition, and visual inspections are conducted before production to ensure cleanliness, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_95_Tablelands_Almond_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence shows chemicals stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product and preparation areas, contradicting the requirement to minimise contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants from plants or plant products."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, designated staff, and verification inspections, satisfying the requirement for a system of controls to manage hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Tablelands_Almond_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P5"
+      ],
+      "reason": "The Farm Management Plan includes waste management arrangements, and the Hygiene and Sanitation Plan references the system of controls for waste, indicating a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P43",
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P18"
+      ],
+      "reason": "The internal inspection identified product residue accumulation, indicating hygiene controls are not fully effective. Additionally, the HACCP plan lacks a site-specific pest control program, undermining overall effectiveness."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P18",
+        "7_Bait_Station_Map_Tablelands_Almond_Trust.docx:P4"
+      ],
+      "reason": "The HACCP plan explicitly states no formal pest control program exists, lacking bait station map, monitoring schedule, and contractor engagement. Although a bait station map exists, the absence of a documented program fails to establish a system of controls for pests."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P18"
+      ],
+      "reason": "The HACCP plan notes that pest control effectiveness cannot be demonstrated without a documented, implemented program, and the plan lacks site-specific details, so the system of controls is not effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and the policy requires records to be in English, dated, accurate, legible, and auditable. The evidence does not contradict these requirements."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P43"
+      ],
+      "reason": "The internal inspection found product residue accumulation at elevator boot and transfer points, indicating that areas are not maintained in a clean and hygienic condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P43",
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P18"
+      ],
+      "reason": "Product residue accumulation can harbour pests and contaminants, and the lack of a formal pest control program means the establishment condition does not ensure goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P18"
+      ],
+      "reason": "The HACCP plan states there is no formal pest control program, and no evidence of bait stations being fit for purpose or in good working order is provided."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_95_Tablelands_Almond_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence indicates chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating prescribed plant or plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_95_Tablelands_Almond_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "Chemicals stored in an unlocked cupboard inside the pulse grading shed pose a direct risk of contaminating areas where prescribed plant or plant products are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Tablelands_Almond_Trust_095.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a template for transfer records but no actual records of traceability from the property of origin to receival. No evidence of actual implementation."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not demonstrate actual traceability of products while at the establishment. No specific records of product movement or storage logs are provided."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Tablelands_Almond_Trust_095.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a template for transfer records but no actual records of transfers to next premises. No evidence of actual implementation."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records are maintained but does not describe a system of controls for traceability and integrity, such as labelling or record keeping procedures. No evidence of actual system in place."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P21"
+      ],
+      "reason": "Evidence mentions a product flow chart but does not provide the chart itself or demonstrate that it shows movement and maintenance of product integrity. No actual chart provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not describe a system for managing them, including blending, rejections, treatments, or representations. No actual procedures or records provided."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Tablelands_Almond_Trust.docx:P43"
+      ],
+      "reason": "Evidence shows a hygiene issue with product residue accumulation, indicating a risk of contamination. No evidence of a system to maintain phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "No evidence of measures to prevent substitution or switching of goods. Only general record keeping mentioned."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Tablelands_Almond_Trust_095.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not describe packaging requirements or demonstrate compliance. No actual packaging procedures or records provided."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for two years but does not provide actual records or demonstrate that all required traceability records are retained. No specific records shown."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_95_Tablelands_Almond_Trust.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not show records of rejected goods, blending, treatments, or re-presentation. No actual records provided."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not demonstrate that they are in English, dated, accurate, legible, and auditable. No actual records provided to verify."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_95_Tablelands_Almond_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for almonds but does not demonstrate that all importing country requirements are met. No evidence of specific requirements or compliance."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-095/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-095/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-095/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-095/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-095/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 7,
+    "0": 32,
+    "N/A": 2
+  }
+}

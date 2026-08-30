@@ -1,0 +1,25 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:11-10(3)",
+        "rules2021:11-5(2)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "At least 2 years of records for prescribed goods that have been rejected and/or failed export inspection are retained"
+        }
+      ],
+      "reason": "Both provisions impose a 2-year retention obligation on different actors (authorised officer and exporter) for records related to prescribed goods. The CP criterion does not distinguish between actors or require both obligations cumulatively; it states a single retention requirement. The two rules jointly support the same benchmark requirement without establishing independent cumulative failure conditions."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms impose parallel 2-year record retention duties on different parties. The CP criterion is a single broad requirement that does not explicitly require both duties to be independently satisfied. Therefore, they are best classified as SUPPORTS_SAME_CRITERION rather than CUMULATIVE."
+}

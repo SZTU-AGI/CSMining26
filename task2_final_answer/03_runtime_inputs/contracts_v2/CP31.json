@@ -1,0 +1,3306 @@
+{
+  "schema": "freca-core-contract-v2",
+  "cp": {
+    "cp_id": "CP31",
+    "canonical_cp_id": "CP31",
+    "element": "Element-4",
+    "subelement": "4.1 System of controls – product traceability and integrity",
+    "criterion": "to the next premises which they are transferred to",
+    "sheet": "All Elements",
+    "column": 31
+  },
+  "model": "deepseek-v4-pro",
+  "retrieved_rules": [
+    {
+      "id": "rules2021:3-4",
+      "citation": "3-4",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "3-4",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "text": "3-4 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products in relation to which export\noperations are carried out at an accredited property must be ensured while the\nplants or plant products are at the property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.05591338056069195,
+      "rrf_score": 0.05591338056069195,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 6.385574983476429,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.5984775239422895,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.310536826138739,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 12.90901435008103,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(b)",
+      "citation": "1-6(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(b) applying a substance;",
+      "text": "1-6 Definitions\n(b) applying a substance;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.04999377803975505,
+      "rrf_score": 0.04999377803975505,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 5.764181297041871,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.400178254129513,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.058368584420556,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 7.850834912169435,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(c)",
+      "citation": "4-7B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(c) to the premises to which they are transferred from the registered\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04918032786885246,
+      "rrf_score": 0.04918032786885246,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 29.043098631565012,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 22.64183658547381,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 24.228483514953403,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(c)",
+      "citation": "3-3B(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(c) to the accredited property or registered establishment to which they are\ntransferred from the relevant property.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04838709677419355,
+      "rrf_score": 0.04838709677419355,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 19.575564610030924,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 15.301584314666234,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 16.80797728789483,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(a)",
+      "citation": "4-7B(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(a) from the property (if any) from which they were transferred to the\nregistered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04712301587301587,
+      "rrf_score": 0.04712301587301587,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 17.12334289627275,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 14.014163321412145,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 15.801295624795348,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(a)",
+      "citation": "3-3B(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(a) from the property (if any) from which they were transferred to the relevant\nproperty; and",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(a) from the property (if any) from which they were transferred to the relevant\nproperty; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04688263125763126,
+      "rrf_score": 0.04688263125763126,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 17.12334289627275,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 13.63053301260134,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 15.387541472167937,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-2(4)(d)",
+      "citation": "2-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        23
+      ],
+      "parent_id": "rules2021:2-2(4)",
+      "child_ids": [],
+      "own_text": "(d) are imported into Australian territory and then exported in the same\ncovering in which, and with the same trade description with which, they\nwere imported; or",
+      "text": "2-2 Plants and plant products that are taken not to be prescribed goods\n(4) Plants and plant products are taken not to be prescribed goods for the purposes of\nthe Act if the plants or plant products:\n(d) are imported into Australian territory and then exported in the same\ncovering in which, and with the same trade description with which, they\nwere imported; or",
+      "page": 23,
+      "page_end": 23,
+      "score": 0.04547511312217195,
+      "rrf_score": 0.04547511312217195,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 10.047328293211521,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 9.590684272659514,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 11.54087767734752,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)",
+      "citation": "8-6(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "that are intended to be exported",
+      "label": "(1)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6",
+      "child_ids": [
+        "rules2021:8-6(1)(a)",
+        "rules2021:8-6(1)(b)",
+        "rules2021:8-6(1)(c)",
+        "rules2021:8-6(1)(d)",
+        "rules2021:8-6(1)(e)",
+        "rules2021:8-6(1)(f)"
+      ],
+      "own_text": "(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\nthat are intended to be exported\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.043157782288217074,
+      "rrf_score": 0.043157782288217074,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 6.936070101178836,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.485686066933855,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 8.689420434977075,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B(b)",
+      "citation": "4-7B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the registered establishment; and",
+      "text": "4-7B Plants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:\n(b) while they are at the registered establishment; and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.04240513974452975,
+      "rrf_score": 0.04240513974452975,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 9.238358150731749,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.656568811795021,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 8.518174486475495,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B(b)",
+      "citation": "3-3B(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-3B",
+      "child_ids": [],
+      "own_text": "(b) while they are at the relevant property; and",
+      "text": "3-3B Plants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:\n(b) while they are at the relevant property; and",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.041235525991623556,
+      "rrf_score": 0.041235525991623556,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 9.238358150731749,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.5216493250941845,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 8.350591146605296,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-6(2)",
+      "citation": "3-6(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        36
+      ],
+      "parent_id": "rules2021:3-6",
+      "child_ids": [],
+      "own_text": "(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "text": "3-6 Requirements for packages for export\n(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.04093888664784187,
+      "rrf_score": 0.04093888664784187,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 6.383487155104917,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.670598675702688,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 8.37030668958099,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-11(2)",
+      "citation": "4-11(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-11",
+      "child_ids": [],
+      "own_text": "(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "text": "4-11 Requirements for packages for export\n(2) If the packages are intended to be used more than once and they have been used\npreviously, the packages must be cleaned and reconditioned before each\nsubsequent use. In any other case, the packages must be unused and clean.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04038489469862019,
+      "rrf_score": 0.04038489469862019,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 6.383487155104917,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.670598675702688,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 8.37030668958099,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(6)",
+      "citation": "1-8(6)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(6)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(6) The total amount of a kind of horticultural product referred to in column 1 of any\nof items 1 to 13 of the table in subsection (8) in relation to which export\noperations are to be carried out at the registered establishment in the financial\nyear must not exceed the total amount referred to in column 2 of the item relating\nto that kind of horticultural product.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.03782815993036184,
+      "rrf_score": 0.03782815993036184,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 27,
+          "raw_score": 5.396414783163613,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.636995165584347,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 10.27029291733886,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.032266458495966696,
+      "rrf_score": 0.032266458495966696,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 13.328369228974898,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 16.700830159817254,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.03128054740957967,
+      "rrf_score": 0.03128054740957967,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.067774028803447,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 15.366613651492042,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(3)",
+      "citation": "9-16(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16",
+      "child_ids": [],
+      "own_text": "(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) If the Secretary is satisfied that a kind of contaminant (other than animal carcases\nor animal waste) could affect the integrity of a kind of plant or plant product for\nexport to an importing country, the Secretary may approve, in writing, the\ntolerance level for that kind of contaminant in relation to that kind of plant or\nplant product and that importing country.",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.03036576949620428,
+      "rrf_score": 0.03036576949620428,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 9.586610225622943,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 10.959678317541732,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-8",
+      "citation": "4-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Integrity",
+      "label": "4-8",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "The integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "text": "4-8 Integrity\nIntegrity\nThe integrity of prescribed plants or plant products prepared at a registered\nestablishment must be ensured while the plants or plant products are at the\nestablishment.",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.029513888888888888,
+      "rrf_score": 0.029513888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 7.674287044498846,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 9.657467758246433,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.028484848484848488,
+      "rrf_score": 0.028484848484848488,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 6.94293355369499,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 8.613779746434094,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(b)",
+      "citation": "9-15(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(1), a tolerance level\nfor that kind of pest in relation to that kind of plant or plant product and\nthat importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.028083267871170464,
+      "rrf_score": 0.028083267871170464,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.898052602628539,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 8.536507740400026,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-16(1)(a)",
+      "citation": "9-16(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        89
+      ],
+      "parent_id": "rules2021:9-16(1)",
+      "child_ids": [],
+      "own_text": "(a) the pest is not injurious to that kind of plant or plant product; or",
+      "text": "9-16 Approval of tolerance levels for pests and contaminants\n(1) The Secretary may approve, in writing, a tolerance level higher than nil for a\nkind of pest in relation to a kind of plant or plant product for export to an\nimporting country if:\nPowers and officials Chapter 9\nAssessments Part 2\nCarrying out assessment etc. Division 2\n(a) the pest is not injurious to that kind of plant or plant product; or",
+      "page": 89,
+      "page_end": 89,
+      "score": 0.027364110201042444,
+      "rrf_score": 0.027364110201042444,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.858413910548661,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 8.437470088883114,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(3)(a)(ii)",
+      "citation": "9-4(3)(a)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(3)(a)",
+      "child_ids": [],
+      "own_text": "(ii) the requirements to which the audit relates are being, or have been,\ncomplied with; and",
+      "text": "9-4 Audit reports\n(a) whether, in the auditor’s opinion:\n(ii) the requirements to which the audit relates are being, or have been,\ncomplied with; and",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.026754075124025514,
+      "rrf_score": 0.026754075124025514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 7.7368935691497445,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 5.658307799347043,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(b)",
+      "citation": "9-15(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(b) if the Secretary has approved, under subsection 9-16(2), a tolerance level\nfor animal carcases or animal waste in relation to that kind of plant or plant\nproduct and that importing country—the approved tolerance level.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.026333907056798625,
+      "rrf_score": 0.026333907056798625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7027632796314105,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 8.325759726621019,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)",
+      "citation": "8-6(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [
+        "rules2021:8-6(1)(c)(i)",
+        "rules2021:8-6(1)(c)(ii)"
+      ],
+      "own_text": "(c) the registration number of the registered establishment where:",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(c) the registration number of the registered establishment where:",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.02564935064935065,
+      "rrf_score": 0.02564935064935065,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.557254078802317,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 7.845592056114598,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(3)",
+      "citation": "9-15(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Contaminants other than animal carcases or animal waste",
+      "label": "(3)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [],
+      "own_text": "(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nContaminants other than animal carcases or animal waste\n(3) The applicable tolerance level (if any) for a kind of contaminant (other than\nanimal carcases or animal waste) in relation to a kind of plant or plant product\nfor export to an importing country is the tolerance level approved by the\nSecretary under subsection 9-16(3) for that kind of contaminant in relation to that\nkind of plant or plant product and that importing country.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.025603392041748205,
+      "rrf_score": 0.025603392041748205,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.4858624266017255,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 8.042757568697562,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:10-2",
+      "citation": "10-2",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Dealing with things seized in exercising investigation powers",
+      "label": "10-2",
+      "pages": [
+        107
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:10-2(a)",
+        "rules2021:10-2(b)"
+      ],
+      "own_text": "If a thing has been seized at premises that have been entered under an\ninvestigation warrant or under subsection 347(1) of the Act, the thing must be:",
+      "text": "10-2 Dealing with things seized in exercising investigation powers\nDealing with things seized in exercising investigation powers\nIf a thing has been seized at premises that have been entered under an\ninvestigation warrant or under subsection 347(1) of the Act, the thing must be:",
+      "page": 107,
+      "page_end": 107,
+      "score": 0.025478740668614087,
+      "rrf_score": 0.025478740668614087,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 6.0023178686199765,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.868622750550863,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)",
+      "citation": "9-15(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Pests",
+      "label": "(1)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(1)(a)",
+        "rules2021:9-15(1)(b)"
+      ],
+      "own_text": "(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\nPests\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0251414204902577,
+      "rrf_score": 0.0251414204902577,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.307121326243124,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 7.938805820597548,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(c)",
+      "citation": "9-23(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)",
+      "child_ids": [],
+      "own_text": "(c) if the bulk vessel is intended to be used to transport prescribed plants or\nplant products to which subsection (2) applies—a marine surveyor’s\ncertificate is in force for the vessel that covers the cargo spaces of the\nvessel into or onto which the plants or plant products are intended to be\nloaded.",
+      "text": "9-23 Requirements for approval of bulk vessel\n(1) An authorised officer must not approve a bulk vessel unless:\n(c) if the bulk vessel is intended to be used to transport prescribed plants or\nplant products to which subsection (2) applies—a marine surveyor’s\ncertificate is in force for the vessel that covers the cargo spaces of the\nvessel into or onto which the plants or plant products are intended to be\nloaded.",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.025,
+      "rrf_score": 0.025,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 6.60174658745922,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 30,
+          "raw_score": 5.319421107314922,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-15(5)(b)",
+      "citation": "11-15(5)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        116
+      ],
+      "parent_id": "rules2021:11-15(5)",
+      "child_ids": [],
+      "own_text": "(b) a person has given 2 or more payment undertakings in relation to different\nrelevant Commonwealth liabilities of the person or of another person;\nthe Secretary may determine the order in which payments are to be applied to\nreduce the outstanding relevant Commonwealth liabilities.",
+      "text": "11-15 Circumstances in which relevant Commonwealth liability of a person is\n(5) If:\n(b) a person has given 2 or more payment undertakings in relation to different\nrelevant Commonwealth liabilities of the person or of another person;\nthe Secretary may determine the order in which payments are to be applied to\nreduce the outstanding relevant Commonwealth liabilities.",
+      "page": 116,
+      "page_end": 116,
+      "score": 0.02485334979932078,
+      "rrf_score": 0.02485334979932078,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 5.916184582983282,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.667359941252825,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)",
+      "citation": "9-15(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15",
+      "child_ids": [
+        "rules2021:9-15(2)(a)",
+        "rules2021:9-15(2)(b)"
+      ],
+      "own_text": "(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.024269005847953218,
+      "rrf_score": 0.024269005847953218,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.189261330948453,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 7.820945825302877,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(e)",
+      "citation": "1-6(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        17,
+        18
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "text": "1-6 Definitions\n(e) repacking.\nvalidity period has the meaning given by subsection 9-12(2).\nChapter 1 Preliminary",
+      "page": 17,
+      "page_end": 18,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.726678004027894,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)",
+      "citation": "9-23(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)",
+      "child_ids": [
+        "rules2021:9-23(1)(a)(i)",
+        "rules2021:9-23(1)(a)(ii)",
+        "rules2021:9-23(1)(a)(iii)"
+      ],
+      "own_text": "(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:",
+      "text": "9-23 Requirements for approval of bulk vessel\n(1) An authorised officer must not approve a bulk vessel unless:\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 6.859080529623733,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-1(2)(a)",
+      "citation": "7-1(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        59
+      ],
+      "parent_id": "rules2021:7-1(2)",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products is ensured; and",
+      "text": "7-1 Conditions of export permit\n(2) The holder of the export permit must ensure that:\n(a) the integrity of the plants or plant products is ensured; and",
+      "page": 59,
+      "page_end": 59,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.632450319789029,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(a)",
+      "citation": "8-6(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(a) the kind of plants or plant products in the consignment to be exported;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(a) the kind of plants or plant products in the consignment to be exported;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.5328825436779905,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(2)(a)",
+      "citation": "9-22(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        95
+      ],
+      "parent_id": "rules2021:9-22(2)",
+      "child_ids": [],
+      "own_text": "(a) each cargo space of the vessel into or onto which prescribed plants or plant\nproducts are to be loaded; and",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(2) For the purpose of deciding whether to approve a bulk vessel, an authorised\nofficer must inspect:\n(a) each cargo space of the vessel into or onto which prescribed plants or plant\nproducts are to be loaded; and",
+      "page": 95,
+      "page_end": 95,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 6.8125408932928115,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(iii)",
+      "citation": "9-23(1)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(iii) the cargo spaces are not in a condition that could affect the integrity of\nthe plants or plant products; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 9.961056248637691,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-28(1)(d)",
+      "citation": "9-28(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-28(1)",
+      "child_ids": [],
+      "own_text": "(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-28 Revocation of suspension of bulk vessel approval\n(1) If:\n(d) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.58123745966464,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-15(a)",
+      "citation": "3-15(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        43
+      ],
+      "parent_id": "rules2021:3-15",
+      "child_ids": [],
+      "own_text": "(a) a change in a person who manages or controls export operations carried out at the\naccredited property;",
+      "text": "3-15 Events of which Secretary must be notified\nFor the purposes of subsection 108(1) of the Act, the following events are\nprescribed in relation to an accredited property:\n(a) a change in a person who manages or controls export operations carried out at the\naccredited property;",
+      "page": 43,
+      "page_end": 43,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 9.119239973054055,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(f)",
+      "citation": "8-6(1)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(f) any other information necessary to meet relevant importing country\nrequirements relating to the plants or plant products.",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(f) any other information necessary to meet relevant importing country\nrequirements relating to the plants or plant products.",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.480834423277965,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(e)",
+      "citation": "8-6(1)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(e) if the plants or plant products are imported plants or plant products—the\ncountry of origin of the plants or plant products;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.468556184197231,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(c)(ii)",
+      "citation": "9-10(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) the integrity of the plants or plant products can be ensured; and",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(c) the assessor reasonably believes that:\n(ii) the integrity of the plants or plant products can be ensured; and",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.234589101069533,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(b)",
+      "citation": "8-6(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(b) the net weight or number of units of the plants or plant products in the\nconsignment to be exported;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(b) the net weight or number of units of the plants or plant products in the\nconsignment to be exported;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.269583048146512,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(i)",
+      "citation": "9-4(5)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(i) action to address any non-compliance with a requirement to which the\naudit relates;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(i) action to address any non-compliance with a requirement to which the\naudit relates;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 6.190183521883521,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(d)",
+      "citation": "8-6(1)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)",
+      "child_ids": [],
+      "own_text": "(d) the name and address, or the identification number, of the exporter,\nmanufacturer or producer of the plants or plant products;",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(1) The exporter of prescribed plants or plant products must ensure that a trade\ndescription is applied to the plants and plant products before they are exported.\nThe trade description must include the following information:\n(d) the name and address, or the identification number, of the exporter,\nmanufacturer or producer of the plants or plant products;",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.005344189784098,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(1)(a)",
+      "citation": "9-15(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(1)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(1) The applicable tolerance level for a kind of pest in relation to a kind of plant or\nplant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.176717408074621,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-9(1)(b)",
+      "citation": "9-9(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        84
+      ],
+      "parent_id": "rules2021:9-9(1)",
+      "child_ids": [],
+      "own_text": "(b) the bulk vessel is present at the assessment;\nthe relevant person for the assessment must give a bulk vessel approval, covering\nthe cargo spaces of the vessel into or onto which the plants or plant products\nhave been, are being, or are to be loaded, to the assessor.",
+      "text": "9-9 Circumstances when bulk vessel approval or container approval must be\n(1) If:\n(b) the bulk vessel is present at the assessment;\nthe relevant person for the assessment must give a bulk vessel approval, covering\nthe cargo spaces of the vessel into or onto which the plants or plant products\nhave been, are being, or are to be loaded, to the assessor.",
+      "page": 84,
+      "page_end": 84,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 6.053422794403442,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-15",
+      "citation": "3-15",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Events of which Secretary must be notified",
+      "label": "3-15",
+      "pages": [
+        43
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-15(a)",
+        "rules2021:3-15(b)",
+        "rules2021:3-15(c)",
+        "rules2021:3-15(ia)",
+        "rules2021:3-15(d)",
+        "rules2021:3-15(e)",
+        "rules2021:3-15(a)",
+        "rules2021:3-15(b)"
+      ],
+      "own_text": "For the purposes of subsection 108(1) of the Act, the following events are\nprescribed in relation to an accredited property:",
+      "text": "3-15 Events of which Secretary must be notified\nEvents of which Secretary must be notified\nFor the purposes of subsection 108(1) of the Act, the following events are\nprescribed in relation to an accredited property:",
+      "page": 43,
+      "page_end": 43,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 5.93270621995183,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-8(a)",
+      "citation": "7-8(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        62
+      ],
+      "parent_id": "rules2021:7-8",
+      "child_ids": [],
+      "own_text": "(a) there are reasonable grounds to suspect that the integrity of the plants or\nplant products cannot be ensured;",
+      "text": "7-8 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 235(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan export permit is in force:\n(a) there are reasonable grounds to suspect that the integrity of the plants or\nplant products cannot be ensured;",
+      "page": 62,
+      "page_end": 62,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 8.4417090939928,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 5.99545538719722,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:10-2(a)",
+      "citation": "10-2(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        107
+      ],
+      "parent_id": "rules2021:10-2",
+      "child_ids": [],
+      "own_text": "(a) identified with a mark or a tag; and",
+      "text": "10-2 Dealing with things seized in exercising investigation powers\nIf a thing has been seized at premises that have been entered under an\ninvestigation warrant or under subsection 347(1) of the Act, the thing must be:\n(a) identified with a mark or a tag; and",
+      "page": 107,
+      "page_end": 107,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.812342856338242,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-16(2)(b)(ii)",
+      "citation": "11-16(2)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        117
+      ],
+      "parent_id": "rules2021:11-16(2)(b)",
+      "child_ids": [],
+      "own_text": "(ii) the vessel, including the cargo spaces of the vessel into or onto which\nprescribed plants or plant products of that kind are intended to be\nloaded, is suitable to transport prescribed plants or plant products of\nthat kind.",
+      "text": "11-16 Accredited marine surveyors and marine surveyor’s certificates\n(b) the accredited marine surveyor is satisfied that:\n(ii) the vessel, including the cargo spaces of the vessel into or onto which\nprescribed plants or plant products of that kind are intended to be\nloaded, is suitable to transport prescribed plants or plant products of\nthat kind.",
+      "page": 117,
+      "page_end": 117,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 5.825443830910513,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-27(3)(b)",
+      "citation": "9-27(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        99
+      ],
+      "parent_id": "rules2021:9-27(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-27 Suspension of bulk vessel approval\n(3) If the Secretary suspends a bulk vessel approval, the Secretary must, as soon as\npracticable after suspending the approval, notify the following persons of the\nsuspension and the reasons for the suspension:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 99,
+      "page_end": 99,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 5.963329771560889,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(a)(i)",
+      "citation": "9-23(1)(a)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(a)",
+      "child_ids": [],
+      "own_text": "(i) there are no pests in or on the cargo spaces that are likely to infest the\nplants or plant products;",
+      "text": "9-23 Requirements for approval of bulk vessel\n(a) an authorised officer is reasonably satisfied that the following requirements\nare met in relation to the cargo spaces of the vessel into or onto which\nprescribed plants or plant products are intended to be loaded:\n(i) there are no pests in or on the cargo spaces that are likely to infest the\nplants or plant products;",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.736356286221625,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-36(3)(b)",
+      "citation": "9-36(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        105
+      ],
+      "parent_id": "rules2021:9-36(3)",
+      "child_ids": [],
+      "own_text": "(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "text": "9-36 Revocation of container approval\n(3) If the Secretary revokes a container approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the container is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the\ncontainer—the occupier of the establishment or another person who\nmanages or controls export operations at the establishment.",
+      "page": 105,
+      "page_end": 105,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 5.876739599513546,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(3)(b)",
+      "citation": "9-29(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        101
+      ],
+      "parent_id": "rules2021:9-29(3)",
+      "child_ids": [],
+      "own_text": "(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "text": "9-29 Revocation of bulk vessel approval\n(3) If the Secretary revokes a bulk vessel approval, the Secretary must, as soon as\npracticable after revoking the approval, give written notice of the revocation to:\n(b) if the bulk vessel is at a registered establishment and the occupier of the\nestablishment, or another person who manages or controls export\noperations at the establishment, is not a person responsible for the bulk\nvessel—the occupier of the establishment or another person who manages\nor controls export operations at the establishment.",
+      "page": 101,
+      "page_end": 101,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 5.747524658272875,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 5.617168300585839,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(1)",
+      "citation": "9-31(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        102
+      ],
+      "parent_id": "rules2021:9-31",
+      "child_ids": [
+        "rules2021:9-31(1)(a)",
+        "rules2021:9-31(1)(b)",
+        "rules2021:9-31(1)(c)"
+      ],
+      "own_text": "(1) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products to which subsection (2) applies unless an\nauthorised officer is reasonably satisfied that the following requirements are met:",
+      "text": "9-31 Requirements for approval of container\nContainers for prescribed grain etc.\n(1) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products to which subsection (2) applies unless an\nauthorised officer is reasonably satisfied that the following requirements are met:",
+      "page": 102,
+      "page_end": 102,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 5.608730212756148,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-8(7)",
+      "citation": "1-8(7)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(7)",
+      "pages": [
+        19
+      ],
+      "parent_id": "rules2021:1-8",
+      "child_ids": [],
+      "own_text": "(7) The total amount of all horticultural products referred to in column 1 of item 14\nof the table in subsection (8) in relation to which export operations are to be\ncarried out at the registered establishment in the financial year must not exceed\nthe total amount referred to in column 2 of that item.",
+      "text": "1-8 Meaning of small horticultural products registered establishment\n(7) The total amount of all horticultural products referred to in column 1 of item 14\nof the table in subsection (8) in relation to which export operations are to be\ncarried out at the registered establishment in the financial year must not exceed\nthe total amount referred to in column 2 of that item.",
+      "page": 19,
+      "page_end": 19,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 24,
+          "raw_score": 5.576795349874964,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 5.605728462700105,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-5",
+      "citation": "7-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Circumstances in which export permit may be suspended",
+      "label": "7-5",
+      "pages": [
+        61
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:7-5(a)",
+        "rules2021:7-5(b)"
+      ],
+      "own_text": "For the purposes of subsection 231(1) of the Act, the following circumstances are\nprescribed in relation to an export permit for prescribed plants or plant products:",
+      "text": "7-5 Circumstances in which export permit may be suspended\nCircumstances in which export permit may be suspended\nFor the purposes of subsection 231(1) of the Act, the following circumstances are\nprescribed in relation to an export permit for prescribed plants or plant products:",
+      "page": 61,
+      "page_end": 61,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 5.54461979055324,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-9(a)",
+      "citation": "7-9(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        63
+      ],
+      "parent_id": "rules2021:7-9",
+      "child_ids": [],
+      "own_text": "(a) there are reasonable grounds to suspect that the integrity of the plants or\nplant products cannot be ensured;",
+      "text": "7-9 Changes that require additional or corrected information to be given to the\nSecretary\nFor the purposes of paragraph 240(1)(b) of the Act, each of the following\nchanges is prescribed in relation to prescribed plants or plant products for which\nan application under section 224 of the Act for an export permit has been made:\n(a) there are reasonable grounds to suspect that the integrity of the plants or\nplant products cannot be ensured;",
+      "page": 63,
+      "page_end": 63,
+      "score": 0.011764705882352941,
+      "rrf_score": 0.011764705882352941,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 7.999076541630533,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-3B",
+      "citation": "3-3B",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products must be traced",
+      "label": "3-3B",
+      "pages": [
+        36
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:3-3B(a)",
+        "rules2021:3-3B(b)",
+        "rules2021:3-3B(c)"
+      ],
+      "own_text": "Prescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:",
+      "text": "3-3B Plants and plant products must be traced\nPlants and plant products must be traced\nPrescribed plants and plant products prepared at an accredited property (the\nrelevant property) must be traced:",
+      "page": 36,
+      "page_end": 36,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:3-3B(c)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7B",
+      "citation": "4-7B",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Plants and plant products must be traced",
+      "label": "4-7B",
+      "pages": [
+        48
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)",
+        "rules2021:4-7B(c)"
+      ],
+      "own_text": "Prescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "text": "4-7B Plants and plant products must be traced\nPlants and plant products must be traced\nPrescribed plants and plant products prepared at a registered establishment must\nbe traced:",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-7B(c)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    }
+  ],
+  "candidate_ledger": [
+    {
+      "candidate_id": "rules2021:3-4",
+      "page": 36,
+      "rrf_or_bm25_score": 0.05591338056069195,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns integrity while at the property, not traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(b)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.04999377803975505,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Definition of 'applying a substance' does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7B(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04918032786885246,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Candidate directly requires tracing to the next premises to which plants/products are transferred.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "to the premises to which they are transferred from the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This paragraph directly requires tracing to the next premises to which the plants or plant products are transferred.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "to the premises to which they are transferred from the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3B(c)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04838709677419355,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Candidate directly requires tracing to the next premises (accredited property or registered establishment) to which plants/products are transferred.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "to the accredited property or registered establishment to which they are transferred from the relevant property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This paragraph directly requires tracing to the next premises (accredited property or registered establishment) to which the plants or plant products are transferred.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "to the accredited property or registered establishment to which they are transferred from the relevant property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7B(a)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04712301587301587,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_CHAIN_CONTEXT",
+      "reason": "Candidate specifies tracing from previous property, which is part of the traceability chain but not the specific requirement to trace to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "from the property (if any) from which they were transferred to the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph addresses tracing from the previous property, not to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "from the property (if any) from which they were transferred to the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-3B(a)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04688263125763126,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_CHAIN_CONTEXT",
+      "reason": "Candidate specifies tracing from previous property, which is part of the traceability chain but not the specific requirement to trace to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "from the property (if any) from which they were transferred to the relevant property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph addresses tracing from the previous property, not to the next premises. It is a different direction of traceability.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "from the property (if any) from which they were transferred to the relevant property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-2(4)(d)",
+      "page": 23,
+      "rrf_or_bm25_score": 0.04547511312217195,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about imported plants exported in same covering does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.043157782288217074,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Trade description supports traceability but is not the direct requirement for transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "The exporter of prescribed plants or plant products must ensure that a trade description is applied to the plants and plant products before they are exported.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns trade description application, not tracing to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "The exporter of prescribed plants or plant products must ensure that a trade description is applied to the plants and plant products before they are exported.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7B(b)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.04240513974452975,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_CHAIN_CONTEXT",
+      "reason": "Candidate specifies tracing while at the establishment, which is part of the traceability chain but not the specific requirement to trace to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "while they are at the registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph concerns tracing while at the establishment, not transfer to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "while they are at the registered establishment",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-3B(b)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.041235525991623556,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "TRACEABILITY_CHAIN_CONTEXT",
+      "reason": "Candidate specifies tracing while at the property, which is part of the traceability chain but not the specific requirement to trace to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "while they are at the relevant property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph concerns tracing while at the property, not transfer to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "while they are at the relevant property",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-6(2)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.04093888664784187,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns packaging requirements, unrelated to traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-11(2)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04038489469862019,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns packaging requirements, unrelated to traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(6)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.03782815993036184,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about total amount limits for small horticultural products registered establishment does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.032266458495966696,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns system of controls for compliance with other sections, not directly traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.03128054740957967,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "SYSTEM_OF_CONTROLS_REQUIREMENT",
+      "reason": "This provision requires a system of controls for accredited properties, which may support operationalizing traceability to next premises, but does not directly state the transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls to ensure compliance with tracing conditions, but does not itself specify tracing to the next premises. It is a general enabling obligation, not the specific tracing requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-16(3)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.03036576949620428,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approval of contaminant tolerance levels, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "If the Secretary is satisfied that a kind of contaminant (other than animal carcases or animal waste) could affect the integrity of a kind of plant or plant product for export to an importing country, the Secretary may approve, in writing, the tolerance level for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-8",
+      "page": 48,
+      "rrf_or_bm25_score": 0.029513888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns integrity while at the establishment, not traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.028484848484848488,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Exception for records entered into Department electronic system does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.028083267871170464,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approved tolerance levels for pests, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(1), a tolerance level for that kind of pest in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-16(1)(a)",
+      "page": 89,
+      "rrf_or_bm25_score": 0.027364110201042444,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns conditions for approving pest tolerance levels, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the pest is not injurious to that kind of plant or plant product; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(3)(a)(ii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.026754075124025514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audit report compliance opinion, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the requirements to which the audit relates are being, or have been, complied with; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(b)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.026333907056798625,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns approved tolerance levels for animal carcases or waste, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the Secretary has approved, under subsection 9-16(2), a tolerance level for animal carcases or animal waste in relation to that kind of plant or plant product and that importing country—the approved tolerance level.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.02564935064935065,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the registration number of the registered establishment where:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision specifies trade description content, not tracing to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the registration number of the registered establishment where:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-15(3)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.025603392041748205,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for contaminants, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "The applicable tolerance level (if any) for a kind of contaminant (other than animal carcases or animal waste) in relation to a kind of plant or plant product for export to an importing country is the tolerance level approved by the Secretary under subsection 9-16(3) for that kind of contaminant in relation to that kind of plant or plant product and that importing country.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:10-2",
+      "page": 107,
+      "rrf_or_bm25_score": 0.025478740668614087,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about dealing with seized things under investigation powers does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0251414204902577,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for pests, which is unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "The applicable tolerance level for a kind of pest in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(c)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.025,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns marine surveyor certificate for bulk vessel, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the bulk vessel is intended to be used to transport prescribed plants or plant products to which subsection (2) applies—a marine surveyor’s certificate is in force for the vessel that covers the cargo spaces of the vessel into or onto which the plants or plant products are intended to be loaded.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-15(5)(b)",
+      "page": 116,
+      "rrf_or_bm25_score": 0.02485334979932078,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about payment undertakings and Commonwealth liabilities does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.024269005847953218,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns tolerance levels for animal carcases or waste, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(e)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Definition of 'repacking' does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns requirements for bulk vessel approval, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "an authorised officer is reasonably satisfied that the following requirements are met in relation to the cargo spaces of the vessel into or onto which prescribed plants or plant products are intended to be loaded:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-1(2)(a)",
+      "page": 59,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly imposes a requirement to ensure integrity, which is the core of the CP criterion regarding traceability and integrity during transfer.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the integrity of the plants or plant products is ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns ensuring integrity, not tracing to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products is ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(a)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the kind of plants or plant products in the consignment to be exported",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision specifies trade description content, not tracing to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the kind of plants or plant products in the consignment to be exported",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-22(2)(a)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns inspection of cargo spaces for bulk vessel approval, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "each cargo space of the vessel into or onto which prescribed plants or plant products are to be loaded; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(iii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns cargo space condition for bulk vessel approval, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the cargo spaces are not in a condition that could affect the integrity of the plants or plant products; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-28(1)(d)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of suspension, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-15(a)",
+      "page": 43,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Candidate concerns notification of change in management/control, unrelated to traceability to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(f)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "any other information necessary to meet relevant importing country requirements relating to the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate is a catch-all for importing country requirements, not specifically about transfer to next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "any other information necessary to meet relevant importing country requirements relating to the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(e)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the plants or plant products are imported plants or plant products—the country of origin of the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns country of origin for imported plants, not transfer to next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "if the plants or plant products are imported plants or plant products—the country of origin of the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(c)(ii)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This candidate directly requires that integrity can be ensured, which is central to the CP criterion regarding transfer.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the integrity of the plants or plant products can be ensured",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate concerns ensuring integrity during assessment, but does not mention transfer to next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the integrity of the plants or plant products can be ensured",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(b)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the net weight or number of units of the plants or plant products in the consignment to be exported",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision specifies trade description content, not tracing to the next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the net weight or number of units of the plants or plant products in the consignment to be exported",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(i)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audit recommendations, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "action to address any non-compliance with a requirement to which the audit relates;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(d)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "This detail supports traceability but is not the direct transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the name and address, or the identification number, of the exporter, manufacturer or producer of the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate requires trade description information about the exporter/manufacturer/producer, but does not address transfer to next premises.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "the name and address, or the identification number, of the exporter, manufacturer or producer of the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-15(1)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate specifies a nil tolerance level for pests, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "nil; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-9(1)(b)",
+      "page": 84,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns bulk vessel approval during assessment, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "the bulk vessel is present at the assessment;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-15",
+      "page": 43,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about events to notify Secretary does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-8(a)",
+      "page": 62,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This candidate concerns changes requiring additional information, not the transfer requirement itself.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "there are reasonable grounds to suspect that the integrity of the plants or plant products cannot be ensured",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate specifies a nil tolerance level for animal carcases or waste, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "nil; or",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:10-2(a)",
+      "page": 107,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about identifying seized things does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-16(2)(b)(ii)",
+      "page": 117,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about vessel suitability for transporting plants does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-27(3)(b)",
+      "page": 99,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns notification of suspension, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(a)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns pest absence in cargo spaces for bulk vessel approval, unrelated to the CP criterion about transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "there are no pests in or on the cargo spaces that are likely to infest the plants or plant products;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-36(3)(b)",
+      "page": 105,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of container approval, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the container is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the container—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(3)(b)",
+      "page": 101,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns revocation of bulk vessel approval, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "if the bulk vessel is at a registered establishment and the occupier of the establishment, or another person who manages or controls export operations at the establishment, is not a person responsible for the bulk vessel—the occupier of the establishment or another person who manages or controls export operations at the establishment.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns audit recommendations, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "action to address the risk of a potential non-compliance with a requirement to which an audit may relate;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(1)",
+      "page": 102,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns container approval requirements, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "An authorised officer must not approve a container that is intended to be loaded with prescribed plants or plant products to which subsection (2) applies unless an authorised officer is reasonably satisfied that the following requirements are met:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-8(7)",
+      "page": 19,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "Provision about total amount limits for all horticultural products does not relate to traceability or transfer to next premises.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns vessel area condition, not transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel; and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-5",
+      "page": 61,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This candidate prescribes circumstances for suspension of an export permit, not directly related to transfer to next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "For the purposes of subsection 231(1) of the Act, the following circumstances are prescribed in relation to an export permit for prescribed plants or plant products:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-9(a)",
+      "page": 63,
+      "rrf_or_bm25_score": 0.011764705882352941,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This candidate concerns changes requiring additional information for applications, not the transfer requirement.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "there are reasonable grounds to suspect that the integrity of the plants or plant products cannot be ensured",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:3-3B",
+      "page": 36,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate establishes a tracing requirement for prescribed plants and plant products prepared at an accredited property, which directly grounds the CP criterion regarding transfer to the next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "Prescribed plants and plant products prepared at an accredited property (the relevant property) must be traced:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The CP criterion specifies tracing to the next premises of transfer, and the policy provision directly requires tracing of prescribed plants and plant products from an accredited property, which includes the transfer destination.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "Prescribed plants and plant products prepared at an accredited property (the relevant property) must be traced:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-7B",
+      "page": 48,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate establishes a tracing requirement for prescribed plants and plant products prepared at a registered establishment, which directly grounds the CP criterion regarding transfer to the next premises.",
+      "cp_quote": "to the next premises which they are transferred to",
+      "policy_quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The CP criterion specifies tracing to the next premises of transfer, and the policy provision directly requires tracing of prescribed plants and plant products from a registered establishment, which includes the transfer destination.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "to the next premises which they are transferred to",
+      "legal_basis_policy_quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ],
+  "contract": {
+    "cp_id": "CP31",
+    "atoms": [
+      {
+        "atom_id": "A1",
+        "proposition": "Prescribed plants and plant products must be traced to the next premises to which they are transferred.",
+        "criterion_quote": "to the next premises which they are transferred to",
+        "basis_candidate_ids": [
+          "rules2021:3-3B(c)",
+          "rules2021:4-7B(c)"
+        ],
+        "anchors": [
+          {
+            "source": "CP",
+            "quote": "to the next premises which they are transferred to"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:3-3B(c)",
+            "quote": "to the accredited property or registered establishment to which they are transferred from the relevant property"
+          },
+          {
+            "source": "RULES",
+            "chunk_id": "rules2021:4-7B(c)",
+            "quote": "to the premises to which they are transferred from the registered establishment"
+          }
+        ]
+      }
+    ],
+    "applicability": {
+      "op": "CONST",
+      "value": true
+    },
+    "satisfaction": {
+      "op": "ATOM",
+      "atom_id": "A1"
+    },
+    "non_applicability": {
+      "op": "CONST",
+      "value": false
+    },
+    "logic_basis": [],
+    "notes": [
+      "The two specific destination provisions (3-3B(c) and 4-7B(c)) are alternative expressions of the same requirement depending on whether the origin is an accredited property or a registered establishment. They are not cumulative, so a single atom with both as legal bases is appropriate.",
+      "General provisions 3-3B and 4-7B are not used as separate atoms because they are specialized by their respective sub-paragraphs (c).",
+      "All other candidates are context or support and do not independently ground the requirement."
+    ]
+  }
+}

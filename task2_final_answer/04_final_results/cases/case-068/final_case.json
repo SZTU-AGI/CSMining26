@@ -1,0 +1,364 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-068",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P5",
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows conflicting registered operations: one document states registration for wheat, another for almonds, another for chickpeas, and another for sorghum/wheat at a different location. This contradicts the requirement that operations be within registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P5",
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P5"
+      ],
+      "reason": "No evidence directly confirms that registration is not suspended at the time of operations. Conflicting registration details raise uncertainty about the current registration status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P5",
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The site plan indicates a registered area of 2.3 ha with RE-VIC-2018-0622, but other documents cite different RE numbers and commodities, creating ambiguity about the exact registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17",
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P19",
+        "4_Farm-Management-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Evidence describes buildings, equipment, facilities, and services, including storage capacity, construction materials, and site layout, satisfying the requirement to document important features."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17",
+        "5_Farm-Site-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The site plan and description include layout of receival, storage, processing, and dispatch areas, with permanent fixtures and equipment, meeting the requirement."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence indicates continuous management and no changes, so the trigger did not occur.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence indicates continuous management and no changes, so the trigger did not occur.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P8",
+          "exact_quote": "The establishment has been under continuous management since 2015. The entity is a proprietary company registered with ASIC."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence shows continuous management with no mention of such changes, so the trigger did not occur.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence shows continuous management with no mention of such changes, so the trigger did not occur.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P8",
+          "exact_quote": "The establishment has been under continuous management since 2015."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Minyip_Grain_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The Farm Management Plan states that the establishment has all buildings, equipment, facilities and services required for the registered export operations and that facilities are maintained in an operational condition appropriate for handling and exporting Almonds."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that at the most recent internal inspection all areas were found to be in a clean and hygienic condition, and cleaning deficiencies are immediately re-cleaned before product handling recommences, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan indicates the establishment is maintained in a clean and hygienic condition, with procedures to address cleaning deficiencies, which supports minimization of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning all areas, with designated staff and corrective actions, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, indicating no system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The most recent internal inspection found all areas clean and hygienic with no deficiencies, and corrective actions are in place for any cleaning deficiencies, demonstrating the system is effective for the operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Minyip_Grain_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_68_Minyip_Grain_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence includes a pest control system overview and a pest control record referencing Chapter 4 of the Rules, indicating a system to manage pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Minyip_Grain_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_68_Minyip_Grain_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The presence of a bait station map and pest control records indicates an effective pest control system for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The record states that records are maintained on site and in the business management system, and are retained for two years, implying they are accurate, legible, and auditable; no evidence contradicts this."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The internal inspection found all areas clean and hygienic, and cleaning procedures are in place for storage and palletising areas, demonstrating appropriate condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43",
+        "7_Bait_Station_Map_Minyip_Grain_Co_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The inspection found no deficiencies, and pest control measures are in place, indicating the establishment is maintained to prevent pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Minyip_Grain_Co_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The bait station map indicates that pest control stations are installed and mapped, implying they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage procedures to prevent contamination of plant products; the HACCP plan lacks waste management, and no chemical storage documentation is provided."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage procedures to prevent contamination of preparation areas; the HACCP plan lacks waste management, and no chemical storage documentation is provided."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Minyip_Grain_Co_Pty_Ltd_068.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property from which products were transferred to receival."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Minyip_Grain_Co_Pty_Ltd_068.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Minyip_Grain_Co_Pty_Ltd_068.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Dispatch/transfer dockets provide records of transfers to next premises."
+    },
+    "CP32": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Minyip_Grain_Co_Pty_Ltd_068.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records including receival dockets, storage logs, treatment records, dispatch documentation, and transfer dockets demonstrate a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A product flow chart is provided showing movement and maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx:P5"
+      ],
+      "reason": "HACCP plan mentions blending but no evidence of controls for goods that fail inspection, including blending, rejections, treatments, and representations."
+    },
+    "CP35": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Hygiene and sanitation plan and recent inspection confirm establishment is maintained to minimize contamination and infestation risk."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow chart mentions segregation from non-registered commodities, but no explicit evidence of controls to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence regarding packaging requirements for the export operations."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Explicit statement that records are retained for a minimum of two years, including receival, storage, treatment, dispatch, and audit reports."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained in the business management system and retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence that importing country requirements are met for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-068/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-068/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-068/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-068/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-068/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 18,
+    "1": 21,
+    "N/A": 2
+  }
+}

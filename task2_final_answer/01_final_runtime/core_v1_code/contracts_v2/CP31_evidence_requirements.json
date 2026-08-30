@@ -1,0 +1,97 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP31",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "Prescribed plants and plant products prepared at an accredited property must be traced to the accredited property or registered establishment to which they are transferred from the relevant property.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "to the next premises which they are transferred to",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-3B(c)"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "to the next premises which they are transferred to"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3B(c)",
+          "quote": "to the accredited property or registered establishment to which they are transferred from the relevant property"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "Prescribed plants and plant products prepared at a registered establishment must be traced to the premises to which they are transferred from the registered establishment.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "to the next premises which they are transferred to",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7B(c)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "to the next premises which they are transferred to"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(c)",
+          "quote": "to the premises to which they are transferred from the registered establishment"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-3B(c)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A1-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-7B(c)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

@@ -1,0 +1,118 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "Both provisions require a system of controls to ensure compliance with conditions, one for accredited properties and one for registered establishments. They support the same broad CP requirement of an effective system of controls, but the CP does not explicitly require both property and establishment controls cumulatively; they are parallel expressions for different facility types."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)(a)",
+        "rules2021:3-3A(2)(a)",
+        "rules2021:3-3A(2)(b)",
+        "rules2021:3-3A(2)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "These provisions detail specific conditions (appropriate condition, cleanliness, pest control, waste disposal) that operationalise the effectiveness of the system of controls for accredited properties. They are not independent CP requirements but collectively support the same broad criterion."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "These provisions detail specific conditions for registered establishments that operationalise the effectiveness of the system of controls. They are not independent CP requirements but collectively support the same broad criterion."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)(a)",
+        "rules2021:4-7A(1)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "Both provisions require the facility to be kept in a condition appropriate for export operations, one for properties and one for establishments. They support the same CP requirement but are not cumulative because the CP does not explicitly require both property and establishment conditions simultaneously."
+    },
+    {
+      "group_id": "G5",
+      "member_candidate_ids": [
+        "rules2021:3-3A(2)(a)",
+        "rules2021:4-7A(2)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "Both provisions require cleanliness and hygiene appropriate for export operations, one for properties and one for establishments. They support the same CP requirement but are not cumulative."
+    },
+    {
+      "group_id": "G6",
+      "member_candidate_ids": [
+        "rules2021:3-3A(2)(b)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "Both provisions require pest and contaminant control appropriate for export operations, one for properties and one for establishments. They support the same CP requirement but are not cumulative."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The CP criterion is broad and does not explicitly require cumulative satisfaction of separate property and establishment controls or of each detailed condition. The grounded norms are parallel expressions for different facility types and operational details that collectively support the single effectiveness requirement. Therefore, SUPPORTS_SAME_CRITERION is the appropriate relation for all groupings, avoiding over-atomization."
+}

@@ -1,0 +1,693 @@
+V6.6.2 hybrid forced-N/A gate: cases=25 model=deepseek-v4-flash
+Automatically selected applicability candidates: ['CP5', 'CP6', 'CP7', 'CP14', 'CP15', 'CP16', 'CP26', 'CP41']
+Primary element outputs from V6.6 are cache-reused when unchanged.
+    parsing logical evidence once: case-051 files=9
+    parsing: 1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_51_Toowoomba_Grain_Handlers_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Toowoomba_Grain_Handlers_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Toowoomba_Grain_Handlers_Pty_Ltd_051.docx
+    parsing: 9_Traceability_Records_Toowoomba_Grain_Handlers_Pty_Ltd_051.xlsx
+[1/25] case-051: chunks=526 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7150, 'completion_tokens': 740, 'total_tokens': 7890, 'prompt_tokens_details': {'cached_tokens': 256}, 'prompt_cache_hit_tokens': 256, 'prompt_cache_miss_tokens': 6894}
+  Element-1: model labels={'0': 3, '1': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9466, 'completion_tokens': 901, 'total_tokens': 10367, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1530}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10511, 'completion_tokens': 1319, 'total_tokens': 11830, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1807}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12157, 'completion_tokens': 1024, 'total_tokens': 13181, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1789}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13468, 'completion_tokens': 1108, 'total_tokens': 14576, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12188}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 883, 'completion_tokens': 178, 'total_tokens': 1061, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 883}
+  N/A gate: model confirmed= [] calls= 2
+  FINAL {'0': 25, '1': 16}
+    parsing logical evidence once: case-052 files=9
+    parsing: 1_Farm_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_52_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_52_Manjimup_Horticulture_Exports_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Manjimup_Horticulture_Exports_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Manjimup_Horticulture_Exports_Pty_Ltd_052.docx
+    parsing: 9_Traceability_Records_Manjimup_Horticulture_Exports_Pty_Ltd_052.xlsx
+[2/25] case-052: chunks=536 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7086, 'completion_tokens': 658, 'total_tokens': 7744, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1582}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9672, 'completion_tokens': 767, 'total_tokens': 10439, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1736}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10597, 'completion_tokens': 1351, 'total_tokens': 11948, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1893}
+  Element-3: model labels={'1': 9, '0': 3}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12545, 'completion_tokens': 1271, 'total_tokens': 13816, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 2177}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13644, 'completion_tokens': 1180, 'total_tokens': 14824, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12364}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1589, 'completion_tokens': 126, 'total_tokens': 1715, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1589}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 14, 'N/A': 2, '0': 25}
+    parsing logical evidence once: case-053 files=9
+    parsing: 1_Farm_53_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_53_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_53_Condamine_Pulse_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Condamine_Pulse_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Condamine_Pulse_Pty_Ltd_053.docx
+    parsing: 9_Traceability_Records_Condamine_Pulse_Pty_Ltd_053.xlsx
+[3/25] case-053: chunks=537 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6928, 'completion_tokens': 637, 'total_tokens': 7565, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1424}
+  Element-1: model labels={'0': 6, '1': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9337, 'completion_tokens': 493, 'total_tokens': 9830, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1401}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10412, 'completion_tokens': 1445, 'total_tokens': 11857, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1708}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12206, 'completion_tokens': 1067, 'total_tokens': 13273, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1838}
+  Element-4: model labels={'0': 4, '1': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13451, 'completion_tokens': 1155, 'total_tokens': 14606, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12171}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1424, 'completion_tokens': 106, 'total_tokens': 1530, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1424}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 15, 'N/A': 2, '1': 24}
+    parsing logical evidence once: case-054 files=9
+    parsing: 1_Farm_54_Riverland_Almond_Trust.docx
+    parsing: 2_HACCPPlan_54_Riverland_Almond_Trust.docx
+    parsing: 3_PestControlRecord_54_Riverland_Almond_Trust.xlsx
+    parsing: 4_Farm-Management-Plan_Riverland_Almond_Trust.docx
+    parsing: 5_Farm-Site-Plan_Riverland_Almond_Trust.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Riverland_Almond_Trust.docx
+    parsing: 7_Bait_Station_Map_Riverland_Almond_Trust.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Riverland_Almond_Trust_054.docx
+    parsing: 9_Traceability_Records_Riverland_Almond_Trust_054.xlsx
+[4/25] case-054: chunks=542 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7148, 'completion_tokens': 495, 'total_tokens': 7643, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1644}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9395, 'completion_tokens': 501, 'total_tokens': 9896, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1459}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10439, 'completion_tokens': 1162, 'total_tokens': 11601, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1735}
+  Element-3: model labels={'1': 10, '0': 2}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12133, 'completion_tokens': 987, 'total_tokens': 13120, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1765}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13166, 'completion_tokens': 1052, 'total_tokens': 14218, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11886}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1408, 'completion_tokens': 130, 'total_tokens': 1538, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1408}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 15, 'N/A': 2, '0': 24}
+    parsing logical evidence once: case-055 files=9
+    parsing: 1_Farm_55_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_55_Corrigin_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Corrigin_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Corrigin_Grain_Pty_Ltd_055.docx
+    parsing: 9_Traceability_Records_Corrigin_Grain_Pty_Ltd_055.xlsx
+[5/25] case-055: chunks=527 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6846, 'completion_tokens': 524, 'total_tokens': 7370, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1342}
+  Element-1: model labels={'0': 6, '1': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9504, 'completion_tokens': 591, 'total_tokens': 10095, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1568}
+  Element-2: model labels={'1': 5, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10599, 'completion_tokens': 1472, 'total_tokens': 12071, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1895}
+  Element-3: model labels={'1': 6, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11906, 'completion_tokens': 1136, 'total_tokens': 13042, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1538}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13203, 'completion_tokens': 1210, 'total_tokens': 14413, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11923}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1456, 'completion_tokens': 106, 'total_tokens': 1562, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1456}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 28, 'N/A': 2, '1': 11}
+    parsing logical evidence once: case-056 files=9
+    parsing: 1_Farm_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_56_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_56_Goondiwindi_Grain_Exports_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Goondiwindi_Grain_Exports_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Goondiwindi_Grain_Exports_Pty_Ltd_056.docx
+    parsing: 9_Traceability_Records_Goondiwindi_Grain_Exports_Pty_Ltd_056.xlsx
+[6/25] case-056: chunks=543 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7026, 'completion_tokens': 690, 'total_tokens': 7716, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1522}
+  Element-1: model labels={'0': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9621, 'completion_tokens': 551, 'total_tokens': 10172, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1685}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10576, 'completion_tokens': 1478, 'total_tokens': 12054, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1872}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12312, 'completion_tokens': 1195, 'total_tokens': 13507, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1944}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13594, 'completion_tokens': 1296, 'total_tokens': 14890, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12314}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1607, 'completion_tokens': 111, 'total_tokens': 1718, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1607}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 24, 'N/A': 2, '1': 15}
+    parsing logical evidence once: case-057 files=9
+    parsing: 1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_57_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_57_Karratha_Specialty_Crops_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Karratha_Specialty_Crops_Pty_Ltd_057.docx
+    parsing: 9_Traceability_Records_Karratha_Specialty_Crops_Pty_Ltd_057.xlsx
+[7/25] case-057: chunks=548 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6906, 'completion_tokens': 493, 'total_tokens': 7399, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1402}
+  Element-1: model labels={'1': 4, '0': 3}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9575, 'completion_tokens': 558, 'total_tokens': 10133, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1639}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10650, 'completion_tokens': 1541, 'total_tokens': 12191, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1946}
+  Element-3: model labels={'1': 10, '0': 2}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12381, 'completion_tokens': 890, 'total_tokens': 13271, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 2013}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13458, 'completion_tokens': 1054, 'total_tokens': 14512, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12178}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1555, 'completion_tokens': 124, 'total_tokens': 1679, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1555}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 15, '0': 24, 'N/A': 2}
+[8/25] case-058: COMPLETE cache
+    parsing logical evidence once: case-059 files=9
+    parsing: 1_Farm_59_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_59_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_59_Albury_Grain_and_Storage_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Albury_Grain_and_Storage_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Albury_Grain_and_Storage_Pty_Ltd_059.docx
+    parsing: 9_Traceability_Records_Albury_Grain_and_Storage_Pty_Ltd_059.xlsx
+[9/25] case-059: chunks=538 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6988, 'completion_tokens': 614, 'total_tokens': 7602, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1484}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9310, 'completion_tokens': 394, 'total_tokens': 9704, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1374}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10534, 'completion_tokens': 1180, 'total_tokens': 11714, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1830}
+  Element-3: model labels={'0': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12029, 'completion_tokens': 1052, 'total_tokens': 13081, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1661}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13432, 'completion_tokens': 1077, 'total_tokens': 14509, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12152}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1470, 'completion_tokens': 127, 'total_tokens': 1597, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1470}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 5, '0': 34, 'N/A': 2}
+    parsing logical evidence once: case-060 files=9
+    parsing: 1_Farm_60_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_60_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_60_Buloke_Malting_Barley_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Buloke_Malting_Barley_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Buloke_Malting_Barley_Pty_Ltd_060.docx
+    parsing: 9_Traceability_Records_Buloke_Malting_Barley_Pty_Ltd_060.xlsx
+[10/25] case-060: chunks=535 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6986, 'completion_tokens': 556, 'total_tokens': 7542, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1482}
+  Element-1: model labels={'1': 3, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9615, 'completion_tokens': 515, 'total_tokens': 10130, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1679}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10579, 'completion_tokens': 1276, 'total_tokens': 11855, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1875}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12265, 'completion_tokens': 1143, 'total_tokens': 13408, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1897}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13684, 'completion_tokens': 1104, 'total_tokens': 14788, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12404}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1565, 'completion_tokens': 123, 'total_tokens': 1688, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1565}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 16, '0': 23, 'N/A': 2}
+    parsing logical evidence once: case-061 files=9
+    parsing: 1_Farm_61_Merredin_Grain_Trust.docx
+    parsing: 2_HACCPPlan_61_Merredin_Grain_Trust.docx
+    parsing: 3_PestControlRecord_61_Merredin_Grain_Trust.xlsx
+    parsing: 4_Farm-Management-Plan_Merredin_Grain_Trust.docx
+    parsing: 5_Farm-Site-Plan_Merredin_Grain_Trust.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Merredin_Grain_Trust.docx
+    parsing: 7_Bait_Station_Map_Merredin_Grain_Trust.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Merredin_Grain_Trust_061.docx
+    parsing: 9_Traceability_Records_Merredin_Grain_Trust_061.xlsx
+[11/25] case-061: chunks=530 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6797, 'completion_tokens': 423, 'total_tokens': 7220, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1293}
+  Element-1: model labels={'1': 3, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9350, 'completion_tokens': 527, 'total_tokens': 9877, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1414}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10568, 'completion_tokens': 977, 'total_tokens': 11545, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1864}
+  Element-3: model labels={'1': 8, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12175, 'completion_tokens': 1009, 'total_tokens': 13184, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1807}
+  Element-4: model labels={'0': 4, '1': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13335, 'completion_tokens': 996, 'total_tokens': 14331, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12055}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1455, 'completion_tokens': 110, 'total_tokens': 1565, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1455}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 21, '0': 18, 'N/A': 2}
+    parsing logical evidence once: case-062 files=9
+    parsing: 1_Farm_62_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_62_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_62_Gilgandra_Pulse_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Gilgandra_Pulse_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Gilgandra_Pulse_Pty_Ltd_062.docx
+    parsing: 9_Traceability_Records_Gilgandra_Pulse_Pty_Ltd_062.xlsx
+[12/25] case-062: chunks=520 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7007, 'completion_tokens': 366, 'total_tokens': 7373, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1503}
+  Element-1: model labels={'1': 3, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9633, 'completion_tokens': 417, 'total_tokens': 10050, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1697}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10658, 'completion_tokens': 1501, 'total_tokens': 12159, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1954}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12144, 'completion_tokens': 866, 'total_tokens': 13010, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1776}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13269, 'completion_tokens': 1157, 'total_tokens': 14426, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11989}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1476, 'completion_tokens': 108, 'total_tokens': 1584, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1476}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 14, '0': 25, 'N/A': 2}
+    parsing logical evidence once: case-063 files=9
+    parsing: 1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_63_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_63_Gawler_River_Almonds_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Gawler_River_Almonds_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Gawler_River_Almonds_Pty_Ltd_063.docx
+    parsing: 9_Traceability_Records_Gawler_River_Almonds_Pty_Ltd_063.xlsx
+[13/25] case-063: chunks=524 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6916, 'completion_tokens': 433, 'total_tokens': 7349, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1412}
+  Element-1: model labels={'1': 3, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9501, 'completion_tokens': 483, 'total_tokens': 9984, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1565}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10675, 'completion_tokens': 1228, 'total_tokens': 11903, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1971}
+  Element-3: model labels={'1': 8, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12266, 'completion_tokens': 1125, 'total_tokens': 13391, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1898}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13380, 'completion_tokens': 955, 'total_tokens': 14335, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12100}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1540, 'completion_tokens': 107, 'total_tokens': 1647, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1540}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 10, '0': 29, 'N/A': 2}
+    parsing logical evidence once: case-064 files=9
+    parsing: 1_Farm_64_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_64_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_64_Yorke_Grain_and_Pulse_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Yorke_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Yorke_Grain_and_Pulse_Pty_Ltd_064.docx
+    parsing: 9_Traceability_Records_Yorke_Grain_and_Pulse_Pty_Ltd_064.xlsx
+[14/25] case-064: chunks=540 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7012, 'completion_tokens': 576, 'total_tokens': 7588, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1508}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9528, 'completion_tokens': 564, 'total_tokens': 10092, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1592}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10529, 'completion_tokens': 1541, 'total_tokens': 12070, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1825}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12222, 'completion_tokens': 878, 'total_tokens': 13100, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1854}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13455, 'completion_tokens': 1045, 'total_tokens': 14500, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12175}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1512, 'completion_tokens': 106, 'total_tokens': 1618, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1512}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 19, '0': 20, 'N/A': 2}
+    parsing logical evidence once: case-065 files=9
+    parsing: 1_Farm_65_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_65_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_65_Peak_Hill_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Peak_Hill_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Peak_Hill_Grain_Pty_Ltd_065.docx
+    parsing: 9_Traceability_Records_Peak_Hill_Grain_Pty_Ltd_065.xlsx
+[15/25] case-065: chunks=533 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7067, 'completion_tokens': 591, 'total_tokens': 7658, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1563}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9656, 'completion_tokens': 517, 'total_tokens': 10173, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1720}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10640, 'completion_tokens': 1486, 'total_tokens': 12126, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1936}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12328, 'completion_tokens': 962, 'total_tokens': 13290, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1960}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13483, 'completion_tokens': 1396, 'total_tokens': 14879, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12203}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1747, 'completion_tokens': 107, 'total_tokens': 1854, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1747}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 17, '0': 22, 'N/A': 2}
+    parsing logical evidence once: case-066 files=9
+    parsing: 1_Farm_66_Wubin_Grain_Trust.docx
+    parsing: 2_HACCPPlan_66_Wubin_Grain_Trust.docx
+    parsing: 3_PestControlRecord_66_Wubin_Grain_Trust.xlsx
+    parsing: 4_Farm-Management-Plan_Wubin_Grain_Trust.docx
+    parsing: 5_Farm-Site-Plan_Wubin_Grain_Trust.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx
+    parsing: 7_Bait_Station_Map_Wubin_Grain_Trust.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Wubin_Grain_Trust_066.docx
+    parsing: 9_Traceability_Records_Wubin_Grain_Trust_066.xlsx
+[16/25] case-066: chunks=539 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6957, 'completion_tokens': 628, 'total_tokens': 7585, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1453}
+  Element-1: model labels={'0': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9242, 'completion_tokens': 599, 'total_tokens': 9841, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1306}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10402, 'completion_tokens': 1122, 'total_tokens': 11524, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1698}
+  Element-3: model labels={'0': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11837, 'completion_tokens': 1171, 'total_tokens': 13008, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1469}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13095, 'completion_tokens': 1340, 'total_tokens': 14435, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11815}
+  N/A gate: model confirmed= [] calls= 1
+  FINAL {'0': 41}
+    parsing logical evidence once: case-067 files=9
+    parsing: 1_Farm_67_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_67_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_67_Quirindi_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Quirindi_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Quirindi_Grain_Pty_Ltd_067.docx
+    parsing: 9_Traceability_Records_Quirindi_Grain_Pty_Ltd_067.xlsx
+[17/25] case-067: chunks=529 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7110, 'completion_tokens': 592, 'total_tokens': 7702, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1606}
+  Element-1: model labels={'0': 4, '1': 3}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9173, 'completion_tokens': 398, 'total_tokens': 9571, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1237}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10372, 'completion_tokens': 1325, 'total_tokens': 11697, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1668}
+  Element-3: model labels={'0': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11991, 'completion_tokens': 821, 'total_tokens': 12812, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1623}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13296, 'completion_tokens': 1120, 'total_tokens': 14416, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12016}
+  N/A gate: model confirmed= [] calls= 1
+  FINAL {'0': 37, '1': 4}
+    parsing logical evidence once: case-068 files=9
+    parsing: 1_Farm_68_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_68_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_68_Minyip_Grain_Co_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Minyip_Grain_Co_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Minyip_Grain_Co_Pty_Ltd_068.docx
+    parsing: 9_Traceability_Records_Minyip_Grain_Co_Pty_Ltd_068.xlsx
+[18/25] case-068: chunks=538 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7187, 'completion_tokens': 760, 'total_tokens': 7947, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1683}
+  Element-1: model labels={'0': 5, '1': 2}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9353, 'completion_tokens': 569, 'total_tokens': 9922, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1417}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10502, 'completion_tokens': 1243, 'total_tokens': 11745, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1798}
+  Element-3: model labels={'1': 9, '0': 3}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12187, 'completion_tokens': 992, 'total_tokens': 13179, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1819}
+  Element-4: model labels={'0': 6, '1': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13308, 'completion_tokens': 1267, 'total_tokens': 14575, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12028}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1393, 'completion_tokens': 130, 'total_tokens': 1523, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1393}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 18, '1': 21, 'N/A': 2}
+    parsing logical evidence once: case-069 files=9
+    parsing: 1_Farm_69_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_69_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_69_Hay_Plains_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Hay_Plains_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Hay_Plains_Grain_Pty_Ltd_069.docx
+    parsing: 9_Traceability_Records_Hay_Plains_Grain_Pty_Ltd_069.xlsx
+[19/25] case-069: chunks=533 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7159, 'completion_tokens': 622, 'total_tokens': 7781, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1655}
+  Element-1: model labels={'0': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9335, 'completion_tokens': 624, 'total_tokens': 9959, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1399}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10397, 'completion_tokens': 1085, 'total_tokens': 11482, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1693}
+  Element-3: model labels={'1': 9, '0': 3}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12215, 'completion_tokens': 991, 'total_tokens': 13206, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1847}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13218, 'completion_tokens': 1190, 'total_tokens': 14408, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11938}
+  N/A gate: model confirmed= [] calls= 1
+  FINAL {'0': 32, '1': 9}
+    parsing logical evidence once: case-070 files=9
+    parsing: 1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_70_Mt_Gambier_Pulse_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Mt_Gambier_Pulse_Pty_Ltd_070.docx
+    parsing: 9_Traceability_Records_Mt_Gambier_Pulse_Pty_Ltd_070.xlsx
+[20/25] case-070: chunks=526 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7153, 'completion_tokens': 603, 'total_tokens': 7756, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1649}
+  Element-1: model labels={'0': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9510, 'completion_tokens': 724, 'total_tokens': 10234, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1574}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10730, 'completion_tokens': 1533, 'total_tokens': 12263, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 2026}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12306, 'completion_tokens': 1196, 'total_tokens': 13502, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1938}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13258, 'completion_tokens': 1052, 'total_tokens': 14310, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 11978}
+  N/A gate: model confirmed= [] calls= 1
+  FINAL {'0': 29, '1': 12}
+    parsing logical evidence once: case-071 files=9
+    parsing: 1_Farm_71_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_71_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_71_Bunbury_Port_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Bunbury_Port_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Bunbury_Port_Grain_Pty_Ltd_071.docx
+    parsing: 9_Traceability_Records_Bunbury_Port_Grain_Pty_Ltd_071.xlsx
+[21/25] case-071: chunks=518 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6889, 'completion_tokens': 605, 'total_tokens': 7494, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1385}
+  Element-1: model labels={'0': 5, '1': 2}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9354, 'completion_tokens': 929, 'total_tokens': 10283, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1418}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10607, 'completion_tokens': 1277, 'total_tokens': 11884, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1903}
+  Element-3: model labels={'0': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11937, 'completion_tokens': 1028, 'total_tokens': 12965, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1569}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13366, 'completion_tokens': 949, 'total_tokens': 14315, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12086}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1474, 'completion_tokens': 122, 'total_tokens': 1596, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1474}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 39, 'N/A': 2}
+    parsing logical evidence once: case-072 files=9
+    parsing: 1_Farm_72_Meckering_Grain_Services_Trust.docx
+    parsing: 2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx
+    parsing: 3_PestControlRecord_72_Meckering_Grain_Services_Trust.xlsx
+    parsing: 4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx
+    parsing: 5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx
+    parsing: 7_Bait_Station_Map_Meckering_Grain_Services_Trust.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Meckering_Grain_Services_Trust_072.docx
+    parsing: 9_Traceability_Records_Meckering_Grain_Services_Trust_072.xlsx
+[22/25] case-072: chunks=531 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6978, 'completion_tokens': 631, 'total_tokens': 7609, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1474}
+  Element-1: model labels={'1': 6, '0': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9357, 'completion_tokens': 494, 'total_tokens': 9851, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1421}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10155, 'completion_tokens': 1292, 'total_tokens': 11447, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1451}
+  Element-3: model labels={'1': 6, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11987, 'completion_tokens': 1017, 'total_tokens': 13004, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1619}
+  Element-4: model labels={'0': 5, '1': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13339, 'completion_tokens': 1154, 'total_tokens': 14493, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12059}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 2779, 'completion_tokens': 453, 'total_tokens': 3232, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 2779}
+  N/A gate: model confirmed= ['CP15', 'CP16', 'CP6', 'CP7'] calls= 2
+  FINAL {'1': 21, '0': 16, 'N/A': 4}
+    parsing logical evidence once: case-073 files=9
+    parsing: 1_Farm_73_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_73_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_73_Boggabri_Pulse_and_Grain_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Boggabri_Pulse_and_Grain_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Boggabri_Pulse_and_Grain_Pty_Ltd_073.docx
+    parsing: 9_Traceability_Records_Boggabri_Pulse_and_Grain_Pty_Ltd_073.xlsx
+[23/25] case-073: chunks=536 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7159, 'completion_tokens': 676, 'total_tokens': 7835, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1655}
+  Element-1: model labels={'1': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9507, 'completion_tokens': 572, 'total_tokens': 10079, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1571}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10692, 'completion_tokens': 1721, 'total_tokens': 12413, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1988}
+  Element-3: model labels={'1': 12}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12263, 'completion_tokens': 1135, 'total_tokens': 13398, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1895}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13820, 'completion_tokens': 1101, 'total_tokens': 14921, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12540}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1676, 'completion_tokens': 113, 'total_tokens': 1789, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1676}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 20, 'N/A': 2, '0': 19}
+    parsing logical evidence once: case-074 files=9
+    parsing: 1_Farm_74_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_74_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_74_Gunnedah_Grain_Exports_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Gunnedah_Grain_Exports_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Gunnedah_Grain_Exports_Pty_Ltd_074.docx
+    parsing: 9_Traceability_Records_Gunnedah_Grain_Exports_Pty_Ltd_074.xlsx
+[24/25] case-074: chunks=524 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6937, 'completion_tokens': 706, 'total_tokens': 7643, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1433}
+  Element-1: model labels={'0': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9230, 'completion_tokens': 444, 'total_tokens': 9674, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1294}
+  Element-2: model labels={'1': 1, '0': 8}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10369, 'completion_tokens': 1198, 'total_tokens': 11567, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1665}
+  Element-3: model labels={'1': 6, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 11996, 'completion_tokens': 951, 'total_tokens': 12947, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1628}
+  Element-4: model labels={'0': 12, '1': 1}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13490, 'completion_tokens': 1103, 'total_tokens': 14593, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12210}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1516, 'completion_tokens': 116, 'total_tokens': 1632, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1516}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'0': 31, 'N/A': 2, '1': 8}
+    parsing logical evidence once: case-075 files=9
+    parsing: 1_Farm_75_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 2_HACCPPlan_75_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 3_PestControlRecord_75_Moora_Grain_and_Pulse_Pty_Ltd.xlsx
+    parsing: 4_Farm-Management-Plan_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 5_Farm-Site-Plan_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 7_Bait_Station_Map_Moora_Grain_and_Pulse_Pty_Ltd.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Moora_Grain_and_Pulse_Pty_Ltd_075.docx
+    parsing: 9_Traceability_Records_Moora_Grain_and_Pulse_Pty_Ltd_075.xlsx
+[25/25] case-075: chunks=524 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 6900, 'completion_tokens': 691, 'total_tokens': 7591, 'prompt_tokens_details': {'cached_tokens': 5504}, 'prompt_cache_hit_tokens': 5504, 'prompt_cache_miss_tokens': 1396}
+  Element-1: model labels={'1': 7}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9292, 'completion_tokens': 554, 'total_tokens': 9846, 'prompt_tokens_details': {'cached_tokens': 7936}, 'prompt_cache_hit_tokens': 7936, 'prompt_cache_miss_tokens': 1356}
+  Element-2: model labels={'1': 3, '0': 6}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10360, 'completion_tokens': 1302, 'total_tokens': 11662, 'prompt_tokens_details': {'cached_tokens': 8704}, 'prompt_cache_hit_tokens': 8704, 'prompt_cache_miss_tokens': 1656}
+  Element-3: model labels={'1': 7, '0': 5}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12010, 'completion_tokens': 990, 'total_tokens': 13000, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1642}
+  Element-4: model labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13425, 'completion_tokens': 1114, 'total_tokens': 14539, 'prompt_tokens_details': {'cached_tokens': 1280}, 'prompt_cache_hit_tokens': 1280, 'prompt_cache_miss_tokens': 12145}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1476, 'completion_tokens': 113, 'total_tokens': 1589, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1476}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 15, 'N/A': 2, '0': 24}
+DONE 25 cases

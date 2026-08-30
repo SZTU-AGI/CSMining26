@@ -1,0 +1,73 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP14",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The inspection areas, equipment and facilities are designed, constructed and maintained to allow for the collection, inspection and analysis of samples by an Authorised Officer for the type of prescribed plant or plant products.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The inspection areas, equipment and facilities are designed, constructed and maintained to allow for the collection, inspection and analysis of samples by an Authorised Officer for the type of prescribed plant or plant products. This includes, but is not limited to: inspection bench, where applicable.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(f)",
+        "rules2021:4-2(5)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The inspection areas, equipment and facilities are designed, constructed and maintained to allow for the collection, inspection and analysis of samples by an Authorised Officer for the type of prescribed plant or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(2)",
+          "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(i)",
+          "quote": "areas that are suitable for assessments of prescribed plants or plant products to be carried out; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(f)",
+          "quote": "to allow samples of prescribed plants and plant products to be taken."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(5)",
+          "quote": "If testing and analysis of samples of prescribed plants or plant products or other things is to be carried out at an establishment, the establishment and its equipment and facilities must be designed and constructed to allow the testing and analysis to be carried out."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(f)",
+        "rules2021:4-2(5)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

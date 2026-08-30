@@ -1,0 +1,358 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-037",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for canola (grain) and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P14"
+      ],
+      "reason": "Evidence describes site boundaries but does not specify the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P14",
+        "4_Farm-Management-Plan_Kojonup_Livestock_and_Grain_Trust.docx:P12"
+      ],
+      "reason": "Evidence describes adjoining sites (boundaries) and states the establishment has all buildings, equipment, facilities and services required for registered export operations."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kojonup_Livestock_and_Grain_Trust.docx:P7"
+      ],
+      "reason": "Evidence references important features but does not provide specific layout details of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P20"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P20",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P22"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P22",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Kojonup_Livestock_and_Grain_Trust.docx:P12",
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P18"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations, and infrastructure is designed and maintained to support export of canola."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding disposal of waste material."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening to manage risk of contamination by large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants from plants or plant products."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan describes procedures for cleaning and hygiene, but there is no evidence of actual implementation or records demonstrating the system is in place. The plan is a document, not proof of current practice."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, directly contradicting the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P40",
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "While the hygiene plan exists, the waste management deficiency indicates the overall system is not effective for the operations. The plan is not supported by evidence of implementation, and the HACCP plan lacks waste procedures."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kojonup_Livestock_and_Grain_Trust.docx:P3",
+        "3_PestControlRecord_37_Kojonup_Livestock_and_Grain_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows a pest control system overview and a pest control record, but there is no evidence of actual pest control activities, bait station checks, or effectiveness. The existence of a map and record cover is insufficient to establish a functioning system."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kojonup_Livestock_and_Grain_Trust.docx:P3",
+        "3_PestControlRecord_37_Kojonup_Livestock_and_Grain_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "No evidence of pest control implementation or monitoring records. The bait station map and record cover do not demonstrate that the system is effective for the operations."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "The evidence states records are retained for a minimum of two years, but there is no evidence of actual records for hygiene, waste, and pest control. The statement is a declaration, not proof of retention."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "No actual records are provided to verify they are in English, dated, accurate, legible, and auditable. The statement about retention does not demonstrate compliance with these specific requirements."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P40"
+      ],
+      "reason": "The hygiene plan states that areas must be kept clean and describes cleaning procedures, but there is no evidence of actual cleaning logs or inspections confirming the establishment is currently clean and hygienic."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P40",
+        "7_Bait_Station_Map_Kojonup_Livestock_and_Grain_Trust.docx:P3"
+      ],
+      "reason": "No evidence of actual pest control measures or monitoring to ensure goods are not infested or contaminated. The hygiene plan and bait station map are not proof of current condition."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kojonup_Livestock_and_Grain_Trust.docx:P3"
+      ],
+      "reason": "The bait station map provides an overview but no evidence that stations are fit for purpose or in good working order. No inspection or maintenance records are provided."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage procedures or controls to prevent contamination of plant products. The HACCP plan deficiency indicates lack of documented waste management, and no chemical storage information is present."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "No evidence of chemical storage controls to prevent contamination of preparation areas. The HACCP plan deficiency and absence of chemical storage documentation fail to establish compliance."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not provide traceability records from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not provide traceability records while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Kojonup_Livestock_and_Grain_Trust_037.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not provide actual records or details of traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "Evidence states records are maintained but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P21"
+      ],
+      "reason": "Evidence mentions a product flow chart but does not provide the chart or demonstrate it shows movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_37_Kojonup_Livestock_and_Grain_Trust.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not describe a system of controls for managing goods that fail inspection, including blending, rejections, treatments, and representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kojonup_Livestock_and_Grain_Trust.docx:P8"
+      ],
+      "reason": "Evidence mentions maintaining clean and hygienic condition but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P16"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not describe a system to minimize risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Kojonup_Livestock_and_Grain_Trust_037.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not describe packaging requirements or compliance with them."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "Evidence states records are retained for two years but does not provide actual records or demonstrate that all required traceability records are retained."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "Evidence mentions treatment records but does not provide records for rejected or failed goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_37_Kojonup_Livestock_and_Grain_Trust.docx:P35"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Kojonup_Livestock_and_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence mentions compliance with DAFF Performance Standards but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-037/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-037/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-037/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-037/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-037/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 3,
+    "0": 36,
+    "N/A": 2
+  }
+}

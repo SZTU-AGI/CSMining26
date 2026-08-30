@@ -1,0 +1,357 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-070",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence shows registration for faba beans and mangoes, but operations include walnuts and a change of address not reflected in DAFF records, indicating operations may exceed registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of suspension status; however, the change of address without DAFF notification suggests potential non-compliance with registration conditions, and absence of explicit evidence of non-suspension leads to failure."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The registered area is not clearly defined; the primary operating address changed to a new property not reflected in DAFF records, so the area of registered premises is ambiguous."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Site plan mentions important features but does not detail all buildings, facilities, and services; management plan claims facilities exist but lacks specifics, and the change of address undermines accuracy."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan references important features but does not provide a layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence states DAFF records still reflect the original registered address after a change of address, indicating notification was not provided."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence states an extension to cold storage was completed without notifying DAFF prior to commencement, indicating required approval was not obtained."
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P12",
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P19",
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence states facilities are maintained for handling Mangoes, but the establishment is registered for faba beans. Also, an unauthorized extension to cold storage was completed without DAFF notification, indicating potential non-compliance with required facilities for the registered operations."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P12"
+      ],
+      "reason": "No evidence specifically addresses adequate lighting for export operations. The only mention of facilities is generic and does not confirm lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities at the establishment."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P38"
+      ],
+      "reason": "Evidence shows a hygiene plan and cleaning inspections, but does not demonstrate that the establishment is designed and constructed to facilitate effective cleaning. The plan describes procedures, not the actual design and construction."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The HACCP plan has a documented deficiency regarding phytosanitary security, including lack of procedures to prevent re-infestation and co-mingling, which contradicts the requirement to minimize contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence references a system of controls for hygiene and waste, but does not provide specific details on waste disposal design or implementation. No evidence of actual waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P12"
+      ],
+      "reason": "No evidence of inspection areas, equipment, or facilities designed for sample collection and inspection. The only mention is generic facilities for handling Mangoes, which is inconsistent with the registered faba bean operations."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants from plants or plant products."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning all areas, with designated staff and cleaning logs, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, referencing Rule s4-7A(2)(a) and including cleaning procedures that manage waste."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The plan is tailored to the establishment's nut processing and packing operations, reviewed annually, and includes area-specific procedures and inspections, indicating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_70_Mt_Gambier_Pulse_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map includes a Pest Control System Overview, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for pest control including rodent bait stations."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_70_Mt_Gambier_Pulse_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The presence of a bait station map and pest control records indicates an effective pest control system for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years from the date of the relevant export activity, satisfying the retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence indicates records are maintained on site and in the business management system, and the declaration confirms accuracy; however, it does not explicitly state English, dated, legible, and auditable. But the policy requires these, and the evidence of a record-keeping system implies compliance. Given the evidence is not contradictory, I assume compliance."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The plan states the objective to maintain all areas in a clean and hygienic condition, with specific cleaning procedures and inspections, indicating the establishment is maintained appropriately."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The hygiene plan aims to prevent contamination and the bait station map indicates pest control measures, supporting that the establishment is maintained to prevent infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The bait station map indicates the presence of pest control stations, and the pest control record suggests they are monitored, implying they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The hygiene plan and pest control measures are designed to prevent contamination of plant products, and there is no evidence of chemical storage issues."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mt_Gambier_Pulse_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Mt_Gambier_Pulse_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The hygiene plan and pest control measures are designed to prevent contamination in preparation areas, and there is no evidence of chemical storage issues."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Mt_Gambier_Pulse_Pty_Ltd_070.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but does not document traceability from the property of origin to receival. The transfer records are empty, so no evidence of tracing from previous premises."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Mt_Gambier_Pulse_Pty_Ltd_070.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not provide records demonstrating traceability while at the establishment. The transfer records are empty, so no evidence of internal traceability."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mt_Gambier_Pulse_Pty_Ltd_070.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The dispatch/transfer docket sheet is empty, providing no evidence of traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P36",
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "Evidence mentions records for traceability but does not describe a system of controls for traceability and integrity. The HACCP plan has a deficiency regarding phytosanitary security, indicating lack of controls for integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not provide a formal product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of a system to manage goods that fail inspection. The HACCP plan deficiency indicates lack of controls for re-inspection and re-contamination prevention."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The HACCP plan deficiency explicitly states no procedure to prevent re-infestation of DAFF-inspected fruit lots, indicating failure to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of controls to prevent substitution. The HACCP plan deficiency mentions no co-mingling prevention between cleared and non-cleared product, which is a risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of packaging requirements. The HACCP plan deficiency does not address packaging controls for phytosanitary security."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Mt_Gambier_Pulse_Pty_Ltd_070.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence states records are retained for two years, but the traceability records spreadsheet shows empty dispatch/transfer dockets, so actual records are not demonstrated."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of records for rejected or failed goods. The HACCP plan deficiency indicates lack of procedures for handling failed inspections, so no records are likely."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable. The empty dispatch dockets suggest records may not be complete."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P21",
+        "1_Farm_70_Mt_Gambier_Pulse_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence shows changes to the establishment (address change and cold storage extension) without DAFF notification, indicating failure to meet importing country requirements and regulatory obligations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-070/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-070/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-070/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-070/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-070/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "0": 29,
+    "1": 12
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP33",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "A product flow chart exists that demonstrates the movement and maintenance of product integrity through the registered establishment, specifically evidencing that prescribed plants and plant products are traced from the property of origin and while at the establishment.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "a product flow chart that demonstrates the movement and maintenance of product integrity through the registered establishment",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "a product flow chart that demonstrates the movement and maintenance of product integrity through the registered establishment"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(a)",
+          "quote": "from the property (if any) from which they were transferred to the registered establishment; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B(b)",
+          "quote": "while they are at the registered establishment; and"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-7B",
+        "rules2021:4-7B(a)",
+        "rules2021:4-7B(b)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

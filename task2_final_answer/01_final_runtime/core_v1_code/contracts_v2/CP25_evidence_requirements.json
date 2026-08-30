@@ -1,0 +1,66 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP25",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "All areas of the establishment are operating and/or maintained in a condition that ensures prescribed goods are not, or not likely to be infested by pests or be contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

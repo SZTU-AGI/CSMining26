@@ -1,0 +1,25 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-3B(a)",
+        "rules2021:4-7B(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "from the property (if any) from which they were transferred to receival into the establishment",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "from the property (if any) from which they were transferred to receival into the establishment"
+        }
+      ],
+      "reason": "Both provisions express the same traceability requirement for different facility types (accredited property vs registered establishment), jointly supporting the single CP criterion without independent cumulative failure conditions."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms are parallel expressions of the same traceability obligation for different facility types, supporting the same CP criterion rather than forming independent cumulative requirements."
+}

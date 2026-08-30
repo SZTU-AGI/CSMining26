@@ -1,0 +1,52 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP13",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment is designed, constructed and maintained to provide for the disposal of all waste material, including solids and liquids, in an efficient and hygienic manner.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment is designed, constructed and maintained to provide the disposal of all waste material, including solids and liquids, in an efficient and hygienic manner.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)(d)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(d)",
+          "quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and"
+        },
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The establishment is designed, constructed and maintained to provide the disposal of all waste material, including solids and liquids, in an efficient and hygienic manner."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)(d)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

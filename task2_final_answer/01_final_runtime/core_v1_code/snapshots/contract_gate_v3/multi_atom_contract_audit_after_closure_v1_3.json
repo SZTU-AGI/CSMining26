@@ -1,0 +1,117 @@
+{
+  "schema": "freca-multi-atom-contract-audit-v1-3",
+  "all_pass": true,
+  "contracts": [
+    {
+      "cp_id": "CP6",
+      "atom_count": 3,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    },
+    {
+      "cp_id": "CP23",
+      "atom_count": 3,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    },
+    {
+      "cp_id": "CP27",
+      "atom_count": 6,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    },
+    {
+      "cp_id": "CP30",
+      "atom_count": 2,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    },
+    {
+      "cp_id": "CP37",
+      "atom_count": 3,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    },
+    {
+      "cp_id": "CP40",
+      "atom_count": 3,
+      "satisfaction_ops": [
+        "ALL",
+        "ATOM"
+      ],
+      "all_support": "PROVEN_COMPLIANT",
+      "one_attack": "PROVEN_NON_COMPLIANT",
+      "one_both": "CONFLICTING",
+      "argument_all_support": "TRUE",
+      "argument_one_negative": "FALSE",
+      "argument_one_unknown": "UNKNOWN",
+      "argument_one_both": "BOTH",
+      "answer_comparator_used": false,
+      "api_called": false
+    }
+  ],
+  "runtime_preflight": {
+    "argument_core_path": "/home/MeggieYu/freca/core_v1/argument_core_v1.py",
+    "argument_helper_path": "/home/MeggieYu/freca/core_v1/multi_atom_argument_support_v1.py",
+    "argument_helper_sha256": "e23aa9b1a7c3210ad5bbdcde20bbfe2841d65d043f26b580e398e37f4e8892d5",
+    "helper_four_valued_fix": true,
+    "argument_core_delegates_to_helper": true
+  },
+  "api_called": false,
+  "answer_comparator_used": false
+}

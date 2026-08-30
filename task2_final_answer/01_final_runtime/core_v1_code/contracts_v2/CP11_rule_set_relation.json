@@ -1,0 +1,31 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "The establishment is designed, constructed and maintained to allow for the effective cleaning of buildings, equipment and facilities used to conduct export operations.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "(4) An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "role": "RELATION",
+          "quote": "(b) to facilitate effective cleaning; and"
+        }
+      ],
+      "reason": "Paragraph 4-2(4)(b) is a specific enumerated purpose under the general design and construction requirement of subsection 4-2(4). The parent establishes the general duty, while the child narrows it to the specific purpose of facilitating effective cleaning, which directly corresponds to the CP's effective cleaning requirement."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two norms are in a parent-child relationship where the paragraph specializes the general subsection by specifying the purpose of effective cleaning. No cumulative or alternative relationship is indicated by the supplied text."
+}

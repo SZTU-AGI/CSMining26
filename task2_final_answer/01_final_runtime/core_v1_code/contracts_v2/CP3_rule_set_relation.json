@@ -1,0 +1,25 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:2-4(1)(d)",
+        "rules2021:9-8(1)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the area of the premises that is registered for export operations",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the area of the premises that is registered for export operations"
+        }
+      ],
+      "reason": "Both provisions specify locations where export operations must occur: one requires an accredited property for export operations, the other requires a registered establishment for assessments. They both support the same broad CP requirement regarding the area of premises registered for export operations, but neither the CP nor the supplied legal text establishes that both must independently fail the criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms address different aspects of premises used for export operations (accredited property vs registered establishment for assessments). They both support the same CP criterion but do not form a cumulative requirement because the CP does not explicitly require both dimensions; they are alternative expressions of the same broad requirement."
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The system of controls is effective for the type of export operations and activities conducted at the establishment."
+        }
+      ],
+      "reason": "Both provisions require a system of controls for export operations, but they apply to different facility types (accredited properties vs registered establishments). They are parallel expressions of the same broad requirement, not cumulative independent requirements for this CP."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms are parallel provisions for different facility types, both supporting the same CP requirement for an effective system of controls. No explicit connector in the CP or rules establishes them as cumulative or alternative."
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)",
+        "rules2021:4-2(5)",
+        "rules2021:4-2(6)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(2)",
+          "role": "RELATION",
+          "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+        }
+      ],
+      "reason": "These provisions collectively elaborate the broad CP requirement by specifying particular buildings, equipment, facilities and services needed for export operations. They do not create independent benchmark requirements but jointly support the same criterion."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)",
+          "role": "RELATION",
+          "quote": "to provide:"
+        }
+      ],
+      "reason": "The subparagraphs and paragraphs under 4-2(4) are specific design and construction requirements that specialise the general obligation in 4-2(4). They are not independent cumulative requirements for the CP."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-6"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(2)",
+          "role": "RELATION",
+          "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-6",
+          "role": "RELATION",
+          "quote": "The requirements for registration of an establishment prescribed by section 4-2 must continue to be met in relation to a registered establishment after it is registered."
+        }
+      ],
+      "reason": "4-6 reinforces the ongoing obligation to meet the requirements of 4-2, which directly supports the same CP requirement. It does not add a separate benchmark dimension."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(a)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The establishment has the buildings, equipment, facilities and services required for the type of export operations being conducted.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(a)",
+          "role": "RELATION",
+          "quote": "appropriate for the export operations carried out at the establishment and the plants or plant products at the property;"
+        }
+      ],
+      "reason": "These provisions address the ongoing condition of the establishment, which is part of having appropriate buildings, equipment, facilities and services. They support the same CP requirement rather than creating separate cumulative obligations."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The CP is a broad requirement that the establishment has necessary buildings, equipment, facilities and services. The grounded norms elaborate this requirement through specific design, construction, and condition obligations. They do not contain explicit connectors indicating cumulative or alternative relationships at the CP level. Therefore, they are grouped as SUPPORTS_SAME_CRITERION, with internal SPECIALIZES relationships where one norm is a more specific expression of another."
+}

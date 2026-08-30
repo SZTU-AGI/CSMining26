@@ -1,0 +1,364 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-022",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P4",
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence confirms the establishment is registered (RE-QLD-2022-0091) for handling and exporting barley, and operations are within that scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence directly addresses whether registration was suspended at the time of export operations; absence of suspension is not established."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Site plan exists but no evidence explicitly identifies the registered area boundaries or confirms the area registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Site plan references important features of registered area and adjoining sites; management plan confirms buildings, equipment, facilities and services for export operations."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Site plan and management plan describe layout, permanent fixtures, and equipment used for grain handling and storage."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P12",
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure (steel-frame construction, concrete flooring, storage capacity) supporting barley export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting conditions at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P29"
+      ],
+      "reason": "Evidence indicates cleaning procedures are in place and records are reviewed, supporting effective cleaning of the establishment."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Condamine_Grain_Co_Pty_Ltd_022.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence mentions security zoning, sealed storage, pre-load inspections to reduce contamination and infestation risk, and maintaining clean conditions."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P29"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, includes detailed step-by-step procedures for each area, and documents cleaning sign-offs and reviews, demonstrating an implemented system."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P5",
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste management as part of the system of controls, and the Farm Management Plan documents waste management arrangements, indicating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P29"
+      ],
+      "reason": "The documented system includes detailed procedures, cleaning standards, and supervisory sign-offs, which are appropriate for the grain handling and export operations, demonstrating effectiveness."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Grain_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_22_Condamine_Grain_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map provides a pest control system overview, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for managing pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Grain_Co_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_22_Condamine_Grain_Co_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system includes bait station mapping and pest control records, which are appropriate for the grain storage and handling operations, demonstrating effectiveness."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and the declaration confirms accuracy; however, specific details on English, dating, legibility, and auditability are not explicitly stated. The evidence is insufficient to confirm all requirements, so verdict is 0."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8",
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states the objective to maintain all areas in a clean and hygienic condition, and the Farm Management Plan confirms facilities are maintained in an operational condition appropriate for handling and exporting Barley."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Condamine_Grain_Co_Pty_Ltd.docx:P8",
+        "4_Farm-Management-Plan_Condamine_Grain_Co_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The establishment is maintained in a clean and hygienic condition and facilities are operational, which supports that prescribed goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Condamine_Grain_Co_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Bait Station Map provides a pest control system overview, indicating that bait stations are mapped and presumably maintained, but no explicit evidence of fitness for purpose or working order is provided. However, the existence of a mapped system suggests they are in place and functional."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The HACCP plan has a documented deficiency regarding phytosanitary security, including lack of procedures to prevent re-contamination or re-infestation, which directly relates to preventing contamination of plant products. This contradicts the requirement."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The HACCP plan deficiency includes lack of access control and segregation in cool stores, which are areas where products are prepared and stored, indicating a failure to prevent contamination in preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Condamine_Grain_Co_Pty_Ltd_022.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no specific evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Condamine_Grain_Co_Pty_Ltd_022.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and traceability records demonstrate tracking of product while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Condamine_Grain_Co_Pty_Ltd_022.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are present, satisfying traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Condamine_Grain_Co_Pty_Ltd_022.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records include receival dockets, storage logs, treatment records, dispatch documentation, and transfer records, demonstrating a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A scaled site plan with product flow is provided, demonstrating movement and maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of a system to manage goods that fail inspection; HACCP plan lacks phytosanitary security and no procedures for blending, rejections, or treatments of failed products."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "HACCP plan explicitly lacks procedures to prevent re-infestation or contamination, indicating failure to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of controls to prevent substitution; HACCP plan lacks segregation and access control measures to prevent switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of packaging requirements; HACCP plan lacks procedures for packaging to maintain phytosanitary security."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Condamine_Grain_Co_Pty_Ltd_022.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records are retained for a minimum of two years, including receival, storage, treatment, dispatch, and transfer records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of records for rejected or failed goods; HACCP plan lacks procedures for handling failed inspections, so no records of blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_22_Condamine_Grain_Co_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained in the business management system, retained for two years, and are stated to be accurate and auditable; no evidence of non-compliance with language or dating requirements."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_22_Condamine_Grain_Co_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence that importing country requirements are met; HACCP plan lacks phytosanitary security measures, which are likely required for export."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-022/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-022/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-022/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-022/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-022/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 22,
+    "0": 17,
+    "N/A": 2
+  }
+}

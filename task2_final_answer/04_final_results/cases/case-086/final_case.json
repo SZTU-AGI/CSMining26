@@ -1,0 +1,355 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-086",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for malting barley and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Huon_Valley_Malt_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm the registered area is identified. Evidence is insufficient."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Huon_Valley_Malt_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm important features are included. Evidence is insufficient."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Huon_Valley_Malt_Trust.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm layout of export areas and equipment is included. Evidence is insufficient."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so notification was not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so notification was not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_86_Huon_Valley_Malt_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no notice was required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no notice was required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_86_Huon_Valley_Malt_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Huon_Valley_Malt_Trust.docx:P12",
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support export of malting barley."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Huon_Valley_Malt_Trust.docx:P16"
+      ],
+      "reason": "Evidence indicates only a chemical toilet and a single hand basin with cold water, no handwashing facilities within or directly adjacent to processing area, which may not meet the requirement for handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, and facilities for sample collection and inspection."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P19"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and covers all areas of the establishment, with designated staff responsible for cleaning and recording activities, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Huon_Valley_Malt_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P5"
+      ],
+      "reason": "The Farm Management Plan documents waste management arrangements, and the Hygiene and Sanitation Plan references the system of controls for hygiene and waste, indicating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P19"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is reviewed annually or after significant changes, covers all areas, and includes step-by-step procedures for each area, demonstrating effectiveness for the export operations conducted."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Huon_Valley_Malt_Trust.docx:P4",
+        "3_PestControlRecord_86_Huon_Valley_Malt_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map shows 21 mapped stations and integrated pest management with contractor verification, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for pest and rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Huon_Valley_Malt_Trust.docx:P4"
+      ],
+      "reason": "The Bait Station Map indicates trend review, low activity, completed escalation actions, and closure evidence, demonstrating the pest control system is effective for the operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and the declaration confirms the information is true and correct, implying records are accurate, legible, and auditable. The records are in English and dated as per the export activity."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P19"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states 'Ensure all areas of the establishment are maintained in a clean and hygienic condition' and includes procedures for cleaning the Receival/Intake Area, demonstrating the establishment is kept clean and hygienic."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Huon_Valley_Malt_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Huon_Valley_Malt_Trust.docx:P8"
+      ],
+      "reason": "The Bait Station Map states all operational and surrounding areas are maintained clean and free of harbourage, and the Hygiene Plan ensures all areas are clean, supporting that the establishment condition prevents pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Huon_Valley_Malt_Trust.docx:P4"
+      ],
+      "reason": "The Bait Station Map indicates 21 mapped stations with contractor verification and completed escalation actions, implying the stations are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Huon_Valley_Malt_Trust.docx:P16"
+      ],
+      "reason": "The evidence does not address chemical storage or prevention of contamination of plant products. The only relevant evidence mentions a chemical toilet, which is not a chemical storage area. No evidence of chemical storage management is provided."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Huon_Valley_Malt_Trust.docx:P16"
+      ],
+      "reason": "No evidence addresses chemical storage or prevention of contamination of preparation areas. The evidence only mentions a chemical toilet, which is not relevant to chemical storage for export operations."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P17",
+        "9_Traceability_Records_Huon_Valley_Malt_Trust_086.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific traceability records from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P17",
+        "9_Traceability_Records_Huon_Valley_Malt_Trust_086.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability records while product is at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Huon_Valley_Malt_Trust_086.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are mentioned but no actual records or details provided."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36"
+      ],
+      "reason": "Records are stated to be maintained but no evidence of a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P17"
+      ],
+      "reason": "Product flow described but no formal product flow chart demonstrating integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_86_Huon_Valley_Malt_Trust.docx:P25"
+      ],
+      "reason": "No evidence of system to manage failed goods; HACCP plan lacks phytosanitary security section."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_86_Huon_Valley_Malt_Trust.docx:P25"
+      ],
+      "reason": "HACCP plan explicitly lacks procedures to prevent re-infestation and contamination."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_86_Huon_Valley_Malt_Trust.docx:P25"
+      ],
+      "reason": "No evidence of controls to prevent substitution; HACCP plan lacks segregation and access control."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements or procedures."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36",
+        "9_Traceability_Records_Huon_Valley_Malt_Trust_086.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records retention stated but no evidence of actual records covering all required types."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36"
+      ],
+      "reason": "No evidence of records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P36"
+      ],
+      "reason": "No evidence that records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_86_Huon_Valley_Malt_Trust.docx:P4"
+      ],
+      "reason": "No evidence that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-086/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-086/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-086/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-086/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-086/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 12,
+    "0": 27,
+    "N/A": 2
+  }
+}

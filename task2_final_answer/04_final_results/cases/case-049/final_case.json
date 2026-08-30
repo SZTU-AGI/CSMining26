@@ -1,0 +1,344 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-049",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registered for canola and lentils, but HACCP plan indicates wheat and barley under a different registration (RE-NSW-3051), conflicting with the registered operations. Thus, compliance with operating within registered operations is not established."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence indicates the property was sold in August 2024 and the new owner continued operations under the existing registration without lodging a new application. This raises doubt about the registration's validity and whether it was suspended, but no explicit evidence of suspension is provided. However, the change in ownership without proper notification suggests potential non-compliance, so the CP is not satisfied."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The site plan explicitly states the registered export area comprises 3.2 ha, with GPS coordinates and boundary description, satisfying the requirement to identify the area of the premises registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan references important features of the registered area and adjoining sites, and the management plan states the establishment has all buildings, equipment, facilities and services required for export operations, covering the required features."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P5",
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan provides layout details including boundaries and excluded areas, and the management plan confirms the presence of necessary equipment and facilities, indicating the layout of export operation areas is documented."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence shows the property was sold in August 2024 and the new owner continued operations without lodging a new registration application. This indicates a change in business structure/ownership that was not notified to the department, failing the requirement to notify relevant changes."
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations, extensions, or rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the condition is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations, extensions, or rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the condition is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the registration record describes infrastructure designed to support export of canola."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan states areas are maintained clean, but no evidence of design/construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan mentions maintaining clean condition but does not address design/construction to minimise contamination or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal design or practice."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling facilities."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene, covers all areas, assigns cleaning responsibilities, and includes corrective actions, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P28"
+      ],
+      "reason": "Evidence states no internal waste management procedure document exists; waste management relies solely on external contractor agreement, failing to establish a system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P28",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P6"
+      ],
+      "reason": "While hygiene controls are documented, the lack of a waste management procedure undermines the overall effectiveness of the system of controls for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "3_PestControlRecord_49_Fitzgerald_River_Grain_Pty_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Fitzgerald_River_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "A pest control record and bait station map are provided, indicating a system of controls for pests including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "3_PestControlRecord_49_Fitzgerald_River_Grain_Pty_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Fitzgerald_River_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The presence of a pest control record and bait station map demonstrates an effective pest control system for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years from the date of the relevant export activity, satisfying the retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy; the evidence implies records are in English, dated, and auditable as per the system."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan requires all areas to be maintained clean and hygienic, with specific cleaning procedures for storage and palletising areas, demonstrating appropriate condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The cleaning procedures and maintenance of areas as per the hygiene plan help ensure that prescribed goods are not infested by pests or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Fitzgerald_River_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The bait station map indicates the presence of pest control stations, and no evidence suggests they are not fit for purpose or in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P28"
+      ],
+      "reason": "No evidence of chemical storage procedures or controls to prevent contamination of plant products; the checking point applies but evidence is missing."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P28"
+      ],
+      "reason": "No evidence of chemical storage procedures or controls to prevent contamination of preparation areas; the checking point applies but evidence is missing."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Fitzgerald_River_Grain_Pty_Ltd_049.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions records for receival and dispatch but does not specifically demonstrate traceability from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not demonstrate actual traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Fitzgerald_River_Grain_Pty_Ltd_049.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records but does not provide details of traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but not a formal product flow chart demonstrating maintenance of integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding management of goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Fitzgerald_River_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence shows hygiene procedures but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding minimising risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Fitzgerald_River_Grain_Pty_Ltd_049.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not demonstrate compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for two years but does not provide actual records or demonstrate compliance."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_49_Fitzgerald_River_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding meeting importing country requirements."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-049/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-049/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-049/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-049/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-049/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 28,
+    "1": 12,
+    "N/A": 1
+  }
+}

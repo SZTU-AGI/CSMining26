@@ -1,0 +1,113 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "role": "RELATION",
+          "quote": "to facilitate effective cleaning"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "role": "RELATION",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations"
+        }
+      ],
+      "reason": "4-2(4) is the general design and construction requirement, while 4-2(4)(b) and 4-2(4)(c) are specific purposes that specialise the general requirement. They are not independent cumulative requirements but narrower expressions of the same design and construction obligation."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "role": "RELATION",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "role": "RELATION",
+          "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+        }
+      ],
+      "reason": "4-7A(1) is the general maintenance condition requirement, while 4-7A(1)(b) and 4-7A(2)(a)-(b) are specific aspects that specialise the general requirement. They are not independent cumulative requirements but narrower expressions of the same maintenance obligation."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(4)",
+        "rules2021:4-7A(1)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "designed, constructed and maintained"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(2)",
+          "role": "RELATION",
+          "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "role": "RELATION",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "role": "RELATION",
+          "quote": "A registered establishment must be kept in a condition:"
+        }
+      ],
+      "reason": "These three provisions collectively support the single CP requirement covering design, construction, and maintenance. They are not cumulative independent requirements because the CP does not explicitly separate them into distinct scoring dimensions; rather, they jointly operationalise the broad CP phrase."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms form two SPECIALIZES groups (design/construction and maintenance) and one SUPPORTS_SAME_CRITERION group linking the general design, construction, and maintenance provisions. No CUMULATIVE or ALTERNATIVE relationships are established because the CP does not provide explicit connector evidence requiring independent satisfaction of each sub-requirement."
+}

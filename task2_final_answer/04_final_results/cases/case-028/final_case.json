@@ -1,0 +1,357 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-028",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for barley and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates the establishment is registered and operating within its registered scope; no evidence of suspension is present."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document references 'Important features of the registered area and adjoining sites' indicating the registered area is identified."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P7",
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Site plan includes important features and the registration record describes buildings, equipment, and facilities for export operations."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan document includes layout of the registered area and adjoining sites, covering important features."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations, and infrastructure is designed and maintained to support export of barley."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence indicates the establishment is maintained in a clean and hygienic condition, with cleaning procedures and corrective actions, supporting effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence shows the establishment is kept clean and hygienic, and hygiene plan aims to minimize contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including designated staff responsibilities, cleaning procedures, and corrective actions. Internal inspection on 19 August 2025 found all areas clean and hygienic with no deficiencies, demonstrating the system is in place and effective."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, with no waste streams, disposal methods, frequencies, or records. This contradicts the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The hygiene system is effective for the export operations: internal inspection found all areas clean and hygienic, and procedures include immediate re-cleaning and corrective action recording for any deficiencies. This demonstrates the system is effective for the type of operations conducted."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kangaroo_Island_Grain_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_28_Kangaroo_Island_Grain_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management system with 10 mapped bait stations, contractor verification, trend review, and escalation actions. This demonstrates a system of controls to manage pests and contaminants, including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kangaroo_Island_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system is effective: trend review shows low activity with completed escalation actions and closure evidence, and all operational and surrounding areas are maintained clean and free of harbourage. This demonstrates effectiveness for the type of operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records relating to all export operations, including receival dockets, storage logs, treatment records, dispatch documentation, and audit reports, are retained for a minimum of two years from the date of the relevant export activity. This satisfies the 2-year retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and are retained for a minimum of two years. While the evidence does not explicitly state that records are in English, dated, accurate, legible, and auditable, the declaration of compliance with the Rules and the existence of a record-keeping system support that these general requirements are met. No evidence contradicts this."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Internal inspection on 19 August 2025 found all areas of the establishment clean and hygienic, and cleaning procedures are in place for the Receival/Intake Area. This demonstrates the establishment is maintained in a clean and hygienic condition appropriate for the export operations."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kangaroo_Island_Grain_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "The pest control evidence shows all operational and surrounding areas are maintained clean and free of harbourage, and the hygiene inspection found no deficiencies. This supports that the establishment is maintained in a condition that ensures goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Kangaroo_Island_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map indicates 10 mapped stations with contractor verification and trend review showing low activity with completed escalation actions. This implies the stations are functional and effective, thus fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The checking point requires that chemicals are stored so as not to contaminate prescribed plant or plant products. The evidence does not provide any information on chemical storage practices. The HACCP plan deficiency indicates a lack of documented waste management, but no evidence addresses chemical storage. Therefore, compliance is not established."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The checking point requires that chemicals are stored so as not to contaminate areas where prescribed plant or plant products are prepared. No evidence is provided regarding chemical storage or segregation from preparation areas. The absence of any documentation on chemical storage means compliance cannot be established."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Kangaroo_Island_Grain_Pty_Ltd_028.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no specific evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Kangaroo_Island_Grain_Pty_Ltd_028.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Kangaroo_Island_Grain_Pty_Ltd_028.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are present, satisfying traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Kangaroo_Island_Grain_Pty_Ltd_028.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records for receival, storage, treatment, dispatch, and transfer are maintained, demonstrating a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A product flow chart is provided showing movement and maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Evidence mentions non-conformance register for cleaning deficiencies but no specific system for managing goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P43"
+      ],
+      "reason": "Hygiene and sanitation plan and recent inspection confirm measures to maintain cleanliness and minimize contamination/infestation risk."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation of non-registered commodities is mentioned, but no explicit evidence of controls to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence regarding packaging requirements for the registered operations."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years, covering receival, storage, treatment, dispatch, and transfer."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Kangaroo_Island_Grain_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Non-conformance register exists but no evidence of records for rejected/failed goods, blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_28_Kangaroo_Island_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained in the business management system and retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence that importing country requirements are met or even identified for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-028/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-028/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-028/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-028/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-028/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 24,
+    "N/A": 2,
+    "0": 15
+  }
+}

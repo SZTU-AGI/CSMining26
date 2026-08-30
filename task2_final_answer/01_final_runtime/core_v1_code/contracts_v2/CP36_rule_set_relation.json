@@ -1,0 +1,37 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "minimising the risk of substitution (switching of goods)",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "minimising the risk of substitution (switching of goods)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "role": "RELATION",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "role": "RELATION",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with"
+        }
+      ],
+      "reason": "Both provisions require a system of controls to ensure compliance with prescribed conditions, each operationalising the same broad CP criterion of minimising substitution risk. They apply to different facility types (property vs establishment) but do not create independent cumulative benchmark requirements; they jointly support the single CP requirement."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The two grounded norms both operationalise the same CP criterion by requiring systems of controls, albeit for different facility types. No explicit connector in the CP or Rules establishes cumulative or alternative relationship; they are best treated as supporting the same criterion."
+}

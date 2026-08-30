@@ -1,0 +1,359 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-078",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms registration is not suspended at the time operations are carried out."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence provides address and RE number but does not specify the area of the premises that is registered."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence confirms buildings, equipment, facilities, and services are present and site plan references important features."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan is referenced but no evidence of layout details including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no approval is required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so no approval is required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P12",
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the infrastructure description confirms suitable design and maintenance for grain export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The hygiene plan requires all areas to be maintained clean and hygienic, and specifies cleaning procedures for the receival/intake area, indicating design and maintenance for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The hygiene plan mandates clean and hygienic conditions and cleaning procedures, which support minimisation of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, and includes procedures for cleaning all areas with designated staff and recording in cleaning logs, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan references Rule s4-7A(2)(a) which includes waste control, and includes cleaning procedures and logs that cover waste management, establishing a system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is tailored to the establishment's operations (grain handling) and includes area-specific cleaning procedures and logs, demonstrating effectiveness for the type of export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Bait Station Map documents an integrated pest management system with 11 mapped rodent bait stations and contractor verification, demonstrating a system of controls for pests including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped bait stations, trend review, and contractor verification, indicating effectiveness for the grain terminal operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and the declaration confirms accuracy; however, specific details on English, dating, legibility, and auditability are not explicitly stated. The evidence is insufficient to confirm all requirements, so verdict is 0."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states 'Ensure all areas of the establishment are maintained in a clean and hygienic condition' and includes area-specific cleaning procedures, demonstrating the establishment is kept clean and hygienic."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The pest control system and hygiene plan together ensure the establishment is maintained to prevent pest infestation and contamination, as evidenced by bait stations and cleaning procedures."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Bait Station Map shows 11 mapped stations and contractor verification, indicating the stations are functional and monitored, thus fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of prescribed plant or plant products. The checking point applies but evidence is missing."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of areas where prescribed plants or plant products are prepared. The checking point applies but evidence is missing."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Geraldton_Bulk_Grain_Terminal_Pty_Ltd_078.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows records are retained for two years and transfer dockets exist, but no specific evidence that traceability from the property of transfer to receival is maintained for all products."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36",
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow and record retention, but does not demonstrate that traceability is maintained while products are at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Geraldton_Bulk_Grain_Terminal_Pty_Ltd_078.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer dockets exist, but no evidence that traceability to the next premises is maintained for all products."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36",
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions record keeping and product flow, but does not describe a system of controls for traceability and integrity including labelling and record keeping."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A product flow description is provided, but no formal product flow chart demonstrating movement and maintenance of product integrity is evidenced."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "Evidence indicates a deficiency in the HACCP plan regarding phytosanitary security, and no evidence of a system to manage goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "Evidence shows a deficiency in maintaining phytosanitary security, indicating risk of contamination or infestation is not adequately managed."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of controls to prevent substitution of goods; the HACCP plan deficiency indicates lack of segregation and access control."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements being addressed for the registered operations."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, covering receival, storage, treatment, dispatch, and audit reports."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records for export operations but does not specifically address records for rejected or failed goods, blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_78_Geraldton_Bulk_Grain_Terminal_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates registration for wheat export, but no evidence that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-078/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-078/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-078/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-078/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-078/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 16,
+    "0": 23,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-020",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for chickpeas and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing all important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P21"
+      ],
+      "reason": "The condition 'Where required' is triggered only if changes occurred; evidence explicitly states no changes occurred, so notification was not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The condition 'Where required' is triggered only if changes occurred; evidence explicitly states no changes occurred, so notification was not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P23"
+      ],
+      "reason": "The condition 'Where required' is triggered only if alterations occurred; evidence explicitly states no alterations occurred, so approval was not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The condition 'Where required' is triggered only if alterations occurred; evidence explicitly states no alterations occurred, so approval was not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P12",
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P19"
+      ],
+      "reason": "Evidence is contradictory: one document states the establishment has all required buildings/equipment for exporting Apples, another states infrastructure supports chickpeas, and the hygiene plan mentions walnuts. No consistent evidence for the actual registered operation."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43"
+      ],
+      "reason": "Evidence shows a clean condition at one inspection but does not establish that the design and construction facilitate effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P8"
+      ],
+      "reason": "Evidence mentions maintaining clean and hygienic condition but does not establish design/construction to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, inspections, and corrective actions. Evidence of implementation is provided by the internal inspection on 26 January 2025 finding all areas clean and hygienic, and the procedure for correcting deficiencies before production."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P19",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes waste control and disposal procedures, with designated staff responsible for cleaning and recording activities. The plan covers all areas of the establishment and includes corrective actions for deficiencies, demonstrating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is tailored to the establishment's operations (nut processing and packing for export walnuts) and includes procedures for all areas, inspections, and corrective actions. The internal inspection found the establishment clean and hygienic, indicating the system is effective for the type of operations conducted."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx:T4:R5",
+        "7_Bait_Station_Map_Sunraysia_Grain_and_Pulse_Trust.docx:P3"
+      ],
+      "reason": "The HACCP plan identifies a deficiency in pest control: bait stations are checked but there is no formal monitoring schedule or corrective action procedure documented. This indicates the system of controls for pests is not fully established, as required by the checking point."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx:T4:R5"
+      ],
+      "reason": "The HACCP plan notes a deficiency in pest control: no formal monitoring schedule or corrective action procedure for bait stations. This indicates the pest control system is not effective for the operations, as it lacks documented procedures to ensure effectiveness."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records relating to export operations are retained for a minimum of two years from the date of the relevant export activity, in accordance with Rule 4-7B. This demonstrates compliance with the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "The registration record indicates that records are maintained on site and in the business management system, and are retained for at least two years. While the evidence does not explicitly state that records are in English, dated, accurate, legible, and auditable, the reference to compliance with Rule 4-7B and the general record-keeping practice supports a finding of compliance."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The internal inspection on 26 January 2025 found all areas of the establishment to be in a clean and hygienic condition, with no deficiencies identified. This directly supports the checking point that all areas are maintained in a clean and hygienic condition appropriate for the operations."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P38"
+      ],
+      "reason": "The internal inspection found the establishment clean and hygienic, and the hygiene plan includes procedures to prevent contamination and pest infestation. The evidence indicates the establishment is maintained in a condition that ensures prescribed goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx:T4:R5"
+      ],
+      "reason": "The HACCP plan notes a deficiency: bait stations are checked but there is no formal monitoring schedule or corrective action procedure documented. This indicates that pest control stations may not be effectively maintained or monitored, failing to demonstrate they are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx:T4:R5"
+      ],
+      "reason": "The evidence does not provide any information about chemical storage practices. The checking point requires that chemicals be stored so as not to contaminate prescribed plant or plant products, but no evidence is supplied to demonstrate compliance. Therefore, the checking point is not established."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx:T4:R5"
+      ],
+      "reason": "No evidence is provided regarding chemical storage and its potential to contaminate areas where prescribed plants or plant products are prepared. The checking point is applicable, but the evidence fails to establish compliance."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P17",
+        "9_Traceability_Records_Sunraysia_Grain_and_Pulse_Trust_020.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "Product flow chart describes movement within the establishment, but no evidence of traceability records while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Sunraysia_Grain_and_Pulse_Trust_020.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises exist, but no evidence of traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "Records are maintained, but no evidence of a system of controls for traceability and integrity (e.g., labelling, record keeping procedures)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "A product flow chart is provided, but it does not demonstrate maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx:P43"
+      ],
+      "reason": "Evidence of hygiene inspections, but no evidence of a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "Segregation is mentioned, but no evidence of a system to minimise the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements for the registered operations."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "Records are retained for two years, but no evidence of specific traceability records such as receival, product movement, treatment, transfer, dispatch, or transport unit approval."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P36"
+      ],
+      "reason": "Records are mentioned but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx:P4"
+      ],
+      "reason": "No evidence that importing country requirements are met for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-020/elements/Element-1.json",
+      "cache": true
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-020/elements/Element-2.json",
+      "cache": true
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-020/elements/Element-3.json",
+      "cache": true
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-020/elements/Element-4.json",
+      "cache": true
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-020/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 8,
+    "0": 31,
+    "N/A": 2
+  }
+}

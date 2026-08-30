@@ -1,0 +1,108 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP1",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment is operating within its registered operations and, where applicable, its registered functions to prepare plants or plant products for export.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment is operating within its registered operations and, where applicable, its registered functions to prepare plants or plant products for export.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:2-4(1)(d)",
+        "rules2021:4-1",
+        "rules2021:4-3(3)",
+        "rules2021:4-7",
+        "rules2021:4-7B",
+        "rules2021:4-8A(a)",
+        "rules2021:4-8A(b)",
+        "rules2021:4-8A(c)",
+        "rules2021:9-8(1)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "The establishment is operating within its registered operations and, where applicable, its registered functions to prepare plants or plant products for export."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:2-4(1)(d)",
+          "quote": "export operations of that kind in relation to the plants or plant products (other than treatment of the plants or plant products) must be carried out at a property that is accredited for export operations of that kind in relation to the plants or plant products and that importing country; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-1",
+          "quote": "For the purposes of paragraphs 112(2)(c) and (f) of the Act, this Part prescribes requirements that must be met for the establishment to be registered for a kind of export operations in relation to a kind of prescribed plants or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with in relation to those operations and the plants or plant products."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7",
+          "quote": "All importing country requirements relating to the export operations carried out at a registered establishment in relation to prescribed plants or plant products and the plants or plant products must be met."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7B",
+          "quote": "Prescribed plants and plant products prepared at a registered establishment must be traced:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8A(a)",
+          "quote": "the operations must be safe and effective; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8A(b)",
+          "quote": "the treatment must meet importing country requirements relating to the export operations and the plants or plant products; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-8A(c)",
+          "quote": "if the treatment involves the application of a chemical such as an insecticide or a fumigant—the use of the chemical must be lawful."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-8(1)",
+          "quote": "An assessment of prescribed plants or plant products must be carried out at an establishment that is registered to carry out export operations in relation to the plants or plant products."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:2-4(1)(d)",
+        "rules2021:4-1",
+        "rules2021:4-3(3)",
+        "rules2021:4-7",
+        "rules2021:4-7B",
+        "rules2021:4-8A(a)",
+        "rules2021:4-8A(b)",
+        "rules2021:4-8A(c)",
+        "rules2021:9-8(1)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

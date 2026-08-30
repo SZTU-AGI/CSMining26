@@ -1,0 +1,29 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "all important features of the registered area and adjoining sites, including the buildings, facilities and services to conduct the export operations",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "all important features of the registered area and adjoining sites, including the buildings, facilities and services to conduct the export operations"
+        }
+      ],
+      "reason": "The CP criterion is a broad requirement covering all important features of the registered area and adjoining sites, including buildings, facilities and services. The grounded norms each specify particular aspects of this broad requirement: general necessity of buildings/equipment/facilities/services (4-2(2)), handwashing/toilet facilities (4-2(3)), lighting/ventilation (4-2(4)(a)(ii)), cleaning facilitation (4-2(4)(b)), minimising infestation/contamination (4-2(4)(c)), and waste disposal (4-2(4)(d)). They are not independent cumulative requirements of the CP itself, but rather legal operationalisations of the same broad CP phrase. No explicit connector in the CP or Rules establishes that each must independently fail the whole CP; they jointly support the single criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "All six grounded norms are legal specialisations or direct textual matches for the broad CP requirement about important features of the registered area and adjoining sites. They collectively support the same benchmark criterion and should not be treated as separate cumulative leaves."
+}

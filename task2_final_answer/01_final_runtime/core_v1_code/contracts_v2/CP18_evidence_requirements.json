@@ -1,0 +1,66 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP18",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment or property has a system of controls in place to manage waste control and disposal, including appropriate treatment and disposal of waste.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the system of controls to manage waste control and disposal",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-3A(2)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the system of controls to manage waste control and disposal"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(c)",
+          "quote": "waste at the property must be appropriately treated and disposed of"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(d)",
+          "quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(d)",
+          "quote": "waste at the establishment must be appropriately treated and disposed of."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:3-3A(2)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

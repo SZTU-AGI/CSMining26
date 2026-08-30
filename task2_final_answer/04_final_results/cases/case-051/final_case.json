@@ -1,0 +1,345 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-051",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registration for wheat and walnuts, but HACCP plan indicates operations for canola, linseed, and linseed oil at a different facility (RE-QLD-1882, Kwinana), which is outside the registered scope. This contradicts the claim that all export activities are within registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence provided regarding suspension status of the establishment's registration. The checking point requires that registration is not suspended at the time of export operations, but no evidence confirms this."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The scaled site plan at Appendix A shows the registered area, including receival, storage, processing, and dispatch infrastructure, and states that all product flow is contained within the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17",
+        "5_Farm-Site-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan shows important features including silo positions, shed footprints, hardstand areas, weighbridge, access roads, and designated export sampling point, and the Farm Site Plan references important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "The site plan shows the layout of areas where export operations occur, including permanent fixtures and equipment, and describes product flow through receival, storage, cleaning, and dispatch."
+    },
+    "CP6": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence states no changes to registered establishment name, address, ownership, management, or trading name have occurred since last renewal, and that DAFF will be notified in writing if any changes occur. This satisfies the requirement for notification where required."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence states a new receival shed was constructed in November 2024 without obtaining DAFF alteration approval prior to construction. This directly contradicts the requirement that alterations be submitted to and approved by the department."
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P23",
+        "4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The management plan states the establishment has all required buildings, equipment, facilities and services, but evidence shows a new receival shed was constructed without DAFF alteration approval, which may affect compliance with registration conditions. Thus, the evidence does not fully establish compliance."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "No evidence specifically addresses adequate lighting for export operations. The management plan mentions facilities are maintained but does not mention lighting."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "No evidence explicitly confirms the presence of handwashing and toilet facilities. The management plan mentions facilities but does not specify these."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The hygiene plan states areas are maintained clean and cleaning procedures exist, but there is no evidence that the design and construction facilitate effective cleaning. The plan describes procedures, not actual design."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Toowoomba_Grain_Handlers_Pty_Ltd_051.docx:P4"
+      ],
+      "reason": "The phytosanitary procedure mentions security zoning and sealed storage to reduce contamination risk, but there is no evidence that the establishment is designed and constructed to minimise contamination, infestation, and pest harbourage. The procedure is a plan, not proof of actual design."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The hygiene plan references a system of controls for waste management, but there is no evidence that the establishment is designed and constructed to provide disposal of all waste material in an efficient and hygienic manner. The plan does not describe actual waste disposal facilities."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "No evidence specifically addresses inspection areas, equipment, and facilities for sample collection, inspection, and analysis. The management plan mentions facilities but does not detail inspection areas or benches."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The hygiene plan mentions a grain screening/cleaning plant and cleaning procedures, but there is no evidence that screening is carried out to manage the risk of contamination by large contaminants. The plan does not describe the screening process or its effectiveness."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "No evidence that large contaminants are actually removed from plants or plant products. The hygiene plan mentions a screening plant but does not provide evidence of removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene and waste, includes procedures for cleaning and sanitation, and states that all areas are maintained in a clean and hygienic condition."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, referencing Rule s4-7A(2)(a) and detailing cleaning procedures that include waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The plan is reviewed annually or after significant changes, includes detailed step-by-step procedures for each area, and specifies cleaning activities and records, demonstrating effectiveness for the grain handling operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_51_Toowoomba_Grain_Handlers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The Bait Station Map provides a pest control system overview, and the Pest Control Record references Chapter 4 of the Rules, indicating a system for managing pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_51_Toowoomba_Grain_Handlers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "The pest control system includes bait station mapping and a pest control record, which are appropriate for the grain handling operations and demonstrate an effective system."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence indicates records are maintained on site and in the business management system, and the registration record is in English and dated, implying accuracy and legibility; no evidence contradicts compliance."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that all areas of the establishment are maintained in a clean and hygienic condition, and cleaning activities are recorded, supporting compliance."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8",
+        "7_Bait_Station_Map_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The establishment maintains cleanliness and has a pest control system in place, which together ensure that prescribed goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The Bait Station Map indicates a pest control system with bait stations, and no evidence suggests they are not fit for purpose or in good working order."
+    },
+    "CP27": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The Hygiene and Sanitation Plan ensures all areas are clean and hygienic, which prevents contamination of prescribed plant products by chemicals."
+    },
+    "CP28": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The plan maintains cleanliness in all areas, including preparation areas, preventing chemical contamination of areas where prescribed plant products are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Toowoomba_Grain_Handlers_Pty_Ltd_051.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no specific evidence of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Toowoomba_Grain_Handlers_Pty_Ltd_051.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records, but does not explicitly demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Toowoomba_Grain_Handlers_Pty_Ltd_051.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises exist, but no details on content or adequacy to establish traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained, but no explicit description of a system of controls for traceability and integrity (e.g., labelling, record keeping procedures)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow is described in text, but no formal product flow chart document is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding management of goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Hygiene and sanitation procedures exist, but no specific evidence of maintaining risk for contamination or infestation (e.g., pest control measures)."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation from non-registered commodities is mentioned, but no explicit evidence of measures to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Toowoomba_Grain_Handlers_Pty_Ltd_051.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned but not detailed; no evidence of compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are retained for two years, but no evidence of specific traceability records such as receival, movement, treatment, dispatch, or transport unit approvals."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_51_Toowoomba_Grain_Handlers_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are stated to be maintained, but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of importing country requirements being met for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-051/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-051/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-051/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-051/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-051/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 25,
+    "1": 16
+  }
+}

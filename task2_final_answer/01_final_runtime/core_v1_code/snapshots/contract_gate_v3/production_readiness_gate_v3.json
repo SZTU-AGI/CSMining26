@@ -1,0 +1,187 @@
+{
+  "schema": "freca-core-production-readiness-gate-v3",
+  "scope": "POST_CONTRACT_GATE_READINESS_FOR_FULL_4100_UNDER_FROZEN_V2_BLOCKERS",
+  "ready_for_full_4100": true,
+  "all_pass": true,
+  "checks": {
+    "production_freeze_v2_pass": true,
+    "contract_shape_41_of_41_pass": true,
+    "multi_atom_semantics_pass": true,
+    "staged_e2e_replays_pass": true,
+    "no_answer_comparator_anywhere": true,
+    "no_api_in_semantic_audits": true
+  },
+  "evidence": {
+    "production_freeze_v2": {
+      "path": "results_v2/production_freeze_audit_after_contract_gate_v1_3.json",
+      "sha256": "c03095bbf26fd0c1f843a4905e5f235dee6156c987ae7140157e36d941e204fe",
+      "audit": {
+        "checks": {
+          "schema_v2": true,
+          "all_pass": true,
+          "all_individual_checks_true": true,
+          "answer_comparator_not_used": true,
+          "ready_for_contract_shape_inventory": true
+        },
+        "details": {
+          "legacy_ready_for_full_4100": false,
+          "legacy_full_4100_blocker": "Contract-shape coverage and staged end-to-end dry run must pass before full production.",
+          "individual_checks": {
+            "temporal_unknown_unresolved": true,
+            "temporal_out_of_scope_fail": true,
+            "temporal_overlap_unresolved": true,
+            "history_executed_only": true,
+            "no_goal_change_hard_stop": true,
+            "adapter_proven_compliant": true,
+            "adapter_emits_no_final_label": true,
+            "fold_is_unique_label_boundary": true,
+            "unsupported_scope_stays_unknown": true,
+            "unknown_fold_marked_fallback": true
+          }
+        },
+        "pass": true
+      }
+    },
+    "contract_shape_inventory_v1_3": {
+      "path": "results_v2/contract_shape_inventory_after_closure_v1_3.json",
+      "sha256": "18208eedfac5ecfb81abbff898d7ea1a5e4b11d31040318229240607ee2161f2",
+      "audit": {
+        "checks": {
+          "schema_v1_3": true,
+          "canonical_41_present": true,
+          "registry_41_resolved": true,
+          "all_41_directly_representable": true,
+          "recursive_all_installed": true,
+          "multi_atom_projection_supported": true,
+          "satisfaction_ops_exactly_atom_all": true,
+          "answer_comparator_not_used": true
+        },
+        "details": {
+          "status_counts": {
+            "CURRENT_CORE_DIRECTLY_REPRESENTABLE": 41
+          },
+          "operator_cp_counts": {
+            "ALL": 6,
+            "ATOM": 41,
+            "CONST": 41
+          },
+          "runtime_capability": {
+            "recursive_all_installed": true,
+            "markers": {
+              "evidence": true,
+              "argument": true,
+              "adapter": true
+            },
+            "supported_applicability_ops": [
+              "CONST"
+            ],
+            "supported_non_applicability_ops": [
+              "CONST"
+            ],
+            "supported_satisfaction_ops": [
+              "ATOM",
+              "ALL"
+            ],
+            "multi_atom_projection_supported": true
+          }
+        },
+        "pass": true
+      }
+    },
+    "multi_atom_contract_audit_v1_3": {
+      "path": "results_v2/multi_atom_contract_audit_after_closure_v1_3.json",
+      "sha256": "8fc4b9c18ec581b2d70cef5deabe2616d154ce7c78fd8b682327e5d3c2e1892e",
+      "audit": {
+        "checks": {
+          "schema_v1_3": true,
+          "all_pass": true,
+          "exact_observed_multi_atom_set": true,
+          "semantic_rows_pass": true,
+          "helper_four_valued_fix": true,
+          "argument_core_delegates_to_helper": true,
+          "api_not_called": true,
+          "answer_comparator_not_used": true
+        },
+        "details": {
+          "cp_ids": [
+            "CP23",
+            "CP27",
+            "CP30",
+            "CP37",
+            "CP40",
+            "CP6"
+          ],
+          "runtime_preflight": {
+            "argument_core_path": "/home/MeggieYu/freca/core_v1/argument_core_v1.py",
+            "argument_helper_path": "/home/MeggieYu/freca/core_v1/multi_atom_argument_support_v1.py",
+            "argument_helper_sha256": "e23aa9b1a7c3210ad5bbdcde20bbfe2841d65d043f26b580e398e37f4e8892d5",
+            "helper_four_valued_fix": true,
+            "argument_core_delegates_to_helper": true
+          }
+        },
+        "pass": true
+      }
+    },
+    "end_to_end_replays": [
+      {
+        "checks": {
+          "schema_v1": true,
+          "case_id_present": true,
+          "cp_id_present": true,
+          "proof_present": true,
+          "argument_evaluation_present": true,
+          "fold_decision_present": true,
+          "unknown_fold_consistent_if_applicable": true,
+          "api_not_called": true,
+          "answer_comparator_not_used": true
+        },
+        "details": {
+          "case_id": "RE-NSW-2020-0144",
+          "cp_id": "CP12",
+          "applicability_state": "TRUE",
+          "satisfaction_state": "UNKNOWN",
+          "violation_state": "UNKNOWN",
+          "internal_outcome": "UNKNOWN",
+          "fold_label": "0",
+          "fold_finality": "UNKNOWN_BENCHMARK_FALLBACK",
+          "benchmark_fallback": true
+        },
+        "pass": true,
+        "path": "results_v2/RE-NSW-2020-0144_CP12_end_to_end_replay_after_contract_gate_v1_3.json",
+        "sha256": "e85f5a8fb9728428a898f7b67aafb02e3f2d8b67c9d9eca4acc4b39fda4838c5"
+      },
+      {
+        "checks": {
+          "schema_v1": true,
+          "case_id_present": true,
+          "cp_id_present": true,
+          "proof_present": true,
+          "argument_evaluation_present": true,
+          "fold_decision_present": true,
+          "unknown_fold_consistent_if_applicable": true,
+          "api_not_called": true,
+          "answer_comparator_not_used": true
+        },
+        "details": {
+          "case_id": "RE-NSW-2021-0177",
+          "cp_id": "CP12",
+          "applicability_state": "TRUE",
+          "satisfaction_state": "UNKNOWN",
+          "violation_state": "UNKNOWN",
+          "internal_outcome": "UNKNOWN",
+          "fold_label": "0",
+          "fold_finality": "UNKNOWN_BENCHMARK_FALLBACK",
+          "benchmark_fallback": true
+        },
+        "pass": true,
+        "path": "results_v2/RE-NSW-2021-0177_CP12_end_to_end_replay_after_contract_gate_v1_3.json",
+        "sha256": "99d81bce05268d695141308471bd9feb67201fd9f55c744c6565e7310b21b71e"
+      }
+    ]
+  },
+  "legacy_v2_blocker_discharged": true,
+  "legacy_v2_blocker": "Contract-shape coverage and staged end-to-end dry run must pass before full production.",
+  "api_called": false,
+  "answer_comparator_used": false,
+  "upstream_artifacts_mutated": false
+}

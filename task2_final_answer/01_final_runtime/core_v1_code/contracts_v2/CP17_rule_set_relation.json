@@ -1,0 +1,132 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:3-3A(2)(a)",
+        "rules2021:3-3A(2)(b)",
+        "rules2021:3-3A(2)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage hygiene",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage hygiene"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "role": "RELATION",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(a)",
+          "role": "RELATION",
+          "quote": "the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(c)",
+          "role": "RELATION",
+          "quote": "waste at the property must be appropriately treated and disposed of"
+        }
+      ],
+      "reason": "These provisions collectively operationalise the broad CP requirement for a system of controls to manage hygiene at the property level. The CP does not explicitly require each sub-element as an independent cumulative requirement; rather, they are specific expressions of the same overarching hygiene control system."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-3(3)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage hygiene",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage hygiene"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "role": "RELATION",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "role": "RELATION",
+          "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(c)",
+          "role": "RELATION",
+          "quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(d)",
+          "role": "RELATION",
+          "quote": "waste at the establishment must be appropriately treated and disposed of"
+        }
+      ],
+      "reason": "These provisions collectively operationalise the broad CP requirement for a system of controls to manage hygiene at the establishment level. The CP does not explicitly require each sub-element as an independent cumulative requirement; rather, they are specific expressions of the same overarching hygiene control system."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage hygiene",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage hygiene"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "role": "RELATION",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "role": "RELATION",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with"
+        }
+      ],
+      "reason": "Both provisions require a system of controls to manage hygiene, but for different facility types (property vs establishment). The CP does not distinguish between these; they are parallel expressions of the same requirement."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms collectively support the single CP criterion 'the system of controls to manage hygiene'. They are not cumulative independent requirements because the CP does not explicitly require each sub-element separately; rather, they are specific operationalisations of the same broad requirement. No alternative or specialization relationships are evident from the supplied text."
+}

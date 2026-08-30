@@ -1,0 +1,75 @@
+{
+  "schema": "freca-production-v2-phase5-live-gate-preregistration-v1",
+  "gate_id": "PHASE5_DEEPSEEK_SMALL_LIVE_GATE_20260829",
+  "approval_basis": "User explicitly approved DeepSeek API use in the conversation.",
+  "selection_is_label_blind": true,
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "selection_source": "results_v2/production_run_v2_replay/semantic_reachability_report.json",
+  "selection_rule": "Take the first two lexicographic coordinates with distinct case_uid values from each frozen blocker stratum.",
+  "sample": [
+    {
+      "stratum": "COVERAGE_TEMPORAL_ONLY",
+      "case_uid": "case-003",
+      "cp_id": "CP24",
+      "task_dir": "results_v2/production_run_v1_shards/shard-02/tasks/case-003/CP24"
+    },
+    {
+      "stratum": "COVERAGE_TEMPORAL_ONLY",
+      "case_uid": "case-007",
+      "cp_id": "CP24",
+      "task_dir": "results_v2/production_run_v1_shards/shard-06/tasks/case-007/CP24"
+    },
+    {
+      "stratum": "RELIABILITY_UNRESOLVED",
+      "case_uid": "case-001",
+      "cp_id": "CP9",
+      "task_dir": "results_v2/production_run_v1_shards/shard-00/tasks/case-001/CP9"
+    },
+    {
+      "stratum": "RELIABILITY_UNRESOLVED",
+      "case_uid": "case-002",
+      "cp_id": "CP3",
+      "task_dir": "results_v2/production_run_v1_shards/shard-01/tasks/case-002/CP3"
+    },
+    {
+      "stratum": "NO_DIRECT_SUPPORT",
+      "case_uid": "case-001",
+      "cp_id": "CP2",
+      "task_dir": "results_v2/production_run_v1_shards/shard-00/tasks/case-001/CP2"
+    },
+    {
+      "stratum": "NO_DIRECT_SUPPORT",
+      "case_uid": "case-002",
+      "cp_id": "CP2",
+      "task_dir": "results_v2/production_run_v1_shards/shard-01/tasks/case-002/CP2"
+    }
+  ],
+  "arms": {
+    "A": "Saved initial artifact, V2 downstream evaluation, no repair and zero API.",
+    "B": "Same initial artifact, one V2 repair round with DeepSeek alignment actions and deterministic gate/procedure actions."
+  },
+  "model_configuration": {
+    "provider": "DEEPSEEK",
+    "base_url_source": "DEEPSEEK_BASE_URL or https://api.deepseek.com",
+    "model_source": "Existing evidence_reasoning_v2 EVIDENCE_ALIGN_MODEL; no model substitution by the gate",
+    "temperature": 0.0,
+    "thinking": false
+  },
+  "limits_source": "production_repair_policy_v2_live_gate.json",
+  "primary_success_gate": {
+    "condition": "resolved_decisive_goal_count > 0 OR substantive_internal_outcome_change_count > 0",
+    "failure_effect": "NO_GO for any larger paid run"
+  },
+  "secondary_metrics": [
+    "new_truth_bearing_evidence",
+    "goal_aligned_truth_bearing_evidence",
+    "off_goal_truth_bearing_evidence",
+    "API calls",
+    "cache-hit/cache-miss tokens",
+    "completion tokens",
+    "wall time",
+    "cost per resolved decisive goal"
+  ],
+  "scale_out_of_scope": "The remaining 3646 coordinates may not be launched by this gate."
+}

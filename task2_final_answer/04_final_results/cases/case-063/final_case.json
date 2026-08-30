@@ -1,0 +1,348 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-063",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for almonds and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided identifying the specific area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided detailing all important features of the registered area and adjoining sites, including buildings, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided showing the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so approval is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so approval is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Gawler_River_Almonds_Pty_Ltd.docx:P12",
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the registration record confirms operations are within registered scope."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan states areas must be maintained clean, but no evidence of design/construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Gawler_River_Almonds_Pty_Ltd_063.docx:P4"
+      ],
+      "reason": "Procedure mentions reducing contamination/infestation risk but no evidence of design/construction to minimise harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene, includes procedures for cleaning and sanitation, and assigns responsibilities for maintaining clean conditions."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_63_Gawler_River_Almonds_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, with no waste streams, disposal methods, frequencies, or records, failing the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_63_Gawler_River_Almonds_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The system of controls is not effective for waste management as waste procedures are not documented, indicating a gap in the overall system of controls for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Gawler_River_Almonds_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_63_Gawler_River_Almonds_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management system with 8 mapped rodent bait stations, contractor verification, trend review, and escalation actions, demonstrating a system of controls for pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped stations, contractor verification, trend review, and closure evidence, indicating effectiveness for the type of export operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years, including cleaning records and export operation records, demonstrating compliance with the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are maintained on site and in the business management system, with cleaning records in paper and digital formats, and are retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The hygiene plan aims to ensure all areas are maintained in a clean and hygienic condition, with specific procedures for the Pre-Cool Chamber, supporting the requirement for clean and hygienic conditions."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control evidence indicates that operational and surrounding areas are maintained clean and free of harbourage, supporting that the establishment is kept in a condition that prevents pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows 8 mapped stations with contractor verification and trend review, indicating that stations are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_63_Gawler_River_Almonds_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence explicitly states that chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, failing the requirement to prevent contamination of prescribed plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_63_Gawler_River_Almonds_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Chemicals stored in an unlocked cupboard inside the pulse grading shed directly risk contaminating preparation areas, failing the requirement to prevent contamination of areas where prescribed plants are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Gawler_River_Almonds_Pty_Ltd_063.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer dockets but does not specifically demonstrate tracing from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Gawler_River_Almonds_Pty_Ltd_063.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not specifically demonstrate tracing while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Gawler_River_Almonds_Pty_Ltd_063.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer dockets but does not specifically demonstrate tracing to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Gawler_River_Almonds_Pty_Ltd_063.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not describe a system of controls for traceability and integrity (e.g., labelling, record keeping)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not provide a product flow chart that demonstrates movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for managing goods that fail inspection, including blending, rejections, treatments, and representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Gawler_River_Almonds_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence mentions hygiene and cleaning but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation of non-registered commodities but does not specifically address minimising the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions product flow but does not address packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years but does not specify the types of records (receival, product movement, treatment, transfer, dispatch, transport unit approval)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not specifically address records for rejected or failed export inspection goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and able to be audited."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_63_Gawler_River_Almonds_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for almonds but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-063/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-063/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-063/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-063/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-063/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 10,
+    "0": 29,
+    "N/A": 2
+  }
+}

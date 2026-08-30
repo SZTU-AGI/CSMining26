@@ -1,0 +1,349 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-066",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P4",
+        "4_Farm-Management-Plan_Wubin_Grain_Trust.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P6"
+      ],
+      "reason": "Evidence shows registration for wheat and oats, but also for apples and pears (RE-TAS-0847) and a plan for apples, indicating operations outside the registered scope for this establishment (RE-WA-2020-0099)."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P21"
+      ],
+      "reason": "The property was sold in August 2024 and the new owner continued operations under the existing registration without lodging a new application, which may affect the validity of the registration; no evidence that registration is not suspended."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wubin_Grain_Trust.docx:P4",
+        "5_Farm-Site-Plan_Wubin_Grain_Trust.docx:P7"
+      ],
+      "reason": "The site plan references rules but does not explicitly identify the registered area; no clear evidence of the registered area boundaries."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wubin_Grain_Trust.docx:P7",
+        "4_Farm-Management-Plan_Wubin_Grain_Trust.docx:P12"
+      ],
+      "reason": "The site plan mentions important features but does not provide details of buildings, facilities, and services; the management plan claims facilities exist but lacks specifics."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Wubin_Grain_Trust.docx:P4",
+        "5_Farm-Site-Plan_Wubin_Grain_Trust.docx:P7"
+      ],
+      "reason": "The site plan does not show layout of areas, permanent fixtures, or equipment layout; no evidence of such details."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P21"
+      ],
+      "reason": "The property was sold and the new owner continued operations without lodging a new registration application; no evidence that notification of change in business structure or ownership was provided to the department."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23"
+      ],
+      "reason": "A new receival shed was constructed without DAFF alteration approval, directly contradicting the requirement for prior approval."
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wubin_Grain_Trust.docx:P12",
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23"
+      ],
+      "reason": "Evidence claims facilities are maintained for handling Apples, but registration is for wheat; also a new shed was constructed without DAFF alteration approval, indicating non-compliance with required approvals."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P27"
+      ],
+      "reason": "Evidence includes cleaning plans and logs, but no direct evidence of actual cleaning effectiveness or design for cleanability."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P8",
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence includes hygiene and pest control plans, but no direct evidence of design and construction to minimize contamination or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P5"
+      ],
+      "reason": "Evidence mentions waste management in plan, but no direct evidence of actual disposal facilities or practices."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant, but no evidence of how it manages large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P27"
+      ],
+      "reason": "Evidence mentions a grain screening/cleaning plant, but no evidence that large contaminants are actually removed."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P35"
+      ],
+      "reason": "A hygiene plan exists and cleaning procedures are documented, but evidence of actual implementation is limited to plans and schedules; no records of completed cleaning activities are provided. The plan is not proof of actual control."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_66_Wubin_Grain_Trust.docx:P16"
+      ],
+      "reason": "Waste management procedures are explicitly NOT documented in the HACCP plan, and no written procedure or records for waste disposal are maintained. This contradicts the requirement for a system of controls to manage waste."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P6",
+        "2_HACCPPlan_66_Wubin_Grain_Trust.docx:P16"
+      ],
+      "reason": "The hygiene plan covers all areas and is reviewed annually, but the waste management deficiency indicates the system is not fully effective for the operations. No evidence of actual effectiveness is provided."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R14",
+        "7_Bait_Station_Map_Wubin_Grain_Trust.docx:P3"
+      ],
+      "reason": "A pest control system and bait station map exist, but the pest control record indicates the establishment is new (registered Oct 2024) with less than 2 years of records, and no evidence of actual pest control activities is provided."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "The pest control system is in place but the history is too short to demonstrate effectiveness. No evidence of actual pest monitoring or control effectiveness is provided."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36",
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "The registration record claims records are retained for two years, but the pest control record explicitly states the establishment has less than 2 years of records. No actual records are provided to demonstrate compliance."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are claimed to be in English and dated, but no actual records are provided to verify accuracy, legibility, or auditability. The evidence is insufficient."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P8",
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23"
+      ],
+      "reason": "The hygiene plan states the establishment must be kept clean, but there is no evidence of actual cleaning or maintenance. Additionally, a new shed was constructed without DAFF approval, indicating potential non-compliance with establishment condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23",
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "No evidence of pest control effectiveness or absence of contamination. The new shed construction without approval may affect pest control. The pest control record indicates insufficient history."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wubin_Grain_Trust.docx:P3"
+      ],
+      "reason": "A bait station map exists, but no evidence is provided that the stations are fit for purpose and in good working order. No inspection or maintenance records are provided."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23"
+      ],
+      "reason": "No evidence of chemical storage procedures or measures to prevent contamination of plant products. The new shed construction without approval may introduce contamination risks."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P23"
+      ],
+      "reason": "No evidence of chemical storage measures to prevent contamination of preparation areas. The new shed construction without approval may affect preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P17",
+        "9_Traceability_Records_Wubin_Grain_Trust_066.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no explicit traceability records from the property of origin to receival. The transfer docket header is empty, lacking details of incoming product traceability."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P17",
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence describes product flow and record retention but does not demonstrate actual traceability of product while at the establishment. No specific records showing movement or identity maintained during storage/processing."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Wubin_Grain_Trust_066.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "The dispatch/transfer docket template is empty, providing no evidence of traceability to next premises. No completed records showing product transferred to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36",
+        "1_Farm_66_Wubin_Grain_Trust.docx:P17"
+      ],
+      "reason": "Evidence mentions record keeping and product flow but does not describe a system of controls for traceability and integrity, such as labelling or specific record-keeping procedures. No evidence of actual implementation."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P17"
+      ],
+      "reason": "A product flow description is provided but not a formal product flow chart demonstrating movement and maintenance of product integrity. The evidence is insufficient to establish compliance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36"
+      ],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or re-presentation. The record keeping mention is generic and does not address failed goods."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wubin_Grain_Trust.docx:P27"
+      ],
+      "reason": "Evidence shows hygiene and cleaning procedures but does not specifically address maintaining risk for contamination or infestation in the context of phytosanitary security. No evidence of pest monitoring or risk assessment."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not demonstrate a system to minimise substitution risk. No evidence of controls to prevent switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Wubin_Grain_Trust_066.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but indicates they are occasionally attached to shift summaries instead of individual lot files, suggesting inadequate packaging record keeping. No evidence of packaging requirements being met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36",
+        "3_PestControlRecord_66_Wubin_Grain_Trust.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence states records are retained for two years, but the pest control record indicates the establishment is new (registered Oct 2024) with less than 2 years of records. Thus, at least 2 years of traceability records cannot be established."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36"
+      ],
+      "reason": "No evidence of records for rejected or failed export inspection goods, including blending, treatments, or re-presentation. The general record keeping statement does not cover rejected goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P36",
+        "8_Phytosanitary_Security_Procedure_Wubin_Grain_Trust_066.docx:P13"
+      ],
+      "reason": "Evidence mentions records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable. The packaging QC record issue suggests potential legibility/auditability problems."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_66_Wubin_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for wheat and operations are within scope, but does not demonstrate that all importing country requirements are met. No evidence of specific importing country requirements or compliance."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-066/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-066/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-066/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-066/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-066/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "0": 41
+  }
+}

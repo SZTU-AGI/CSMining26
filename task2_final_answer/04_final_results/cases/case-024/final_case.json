@@ -1,0 +1,343 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-024",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Evidence confirms the establishment is registered for export operations (RE-SA-2021-0066) and has the necessary buildings, equipment, facilities, and services for handling and exporting Wheat, indicating it operates within its registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding the suspension status of the establishment's registration at the time of export operations. Missing evidence is insufficient to establish compliance."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations. The site plan may contain this, but it is not provided in the evidence excerpts."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence indicates the Farm Management Plan documents physical infrastructure, equipment, facilities, design standards, and waste management, and the site plan references important features of the registered area and adjoining sites, covering all important features."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly describes the layout of areas where export operations occur, including permanent fixtures and equipment layout. The site plan may contain this, but it is not provided in the evidence excerpts."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. No evidence indicates any change in business structure, management, trading name, address, or contact details. The evidence shows the establishment's current registration details without any indication of changes.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. No evidence indicates any change in business structure, management, trading name, address, or contact details. The evidence shows the establishment's current registration details without any indication of changes.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4",
+          "exact_quote": "Mid-North Lentil Growers is a registered export establishment located at 55 Barrier Highway, Clare SA 5453, SA. The establishment holds RE Number RE-SA-2021-0066 and is registered to handle and export Wheat under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The CP is conditional on 'where required' alterations occurring. No evidence indicates any alterations, extensions, or rearrangements to the establishment. The evidence shows the establishment's current state without any mention of such changes.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' alterations occurring. No evidence indicates any alterations, extensions, or rearrangements to the establishment. The evidence shows the establishment's current state without any mention of such changes.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4",
+          "exact_quote": "Mid-North Lentil Growers is a registered export establishment located at 55 Barrier Highway, Clare SA 5453, SA. The establishment holds RE Number RE-SA-2021-0066 and is registered to handle and export Wheat under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P12",
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations and is maintained in operational condition for handling and exporting Wheat."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan states all areas are maintained in a clean and hygienic condition and recent inspection found no deficiencies, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Mid_North_Lentil_Growers_Pty_Ltd_024.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34"
+      ],
+      "reason": "Phytosanitary procedure mentions security zoning, sealed storage, and pre-load inspections to reduce contamination and infestation risk; hygiene plan confirms clean condition."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls to manage hygiene, including procedures and recent inspection confirming clean condition."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P8",
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan and Farm Management Plan include waste management arrangements and procedures for maintaining clean conditions, indicating a system for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34",
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P31"
+      ],
+      "reason": "Recent internal inspection found all areas clean with no deficiencies, and corrective action procedures are in place, demonstrating effectiveness for the export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mid_North_Lentil_Growers_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_24_Mid_North_Lentil_Growers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Bait station map and pest control record indicate a system for pest control including rodent bait stations."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mid_North_Lentil_Growers_Pty_Ltd.docx:P3",
+        "3_PestControlRecord_24_Mid_North_Lentil_Growers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Pest control system overview and pest control records demonstrate an effective system for the type of operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P26",
+        "3_PestControlRecord_24_Mid_North_Lentil_Growers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Cleaning records are stored for at least two years, and pest control records are maintained, satisfying the retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P26",
+        "3_PestControlRecord_24_Mid_North_Lentil_Growers_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Records are paper-based, dated, and stored for audit; pest control records are maintained, indicating compliance with record requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34",
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Recent inspection found all areas clean and hygienic, and facilities are maintained in operational condition appropriate for handling wheat."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P34",
+        "7_Bait_Station_Map_Mid_North_Lentil_Growers_Pty_Ltd.docx:P3"
+      ],
+      "reason": "Inspection found no deficiencies and pest control measures are in place, supporting that goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mid_North_Lentil_Growers_Pty_Ltd.docx:P3"
+      ],
+      "reason": "Bait station map indicates pest control stations are in place and presumably fit for purpose."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage to prevent contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but no evidence of traceability from the property from which goods were transferred to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but no evidence of traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of a system of controls for traceability and integrity, such as labelling or record keeping."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a system of controls to manage goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_24_Mid_North_Lentil_Growers_Pty_Ltd.docx:P25"
+      ],
+      "reason": "HACCP plan explicitly notes deficiency: no phytosanitary security section, no controls to prevent re-contamination or re-infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_24_Mid_North_Lentil_Growers_Pty_Ltd.docx:P25"
+      ],
+      "reason": "No evidence of controls to minimise risk of substitution; HACCP plan lacks phytosanitary security controls."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of packaging requirements being addressed."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records but no evidence of retention for at least 2 years or of other required records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mid_North_Lentil_Growers_Pty_Ltd_024.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records but no evidence that records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mid_North_Lentil_Growers_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates registration for Wheat but no evidence that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-024/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-024/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-024/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-024/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-024/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 15,
+    "0": 24,
+    "N/A": 2
+  }
+}

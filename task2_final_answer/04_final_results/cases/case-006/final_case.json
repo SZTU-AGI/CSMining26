@@ -1,0 +1,354 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-006",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for canola (grain) and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Esperance_Grain_Handlers_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm the area of the premises registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Esperance_Grain_Handlers_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm all important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Esperance_Grain_Handlers_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided to confirm the layout of areas where export operations occur, including fixtures and equipment."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations/extensions/rearrangements occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Esperance_Grain_Handlers_Ltd.docx:P12",
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the registration record describes infrastructure (steel-frame, concrete flooring) supporting canola export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P27"
+      ],
+      "reason": "The hygiene plan exists and describes cleaning procedures, but there is no evidence of actual implementation or effectiveness. The plan is for apples, while the establishment is registered for canola, creating ambiguity. No records of cleaning activities are provided."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P8"
+      ],
+      "reason": "The hygiene plan mentions waste control but lacks specific procedures for waste treatment and disposal. No evidence of actual waste management practices or records."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P27"
+      ],
+      "reason": "The plan is generic and not tailored to the actual operations (canola vs apples). No evidence of effectiveness, such as audit results or monitoring records."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_06_Esperance_Grain_Handlers_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Esperance_Grain_Handlers_Ltd.docx:P3"
+      ],
+      "reason": "Pest control records and bait station map exist, but no details on the system of controls, such as bait station types, monitoring frequency, or corrective actions. No evidence of effectiveness."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_06_Esperance_Grain_Handlers_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Esperance_Grain_Handlers_Ltd.docx:P3"
+      ],
+      "reason": "No evidence that the pest control system is effective for the operations. The pest control record is not provided in detail, and there is no indication of pest monitoring results or corrective actions."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P35"
+      ],
+      "reason": "Records are stated to be retained for two years, but no actual records are provided to demonstrate compliance. The statement alone is not sufficient evidence."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P35"
+      ],
+      "reason": "No actual records are provided to verify that they are in English, dated, accurate, legible, and auditable. The plan mentions record keeping but does not show actual records."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P27"
+      ],
+      "reason": "The plan states that areas should be clean, but there is no evidence of actual condition. The plan is for apples, not canola, and no cleaning logs are provided."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P27"
+      ],
+      "reason": "No evidence that the establishment is maintained to prevent pest infestation or contamination. The plan mentions cleaning but not pest prevention measures. No inspection records."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Esperance_Grain_Handlers_Ltd.docx:P3"
+      ],
+      "reason": "A bait station map exists, but no evidence that the stations are fit for purpose and in good working order. No maintenance or inspection records."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P5"
+      ],
+      "reason": "No evidence of chemical storage procedures or measures to prevent contamination of plant products. The hygiene plan does not address chemical storage."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Esperance_Grain_Handlers_Ltd.docx:P5"
+      ],
+      "reason": "No evidence of chemical storage procedures or measures to prevent contamination of preparation areas. The hygiene plan does not address chemical storage."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P17",
+        "9_Traceability_Records_Esperance_Grain_Handlers_Ltd_006.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but no specific records of traceability from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P17",
+        "9_Traceability_Records_Esperance_Grain_Handlers_Ltd_006.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "No evidence of traceability records while product is at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Esperance_Grain_Handlers_Ltd_006.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records but does not show they include details of next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but no formal product flow chart is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_06_Esperance_Grain_Handlers_Ltd.docx:P26"
+      ],
+      "reason": "Evidence indicates lack of documented procedures for managing failed goods, including segregation and re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_06_Esperance_Grain_Handlers_Ltd.docx:P26"
+      ],
+      "reason": "Evidence explicitly notes absence of procedures to prevent re-infestation and contamination."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_06_Esperance_Grain_Handlers_Ltd.docx:P26"
+      ],
+      "reason": "Evidence indicates no documented controls to prevent substitution or co-mingling of cleared and non-cleared product."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements or procedures."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records retained for two years but does not specify the types of traceability records required."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_06_Esperance_Grain_Handlers_Ltd.docx:P26"
+      ],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_06_Esperance_Grain_Handlers_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states operations are within registered scope but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-006/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-006/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-006/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-006/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-006/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 2,
+    "0": 37,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP4",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "The registered area and adjoining sites include all important features, including buildings, facilities and services necessary to conduct export operations.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "all important features of the registered area and adjoining sites, including the buildings, facilities and services to conduct the export operations",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "all important features of the registered area and adjoining sites, including the buildings, facilities and services to conduct the export operations"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(2)",
+          "quote": "An establishment must have the buildings, equipment, facilities and services that are necessary to ensure that export operations in relation to prescribed plants or plant products can be carried out in a way that will ensure that the requirements of the Act are complied with."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(3)",
+          "quote": "An establishment must have handwashing and toilet facilities."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(a)(ii)",
+          "quote": "adequate lighting and ventilation; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "quote": "to facilitate effective cleaning; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations; and"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(d)",
+          "quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:4-2(2)",
+        "rules2021:4-2(3)",
+        "rules2021:4-2(4)(a)(ii)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

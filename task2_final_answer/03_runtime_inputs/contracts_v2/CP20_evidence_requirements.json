@@ -1,0 +1,111 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP20",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-G3",
+      "atom_id": "A1",
+      "proposition_to_establish": "The system of controls at the property ensures that prescribed plants and plant products are not, or not likely to be, infested by pests or contaminated, and that pests and contaminants are controlled in a manner appropriate for the export operations and the kind of prescribed plants or plant products.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:3-3A(1)(b)",
+        "rules2021:3-3A(2)(b)"
+      ],
+      "source_group_ids": [
+        "G3"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)(b)",
+          "quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(b)",
+          "quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        }
+      ],
+      "reason": ""
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-A1-G4",
+      "atom_id": "A1",
+      "proposition_to_establish": "The system of controls at the establishment ensures that prescribed plants and plant products are not, or not likely to be, infested by pests or contaminated, and that pests and contaminants are controlled in a manner appropriate for the export operations and the kind of prescribed plants or plant products.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "source_group_ids": [
+        "G4"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-G3",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G3"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:3-3A(1)(b)",
+        "rules2021:3-3A(2)(b)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-A1-G4",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G4"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

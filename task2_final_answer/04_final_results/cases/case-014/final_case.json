@@ -1,0 +1,354 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-014",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No evidence directly addresses whether registration is not suspended at the time of operations."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17"
+      ],
+      "reason": "Site plan shows the registered area including all infrastructure and product flow contained within it."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17",
+        "5_Farm-Site-Plan_Southern_Tablelands_Lupins_Co.docx:P7"
+      ],
+      "reason": "Site plan and description include important features such as buildings, equipment, and layout."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17"
+      ],
+      "reason": "Site plan shows layout of export operation areas, permanent fixtures, and equipment."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Southern_Tablelands_Lupins_Co.docx:P12",
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P19"
+      ],
+      "reason": "The management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and the registration record describes infrastructure (steel-frame, concrete flooring) supporting lupin export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting conditions at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P8"
+      ],
+      "reason": "The hygiene plan states the establishment is maintained in a clean and hygienic condition, but there is no specific evidence about design and construction facilitating effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P8"
+      ],
+      "reason": "The hygiene plan mentions maintaining clean conditions, but no evidence specifically addresses design and construction to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P8"
+      ],
+      "reason": "Evidence shows a hygiene plan exists but no evidence of actual implementation or effectiveness; plan is not proof of current condition."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P5",
+        "4_Farm-Management-Plan_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No specific evidence of waste control and disposal system; only general references to waste management in management plan."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P27"
+      ],
+      "reason": "No evidence that the hygiene and waste control system is effective for the actual operations; plan mentions procedures but no verification of effectiveness."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "Evidence mentions rodent surveillance and bait stations but no details on system of controls for pests and contaminants; no evidence of implementation."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No evidence that pest control system is effective; only mentions surveillance and contractor verification but no records or effectiveness assessment."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36"
+      ],
+      "reason": "Evidence states records retained for minimum two years but does not specify records for hygiene, waste, and pest control; no specific records shown."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36"
+      ],
+      "reason": "No evidence that records are in English, dated, accurate, legible, and auditable; only general statement about record retention."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Southern_Tablelands_Lupins_Co.docx:P27"
+      ],
+      "reason": "Plan states intention to maintain clean condition but no evidence of actual current condition; no cleaning logs or inspection records."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No evidence that establishment condition prevents pest infestation or contamination; only mentions maintenance of clean areas but no verification."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "Evidence mentions bait stations but no evidence they are fit for purpose and in good working order; no inspection or maintenance records."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No evidence regarding chemical storage to prevent contamination of plant products; only general management plan."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "No evidence regarding chemical storage to prevent contamination of preparation areas; no specific controls mentioned."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17",
+        "9_Traceability_Records_Southern_Tablelands_Lupins_Co_014.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but does not explicitly document traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17",
+        "9_Traceability_Records_Southern_Tablelands_Lupins_Co_014.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly demonstrate traceability while product is at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Southern_Tablelands_Lupins_Co_014.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but does not provide details confirming traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36",
+        "9_Traceability_Records_Southern_Tablelands_Lupins_Co_014.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence indicates records are kept but does not describe a system of controls for traceability and integrity, such as labelling and record keeping procedures."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not provide a formal product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_14_Southern_Tablelands_Lupins_Co.docx:P25"
+      ],
+      "reason": "Evidence indicates a deficiency in the HACCP plan regarding controls for failed goods; no evidence of a system to manage goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_14_Southern_Tablelands_Lupins_Co.docx:P25"
+      ],
+      "reason": "Evidence indicates a deficiency in phytosanitary security controls to prevent re-contamination or re-infestation, so risk for contamination or infestation is not adequately maintained."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_14_Southern_Tablelands_Lupins_Co.docx:P25"
+      ],
+      "reason": "No evidence of controls to prevent substitution or switching of goods; the HACCP plan deficiency suggests lack of such controls."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P17"
+      ],
+      "reason": "Evidence does not mention packaging requirements or procedures for packaging of export products."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36",
+        "3_PestControlRecord_14_Southern_Tablelands_Lupins_Co.xlsx:Cover:R8"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years and pest control records cover 2022-2025, demonstrating at least two years of traceability records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36"
+      ],
+      "reason": "Evidence mentions retention of records but does not specifically address records for rejected or failed goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_14_Southern_Tablelands_Lupins_Co.docx:P4"
+      ],
+      "reason": "Evidence indicates registration for lupins but does not demonstrate that all importing country requirements are met; no specific evidence of compliance with importing country requirements."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-014/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-014/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-014/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-014/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-014/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 6,
+    "0": 33,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-057",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms registration is not suspended at the time of operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence mentions important features but does not explicitly identify the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P12"
+      ],
+      "reason": "Site plan covers important features and management plan confirms buildings, equipment, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence mentions important features but does not explicitly describe layout of export operation areas and equipment."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring. Evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring. Evidence explicitly states no alterations have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P12",
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support export of sesame."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, with cleaning records and corrective actions, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Pest management with bait stations and clean maintenance supports minimisation of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No specific evidence about waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence about inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence about screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence about removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene, covers all areas, assigns responsibilities, and includes cleaning procedures and records."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes waste control and disposal as part of the system of controls, with procedures and records for cleaning and waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The plan is tailored to the establishment's operations (packing and cold-chain for melons), includes step-by-step procedures for each area, and has verification and corrective action mechanisms, demonstrating effectiveness."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_57_Karratha_Specialty_Crops_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management system with 16 mapped bait stations, bird surveillance, trend review, and escalation actions, indicating a system to manage pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped stations, trend review, and completed escalation actions, demonstrating effectiveness for the establishment's operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Explicit statement that records are retained for a minimum of two years from the date of the relevant export activity."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are maintained on site and in the business management system, and the declaration confirms accuracy; the plan references compliance with Rule 4-7B which includes record requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P40"
+      ],
+      "reason": "The plan requires all areas to be maintained clean and hygienic, with specific procedures for the Pre-Cool Chamber and verification via cleaning logs and supervisor sign-offs."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The pest control evidence indicates areas are maintained clean and free of harbourage, and the hygiene plan ensures cleanliness, collectively preventing pest infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Karratha_Specialty_Crops_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows 16 mapped stations and contractor verification, indicating they are operational and monitored, thus fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of plant products by chemicals."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Karratha_Specialty_Crops_Pty_Ltd_057.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer dockets exist, but no specific records of traceability from the property of origin to receival are provided."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Karratha_Specialty_Crops_Pty_Ltd_057.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer dockets, but no records demonstrating traceability while at the establishment are provided."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Karratha_Specialty_Crops_Pty_Ltd_057.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer dockets exist but no evidence of traceability to the next premises is provided."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records for export operations but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but no product flow chart is provided."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Karratha_Specialty_Crops_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence mentions maintaining clean and hygienic conditions but does not specifically address risk of contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of measures to minimize risk of substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Karratha_Specialty_Crops_Pty_Ltd_057.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not establish compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for two years but does not specify the types of traceability records required."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_57_Karratha_Specialty_Crops_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-057/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-057/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-057/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-057/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-057/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 15,
+    "0": 24,
+    "N/A": 2
+  }
+}

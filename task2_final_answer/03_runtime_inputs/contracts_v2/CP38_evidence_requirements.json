@@ -1,0 +1,59 @@
+{
+  "schema": "freca-core-evidence-requirements-v2-multi-atom-v1",
+  "cp_id": "CP38",
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "proposition_to_establish": "Traceability records, including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable, are retained for at least 2 years.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:11-10(3)",
+        "rules2021:11-5(2)"
+      ],
+      "source_group_ids": [],
+      "seed_relation": "FALLBACK_ATOM_BASIS",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-10(3)",
+          "quote": "Subject to subsection (3A), an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-5(2)",
+          "quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be)."
+        }
+      ],
+      "reason": ""
+    }
+  ],
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-A1-FALLBACK",
+      "atom_id": "A1",
+      "source_group_ids": [],
+      "basis_candidate_ids": [
+        "rules2021:11-10(3)",
+        "rules2021:11-5(2)"
+      ],
+      "seed_relation": "FALLBACK_ATOM_BASIS"
+    }
+  ],
+  "pilot_only": false,
+  "notes": [
+    "EvidenceRequirements remain proof facets, not contract leaves.",
+    "Each facet is scoped to one frozen contract atom.",
+    "Observed production satisfaction operators: ATOM/ALL."
+  ],
+  "answer_comparator_used": false
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:9-23(1)(a)(i)",
+        "rules2021:9-23(1)(a)(ii)",
+        "rules2021:9-23(1)(a)(iii)"
+      ],
+      "relation": "CUMULATIVE",
+      "criterion_quote": "contaminate prescribed plant or plant products",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-23(1)(a)",
+          "role": "CONNECTOR",
+          "quote": "an authorised officer is reasonably satisfied that the following requirements are met in relation to the cargo spaces of the vessel into or onto which prescribed plants or plant products are intended to be loaded:"
+        }
+      ],
+      "reason": "The three subparagraphs are listed as separate requirements under the same introductory clause, indicating that each must be satisfied cumulatively for the cargo spaces to be approved."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:9-31(1)(a)",
+        "rules2021:9-31(1)(b)",
+        "rules2021:9-31(1)(c)"
+      ],
+      "relation": "CUMULATIVE",
+      "criterion_quote": "contaminate prescribed plant or plant products",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:9-31(1)",
+          "role": "CONNECTOR",
+          "quote": "An authorised officer must not approve a container that is intended to be loaded with prescribed plants or plant products to which subsection (2) applies unless an authorised officer is reasonably satisfied that the following requirements are met:"
+        }
+      ],
+      "reason": "The three paragraphs are listed as separate requirements under the same introductory clause, indicating that each must be satisfied cumulatively for the container to be approved."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:9-23(1)(a)(i)",
+        "rules2021:9-31(1)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "contaminate prescribed plant or plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "contaminate prescribed plant or plant products"
+        }
+      ],
+      "reason": "Both provisions address the same underlying concern of preventing pest infestation of plants or plant products, albeit in different contexts (cargo spaces vs containers). They support the same benchmark criterion without being cumulative requirements for a single approval."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:9-23(1)(a)(ii)",
+        "rules2021:9-31(1)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "contaminate prescribed plant or plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "contaminate prescribed plant or plant products"
+        }
+      ],
+      "reason": "Both provisions address the same underlying concern of preventing contamination of plants or plant products, albeit in different contexts (cargo spaces vs containers). They support the same benchmark criterion without being cumulative requirements for a single approval."
+    },
+    {
+      "group_id": "G5",
+      "member_candidate_ids": [
+        "rules2021:9-23(1)(a)(iii)",
+        "rules2021:9-31(1)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "contaminate prescribed plant or plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "contaminate prescribed plant or plant products"
+        }
+      ],
+      "reason": "Both provisions address the same underlying concern of maintaining the integrity of plants or plant products, albeit in different contexts (cargo spaces vs containers). They support the same benchmark criterion without being cumulative requirements for a single approval."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "Within each approval context (cargo spaces and containers), the subparagraphs/paragraphs are cumulative requirements. Across contexts, corresponding provisions support the same benchmark criterion rather than being cumulative."
+}

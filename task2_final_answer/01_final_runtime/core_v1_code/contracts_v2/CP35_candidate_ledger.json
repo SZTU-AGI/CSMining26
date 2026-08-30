@@ -1,0 +1,3986 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP35",
+    "canonical_cp_id": "CP35",
+    "element": "Element-4",
+    "subelement": "4.2 System of controls – phytosanitary security",
+    "criterion": "maintaining risk for contamination or infestation",
+    "sheet": "All Elements",
+    "column": 35
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:2-12(3)(f)",
+      "citation": "2-12(3)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "Phytosanitary certificates and phytosanitary certificates for re-export Division 2",
+      "label": "(f)",
+      "pages": [
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates and phytosanitary certificates for re-export Division 2\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(f) the plants or plant products have not been exposed to infestation by pests or\ncontamination that could result in any of the matters stated in the original\nphytosanitary certificate being incorrect.",
+      "page": 31,
+      "page_end": 31,
+      "score": 0.062349324975892004,
+      "rrf_score": 0.062349324975892004,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 10.006061283785641,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 9.093582319060555,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 6.915655458025631,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 16.009237777086188,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(c)",
+      "citation": "4-2(4)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(c) to minimise the possibility of infestation or contamination of prescribed\nplants or plant products during export operations; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.048651507139079855,
+      "rrf_score": 0.048651507139079855,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 12.728922086094723,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 12.507142735345557,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.92295149537151,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(a)",
+      "citation": "4-9(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(a) to manage the risk of contamination by large contaminants; and",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(a) to manage the risk of contamination by large contaminants; and",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04814747488101534,
+      "rrf_score": 0.04814747488101534,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 14.851834636832617,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 12.050309346641495,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 12.445532391617473,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(i)",
+      "citation": "9-23(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(i) is likely to result in the infestation or contamination of any plants or\nplant products in or on the vessel; or",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.04713064713064713,
+      "rrf_score": 0.04713064713064713,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 12.259735865448011,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 11.975855668075202,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 12.426564913624986,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(3)(a)",
+      "citation": "4-9(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(3)",
+      "child_ids": [],
+      "own_text": "(a) infestation by pests; or",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(3) If the plants or plant products fail an assessment because of:\n(a) infestation by pests; or",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.04226348364279399,
+      "rrf_score": 0.04226348364279399,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 9.165672413010233,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.450581700681129,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 27,
+          "raw_score": 7.796357064484714,
+          "rrf_contribution": 0.011494252873563218
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-11",
+      "citation": "2-11",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Phytosanitary certificate, or phytosanitary certificate for re-export, may be",
+      "label": "2-11",
+      "pages": [
+        29
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "issued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "text": "2-11 Phytosanitary certificate, or phytosanitary certificate for re-export, may be\nPhytosanitary certificate, or phytosanitary certificate for re-export, may be\nissued in relation to non-prescribed plants or plant products\nFor the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate, or a phytosanitary certificate for re-export, may be issued in relation\nto non-prescribed plants or plant products that are to be, or that have been,\nexported.",
+      "page": 29,
+      "page_end": 29,
+      "score": 0.041679448258353874,
+      "rrf_score": 0.041679448258353874,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 1.8773456716775079,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 7.230556738639496,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 9.107902410317005,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12",
+      "citation": "2-12",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "When phytosanitary certificate, or phytosanitary certificate for re-export,",
+      "label": "2-12",
+      "pages": [
+        30
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:2-12(1)",
+        "rules2021:2-12(2)",
+        "rules2021:2-12(3)"
+      ],
+      "own_text": "in relation to prescribed plants or plant products may be issued",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nWhen phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to prescribed plants or plant products may be issued",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.04144052464947987,
+      "rrf_score": 0.04144052464947987,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 28,
+          "raw_score": 1.8630259703278953,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.3655549376929565,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 9.228580908020852,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)(a)",
+      "citation": "11-5(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5(3)",
+      "child_ids": [],
+      "own_text": "(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "text": "11-5 Records to be retained by exporter etc.\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:\n(a) the application made by the person for the phytosanitary certificate or\nphytosanitary certificate for re-export;",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.03897401732178547,
+      "rrf_score": 0.03897401732178547,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 2.6571481707742457,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 6.52132848529758,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 8.233259539679803,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-3(3)",
+      "citation": "4-3(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        46
+      ],
+      "parent_id": "rules2021:4-3",
+      "child_ids": [],
+      "own_text": "(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "text": "4-3 Other requirements\nSystem of controls must be in place\n(3) There must be a system of controls in place at the establishment in relation to the\nexport operations and the plants or plant products for which the establishment is\nto be registered to ensure that the conditions prescribed by sections 4-7A and\n4-7B and, if applicable, section 4-8A will be complied with in relation to those\noperations and the plants or plant products.",
+      "page": 46,
+      "page_end": 46,
+      "score": 0.032266458495966696,
+      "rrf_score": 0.032266458495966696,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 11.696898711344177,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 12.74342840427571,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-1(3)",
+      "citation": "3-1(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "System of controls must be in place",
+      "label": "(3)",
+      "pages": [
+        34,
+        35
+      ],
+      "parent_id": "rules2021:3-1",
+      "child_ids": [],
+      "own_text": "(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "text": "3-1 Other requirements for accreditation\nSystem of controls must be in place\n(3) For a property to be accredited for operations to prepare prescribed plants or\nplant products for export, there must be a system of controls in place at the\nproperty in relation to those operations, and the plants or plant products for\nwhich the property is to be accredited, to ensure that the conditions prescribed by\nsections 3-3A and 3-3B will be complied with in relation to those operations and\nthe plants or plant products.\nAccredited properties Chapter 3",
+      "page": 34,
+      "page_end": 35,
+      "score": 0.03128054740957967,
+      "rrf_score": 0.03128054740957967,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 10.71392622427258,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 12.333073451456318,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(b)",
+      "citation": "9-4(5)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        82
+      ],
+      "parent_id": "rules2021:9-4(5)",
+      "child_ids": [],
+      "own_text": "(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "text": "9-4 Audit reports\n(5) The audit report may also:\n(b) identify any risk of a potential non-compliance with a requirement to which\nan audit may relate.",
+      "page": 82,
+      "page_end": 82,
+      "score": 0.030303030303030304,
+      "rrf_score": 0.030303030303030304,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 6.420265669525467,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 7.078392752614133,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-27",
+      "citation": "8-27",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Security of official marks",
+      "label": "8-27",
+      "pages": [
+        76
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is in possession of an official mark that has not been applied to\nany plants or plant products, as permitted by section 8-23, must ensure that the\nofficial mark is stored securely.",
+      "text": "8-27 Security of official marks\nSecurity of official marks\nA person who is in possession of an official mark that has not been applied to\nany plants or plant products, as permitted by section 8-23, must ensure that the\nofficial mark is stored securely.",
+      "page": 76,
+      "page_end": 76,
+      "score": 0.030117753623188408,
+      "rrf_score": 0.030117753623188408,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 8.146033292484134,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 8.674681099433654,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)(c)",
+      "citation": "9-31(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(3)",
+      "child_ids": [],
+      "own_text": "(c) the container is not in a condition that could result in infestation of the\nplants or plant products.",
+      "text": "9-31 Requirements for approval of container\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:\n(c) the container is not in a condition that could result in infestation of the\nplants or plant products.",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.029631255487269532,
+      "rrf_score": 0.029631255487269532,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 6.403294843985231,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 5.372114967522295,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-4(5)(a)(iii)",
+      "citation": "9-4(5)(a)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        81
+      ],
+      "parent_id": "rules2021:9-4(5)(a)",
+      "child_ids": [],
+      "own_text": "(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "text": "9-4 Audit reports\n(a) include recommendations that any of the following actions be taken:\n(iii) action to address the risk of a potential non-compliance with a\nrequirement to which an audit may relate;",
+      "page": 81,
+      "page_end": 81,
+      "score": 0.029631255487269532,
+      "rrf_score": 0.029631255487269532,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 6.149668240395653,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 6.532738102058882,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-22(4)(b)",
+      "citation": "9-22(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        95,
+        96
+      ],
+      "parent_id": "rules2021:9-22(4)",
+      "child_ids": [],
+      "own_text": "(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "text": "9-22 Authorised officer may approve bulk vessel\n(4) An authorised officer need not:\n(b) inspect areas in or on the vessel where stores are handled or food is\nprepared unless substantial pest infestation, or pests suspected to be a\nspecies of the genus Trogoderma, were detected in the course of inspecting\ndry stores in or on the vessel.\nChapter 9 Powers and officials\nPart 5 Bulk vessel approvals\nOther powers that may be exercised for the purpose of deciding whether to",
+      "page": 95,
+      "page_end": 96,
+      "score": 0.028985507246376812,
+      "rrf_score": 0.028985507246376812,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 4.293411400193561,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 5.0951210352276295,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-33",
+      "citation": "8-33",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Security of official marking devices",
+      "label": "8-33",
+      "pages": [
+        78
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is in possession of an official marking device, as permitted by\nsection 8-32, must ensure that the official marking device is stored securely when\nit is not being used.",
+      "text": "8-33 Security of official marking devices\nSecurity of official marking devices\nA person who is in possession of an official marking device, as permitted by\nsection 8-32, must ensure that the official marking device is stored securely when\nit is not being used.",
+      "page": 78,
+      "page_end": 78,
+      "score": 0.02886002886002886,
+      "rrf_score": 0.02886002886002886,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 8.202923698817402,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 8.202923698817402,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-13",
+      "citation": "2-13",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "When phytosanitary certificate, or phytosanitary certificate for re-export,",
+      "label": "2-13",
+      "pages": [
+        31,
+        32
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "in relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "text": "2-13 When phytosanitary certificate, or phytosanitary certificate for re-export,\nWhen phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to non-prescribed plants or plant products ceases to be in\nforce\nFor the purposes of paragraph 72(4)(c) of the Act, a phytosanitary certificate, or\na phytosanitary certificate for re-export, in relation to non-prescribed plants or\nplant products that have not been exported ceases to be in force if the validity\nperiod for the plants or plant products has ended.\nChapter 2 Exporting goods\nPart 3 Government certificates\nDivision 3 Issue of government certificates",
+      "page": 31,
+      "page_end": 32,
+      "score": 0.028370221327967807,
+      "rrf_score": 0.028370221327967807,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 6.777056886027913,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 8.579981300274815,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)(ii)",
+      "citation": "2-12(3)(e)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        30,
+        31
+      ],
+      "parent_id": "rules2021:2-12(3)(e)",
+      "child_ids": [],
+      "own_text": "(ii) a certified copy of the original phytosanitary certificate; and\nExporting goods Chapter 2\nGovernment certificates Part 3",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(e) the plants or plant products are accompanied by:\n(ii) a certified copy of the original phytosanitary certificate; and\nExporting goods Chapter 2\nGovernment certificates Part 3",
+      "page": 30,
+      "page_end": 31,
+      "score": 0.02819138376017471,
+      "rrf_score": 0.02819138376017471,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 6.882358007617594,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 8.295656827655549,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3",
+      "citation": "7-3",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Circumstances for varying export permit or conditions of export permit",
+      "label": "7-3",
+      "pages": [
+        60
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:7-3(a)",
+        "rules2021:7-3(b)",
+        "rules2021:7-3(c)",
+        "rules2021:7-3(d)",
+        "rules2021:7-3(e)",
+        "rules2021:7-3(f)",
+        "rules2021:7-3(g)"
+      ],
+      "own_text": "For the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nCircumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.02817460317460317,
+      "rrf_score": 0.02817460317460317,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 2.9016436772416565,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 2.041941265963751,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)(i)",
+      "citation": "2-12(3)(e)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)(e)",
+      "child_ids": [],
+      "own_text": "(i) a phytosanitary certificate (the original phytosanitary certificate) in\nrelation to the plants or plant products that was issued by the country\nof origin of the plants or plant products, that meets importing country\nrequirements and that has not expired; or",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(e) the plants or plant products are accompanied by:\n(i) a phytosanitary certificate (the original phytosanitary certificate) in\nrelation to the plants or plant products that was issued by the country\nof origin of the plants or plant products, that meets importing country\nrequirements and that has not expired; or",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027799227799227798,
+      "rrf_score": 0.027799227799227798,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 6.7943673814827825,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 8.250140888340534,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(2)",
+      "citation": "2-12(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Phytosanitary certificates—plants or plant products that have been exported",
+      "label": "(2)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(2)(a)",
+        "rules2021:2-12(2)(b)"
+      ],
+      "own_text": "(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates—plants or plant products that have been exported\nin relation to prescribed plants or plant products may be issued\n(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027777777777777776,
+      "rrf_score": 0.027777777777777776,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 6.707756418812176,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 8.31522878378545,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(d)",
+      "citation": "2-12(3)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(d) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet importing\ncountry requirements relating to the plants or plant products; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(d) a phytosanitary certificate, or a phytosanitary certificate for re-export, in\nrelation to the plants or plant products is required to meet importing\ncountry requirements relating to the plants or plant products; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027598020555767037,
+      "rrf_score": 0.027598020555767037,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 6.6423521607752445,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 8.456899803640162,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)",
+      "citation": "9-11(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11",
+      "child_ids": [
+        "rules2021:9-11(2)(depending on where the pests or contaminants were detected)",
+        "rules2021:9-11(2)(a)",
+        "rules2021:9-11(2)(b)"
+      ],
+      "own_text": "(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.027212143650499815,
+      "rrf_score": 0.027212143650499815,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 2.821766182677568,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 1.9339056609929464,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)",
+      "citation": "2-12(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Phytosanitary certificates—plants or plant products that are to be exported",
+      "label": "(1)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(1)(a)",
+        "rules2021:2-12(1)(b)"
+      ],
+      "own_text": "(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nPhytosanitary certificates—plants or plant products that are to be exported\nin relation to prescribed plants or plant products may be issued\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.027031963470319637,
+      "rrf_score": 0.027031963470319637,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 6.651246530014294,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 8.242579342560129,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-16(1)(b)",
+      "citation": "8-16(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        70
+      ],
+      "parent_id": "rules2021:8-16(1)",
+      "child_ids": [],
+      "own_text": "(b) printed in black, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "text": "8-16 Official mark—carton seal\n(1) A mark:\n(b) printed in black, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "page": 70,
+      "page_end": 70,
+      "score": 0.025833333333333333,
+      "rrf_score": 0.025833333333333333,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 6.627325640309193,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 7.9090709008693585,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)(b)",
+      "citation": "2-12(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(1)",
+      "child_ids": [],
+      "own_text": "(b) an assessment of the plants or plant products has been carried out.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:\n(b) an assessment of the plants or plant products has been carried out.",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.025645240835114255,
+      "rrf_score": 0.025645240835114255,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 6.371677451313261,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 7.953008503181042,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(e)",
+      "citation": "2-12(3)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [
+        "rules2021:2-12(3)(e)(i)",
+        "rules2021:2-12(3)(e)(ii)"
+      ],
+      "own_text": "(e) the plants or plant products are accompanied by:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(e) the plants or plant products are accompanied by:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02564102564102564,
+      "rrf_score": 0.02564102564102564,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 6.2064124033524735,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 7.987472606518214,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)(c)(ii)",
+      "citation": "9-31(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "text": "9-31 Requirements for approval of container\n(c) cereal grains, pulses, oil seeds or nuts:\n(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.025003906860446942,
+      "rrf_score": 0.025003906860446942,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 6.201790001307881,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 7.908382618940079,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-5(b)",
+      "citation": "9-5(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        83
+      ],
+      "parent_id": "rules2021:9-5",
+      "child_ids": [],
+      "own_text": "(b) in the case of prescribed plants or plant products—an application has been made\nfor an export permit for the plants or plant products, or to vary an export permit\nfor the plants or plant products (see paragraph 241(c) of the Act).",
+      "text": "9-5 Circumstances in which assessment may be required or permitted\nFor the purposes of subsection 277(2) of the Act, the Secretary may require or\npermit an assessment of plants or plant products to be carried out if:\n(b) in the case of prescribed plants or plant products—an application has been made\nfor an export permit for the plants or plant products, or to vary an export permit\nfor the plants or plant products (see paragraph 241(c) of the Act).",
+      "page": 83,
+      "page_end": 83,
+      "score": 0.02478580171358629,
+      "rrf_score": 0.02478580171358629,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 2.7046775441456363,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 1.8672217845175738,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(d)",
+      "citation": "9-10(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)",
+      "child_ids": [],
+      "own_text": "(d) for an assessment of prescribed plants or plant products that are packed\ninto packages for export, or that are intended to be packed into packages\nfor export—the packages for export meet the requirements in\nsubsections 4-11(2) to (5).",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(2) An assessor must not decide that plants or plant products pass an assessment\nunless:\n(d) for an assessment of prescribed plants or plant products that are packed\ninto packages for export, or that are intended to be packed into packages\nfor export—the packages for export meet the requirements in\nsubsections 4-11(2) to (5).",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.02426470588235294,
+      "rrf_score": 0.02426470588235294,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 2.6451556503584794,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 25,
+          "raw_score": 1.8733455586018688,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(2)(c)(ii)",
+      "citation": "9-23(2)(c)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-23(2)(c)",
+      "child_ids": [],
+      "own_text": "(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "text": "9-23 Requirements for approval of bulk vessel\n(c) cereal grains, pulses, oil seeds or nuts:\n(ii) in relation to which the importing country requires a phytosanitary\ncertificate or a phytosanitary certificate for re-export.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.02426470588235294,
+      "rrf_score": 0.02426470588235294,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 6.153531094861544,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 7.847135182778078,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)",
+      "citation": "2-12(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12",
+      "child_ids": [
+        "rules2021:2-12(3)(a)",
+        "rules2021:2-12(3)(b)",
+        "rules2021:2-12(3)(c)",
+        "rules2021:2-12(3)(d)",
+        "rules2021:2-12(3)(e)",
+        "rules2021:2-12(3)(f)"
+      ],
+      "own_text": "(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\nin relation to prescribed plants or plant products may be issued\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02424331472230385,
+      "rrf_score": 0.02424331472230385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 23,
+          "raw_score": 6.143109380966639,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 7.907810661350754,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(1)(a)",
+      "citation": "2-12(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(1)",
+      "child_ids": [],
+      "own_text": "(a) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(1) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that are\nto be exported if:\n(a) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.0238230289279637,
+      "rrf_score": 0.0238230289279637,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 6.143109380966639,
+          "rrf_contribution": 0.012195121951219513
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 26,
+          "raw_score": 7.820626044895097,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(a)",
+      "citation": "2-12(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(a) the plants or plant products consist of imported plants or plant products\nonly; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(a) the plants or plant products consist of imported plants or plant products\nonly; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023676099747828524,
+      "rrf_score": 0.023676099747828524,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 26,
+          "raw_score": 6.0891593838355265,
+          "rrf_contribution": 0.011627906976744186
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 23,
+          "raw_score": 7.885194913650095,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(c)",
+      "citation": "2-12(3)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(c) an assessment of the plants or plant products has been carried out; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(c) an assessment of the plants or plant products has been carried out; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023669467787114845,
+      "rrf_score": 0.023669467787114845,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 25,
+          "raw_score": 6.119306944145685,
+          "rrf_contribution": 0.011764705882352941
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 24,
+          "raw_score": 7.860030286996344,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(2)(b)",
+      "citation": "2-12(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(2)",
+      "child_ids": [],
+      "own_text": "(b) an assessment of the plants or plant products had been carried out before\nthe plants or plant products were exported.",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(2) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate may be issued in relation to prescribed plants or plant products that\nhave been exported if:\n(b) an assessment of the plants or plant products had been carried out before\nthe plants or plant products were exported.",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.023581634068525453,
+      "rrf_score": 0.023581634068525453,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 6.149754512252207,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 29,
+          "raw_score": 7.757226877225481,
+          "rrf_contribution": 0.011235955056179775
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-17(1)(b)",
+      "citation": "8-17(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        71
+      ],
+      "parent_id": "rules2021:8-17(1)",
+      "child_ids": [],
+      "own_text": "(b) printed in green, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "text": "8-17 Official mark—carton seal: plants or plant products opened for assessment\n(1) A mark:\n(b) printed in green, except for the Coat of Arms which is printed in red, on a\nwhite or security background; and",
+      "page": 71,
+      "page_end": 71,
+      "score": 0.023268398268398268,
+      "rrf_score": 0.023268398268398268,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 24,
+          "raw_score": 6.132781053504883,
+          "rrf_contribution": 0.011904761904761904
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 7.788579308988485,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:2-12(3)(b)",
+      "citation": "2-12(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        30
+      ],
+      "parent_id": "rules2021:2-12(3)",
+      "child_ids": [],
+      "own_text": "(b) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "text": "2-12 When phytosanitary certificate, or phytosanitary certificate for re-export,\n(3) For the purposes of subsections 62(1) and (2) of the Act, a phytosanitary\ncertificate for re-export may be issued in relation to prescribed plants or plant\nproducts that are to be, or that have been, exported if:\n(b) an export permit for the plants or plant products is in force and is not\nsuspended; and",
+      "page": 30,
+      "page_end": 30,
+      "score": 0.02260536398467433,
+      "rrf_score": 0.02260536398467433,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 27,
+          "raw_score": 5.931398960546321,
+          "rrf_contribution": 0.011494252873563218
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 7.736413863171133,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-13(a)",
+      "citation": "8-13(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        68
+      ],
+      "parent_id": "rules2021:8-13",
+      "child_ids": [],
+      "own_text": "(a) is a high security bolt seal; and",
+      "text": "8-13 Official mark—bolt seal\nA seal that:\n(a) is a high security bolt seal; and",
+      "page": 68,
+      "page_end": 68,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 7.517935754645415,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-25(b)(i)",
+      "citation": "9-25(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        98
+      ],
+      "parent_id": "rules2021:9-25(b)",
+      "child_ids": [],
+      "own_text": "(i) for 28 days; or",
+      "text": "9-25 Period of effect of bulk vessel approval\n(b) remains in force (unless it is revoked earlier under section 9-29):\n(i) for 28 days; or",
+      "page": 98,
+      "page_end": 98,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 2.9472479655043817,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-12",
+      "citation": "9-12",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Validity period for plants or plant products",
+      "label": "9-12",
+      "pages": [
+        86
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-12(1)",
+        "rules2021:9-12(2)",
+        "rules2021:9-12(3)",
+        "rules2021:9-12(4)"
+      ],
+      "own_text": "",
+      "text": "9-12 Validity period for plants or plant products\nValidity period for plants or plant products",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 1.9799091242503202,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-34(1)(b)(i)",
+      "citation": "9-34(1)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-34(1)(b)",
+      "child_ids": [],
+      "own_text": "(i) for 90 days; or",
+      "text": "9-34 Period of effect of container approval\n(b) remains in force (unless it is revoked earlier under section 9-36):\n(i) for 90 days; or",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 2.9472479655043817,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(a)",
+      "citation": "7-3(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(a) the integrity of the plants or plant products cannot be ensured;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(a) the integrity of the plants or plant products cannot be ensured;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 1.9787102116353252,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-10(2)(a)",
+      "citation": "7-10(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        63
+      ],
+      "parent_id": "rules2021:7-10(2)",
+      "child_ids": [],
+      "own_text": "(a) request the applicant for an export permit for the plants or plant products to\narrange for an authorised officer to carry out an additional inspection of a\nbulk vessel or container; or",
+      "text": "7-10 Other powers of the Secretary in considering applications\n(2) For the purposes of paragraph 241(g) of the Act, the Secretary may:\n(a) request the applicant for an export permit for the plants or plant products to\narrange for an authorised officer to carry out an additional inspection of a\nbulk vessel or container; or",
+      "page": 63,
+      "page_end": 63,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 2.8584080029006476,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(d)",
+      "citation": "7-3(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(d) importing country requirements relating to the plants or plant products\nhave changed since the export permit was issued;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(d) importing country requirements relating to the plants or plant products\nhave changed since the export permit was issued;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 1.930641757238474,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(1)(b)",
+      "citation": "11-5(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5(1)",
+      "child_ids": [],
+      "own_text": "(b) each application by the exporter for an export permit for prescribed plants\nor plant products;",
+      "text": "11-5 Records to be retained by exporter etc.\n(1) An exporter of prescribed plants or plant products must retain the following\nrecords:\n(b) each application by the exporter for an export permit for prescribed plants\nor plant products;",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 2.7050011562823664,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-12(4)(b)",
+      "citation": "9-12(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        87
+      ],
+      "parent_id": "rules2021:9-12(4)",
+      "child_ids": [],
+      "own_text": "(b) the assessor decides that a new validity period for the plants or plant\nproducts applies.",
+      "text": "9-12 Validity period for plants or plant products\n(4) The validity period for plants or plant products ends if:\n(b) the assessor decides that a new validity period for the plants or plant\nproducts applies.",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 1.9296603126269511,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(c)",
+      "citation": "7-3(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(c) it is no longer intended to export the plants or plant products to an\nimporting country covered by the export permit;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(c) it is no longer intended to export the plants or plant products to an\nimporting country covered by the export permit;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 1.9107485541097051,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(g)",
+      "citation": "7-3(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(g) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country covered by, or to be\ncovered by, the export permit is present in Australian territory.",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(g) a condition, pest or contaminant that is likely to affect the acceptability of\nthe plants or plant products to the importing country covered by, or to be\ncovered by, the export permit is present in Australian territory.",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 1.9052680166649054,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(2)(b)",
+      "citation": "9-23(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-23(2)",
+      "child_ids": [],
+      "own_text": "(b) prescribed plants or plant products for consumption;",
+      "text": "9-23 Requirements for approval of bulk vessel\n(2) This subsection applies to the following prescribed plants or plant products:\n(b) prescribed plants or plant products for consumption;",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 2.697851234706387,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(f)",
+      "citation": "7-3(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(f) an importing country requirement relating to the plants or plant products\nhas not been met, or is not likely to be met before the plants or plant\nproducts are imported into the importing country covered by, or to be\ncovered by, the export permit;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(f) an importing country requirement relating to the plants or plant products\nhas not been met, or is not likely to be met before the plants or plant\nproducts are imported into the importing country covered by, or to be\ncovered by, the export permit;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 1.9019885252092879,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)(b)",
+      "citation": "9-31(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(2)",
+      "child_ids": [],
+      "own_text": "(b) prescribed plants or plant products for consumption;",
+      "text": "9-31 Requirements for approval of container\n(2) This subsection applies to the following prescribed plants or plant products:\n(b) prescribed plants or plant products for consumption;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 2.697851234706387,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:7-3(b)",
+      "citation": "7-3(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        60
+      ],
+      "parent_id": "rules2021:7-3",
+      "child_ids": [],
+      "own_text": "(b) information specified in the export permit has changed since the permit\nwas issued;",
+      "text": "7-3 Circumstances for varying export permit or conditions of export permit\nFor the purposes of paragraph 229(1)(a) of the Act, the following circumstances\nare prescribed for varying an export permit for prescribed plants or plant\nproducts or conditions of an export permit for prescribed plants or plant\nproducts:\n(b) information specified in the export permit has changed since the permit\nwas issued;",
+      "page": 60,
+      "page_end": 60,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 1.9018735974293994,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-15(2)(a)",
+      "citation": "9-15(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-15(2)",
+      "child_ids": [],
+      "own_text": "(a) nil; or",
+      "text": "9-15 Applicable tolerance levels for pests and contaminants\n(2) The applicable tolerance level for animal carcases or animal waste in relation to a\nkind of plant or plant product for export to an importing country is:\n(a) nil; or",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 1.8860468753458952,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-11(2)(b)",
+      "citation": "9-11(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-11(2)",
+      "child_ids": [],
+      "own_text": "(b) meets importing country requirements relating to the plants or plant\nproducts.",
+      "text": "9-11 Reassessment after failed assessment\n(2) If the reason for the failed assessment was because pests or contaminants above\nthe applicable tolerance level were detected on the plants or plant products or in\nor on the flowpath for the plants or plant products, the relevant person for the\n(b) meets importing country requirements relating to the plants or plant\nproducts.",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 1.8803996723350216,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-29(1)(a)",
+      "citation": "9-29(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        100
+      ],
+      "parent_id": "rules2021:9-29(1)",
+      "child_ids": [],
+      "own_text": "(a) a person responsible for the bulk vessel fails to provide facilities or\nassistance to the Secretary for the purposes of an inspection of the vessel;\nor",
+      "text": "9-29 Revocation of bulk vessel approval\n(1) The Secretary may revoke a bulk vessel approval if:\n(a) a person responsible for the bulk vessel fails to provide facilities or\nassistance to the Secretary for the purposes of an inspection of the vessel;\nor",
+      "page": 100,
+      "page_end": 100,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 2.570497497551795,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-6(1)(c)(i)",
+      "citation": "8-6(1)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        65
+      ],
+      "parent_id": "rules2021:8-6(1)(c)",
+      "child_ids": [],
+      "own_text": "(i) operations to prepare the plants or plant products for export were\ncarried out; or",
+      "text": "8-6 Trade description must be applied to prescribed plants or plant products\n(c) the registration number of the registered establishment where:\n(i) operations to prepare the plants or plant products for export were\ncarried out; or",
+      "page": 65,
+      "page_end": 65,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 2.5630113020076677,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10",
+      "citation": "9-10",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Criteria for deciding whether plants or plant products pass assessment",
+      "label": "9-10",
+      "pages": [
+        85
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-10(1)",
+        "rules2021:9-10(2)",
+        "rules2021:9-10(3)"
+      ],
+      "own_text": "",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\nCriteria for deciding whether plants or plant products pass assessment",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 1.8795693546880212,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-10(2)(a)",
+      "citation": "9-10(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        85
+      ],
+      "parent_id": "rules2021:9-10(2)",
+      "child_ids": [
+        "rules2021:9-10(2)(a)(i)",
+        "rules2021:9-10(2)(a)(ii)"
+      ],
+      "own_text": "(a) for an assessment of prescribed plants or plant products:",
+      "text": "9-10 Criteria for deciding whether plants or plant products pass assessment\n(2) An assessor must not decide that plants or plant products pass an assessment\nunless:\n(a) for an assessment of prescribed plants or plant products:",
+      "page": 85,
+      "page_end": 85,
+      "score": 0.012048192771084338,
+      "rrf_score": 0.012048192771084338,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 2.5537834466725493,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-12(2)(b)",
+      "citation": "9-12(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        86
+      ],
+      "parent_id": "rules2021:9-12(2)",
+      "child_ids": [],
+      "own_text": "(b) if the Secretary has approved, under subsection (3), a different validity\nperiod for the plants or plant products—the approved period; or",
+      "text": "9-12 Validity period for plants or plant products\n(2) Subject to subsection (4), the validity period for the plants or plant products that\napplies is:\n(b) if the Secretary has approved, under subsection (3), a different validity\nperiod for the plants or plant products—the approved period; or",
+      "page": 86,
+      "page_end": 86,
+      "score": 0.011904761904761904,
+      "rrf_score": 0.011904761904761904,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 24,
+          "raw_score": 1.8768024951761317,
+          "rrf_contribution": 0.011904761904761904
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)",
+      "citation": "4-2(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Design and construction—general",
+      "label": "(4)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2",
+      "child_ids": [
+        "rules2021:4-2(4)(a)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-2(4)(e)",
+        "rules2021:4-2(4)(f)"
+      ],
+      "own_text": "(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "text": "4-2 Construction, equipment and facilities\nDesign and construction—general\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(a)",
+      "citation": "4-2(4)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [
+        "rules2021:4-2(4)(a)(i)",
+        "rules2021:4-2(4)(a)(ii)"
+      ],
+      "own_text": "(a) to provide:",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(a) to provide:",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(b)",
+      "citation": "4-2(4)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(b) to facilitate effective cleaning; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(b) to facilitate effective cleaning; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(d)",
+      "citation": "4-2(4)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(d) to provide for the disposal of all waste material (including liquids and\nsolids) in an appropriate and hygienic manner; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(e)",
+      "citation": "4-2(4)(e)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(e)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(e) to facilitate safe and effective treatments of prescribed plants and plant\nproducts; and",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-2(4)(f)",
+      "citation": "4-2(4)(f)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(f)",
+      "pages": [
+        45
+      ],
+      "parent_id": "rules2021:4-2(4)",
+      "child_ids": [],
+      "own_text": "(f) to allow samples of prescribed plants and plant products to be taken.",
+      "text": "4-2 Construction, equipment and facilities\n(4) An establishment and its equipment and facilities must be designed and\nconstructed:\n(f) to allow samples of prescribed plants and plant products to be taken.",
+      "page": 45,
+      "page_end": 45,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-2(4)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)",
+      "citation": "4-9(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9",
+      "child_ids": [
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)"
+      ],
+      "own_text": "(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(2)(a)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-9(2)(b)",
+      "citation": "4-9(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-9(2)",
+      "child_ids": [],
+      "own_text": "(b) to ensure that any large contaminants are removed from the plants or plant\nproducts.",
+      "text": "4-9 Conditions relating to prescribed grain etc.\n(2) If screening of the plants or plant products is carried out at the establishment, it\nmust be carried out in a way that is appropriate:\n(b) to ensure that any large contaminants are removed from the plants or plant\nproducts.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:4-9(2)(a)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)",
+      "citation": "9-23(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)",
+      "child_ids": [
+        "rules2021:9-23(1)(b)(i)",
+        "rules2021:9-23(1)(b)(ii)"
+      ],
+      "own_text": "(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:",
+      "text": "9-23 Requirements for approval of bulk vessel\n(1) An authorised officer must not approve a bulk vessel unless:\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-23(1)(b)(i)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-23(1)(b)(ii)",
+      "citation": "9-23(1)(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        96
+      ],
+      "parent_id": "rules2021:9-23(1)(b)",
+      "child_ids": [],
+      "own_text": "(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "text": "9-23 Requirements for approval of bulk vessel\n(b) an authorised officer is reasonably satisfied that other areas of the vessel\nare not in a condition that:\n(ii) could affect the integrity of prescribed plants or plant products in or\non the vessel; and",
+      "page": 96,
+      "page_end": 96,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-23(1)(b)(i)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)",
+      "citation": "9-31(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31",
+      "child_ids": [
+        "rules2021:9-31(2)(a)",
+        "rules2021:9-31(2)(b)",
+        "rules2021:9-31(2)(c)"
+      ],
+      "own_text": "(2) This subsection applies to the following prescribed plants or plant products:",
+      "text": "9-31 Requirements for approval of container\nContainers for prescribed grain etc.\n(2) This subsection applies to the following prescribed plants or plant products:",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(3)(c)",
+          "reason": "RELATIVE_SUBSECTION_REFERENCE"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)(a)",
+      "citation": "9-31(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(2)",
+      "child_ids": [],
+      "own_text": "(a) prescribed grain;",
+      "text": "9-31 Requirements for approval of container\n(2) This subsection applies to the following prescribed plants or plant products:\n(a) prescribed grain;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(2)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(2)(c)",
+      "citation": "9-31(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(2)",
+      "child_ids": [
+        "rules2021:9-31(2)(c)(i)",
+        "rules2021:9-31(2)(c)(ii)"
+      ],
+      "own_text": "(c) cereal grains, pulses, oil seeds or nuts:",
+      "text": "9-31 Requirements for approval of container\n(2) This subsection applies to the following prescribed plants or plant products:\n(c) cereal grains, pulses, oil seeds or nuts:",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(2)",
+          "reason": "REFERENCED_ENUM_CHILD"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)",
+      "citation": "9-31(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31",
+      "child_ids": [
+        "rules2021:9-31(3)(a)",
+        "rules2021:9-31(3)(b)",
+        "rules2021:9-31(3)(c)"
+      ],
+      "own_text": "(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:",
+      "text": "9-31 Requirements for approval of container\nContainers for prescribed grain etc.\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(3)(c)",
+          "reason": "DIRECT_PARENT"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)(a)",
+      "citation": "9-31(3)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(3)",
+      "child_ids": [],
+      "own_text": "(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "text": "9-31 Requirements for approval of container\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:\n(a) there are no pests in or on the container that are likely to infest the plants or\nplant products;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(3)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-31(3)(b)",
+      "citation": "9-31(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        103
+      ],
+      "parent_id": "rules2021:9-31(3)",
+      "child_ids": [],
+      "own_text": "(b) there are no residues of plants or plant products in or on the container that\nare likely to harbour pests that could infest the plants or plant products;",
+      "text": "9-31 Requirements for approval of container\n(3) An authorised officer must not approve a container that is intended to be loaded\nwith prescribed plants or plant products (other than prescribed plants or plant\nproducts to which subsection (2) applies) unless an authorised officer is\nreasonably satisfied that the following requirements are met:\n(b) there are no residues of plants or plant products in or on the container that\nare likely to harbour pests that could infest the plants or plant products;",
+      "page": 103,
+      "page_end": 103,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:9-31(3)(c)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:2-12(3)(f)",
+      "page": 31,
+      "rrf_or_bm25_score": 0.062349324975892004,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires that plants or plant products have not been exposed to infestation or contamination, which is the core of maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "the plants or plant products have not been exposed to infestation by pests or contamination that could result in any of the matters stated in the original phytosanitary certificate being incorrect.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision directly addresses the risk of contamination or infestation of plants or plant products, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "the plants or plant products have not been exposed to infestation by pests or contamination",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(c)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.048651507139079855,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires design and construction to minimise the possibility of infestation or contamination, which is maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision explicitly requires minimising the possibility of infestation or contamination, directly matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04814747488101534,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate directly requires managing the risk of contamination, which is part of maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to manage the risk of contamination by large contaminants",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This provision specifically addresses contamination risk management for screening operations, which is a specialized aspect of the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to manage the risk of contamination by large contaminants",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(i)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.04713064713064713,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly addresses the risk of infestation or contamination, which is the core of the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision directly addresses the risk of infestation or contamination in the context of vessel approval, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "is likely to result in the infestation or contamination of any plants or plant products in or on the vessel",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-9(3)(a)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.04226348364279399,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns failure of an assessment due to infestation, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-11",
+      "page": 29,
+      "rrf_or_bm25_score": 0.041679448258353874,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns issuance of phytosanitary certificates for non-prescribed plants, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12",
+      "page": 30,
+      "rrf_or_bm25_score": 0.04144052464947987,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a heading for issuance of phytosanitary certificates, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)(a)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.03897401732178547,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns record retention of phytosanitary certificate applications, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-3(3)",
+      "page": 46,
+      "rrf_or_bm25_score": 0.032266458495966696,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate requires a system of controls to ensure compliance with conditions that include maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision mandates a system of controls but does not directly address contamination or infestation risk; it is a general requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:3-1(3)",
+      "page": 34,
+      "rrf_or_bm25_score": 0.03128054740957967,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "The candidate requires a system of controls to ensure compliance with conditions that include maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision requires a system of controls but does not specifically address contamination or infestation risk; it is a general operational requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(b)",
+      "page": 82,
+      "rrf_or_bm25_score": 0.030303030303030304,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Relates to audit reports identifying risk of non-compliance, which may include contamination/infestation risks, but does not itself set a requirement for maintaining risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "identify any risk of a potential non-compliance with a requirement to which an audit may relate",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns audit report content and does not directly address contamination or infestation risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "identify any risk of a potential non-compliance with a requirement to which an audit may relate",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:8-27",
+      "page": 76,
+      "rrf_or_bm25_score": 0.030117753623188408,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns secure storage of official marks, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)(c)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.029631255487269532,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly addresses the risk of infestation, which is part of the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "the container is not in a condition that could result in infestation of the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "The provision directly addresses the risk of infestation in container approval, matching the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "the container is not in a condition that could result in infestation of the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-4(5)(a)(iii)",
+      "page": 81,
+      "rrf_or_bm25_score": 0.029631255487269532,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Relates to audit recommendations addressing risk of non-compliance, which may include contamination/infestation risks, but does not itself set a requirement for maintaining risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "action to address the risk of a potential non-compliance with a requirement to which an audit may relate",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns audit recommendations and does not directly address contamination or infestation risk.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "action to address the risk of a potential non-compliance with a requirement to which an audit may relate",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-22(4)(b)",
+      "page": 95,
+      "rrf_or_bm25_score": 0.028985507246376812,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns inspection of vessel stores for pest infestation, which is not directly about maintaining risk for contamination or infestation in the context of this CP.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-33",
+      "page": 78,
+      "rrf_or_bm25_score": 0.02886002886002886,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns security of official marking devices, which is unrelated to maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-13",
+      "page": 31,
+      "rrf_or_bm25_score": 0.028370221327967807,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns when a certificate ceases to be in force, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)(ii)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02819138376017471,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns a certified copy of the original certificate, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3",
+      "page": 60,
+      "rrf_or_bm25_score": 0.02817460317460317,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate prescribes circumstances for varying export permits, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)(i)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027799227799227798,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the original phytosanitary certificate, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(2)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027777777777777776,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing phytosanitary certificates for prescribed plants already exported, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(d)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027598020555767037,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns importing country requirements for a certificate, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.027212143650499815,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "This provision describes consequences when contamination is detected, which supports operationalization but does not itself set the requirement to maintain risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision addresses reassessment after detection of pests or contaminants, but does not itself establish a requirement to maintain risk; it is a consequence of a failed assessment.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "If the reason for the failed assessment was because pests or contaminants above the applicable tolerance level were detected",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.027031963470319637,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing phytosanitary certificates for prescribed plants to be exported, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-16(1)(b)",
+      "page": 70,
+      "rrf_or_bm25_score": 0.025833333333333333,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies printing details for carton seal, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.025645240835114255,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns assessment requirement for phytosanitary certificate issuance, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(e)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02564102564102564,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns documentation accompanying plants for re-export, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)(c)(ii)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.025003906860446942,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Specifies a condition for certain plant products but does not address risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-5(b)",
+      "page": 83,
+      "rrf_or_bm25_score": 0.02478580171358629,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns circumstances for assessment, not risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(d)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.02426470588235294,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_EVIDENCE",
+      "reason": "The requirement that packages meet specified standards may help operationalize how contamination risk is controlled, but it is not the direct normative rule for this CP.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "the packages for export meet the requirements in subsections 4-11(2) to (5).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns packaging requirements, not directly the risk of contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "the packages for export meet the requirements in subsections 4-11(2) to (5).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-23(2)(c)(ii)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.02426470588235294,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Specifies a condition for certain plant products but does not address risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02424331472230385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns conditions for issuing phytosanitary certificates for re-export, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(1)(a)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.0238230289279637,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns export permit validity for phytosanitary certificate issuance, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(a)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023676099747828524,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns imported plants only for re-export certificate, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(c)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023669467787114845,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns an assessment requirement for issuing a phytosanitary certificate for re-export, not the maintenance of risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(2)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.023581634068525453,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns assessment before export for phytosanitary certificate issuance, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-17(1)(b)",
+      "page": 71,
+      "rrf_or_bm25_score": 0.023268398268398268,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies printing details for carton seal for opened assessment, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:2-12(3)(b)",
+      "page": 30,
+      "rrf_or_bm25_score": 0.02260536398467433,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns export permit validity for re-export certificate, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-13(a)",
+      "page": 68,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate defines a high security bolt seal, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-25(b)(i)",
+      "page": 98,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns duration of bulk vessel approval, not risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-12",
+      "page": 86,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The section concerns validity periods for plants or plant products, unrelated to contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-34(1)(b)(i)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Concerns duration of container approval, not risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(a)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns integrity of plants or plant products for permit variation, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-10(2)(a)",
+      "page": 63,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns additional inspection of bulk vessels or containers for export permits, which does not relate to maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(d)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changed importing country requirements, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(1)(b)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns record retention of export permit applications, not maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-12(4)(b)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "This paragraph concerns when validity periods end, not contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(c)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns no longer intended export, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(g)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns presence of condition, pest or contaminant affecting acceptability, but is about permit variation, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(2)(b)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Defines a category of prescribed plants or plant products but does not relate to risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(f)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns unmet importing country requirements, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)(b)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Defines a category of prescribed plants or plant products but does not relate to risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:7-3(b)",
+      "page": 60,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns changed information in export permit, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-15(2)(a)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "DEFINES_TOLERANCE_LEVEL",
+      "reason": "This provision defines the applicable tolerance level for certain contaminants, which is necessary to interpret what constitutes an unacceptable contamination risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "The applicable tolerance level for animal carcases or animal waste in relation to a kind of plant or plant product for export to an importing country is: (a) nil;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-11(2)(b)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "This paragraph concerns meeting importing country requirements, not directly about maintaining risk for contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-29(1)(a)",
+      "page": 100,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "Addresses revocation for failure to provide inspection facilities, not risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-6(1)(c)(i)",
+      "page": 65,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "The candidate concerns trade description requirements for export preparation, not risk of contamination or infestation.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-10",
+      "page": 85,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "PARENT_PROVISION",
+      "reason": "The section heading provides structural context for the assessment criteria, which may include contamination risk, but does not itself state a normative requirement.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "9-10 Criteria for deciding whether plants or plant products pass assessment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-10(2)(a)",
+      "page": 85,
+      "rrf_or_bm25_score": 0.012048192771084338,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU",
+      "reason": "This paragraph is a chapeau introducing the assessment conditions; it does not independently address contamination risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "for an assessment of prescribed plants or plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-12(2)(b)",
+      "page": 86,
+      "rrf_or_bm25_score": 0.011904761904761904,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_TOPICAL_CONNECTION",
+      "reason": "This paragraph concerns approved validity periods, not contamination risk.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is the chapeau introducing the design and construction requirements; it does not independently create a scoring requirement but provides necessary context for the following paragraphs.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "An establishment and its equipment and facilities must be designed and constructed:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(a)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is an introductory phrase for the list of purposes; it does not independently create a scoring requirement.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to provide:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(b)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Effective cleaning directly reduces the risk of contamination or infestation, thus grounding the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to facilitate effective cleaning; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The provision requires design to facilitate cleaning, which is a general hygiene measure but does not directly address maintaining risk for contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to facilitate effective cleaning; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(d)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Proper waste disposal prevents contamination and infestation, directly supporting the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Waste disposal is a related hygiene requirement but does not directly ground the criterion of maintaining risk for contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to provide for the disposal of all waste material (including liquids and solids) in an appropriate and hygienic manner; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(e)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Safe and effective treatments are essential to control contamination and infestation risks.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Facilitating treatments is a separate operational requirement and does not directly address maintaining risk for contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to facilitate safe and effective treatments of prescribed plants and plant products; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:4-2(4)(f)",
+      "page": 45,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "OPERATIONAL_SUPPORT",
+      "reason": "Allowing samples supports monitoring and verification of contamination/infestation risk, but does not itself impose a requirement to maintain risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "Allowing sample collection is unrelated to maintaining risk for contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to allow samples of prescribed plants and plant products to be taken.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is a conditional chapeau for screening requirements; it does not independently create a scoring requirement.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "If screening of the plants or plant products is carried out at the establishment, it must be carried out in a way that is appropriate:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-9(2)(b)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Removing large contaminants directly reduces contamination risk, grounding the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "to ensure that any large contaminants are removed from the plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "Removing large contaminants directly reduces contamination risk, making this a specific rule that constrains the CP criterion.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "to ensure that any large contaminants are removed from the plants or plant products.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is a conditional chapeau for vessel approval; it does not independently create a scoring requirement.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "an authorised officer is reasonably satisfied that other areas of the vessel are not in a condition that:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-23(1)(b)(ii)",
+      "page": 96,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Ensuring vessel areas do not affect plant integrity directly addresses contamination/infestation risk.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "The condition of vessel areas affecting integrity directly relates to preventing contamination or infestation of the plants or plant products.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "could affect the integrity of prescribed plants or plant products in or on the vessel; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "CHAPEAU_PROVISION",
+      "reason": "This is an applicability chapeau; it does not independently create a scoring requirement.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "This subsection applies to the following prescribed plants or plant products:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)(a)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "This merely lists a commodity type and does not contribute to interpreting the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "prescribed grain;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-31(2)(c)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "APPLICABILITY",
+      "selected": true,
+      "reason_code": "SCOPE_CONDITION",
+      "reason": "This paragraph defines the scope of products to which subsection (2) applies, thereby limiting the applicability of the container approval requirements relevant to the CP criterion.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "cereal grains, pulses, oil seeds or nuts",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision merely lists applicable products and does not itself establish a requirement for maintaining risk for contamination or infestation.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "cereal grains, pulses, oil seeds or nuts",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection establishes the mandatory approval condition that directly addresses maintaining risk for contamination or infestation by requiring satisfaction of the listed requirements.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "An authorised officer must not approve a container that is intended to be loaded with prescribed plants or plant products (other than prescribed plants or plant products to which subsection (2) applies) unless an authorised officer is reasonably satisfied that the following requirements are met:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is an introductory provision that sets out the approval condition but does not itself specify the contamination or infestation requirements; those are in the following paragraphs.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "An authorised officer must not approve a container that is intended to be loaded with prescribed plants or plant products (other than prescribed plants or plant products to which subsection (2) applies) unless an authorised officer is reasonably satisfied that the following requirements are met:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)(a)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph directly sets a requirement to prevent infestation, which is a core aspect of maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "there are no pests in or on the container that are likely to infest the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This directly addresses infestation risk by requiring absence of pests likely to infest the plants or plant products.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "there are no pests in or on the container that are likely to infest the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-31(3)(b)",
+      "page": 103,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph directly sets a requirement to prevent residues that could harbour pests, thereby maintaining risk for contamination or infestation.",
+      "cp_quote": "maintaining risk for contamination or infestation",
+      "policy_quote": "there are no residues of plants or plant products in or on the container that are likely to harbour pests that could infest the plants or plant products",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "LEGAL_SPECIALIZATION",
+      "legal_basis_reason": "This directly addresses contamination and infestation risk by requiring absence of residues that could harbour pests.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "maintaining risk for contamination or infestation",
+      "legal_basis_policy_quote": "there are no residues of plants or plant products in or on the container that are likely to harbour pests that could infest the plants or plant products",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+#!/usr/bin/env python3
+"""FRECA Core Layer-7 -> Layer-11 outcome adapter v1.
+
+Purpose
+-------
+Deterministically project current Core ProofStandard + accepted Argument output
+into the frozen six-state InternalOutcome and FoldGateReport contract.
+
+This module is deliberately conservative.
+
+It MAY derive:
+  - applicability/non-applicability from CONST contract roots;
+  - satisfaction/violation standing from accepted argument PRO/CON standings;
+  - decisive proof-gate summaries from proof_standard_v1_1 artifacts.
+
+It MUST NOT:
+  - read legacy candidate_label/submission_label;
+  - infer non-constant applicability/N/A from absence of evidence;
+  - invent BurdenRule applications;
+  - consume case IDs, CP IDs, filenames or answer tables as decision features;
+  - map to 1/0/N/A (Layer 11 fold_policy_v3_core owns that).
+
+Unsupported contract-root semantics stay UNKNOWN and are surfaced as blockers.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+from pathlib import Path
+from typing import Any
+
+
+FOUR_STATES = {"TRUE", "FALSE", "BOTH", "UNKNOWN"}
+
+INTERNAL_OUTCOMES = {
+    "PROVEN_COMPLIANT",
+    "PROVEN_NON_COMPLIANT",
+    "PROVEN_NOT_APPLICABLE",
+    "NOT_DEMONSTRATED",
+    "CONFLICTING",
+    "UNKNOWN",
+}
+
+
+def canonical_json(value: Any) -> str:
+    return json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+
+
+def sha256_json(value: Any) -> str:
+    return "sha256:" + hashlib.sha256(
+        canonical_json(value).encode("utf-8")
+    ).hexdigest()
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def save_json(value: Any, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def unwrap_contract(bundle: dict) -> dict:
+    contract = bundle.get("contract")
+    return contract if isinstance(contract, dict) else bundle
+
+
+def const_root_state(expr: dict | None) -> tuple[str, list[str]]:
+    """Evaluate only explicit CONST roots.
+
+    Non-CONST roots require Layer-6/7 root evidence artifacts and remain
+    UNKNOWN in this Core adapter.
+    """
+    if not isinstance(expr, dict):
+        return "UNKNOWN", ["CONTRACT_ROOT_MISSING"]
+
+    op = str(expr.get("op") or "").upper()
+
+    if op != "CONST":
+        return (
+            "UNKNOWN",
+            [f"NON_CONST_ROOT_REQUIRES_SCOPE_EVALUATOR:{op or 'UNKNOWN_OP'}"],
+        )
+
+    value = expr.get("value")
+
+    if value is True:
+        return "TRUE", []
+
+    if value is False:
+        return "FALSE", []
+
+    return "UNKNOWN", ["CONST_ROOT_VALUE_INVALID"]
+
+
+def accepted_argument_summary(proof_bundle: dict) -> dict:
+    post = proof_bundle.get("post_proof_argument") or {}
+
+    if post.get("status") != "RUN":
+        return {
+            "available": False,
+            "state": "UNKNOWN",
+            "standing_pro_argument_ids": [],
+            "standing_con_argument_ids": [],
+            "conflicted_argument_ids": [],
+            "undecided_argument_ids": [],
+            "reason_codes": [
+                "POST_PROOF_ARGUMENT_NOT_RUN"
+            ],
+        }
+
+    ev = post.get("accepted_argument_evaluation") or {}
+
+    state = str(ev.get("state") or "UNKNOWN").upper()
+    if state not in FOUR_STATES:
+        state = "UNKNOWN"
+
+    return {
+        "available": True,
+        "state": state,
+        "standing_pro_argument_ids":
+            list(ev.get("standing_pro_argument_ids") or []),
+        "standing_con_argument_ids":
+            list(ev.get("standing_con_argument_ids") or []),
+        "conflicted_argument_ids":
+            list(ev.get("conflicted_argument_ids") or []),
+        "undecided_argument_ids":
+            list(ev.get("undecided_argument_ids") or []),
+        "reason_codes": [],
+    }
+
+
+def decisive_requirement_reports(
+    *,
+    requirement_result: dict,
+    proof_bundle: dict,
+) -> list[dict]:
+    plan = requirement_result["evidence_requirement_plan"]
+
+    decisive_ids = {
+        str(row["requirement_id"])
+        for row in plan.get("requirements", [])
+        if str(row.get("decisiveness", "")).upper() == "DECISIVE"
+    }
+
+    if not decisive_ids:
+        raise ValueError("No DECISIVE EvidenceRequirements")
+
+    by_id = {
+        str(row["requirement_id"]): row
+        for row in proof_bundle.get("requirement_reports", [])
+    }
+
+    missing = sorted(decisive_ids - set(by_id))
+    if missing:
+        raise ValueError(
+            "Proof bundle missing decisive requirements: "
+            + ", ".join(missing)
+        )
+
+    return [by_id[rid] for rid in sorted(decisive_ids)]
+
+
+def derive_root_states(
+    *,
+    contract_bundle: dict,
+    proof_bundle: dict,
+) -> dict:
+    contract = unwrap_contract(contract_bundle)
+
+    applicability, app_codes = const_root_state(
+        contract.get("applicability")
+    )
+    non_applicability, na_codes = const_root_state(
+        contract.get("non_applicability")
+    )
+
+    arg = accepted_argument_summary(proof_bundle)
+
+    # Satisfaction and violation are kept as separate roots.
+    #
+    # A standing PRO argument establishes satisfaction.
+    # A standing CON argument establishes violation.
+    # Both may stand simultaneously and must be preserved.
+    satisfaction = (
+        "TRUE"
+        if arg["standing_pro_argument_ids"]
+        else "UNKNOWN"
+    )
+
+    violation = (
+        "TRUE"
+        if arg["standing_con_argument_ids"]
+        else "UNKNOWN"
+    )
+
+    unresolved = (
+        app_codes
+        + na_codes
+        + arg["reason_codes"]
+    )
+
+    if arg["conflicted_argument_ids"]:
+        unresolved.append(
+            "ACCEPTED_ARGUMENT_CONFLICTED_PREMISE"
+        )
+
+    if arg["undecided_argument_ids"]:
+        unresolved.append(
+            "ACCEPTED_ARGUMENT_UNDECIDED"
+        )
+
+    return {
+        "applicability_state": applicability,
+        "non_applicability_state": non_applicability,
+        "satisfaction_state": satisfaction,
+        "violation_state": violation,
+        "accepted_argument_state": arg["state"],
+        "standing_pro_argument_ids":
+            arg["standing_pro_argument_ids"],
+        "standing_con_argument_ids":
+            arg["standing_con_argument_ids"],
+        "conflicted_argument_ids":
+            arg["conflicted_argument_ids"],
+        "undecided_argument_ids":
+            arg["undecided_argument_ids"],
+        "unresolved_reason_codes":
+            sorted(set(unresolved)),
+    }
+
+
+def build_fold_gate_report(
+    *,
+    requirement_result: dict,
+    proof_bundle: dict,
+    root_states: dict,
+    burden_application: dict | None = None,
+    na_countercheck: dict | None = None,
+) -> dict:
+    decisive = decisive_requirement_reports(
+        requirement_result=requirement_result,
+        proof_bundle=proof_bundle,
+    )
+
+    all_decisive_positive = all(
+        row.get("support_proof", {}).get("accepted_direction") is True
+        for row in decisive
+    )
+
+    any_decisive_attack = any(
+        row.get("attack_proof", {}).get("accepted_direction") is True
+        for row in decisive
+    )
+
+    contradiction = any(
+        str(row.get("accepted_state")) == "BOTH"
+        or str(row.get("contradiction_state")) == "PRESERVED"
+        for row in decisive
+    )
+
+    proof_gate_ids = []
+    supporting_statement_ids = []
+    blocking_statement_ids = []
+
+    for row in decisive:
+        rid = str(row["requirement_id"])
+        statement_id = str(
+            row.get("statement_id")
+            or f"stmt-{rid.lower()}"
+        )
+
+        for direction in ("support_proof", "attack_proof"):
+            report_id = (row.get(direction) or {}).get("report_id")
+            if report_id:
+                proof_gate_ids.append(str(report_id))
+
+        if (
+            row.get("support_proof", {}).get("accepted_direction")
+            is True
+        ):
+            supporting_statement_ids.append(statement_id)
+
+        if (
+            row.get("attack_proof", {}).get("accepted_direction")
+            is True
+            or str(row.get("accepted_state")) == "BOTH"
+        ):
+            blocking_statement_ids.append(statement_id)
+
+    # Positive N/A cannot be inferred from non-applicability root alone when
+    # evidence/countercheck semantics are non-constant. For a CONST TRUE root,
+    # the contract itself is the positive normative basis; countercheck still
+    # must be explicit unless the caller provides it.
+    nonapp_true = (
+        root_states["non_applicability_state"] == "TRUE"
+    )
+
+    positive_na = nonapp_true
+
+    na_countercheck_passed = False
+    activity_counterevidence = False
+
+    if isinstance(na_countercheck, dict):
+        na_countercheck_passed = bool(
+            na_countercheck.get("passed")
+            or na_countercheck.get("na_countercheck_passed")
+        )
+        activity_counterevidence = bool(
+            na_countercheck.get("activity_counterevidence_standing")
+        )
+
+    burden_id = None
+    burden_permitted = False
+
+    if isinstance(burden_application, dict):
+        burden_id = burden_application.get(
+            "burden_application_id"
+        )
+        burden_permitted = bool(
+            burden_id
+            and burden_application.get(
+                "fallback_permitted",
+                burden_application.get(
+                    "insufficient_evidence_benchmark_fallback_permitted",
+                    False,
+                ),
+            )
+        )
+
+    report = {
+        "report_id":
+            "fold-gate-" + sha256_json({
+                "cp": requirement_result.get("cp_id"),
+                "case": requirement_result.get("case_id"),
+                "proof": proof_bundle.get("bundle_sha256"),
+                "roots": root_states,
+            }).split(":", 1)[1][:20],
+
+        "positive_non_applicability_proven":
+            positive_na,
+
+        "na_countercheck_passed":
+            na_countercheck_passed,
+
+        "activity_counterevidence_standing":
+            activity_counterevidence,
+
+        "applicability_standing":
+            root_states["applicability_state"] == "TRUE",
+
+        # Current minimal Core has no typed ConditionTriggerEvaluation bridge.
+        "false_trigger_proven":
+            False,
+
+        "vacuous_satisfaction_proven":
+            False,
+
+        "vacuous_satisfaction_basis_id":
+            None,
+
+        "residual_decisive_requirement_ids":
+            [],
+
+        "all_decisive_requirements_meet_standard":
+            bool(all_decisive_positive),
+
+        "decisive_rebuttal_standing":
+            bool(contradiction),
+
+        "decisive_attack_or_violation_standing":
+            bool(any_decisive_attack),
+
+        "insufficient_evidence_benchmark_fallback_permitted":
+            bool(burden_permitted),
+
+        "supporting_statement_ids":
+            sorted(set(supporting_statement_ids)),
+
+        "blocking_statement_ids":
+            sorted(set(blocking_statement_ids)),
+
+        "proof_gate_report_ids":
+            sorted(set(proof_gate_ids)),
+
+        "coverage_ids": [
+            str(proof_bundle.get("coverage_source_sha256"))
+        ] if proof_bundle.get("coverage_source_sha256") else [],
+
+        "burden_application_id":
+            burden_id,
+
+        "adapter_limitations": [
+            "NON_CONST_APPLICABILITY_REQUIRES_SEPARATE_SCOPE_EVALUATOR",
+            "NON_CONST_NON_APPLICABILITY_REQUIRES_NA_COUNTERCHECK",
+            "BURDEN_RULE_NOT_INFERRED",
+            "FALSE_TRIGGER_NOT_INFERRED",
+            "VACUOUS_SATISFACTION_NOT_INFERRED",
+        ],
+    }
+
+    report["report_sha256"] = sha256_json(report)
+    return report
+
+
+def aggregate_internal_outcome(
+    *,
+    root_states: dict,
+    fold_gate_report: dict,
+) -> tuple[str, list[str]]:
+    """Frozen D2.34 / D7.3 aggregation order."""
+
+    app = root_states["applicability_state"]
+    na = root_states["non_applicability_state"]
+    sat = root_states["satisfaction_state"]
+    vio = root_states["violation_state"]
+    gates = fold_gate_report
+
+    reasons = []
+
+    # 1. Applicability/non-applicability both supported.
+    if app == "TRUE" and na == "TRUE":
+        return (
+            "CONFLICTING",
+            ["APPLICABILITY_AND_NON_APPLICABILITY_BOTH_STANDING"],
+        )
+
+    # 2. Positive N/A + explicit countercheck.
+    if (
+        gates["positive_non_applicability_proven"]
+        and gates["na_countercheck_passed"]
+        and not gates["activity_counterevidence_standing"]
+    ):
+        return (
+            "PROVEN_NOT_APPLICABLE",
+            ["POSITIVE_NA_AND_COUNTERCHECK_PASSED"],
+        )
+
+    # 3. Applicability not positively established.
+    if app != "TRUE":
+        reasons.extend(
+            root_states.get("unresolved_reason_codes", [])
+        )
+        reasons.append("APPLICABILITY_NOT_PROVEN")
+        return "UNKNOWN", sorted(set(reasons))
+
+    # 4. Satisfaction and violation both standing.
+    if sat == "TRUE" and vio == "TRUE":
+        return (
+            "CONFLICTING",
+            ["SATISFACTION_AND_VIOLATION_BOTH_STANDING"],
+        )
+
+    # 5. Violation standing.
+    if (
+        vio == "TRUE"
+        and gates["decisive_attack_or_violation_standing"]
+    ):
+        return (
+            "PROVEN_NON_COMPLIANT",
+            ["DECISIVE_VIOLATION_STANDING"],
+        )
+
+    # 6. Satisfaction standing with all decisive gates and no rebuttal.
+    if (
+        sat == "TRUE"
+        and gates["all_decisive_requirements_meet_standard"]
+        and not gates["decisive_rebuttal_standing"]
+        and not gates["decisive_attack_or_violation_standing"]
+    ):
+        return (
+            "PROVEN_COMPLIANT",
+            ["ALL_DECISIVE_REQUIREMENTS_MEET_STANDARD"],
+        )
+
+    # 7. Coverage/burden fallback is explicit only.
+    if (
+        gates["insufficient_evidence_benchmark_fallback_permitted"]
+        and gates["burden_application_id"] is not None
+    ):
+        return (
+            "NOT_DEMONSTRATED",
+            ["COVERAGE_COMPLETE_BURDEN_RULE_APPLIED"],
+        )
+
+    # 8. Otherwise UNKNOWN.
+    reasons.extend(
+        root_states.get("unresolved_reason_codes", [])
+    )
+
+    if sat != "TRUE":
+        reasons.append("SATISFACTION_NOT_PROVEN")
+
+    if vio != "TRUE":
+        reasons.append("VIOLATION_NOT_PROVEN")
+
+    if not proof_like_coverage_complete(gates):
+        reasons.append("NO_BURDEN_FALLBACK")
+
+    return "UNKNOWN", sorted(set(reasons))
+
+
+def proof_like_coverage_complete(gates: dict) -> bool:
+    # This helper intentionally does NOT infer proof coverage from presence of
+    # evidence. It only indicates whether a burden fallback was admitted.
+    return bool(
+        gates.get("insufficient_evidence_benchmark_fallback_permitted")
+        and gates.get("burden_application_id") is not None
+    )
+
+
+def build_argument_evaluation_bundle(
+    *,
+    requirement_result: dict,
+    contract_bundle: dict,
+    proof_bundle: dict,
+    burden_application: dict | None = None,
+    na_countercheck: dict | None = None,
+) -> dict:
+    roots = derive_root_states(
+        contract_bundle=contract_bundle,
+        proof_bundle=proof_bundle,
+    )
+
+    fold_gate = build_fold_gate_report(
+        requirement_result=requirement_result,
+        proof_bundle=proof_bundle,
+        root_states=roots,
+        burden_application=burden_application,
+        na_countercheck=na_countercheck,
+    )
+
+    outcome, reasons = aggregate_internal_outcome(
+        root_states=roots,
+        fold_gate_report=fold_gate,
+    )
+
+    if outcome not in INTERNAL_OUTCOMES:
+        raise RuntimeError(
+            f"Invalid InternalOutcome produced: {outcome}"
+        )
+
+    evaluation = {
+        "schema":
+            "freca-core-argument-evaluation-adapter-v1",
+
+        "case_uid":
+            requirement_result.get("case_id"),
+
+        "cp_id":
+            requirement_result.get("cp_id"),
+
+        "interpretation_id":
+            "core-single-current-contract",
+
+        **roots,
+
+        "internal_outcome":
+            outcome,
+
+        "evaluation_locked":
+            outcome
+            in {
+                "PROVEN_COMPLIANT",
+                "PROVEN_NON_COMPLIANT",
+                "PROVEN_NOT_APPLICABLE",
+                "CONFLICTING",
+            },
+
+        "possible_outcomes_under_unknowns":
+            (
+                []
+                if outcome != "UNKNOWN"
+                else [
+                    "PROVEN_COMPLIANT",
+                    "PROVEN_NON_COMPLIANT",
+                    "PROVEN_NOT_APPLICABLE",
+                    "NOT_DEMONSTRATED",
+                    "CONFLICTING",
+                ]
+            ),
+
+        "unresolved_reason_codes":
+            reasons,
+
+        "fold_gate_report":
+            fold_gate,
+
+        "submission_label":
+            None,
+
+        "answer_comparator_used":
+            False,
+
+        "legacy_candidate_label_consumed":
+            False,
+    }
+
+    evaluation["evaluation_sha256"] = sha256_json(
+        evaluation
+    )
+
+    bundle = {
+        "schema":
+            "freca-core-argument-evaluation-bundle-v1",
+
+        "case_uid":
+            requirement_result.get("case_id"),
+
+        "cp_id":
+            requirement_result.get("cp_id"),
+
+        "evaluations":
+            [evaluation],
+
+        "cross_interpretation_status":
+            (
+                "ALL_UNKNOWN"
+                if outcome == "UNKNOWN"
+                else "SAME_OUTCOME"
+            ),
+
+        "common_internal_outcome":
+            outcome,
+
+        "archived_interpretation_ids":
+            [],
+
+        "submission_label":
+            None,
+
+        "answer_comparator_used":
+            False,
+    }
+
+    bundle["bundle_sha256"] = sha256_json(bundle)
+    return bundle
+
+
+def run_self_tests() -> None:
+    rr = {
+        "case_id": "case-x",
+        "cp_id": "CPX",
+        "evidence_requirement_plan": {
+            "requirements": [
+                {
+                    "requirement_id": "ER1",
+                    "decisiveness": "DECISIVE",
+                },
+                {
+                    "requirement_id": "ER2",
+                    "decisiveness": "DECISIVE",
+                },
+            ]
+        },
+    }
+
+    contract = {
+        "contract": {
+            "applicability": {"op": "CONST", "value": True},
+            "non_applicability": {"op": "CONST", "value": False},
+        }
+    }
+
+    def proof(
+        er1_support=True,
+        er1_attack=False,
+        er2_support=True,
+        er2_attack=False,
+        pro=True,
+        con=False,
+    ):
+        reports = []
+        for rid, sp, at in (
+            ("ER1", er1_support, er1_attack),
+            ("ER2", er2_support, er2_attack),
+        ):
+            reports.append({
+                "requirement_id": rid,
+                "statement_id": f"stmt-{rid.lower()}",
+                "accepted_state":
+                    (
+                        "BOTH"
+                        if sp and at
+                        else "TRUE"
+                        if sp
+                        else "FALSE"
+                        if at
+                        else "UNKNOWN"
+                    ),
+                "contradiction_state":
+                    "PRESERVED" if sp and at else "NONE",
+                "support_proof": {
+                    "report_id": f"{rid}-support",
+                    "accepted_direction": sp,
+                },
+                "attack_proof": {
+                    "report_id": f"{rid}-attack",
+                    "accepted_direction": at,
+                },
+            })
+
+        return {
+            "bundle_sha256": "sha256:proof",
+            "requirement_reports": reports,
+            "post_proof_argument": {
+                "status": "RUN",
+                "accepted_argument_evaluation": {
+                    "state":
+                        "BOTH"
+                        if pro and con
+                        else "TRUE"
+                        if pro
+                        else "FALSE"
+                        if con
+                        else "UNKNOWN",
+                    "standing_pro_argument_ids":
+                        ["arg-pro"] if pro else [],
+                    "standing_con_argument_ids":
+                        ["arg-con"] if con else [],
+                    "conflicted_argument_ids": [],
+                    "undecided_argument_ids": [],
+                },
+            },
+        }
+
+    compliant = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof(),
+    )
+    assert compliant["common_internal_outcome"] == "PROVEN_COMPLIANT"
+
+    adverse = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof(
+            er1_support=False,
+            er1_attack=True,
+            er2_support=True,
+            er2_attack=False,
+            pro=False,
+            con=True,
+        ),
+    )
+    assert adverse["common_internal_outcome"] == "PROVEN_NON_COMPLIANT"
+
+    conflicting = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof(
+            er1_support=True,
+            er1_attack=True,
+            er2_support=True,
+            er2_attack=False,
+            pro=True,
+            con=True,
+        ),
+    )
+    assert conflicting["common_internal_outcome"] == "CONFLICTING"
+
+    unknown = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof(
+            er1_support=False,
+            er1_attack=False,
+            er2_support=True,
+            er2_attack=False,
+            pro=False,
+            con=False,
+        ),
+    )
+    assert unknown["common_internal_outcome"] == "UNKNOWN"
+
+    non_const = {
+        "contract": {
+            "applicability": {
+                "op": "ATOM",
+                "atom_id": "AX",
+            },
+            "non_applicability": {
+                "op": "CONST",
+                "value": False,
+            },
+        }
+    }
+
+    unsupported = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=non_const,
+        proof_bundle=proof(),
+    )
+    assert unsupported["common_internal_outcome"] == "UNKNOWN"
+    assert any(
+        "NON_CONST_ROOT_REQUIRES_SCOPE_EVALUATOR"
+        in code
+        for code in unsupported["evaluations"][0][
+            "unresolved_reason_codes"
+        ]
+    )
+
+    # NOT_DEMONSTRATED only via explicit burden artifact.
+    burden = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof(
+            er1_support=False,
+            er1_attack=False,
+            er2_support=False,
+            er2_attack=False,
+            pro=False,
+            con=False,
+        ),
+        burden_application={
+            "burden_application_id": "burden-1",
+            "fallback_permitted": True,
+        },
+    )
+    assert burden["common_internal_outcome"] == "NOT_DEMONSTRATED"
+
+    print("core_outcome_adapter_v1 self-tests: PASS")
+    print("  compliant -> PROVEN_COMPLIANT")
+    print("  decisive CON -> PROVEN_NON_COMPLIANT")
+    print("  simultaneous PRO/CON -> CONFLICTING")
+    print("  unresolved -> UNKNOWN")
+    print("  non-CONST applicability is NOT guessed")
+    print("  NOT_DEMONSTRATED requires explicit burden artifact")
+    print("  no 1/0/N/A emitted")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--requirement-result",
+        type=Path,
+    )
+    parser.add_argument(
+        "--contract",
+        type=Path,
+    )
+    parser.add_argument(
+        "--proof",
+        type=Path,
+    )
+    parser.add_argument(
+        "--burden-application",
+        type=Path,
+    )
+    parser.add_argument(
+        "--na-countercheck",
+        type=Path,
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+    )
+    parser.add_argument(
+        "--self-test",
+        action="store_true",
+    )
+
+    args = parser.parse_args()
+
+    if args.self_test:
+        run_self_tests()
+        if args.requirement_result is None:
+            return
+
+    if (
+        args.requirement_result is None
+        or args.contract is None
+        or args.proof is None
+    ):
+        parser.error(
+            "--requirement-result, --contract and --proof are required"
+        )
+
+    rr = load_json(args.requirement_result)
+    contract = load_json(args.contract)
+    proof = load_json(args.proof)
+
+    burden = (
+        load_json(args.burden_application)
+        if args.burden_application
+        else None
+    )
+
+    na = (
+        load_json(args.na_countercheck)
+        if args.na_countercheck
+        else None
+    )
+
+    bundle = build_argument_evaluation_bundle(
+        requirement_result=rr,
+        contract_bundle=contract,
+        proof_bundle=proof,
+        burden_application=burden,
+        na_countercheck=na,
+    )
+
+    if args.output:
+        save_json(bundle, args.output)
+
+    ev = bundle["evaluations"][0]
+
+    print("=" * 72)
+    print("FRECA CORE OUTCOME ADAPTER V1")
+    print("=" * 72)
+    print("Applicability      :", ev["applicability_state"])
+    print("Non-applicability  :", ev["non_applicability_state"])
+    print("Satisfaction       :", ev["satisfaction_state"])
+    print("Violation          :", ev["violation_state"])
+    print("Internal outcome   :", ev["internal_outcome"])
+    print("Evaluation locked  :", ev["evaluation_locked"])
+    print("Final label        : None")
+    print("Unresolved reasons :", ev["unresolved_reason_codes"])
+
+    if args.output:
+        print("Saved:", args.output)
+
+
+if __name__ == "__main__":
+    main()

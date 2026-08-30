@@ -1,0 +1,136 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:3-3A(1)(b)",
+        "rules2021:3-3A(2)(b)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-1(3)",
+          "role": "RELATION",
+          "quote": "there must be a system of controls in place at the property in relation to those operations, and the plants or plant products for which the property is to be accredited, to ensure that the conditions prescribed by sections 3-3A and 3-3B will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)(b)",
+          "role": "RELATION",
+          "quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        }
+      ],
+      "reason": "These three provisions collectively operationalise the single CP requirement for a system of controls to manage pests and contaminants at an accredited property. 3-1(3) establishes the overarching system of controls, while 3-3A(1)(b) and 3-3A(2)(b) specify the pest/contaminant outcomes and control manner. They are not independent cumulative requirements of the CP; rather they jointly support the same broad criterion."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:4-3(3)",
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(b)",
+        "rules2021:4-7A(2)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-3(3)",
+          "role": "RELATION",
+          "quote": "There must be a system of controls in place at the establishment in relation to the export operations and the plants or plant products for which the establishment is to be registered to ensure that the conditions prescribed by sections 4-7A and 4-7B and, if applicable, section 4-8A will be complied with"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "role": "RELATION",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(c)",
+          "role": "RELATION",
+          "quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and"
+        }
+      ],
+      "reason": "These provisions collectively operationalise the same CP requirement for a system of controls to manage pests and contaminants at a registered establishment. 4-3(3) establishes the overarching system of controls, while 4-7A(1)(b), 4-7A(2)(b), and 4-7A(2)(c) specify pest/contaminant outcomes, control manner, and management of toxic substances. They jointly support the single broad criterion rather than forming independent cumulative requirements."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:3-3A(1)(b)",
+        "rules2021:3-3A(2)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(1)(b)",
+          "role": "RELATION",
+          "quote": "that ensures that prescribed plants and plant products at the property are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:3-3A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the property must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        }
+      ],
+      "reason": "3-3A(2)(b) is a specific elaboration of the general pest/contaminant control requirement in 3-3A(1)(b). The general provision requires the property to be kept in a condition that prevents infestation/contamination, while the specific provision details how pests and contaminants must be controlled. They are not independent cumulative requirements; the specific provision specialises the general one."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "relation": "SPECIALIZES",
+      "criterion_quote": "the system of controls to manage pests and contaminants including but not limited to rodent control (for example, bait stations)",
+      "source_evidence": [
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "role": "RELATION",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "role": "RELATION",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products"
+        }
+      ],
+      "reason": "4-7A(2)(b) is a specific elaboration of the general pest/contaminant control requirement in 4-7A(1)(b). The general provision requires the establishment to be kept in a condition that prevents infestation/contamination, while the specific provision details how pests and contaminants must be controlled. They are not independent cumulative requirements; the specific provision specialises the general one."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms fall into two parallel sets: one for accredited properties (Chapter 3) and one for registered establishments (Chapter 4). Within each set, the overarching system-of-controls provision and the specific pest/contaminant provisions jointly support the same CP criterion. Additionally, within each set, the specific control manner provision specialises the general condition provision. No cumulative or alternative relationships are warranted because the CP does not explicitly require separate independent dimensions; all provisions operationalise the single broad requirement."
+}

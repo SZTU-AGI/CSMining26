@@ -1,0 +1,15 @@
+V6.6.2 hybrid forced-N/A gate: cases=1 model=deepseek-v4-flash
+Automatically selected applicability candidates: ['CP5', 'CP6', 'CP7', 'CP14', 'CP15', 'CP16', 'CP26', 'CP41']
+Primary element outputs from V6.6 are cache-reused when unchanged.
+[1/1] case-001: chunks=555 cache
+  Element-1: cache labels={'1': 5, '0': 2}
+  Element-2: cache labels={'1': 3, '0': 6}
+  Element-3: cache labels={'1': 12}
+  Element-4: cache labels={'0': 13}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 13648, 'completion_tokens': 1347, 'total_tokens': 14995, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 13648}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 1644, 'completion_tokens': 131, 'total_tokens': 1775, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1644}
+  N/A gate: model confirmed= ['CP6', 'CP7'] calls= 2
+  FINAL {'1': 18, '0': 21, 'N/A': 2}
+DONE 1 cases

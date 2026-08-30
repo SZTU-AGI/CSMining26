@@ -1,0 +1,80 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:4-3(3)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products"
+        }
+      ],
+      "reason": "Both provisions require a system of controls at different facility types (property vs establishment) to ensure compliance with prescribed conditions, supporting the same broad CP requirement for systems of controls."
+    },
+    {
+      "group_id": "G2",
+      "member_candidate_ids": [
+        "rules2021:3-4",
+        "rules2021:4-8",
+        "rules2021:7-1(2)(a)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products"
+        }
+      ],
+      "reason": "These provisions all address the integrity aspect of the CP, requiring integrity to be ensured at different stages (property, establishment, export permit holder), collectively supporting the same integrity requirement."
+    },
+    {
+      "group_id": "G3",
+      "member_candidate_ids": [
+        "rules2021:3-1(3)",
+        "rules2021:3-4"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products"
+        }
+      ],
+      "reason": "3-1(3) requires a system of controls to ensure compliance with conditions including integrity (via 3-3A/3-3B), while 3-4 directly requires integrity; both support the same CP requirement for systems of controls and integrity at accredited properties."
+    },
+    {
+      "group_id": "G4",
+      "member_candidate_ids": [
+        "rules2021:4-3(3)",
+        "rules2021:4-8"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the systems of controls to maintain traceability and integrity of prescribed plant and plant products"
+        }
+      ],
+      "reason": "4-3(3) requires a system of controls to ensure compliance with conditions including integrity (via 4-7A/4-7B), while 4-8 directly requires integrity; both support the same CP requirement for systems of controls and integrity at registered establishments."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms collectively support the single CP criterion on systems of controls for traceability and integrity. They are grouped by facility type and aspect (controls vs integrity) as SUPPORTS_SAME_CRITERION, as no explicit connector in the CP or rules establishes cumulative or alternative relationships among these provisions."
+}

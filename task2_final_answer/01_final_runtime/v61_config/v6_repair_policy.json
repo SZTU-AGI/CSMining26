@@ -1,0 +1,37 @@
+{
+  "schema": "freca-core-production-repair-policy-v2-witness-v6",
+  "policy_id": "PRODUCTION_REPAIR_POLICY_V6_SINGLE_WITNESS",
+  "semantic_version": "6.0.0-witness-1",
+  "answer_comparator_used": false,
+  "human_or_historical_labels_used": false,
+  "goal_action_dispatch": {
+    "FIND_SUPPORT": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "FIND_ATTACK": "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME": "RESOLVE_TIME",
+    "RESOLVE_RELIABILITY": "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE": "COMPLETE_TARGETED_COVERAGE"
+  },
+  "allowed_action_types": [
+    "ALIGN_NEXT_CANDIDATE_BATCH",
+    "RESOLVE_TIME",
+    "ASSESS_INFORMATION_RELIABILITY",
+    "COMPLETE_TARGETED_COVERAGE"
+  ],
+  "repair_state_machine": {
+    "max_rounds": 1,
+    "max_selected_goals_per_round": 2,
+    "max_actions_per_round": 4,
+    "parent_alignment_budget": 4,
+    "execute_complete_round_before_stop": true,
+    "no_goal_state_change_is_hard_stop": true
+  },
+  "safety": {
+    "missing_to_pass_forbidden": true,
+    "unknown_to_boolean_forbidden": true,
+    "absence_to_violation_forbidden": true,
+    "absence_to_non_applicability_forbidden": true,
+    "goal_direction_does_not_force_alignment_relation": true,
+    "v1_output_write_forbidden": true,
+    "non_executable_terminal_blocker_blocks_api": true
+  }
+}

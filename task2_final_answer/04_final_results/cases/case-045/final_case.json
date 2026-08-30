@@ -1,0 +1,344 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-045",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for barley and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly describes all important features of the registered area and adjoining sites, including buildings, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly provides the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P12",
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure supporting export of barley."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P40"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, with visual inspections and corrective actions, indicating design and maintenance for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P40"
+      ],
+      "reason": "Hygiene plan includes cleaning and pest control measures, and evidence of pest control records and bait station map supports minimization of contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P24"
+      ],
+      "reason": "Evidence shows floor drainage discharges directly to external waterway without sump or containment, which may not provide hygienic disposal of liquid waste."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P38",
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P40"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning, inspection, and corrective actions, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P24"
+      ],
+      "reason": "The management plan describes floor drainage discharging directly to an external waterway without any sump, interceptor trap, or containment, indicating inadequate waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P43",
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P24"
+      ],
+      "reason": "The internal inspection found product residue accumulation and the drainage design lacks containment, showing the hygiene/waste control system is not fully effective for the operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wongan_Hills_Grain_Trust.docx:P4"
+      ],
+      "reason": "The bait station map documents integrated pest management with 22 mapped stations, contractor verification, and trend review, demonstrating a system of controls for pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wongan_Hills_Grain_Trust.docx:P4"
+      ],
+      "reason": "The pest control record notes delayed escalation follow-up for repeated rodent activity, indicating the pest control system is not fully effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, satisfying the retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "The record states that records are maintained on site and in the business management system, and are retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P43"
+      ],
+      "reason": "The internal inspection found product residue accumulation at the elevator boot and transfer points, indicating areas are not maintained in a clean and hygienic condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P43"
+      ],
+      "reason": "Product residue accumulation can harbour pests and lead to contamination, so the establishment condition does not ensure goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Wongan_Hills_Grain_Trust.docx:P4"
+      ],
+      "reason": "The evidence mentions bait stations but does not confirm they are fit for purpose and in good working order; delayed escalation suggests potential issues."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P24"
+      ],
+      "reason": "The drainage system lacks containment, allowing potential contaminants to flow to external waterways, which could contaminate prescribed plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Wongan_Hills_Grain_Trust.docx:P24"
+      ],
+      "reason": "The open drainage channel without containment could allow contaminants to enter areas where plant products are prepared, risking contamination."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Wongan_Hills_Grain_Trust_045.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but no evidence of traceability from the property from which goods were transferred to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions storage logs and traceability records but does not demonstrate actual traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Wongan_Hills_Grain_Trust_045.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows transfer records to next premises but no details confirming traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of a product flow chart demonstrating movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_45_Wongan_Hills_Grain_Trust.docx:P23"
+      ],
+      "reason": "Evidence explicitly states no formal procedure for managing goods that fail inspection, including blending, rejection, treatment, and re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Wongan_Hills_Grain_Trust.docx:P43"
+      ],
+      "reason": "Evidence shows product residue accumulation, indicating risk of contamination/infestation is not adequately maintained."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence of measures to minimize risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Wongan_Hills_Grain_Trust_045.docx:P13"
+      ],
+      "reason": "Evidence indicates packaging QC records are not consistently attached to lot files, failing packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for two years but does not provide actual records or demonstrate compliance."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_45_Wongan_Hills_Grain_Trust.docx:P23"
+      ],
+      "reason": "Evidence indicates no record-keeping requirement for non-conforming lot disposition, failing to retain records for rejected goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_45_Wongan_Hills_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence states registration for barley but no evidence that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-045/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-045/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-045/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-045/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-045/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 8,
+    "0": 31,
+    "N/A": 2
+  }
+}

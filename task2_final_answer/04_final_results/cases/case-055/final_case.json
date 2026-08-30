@@ -1,0 +1,371 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-055",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Corrigin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence shows registration for wheat and almonds, but also a HACCP plan for cotton ginning at a different facility (RE-WA-4401), indicating operations outside registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence of current suspension status; evidence only states registration is approved, not that it is not suspended at time of operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Corrigin_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan is referenced but no actual plan content provided; cannot confirm it shows the registered area."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Corrigin_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "No evidence of important features of registered area and adjoining sites; only a reference to a rule."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Corrigin_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "No evidence of layout of export operation areas, permanent fixtures, or equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence indicates no changes to the establishment have occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence indicates no changes to the establishment have occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Corrigin_Grain_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Corrigin_Grain_Pty_Ltd.docx:P9"
+      ],
+      "reason": "Management plan states the establishment has all buildings, equipment, facilities and services required for registered export operations, and site plan references s4-2."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, and visual inspections before production ensure effective cleaning."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Corrigin_Grain_Pty_Ltd_055.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Security procedure mentions sealed storage and pre-load inspections reduce contamination and infestation risk; hygiene plan maintains clean condition."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Hygiene plan mentions maintaining Grain Screening / Cleaning Plant, indicating screening is performed to manage contaminants."
+    },
+    "CP16": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Presence of Grain Screening / Cleaning Plant implies removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene, covers all areas of the establishment, assigns responsibilities, and includes cleaning procedures and verification inspections, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes waste control and disposal as part of the system of controls, referencing Rule s4-7A(2)(a) and covering all areas of the establishment, with procedures for cleaning and waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan is site-specific, covers all areas used in grain handling and storage for export wheat, includes detailed procedures, and is reviewed annually or after significant changes, demonstrating effectiveness for the type of operations."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P18",
+        "7_Bait_Station_Map_Corrigin_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The HACCP plan notes a deficiency: no site-specific pest control program, no bait station map, no monitoring schedule, no pest control contractor, and no records. Although a bait station map exists, the deficiency indicates the system of controls for pests is not fully implemented."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan explicitly states that pest effectiveness cannot be demonstrated without a documented, implemented program, and lists missing elements such as monitoring frequency and corrective actions, indicating the system is not effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records relating to export operations are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence indicates records are maintained on site and in the business management system, retained for two years, and are subject to audit, implying they are accurate, legible, and auditable. The plan references compliance with the Rules, which require English and dating."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states the objective to ensure all areas are maintained in a clean and hygienic condition, with cleaning procedures and visual inspections before production, demonstrating appropriate condition for the operations."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan identifies a deficiency in pest control, stating no site-specific program and no monitoring, which fails to ensure that prescribed goods are not likely to be infested by pests or contaminated."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan notes missing bait station map and monitoring schedule, and no pest control contractor, indicating that pest control stations are not demonstrated to be fit for purpose or in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_55_Corrigin_Grain_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence states chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, which contradicts the requirement to prevent contamination of prescribed plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_55_Corrigin_Grain_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence states chemicals are stored in an unlocked cupboard inside the pulse grading shed, which is an area where product is prepared, posing a direct risk of contaminating preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Corrigin_Grain_Pty_Ltd_055.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment and transfer records to next premises, but does not explicitly demonstrate traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Corrigin_Grain_Pty_Ltd_055.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly demonstrate traceability while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Corrigin_Grain_Pty_Ltd_055.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records to next premises but lacks specific details of traceability to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Corrigin_Grain_Pty_Ltd_055.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly describe a system of controls for traceability and integrity (e.g., labelling, record keeping)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P17",
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions product flow and a product flow chart section, but the chart itself is not provided, so it cannot be verified."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_55_Corrigin_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions 'Failed Goods' in the HACCP plan but does not provide details of the system for managing failed goods, including blending, rejections, treatments, and representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Corrigin_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence shows hygiene and sanitation procedures but does not explicitly address maintaining risk for contamination or infestation in the context of phytosanitary security."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not explicitly describe measures to minimize the risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Corrigin_Grain_Pty_Ltd_055.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not provide details of packaging requirements or compliance."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for a minimum of two years, but does not specify the types of records (receival, product movement, treatment, transfer, dispatch, transport unit approval) as required."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions retention of records for export operations but does not specifically address records for rejected or failed goods, including blending, treatments, and re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions record retention but does not confirm that records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_55_Corrigin_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for wheat export and activities are within registered scope, but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-055/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-055/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-055/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-055/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-055/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "0": 28,
+    "N/A": 2,
+    "1": 11
+  }
+}

@@ -1,0 +1,27 @@
+V6.6 deadline-final batch adjudicator: cases=1 model=deepseek-v4-flash
+Calls per case: 4 primary element calls + N/A verification only when proposed
+    parsing logical evidence once: case-020 files=9
+    parsing: 1_Farm_20_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 2_HACCPPlan_20_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 3_PestControlRecord_20_Sunraysia_Grain_and_Pulse_Trust.xlsx
+    parsing: 4_Farm-Management-Plan_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 5_Farm-Site-Plan_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 6_Farms_Hygiene_Sanitation_Plan_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 7_Bait_Station_Map_Sunraysia_Grain_and_Pulse_Trust.docx
+    parsing: 8_Phytosanitary_Security_Procedure_Sunraysia_Grain_and_Pulse_Trust_020.docx
+    parsing: 9_Traceability_Records_Sunraysia_Grain_and_Pulse_Trust_020.xlsx
+[1/1] case-020: chunks=542 parsed
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 7018, 'completion_tokens': 413, 'total_tokens': 7431, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 7018}
+  Element-1: model labels={'1': 3, '0': 4}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 9491, 'completion_tokens': 500, 'total_tokens': 9991, 'prompt_tokens_details': {'cached_tokens': 256}, 'prompt_cache_hit_tokens': 256, 'prompt_cache_miss_tokens': 9235}
+  Element-2: model labels={'0': 9}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 10507, 'completion_tokens': 1513, 'total_tokens': 12020, 'prompt_tokens_details': {'cached_tokens': 256}, 'prompt_cache_hit_tokens': 256, 'prompt_cache_miss_tokens': 10251}
+  Element-3: model labels={'1': 7, '0': 5}
+    API call deepseek-v4-flash (attempt 1/6)
+    tokens: {'prompt_tokens': 12257, 'completion_tokens': 959, 'total_tokens': 13216, 'prompt_tokens_details': {'cached_tokens': 10368}, 'prompt_cache_hit_tokens': 10368, 'prompt_cache_miss_tokens': 1889}
+  Element-4: model labels={'0': 13}
+  FINAL {'1': 10, '0': 31}
+DONE 1 cases

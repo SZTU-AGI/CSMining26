@@ -1,0 +1,20 @@
+{
+  "schema": "freca-core-production-freeze-audit-v2",
+  "all_pass": true,
+  "checks": {
+    "temporal_unknown_unresolved": true,
+    "temporal_out_of_scope_fail": true,
+    "temporal_overlap_unresolved": true,
+    "history_executed_only": true,
+    "no_goal_change_hard_stop": true,
+    "adapter_proven_compliant": true,
+    "adapter_emits_no_final_label": true,
+    "fold_is_unique_label_boundary": true,
+    "unsupported_scope_stays_unknown": true,
+    "unknown_fold_marked_fallback": true
+  },
+  "answer_comparator_used": false,
+  "ready_for_contract_shape_inventory": true,
+  "ready_for_full_4100": false,
+  "full_4100_blocker": "Contract-shape coverage and staged end-to-end dry run must pass before full production."
+}

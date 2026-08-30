@@ -1,0 +1,364 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-079",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for organic wheat and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document is referenced but no specific evidence excerpt describes the area of the premises that is registered for export operations. The provided excerpt only mentions important features, not the registered area."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P7",
+        "4_Farm-Management-Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The site plan document is referenced as covering important features of the registered area and adjoining sites, and the management plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document is referenced but no specific evidence excerpt describes the layout of areas where export operations occur, including permanent fixtures and equipment layout. The provided excerpt only mentions important features, not the layout details."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when changes occur). Evidence explicitly states no such changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no such alterations have occurred, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' (i.e., when alterations occur). Evidence explicitly states no such alterations have occurred, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P12",
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support export of organic wheat."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Evidence indicates establishment is maintained in clean and hygienic condition and cleaning procedures are in place for equipment."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_79_Grampians_Organic_Wheat_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence shows chemicals stored in unlocked cupboard inside pulse grading shed, posing contamination risk, contradicting minimization of contamination."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and includes procedures for cleaning and hygiene, with designated staff and cleaning logs, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, referencing s4-7A(2)(a) and including cleaning procedures and records."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The system of controls is documented and implemented with specific procedures for cleaning and hygiene, appropriate for the grain handling operations, and includes records of cleaning activities."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Organic_Wheat_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_79_Grampians_Organic_Wheat_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows a bait station map with 19 mapped stations, contractor verification, and integrated pest management, indicating a system of controls for pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Organic_Wheat_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes mapped stations, contractor verification, and trend review, demonstrating effectiveness for the grain storage operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years as stated in the registration record and cleaning records are retained for at least two years."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are maintained in the business management system and on site, with dates and retention periods, indicating they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states the objective to maintain all areas in a clean and hygienic condition, with procedures for cleaning the grain screening plant and recording activities."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Organic_Wheat_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P8"
+      ],
+      "reason": "The establishment maintains clean conditions and has pest control measures in place, including bait stations and monitoring, to prevent infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Grampians_Organic_Wheat_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows 19 mapped stations with contractor verification, indicating they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_79_Grampians_Organic_Wheat_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence explicitly states chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, so the CP is not satisfied."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_79_Grampians_Organic_Wheat_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Chemicals stored in an unlocked cupboard inside the pulse grading shed directly risk contaminating preparation areas, so the CP is not satisfied."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow from intake to dispatch but does not explicitly document traceability from the property of origin to receival. The dispatch docket header exists but no details of incoming source property are provided."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not provide records or procedures demonstrating traceability of product while at the establishment (e.g., lot tracking, movement logs)."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a dispatch/transfer docket header but no actual records of transfers to next premises, so traceability to next premises is not established."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions records for export operations but does not describe a system of controls for traceability and integrity (e.g., labelling, record keeping procedures). The traceability spreadsheet appears incomplete."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence references a product flow chart and failed goods but does not provide the actual flow chart or demonstrate that it shows movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not describe a system for managing goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Grampians_Organic_Wheat_Pty_Ltd.docx:P27",
+        "3_PestControlRecord_79_Grampians_Organic_Wheat_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence shows cleaning procedures and a pest control record, but the pest control record notes chemicals stored in an unlocked cupboard, indicating a risk of contamination. No evidence of a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities but does not describe a system to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Grampians_Organic_Wheat_Pty_Ltd_079.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but notes they are occasionally attached to shift summaries instead of individual lot files, indicating non-compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence states records are retained for two years, but the traceability spreadsheet appears incomplete (only headers), so it is not established that all required traceability records are retained."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not provide records of rejected goods, blending, treatments, or re-presentation. No evidence of retention of such records."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Grampians_Organic_Wheat_Pty_Ltd_079.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence states records are maintained but does not confirm they are in English, dated, accurate, legible, and auditable. The traceability spreadsheet appears incomplete, raising doubts about accuracy and completeness."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_79_Grampians_Organic_Wheat_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered for organic wheat and operations are within approved scope, but does not demonstrate that all importing country requirements are met. No specific importing country requirements are documented."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-079/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-079/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-079/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-079/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-079/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 14,
+    "0": 25,
+    "N/A": 2
+  }
+}

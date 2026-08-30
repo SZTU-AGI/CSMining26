@@ -1,0 +1,32 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:11-2(1)(a)",
+        "rules2021:11-2(1)(c)",
+        "rules2021:11-2(1)(d)"
+      ],
+      "relation": "CUMULATIVE",
+      "criterion_quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited.",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "CONNECTOR",
+          "quote": "Records must: be in English; include the date of action; be accurate, legible and able to be audited."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:11-2(1)",
+          "role": "CONNECTOR",
+          "quote": "A record that is required to be retained under this Part in relation to plants or plant products must be:"
+        }
+      ],
+      "reason": "The CP explicitly lists three distinct requirements separated by semicolons, indicating that each is independently required. The Rules provision 11-2(1) introduces a list of mandatory attributes, and paragraphs (a), (c), and (d) each state a separate requirement. Failure of any one attribute would violate the record-keeping requirement."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The three grounded norms correspond to three distinct, cumulative requirements explicitly enumerated in the CP and in the Rules. They are not alternatives or mere supports; each is independently necessary."
+}

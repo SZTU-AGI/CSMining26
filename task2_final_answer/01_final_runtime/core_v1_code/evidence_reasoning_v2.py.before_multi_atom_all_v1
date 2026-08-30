@@ -1,0 +1,3196 @@
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+from typing import Any
+
+import freca_core_v1 as core
+
+
+# ============================================================================
+# FRECA Core — minimal evidence-requirement reasoning slice
+#
+# Extracted from the frozen target architecture:
+#   D2.8  EvidenceRequirement
+#   D7.1  bidirectional RetrievalNeed
+#   D7.8  evidence-to-requirement alignment
+#   D7.14 typed proof gates
+#
+# This module deliberately does NOT implement full Layer 4/5/6/7, Carneades,
+# burden rules, full-case coverage, identity graph, or four independent roots.
+# It is a pilot adapter around the already working Core parser/retriever/API.
+# ============================================================================
+
+
+PROJECT_ROOT = Path(getattr(core, "PROJECT_ROOT", Path.cwd()))
+CONTRACT_DIR = PROJECT_ROOT / "contracts_v2"
+RESULT_DIR = PROJECT_ROOT / "results_v2"
+
+EVIDENCE_PLAN_MODEL = getattr(core, "CONTRACT_MODEL", "deepseek-v4-pro")
+EVIDENCE_ALIGN_MODEL = getattr(core, "EVIDENCE_MODEL", "deepseek-v4-flash")
+
+
+# ---------------------------------------------------------------------------
+# Exact grounding helpers
+# ---------------------------------------------------------------------------
+
+_WS_RE = re.compile(r"\s+")
+_SAFE_ID_RE = re.compile(r"^[A-Za-z0-9._:-]+$")
+
+
+def normalize_ws(text: Any) -> str:
+    return _WS_RE.sub(" ", str(text or "")).strip()
+
+
+def quote_match_mode(quote: str, source: str) -> str | None:
+    quote = str(quote or "")
+    source = str(source or "")
+
+    if not quote.strip():
+        return None
+
+    if quote in source:
+        return "EXACT_RAW"
+
+    qn = normalize_ws(quote)
+    sn = normalize_ws(source)
+
+    if qn and qn in sn:
+        return "WHITESPACE_NORMALIZED"
+
+    return None
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def save_json(value: Any, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if hasattr(core, "save_json"):
+        core.save_json(value, path)
+        return
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def _walk_contract(value, path=()):
+    """Yield (path, value) for every node in a JSON-like contract."""
+    yield path, value
+    if isinstance(value, dict):
+        for key, child in value.items():
+            yield from _walk_contract(child, path + (str(key),))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            yield from _walk_contract(child, path + (str(index),))
+
+
+def _looks_like_atom_definition(value):
+    if not isinstance(value, dict):
+        return False
+    descriptive_keys = {
+        'proposition', 'display_text', 'criterion_quote',
+        'basis_candidate_ids', 'basis_ids', 'legal_basis_ids',
+        'relations', 'text',
+    }
+    return bool(descriptive_keys.intersection(value.keys()))
+
+
+def normalize_contract_atoms(contract: dict) -> dict[str, dict]:
+    """Discover atom definitions recursively without assuming a fixed schema."""
+    atoms = {}
+    atom_id_re = re.compile(r'^A\d+$')
+    explicit_container_keys = {
+        'atoms', 'atom_catalog', 'atom_definitions', 'scoring_atoms',
+        'propositions', 'proposition_catalog',
+    }
+
+    for path, value in _walk_contract(contract):
+        if not path or path[-1] not in explicit_container_keys:
+            continue
+        if isinstance(value, dict):
+            for key, child in value.items():
+                atom_id = str(key).strip()
+                if not atom_id_re.fullmatch(atom_id) or not isinstance(child, dict):
+                    continue
+                atom = dict(child)
+                atom.setdefault('atom_id', atom_id)
+                atoms.setdefault(atom_id, atom)
+        elif isinstance(value, list):
+            for child in value:
+                if not isinstance(child, dict):
+                    continue
+                atom_id = str(
+                    child.get('atom_id') or child.get('id')
+                    or child.get('proposition_id') or ''
+                ).strip()
+                if not atom_id_re.fullmatch(atom_id):
+                    continue
+                if not _looks_like_atom_definition(child):
+                    continue
+                atom = dict(child)
+                atom.setdefault('atom_id', atom_id)
+                atoms.setdefault(atom_id, atom)
+
+    for _path, value in _walk_contract(contract):
+        if not isinstance(value, dict):
+            continue
+        for key, child in value.items():
+            atom_id = str(key).strip()
+            if not atom_id_re.fullmatch(atom_id):
+                continue
+            if not _looks_like_atom_definition(child):
+                continue
+            atom = dict(child)
+            atom.setdefault('atom_id', atom_id)
+            atoms.setdefault(atom_id, atom)
+
+    for _path, value in _walk_contract(contract):
+        if not _looks_like_atom_definition(value):
+            continue
+        atom_id = str(value.get('atom_id') or value.get('id') or '').strip()
+        if not atom_id_re.fullmatch(atom_id):
+            continue
+        atom = dict(value)
+        atom.setdefault('atom_id', atom_id)
+        atoms.setdefault(atom_id, atom)
+
+    return atoms
+
+
+def find_contract_component(contract: dict, keys: tuple[str, ...]):
+    for _path, value in _walk_contract(contract):
+        if not isinstance(value, dict):
+            continue
+        for key in keys:
+            if key in value and value[key] is not None:
+                return value[key]
+    return None
+
+
+def normalized_contract_view(contract: dict) -> dict:
+    return {
+        'atoms': normalize_contract_atoms(contract),
+        'satisfaction': find_contract_component(
+            contract, ('satisfaction', 'satisfaction_root', 'satisfaction_ast')
+        ),
+        'logic_basis': find_contract_component(
+            contract, ('logic_basis', 'logic_bases')
+        ) or [],
+    }
+
+
+def describe_contract_shape(contract: dict) -> dict:
+    atom_refs = []
+    for path, value in _walk_contract(contract):
+        if not isinstance(value, dict):
+            continue
+        atom_id = value.get('atom_id')
+        if isinstance(atom_id, str) and re.fullmatch(r'A\d+', atom_id):
+            atom_refs.append({
+                'path': '.'.join(path) or '<root>',
+                'atom_id': atom_id,
+                'keys': sorted(value.keys()),
+            })
+    view = normalized_contract_view(contract)
+    return {
+        'top_level_keys': sorted(contract.keys()),
+        'discovered_atom_ids': sorted(view['atoms'].keys()),
+        'atom_reference_locations': atom_refs[:30],
+        'satisfaction': view['satisfaction'],
+        'logic_basis': view['logic_basis'],
+    }
+
+
+def chunk_id(chunk: dict) -> str:
+    for key in ("id", "evidence_id", "chunk_id"):
+        value = chunk.get(key)
+        if value:
+            return str(value)
+    raise ValueError(f"Evidence chunk has no stable id: {chunk.keys()}")
+
+
+def chunk_text(chunk: dict) -> str:
+    for key in ("text", "content", "raw_text"):
+        value = chunk.get(key)
+        if value is not None:
+            return str(value)
+    raise ValueError(f"Evidence chunk has no text/content field: {chunk_id(chunk)}")
+
+
+# ============================================================================
+# D2.8 — EvidenceRequirement
+# ============================================================================
+
+
+EVIDENCE_REQUIREMENT_SYSTEM = r"""
+You are the EvidenceRequirement compiler in a closed-source compliance system.
+
+You are working BEFORE any case evidence is accessed.
+Use only the supplied official checking-point criterion, frozen Core contract,
+validated CandidateLedger, validated RuleSetRelation groups, and deterministic
+FACET_SEEDS supplied in the input.
+
+Your task is NOT to create new legal obligations and NOT to decide compliance.
+Your task is to express each supplied FACET_SEED as one observable evidence
+requirement for the already-frozen benchmark atom.
+
+CRITICAL DISTINCTION:
+
+EvidenceRequirement != scoring leaf.
+
+A single frozen ATOM may have MULTIPLE EvidenceRequirements.
+Those requirements describe what evidence must be checked to establish different
+observable aspects of the SAME benchmark proposition. They do not create new
+ALL_OF/ANY_OF contract nodes.
+
+FACET_SEEDS are deterministic and authoritative.
+
+Rules:
+
+- Return EXACTLY ONE DECISIVE EvidenceRequirement for every FACET_SEED.
+- Do not merge two different FACET_SEEDS into one requirement.
+- Do not split one FACET_SEED into multiple decisive requirements.
+- SPECIALIZES groups are deliberately represented as one evidence facet for that
+  material aspect.
+- SUPPORTS_SAME_CRITERION groups do not create a facet seed by themselves.
+- ALTERNATIVE groups form one evidence facet; alternative legal sources must not
+  become multiple mandatory requirements.
+- CUMULATIVE members may be supplied as separate seeds by the deterministic
+  seed builder.
+- A requirement must be narrower and more observable than the whole benchmark
+  atom whenever multiple FACET_SEEDS exist.
+- If multiple FACET_SEEDS exist, do NOT simply repeat the entire CP criterion as
+  proposition_to_establish for each seed.
+
+For each requirement:
+
+- facet_seed_id must exactly identify one supplied seed;
+- atom_id must equal the seed atom_id;
+- decisiveness must be DECISIVE;
+- criterion_quote must be an exact quote from the official criterion;
+- basis_candidate_ids must be a non-empty subset of the seed candidate IDs;
+- source_group_ids must contain the seed source group IDs;
+- RULES query_sources may cite only candidate IDs in that seed;
+- CP query_sources may cite only exact CP text;
+- proposition_to_establish must describe an observable aspect grounded in the
+  seed's Rules text and CP text;
+- do not mention Tracks, filenames, cases, labels, historical outputs, or expected
+  answers;
+- do not invent industry practice or extra requirements.
+
+Return JSON only:
+
+{
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "observable evidence facet",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "exact CP quote",
+      "basis_candidate_ids": ["rules2021:..."],
+      "source_group_ids": ["G1"],
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "exact CP phrase"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:...",
+          "quote": "exact Rules phrase"
+        }
+      ],
+      "reason": "brief explanation"
+    }
+  ]
+}
+"""
+
+
+
+def _candidate_maps(ledger_artifact: dict) -> tuple[dict[str, dict], dict[str, dict]]:
+    candidates = {
+        item["id"]: item
+        for item in ledger_artifact.get("candidates", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    decisions = {
+        item["candidate_id"]: item
+        for item in ledger_artifact.get("decisions", [])
+        if isinstance(item, dict) and item.get("candidate_id")
+    }
+    return candidates, decisions
+
+
+def build_evidence_facet_seeds(
+    rule_set_relation: dict,
+    eligible_ids: set[str],
+    *,
+    atom_id: str,
+) -> list[dict]:
+    """Derive evidence facets from validated L2-C without changing contract logic."""
+
+    groups = [
+        g
+        for g in rule_set_relation.get("groups", [])
+        if isinstance(g, dict)
+    ]
+
+    seeds = []
+    seen_keys = set()
+
+    def add_seed(seed_id, source_group_ids, members, seed_relation):
+        members = sorted({m for m in members if m in eligible_ids})
+        if not members:
+            return
+        key = (tuple(source_group_ids), tuple(members), seed_relation)
+        if key in seen_keys:
+            return
+        seen_keys.add(key)
+        seeds.append(
+            {
+                "facet_seed_id": seed_id,
+                "atom_id": atom_id,
+                "source_group_ids": source_group_ids,
+                "basis_candidate_ids": members,
+                "seed_relation": seed_relation,
+            }
+        )
+
+    for group in sorted(groups, key=lambda g: str(g.get("group_id", ""))):
+        group_id = str(group.get("group_id", "")).strip()
+        relation = str(group.get("relation", "")).strip()
+        members = [str(x) for x in group.get("member_candidate_ids", [])]
+
+        if relation in {"CONTESTED", "UNRESOLVED"}:
+            raise ValueError(
+                f"Cannot build evidence facets from unresolved RuleSetRelation "
+                f"group {group_id}: {relation}"
+            )
+
+        if relation in {"SPECIALIZES", "ALTERNATIVE"}:
+            add_seed(f"FS-{group_id}", [group_id], members, relation)
+
+        elif relation == "CUMULATIVE":
+            for index, member in enumerate(
+                sorted({m for m in members if m in eligible_ids}),
+                1,
+            ):
+                add_seed(
+                    f"FS-{group_id}-{index}",
+                    [group_id],
+                    [member],
+                    "CUMULATIVE_MEMBER",
+                )
+
+        # SUPPORTS_SAME_CRITERION and CONTEXT_ONLY intentionally do not create
+        # independent evidence facets.
+
+    if not seeds:
+        add_seed(
+            "FS-FALLBACK",
+            [],
+            sorted(eligible_ids),
+            "FALLBACK_SAME_CRITERION",
+        )
+
+    unique = []
+    seen_specializes_members = set()
+    for seed in seeds:
+        member_key = tuple(seed["basis_candidate_ids"])
+        if (
+            seed["seed_relation"] == "SPECIALIZES"
+            and member_key in seen_specializes_members
+        ):
+            continue
+        if seed["seed_relation"] == "SPECIALIZES":
+            seen_specializes_members.add(member_key)
+        unique.append(seed)
+
+    return unique
+
+
+def make_evidence_requirement_prompt(
+    cp: dict,
+    contract: dict,
+    ledger_artifact: dict,
+    rule_set_relation: dict,
+) -> str:
+    candidates, decisions = _candidate_maps(ledger_artifact)
+
+    eligible = []
+    for candidate_id, decision in decisions.items():
+        if not (
+            decision.get("selected")
+            and decision.get("relation") == "PRIMARY_NORM"
+            and decision.get("contract_eligible", False)
+        ):
+            continue
+
+        candidate = candidates.get(candidate_id)
+        if not candidate:
+            continue
+
+        eligible.append(
+            {
+                "candidate_id": candidate_id,
+                "citation": candidate.get("citation", ""),
+                "unit_type": candidate.get("unit_type", ""),
+                "own_text": candidate.get("own_text", candidate.get("text", "")),
+                "legal_basis_relation": decision.get("legal_basis_relation"),
+                "legal_basis_cp_quote": decision.get("legal_basis_cp_quote", ""),
+                "legal_basis_policy_quote": decision.get("legal_basis_policy_quote", ""),
+            }
+        )
+
+    eligible.sort(key=lambda x: x["candidate_id"])
+    eligible_ids = {x["candidate_id"] for x in eligible}
+
+    atoms = normalize_contract_atoms(contract)
+    if len(atoms) != 1:
+        raise ValueError(
+            "Minimal evidence-facet compiler currently expects exactly one "
+            f"frozen Core atom; discovered {sorted(atoms)}"
+        )
+    atom_id = next(iter(atoms))
+
+    facet_seeds = build_evidence_facet_seeds(
+        rule_set_relation,
+        eligible_ids,
+        atom_id=atom_id,
+    )
+
+    if "normalized_contract_view" in globals():
+        frozen_contract = normalized_contract_view(contract)
+    else:
+        frozen_contract = {
+            "atoms": atoms,
+            "satisfaction": contract.get("satisfaction"),
+            "logic_basis": contract.get("logic_basis", []),
+        }
+
+    payload = {
+        "official_cp": {
+            "cp_id": cp["cp_id"],
+            "subelement": cp.get("subelement", ""),
+            "criterion": cp["criterion"],
+        },
+        "frozen_contract": frozen_contract,
+        "eligible_primary_norms": eligible,
+        "validated_rule_set_relation": rule_set_relation,
+        "facet_seeds": facet_seeds,
+    }
+
+    return (
+        "INPUT_JSON:\\n"
+        + json.dumps(payload, ensure_ascii=False, indent=2)
+        + "\\n\\nCompile exactly one DECISIVE EvidenceRequirement per FACET_SEED. "
+        + "Return JSON only."
+    )
+
+
+def validate_evidence_requirements(
+    raw: dict,
+    cp: dict,
+    contract: dict,
+    ledger_artifact: dict,
+    rule_set_relation: dict,
+) -> dict:
+    requirements = raw.get("requirements")
+    if not isinstance(requirements, list) or not requirements:
+        raise ValueError("EvidenceRequirement compiler returned no requirements list")
+
+    atoms = normalize_contract_atoms(contract)
+    if len(atoms) != 1:
+        raise ValueError(
+            "Minimal validator expects exactly one frozen Core atom; "
+            f"discovered {sorted(atoms)}"
+        )
+    atom_id = next(iter(atoms))
+
+    candidates, decisions = _candidate_maps(ledger_artifact)
+    eligible_ids = {
+        candidate_id
+        for candidate_id, decision in decisions.items()
+        if (
+            decision.get("selected")
+            and decision.get("relation") == "PRIMARY_NORM"
+            and decision.get("contract_eligible", False)
+        )
+    }
+
+    facet_seeds = build_evidence_facet_seeds(
+        rule_set_relation,
+        eligible_ids,
+        atom_id=atom_id,
+    )
+    seed_map = {seed["facet_seed_id"]: seed for seed in facet_seeds}
+
+    group_ids = {
+        group.get("group_id")
+        for group in rule_set_relation.get("groups", [])
+        if isinstance(group, dict) and group.get("group_id")
+    }
+
+    validated = []
+    seen_ids = set()
+    seen_seed_ids = set()
+    seen_semantics = set()
+
+    for item in requirements:
+        if not isinstance(item, dict):
+            raise ValueError("EvidenceRequirement item must be an object")
+
+        requirement_id = str(item.get("requirement_id", "")).strip()
+        if not requirement_id or not _SAFE_ID_RE.fullmatch(requirement_id):
+            raise ValueError(f"Invalid requirement_id: {requirement_id!r}")
+        if requirement_id in seen_ids:
+            raise ValueError(f"Duplicate requirement_id: {requirement_id}")
+        seen_ids.add(requirement_id)
+
+        facet_seed_id = str(item.get("facet_seed_id", "")).strip()
+        if facet_seed_id not in seed_map:
+            raise ValueError(
+                f"{requirement_id}: unknown facet_seed_id {facet_seed_id!r}"
+            )
+        if facet_seed_id in seen_seed_ids:
+            raise ValueError(
+                f"{requirement_id}: duplicate requirement for seed {facet_seed_id}"
+            )
+        seen_seed_ids.add(facet_seed_id)
+        seed = seed_map[facet_seed_id]
+
+        returned_atom_id = str(item.get("atom_id", "")).strip()
+        if returned_atom_id != seed["atom_id"]:
+            raise ValueError(
+                f"{requirement_id}: atom_id {returned_atom_id!r} does not match "
+                f"seed atom {seed['atom_id']!r}"
+            )
+
+        proposition = str(item.get("proposition_to_establish", "")).strip()
+        if not proposition:
+            raise ValueError(f"{requirement_id}: empty proposition_to_establish")
+        semantic_key = normalize_ws(proposition).lower()
+        if semantic_key in seen_semantics:
+            raise ValueError(f"{requirement_id}: duplicate semantic evidence facet")
+        seen_semantics.add(semantic_key)
+
+        if (
+            len(facet_seeds) > 1
+            and semantic_key == normalize_ws(cp["criterion"]).lower()
+        ):
+            raise ValueError(
+                f"{requirement_id}: UNDER_FACTORIZED_EVIDENCE_PLAN: multiple "
+                "deterministic facet seeds exist but requirement merely repeats "
+                "the whole CP criterion."
+            )
+
+        if item.get("polarity") != "SUPPORT":
+            raise ValueError(
+                f"{requirement_id}: minimal D2.8 catalog expects polarity=SUPPORT"
+            )
+        if item.get("decisiveness") != "DECISIVE":
+            raise ValueError(
+                f"{requirement_id}: each deterministic facet seed must compile "
+                "to one DECISIVE EvidenceRequirement"
+            )
+
+        criterion_quote = str(item.get("criterion_quote", "")).strip()
+        criterion_mode = quote_match_mode(criterion_quote, cp["criterion"])
+        if criterion_mode is None:
+            raise ValueError(f"{requirement_id}: criterion_quote is not grounded")
+
+        basis_candidate_ids = [str(x) for x in item.get("basis_candidate_ids", [])]
+        if not basis_candidate_ids:
+            raise ValueError(f"{requirement_id}: decisive requirement has no legal basis")
+        seed_candidates = set(seed["basis_candidate_ids"])
+        outside_seed = set(basis_candidate_ids) - seed_candidates
+        if outside_seed:
+            raise ValueError(
+                f"{requirement_id}: basis candidates outside {facet_seed_id}: "
+                f"{sorted(outside_seed)}"
+            )
+
+        source_group_ids = [str(x) for x in item.get("source_group_ids", [])]
+        unknown_groups = set(source_group_ids) - group_ids
+        if unknown_groups:
+            raise ValueError(
+                f"{requirement_id}: unknown RuleSetRelation groups "
+                f"{sorted(unknown_groups)}"
+            )
+        required_groups = set(seed["source_group_ids"])
+        if not required_groups.issubset(set(source_group_ids)):
+            raise ValueError(
+                f"{requirement_id}: missing seed source groups "
+                f"{sorted(required_groups)}"
+            )
+
+        query_sources = item.get("query_sources", [])
+        if not isinstance(query_sources, list) or not query_sources:
+            raise ValueError(f"{requirement_id}: query_sources must be non-empty")
+
+        validated_query_sources = []
+        for source in query_sources:
+            if not isinstance(source, dict):
+                raise ValueError(f"{requirement_id}: invalid query source")
+
+            source_type = source.get("source")
+            candidate_id = source.get("candidate_id")
+            quote = str(source.get("quote", "")).strip()
+            if not quote:
+                raise ValueError(f"{requirement_id}: empty query source quote")
+
+            if source_type == "CP":
+                if quote_match_mode(quote, cp["criterion"]) is None:
+                    raise ValueError(f"{requirement_id}: ungrounded CP query quote")
+                candidate_id = None
+
+            elif source_type == "RULES":
+                if candidate_id not in seed_candidates:
+                    raise ValueError(
+                        f"{requirement_id}: Rules query candidate {candidate_id} "
+                        f"lies outside facet seed {facet_seed_id}"
+                    )
+                candidate = candidates.get(candidate_id)
+                if not candidate:
+                    raise ValueError(
+                        f"{requirement_id}: unknown Rules query candidate {candidate_id}"
+                    )
+                own_text = candidate.get("own_text", candidate.get("text", ""))
+                if quote_match_mode(quote, own_text) is None:
+                    raise ValueError(
+                        f"{requirement_id}: Rules query quote not grounded in {candidate_id}"
+                    )
+            else:
+                raise ValueError(
+                    f"{requirement_id}: invalid query source {source_type}"
+                )
+
+            validated_query_sources.append(
+                {
+                    "source": source_type,
+                    "candidate_id": candidate_id,
+                    "quote": quote,
+                }
+            )
+
+        validated.append(
+            {
+                "requirement_id": requirement_id,
+                "facet_seed_id": facet_seed_id,
+                "atom_id": seed["atom_id"],
+                "proposition_to_establish": proposition,
+                "polarity": "SUPPORT",
+                "decisiveness": "DECISIVE",
+                "criterion_quote": criterion_quote,
+                "criterion_match_mode": criterion_mode,
+                "basis_candidate_ids": basis_candidate_ids,
+                "source_group_ids": source_group_ids,
+                "seed_relation": seed["seed_relation"],
+                "query_sources": validated_query_sources,
+                "reason": str(item.get("reason", "")),
+            }
+        )
+
+    missing_seeds = set(seed_map) - seen_seed_ids
+    if missing_seeds:
+        raise ValueError(
+            "EvidenceRequirement compiler omitted deterministic facet seeds: "
+            f"{sorted(missing_seeds)}"
+        )
+    if len(validated) != len(facet_seeds):
+        raise ValueError(
+            "EvidenceRequirement count must exactly equal deterministic facet "
+            f"seed count: {len(validated)} != {len(facet_seeds)}"
+        )
+
+    return {
+        "schema": "freca-core-evidence-requirements-v2.1",
+        "cp_id": cp["cp_id"],
+        "facet_seeds": facet_seeds,
+        "requirements": validated,
+        "pilot_only": True,
+        "notes": [
+            "Multiple EvidenceRequirements may attach to one frozen atom.",
+            "EvidenceRequirements are proof/coverage facets, not additional contract logic leaves.",
+            "Facet seeds are derived deterministically from validated RuleSetRelation.",
+            "Full D2.8 typed entity/time/cardinality fields remain deferred in Core pilot.",
+        ],
+    }
+
+
+def compile_evidence_requirements(cp_id: str, *, force: bool = False) -> dict:
+    cp = core.get_cp(cp_id)
+    cp_id = cp["cp_id"]
+
+    plan_path = CONTRACT_DIR / f"{cp_id}_evidence_requirements.json"
+    if plan_path.exists() and not force:
+        return load_json(plan_path)
+
+    contract = load_json(CONTRACT_DIR / f"{cp_id}.json")
+    ledger = load_json(CONTRACT_DIR / f"{cp_id}_candidate_ledger.json")
+    relation = load_json(CONTRACT_DIR / f"{cp_id}_rule_set_relation.json")
+
+    raw = core.deepseek_json(
+        model=EVIDENCE_PLAN_MODEL,
+        system_prompt=EVIDENCE_REQUIREMENT_SYSTEM,
+        user_prompt=make_evidence_requirement_prompt(cp, contract, ledger, relation),
+        thinking=False,
+        max_tokens=6000,
+    )
+
+    validated = validate_evidence_requirements(raw, cp, contract, ledger, relation)
+    save_json(validated, plan_path)
+    return validated
+
+
+# ============================================================================
+# D7.1 — bidirectional RetrievalNeed
+# ============================================================================
+
+
+def build_retrieval_needs(plan: dict) -> list[dict]:
+    needs = []
+
+    for requirement in plan["requirements"]:
+        query_facets = []
+        query_variants = []
+        seen = set()
+
+        for index, source in enumerate(requirement["query_sources"], start=1):
+            facet = normalize_ws(source["quote"])
+            key = facet.lower()
+
+            if not facet or key in seen:
+                continue
+
+            seen.add(key)
+            query_facets.append(facet)
+
+            query_variants.append(
+                {
+                    "variant_id": f"{requirement['requirement_id']}.source.{index}",
+                    "source": source.get("source"),
+                    "candidate_id": source.get("candidate_id"),
+                    "query": facet,
+                    "transformation": "EXACT_SOURCE_FACET",
+                }
+            )
+
+        proposition = normalize_ws(requirement["proposition_to_establish"])
+        proposition_key = proposition.lower()
+
+        if proposition and proposition_key not in seen:
+            query_facets.append(proposition)
+            query_variants.append(
+                {
+                    "variant_id": f"{requirement['requirement_id']}.proposition",
+                    "source": "EVIDENCE_REQUIREMENT",
+                    "candidate_id": None,
+                    "query": proposition,
+                    "transformation": "FROZEN_PROPOSITION",
+                }
+            )
+
+        for direction in ("SUPPORT", "ATTACK"):
+            needs.append(
+                {
+                    "need_id": f"{requirement['requirement_id']}.{direction.lower()}",
+                    "requirement_id": requirement["requirement_id"],
+                    "atom_id": requirement["atom_id"],
+                    "direction": direction,
+                    "priority_class": (
+                        "COUNTEREVIDENCE"
+                        if direction == "ATTACK"
+                        else (
+                            "DECISIVE"
+                            if requirement["decisiveness"] == "DECISIVE"
+                            else "NON_DECISIVE"
+                        )
+                    ),
+                    "query_facets": query_facets,
+                    "query_variants": query_variants,
+                    "coverage_requirement": "CANDIDATE_DISCOVERY",
+                }
+            )
+
+    return needs
+
+def _build_query(facets: list[str]) -> str:
+    seen = []
+    normalized_seen = set()
+    for facet in facets:
+        clean = normalize_ws(facet)
+        key = clean.lower()
+        if clean and key not in normalized_seen:
+            normalized_seen.add(key)
+            seen.append(clean)
+    return " ".join(seen)
+
+
+
+
+def retrieve_requirement_candidates(
+    evidence_chunks: list[dict],
+    needs: list[dict],
+    *,
+    top_k: int = 12,
+) -> list[dict]:
+    """Retrieve with bounded candidate generation and separate context packing.
+
+    Important separation:
+      1. Every case record is scanned/scored by the enabled deterministic
+         channels.
+      2. A channel's frozen candidate-generation rule decides which records
+         become RetrievalHits / members of the candidate universe.
+      3. The candidate universe is persisted and is NOT truncated by model
+         context packing.
+      4. ``candidates`` remains the backward-compatible bounded model context.
+
+    This function deliberately does NOT treat every BM25 score > 0 as a
+    candidate.  The lexical channel scans the whole case but contributes a
+    frozen ranked prefix per QueryVariant.  This mirrors the reference-core
+    candidate_limit/top_k separation while keeping the full scan auditable.
+    """
+
+    from evidence_nature_v1 import (
+        classify_evidence_nature,
+        infer_requirement_predicate_profile,
+    )
+
+    docs = []
+    by_id = {}
+
+    for chunk in evidence_chunks:
+        cid = chunk_id(
+            chunk
+        )
+
+        text = chunk_text(
+            chunk
+        )
+
+        item = dict(
+            chunk
+        )
+
+        item[
+            "id"
+        ] = cid
+
+        item[
+            "text"
+        ] = text
+
+        docs.append(
+            item
+        )
+
+        by_id[
+            cid
+        ] = item
+
+    # These are retrieval configuration values, NOT proof thresholds.
+    lexical_candidate_limit = 40
+    per_variant_context_quota = 3
+    rrf_k = 60
+
+    support_context_cap = max(
+        24,
+        top_k,
+    )
+
+    attack_context_cap = max(
+        24,
+        top_k,
+    )
+
+    full_rank_cache = {}
+
+    def full_rank(
+        query: str,
+    ) -> list[dict]:
+        query = normalize_ws(
+            query
+        )
+
+        if not query:
+            return []
+
+        if (
+            query
+            not in full_rank_cache
+        ):
+            ranked = core.bm25_rank(
+                query,
+                docs,
+                len(
+                    docs
+                ),
+            )
+
+            # Preserve only positive lexical matches in the diagnostic full
+            # ranking.  The candidate universe is still bounded separately.
+            full_rank_cache[
+                query
+            ] = [
+                item
+                for item in ranked
+                if float(
+                    item.get(
+                        "score",
+                        0.0,
+                    )
+                    or 0.0
+                )
+                > 0.0
+            ]
+
+        return full_rank_cache[
+            query
+        ]
+
+    def neighbour_ids(
+        evidence_id: str,
+    ) -> list[str]:
+        out = []
+
+        paragraph = re.match(
+            r"^(.*):P(\d+)$",
+            evidence_id,
+        )
+
+        if paragraph:
+            prefix = (
+                paragraph.group(
+                    1
+                )
+            )
+
+            number = int(
+                paragraph.group(
+                    2
+                )
+            )
+
+            for adjacent in (
+                number - 1,
+                number + 1,
+            ):
+                if adjacent >= 1:
+                    out.append(
+                        f"{prefix}:P{adjacent}"
+                    )
+
+            return out
+
+        row = re.match(
+            r"^(.*):R(\d+)$",
+            evidence_id,
+        )
+
+        if row:
+            prefix = row.group(
+                1
+            )
+
+            number = int(
+                row.group(
+                    2
+                )
+            )
+
+            for adjacent in (
+                number - 1,
+                number + 1,
+            ):
+                if adjacent >= 1:
+                    out.append(
+                        f"{prefix}:R{adjacent}"
+                    )
+
+        return out
+
+    def rrf_order(
+        rankings: list[list[str]],
+    ) -> tuple[
+        list[str],
+        dict[str, float],
+    ]:
+        totals = {}
+        best_rank = {}
+        first_seen = {}
+        counter = 0
+
+        for ranking in rankings:
+            for rank, evidence_id in enumerate(
+                ranking,
+                start=1,
+            ):
+                totals[
+                    evidence_id
+                ] = (
+                    totals.get(
+                        evidence_id,
+                        0.0,
+                    )
+                    + 1.0
+                    / (
+                        rrf_k
+                        + rank
+                    )
+                )
+
+                best_rank[
+                    evidence_id
+                ] = min(
+                    best_rank.get(
+                        evidence_id,
+                        10**9,
+                    ),
+                    rank,
+                )
+
+                if (
+                    evidence_id
+                    not in first_seen
+                ):
+                    first_seen[
+                        evidence_id
+                    ] = counter
+
+                    counter += 1
+
+        ordered = sorted(
+            totals,
+            key=lambda evidence_id: (
+                -totals[
+                    evidence_id
+                ],
+                best_rank[
+                    evidence_id
+                ],
+                first_seen[
+                    evidence_id
+                ],
+                evidence_id,
+            ),
+        )
+
+        return (
+            ordered,
+            totals,
+        )
+
+    typed_natures_by_target = {
+        "DESIGN_CONSTRUCTION": {
+            "PHYSICAL_DESIGN_FEATURE",
+            "DESIGN_OR_CONSTRUCTION_DEFECT",
+        },
+        "CURRENT_CONDITION": {
+            "CURRENT_CONDITION",
+            "OBSERVATION_RECORD",
+            "REVIEW_FINDING",
+            "ACTIVITY_RECORD",
+            "CURRENT_MAINTENANCE_OR_CONDITION_DEFECT",
+            "ADVERSE_OPERATIONAL_FINDING",
+            "EXPLICIT_CONTROL_ABSENCE",
+        },
+        "ACTIVITY_PERFORMED": {
+            "ACTIVITY_RECORD",
+            "OBSERVATION_RECORD",
+            "REVIEW_FINDING",
+            "PROCEDURE_STATEMENT",
+            "PLAN_STATEMENT",
+        },
+        "RECORDKEEPING": {
+            "RECORD_EXISTS",
+            "ACTIVITY_RECORD",
+            "DOCUMENTATION_GAP",
+        },
+        "DOCUMENTATION": {
+            "RECORD_EXISTS",
+            "ACTIVITY_RECORD",
+            "DOCUMENTATION_GAP",
+        },
+        "PROCEDURE_OR_PLAN_EXISTS": {
+            "PROCEDURE_STATEMENT",
+            "PLAN_STATEMENT",
+            "DOCUMENTATION_GAP",
+        },
+        "OUTCOME_STATE": {
+            "CURRENT_CONDITION",
+            "OBSERVATION_RECORD",
+            "REVIEW_FINDING",
+            "CURRENT_MAINTENANCE_OR_CONDITION_DEFECT",
+            "ADVERSE_OPERATIONAL_FINDING",
+        },
+    }
+
+    typed_cache = {}
+
+    def typed_record(
+        item: dict,
+    ) -> dict:
+        evidence_id = item[
+            "id"
+        ]
+
+        if (
+            evidence_id
+            not in typed_cache
+        ):
+            typed_cache[
+                evidence_id
+            ] = (
+                classify_evidence_nature(
+                    item[
+                        "text"
+                    ]
+                )
+            )
+
+        return typed_cache[
+            evidence_id
+        ]
+
+    def typed_candidates_for_need(
+        need: dict,
+    ) -> tuple[
+        list[str],
+        dict,
+    ]:
+        facets = need.get(
+            "query_facets",
+            [],
+        )
+
+        proposition = (
+            facets[-1]
+            if facets
+            else ""
+        )
+
+        pseudo_requirement = {
+            "proposition_to_establish":
+                proposition,
+            "query_sources":
+                [],
+        }
+
+        profile = (
+            infer_requirement_predicate_profile(
+                pseudo_requirement
+            )
+        )
+
+        target_kinds = profile.get(
+            "target_kinds",
+            [],
+        )
+
+        wanted = set()
+
+        for target_kind in target_kinds:
+            wanted.update(
+                typed_natures_by_target.get(
+                    target_kind,
+                    set(),
+                )
+            )
+
+        matched = []
+
+        if wanted:
+            for item in docs:
+                typed = typed_record(
+                    item
+                )
+
+                natures = set(
+                    typed.get(
+                        "evidence_natures",
+                        [],
+                    )
+                )
+
+                if (
+                    natures
+                    & wanted
+                ):
+                    matched.append(
+                        item[
+                            "id"
+                        ]
+                    )
+
+        return (
+            matched,
+            {
+                "target_kinds":
+                    target_kinds,
+                "wanted_natures":
+                    sorted(
+                        wanted
+                    ),
+                "scan_chunk_count":
+                    len(
+                        docs
+                    ),
+                "matched_count":
+                    len(
+                        matched
+                    ),
+                "full_case_scan":
+                    True,
+                "candidate_generation_mode":
+                    "ALL_TYPED_MATCHES",
+            },
+        )
+
+    traces = []
+
+    for need in needs:
+        combined_query = (
+            _build_query(
+                need[
+                    "query_facets"
+                ]
+            )
+        )
+
+        source_variants = list(
+            need.get(
+                "query_variants",
+                [],
+            )
+        )
+
+        if not source_variants:
+            source_variants = [
+                {
+                    "variant_id":
+                        (
+                            f"{need['need_id']}"
+                            ".fallback"
+                        ),
+                    "source":
+                        "COMBINED",
+                    "candidate_id":
+                        None,
+                    "query":
+                        combined_query,
+                    "transformation":
+                        "COMBINED_FALLBACK",
+                }
+            ]
+
+        variant_rows = []
+        lexical_rankings = []
+        lexical_ids = []
+        lexical_seen = set()
+        lexical_best_score = {}
+
+        # ------------------------------------------------------------
+        # RAW_LEXICAL:
+        # scan the full case, but generate a bounded RetrievalHit set.
+        # ------------------------------------------------------------
+        for variant in source_variants:
+            query = normalize_ws(
+                variant.get(
+                    "query",
+                    "",
+                )
+            )
+
+            if not query:
+                continue
+
+            full_ranked = full_rank(
+                query
+            )
+
+            generated = full_ranked[
+                :lexical_candidate_limit
+            ]
+
+            generated_ids = [
+                item[
+                    "id"
+                ]
+                for item
+                in generated
+            ]
+
+            lexical_rankings.append(
+                generated_ids
+            )
+
+            for item in generated:
+                evidence_id = item[
+                    "id"
+                ]
+
+                lexical_best_score[
+                    evidence_id
+                ] = max(
+                    lexical_best_score.get(
+                        evidence_id,
+                        0.0,
+                    ),
+                    float(
+                        item.get(
+                            "score",
+                            0.0,
+                        )
+                        or 0.0
+                    ),
+                )
+
+                if (
+                    evidence_id
+                    not in lexical_seen
+                ):
+                    lexical_seen.add(
+                        evidence_id
+                    )
+
+                    lexical_ids.append(
+                        evidence_id
+                    )
+
+            variant_rows.append(
+                {
+                    **variant,
+                    "scan_chunk_count":
+                        len(
+                            docs
+                        ),
+                    "scan_complete":
+                        True,
+                    "positive_score_count":
+                        len(
+                            full_ranked
+                        ),
+                    "candidate_limit":
+                        lexical_candidate_limit,
+                    "generated_candidate_count":
+                        len(
+                            generated_ids
+                        ),
+                    "generated_candidate_ids":
+                        generated_ids,
+                    # Backward-compatible ranking/context field.
+                    "top_ids":
+                        generated_ids[
+                            :per_variant_context_quota
+                        ],
+                }
+            )
+
+        (
+            fused_lexical_ids,
+            rrf_scores,
+        ) = rrf_order(
+            lexical_rankings
+        )
+
+        (
+            typed_ids,
+            typed_trace,
+        ) = typed_candidates_for_need(
+            need
+        )
+
+        # ------------------------------------------------------------
+        # Candidate universe:
+        # lexical generated hits + all typed hits + bounded structure rescue.
+        # ------------------------------------------------------------
+        universe_ids = []
+        methods_by_id = {}
+
+        def add_universe(
+            evidence_id: str,
+            method: str,
+        ) -> None:
+            if (
+                evidence_id
+                not in by_id
+            ):
+                return
+
+            methods_by_id.setdefault(
+                evidence_id,
+                [],
+            )
+
+            if (
+                method
+                not in methods_by_id[
+                    evidence_id
+                ]
+            ):
+                methods_by_id[
+                    evidence_id
+                ].append(
+                    method
+                )
+
+            if (
+                evidence_id
+                not in universe_ids
+            ):
+                universe_ids.append(
+                    evidence_id
+                )
+
+        for evidence_id in lexical_ids:
+            add_universe(
+                evidence_id,
+                "LEXICAL_BM25_GENERATED_HIT",
+            )
+
+        for evidence_id in typed_ids:
+            add_universe(
+                evidence_id,
+                "TYPED_FACT_SCAN",
+            )
+
+        # STRUCTURE remains a rescue channel in Core v1.1:
+        # only high-priority lexical seeds and typed hits seed neighbours.
+        structure_seed_ids = []
+
+        def add_structure_seed(
+            evidence_id: str,
+        ) -> None:
+            if (
+                evidence_id
+                in by_id
+                and evidence_id
+                not in structure_seed_ids
+            ):
+                structure_seed_ids.append(
+                    evidence_id
+                )
+
+        for variant in variant_rows:
+            for evidence_id in variant[
+                "top_ids"
+            ]:
+                add_structure_seed(
+                    evidence_id
+                )
+
+        for evidence_id in typed_ids:
+            add_structure_seed(
+                evidence_id
+            )
+
+        structure_added_ids = []
+
+        for evidence_id in structure_seed_ids:
+            for neighbour_id in neighbour_ids(
+                evidence_id
+            ):
+                before = (
+                    neighbour_id
+                    in universe_ids
+                )
+
+                add_universe(
+                    neighbour_id,
+                    "STRUCTURE_NEIGHBOUR",
+                )
+
+                if (
+                    neighbour_id
+                    in by_id
+                    and not before
+                    and neighbour_id
+                    not in structure_added_ids
+                ):
+                    structure_added_ids.append(
+                        neighbour_id
+                    )
+
+        candidate_universe = []
+
+        for universe_rank, evidence_id in enumerate(
+            universe_ids,
+            start=1,
+        ):
+            item = by_id[
+                evidence_id
+            ]
+
+            candidate_universe.append(
+                {
+                    "evidence_id":
+                        evidence_id,
+                    "score":
+                        rrf_scores.get(
+                            evidence_id
+                        ),
+                    "lexical_best_score":
+                        lexical_best_score.get(
+                            evidence_id
+                        ),
+                    "text":
+                        item[
+                            "text"
+                        ],
+                    "retrieval_methods":
+                        methods_by_id.get(
+                            evidence_id,
+                            [],
+                        ),
+                    "universe_rank":
+                        universe_rank,
+                }
+            )
+
+        # ------------------------------------------------------------
+        # Model context: bounded ordering only.
+        # ------------------------------------------------------------
+        context_cap = (
+            support_context_cap
+            if need[
+                "direction"
+            ]
+            == "SUPPORT"
+            else attack_context_cap
+        )
+
+        context_ids = []
+
+        def add_context(
+            evidence_id: str,
+        ) -> None:
+            if (
+                evidence_id
+                not in by_id
+            ):
+                return
+
+            if (
+                evidence_id
+                not in context_ids
+            ):
+                context_ids.append(
+                    evidence_id
+                )
+
+        # Typed first because it is the strongest deterministic
+        # predicate-oriented retrieval view currently implemented.
+        for evidence_id in typed_ids:
+            add_context(
+                evidence_id
+            )
+
+        # Frozen source-grounded quota.
+        for variant in variant_rows:
+            for evidence_id in variant[
+                "top_ids"
+            ]:
+                add_context(
+                    evidence_id
+                )
+
+                for neighbour_id in neighbour_ids(
+                    evidence_id
+                ):
+                    add_context(
+                        neighbour_id
+                    )
+
+        # RRF ordering only decides when an unresolved candidate is seen.
+        for evidence_id in fused_lexical_ids:
+            if (
+                len(
+                    context_ids
+                )
+                >= context_cap
+            ):
+                break
+
+            add_context(
+                evidence_id
+            )
+
+        context_ids = context_ids[
+            :context_cap
+        ]
+
+        universe_by_id = {
+            row[
+                "evidence_id"
+            ]: row
+            for row
+            in candidate_universe
+        }
+
+        candidates = []
+
+        for context_rank, evidence_id in enumerate(
+            context_ids,
+            start=1,
+        ):
+            if (
+                evidence_id
+                not in universe_by_id
+            ):
+                continue
+
+            row = dict(
+                universe_by_id[
+                    evidence_id
+                ]
+            )
+
+            row[
+                "context_rank"
+            ] = context_rank
+
+            row[
+                "selected_for_model_context"
+            ] = True
+
+            candidates.append(
+                row
+            )
+
+        # Initial Core needs are discovery needs.  Do not silently upgrade them.
+        coverage_requirement = need.get(
+            "coverage_requirement",
+            "CANDIDATE_DISCOVERY",
+        )
+
+        traces.append(
+            {
+                **need,
+                "coverage_requirement":
+                    coverage_requirement,
+                "query":
+                    combined_query,
+                "query_plan_mode":
+                    (
+                        "BOUNDED_CANDIDATE_UNIVERSE_"
+                        "PLUS_CONTEXT_PACKING_V1_1"
+                    ),
+
+                "expected_channels": [
+                    "RAW_LEXICAL",
+                    "TYPED_FACT",
+                    "STRUCTURE",
+                ],
+
+                "query_variants":
+                    variant_rows,
+
+                "raw_lexical_scan": {
+                    "scan_chunk_count":
+                        len(
+                            docs
+                        ),
+                    "scan_complete":
+                        True,
+                    "candidate_generation_mode":
+                        "TOP_K_PER_VARIANT",
+                    "candidate_limit_per_variant":
+                        lexical_candidate_limit,
+                    "generated_union_count":
+                        len(
+                            lexical_ids
+                        ),
+                },
+
+                "typed_fact_scan":
+                    typed_trace,
+
+                "structure_scan": {
+                    "mode":
+                        "SEED_NEIGHBOUR_RESCUE_ONLY",
+                    "scan_chunk_count":
+                        len(
+                            docs
+                        ),
+                    "seed_count":
+                        len(
+                            structure_seed_ids
+                        ),
+                    "generated_candidate_count":
+                        len(
+                            structure_added_ids
+                        ),
+                    "generated_candidate_ids":
+                        structure_added_ids,
+                    "full_scan":
+                        False,
+                    "executed":
+                        True,
+                },
+
+                "candidate_universe_persisted":
+                    True,
+                "candidate_universe_ids":
+                    universe_ids,
+                "candidate_universe_count":
+                    len(
+                        universe_ids
+                    ),
+                "candidate_universe":
+                    candidate_universe,
+
+                "model_context_candidate_ids":
+                    context_ids,
+                "model_context_count":
+                    len(
+                        context_ids
+                    ),
+                "model_context_cap":
+                    context_cap,
+
+                # Backward-compatible context field used by current alignment.
+                "candidates":
+                    candidates,
+                "candidate_count_checked_by_model":
+                    len(
+                        candidates
+                    ),
+
+                "candidate_limit":
+                    lexical_candidate_limit,
+                "per_variant_quota":
+                    per_variant_context_quota,
+                (
+                    "support_context_cap"
+                    if need[
+                        "direction"
+                    ]
+                    == "SUPPORT"
+                    else "attack_context_cap"
+                ):
+                    context_cap,
+
+                "retrieval_scan_chunk_count":
+                    len(
+                        docs
+                    ),
+
+                "coverage_status":
+                    "DISCOVERY_TRACE_V1_1",
+            }
+        )
+
+    return traces
+
+
+
+
+
+# ============================================================
+# D7.8 requirement-level evidence alignment
+# ============================================================
+
+ALIGNMENT_RELATIONS = {
+    "SUPPORT",
+    "ATTACK",
+    "IRRELEVANT",
+    "AMBIGUOUS",
+}
+
+PROOF_ROLES = {
+    "DIRECT_SUPPORT",
+    "CORROBORATION_ONLY",
+    "EXPLICIT_VIOLATION",
+    "CONTEXT_ONLY",
+    "AMBIGUOUS",
+}
+
+
+EVIDENCE_ALIGNMENT_SYSTEM = 'You are a closed-source fact-to-requirement relation classifier.\n\nYou receive ONE frozen EvidenceRequirement and ONE grounded FactCandidate.\nUse only the supplied requirement, official bindings, and fact.\n\nYour task is ONLY to classify whether the observable fact bears on the\nrequirement.\n\nDo NOT decide:\n- overall CP compliance;\n- applicability;\n- evidence sufficiency;\n- proof standard;\n- whether one fact is enough to establish or defeat the requirement;\n- DIRECT_SUPPORT;\n- CORROBORATION_ONLY;\n- EXPLICIT_VIOLATION;\n- a final 1/0/N/A value.\n\nDo NOT infer facts not stated in the supplied FactCandidate.\nDo NOT use outside knowledge or information from other cases.\nDo NOT override deterministic identity/admissibility metadata.\n\nClassify relation:\n\nSUPPORT\n    The observable fact positively bears on the supplied requirement.\n\nATTACK\n    The observable fact negatively bears on, contradicts, or materially\n    undermines the supplied requirement.\n\nIRRELEVANT\n    The observable fact does not materially bear on the requirement.\n\nAMBIGUOUS\n    The direction depends on an unstated assumption or unclear entity, scope,\n    time, or semantics.\n\nImportant:\n- Relation is not proof sufficiency.\n- ATTACK does not mean the requirement is violated.\n- SUPPORT does not mean the requirement is satisfied.\n- Preserve contradictory facts rather than choosing a global conclusion.\n\nReturn JSON only:\n\n{\n  "alignments": [\n    {\n      "requirement_id": "ER1",\n      "evidence_id": "...",\n      "relation": "SUPPORT|ATTACK|IRRELEVANT|AMBIGUOUS",\n      "exact_quote": "exact substring from supplied FactCandidate",\n      "reason_code": "POSITIVE_BEARING|NEGATIVE_BEARING|IRRELEVANT|SCOPE_DEPENDENT|AMBIGUOUS_SEMANTICS",\n      "reason": "brief explanation of fact-to-requirement relation only"\n    }\n  ]\n}'
+
+
+
+def _alignment_pairs(plan: dict, traces: list[dict]) -> list[dict]:
+    from fact_candidate_v1 import build_fact_candidates
+
+    requirements = {x["requirement_id"]: x for x in plan["requirements"]}
+    pair_map = {}
+
+    for trace in traces:
+        requirement = requirements[trace["requirement_id"]]
+
+        for candidate in trace["candidates"]:
+            use_decision = candidate.get("identity_use_decision", "ADMIT_DIRECT")
+            if use_decision == "EXCLUDE_SUBSTANTIVE":
+                continue
+
+            parent_id = candidate["evidence_id"]
+            facts = build_fact_candidates(parent_id, candidate["text"])
+
+            for fact in facts:
+                fact_id = fact["fact_candidate_id"]
+                alignment_id = parent_id + "#" + fact_id
+                key = (trace["requirement_id"], fact_id)
+
+                if key not in pair_map:
+                    pair_map[key] = {
+                        "requirement": requirement,
+                        "evidence_id": alignment_id,
+                        "parent_evidence_id": parent_id,
+                        "fact_candidate_id": fact_id,
+                        "fact_candidate": fact,
+                        "evidence_text": fact["quote"],
+                        "parent_evidence_text": candidate["text"],
+                        "retrieval_need_ids": [],
+                        "best_retrieval_score": candidate.get("score"),
+                        "identity_relation_to_case": candidate.get(
+                            "identity_relation_to_case", "CORE_SELF_EXACT"
+                        ),
+                        "identity_use_decision": use_decision,
+                        "identity_decisive_proof_eligible": candidate.get(
+                            "identity_decisive_proof_eligible",
+                            use_decision == "ADMIT_DIRECT",
+                        ),
+                        "identity_reason_code": candidate.get(
+                            "identity_reason_code", "IDENTITY_GATE_NOT_PRESENT"
+                        ),
+                    }
+
+                if trace["need_id"] not in pair_map[key]["retrieval_need_ids"]:
+                    pair_map[key]["retrieval_need_ids"].append(trace["need_id"])
+
+    return sorted(
+        pair_map.values(),
+        key=lambda x: (
+            x["requirement"]["requirement_id"],
+            x["parent_evidence_id"],
+            x["fact_candidate"]["quote_start"],
+            x["fact_candidate_id"],
+        ),
+    )
+
+
+
+
+
+def make_alignment_batch_prompt(pairs: list[dict]) -> str:
+    payload = []
+
+    for pair in pairs:
+        requirement = pair["requirement"]
+        official_bindings = [
+            {
+                "source": source.get("source"),
+                "candidate_id": source.get("candidate_id"),
+                "quote": source.get("quote"),
+            }
+            for source in requirement.get("query_sources", [])
+            if source.get("source") == "RULES"
+        ]
+        fact = pair["fact_candidate"]
+
+        payload.append(
+            {
+                "requirement": {
+                    "requirement_id": requirement["requirement_id"],
+                    "facet_seed_id": requirement.get("facet_seed_id"),
+                    "atom_id": requirement["atom_id"],
+                    "proposition_to_establish": requirement["proposition_to_establish"],
+                    "decisiveness": requirement["decisiveness"],
+                    "official_bindings": official_bindings,
+                },
+                "scope": {
+                    "identity_relation_to_case": pair.get("identity_relation_to_case"),
+                    "identity_use_decision": pair.get("identity_use_decision"),
+                    "identity_decisive_proof_eligible": pair.get(
+                        "identity_decisive_proof_eligible"
+                    ),
+                    "scope_instruction": (
+                        "Identity/admissibility has already been determined by a separate "
+                        "deterministic gate. Do not override it. Judge only this grounded "
+                        "FactCandidate against the narrowed requirement and official bindings."
+                    ),
+                },
+                "evidence": {
+                    "evidence_id": pair["evidence_id"],
+                    "parent_evidence_id": pair["parent_evidence_id"],
+                    "fact_candidate_id": pair["fact_candidate_id"],
+                    "text": pair["evidence_text"],
+                    "typed_fact": {
+                        "event_type": fact.get("event_type"),
+                        "polarity": fact.get("polarity"),
+                        "modality": fact.get("modality"),
+                        "speech_act": fact.get("speech_act"),
+                        "evidence_natures": fact.get("evidence_nature", {}).get(
+                            "evidence_natures", []
+                        ),
+                    },
+                },
+            }
+        )
+
+    return (
+        json.dumps(payload, ensure_ascii=False, indent=2)
+        + "\n\nReturn JSON as {\"alignments\": [one object for each supplied pair]}. "
+        + "Echo the supplied evidence_id exactly."
+    )
+
+
+
+
+
+
+
+
+def validate_alignment(raw: dict, pair: dict) -> dict:
+    """Validate semantic relation and publish a typed argument-admission channel.
+
+    Separation:
+        relation
+            = semantic direction only
+
+        argument_admission_channel
+            = DIRECT | CONDITIONAL | REJECTED
+
+        argument_truth_bearing
+            = True only for DIRECT
+
+        accepted_for_proof
+            = always False at alignment layer
+    """
+    from evidence_nature_v1 import (
+        assess_alignment_compatibility,
+    )
+
+    requirement_id = pair[
+        "requirement"
+    ][
+        "requirement_id"
+    ]
+
+    alignment_evidence_id = pair[
+        "evidence_id"
+    ]
+
+    parent_evidence_id = pair[
+        "parent_evidence_id"
+    ]
+
+    if raw.get(
+        "requirement_id"
+    ) != requirement_id:
+        raise ValueError(
+            "Alignment returned wrong requirement_id"
+        )
+
+    if raw.get(
+        "evidence_id"
+    ) != alignment_evidence_id:
+        raise ValueError(
+            "Alignment returned wrong evidence_id"
+        )
+
+    model_relation = raw.get(
+        "relation"
+    )
+
+    if (
+        model_relation
+        not in ALIGNMENT_RELATIONS
+    ):
+        raise ValueError(
+            f"Invalid alignment relation "
+            f"{model_relation}"
+        )
+
+    exact_quote = str(
+        raw.get(
+            "exact_quote",
+            "",
+        )
+    ).strip()
+
+    if (
+        model_relation
+        != "IRRELEVANT"
+    ):
+        match_mode = quote_match_mode(
+            exact_quote,
+            pair[
+                "evidence_text"
+            ],
+        )
+
+        if match_mode is None:
+            raise ValueError(
+                f"{requirement_id}/"
+                f"{alignment_evidence_id}: "
+                "exact_quote is not grounded "
+                "in FactCandidate"
+            )
+    else:
+        match_mode = (
+            quote_match_mode(
+                exact_quote,
+                pair[
+                    "evidence_text"
+                ],
+            )
+            if exact_quote
+            else None
+        )
+
+    # Legacy EvidenceNature API placeholder only.
+    # It is NOT a proof judgment.
+    compatibility_placeholder = {
+        "SUPPORT":
+            "CORROBORATION_ONLY",
+        "ATTACK":
+            "AMBIGUOUS",
+        "IRRELEVANT":
+            "CONTEXT_ONLY",
+        "AMBIGUOUS":
+            "AMBIGUOUS",
+    }[
+        model_relation
+    ]
+
+    compatibility = (
+        assess_alignment_compatibility(
+            pair[
+                "requirement"
+            ],
+            exact_quote,
+            model_relation,
+            compatibility_placeholder,
+        )
+    )
+
+    compatibility_decision = (
+        compatibility[
+            "compatibility_decision"
+        ]
+    )
+
+    identity_use = pair.get(
+        "identity_use_decision",
+        "ADMIT_DIRECT",
+    )
+
+    identity_direct = bool(
+        pair.get(
+            "identity_decisive_proof_eligible",
+            identity_use == "ADMIT_DIRECT",
+        )
+    )
+
+    # Semantic direction is never rewritten by identity/typed uncertainty.
+    relation = model_relation
+
+    semantic_argument_candidate = bool(
+        relation
+        in {
+            "SUPPORT",
+            "ATTACK",
+        }
+        and compatibility_decision
+        in {
+            "DIRECT",
+            "CORROBORATIVE",
+        }
+    )
+
+    # ------------------------------------------------------------
+    # Layer5 -> Layer7 argument admission channel
+    # ------------------------------------------------------------
+    # DIRECT:
+    #   may directly seed an OBSERVABLE_CASE_FACT support/attack state.
+    #
+    # CONDITIONAL:
+    #   remains visible to Argument/repair, but cannot itself seed truth.
+    #
+    # REJECTED:
+    #   retained in semantic/audit ledger only.
+    # ------------------------------------------------------------
+    if not semantic_argument_candidate:
+        argument_admission_channel = (
+            "REJECTED"
+        )
+
+    elif (
+        identity_use
+        == "ADMIT_DIRECT"
+        and identity_direct
+    ):
+        argument_admission_channel = (
+            "DIRECT"
+        )
+
+    elif (
+        identity_use
+        in {
+            "ADMIT_DIRECT",
+            "ADMIT_CONDITIONAL",
+        }
+    ):
+        argument_admission_channel = (
+            "CONDITIONAL"
+        )
+
+    else:
+        argument_admission_channel = (
+            "REJECTED"
+        )
+
+    accepted_for_argument = (
+        argument_admission_channel
+        in {
+            "DIRECT",
+            "CONDITIONAL",
+        }
+    )
+
+    argument_truth_bearing = (
+        argument_admission_channel
+        == "DIRECT"
+    )
+
+    rejection_codes = []
+    admission_reason_codes = []
+
+    if relation == "AMBIGUOUS":
+        rejection_codes.append(
+            "ALIGNMENT_RELATION_AMBIGUOUS"
+        )
+
+    elif relation == "IRRELEVANT":
+        rejection_codes.append(
+            "ALIGNMENT_RELATION_IRRELEVANT"
+        )
+
+    if (
+        compatibility_decision
+        == "UNRESOLVED"
+    ):
+        rejection_codes.append(
+            "PREDICATE_COMPATIBILITY_UNRESOLVED"
+        )
+
+    elif (
+        compatibility_decision
+        == "INCOMPATIBLE"
+    ):
+        rejection_codes.append(
+            "PREDICATE_COMPATIBILITY_INCOMPATIBLE"
+        )
+
+    if (
+        identity_use
+        == "EXCLUDE_SUBSTANTIVE"
+    ):
+        rejection_codes.append(
+            "IDENTITY_EXCLUDED_SUBSTANTIVE"
+        )
+
+    elif (
+        identity_use
+        == "CONTEXT_ONLY"
+    ):
+        rejection_codes.append(
+            "IDENTITY_CONTEXT_ONLY"
+        )
+
+    elif (
+        identity_use
+        == "GAP_SIGNAL_ONLY"
+    ):
+        rejection_codes.append(
+            "IDENTITY_GAP_SIGNAL_ONLY"
+        )
+
+    elif (
+        identity_use
+        == "ADMIT_CONDITIONAL"
+    ):
+        admission_reason_codes.append(
+            "IDENTITY_CONDITIONAL_CHANNEL"
+        )
+
+    if (
+        identity_use
+        == "ADMIT_DIRECT"
+        and not identity_direct
+    ):
+        admission_reason_codes.append(
+            "IDENTITY_DIRECT_NOT_TRUTH_ELIGIBLE"
+        )
+
+    if (
+        argument_admission_channel
+        == "DIRECT"
+    ):
+        admission_reason_codes.append(
+            "ARGUMENT_DIRECT_ADMISSION"
+        )
+
+    elif (
+        argument_admission_channel
+        == "CONDITIONAL"
+    ):
+        admission_reason_codes.append(
+            "ARGUMENT_CONDITIONAL_ADMISSION"
+        )
+
+    else:
+        admission_reason_codes.append(
+            "ARGUMENT_REJECTED"
+        )
+
+    return {
+        "requirement_id":
+            requirement_id,
+        "atom_id":
+            pair[
+                "requirement"
+            ][
+                "atom_id"
+            ],
+        "decisiveness":
+            pair[
+                "requirement"
+            ][
+                "decisiveness"
+            ],
+
+        "evidence_id":
+            parent_evidence_id,
+        "alignment_evidence_id":
+            alignment_evidence_id,
+        "fact_candidate_id":
+            pair[
+                "fact_candidate_id"
+            ],
+        "fact_candidate":
+            pair[
+                "fact_candidate"
+            ],
+
+        "retrieval_need_ids":
+            pair[
+                "retrieval_need_ids"
+            ],
+
+        "identity_relation_to_case":
+            pair.get(
+                "identity_relation_to_case"
+            ),
+        "identity_use_decision":
+            identity_use,
+        "identity_decisive_proof_eligible":
+            identity_direct,
+        "identity_reason_code":
+            pair.get(
+                "identity_reason_code"
+            ),
+
+        "alignment_method":
+            str(
+                raw.get(
+                    "alignment_method",
+                    "MODEL",
+                )
+            ),
+
+        "model_relation":
+            model_relation,
+        "model_proof_role":
+            None,
+
+        # semantic axis
+        "relation":
+            relation,
+
+        # typed predicate axis
+        "alignment_strength":
+            compatibility_decision,
+        "predicate_compatibility":
+            compatibility_decision,
+        "predicate_compatibility_reason":
+            compatibility[
+                "compatibility_reason_code"
+            ],
+        "typed_gate_enforced":
+            compatibility[
+                "typed_gate_enforced"
+            ],
+
+        "exact_quote":
+            exact_quote,
+        "quote_match_mode":
+            match_mode,
+        "reason_code":
+            str(
+                raw.get(
+                    "reason_code",
+                    "",
+                )
+            ),
+        "reason":
+            str(
+                raw.get(
+                    "reason",
+                    "",
+                )
+            ),
+
+        "requirement_predicate_profile":
+            compatibility[
+                "requirement_profile"
+            ],
+        "evidence_nature":
+            compatibility[
+                "evidence_nature"
+            ],
+
+        # argument-admission axis
+        "argument_admission_channel":
+            argument_admission_channel,
+        "accepted_for_argument":
+            accepted_for_argument,
+        "argument_truth_bearing":
+            argument_truth_bearing,
+        "argument_review_required":
+            (
+                argument_admission_channel
+                == "CONDITIONAL"
+            ),
+        "argument_admission_reason_codes":
+            admission_reason_codes,
+
+        "rejection_codes":
+            rejection_codes,
+
+        # Temporary legacy alias.
+        # It means visible to the argument layer, not proof.
+        "accepted_for_alignment":
+            accepted_for_argument,
+
+        # No direct alignment can establish proof.
+        "proof_role":
+            "DEFERRED_TO_ARGUMENT",
+        "accepted_for_proof":
+            False,
+        "proof_deferred_to":
+            "ARGUMENT_AND_PROOF_STANDARD",
+    }
+
+
+
+
+
+
+
+
+
+
+def _ambiguous_alignment(pair: dict, reason: str) -> dict:
+    return {
+        "requirement_id":
+            pair["requirement"]["requirement_id"],
+        "atom_id":
+            pair["requirement"]["atom_id"],
+        "decisiveness":
+            pair["requirement"]["decisiveness"],
+
+        "evidence_id":
+            pair.get(
+                "parent_evidence_id",
+                pair["evidence_id"],
+            ),
+        "alignment_evidence_id":
+            pair["evidence_id"],
+        "fact_candidate_id":
+            pair.get("fact_candidate_id"),
+        "fact_candidate":
+            pair.get("fact_candidate"),
+
+        "retrieval_need_ids":
+            pair["retrieval_need_ids"],
+
+        "identity_relation_to_case":
+            pair.get(
+                "identity_relation_to_case"
+            ),
+        "identity_use_decision":
+            pair.get(
+                "identity_use_decision"
+            ),
+        "identity_decisive_proof_eligible":
+            pair.get(
+                "identity_decisive_proof_eligible",
+                False,
+            ),
+
+        "alignment_method":
+            "VALIDATOR",
+        "model_relation":
+            None,
+        "model_proof_role":
+            None,
+
+        "relation":
+            "AMBIGUOUS",
+        "alignment_strength":
+            "UNRESOLVED",
+        "proof_role":
+            "DEFERRED_TO_ARGUMENT",
+
+        "exact_quote":
+            "",
+        "quote_match_mode":
+            None,
+        "reason_code":
+            "ALIGNMENT_VALIDATION_FAILED",
+        "reason":
+            reason,
+
+        "accepted_for_alignment":
+            False,
+        "accepted_for_proof":
+            False,
+        "proof_deferred_to":
+            "ARGUMENT_AND_PROOF_STANDARD",
+    }
+
+
+
+
+
+def align_requirement_evidence(
+    plan: dict,
+    traces: list[dict],
+    *,
+    batch_size: int = 8,
+    max_pairs: int | None = None,
+) -> list[dict]:
+    pairs = _alignment_pairs(plan, traces)
+    if max_pairs is not None:
+        pairs = pairs[:max_pairs]
+
+    alignments = []
+    total_batches = (len(pairs) + batch_size - 1) // batch_size
+
+    for start in range(0, len(pairs), batch_size):
+        batch = pairs[start:start + batch_size]
+        batch_no = start // batch_size + 1
+        print(
+            f"    alignment batch {batch_no}/{total_batches}: "
+            f"{len(batch)} fact/proposition pairs"
+        )
+
+        raw = core.deepseek_json(
+            model=EVIDENCE_ALIGN_MODEL,
+            system_prompt=EVIDENCE_ALIGNMENT_SYSTEM,
+            user_prompt=make_alignment_batch_prompt(batch),
+            thinking=False,
+            max_tokens=4500,
+        )
+
+        returned = raw.get("alignments")
+        if not isinstance(returned, list):
+            for pair in batch:
+                alignments.append(
+                    _ambiguous_alignment(pair, "MODEL_RETURNED_NO_ALIGNMENTS_LIST")
+                )
+            continue
+
+        returned_map = {}
+        for item in returned:
+            if not isinstance(item, dict):
+                continue
+            key = (item.get("requirement_id"), item.get("evidence_id"))
+            if key not in returned_map:
+                returned_map[key] = item
+
+        for pair in batch:
+            key = (pair["requirement"]["requirement_id"], pair["evidence_id"])
+            item = returned_map.get(key)
+            if item is None:
+                alignments.append(_ambiguous_alignment(pair, "MODEL_OMITTED_PAIR"))
+                continue
+            try:
+                alignments.append(validate_alignment(item, pair))
+            except Exception as error:
+                alignments.append(_ambiguous_alignment(pair, str(error)))
+
+    return sorted(
+        alignments,
+        key=lambda row: (
+            row["requirement_id"],
+            row["evidence_id"],
+            row.get("fact_candidate", {}).get("quote_start", 0),
+            row.get("fact_candidate_id", ""),
+        ),
+    )
+
+
+
+# ============================================================================
+# D7.14 — minimal typed ProofGate
+# ============================================================================
+
+
+def _state_from_pair(support: bool, attack: bool) -> str:
+    return {
+        (False, False): "UNKNOWN",
+        (True, False): "TRUE",
+        (False, True): "FALSE",
+        (True, True): "BOTH",
+    }[(support, attack)]
+
+
+
+
+
+def evaluate_minimal_proof_gate(
+    plan: dict,
+    traces: list[dict],
+    alignments: list[dict],
+) -> dict:
+    """Diagnostic evidence/argument-admission ledger only.
+
+    Three separate views are preserved:
+
+    1. semantic_relation_state
+       all semantically aligned SUPPORT/ATTACK facts;
+
+    2. argument_visible_state
+       DIRECT + CONDITIONAL facts visible to the argument layer;
+
+    3. direct_argument_input_state
+       DIRECT facts only; these may seed OBSERVABLE_CASE_FACT state.
+
+    CONDITIONAL evidence is preserved but is not truth-bearing until an
+    explicit assumption/repair policy resolves it.
+    """
+
+    traces_by_requirement = {}
+
+    for trace in traces:
+        traces_by_requirement.setdefault(
+            trace[
+                "requirement_id"
+            ],
+            [],
+        ).append(
+            trace
+        )
+
+    alignments_by_requirement = {}
+
+    for alignment in alignments:
+        alignments_by_requirement.setdefault(
+            alignment[
+                "requirement_id"
+            ],
+            [],
+        ).append(
+            alignment
+        )
+
+    requirement_reports = []
+    decisive_reports = []
+
+    for requirement in plan[
+        "requirements"
+    ]:
+        rid = requirement[
+            "requirement_id"
+        ]
+
+        rows = (
+            alignments_by_requirement.get(
+                rid,
+                [],
+            )
+        )
+
+        semantic_supports = [
+            row
+            for row in rows
+            if row.get(
+                "relation"
+            ) == "SUPPORT"
+        ]
+
+        semantic_attacks = [
+            row
+            for row in rows
+            if row.get(
+                "relation"
+            ) == "ATTACK"
+        ]
+
+        visible_supports = [
+            row
+            for row in semantic_supports
+            if row.get(
+                "argument_admission_channel"
+            )
+            in {
+                "DIRECT",
+                "CONDITIONAL",
+            }
+        ]
+
+        visible_attacks = [
+            row
+            for row in semantic_attacks
+            if row.get(
+                "argument_admission_channel"
+            )
+            in {
+                "DIRECT",
+                "CONDITIONAL",
+            }
+        ]
+
+        direct_supports = [
+            row
+            for row in semantic_supports
+            if row.get(
+                "argument_admission_channel"
+            ) == "DIRECT"
+            and row.get(
+                "argument_truth_bearing"
+            )
+        ]
+
+        direct_attacks = [
+            row
+            for row in semantic_attacks
+            if row.get(
+                "argument_admission_channel"
+            ) == "DIRECT"
+            and row.get(
+                "argument_truth_bearing"
+            )
+        ]
+
+        conditional_supports = [
+            row
+            for row in semantic_supports
+            if row.get(
+                "argument_admission_channel"
+            ) == "CONDITIONAL"
+        ]
+
+        conditional_attacks = [
+            row
+            for row in semantic_attacks
+            if row.get(
+                "argument_admission_channel"
+            ) == "CONDITIONAL"
+        ]
+
+        ambiguous = [
+            row
+            for row in rows
+            if row.get(
+                "relation"
+            ) == "AMBIGUOUS"
+        ]
+
+        semantic_relation_state = (
+            _state_from_pair(
+                bool(
+                    semantic_supports
+                ),
+                bool(
+                    semantic_attacks
+                ),
+            )
+        )
+
+        argument_visible_state = (
+            _state_from_pair(
+                bool(
+                    visible_supports
+                ),
+                bool(
+                    visible_attacks
+                ),
+            )
+        )
+
+        direct_argument_input_state = (
+            _state_from_pair(
+                bool(
+                    direct_supports
+                ),
+                bool(
+                    direct_attacks
+                ),
+            )
+        )
+
+        conditional_argument_state = (
+            _state_from_pair(
+                bool(
+                    conditional_supports
+                ),
+                bool(
+                    conditional_attacks
+                ),
+            )
+        )
+
+        requirement_traces = (
+            traces_by_requirement.get(
+                rid,
+                [],
+            )
+        )
+
+        support_need_present = any(
+            trace[
+                "direction"
+            ] == "SUPPORT"
+            for trace in requirement_traces
+        )
+
+        attack_need_present = any(
+            trace[
+                "direction"
+            ] == "ATTACK"
+            for trace in requirement_traces
+        )
+
+        report = {
+            "requirement_id":
+                rid,
+            "atom_id":
+                requirement[
+                    "atom_id"
+                ],
+            "decisiveness":
+                requirement[
+                    "decisiveness"
+                ],
+
+            # Complete semantic evidence ledger.
+            "semantic_relation_state":
+                semantic_relation_state,
+
+            # DIRECT + CONDITIONAL remain visible to Argument.
+            "argument_visible_state":
+                argument_visible_state,
+
+            # Only DIRECT facts may seed observable truth.
+            "direct_argument_input_state":
+                direct_argument_input_state,
+
+            # CONDITIONAL facts remain unresolved until repair/assumption policy.
+            "conditional_argument_state":
+                conditional_argument_state,
+
+            # Backward-compatible name now explicitly means DIRECT-only.
+            "argument_input_state":
+                direct_argument_input_state,
+
+            # Legacy diagnostic field also means DIRECT-only observable state.
+            "raw_state":
+                direct_argument_input_state,
+
+            # No legal/benchmark proof yet.
+            "accepted_state":
+                "UNKNOWN",
+            "semantic_support_pass":
+                False,
+            "audit_sufficient_pass":
+                False,
+            "explicit_violation_pass":
+                False,
+
+            "contradiction_state":
+                (
+                    "PRESERVED"
+                    if semantic_attacks
+                    else "NONE"
+                ),
+
+            "support_need_present":
+                support_need_present,
+            "attack_need_present":
+                attack_need_present,
+
+            "coverage_status":
+                "ALIGNMENT_ONLY_ARGUMENT_PENDING",
+            "coverage_pass":
+                False,
+
+            "semantic_support_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in semantic_supports
+                ],
+            "semantic_attack_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in semantic_attacks
+                ],
+
+            "argument_visible_support_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in visible_supports
+                ],
+            "argument_visible_attack_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in visible_attacks
+                ],
+
+            "direct_argument_support_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in direct_supports
+                ],
+            "direct_argument_attack_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in direct_attacks
+                ],
+
+            "conditional_argument_support_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in conditional_supports
+                ],
+            "conditional_argument_attack_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in conditional_attacks
+                ],
+
+            "ambiguous_evidence_ids":
+                [
+                    row[
+                        "evidence_id"
+                    ]
+                    for row
+                    in ambiguous
+                ],
+
+            # Legacy decisive lists intentionally empty.
+            "direct_support_evidence_ids":
+                [],
+            "corroboration_evidence_ids":
+                [],
+            "explicit_violation_evidence_ids":
+                [],
+
+            "argument_status":
+                "PENDING",
+            "proof_standard_status":
+                "PENDING",
+        }
+
+        requirement_reports.append(
+            report
+        )
+
+        if (
+            requirement[
+                "decisiveness"
+            ]
+            == "DECISIVE"
+        ):
+            decisive_reports.append(
+                report
+            )
+
+    if not decisive_reports:
+        raise ValueError(
+            "No decisive EvidenceRequirement reports"
+        )
+
+    return {
+        "schema":
+            "freca-core-argument-admission-ledger-v5",
+        "pilot_only":
+            True,
+
+        "coverage_complete":
+            False,
+        "coverage_note":
+            (
+                "Semantic relation, argument visibility, and direct "
+                "truth-bearing admission are separate. CONDITIONAL evidence "
+                "is preserved but cannot seed observable truth until an "
+                "explicit repair/assumption policy resolves it."
+            ),
+
+        "requirement_reports":
+            requirement_reports,
+
+        "satisfaction_state":
+            "UNKNOWN",
+        "violation_state":
+            "UNKNOWN",
+        "candidate_outcome":
+            "UNKNOWN",
+        "candidate_submission_label":
+            None,
+
+        "evaluation_locked":
+            False,
+        "internal_outcome":
+            "UNKNOWN",
+        "submission_label":
+            None,
+
+        "argument_status":
+            "PENDING",
+        "proof_standard_status":
+            "PENDING",
+    }
+
+
+
+
+
+# ============================================================================
+# One-call adapter for the existing Core evidence_chunks
+# ============================================================================
+
+
+def run_requirement_reasoning(
+    *,
+    cp_id: str,
+    case_id: str,
+    evidence_chunks: list[dict],
+    retrieval_top_k: int = 12,
+    force_plan_recompile: bool = False,
+) -> dict:
+    from identity_admissibility_v1 import (
+        apply_identity_gate_to_traces,
+        build_body_first_identity_report,
+    )
+
+    plan = compile_evidence_requirements(cp_id, force=force_plan_recompile)
+    needs = build_retrieval_needs(plan)
+    traces = retrieve_requirement_candidates(
+        evidence_chunks,
+        needs,
+        top_k=retrieval_top_k,
+    )
+
+    # Layer-5 pilot is deliberately CP-blind. `case_id` is supplied only as the
+    # post-hoc output-identifier consistency check; it does not define core RE.
+    identity_report = build_body_first_identity_report(
+        evidence_chunks,
+        output_identifier=case_id,
+    )
+    traces = apply_identity_gate_to_traces(traces, identity_report)
+
+    alignments = align_requirement_evidence(plan, traces)
+    proof = evaluate_minimal_proof_gate(plan, traces, alignments)
+
+    result = {
+        "schema": "freca-core-requirement-reasoning-v2.2",
+        "cp_id": cp_id,
+        "case_id": case_id,
+        "identity_admissibility": identity_report,
+        "evidence_requirement_plan": plan,
+        "retrieval_needs": needs,
+        "retrieval_traces": traces,
+        "alignments": alignments,
+        "proof_gate": proof,
+    }
+
+    output_path = RESULT_DIR / f"{case_id}_{cp_id}_requirement_reasoning_v2.json"
+    save_json(result, output_path)
+    result["saved_path"] = str(output_path)
+    return result
+
+
+
+# ============================================================================
+# Adapter for the existing freca_core_v1.evaluate_case locals
+# ============================================================================
+
+
+def run_from_evaluate_locals(
+    local_vars: dict[str, Any],
+    *,
+    retrieval_top_k: int = 12,
+) -> dict:
+    """Bridge into the existing V1 evaluator without depending on exact local names.
+
+    Call this *inside* evaluate_case after evidence parsing:
+
+        from evidence_reasoning_v2 import run_from_evaluate_locals, print_requirement_result
+        rr = run_from_evaluate_locals(locals())
+        print_requirement_result(rr)
+
+    Local import is intentional: evidence_reasoning_v2 imports freca_core_v1, so
+    importing it at freca_core_v1 module top-level would create a circular import.
+    """
+
+    evidence_chunks = (
+        local_vars.get("all_evidence")
+        or local_vars.get("evidence_chunks")
+        or local_vars.get("chunks")
+        or local_vars.get("evidence")
+    )
+    if not isinstance(evidence_chunks, list):
+        raise RuntimeError(
+            "Could not locate parsed evidence chunk list in evaluate_case locals. "
+            f"Available keys: {sorted(local_vars)}"
+        )
+
+    cp_id = local_vars.get("cp_id")
+    if not cp_id:
+        cp = local_vars.get("cp")
+        if isinstance(cp, dict):
+            cp_id = cp.get("cp_id") or cp.get("id")
+    if not cp_id:
+        contract = local_vars.get("contract")
+        if isinstance(contract, dict):
+            cp_id = contract.get("cp_id")
+    if not cp_id:
+        raise RuntimeError(
+            "Could not locate cp_id in evaluate_case locals. "
+            f"Available keys: {sorted(local_vars)}"
+        )
+
+    case_id = local_vars.get("case_id")
+    if not case_id:
+        case_dir = local_vars.get("case_dir")
+        if case_dir is not None:
+            case_id = Path(case_dir).name
+    if not case_id:
+        for key in ("case_query", "case_name", "case"):
+            value = local_vars.get(key)
+            if isinstance(value, str) and value.strip():
+                case_id = Path(value).name
+                break
+    if not case_id:
+        raise RuntimeError(
+            "Could not locate case_id/case_dir in evaluate_case locals. "
+            f"Available keys: {sorted(local_vars)}"
+        )
+
+    return run_requirement_reasoning(
+        cp_id=str(cp_id),
+        case_id=str(case_id),
+        evidence_chunks=evidence_chunks,
+        retrieval_top_k=retrieval_top_k,
+    )
+
+
+# ============================================================================
+# Console summary helper
+# ============================================================================
+
+
+def print_requirement_result(result: dict) -> None:
+    print("\n" + "=" * 72)
+    print("REQUIREMENT-LEVEL EVIDENCE REASONING — PILOT")
+    print("=" * 72)
+
+    for report in result["proof_gate"]["requirement_reports"]:
+        print(
+            f"\n{report['requirement_id']} "
+            f"[{report['decisiveness']}] "
+            f"raw={report['raw_state']} "
+            f"accepted={report['accepted_state']}"
+        )
+        if report["direct_support_evidence_ids"]:
+            print("  DIRECT SUPPORT:")
+            for evidence_id in report["direct_support_evidence_ids"]:
+                print(f"    + {evidence_id}")
+        if report["corroboration_evidence_ids"]:
+            print("  CORROBORATION:")
+            for evidence_id in report["corroboration_evidence_ids"]:
+                print(f"    ~ {evidence_id}")
+        if report["explicit_violation_evidence_ids"]:
+            print("  EXPLICIT VIOLATION:")
+            for evidence_id in report["explicit_violation_evidence_ids"]:
+                print(f"    - {evidence_id}")
+        if report["ambiguous_evidence_ids"]:
+            print("  AMBIGUOUS:")
+            for evidence_id in report["ambiguous_evidence_ids"]:
+                print(f"    ? {evidence_id}")
+
+    proof = result["proof_gate"]
+    print("\n" + "-" * 72)
+    print("Satisfaction proof :", proof["satisfaction_state"])
+    print("Violation proof    :", proof["violation_state"])
+    print("Candidate outcome  :", proof["candidate_outcome"])
+    print("Candidate label    :", proof["candidate_submission_label"])
+    print("Locked outcome     :", proof["internal_outcome"])
+    print("Evaluation locked  :", proof["evaluation_locked"])
+    print("Coverage complete  :", proof["coverage_complete"])
+    print("Saved              :", result.get("saved_path", ""))
+    print("-" * 72)
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Minimal D2.8 + D7.1 + D7.8 + D7.14 evidence reasoning adapter"
+    )
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    p_compile = sub.add_parser("compile-plan")
+    p_compile.add_argument("--cp", required=True)
+    p_compile.add_argument("--force", action="store_true")
+
+    p_show = sub.add_parser("show-plan")
+    p_show.add_argument("--cp", required=True)
+
+    args = parser.parse_args()
+
+    if args.command == "compile-plan":
+        result = compile_evidence_requirements(args.cp, force=args.force)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    elif args.command == "show-plan":
+        path = CONTRACT_DIR / f"{args.cp}_evidence_requirements.json"
+        print(path.read_text(encoding="utf-8"))

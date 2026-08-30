@@ -1,0 +1,363 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-012",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Adelaide_Plains_Grain_Trust.docx:P7",
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P19"
+      ],
+      "reason": "Site plan references important features of registered area and adjoining sites; infrastructure description includes buildings and facilities."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing layout of areas where export operations occur, permanent fixtures, or equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Adelaide_Plains_Grain_Trust.docx:P12",
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure supporting barley export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence directly addresses design and construction for effective cleaning; hygiene plan mentions cleaning but not design."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence directly addresses design and construction to minimise contamination, infestation, or pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence directly addresses waste disposal design and construction."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection and analysis."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, including cleaning procedures, responsibilities, and records, and an internal inspection confirms clean and hygienic conditions."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes waste control and disposal procedures, and the establishment is maintained clean and hygienic, with records retained."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P25",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P35",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P40",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43"
+      ],
+      "reason": "The system of controls is documented and implemented, with cleaning procedures, corrective actions, and a recent inspection confirming effectiveness for the grain export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Adelaide_Plains_Grain_Trust.docx:P4",
+        "2_HACCPPlan_12_Adelaide_Plains_Grain_Trust.docx:P18"
+      ],
+      "reason": "The Bait Station Map shows 20 mapped stations and contractor verification, indicating a pest control system including rodent control. Although the HACCP plan notes no formal monitoring schedule, the bait station map provides evidence of a system."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_12_Adelaide_Plains_Grain_Trust.docx:P18",
+        "7_Bait_Station_Map_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "The HACCP plan states that pest effectiveness cannot be demonstrated without records, and the bait station map indicates delayed escalation follow-up, so the system is not shown to be effective."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are retained for a minimum of two years, covering export operations and cleaning activities, demonstrating compliance with the system of controls."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P35"
+      ],
+      "reason": "Records are maintained on site and in the business management system, retained for two years, and are described as accurate and legible, satisfying the requirements."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P25"
+      ],
+      "reason": "The most recent internal inspection found all areas clean and hygienic, and the plan requires maintaining clean conditions appropriate for the operations."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43",
+        "7_Bait_Station_Map_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "The inspection found clean conditions, and the bait station map indicates pest control measures are in place to prevent infestation and contamination."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Adelaide_Plains_Grain_Trust.docx:P4",
+        "2_HACCPPlan_12_Adelaide_Plains_Grain_Trust.docx:P18"
+      ],
+      "reason": "The bait station map shows stations but does not confirm they are fit for purpose or in good working order; the HACCP plan notes lack of formal monitoring and effectiveness cannot be demonstrated."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "The Farm Management Plan mentions waste management but does not provide specific evidence that chemicals are stored to prevent contamination of plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "No evidence found regarding chemical storage to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17",
+        "9_Traceability_Records_Adelaide_Plains_Grain_Trust_012.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow and transfer records but does not explicitly confirm traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17",
+        "9_Traceability_Records_Adelaide_Plains_Grain_Trust_012.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence describes product flow and transfer records but does not explicitly confirm traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Adelaide_Plains_Grain_Trust_012.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are mentioned but no specific evidence of traceability to next premises is provided."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36",
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17"
+      ],
+      "reason": "Records and product flow are described, but no explicit system of controls for traceability and integrity is evidenced."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17"
+      ],
+      "reason": "A product flow description is present but not a formal product flow chart demonstrating maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36"
+      ],
+      "reason": "No evidence of a system to manage goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P43",
+        "6_Farms_Hygiene_Sanitation_Plan_Adelaide_Plains_Grain_Trust.docx:P40"
+      ],
+      "reason": "Hygiene and cleaning are addressed, but no explicit system for maintaining risk for contamination or infestation is evidenced."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17"
+      ],
+      "reason": "Segregation is mentioned but no explicit system to minimise risk of substitution is evidenced."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P17"
+      ],
+      "reason": "No evidence of packaging requirements or procedures."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36"
+      ],
+      "reason": "Records retention is stated, but no evidence of actual records covering at least 2 years is provided."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36"
+      ],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P36"
+      ],
+      "reason": "Records are described but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_12_Adelaide_Plains_Grain_Trust.docx:P4"
+      ],
+      "reason": "No evidence that importing country requirements are met; only registration scope is mentioned."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-012/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-012/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-012/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-012/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-012/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 11,
+    "0": 28,
+    "N/A": 2
+  }
+}

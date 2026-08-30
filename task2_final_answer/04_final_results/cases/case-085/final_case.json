@@ -1,0 +1,359 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-085",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P12",
+        "5_Farm-Site-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Evidence indicates buildings, equipment, facilities and services are present and site plan references important features."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing layout of areas where export operations occur, permanent fixtures, or equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on relevant changes occurring; evidence explicitly states no such changes have occurred.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no structural alterations or additions have been carried out.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P12",
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support exports."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P38"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, and visual inspections are conducted before production, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P38"
+      ],
+      "reason": "Hygiene plan ensures clean and hygienic conditions and inspections, which helps minimize contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) and states the system of controls to manage hygiene, with procedures for cleaning and maintenance, satisfying the requirement for a system of controls to manage hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The Farm Management Plan documents waste management arrangements, and the Hygiene and Sanitation Plan references Rule s4-7A(2)(a) which includes waste control and disposal, indicating a system of controls for waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers all areas of the establishment, provides detailed step-by-step procedures for each area, and includes visual inspections before production, demonstrating an effective system of controls for the type of operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P18",
+        "7_Bait_Station_Map_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The HACCP Plan includes a Pest Control Program and the Bait Station Map provides an overview of the pest control system, indicating a system of controls to manage pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP Plan states that the Pest Control Program has no formal monitoring schedule or corrective action procedure, and pest effectiveness cannot be demonstrated without records, so the system is not shown to be effective."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "While the registration record states records are retained for a minimum of two years, the Hygiene and Sanitation Plan states cleaning records are retained for only six months, contradicting the two-year requirement for hygiene records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are stated to be maintained on site and in the business management system, and cleaning records are maintained in the site office, indicating records are in English, dated, accurate, legible, and auditable as per the plan."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P23",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states the objective to ensure all areas are maintained in a clean and hygienic condition, with procedures for cleaning storage areas and visual inspections before production, demonstrating appropriate condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The Hygiene and Sanitation Plan includes procedures to maintain storage areas in a clean and hygienic condition, which helps prevent pest infestation and contamination, satisfying the requirement for appropriate condition."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP Plan notes that the Pest Control Program has no formal monitoring schedule or corrective action procedure, and pest effectiveness cannot be demonstrated, so there is no evidence that bait stations are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Farm Management Plan mentions waste management arrangements but does not specifically address chemical storage to prevent contamination of prescribed plant or plant products, so the evidence is insufficient."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The Farm Management Plan mentions waste management arrangements but does not specifically address chemical storage to prevent contamination of areas where prescribed plant or plant products are prepared, so the evidence is insufficient."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Namoi_Cotton_Seed_Exports_Pty_Ltd_085.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a product flow chart and transfer records, but no explicit traceability records from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Namoi_Cotton_Seed_Exports_Pty_Ltd_085.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence indicates product flow and transfer records, but no explicit records demonstrating traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Namoi_Cotton_Seed_Exports_Pty_Ltd_085.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records exist but lack detail on the next premises and traceability of product integrity."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Namoi_Cotton_Seed_Exports_Pty_Ltd_085.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records are mentioned but no explicit system of controls for traceability and integrity (e.g., labelling, record keeping) is evidenced."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P17",
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "A product flow chart is provided in the farm management plan and referenced in the HACCP plan, demonstrating movement and integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The HACCP plan mentions failed goods but no specific system for managing blending, rejections, treatments, or representations is evidenced."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P38"
+      ],
+      "reason": "Hygiene and sanitation procedures exist, but no explicit evidence of maintaining risk for contamination or infestation is provided."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Segregation is mentioned, but no explicit system to minimize substitution risk is evidenced."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Namoi_Cotton_Seed_Exports_Pty_Ltd_085.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned but no specific packaging requirements or compliance evidence is provided."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records retention is stated for export operations, but hygiene records are only kept for six months, and no evidence of all required traceability records for 2 years is provided."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of records for rejected or failed goods, including blending, treatments, or re-presentation, is provided."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are stated to be maintained, but no evidence that they are in English, dated, accurate, legible, and auditable is provided."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_85_Namoi_Cotton_Seed_Exports_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The establishment is registered for cottonseed, but no evidence of meeting importing country requirements is provided."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-085/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-085/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-085/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-085/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-085/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 13,
+    "0": 26,
+    "N/A": 2
+  }
+}

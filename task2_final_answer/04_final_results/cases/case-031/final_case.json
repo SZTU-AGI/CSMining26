@@ -1,0 +1,354 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-031",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "No evidence explicitly confirms that the registration is not suspended at the time of export operations. The evidence only mentions registration scope, not suspension status."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Stirling_Range_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document is referenced but no actual content is provided showing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Stirling_Range_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document is referenced but no actual content is provided showing important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Stirling_Range_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan document is referenced but no actual content is provided showing the layout of areas where export operations occur."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no changes have occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal. Should any such changes occur, DAFF will be notified in writing within the required timeframe as per Rule 4-6 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the approval requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval. Any proposed alterations will be submitted to DAFF for approval prior to commencement of works, in accordance with Rule 4-5 of the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Stirling_Range_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and infrastructure is designed and maintained to support export of wheat."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "Hygiene plan requires all areas maintained clean and hygienic, and cleaning procedures for grain screening/cleaning plant are documented."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Stirling_Range_Grain_Pty_Ltd_031.docx:P4"
+      ],
+      "reason": "Evidence indicates security zoning, sealed storage, and pre-load inspections reduce contamination and infestation risk."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The Hygiene and Sanitation Plan documents a system of controls for hygiene, covering all areas, responsibilities, and cleaning procedures, satisfying the requirement for a system of controls to manage hygiene."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_31_Stirling_Range_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly notes that waste management procedures are NOT documented, indicating no system of controls for waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_31_Stirling_Range_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The system of controls is not effective for waste management as waste procedures are not documented, and the plan does not cover all export operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Stirling_Range_Grain_Pty_Ltd.docx:P4",
+        "3_PestControlRecord_31_Stirling_Range_Grain_Pty_Ltd.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management system with mapped bait stations, surveillance, and contractor verification, demonstrating a system of controls for pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes trend review, escalation actions, and closure evidence, indicating effectiveness for the export operations."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Cleaning records are retained for only six months, not the required two years, failing the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Records are described as maintained on site and in the business management system, with cleaning records in the site office, and the plan references dated, accurate, legible, and auditable records."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P27"
+      ],
+      "reason": "The plan states all areas are maintained in a clean and hygienic condition, with cleaning procedures and records, supporting compliance."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence indicates all operational and surrounding areas are maintained clean and free of harbourage, ensuring goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows 8 mapped stations with contractor verification, indicating they are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_31_Stirling_Range_Grain_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Evidence states chemicals are stored in an unlocked cupboard inside the pulse grading shed, posing a direct risk of contaminating product, failing the requirement."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_31_Stirling_Range_Grain_Pty_Ltd.xlsx:Cover:R14"
+      ],
+      "reason": "Chemicals stored in an unlocked cupboard inside the pulse grading shed directly risk contaminating preparation areas, failing the requirement."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are maintained but does not demonstrate actual traceability from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions storage logs but does not demonstrate actual traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Stirling_Range_Grain_Pty_Ltd_031.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a header for transfer records but no actual records demonstrating traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_31_Stirling_Range_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence references a product flow chart but does not provide the chart or demonstrate its content."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_31_Stirling_Range_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not describe a system for managing them including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence states a general hygiene objective but does not demonstrate a system to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation but does not demonstrate a system to minimize substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Stirling_Range_Grain_Pty_Ltd_031.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not demonstrate compliance with packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Stirling_Range_Grain_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records retained for two years but also states cleaning records retained for only six months, contradicting the requirement."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions treatment records but does not specifically address records for rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence does not confirm records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_31_Stirling_Range_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states registration scope but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-031/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-031/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-031/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-031/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-031/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 11,
+    "0": 28,
+    "N/A": 2
+  }
+}

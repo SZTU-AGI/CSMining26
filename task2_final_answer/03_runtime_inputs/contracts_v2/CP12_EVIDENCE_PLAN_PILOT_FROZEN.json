@@ -1,0 +1,132 @@
+{
+  "schema": "freca-core-evidence-requirements-v2.1",
+  "cp_id": "CP12",
+  "facet_seeds": [
+    {
+      "facet_seed_id": "FS-G1",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G1"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    },
+    {
+      "facet_seed_id": "FS-G2",
+      "atom_id": "A1",
+      "source_group_ids": [
+        "G2"
+      ],
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "seed_relation": "SPECIALIZES"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "ER1",
+      "facet_seed_id": "FS-G1",
+      "atom_id": "A1",
+      "proposition_to_establish": "The establishment and its equipment and facilities are designed and constructed to facilitate effective cleaning and to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-2(4)",
+        "rules2021:4-2(4)(b)",
+        "rules2021:4-2(4)(c)"
+      ],
+      "source_group_ids": [
+        "G1"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "designed, constructed and maintained to minimise the contamination, infestation and pest harbourage"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)",
+          "quote": "An establishment and its equipment and facilities must be designed and constructed:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(b)",
+          "quote": "to facilitate effective cleaning"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-2(4)(c)",
+          "quote": "to minimise the possibility of infestation or contamination of prescribed plants or plant products during export operations"
+        }
+      ],
+      "reason": "This facet captures the design and construction aspect of the CP criterion, as specialised by the G1 group. The proposition is narrower than the whole atom, focusing on design and construction for cleaning and minimising infestation/contamination."
+    },
+    {
+      "requirement_id": "ER2",
+      "facet_seed_id": "FS-G2",
+      "atom_id": "A1",
+      "proposition_to_establish": "The registered establishment is kept in a condition that ensures prescribed plants and plant products are not, or not likely to be, infested by pests or contaminated, including being kept clean and hygienic and controlling pests and contaminants appropriately.",
+      "polarity": "SUPPORT",
+      "decisiveness": "DECISIVE",
+      "criterion_quote": "The establishment is designed, constructed and maintained to minimise the contamination, infestation and pest harbourage during export operations.",
+      "criterion_match_mode": "EXACT_RAW",
+      "basis_candidate_ids": [
+        "rules2021:4-7A(1)",
+        "rules2021:4-7A(1)(b)",
+        "rules2021:4-7A(2)(a)",
+        "rules2021:4-7A(2)(b)"
+      ],
+      "source_group_ids": [
+        "G2"
+      ],
+      "seed_relation": "SPECIALIZES",
+      "query_sources": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "quote": "maintained to minimise the contamination, infestation and pest harbourage"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)",
+          "quote": "A registered establishment must be kept in a condition:"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(1)(b)",
+          "quote": "that ensures that prescribed plants and plant products at the establishment are not, or not likely to be, infested by pests or contaminated."
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(a)",
+          "quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products;"
+        },
+        {
+          "source": "RULES",
+          "candidate_id": "rules2021:4-7A(2)(b)",
+          "quote": "pests and contaminants at the establishment must be controlled in a manner that is appropriate for the export operations and the kind of prescribed plants or plant products;"
+        }
+      ],
+      "reason": "This facet captures the maintenance aspect of the CP criterion, as specialised by the G2 group. The proposition is narrower than the whole atom, focusing on the ongoing condition of the establishment to prevent infestation and contamination."
+    }
+  ],
+  "pilot_only": true,
+  "notes": [
+    "Multiple EvidenceRequirements may attach to one frozen atom.",
+    "EvidenceRequirements are proof/coverage facets, not additional contract logic leaves.",
+    "Facet seeds are derived deterministically from validated RuleSetRelation.",
+    "Full D2.8 typed entity/time/cardinality fields remain deferred in Core pilot."
+  ]
+}

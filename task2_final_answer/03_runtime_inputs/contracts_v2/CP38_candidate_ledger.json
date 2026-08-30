@@ -1,0 +1,3234 @@
+{
+  "schema": "freca-core-candidate-ledger-v2",
+  "cp": {
+    "cp_id": "CP38",
+    "canonical_cp_id": "CP38",
+    "element": "Element-4",
+    "subelement": "4.3 Record Keeping - traceability",
+    "criterion": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+    "sheet": "All Elements",
+    "column": 38
+  },
+  "model": "deepseek-v4-pro",
+  "candidates": [
+    {
+      "id": "rules2021:1-6(a)",
+      "citation": "1-6(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        17
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(a) dismantling, repairing, cleaning or deodorising;",
+      "text": "1-6 Definitions\n(a) dismantling, repairing, cleaning or deodorising;",
+      "page": 17,
+      "page_end": 17,
+      "score": 0.05580992176386913,
+      "rrf_score": 0.05580992176386913,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 4,
+          "raw_score": 18.176532897556008,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 14,
+          "raw_score": 12.709222221012459,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 14,
+          "raw_score": 19.715250920717494,
+          "rrf_contribution": 0.013513513513513514
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 16,
+          "raw_score": 19.715250920717494,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)",
+      "citation": "11-10(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Period during which records must be retained",
+      "label": "(3)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(3)(as the case may be)"
+      ],
+      "own_text": "(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "text": "11-10 Records to be retained by authorised officers\nPeriod during which records must be retained\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.04727963886909005,
+      "rrf_score": 0.04727963886909005,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 9,
+          "raw_score": 13.849519152350656,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 1,
+          "raw_score": 28.96321598831479,
+          "rrf_contribution": 0.01639344262295082
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 1,
+          "raw_score": 32.73115944823651,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-8",
+      "citation": "11-8",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marks",
+      "label": "11-8",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-8 Records relating to official marks\nRecords relating to official marks\nA person who is required to make a record by section 8-29 or 8-30 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.045415959252971136,
+      "rrf_score": 0.045415959252971136,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 16,
+          "raw_score": 12.578173343930873,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 2,
+          "raw_score": 24.933190383696655,
+          "rrf_contribution": 0.016129032258064516
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 2,
+          "raw_score": 28.781649879516507,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-9",
+      "citation": "11-9",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records relating to official marking devices",
+      "label": "11-9",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "A person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "text": "11-9 Records relating to official marking devices\nRecords relating to official marking devices\nA person who is required to make a record by section 8-35 or 8-36 must retain\neach record made under that section for at least 2 years after making it.",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.044733044733044736,
+      "rrf_score": 0.044733044733044736,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 17,
+          "raw_score": 12.578173343930873,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 3,
+          "raw_score": 24.51183060938968,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 3,
+          "raw_score": 28.30623577979096,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3A)",
+      "citation": "11-10(3A)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3A)",
+      "pages": [
+        111,
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "text": "11-10 Records to be retained by authorised officers\n(3A) A third party authorised officer must retain each record referred to in\nparagraph (1)(ba) for at least 1 year starting on the day the record is made by the\nthird party authorised officer.\nChapter 11 Miscellaneous\nPart 1 Records",
+      "page": 111,
+      "page_end": 112,
+      "score": 0.04413702239789197,
+      "rrf_score": 0.04413702239789197,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 6,
+          "raw_score": 16.8065562179,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 9,
+          "raw_score": 20.925323444190788,
+          "rrf_contribution": 0.014492753623188406
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 9,
+          "raw_score": 24.61605087962164,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(2)",
+      "citation": "11-5(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(2) The exporter must retain each record referred to in subsection (1) for at least 2\nyears starting on the day the record is made by the exporter or comes into the\nexporter’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.043908227848101264,
+      "rrf_score": 0.043908227848101264,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 19,
+          "raw_score": 11.78027804972577,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 4,
+          "raw_score": 23.837839378936117,
+          "rrf_contribution": 0.015625
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 4,
+          "raw_score": 27.55395143087065,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(4)",
+      "citation": "11-5(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "text": "11-5 Records to be retained by exporter etc.\n(4) The person must retain each record referred to in subsection (3) for at least 2\nyears starting on the day the record is made by the person or comes into the\nperson’s possession (as the case may be).",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.042817423540315105,
+      "rrf_score": 0.042817423540315105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 23,
+          "raw_score": 11.086377649481614,
+          "rrf_contribution": 0.012048192771084338
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 5,
+          "raw_score": 23.47012673201763,
+          "rrf_contribution": 0.015384615384615385
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 5,
+          "raw_score": 27.18623878395216,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(2)",
+      "citation": "11-6(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6",
+      "child_ids": [],
+      "own_text": "(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(2) The manager of the accredited property must retain each record referred to in\nsubsection (1) for at least 2 years starting on the day the record is made by the\nmanager or comes into the manager’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0428030303030303,
+      "rrf_score": 0.0428030303030303,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 20,
+          "raw_score": 11.609765550715021,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 6,
+          "raw_score": 22.942965148047712,
+          "rrf_contribution": 0.015151515151515152
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 6,
+          "raw_score": 26.51179973408966,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(2)",
+      "citation": "11-7(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7",
+      "child_ids": [],
+      "own_text": "(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(2) The occupier of the registered establishment must retain each record referred to\nin subsection (1) for at least 2 years starting on the day the record is made by the\noccupier or comes into the occupier’s possession (as the case may be).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.0421964252810024,
+      "rrf_score": 0.0421964252810024,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 21,
+          "raw_score": 11.609765550715021,
+          "rrf_contribution": 0.012345679012345678
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 7,
+          "raw_score": 22.942965148047712,
+          "rrf_contribution": 0.014925373134328358
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 7,
+          "raw_score": 26.51179973408966,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(1)",
+      "citation": "11-5(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to prescribed plants or plant products",
+      "label": "(1)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(1)(a)",
+        "rules2021:11-5(1)(b)",
+        "rules2021:11-5(1)(c)"
+      ],
+      "own_text": "(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to prescribed plants or plant products\n(1) An exporter of prescribed plants or plant products must retain the following\nrecords:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.04168913845795924,
+      "rrf_score": 0.04168913845795924,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 3,
+          "raw_score": 18.715424774361907,
+          "rrf_contribution": 0.015873015873015872
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 16,
+          "raw_score": 18.40941996061965,
+          "rrf_contribution": 0.013157894736842105
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 19,
+          "raw_score": 18.40941996061965,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(2)",
+      "citation": "11-10(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records to be retained by third party authorised officers",
+      "label": "(2)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(2)(a)",
+        "rules2021:11-10(2)(b)",
+        "rules2021:11-10(2)(c)",
+        "rules2021:11-10(2)(d)",
+        "rules2021:11-10(2)(e)",
+        "rules2021:11-10(2)(f)"
+      ],
+      "own_text": "(2) In addition to subsection (1), a third party authorised officer who is, or was,\nauthorised to perform functions or exercise powers under the Act in relation to\nplants or plant products must retain the following records:",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by third party authorised officers\n(2) In addition to subsection (1), a third party authorised officer who is, or was,\nauthorised to perform functions or exercise powers under the Act in relation to\nplants or plant products must retain the following records:",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.039457601222307105,
+      "rrf_score": 0.039457601222307105,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 8,
+          "raw_score": 13.997073836549522,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 17,
+          "raw_score": 17.79080803460641,
+          "rrf_contribution": 0.012987012987012988
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 25,
+          "raw_score": 17.79080803460641,
+          "rrf_contribution": 0.011764705882352941
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(1)",
+      "citation": "11-10(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records to be retained by all authorised officers",
+      "label": "(1)",
+      "pages": [
+        110,
+        111
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [
+        "rules2021:11-10(1)(a)",
+        "rules2021:11-10(1)(b)",
+        "rules2021:11-10(1)(ba)",
+        "rules2021:11-10(1)(c)",
+        "rules2021:11-10(1)(d)",
+        "rules2021:11-10(1)(e)",
+        "rules2021:11-10(1)(f)",
+        "rules2021:11-10(1)(g)"
+      ],
+      "own_text": "(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by all authorised officers\n(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11",
+      "page": 110,
+      "page_end": 111,
+      "score": 0.0382686562264027,
+      "rrf_score": 0.0382686562264027,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 11,
+          "raw_score": 13.269227618473941,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 18,
+          "raw_score": 17.43107225757333,
+          "rrf_contribution": 0.01282051282051282
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 28,
+          "raw_score": 17.43107225757333,
+          "rrf_contribution": 0.011363636363636364
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(3)(as the case may be)",
+      "citation": "11-10(3)(as the case may be)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": "made by the authorised officer or comes into the authorised officer’s possession",
+      "label": "(as the case may be)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10(3)",
+      "child_ids": [],
+      "own_text": "(as the case may be) .",
+      "text": "11-10 Records to be retained by authorised officers\nmade by the authorised officer or comes into the authorised officer’s possession\n(3) Subject to subsection (3A), an authorised officer must retain each record referred\nto in subsection (1) or (2) for at least 2 years starting on the day the record is\n(as the case may be) .",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.029411764705882353,
+      "rrf_score": 0.029411764705882353,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 8,
+          "raw_score": 22.10523814842179,
+          "rrf_contribution": 0.014705882352941176
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 8,
+          "raw_score": 25.604726629157952,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10",
+      "citation": "11-10",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by authorised officers",
+      "label": "11-10",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-10(1)",
+        "rules2021:11-10(2)",
+        "rules2021:11-10(3)",
+        "rules2021:11-10(3A)",
+        "rules2021:11-10(4)"
+      ],
+      "own_text": "",
+      "text": "11-10 Records to be retained by authorised officers\nRecords to be retained by authorised officers",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.02817460317460317,
+      "rrf_score": 0.02817460317460317,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 10,
+          "raw_score": 20.065200706202624,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 12,
+          "raw_score": 20.065200706202624,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5",
+      "citation": "11-5",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by exporter etc.",
+      "label": "11-5",
+      "pages": [
+        109
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-5(1)",
+        "rules2021:11-5(2)",
+        "rules2021:11-5(3)",
+        "rules2021:11-5(4)",
+        "rules2021:11-5(5)"
+      ],
+      "own_text": "",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords to be retained by exporter etc.",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.027783137179239824,
+      "rrf_score": 0.027783137179239824,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 11,
+          "raw_score": 20.065200706202624,
+          "rrf_contribution": 0.014084507042253521
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 13,
+          "raw_score": 20.065200706202624,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(4)",
+      "citation": "11-10(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(4)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-10",
+      "child_ids": [],
+      "own_text": "(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "text": "11-10 Records to be retained by authorised officers\nException for certain records\n(4) Subsections (1), (2) and (3) do not apply in relation to a record that has been\nentered into an electronic system operated by the Department for the purposes of\nthe Act.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.02761904761904762,
+      "rrf_score": 0.02761904761904762,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 15,
+          "raw_score": 18.565017438930056,
+          "rrf_contribution": 0.013333333333333334
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 10,
+          "raw_score": 21.244886213077965,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6",
+      "citation": "11-6",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by manager of accredited property",
+      "label": "11-6",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-6(1)",
+        "rules2021:11-6(2)"
+      ],
+      "own_text": "",
+      "text": "11-6 Records to be retained by manager of accredited property\nRecords to be retained by manager of accredited property",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.027402402402402402,
+      "rrf_score": 0.027402402402402402,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 12,
+          "raw_score": 19.855742557811226,
+          "rrf_contribution": 0.013888888888888888
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 14,
+          "raw_score": 19.855742557811226,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7",
+      "citation": "11-7",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Records to be retained by occupier of registered establishment",
+      "label": "11-7",
+      "pages": [
+        110
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:11-7(1)",
+        "rules2021:11-7(2)"
+      ],
+      "own_text": "",
+      "text": "11-7 Records to be retained by occupier of registered establishment\nRecords to be retained by occupier of registered establishment",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.027031963470319637,
+      "rrf_score": 0.027031963470319637,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 13,
+          "raw_score": 19.855742557811226,
+          "rrf_contribution": 0.0136986301369863
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 15,
+          "raw_score": 19.855742557811226,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-29(b)(iii)",
+      "citation": "8-29(b)(iii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(iii)",
+      "pages": [
+        77
+      ],
+      "parent_id": "rules2021:8-29(b)",
+      "child_ids": [],
+      "own_text": "(iii) the means used to transport the consignment.",
+      "text": "8-29 Records of official marks manufactured\n(b) make a written record stating:\n(iii) the means used to transport the consignment.",
+      "page": 77,
+      "page_end": 77,
+      "score": 0.02658450704225352,
+      "rrf_score": 0.02658450704225352,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 20,
+          "raw_score": 17.083537967877273,
+          "rrf_contribution": 0.0125
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 11,
+          "raw_score": 20.600799651803904,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(3)",
+      "citation": "11-5(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Records relating to non-prescribed plants or plant products",
+      "label": "(3)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [
+        "rules2021:11-5(3)(a)",
+        "rules2021:11-5(3)(b)"
+      ],
+      "own_text": "(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "text": "11-5 Records to be retained by exporter etc.\nRecords relating to non-prescribed plants or plant products\n(3) A person to whom a phytosanitary certificate, or a phytosanitary certificate for\nre-export, has been issued in relation to non-prescribed plants or plant products\nmust retain the following records:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.02591362126245847,
+      "rrf_score": 0.02591362126245847,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 10,
+          "raw_score": 13.488250970141364,
+          "rrf_contribution": 0.014285714285714285
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 26,
+          "raw_score": 16.136467075858164,
+          "rrf_contribution": 0.011627906976744186
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(1)(c)",
+      "citation": "11-5(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        109
+      ],
+      "parent_id": "rules2021:11-5(1)",
+      "child_ids": [
+        "rules2021:11-5(1)(c)(i)",
+        "rules2021:11-5(1)(c)(ii)"
+      ],
+      "own_text": "(c) each other document:",
+      "text": "11-5 Records to be retained by exporter etc.\n(1) An exporter of prescribed plants or plant products must retain the following\nrecords:\n(c) each other document:",
+      "page": 109,
+      "page_end": 109,
+      "score": 0.023769338959212377,
+      "rrf_score": 0.023769338959212377,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 19,
+          "raw_score": 17.149494604878065,
+          "rrf_contribution": 0.012658227848101266
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 30,
+          "raw_score": 17.149494604878065,
+          "rrf_contribution": 0.011111111111111112
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(1)",
+      "citation": "11-11(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        112
+      ],
+      "parent_id": "rules2021:11-11",
+      "child_ids": [],
+      "own_text": "(1) A record that is retained as required by this Part must not be altered or defaced\nduring the period (the retention period) in which it is required to be retained.",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(1) A record that is retained as required by this Part must not be altered or defaced\nduring the period (the retention period) in which it is required to be retained.",
+      "page": 112,
+      "page_end": 112,
+      "score": 0.023558758314855877,
+      "rrf_score": 0.023558758314855877,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 28,
+          "raw_score": 10.352444464995854,
+          "rrf_contribution": 0.011363636363636364
+        },
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 22,
+          "raw_score": 17.959021296500527,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-6(1)(b)",
+      "citation": "11-6(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-6(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "text": "11-6 Records to be retained by manager of accredited property\n(1) The manager of a property that is accredited for a kind of export operations in\nrelation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the manager has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the accreditation of the property have been, and are being,\ncomplied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.023431077007399288,
+      "rrf_score": 0.023431077007399288,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 29,
+          "raw_score": 10.122340650133205,
+          "rrf_contribution": 0.011235955056179775
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 22,
+          "raw_score": 16.335561761585442,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-7(1)(b)",
+      "citation": "11-7(1)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        110
+      ],
+      "parent_id": "rules2021:11-7(1)",
+      "child_ids": [],
+      "own_text": "(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "text": "11-7 Records to be retained by occupier of registered establishment\n(1) The occupier of an establishment that is registered for a kind of export operations\nin relation to a kind of prescribed plants or plant products must retain each\ndocument:\n(b) that is relevant to showing whether the occupier has complied, or is\ncomplying, with the applicable requirements of the Act (including whether\nthe conditions of the registration of the establishment have been, and are\nbeing, complied with).",
+      "page": 110,
+      "page_end": 110,
+      "score": 0.023159303882195448,
+      "rrf_score": 0.023159303882195448,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 30,
+          "raw_score": 10.122340650133205,
+          "rrf_contribution": 0.011111111111111112
+        },
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 23,
+          "raw_score": 16.335561761585442,
+          "rrf_contribution": 0.012048192771084338
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-5(l)",
+      "citation": "1-5(l)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(l)",
+      "pages": [
+        12
+      ],
+      "parent_id": "rules2021:1-5",
+      "child_ids": [],
+      "own_text": "(l)\nrecords;",
+      "text": "1-5 Simplified outline of this instrument\nGeneral\nThis instrument prescribes matters and makes other provision in relation to\ncertain plants and plant products (prescribed plants and plant products) for the\npurposes of the Export Control Act 2020 (the Act).\nPrescribed plants or plant products must not be exported from Australian\nterritory unless the conditions prescribed by this instrument (prescribed export\nconditions) are complied with. A person may commit an offence or be liable to a\ncivil penalty if prescribed plants or plant products are exported in contravention\nof prescribed export conditions (see Division 4 of Part 1 of Chapter 2 of the Act).\nThis instrument prescribes other matters and makes other provision in relation to\nthe export of plants and plant products, including in relation to the following:\nChapter 1 Preliminary\n(l)\nrecords;",
+      "page": 12,
+      "page_end": 12,
+      "score": 0.01639344262295082,
+      "rrf_score": 0.01639344262295082,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 1,
+          "raw_score": 25.212987571435427,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14",
+      "citation": "9-14",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Record of assessment",
+      "label": "9-14",
+      "pages": [
+        87
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-14(1)",
+        "rules2021:9-14(2)"
+      ],
+      "own_text": "",
+      "text": "9-14 Record of assessment\nRecord of assessment",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.01639344262295082,
+      "rrf_score": 0.01639344262295082,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 1,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33",
+      "citation": "9-33",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Container inspection record",
+      "label": "9-33",
+      "pages": [
+        104
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-33(1)",
+        "rules2021:9-33(2)",
+        "rules2021:9-33(3)",
+        "rules2021:9-33(4)",
+        "rules2021:9-33(5)"
+      ],
+      "own_text": "",
+      "text": "9-33 Container inspection record\nContainer inspection record",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.016129032258064516,
+      "rrf_score": 0.016129032258064516,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 2,
+          "raw_score": 5.175612549869362,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-7(c)",
+      "citation": "9-7(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        84
+      ],
+      "parent_id": "rules2021:9-7",
+      "child_ids": [],
+      "own_text": "(c) records of assessments of plants or plant products;",
+      "text": "9-7 Purpose of this Division\nFor the purposes of section 279 of the Act, this Division makes provision for and\nin relation to the following matters:\n(c) records of assessments of plants or plant products;",
+      "page": 84,
+      "page_end": 84,
+      "score": 0.016129032258064516,
+      "rrf_score": 0.016129032258064516,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 2,
+          "raw_score": 21.54880025885108,
+          "rrf_contribution": 0.016129032258064516
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24",
+      "citation": "9-24",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Bulk vessel inspection record",
+      "label": "9-24",
+      "pages": [
+        97
+      ],
+      "parent_id": null,
+      "child_ids": [
+        "rules2021:9-24(1)",
+        "rules2021:9-24(2)",
+        "rules2021:9-24(3)",
+        "rules2021:9-24(4)",
+        "rules2021:9-24(5)"
+      ],
+      "own_text": "",
+      "text": "9-24 Bulk vessel inspection record\nBulk vessel inspection record",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015873015873015872,
+      "rrf_score": 0.015873015873015872,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 3,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)",
+      "citation": "9-33(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [
+        "rules2021:9-33(2)(a)",
+        "rules2021:9-33(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015625,
+      "rrf_score": 0.015625,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 4,
+          "raw_score": 5.078319546399559,
+          "rrf_contribution": 0.015625
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-1",
+      "citation": "11-1",
+      "unit_type": "SECTION",
+      "level": 1,
+      "title": "Purpose of this Part",
+      "label": "11-1",
+      "pages": [
+        108
+      ],
+      "parent_id": null,
+      "child_ids": [],
+      "own_text": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "text": "11-1 Purpose of this Part\nPurpose of this Part\nFor the purposes of subsections 408(1) and (2) of the Act, this Part makes\nprovision for and in relation to the retention of records in relation to plants or\nplant products.",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 5,
+          "raw_score": 17.572487850213363,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)",
+      "citation": "9-33(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [
+        "rules2021:9-33(2)(b)(i)",
+        "rules2021:9-33(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.015384615384615385,
+      "rrf_score": 0.015384615384615385,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 5,
+          "raw_score": 5.034467210083209,
+          "rrf_contribution": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)",
+      "citation": "9-24(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(2)(a)",
+        "rules2021:9-24(2)(b)"
+      ],
+      "own_text": "(2) The inspection record must:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.015151515151515152,
+      "rrf_score": 0.015151515151515152,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 6,
+          "raw_score": 5.031031983094587,
+          "rrf_contribution": 0.015151515151515152
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "citation": "1-6(whether organic or inorganic, but not including a pest)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(whether organic or inorganic, but not including a pest)",
+      "pages": [
+        14
+      ],
+      "parent_id": "rules2021:1-6",
+      "child_ids": [],
+      "own_text": "(whether organic or inorganic, but not including a pest) that:",
+      "text": "1-6 Definitions\n(whether organic or inorganic, but not including a pest) that:",
+      "page": 14,
+      "page_end": 14,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 7,
+          "raw_score": 14.396299872948102,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(b)",
+      "citation": "9-24(2)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [
+        "rules2021:9-24(2)(b)(i)",
+        "rules2021:9-24(2)(b)(ii)"
+      ],
+      "own_text": "(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(b) if the Secretary has approved, in writing, a form for the inspection record:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014925373134328358,
+      "rrf_score": 0.014925373134328358,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 7,
+          "raw_score": 5.00338612941645,
+          "rrf_contribution": 0.014925373134328358
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(5)",
+      "citation": "9-33(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-33 Container inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014705882352941176,
+      "rrf_score": 0.014705882352941176,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 8,
+          "raw_score": 4.853564872249845,
+          "rrf_contribution": 0.014705882352941176
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(5)",
+      "citation": "9-24(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(5)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "text": "9-24 Bulk vessel inspection record\n(5) If the Secretary has approved, in writing, a manner for giving the inspection\nrecord, the inspection record must be given in the approved manner.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.014492753623188406,
+      "rrf_score": 0.014492753623188406,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 9,
+          "raw_score": 4.824670909545926,
+          "rrf_contribution": 0.014492753623188406
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(1)",
+      "citation": "9-14(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        87
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "text": "9-14 Record of assessment\n(1) As soon as practicable after an assessor completes an assessment of plants or\nplant products, the assessor must make a written record (an assessment record)\nof the assessment.",
+      "page": 87,
+      "page_end": 87,
+      "score": 0.014285714285714285,
+      "rrf_score": 0.014285714285714285,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 10,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014285714285714285
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(1)",
+      "citation": "9-33(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-33 Container inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\ncontainer, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.014084507042253521,
+      "rrf_score": 0.014084507042253521,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 11,
+          "raw_score": 4.740016922762744,
+          "rrf_contribution": 0.014084507042253521
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-11(4)",
+      "citation": "4-11(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        49
+      ],
+      "parent_id": "rules2021:4-11",
+      "child_ids": [],
+      "own_text": "(4) The packages must be sufficiently strong to withstand handling ordinarily\noccurring before and during transport, including transport to their final overseas\ndestination.",
+      "text": "4-11 Requirements for packages for export\n(4) The packages must be sufficiently strong to withstand handling ordinarily\noccurring before and during transport, including transport to their final overseas\ndestination.",
+      "page": 49,
+      "page_end": 49,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 12,
+          "raw_score": 13.040910220762873,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(1)",
+      "citation": "9-24(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [],
+      "own_text": "(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "text": "9-24 Bulk vessel inspection record\n(1) As soon as practicable after an authorised officer completes an inspection of a\nbulk vessel, the authorised officer must make a written record (an inspection\nrecord) of the inspection.",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013888888888888888,
+      "rrf_score": 0.013888888888888888,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 12,
+          "raw_score": 4.6852122322021925,
+          "rrf_contribution": 0.013888888888888888
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-7(1)(a)",
+      "citation": "1-7(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        18
+      ],
+      "parent_id": "rules2021:1-7(1)",
+      "child_ids": [],
+      "own_text": "(a) barley (being whole grain of Hordeum vulgare (whether 2-row or 6-row),\nbut not including hulled, milled or malted grain of that kind);",
+      "text": "1-7 Meaning of prescribed grain\n(1) Prescribed grain means any of the following:\n(a) barley (being whole grain of Hordeum vulgare (whether 2-row or 6-row),\nbut not including hulled, milled or malted grain of that kind);",
+      "page": 18,
+      "page_end": 18,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 13,
+          "raw_score": 12.839360841273141,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(3)",
+      "citation": "9-24(3)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(3)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24",
+      "child_ids": [
+        "rules2021:9-24(3)(a)",
+        "rules2021:9-24(3)(b)"
+      ],
+      "own_text": "(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "text": "9-24 Bulk vessel inspection record\n(3) If the bulk vessel is approved, the inspection record must also specify:",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.0136986301369863,
+      "rrf_score": 0.0136986301369863,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 13,
+          "raw_score": 4.682236954544075,
+          "rrf_contribution": 0.0136986301369863
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)",
+      "citation": "9-14(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [
+        "rules2021:9-14(2)(c)(i)",
+        "rules2021:9-14(2)(c)(ii)"
+      ],
+      "own_text": "(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(c) if the Secretary has approved, in writing, a form for the assessment record:",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.013513513513513514,
+      "rrf_score": 0.013513513513513514,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 14,
+          "raw_score": 4.631660374113694,
+          "rrf_contribution": 0.013513513513513514
+        }
+      ]
+    },
+    {
+      "id": "rules2021:1-7(1)(m)",
+      "citation": "1-7(1)(m)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(m)",
+      "pages": [
+        18
+      ],
+      "parent_id": "rules2021:1-7(1)",
+      "child_ids": [],
+      "own_text": "(m) whole vetch (being seed (whole or broken) of Vicia sativa, but not\nincluding split seed of Vicia sativa).",
+      "text": "1-7 Meaning of prescribed grain\n(1) Prescribed grain means any of the following:\n(m) whole vetch (being seed (whole or broken) of Vicia sativa, but not\nincluding split seed of Vicia sativa).",
+      "page": 18,
+      "page_end": 18,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 15,
+          "raw_score": 12.607266257128762,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(a)",
+      "citation": "9-33(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the container is approved or not approved; and",
+      "text": "9-33 Container inspection record\n(2) The inspection record must:\n(a) state whether the container is approved or not approved; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.013333333333333334,
+      "rrf_score": 0.013333333333333334,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 15,
+          "raw_score": 4.602466177534989,
+          "rrf_contribution": 0.013333333333333334
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-24(2)(a)",
+      "citation": "9-24(2)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        97
+      ],
+      "parent_id": "rules2021:9-24(2)",
+      "child_ids": [],
+      "own_text": "(a) state whether the bulk vessel is approved or not approved; and",
+      "text": "9-24 Bulk vessel inspection record\n(2) The inspection record must:\n(a) state whether the bulk vessel is approved or not approved; and",
+      "page": 97,
+      "page_end": 97,
+      "score": 0.013157894736842105,
+      "rrf_score": 0.013157894736842105,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 16,
+          "raw_score": 4.5253679610186,
+          "rrf_contribution": 0.013157894736842105
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)(c)",
+      "citation": "11-2(1)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(c) dated; and",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(c) dated; and",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 17,
+          "raw_score": 18.71678954672796,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)",
+      "citation": "9-14(2)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(2)",
+      "pages": [
+        87,
+        88
+      ],
+      "parent_id": "rules2021:9-14",
+      "child_ids": [
+        "rules2021:9-14(2)(a)",
+        "rules2021:9-14(2)(b)",
+        "rules2021:9-14(2)(c)",
+        "rules2021:9-14(2)(d)"
+      ],
+      "own_text": "(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.",
+      "page": 87,
+      "page_end": 88,
+      "score": 0.012987012987012988,
+      "rrf_score": 0.012987012987012988,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 17,
+          "raw_score": 4.4877794402543,
+          "rrf_contribution": 0.012987012987012988
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-11(3)(b)",
+      "citation": "11-11(3)(b)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(b)",
+      "pages": [
+        112,
+        113
+      ],
+      "parent_id": "rules2021:11-11(3)",
+      "child_ids": [],
+      "own_text": "(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "text": "11-11 Records must not be altered or defaced during retention period\n(3) If, during the retention period, notations or markings are made on the record (the\noriginal record) in accordance with ordinary practice, the person who is required\nto retain the original record must also retain, during the retention period, each\ndocument:\n(b) that shows how the original record was changed.\nMiscellaneous Chapter 11",
+      "page": 112,
+      "page_end": 113,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 18,
+          "raw_score": 4.454843947479746,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)(a)",
+      "citation": "11-2(1)(a)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(a)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2(1)",
+      "child_ids": [],
+      "own_text": "(a) in English; and",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:\n(a) in English; and",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 18,
+          "raw_score": 18.503899339501544,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:3-6(4)",
+      "citation": "3-6(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        36,
+        37
+      ],
+      "parent_id": "rules2021:3-6",
+      "child_ids": [],
+      "own_text": "(4) The packages must be sufficiently strong to withstand handling ordinarily\noccurring before and during transport, including transport to their final overseas\ndestination.\nAccredited properties Chapter 3",
+      "text": "3-6 Requirements for packages for export\n(4) The packages must be sufficiently strong to withstand handling ordinarily\noccurring before and during transport, including transport to their final overseas\ndestination.\nAccredited properties Chapter 3",
+      "page": 36,
+      "page_end": 37,
+      "score": 0.01282051282051282,
+      "rrf_score": 0.01282051282051282,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 18,
+          "raw_score": 12.237772836585306,
+          "rrf_contribution": 0.01282051282051282
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(d)",
+      "citation": "9-14(2)(d)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(d)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)",
+      "child_ids": [],
+      "own_text": "(d) if the Secretary has approved, in writing, a manner for giving the\nassessment record—be given in the approved manner.",
+      "text": "9-14 Record of assessment\n(2) The assessment record must:\nChapter 9 Powers and officials\nPart 2 Assessments\nDivision 2 Carrying out assessment etc.\n(d) if the Secretary has approved, in writing, a manner for giving the\nassessment record—be given in the approved manner.",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012658227848101266,
+      "rrf_score": 0.012658227848101266,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 19,
+          "raw_score": 4.453498556040799,
+          "rrf_contribution": 0.012658227848101266
+        }
+      ]
+    },
+    {
+      "id": "rules2021:8-35(b)(ii)",
+      "citation": "8-35(b)(ii)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(ii)",
+      "pages": [
+        79
+      ],
+      "parent_id": "rules2021:8-35(b)",
+      "child_ids": [],
+      "own_text": "(ii) the means used to transport each official marking device sent by the\nperson on that day.",
+      "text": "8-35 Records of official marking devices manufactured\n(b) make a written record stating:\n(ii) the means used to transport each official marking device sent by the\nperson on that day.",
+      "page": 79,
+      "page_end": 79,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 20,
+          "raw_score": 18.22760133961536,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(4)",
+      "citation": "9-33(4)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(4)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33",
+      "child_ids": [],
+      "own_text": "(4) If the container is not approved, the inspection record must set out the reasons for\nthe decision not to approve the container.",
+      "text": "9-33 Container inspection record\n(4) If the container is not approved, the inspection record must set out the reasons for\nthe decision not to approve the container.",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.0125,
+      "rrf_score": 0.0125,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 20,
+          "raw_score": 4.343468902471731,
+          "rrf_contribution": 0.0125
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-10(1)(g)",
+      "citation": "11-10(1)(g)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(g)",
+      "pages": [
+        111
+      ],
+      "parent_id": "rules2021:11-10(1)",
+      "child_ids": [],
+      "own_text": "(g) each notice revoking a container approval and each document considered\nin deciding to revoke the container approval.",
+      "text": "11-10 Records to be retained by authorised officers\n(1) An authorised officer who is, or was, authorised to perform functions or exercise\npowers under the Act in relation to plants or plant products must retain the\nfollowing records:\nMiscellaneous Chapter 11\n(g) each notice revoking a container approval and each document considered\nin deciding to revoke the container approval.",
+      "page": 111,
+      "page_end": 111,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_CONTEXT",
+          "rank": 21,
+          "raw_score": 16.547467295537043,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-2(1)",
+      "citation": "11-2(1)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": null,
+      "label": "(1)",
+      "pages": [
+        108
+      ],
+      "parent_id": "rules2021:11-2",
+      "child_ids": [
+        "rules2021:11-2(1)(a)",
+        "rules2021:11-2(1)(b)",
+        "rules2021:11-2(1)(c)",
+        "rules2021:11-2(1)(d)"
+      ],
+      "own_text": "(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:",
+      "text": "11-2 General requirements for records\n(1) A record that is required to be retained under this Part in relation to plants or\nplant products must be:",
+      "page": 108,
+      "page_end": 108,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "COMBINED_CONTEXT",
+          "rank": 21,
+          "raw_score": 18.127229853750855,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-14(2)(c)(i)",
+      "citation": "9-14(2)(c)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        88
+      ],
+      "parent_id": "rules2021:9-14(2)(c)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-14 Record of assessment\n(c) if the Secretary has approved, in writing, a form for the assessment record:\n(i) include any other information required by the form; and",
+      "page": 88,
+      "page_end": 88,
+      "score": 0.012345679012345678,
+      "rrf_score": 0.012345679012345678,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 21,
+          "raw_score": 4.308829858686338,
+          "rrf_contribution": 0.012345679012345678
+        }
+      ]
+    },
+    {
+      "id": "rules2021:4-7A(2)(c)",
+      "citation": "4-7A(2)(c)",
+      "unit_type": "PARAGRAPH",
+      "level": 3,
+      "title": null,
+      "label": "(c)",
+      "pages": [
+        48
+      ],
+      "parent_id": "rules2021:4-7A(2)",
+      "child_ids": [],
+      "own_text": "(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "text": "4-7A Establishment must be kept in appropriate condition\n(2) Without limiting subsection (1):\n(c) toxic substances (including fumigants, rodenticides and insecticides) at the\nestablishment must be managed and stored appropriately in accordance\nwith applicable State or Territory laws (if any); and",
+      "page": 48,
+      "page_end": 48,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "CRITERION_OWN",
+          "rank": 22,
+          "raw_score": 11.535437217839894,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:9-33(2)(b)(i)",
+      "citation": "9-33(2)(b)(i)",
+      "unit_type": "SUBPARAGRAPH",
+      "level": 4,
+      "title": null,
+      "label": "(i)",
+      "pages": [
+        104
+      ],
+      "parent_id": "rules2021:9-33(2)(b)",
+      "child_ids": [],
+      "own_text": "(i) include any other information required by the form; and",
+      "text": "9-33 Container inspection record\n(b) if the Secretary has approved, in writing, a form for the inspection record:\n(i) include any other information required by the form; and",
+      "page": 104,
+      "page_end": 104,
+      "score": 0.012195121951219513,
+      "rrf_score": 0.012195121951219513,
+      "retrieval_signals": [
+        {
+          "channel": "SUBELEMENT_CONTEXT",
+          "rank": 22,
+          "raw_score": 4.308829858686338,
+          "rrf_contribution": 0.012195121951219513
+        }
+      ]
+    },
+    {
+      "id": "rules2021:11-5(5)",
+      "citation": "11-5(5)",
+      "unit_type": "SUBSECTION",
+      "level": 2,
+      "title": "Exception for certain records",
+      "label": "(5)",
+      "pages": [
+        109,
+        110
+      ],
+      "parent_id": "rules2021:11-5",
+      "child_ids": [],
+      "own_text": "(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "text": "11-5 Records to be retained by exporter etc.\nException for certain records\n(5) This section does not apply in relation to a record referred to in paragraph (1)(a)\nor (b) or (3)(a) that has been entered into an electronic system operated by the\nDepartment for the purposes of the Act.\nChapter 11 Miscellaneous",
+      "page": 109,
+      "page_end": 110,
+      "score": 0.0,
+      "rrf_score": 0.0,
+      "retrieval_signals": [
+        {
+          "channel": "STRUCTURAL_RESCUE",
+          "rank": null,
+          "raw_score": null,
+          "rrf_contribution": 0.0,
+          "source_candidate_id": "rules2021:11-5(2)",
+          "reason": "DIRECT_SIBLING"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "rules2021:1-6(a)",
+      "page": 17,
+      "rrf_or_bm25_score": 0.05580992176386913,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "This definition relates to a term not used in the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "dismantling, repairing, cleaning or deodorising;",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.04727963886909005,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection explicitly requires retention for at least 2 years, which is the core requirement of the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "Subject to subsection (3A), an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This subsection directly imposes a 2-year retention period for records, matching the CP's requirement of at least 2 years of traceability records.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "an authorised officer must retain each record referred to in subsection (1) or (2) for at least 2 years starting on the day the record is",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-8",
+      "page": 110,
+      "rrf_or_bm25_score": 0.045415959252971136,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes a 2-year retention requirement for records related to official marks, which are traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "A person who is required to make a record by section 8-29 or 8-30 must retain each record made under that section for at least 2 years after making it.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This section concerns records relating to official marks, not traceability records such as receival, movement, treatment, transfer, dispatch, or transport unit approval records.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "A person who is required to make a record by section 8-29 or 8-30 must retain each record made under that section for at least 2 years after making it.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-9",
+      "page": 110,
+      "rrf_or_bm25_score": 0.044733044733044736,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes a 2-year retention requirement for records related to official marking devices, which are traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "A person who is required to make a record by section 8-35 or 8-36 must retain each record made under that section for at least 2 years after making it.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This section concerns records relating to official marking devices, not traceability records such as receival, movement, treatment, transfer, dispatch, or transport unit approval records.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "A person who is required to make a record by section 8-35 or 8-36 must retain each record made under that section for at least 2 years after making it.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(3A)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.04413702239789197,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "DIFFERENT_RETENTION_PERIOD_AND_ACTOR",
+      "reason": "This provision requires a third party authorised officer to retain records for at least 1 year, whereas the CP criterion requires at least 2 years of traceability records. The actor and retention period differ, and the provision does not ground the CP's 2-year requirement.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(2)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.043908227848101264,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision explicitly requires exporters to retain records for at least 2 years, which directly grounds the CP's 2-year retention requirement.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": true,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "DIRECT_TEXTUAL_MATCH",
+      "legal_basis_reason": "This subsection directly imposes the 2-year retention period for records required under subsection (1), which includes traceability records such as receival, movement, treatment, transfer, dispatch, and transport unit approval records.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "The exporter must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the exporter or comes into the exporter’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(4)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.042817423540315105,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes the 2-year retention requirement for records, matching the CP's core retention duration.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The person must retain each record referred to in subsection (3) for at least 2 years starting on the day the record is made by the person or comes into the person’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection imposes a 2-year retention period for records related to non-prescribed plants or plant products, not the traceability records for prescribed plants or plant products covered by the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "The person must retain each record referred to in subsection (3) for at least 2 years starting on the day the record is made by the person or comes into the person’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0428030303030303,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes the 2-year retention requirement for the manager's records, matching the CP's core retention duration.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The manager of the accredited property must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the manager or comes into the manager’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection imposes a 2-year retention period for records kept by the manager of an accredited property, but the CP specifically concerns traceability records retained by exporters, not property managers.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "The manager of the accredited property must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the manager or comes into the manager’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-7(2)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0421964252810024,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Directly imposes the 2-year retention requirement for the occupier's records, matching the CP's core retention duration.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The occupier of the registered establishment must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the occupier or comes into the occupier’s possession (as the case may be).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection imposes a 2-year retention period for records kept by the occupier of a registered establishment, but the CP specifically concerns traceability records retained by exporters, not establishment occupiers.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "The occupier of the registered establishment must retain each record referred to in subsection (1) for at least 2 years starting on the day the record is made by the occupier or comes into the occupier’s possession (as the case may be).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(1)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.04168913845795924,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires exporters to retain specific records, which directly grounds the CP's requirement to retain traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision imposes record-keeping obligations on exporters, but does not specify the 2-year retention period or the traceability record types in the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "An exporter of prescribed plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(2)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.039457601222307105,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection extends the record retention requirement to third party authorised officers, directly supporting the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "In addition to subsection (1), a third party authorised officer who is, or was, authorised to perform functions or exercise powers under the Act in relation to plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision extends record-keeping duties to third party authorised officers, but does not address the 2-year retention period or the specific traceability records in the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "In addition to subsection (1), a third party authorised officer who is, or was, authorised to perform functions or exercise powers under the Act in relation to plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(1)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.0382686562264027,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This subsection imposes a requirement on authorised officers to retain specified records, which directly supports the CP criterion's requirement for retention of traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "An authorised officer who is, or was, authorised to perform functions or exercise powers under the Act in relation to plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision imposes record-keeping obligations on authorised officers, not on the exporter or traceability records generally. It does not specify the 2-year retention period or the listed record types in the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "An authorised officer who is, or was, authorised to perform functions or exercise powers under the Act in relation to plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-10(3)(as the case may be)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.029411764705882353,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This fragment completes the retention period provision, clarifying the start date of the 2-year period.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "(as the case may be) .",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This fragment is part of the retention period provision but does not independently establish the 2-year requirement or the traceability record types.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "(as the case may be) .",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-10",
+      "page": 110,
+      "rrf_or_bm25_score": 0.02817460317460317,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "This is a heading for section 11-10, providing structural context but no normative content.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "Records to be retained by authorised officers",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5",
+      "page": 109,
+      "rrf_or_bm25_score": 0.027783137179239824,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "SECTION_HEADING_CONTEXT",
+      "reason": "This is a section heading that provides structural context for the record retention requirements for exporters, but it does not independently establish the CP's 2-year retention requirement.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "Records to be retained by exporter etc.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(4)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.02761904761904762,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_RECORD_RETENTION",
+      "reason": "This provision creates an exception to record retention requirements, which may affect whether the CP's 2-year retention requirement applies to certain records.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This is an exception to the retention requirement for certain electronic records, not a direct grounding of the CP's 2-year retention or record types.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "Subsections (1), (2) and (3) do not apply in relation to a record that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6",
+      "page": 110,
+      "rrf_or_bm25_score": 0.027402402402402402,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "Section heading providing structural context for the manager's record retention obligations.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "11-6 Records to be retained by manager of accredited property",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-7",
+      "page": 110,
+      "rrf_or_bm25_score": 0.027031963470319637,
+      "relation": "UNRESOLVED",
+      "selected": false,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "Section heading providing structural context for the occupier's record retention obligations.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "11-7 Records to be retained by occupier of registered establishment",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": null,
+      "validation_error": "POLICY_QUOTE_NOT_GROUNDED",
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-29(b)(iii)",
+      "page": 77,
+      "rrf_or_bm25_score": 0.02658450704225352,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records of official marks manufactured, specifically the means used to transport a consignment. It does not relate to the retention of traceability records for receival, product movement, treatment, transfer, dispatch, or transport unit approval records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(3)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.02591362126245847,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision requires retention of records for non-prescribed plants or plant products, which directly grounds the CP's requirement to retain traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "A person to whom a phytosanitary certificate, or a phytosanitary certificate for re-export, has been issued in relation to non-prescribed plants or plant products must retain the following records:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This subsection applies to non-prescribed plants or plant products, whereas the CP concerns traceability records for prescribed plants or plant products. It is a separate obligation for a different regulated object.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "A person to whom a phytosanitary certificate, or a phytosanitary certificate for re-export, has been issued in relation to non-prescribed plants or plant products must retain the following records:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-5(1)(c)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.023769338959212377,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This provision is part of the list of records that exporters must retain, which directly grounds the CP's requirement to retain traceability records.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "each other document:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph is a catch-all for other documents to be retained by an exporter, but it does not specify the types of traceability records listed in the CP nor the retention period. It is only context for the record-keeping requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable",
+      "legal_basis_policy_quote": "each other document:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-11(1)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.023558758314855877,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_INTEGRITY_DURING_RETENTION",
+      "reason": "This provision supports the operationalization of the CP by ensuring records remain unaltered during the retention period, but it does not independently establish the 2-year retention requirement.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "A record that is retained as required by this Part must not be altered or defaced during the period (the retention period) in which it is required to be retained.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision concerns the integrity of retained records, not the duration or types of traceability records required by the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "A record that is retained as required by this Part must not be altered or defaced during the period (the retention period) in which it is required to be retained.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-6(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.023431077007399288,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Defines the scope of records that must be retained by the manager, which are traceability records relevant to compliance.",
+      "cp_quote": "traceability records",
+      "policy_quote": "that is relevant to showing whether the manager has complied, or is complying, with the applicable requirements of the Act (including whether the conditions of the accreditation of the property have been, and are being, complied with).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph defines the scope of records to be retained by the manager of an accredited property, but it does not specify the types of traceability records listed in the CP nor the retention period. It is a general compliance record requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "traceability records",
+      "legal_basis_policy_quote": "that is relevant to showing whether the manager has complied, or is complying, with the applicable requirements of the Act (including whether the conditions of the accreditation of the property have been, and are being, complied with).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-7(1)(b)",
+      "page": 110,
+      "rrf_or_bm25_score": 0.023159303882195448,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "Defines the scope of records that must be retained by the occupier, which are traceability records relevant to compliance.",
+      "cp_quote": "traceability records",
+      "policy_quote": "that is relevant to showing whether the occupier has complied, or is complying, with the applicable requirements of the Act (including whether the conditions of the registration of the establishment have been, and are being, complied with).",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph defines the scope of records to be retained by the occupier of a registered establishment, but it does not specify the types of traceability records listed in the CP nor the retention period. It is a general compliance record requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "traceability records",
+      "legal_basis_policy_quote": "that is relevant to showing whether the occupier has complied, or is complying, with the applicable requirements of the Act (including whether the conditions of the registration of the establishment have been, and are being, complied with).",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:1-5(l)",
+      "page": 12,
+      "rrf_or_bm25_score": 0.01639344262295082,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "This is a simplified outline item indicating that the instrument makes provision in relation to records. It does not itself impose a retention requirement.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "records;",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14",
+      "page": 87,
+      "rrf_or_bm25_score": 0.01639344262295082,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a section heading for 'Record of assessment' with no substantive text. It does not contribute to interpreting the CP criterion about retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33",
+      "page": 104,
+      "rrf_or_bm25_score": 0.016129032258064516,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a section heading for container inspection records, not a retention requirement.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-7(c)",
+      "page": 84,
+      "rrf_or_bm25_score": 0.016129032258064516,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate lists records of assessments as a purpose of the Division, but does not impose a 2-year retention requirement for traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015873015873015872,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate is a section heading for 'Bulk vessel inspection record' with no substantive text. It does not contribute to interpreting the CP criterion about retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015625,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate introduces content requirements for a container inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-1",
+      "page": 108,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "STRUCTURAL_CONTEXT",
+      "selected": true,
+      "reason_code": "STRUCTURAL_CONTEXT",
+      "reason": "This section states the purpose of Part 11, providing context for record retention provisions but not itself imposing a specific retention period.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "For the purposes of subsections 408(1) and (2) of the Act, this Part makes provision for and in relation to the retention of records in relation to plants or plant products.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.015384615384615385,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the approved form for a container inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.015151515151515152,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate introduces requirements for the inspection record but does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-6(whether organic or inorganic, but not including a pest)",
+      "page": 14,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "This definition fragment is unrelated to the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "(whether organic or inorganic, but not including a pest) that:",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(b)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014925373134328358,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the form of a bulk vessel inspection record, not the retention of traceability records for at least 2 years.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(5)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014705882352941176,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the manner of giving a container inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(5)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.014492753623188406,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the manner of giving a bulk vessel inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(1)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.014285714285714285,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires an assessor to make a written record of an assessment of plants or plant products. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(1)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.014084507042253521,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires making a container inspection record, not retaining traceability records for 2 years.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-11(4)",
+      "page": 49,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "Concerns packaging strength, not record retention or traceability.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The packages must be sufficiently strong to withstand handling ordinarily occurring before and during transport, including transport to their final overseas destination.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(1)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013888888888888888,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires an authorised officer to make a written record of a bulk vessel inspection. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-7(1)(a)",
+      "page": 18,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "This definition of prescribed grain is unrelated to the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "barley (being whole grain of Hordeum vulgare (whether 2-row or 6-row), but not including hulled, milled or malted grain of that kind);",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(3)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.0136986301369863,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies additional content for an approved bulk vessel inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.013513513513513514,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns approved forms for assessment records. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:1-7(1)(m)",
+      "page": 18,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "This definition of prescribed grain is unrelated to the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "whole vetch (being seed (whole or broken) of Vicia sativa, but not including split seed of Vicia sativa).",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(a)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.013333333333333334,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate specifies that the inspection record must state approval status, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-24(2)(a)",
+      "page": 97,
+      "rrf_or_bm25_score": 0.013157894736842105,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires the inspection record to state whether the bulk vessel is approved. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)(c)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_DATING_REQUIREMENT",
+      "reason": "This provision requires records to be dated, which supports the operationalization of the CP but does not independently establish the 2-year retention period.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "dated; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires records to be dated, which is unrelated to the 2-year retention period or traceability record types.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "dated; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)",
+      "page": 87,
+      "rrf_or_bm25_score": 0.012987012987012988,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate introduces requirements for the assessment record but does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-11(3)(b)",
+      "page": 112,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_ALTERATION_DOCUMENTATION",
+      "reason": "This provision supports the operationalization of the CP by requiring documentation of changes to records during retention, but it does not independently establish the 2-year retention requirement.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "that shows how the original record was changed.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph relates to documentation of changes to records, not the 2-year retention period or traceability record categories.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "that shows how the original record was changed.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)(a)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "RECORD_LANGUAGE_REQUIREMENT",
+      "reason": "This provision specifies that records must be in English, which supports the operationalization of the CP but does not independently establish the 2-year retention period.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "in English; and",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "EXACT_RAW",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph requires records to be in English, which is unrelated to the 2-year retention period or traceability record types.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "in English; and",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "EXACT_RAW"
+    },
+    {
+      "candidate_id": "rules2021:3-6(4)",
+      "page": 36,
+      "rrf_or_bm25_score": 0.01282051282051282,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "Concerns packaging strength, not record retention or traceability.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "The packages must be sufficiently strong to withstand handling ordinarily occurring before and during transport, including transport to their final overseas destination.",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(d)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012658227848101266,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns the manner of giving an assessment record. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:8-35(b)(ii)",
+      "page": 79,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate concerns records of official marking devices manufactured, specifically the means used to transport each official marking device. It does not relate to the retention of traceability records for receival, product movement, treatment, transfer, dispatch, or transport unit approval records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(4)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.0125,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires reasons for non-approval in the inspection record, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-10(1)(g)",
+      "page": 111,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "PRIMARY_NORM",
+      "selected": true,
+      "reason_code": "DIRECT_NORMATIVE_GROUNDING",
+      "reason": "This paragraph specifies a type of record that must be retained, which is an example of the records covered by the CP criterion.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "each notice revoking a container approval and each document considered in deciding to revoke the container approval.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This paragraph lists a specific record type for authorised officers, but it does not establish the 2-year retention period or the broader traceability record categories in the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "each notice revoking a container approval and each document considered in deciding to revoke the container approval.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:11-2(1)",
+      "page": 108,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "CP_OPERATIONALIZATION_SUPPORT",
+      "selected": true,
+      "reason_code": "GENERAL_RECORD_REQUIREMENTS",
+      "reason": "This provision sets general requirements for records that must be retained, which supports the operationalization of the CP but does not independently establish the 2-year retention period.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "A record that is required to be retained under this Part in relation to plants or plant products must be:",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "This provision sets general requirements for records, but does not specify the 2-year retention period or the traceability record types in the CP.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained",
+      "legal_basis_policy_quote": "A record that is required to be retained under this Part in relation to plants or plant products must be:",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    },
+    {
+      "candidate_id": "rules2021:9-14(2)(c)(i)",
+      "page": 88,
+      "rrf_or_bm25_score": 0.012345679012345678,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires inclusion of information required by an approved form. It does not address retention periods or the specific traceability records listed in the CP criterion.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:4-7A(2)(c)",
+      "page": 48,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "IRRELEVANT",
+      "reason": "Concerns management of toxic substances, not record retention or traceability.",
+      "cp_quote": "At least 2 years of traceability records are retained",
+      "policy_quote": "toxic substances (including fumigants, rodenticides and insecticides) at the establishment must be managed and stored appropriately in accordance with applicable State or Territory laws (if any); and",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:9-33(2)(b)(i)",
+      "page": 104,
+      "rrf_or_bm25_score": 0.012195121951219513,
+      "relation": "IRRELEVANT",
+      "selected": false,
+      "reason_code": "NO_MATERIAL_CONTRIBUTION",
+      "reason": "The candidate requires additional information in the approved form, not retention of traceability records.",
+      "cp_quote": "",
+      "policy_quote": "",
+      "cp_match_mode": null,
+      "policy_match_mode": null,
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": null,
+      "legal_basis_relation": null,
+      "legal_basis_reason": "",
+      "legal_basis_validation_error": null
+    },
+    {
+      "candidate_id": "rules2021:11-5(5)",
+      "page": 109,
+      "rrf_or_bm25_score": 0.0,
+      "relation": "EXCEPTION_OR_DEEMING",
+      "selected": true,
+      "reason_code": "EXCEPTION_TO_RECORD_RETENTION",
+      "reason": "The candidate provides an exception to the record retention requirements, which may affect the applicability of the CP criterion for certain records entered into the Department's electronic system.",
+      "cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "cp_match_mode": "EXACT_RAW",
+      "policy_match_mode": "WHITESPACE_NORMALIZED",
+      "validation_error": null,
+      "contract_eligible": false,
+      "legal_basis_status": "RESOLVED",
+      "legal_basis_relation": "CONTEXT_ONLY",
+      "legal_basis_reason": "The candidate provides an exception for certain records entered into an electronic system, but does not establish the retention period or the types of traceability records required by the CP. It is a related exception, not a direct grounding for the retention requirement.",
+      "legal_basis_validation_error": null,
+      "legal_basis_cp_quote": "At least 2 years of traceability records are retained; including but not limited to receival, product movement, treatment, transfer records, dispatch, and transport unit approval records, where applicable.",
+      "legal_basis_policy_quote": "This section does not apply in relation to a record referred to in paragraph (1)(a) or (b) or (3)(a) that has been entered into an electronic system operated by the Department for the purposes of the Act.",
+      "legal_basis_cp_match_mode": "EXACT_RAW",
+      "legal_basis_policy_match_mode": "WHITESPACE_NORMALIZED"
+    }
+  ]
+}

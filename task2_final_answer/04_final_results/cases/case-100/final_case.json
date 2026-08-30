@@ -1,0 +1,334 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-100",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows the establishment is registered for wheat and lentils, but also handles hay/straw and cherries, which are not covered by the registration. This indicates operations outside registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence indicates a new shed was constructed without DAFF approval, which may lead to suspension, but no direct evidence of suspension status. However, the unapproved alteration suggests non-compliance with registration conditions, so cannot confirm non-suspension."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual plan content is provided in evidence. Cannot confirm the registered area is clearly identified."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual content showing important features is provided. Cannot confirm all important features are documented."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P4",
+        "5_Farm-Site-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P7"
+      ],
+      "reason": "The site plan is referenced but no actual layout details are provided. Cannot confirm layout of export operation areas and equipment is documented."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Evidence mentions continuous management since 2007 but no notification of changes to department is documented. Cannot confirm compliance."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P23"
+      ],
+      "reason": "Evidence explicitly states a new shed was constructed without DAFF alteration approval, directly contradicting the requirement for prior approval."
+    },
+    "CP8": {
+      "verdict": "0",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P12",
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The management plan states the establishment has all required buildings/equipment for registered export operations, but the evidence also shows a new receival shed was constructed without DAFF alteration approval, which contradicts compliance with the requirements for buildings/equipment/facilities. Material support and material contradiction lead to 0."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting at the establishment. Missing evidence is insufficient to establish compliance."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities. Missing evidence is insufficient to establish compliance."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "Evidence shows a recent inspection found clean and hygienic condition, but there is no specific evidence about design/construction/maintenance to facilitate effective cleaning. The plan describes procedures but does not prove actual design/construction. Missing evidence leads to 0."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "Evidence shows a clean condition at inspection, but no evidence about design/construction to minimise contamination/infestation/pest harbourage. The plan mentions hygiene but not design aspects. Missing evidence leads to 0."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P5"
+      ],
+      "reason": "The hygiene plan references waste management but provides no evidence of actual disposal arrangements or design for waste disposal. No specific evidence of waste disposal facilities or practices. Missing evidence leads to 0."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, or facilities for sample collection/inspection/analysis. Missing evidence is insufficient to establish compliance."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening operations or management of large contaminants. Missing evidence is insufficient to establish compliance."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants. Missing evidence is insufficient to establish compliance."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, and includes procedures for cleaning and inspection. The most recent internal inspection found all areas clean and hygienic with no deficiencies, demonstrating an effective system."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal as part of the system of controls, and the inspection confirms the establishment is maintained appropriately. The plan includes procedures for cleaning and waste management."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P42"
+      ],
+      "reason": "The internal inspection found all areas clean and hygienic with no deficiencies, and the plan includes corrective actions for any cleaning deficiencies, indicating the system is effective for the export operations."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The HACCP plan explicitly states that no formal pest control program is documented, including no bait station map, monitoring schedule, or corrective action procedures. This contradicts the requirement for a system of controls to manage pests and contaminants."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "Since no formal pest control program is documented, the system of controls for pest management is not effective for the export operations."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P35"
+      ],
+      "reason": "The Hygiene and Sanitation Plan states that cleaning records are retained for only six months, which is less than the required two years. This fails the record retention requirement."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are maintained on site and in the business management system, retained for a minimum of two years, and are accurate and auditable. This aligns with the general requirements for records."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "The most recent internal inspection found all areas of the establishment to be in a clean and hygienic condition consistent with the plan, with no deficiencies identified."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The absence of a documented pest control program means there is no evidence that the establishment is maintained to prevent pest infestation or contamination."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "No bait station map or monitoring schedule is documented, so there is no evidence that pest control stations and traps are fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "The checking point requires that chemicals are stored so they do not contaminate prescribed plant or plant products. No evidence of chemical storage procedures is provided, and the lack of a pest control program suggests inadequate controls."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P18"
+      ],
+      "reason": "No evidence is provided regarding chemical storage to prevent contamination of preparation areas. The absence of a documented pest control program further indicates inadequate controls."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Midwest_Grain_Holdings_Pty_Ltd_100.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a product flow chart and transfer records, but no specific records demonstrating traceability from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Midwest_Grain_Holdings_Pty_Ltd_100.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence indicates product flow and transfer records, but lacks explicit records of traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Midwest_Grain_Holdings_Pty_Ltd_100.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records to next premises are mentioned but not detailed; insufficient evidence to confirm traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P17",
+        "9_Traceability_Records_Midwest_Grain_Holdings_Pty_Ltd_100.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows a product flow chart and transfer records, but no explicit description of a system of controls for traceability and integrity (e.g., labelling, record keeping)."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A scaled site plan and product flow description demonstrate movement and maintenance of product integrity through the establishment."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding management of goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P45"
+      ],
+      "reason": "Evidence shows hygiene and sanitation measures, but no explicit system for maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation from non-registered commodities, but no explicit system to minimize risk of substitution (switching of goods)."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Midwest_Grain_Holdings_Pty_Ltd_100.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but not attached to individual lot files; no clear evidence of packaging requirements being met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P35"
+      ],
+      "reason": "Evidence states records retained for two years, but cleaning records only retained for six months; also no evidence of all required traceability records (e.g., receival, treatment, dispatch)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding records for rejected or failed export inspection goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_100_Midwest_Grain_Holdings_Pty_Ltd.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Midwest_Grain_Holdings_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence indicates records are maintained, but cleaning records are only on a whiteboard and not permanent; no evidence that all records are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding importing country requirements being met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-100/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-100/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-100/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-100/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-100/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "0": 35,
+    "1": 6
+  }
+}

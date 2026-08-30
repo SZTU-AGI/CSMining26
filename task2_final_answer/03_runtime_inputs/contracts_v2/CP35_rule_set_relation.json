@@ -1,0 +1,32 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:2-12(3)(f)",
+        "rules2021:4-2(4)(c)",
+        "rules2021:4-9(2)(a)",
+        "rules2021:4-9(2)(b)",
+        "rules2021:9-23(1)(b)(i)",
+        "rules2021:9-23(1)(b)(ii)",
+        "rules2021:9-31(3)(a)",
+        "rules2021:9-31(3)(b)",
+        "rules2021:9-31(3)(c)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "maintaining risk for contamination or infestation",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "maintaining risk for contamination or infestation"
+        }
+      ],
+      "reason": "All provisions address the same broad CP requirement of maintaining risk for contamination or infestation, each providing specific operational or contextual expressions. The CP does not explicitly require each provision to be independently satisfied; they collectively support the single criterion."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The grounded norms all relate to the same CP criterion 'maintaining risk for contamination or infestation'. They represent different operational contexts (export certification, establishment design, screening, vessel approval, container approval) but do not form cumulative or alternative requirements under the CP. The relationship is best characterized as SUPPORTS_SAME_CRITERION, as they jointly support the single broad requirement without independent materiality."
+}

@@ -1,0 +1,383 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-072",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4",
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P12"
+      ],
+      "reason": "The establishment is registered for export operations (RE-WA-2021-0166) and has the necessary buildings, equipment, facilities, and services for handling and exporting Table Grapes, indicating it operates within its registered operations."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding the suspension status of the establishment's registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx:P4",
+        "5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx:P7"
+      ],
+      "reason": "The site plan references the registered area and important features, indicating the area of the premises registered for export operations is documented."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx:P7",
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P12"
+      ],
+      "reason": "The site plan includes important features of the registered area and adjoining sites, and the management plan confirms all necessary buildings, equipment, facilities, and services are present."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx:P4",
+        "5_Farm-Site-Plan_Meckering_Grain_Services_Trust.docx:P7"
+      ],
+      "reason": "The site plan provides layout and important features of the registered area, including permanent fixtures and equipment layout, as required."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no such changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_72_Meckering_Grain_Services_Trust.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so approval is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have been carried out, so approval is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_72_Meckering_Grain_Services_Trust.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P12"
+      ],
+      "reason": "The management plan explicitly states that the establishment has all buildings, equipment, facilities and services required for the registered export operations."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P29"
+      ],
+      "reason": "Evidence shows the establishment is kept clean and hygienic, with cleaning records and sign-offs, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34",
+        "8_Phytosanitary_Security_Procedure_Meckering_Grain_Services_Trust_072.docx:P4"
+      ],
+      "reason": "Evidence indicates clean and hygienic condition and measures to reduce contamination and infestation risk."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "The CP is conditional on screening being carried out; the farm exports table grapes, not prescribed grain, and no evidence indicates screening occurs.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on screening being carried out; the farm exports table grapes, not prescribed grain, and no evidence indicates screening occurs.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4",
+          "exact_quote": "The establishment holds RE Number RE-WA-2021-0166 and is registered to handle and export Table Grapes under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP16": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "The CP is conditional on screening being carried out; the farm exports table grapes, not prescribed grain, and no evidence indicates screening occurs.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on screening being carried out; the farm exports table grapes, not prescribed grain, and no evidence indicates screening occurs.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4",
+          "exact_quote": "The establishment holds RE Number RE-WA-2021-0166 and is registered to handle and export Table Grapes under the Export Control (Plants and Plant Products) Rules 2021."
+        }
+      ]
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P31",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene, includes detailed procedures, and documents a recent inspection confirming clean and hygienic conditions, demonstrating an effective system of controls."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P31",
+        "4_Farm-Management-Plan_Meckering_Grain_Services_Trust.docx:P4"
+      ],
+      "reason": "The Hygiene and Sanitation Plan covers waste control and disposal, and the Farm Management Plan documents waste management arrangements, indicating a system of controls for waste."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P17",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P31",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34"
+      ],
+      "reason": "The system of controls is tailored to the establishment's operations (table grapes) and includes detailed procedures, corrective actions, and a recent inspection confirming effectiveness."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P18",
+        "7_Bait_Station_Map_Meckering_Grain_Services_Trust.docx:P3"
+      ],
+      "reason": "The HACCP plan states that the pest control program lacks a formal monitoring schedule and corrective action procedure, and effectiveness cannot be demonstrated without records. The bait station map alone does not establish a functioning system of controls."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P18"
+      ],
+      "reason": "The HACCP plan explicitly states that pest control effectiveness cannot be demonstrated without records, indicating the system is not effective for the operations."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "The registration record indicates records are maintained on site and in the business management system, and the declaration confirms accuracy. The evidence does not contradict the requirements of English, dating, accuracy, legibility, and auditability."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34"
+      ],
+      "reason": "The most recent internal inspection found all areas clean and hygienic, consistent with the plan, demonstrating the establishment is maintained appropriately."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P18"
+      ],
+      "reason": "The HACCP plan indicates that pest control effectiveness cannot be demonstrated without records, so it is not established that the establishment is maintained to prevent pest infestation or contamination."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P18",
+        "7_Bait_Station_Map_Meckering_Grain_Services_Trust.docx:P3"
+      ],
+      "reason": "The bait station map shows locations but does not provide evidence that stations are fit for purpose and in good working order. The HACCP plan notes lack of monitoring and corrective action procedures."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage to prevent contamination of prescribed plant or plant products."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage to prevent contamination of areas where prescribed plant or plant products are prepared."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P17",
+        "9_Traceability_Records_Meckering_Grain_Services_Trust_072.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence shows product flow within the establishment and transfer records to next premises, but no evidence of traceability from the property from which products were transferred to the establishment."
+    },
+    "CP30": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P17",
+        "9_Traceability_Records_Meckering_Grain_Services_Trust_072.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Product flow chart and transfer records demonstrate traceability while at the establishment."
+    },
+    "CP31": {
+      "verdict": "1",
+      "evidence_ids": [
+        "9_Traceability_Records_Meckering_Grain_Services_Trust_072.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Dispatch/transfer dockets provide records of transfers to next premises."
+    },
+    "CP32": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P36",
+        "9_Traceability_Records_Meckering_Grain_Services_Trust_072.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Records of receival, storage, treatment, dispatch, and transfer are maintained, demonstrating a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "1",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P21",
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P17"
+      ],
+      "reason": "Product flow chart is provided in the HACCP plan and site plan, demonstrating movement and integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "1",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P21"
+      ],
+      "reason": "HACCP plan includes section on failed goods, indicating a system to manage goods that fail inspection."
+    },
+    "CP35": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Meckering_Grain_Services_Trust.docx:P34"
+      ],
+      "reason": "Hygiene and sanitation plan ensures clean conditions to minimize contamination and infestation risk; recent inspection found no deficiencies."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Meckering_Grain_Services_Trust_072.docx:P9"
+      ],
+      "reason": "Evidence mentions seal checks at dispatch and arrival, but no explicit system to prevent substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence regarding packaging requirements for the registered operations."
+    },
+    "CP38": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Records are retained for a minimum of two years, including receival, storage, treatment, dispatch, and transfer records."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_72_Meckering_Grain_Services_Trust.docx:P21"
+      ],
+      "reason": "HACCP plan mentions failed goods but no evidence of retention of records for rejected/failed goods for at least two years."
+    },
+    "CP40": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_72_Meckering_Grain_Services_Trust.docx:P36"
+      ],
+      "reason": "Records are maintained in the business management system and retained for two years, implying they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence that importing country requirements are met for the export operations."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-072/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-072/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-072/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-072/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-072/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7",
+      "CP15",
+      "CP16"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 21,
+    "0": 16,
+    "N/A": 4
+  }
+}

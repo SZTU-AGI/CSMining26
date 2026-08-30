@@ -1,0 +1,323 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-067",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P4",
+        "4_Farm-Management-Plan_Quirindi_Grain_Pty_Ltd.docx:P4",
+        "2_HACCPPlan_67_Quirindi_Grain_Pty_Ltd.docx:P5"
+      ],
+      "reason": "Evidence shows registration for barley and lentils, but HACCP plan indicates canola and linseed at a different facility (RE-NSW-1882), creating ambiguity about whether all operations are within registered scope."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence indicates a change of ownership in March 2025 and that the registration certificate still records the previous owner, suggesting possible suspension or non-compliance with registration conditions."
+    },
+    "CP3": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "A scaled site plan is attached showing the registered area and product flow contained within it."
+    },
+    "CP4": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P17",
+        "5_Farm-Site-Plan_Quirindi_Grain_Pty_Ltd.docx:P7"
+      ],
+      "reason": "Site plan shows important features including silo positions, shed footprints, hardstand areas, weighbridge, access roads, and designated export sampling point."
+    },
+    "CP5": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Site plan shows layout of receival, storage, processing, and dispatch infrastructure, including permanent fixtures and equipment flow."
+    },
+    "CP6": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence indicates change of ownership in March 2025 but registration certificate still records previous owner, implying notification of change was not provided."
+    },
+    "CP7": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "No evidence of submitted or approved notices for alterations; change of ownership may affect compliance but no approval evidence is present."
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Quirindi_Grain_Pty_Ltd.docx:P12"
+      ],
+      "reason": "The management plan explicitly states that the establishment has all buildings, equipment, facilities and services required for the registered export operations, and facilities are maintained in operational condition."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction for effective cleaning."
+    },
+    "CP12": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding design and construction to minimise contamination, infestation, and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal design and construction."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas, equipment, and facilities for sample collection and inspection."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The evidence shows a hygiene and sanitation plan exists and describes cleaning procedures, but there is no evidence that the system of controls is actually implemented or effective. The plan is a document, not proof of current practice."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The evidence does not specifically address waste control and disposal. The hygiene plan mentions cleaning but not waste management procedures or their implementation."
+    },
+    "CP19": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "No evidence demonstrates that the hygiene and waste control system is effective for the actual export operations. The plan is generic and not linked to the specific operations at this establishment."
+    },
+    "CP20": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_67_Quirindi_Grain_Pty_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Quirindi_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "Evidence shows a pest control record and bait station map exist, but there is no evidence of the actual system of controls for pests and contaminants, such as bait station maintenance logs or pest monitoring records."
+    },
+    "CP21": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_67_Quirindi_Grain_Pty_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Quirindi_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "No evidence demonstrates that the pest control system is effective for the type of export operations. The existence of a record and map does not prove effectiveness."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence states records are retained for at least two years, but it does not specify that these records demonstrate compliance with the system of controls for hygiene, waste, and pest control. It mentions export operation records generally, not specifically hygiene/waste/pest records."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The evidence mentions records are maintained and retained, but does not confirm they are in English, dated, accurate, legible, and auditable. No specific record content is provided."
+    },
+    "CP24": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P38"
+      ],
+      "reason": "The evidence describes cleaning procedures and sign-offs, but does not provide direct evidence that all areas are currently clean and hygienic. The plan is a procedure, not proof of actual condition."
+    },
+    "CP25": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_67_Quirindi_Grain_Pty_Ltd.xlsx:Cover:R2",
+        "7_Bait_Station_Map_Quirindi_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "No evidence shows that the establishment is maintained to prevent pest infestation or contamination. The existence of a pest control record and map does not prove the condition of the establishment."
+    },
+    "CP26": {
+      "verdict": "0",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Quirindi_Grain_Pty_Ltd.docx:P3"
+      ],
+      "reason": "The evidence shows a bait station map exists, but there is no evidence that the stations are fit for purpose and in good working order. No inspection or maintenance records are provided."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or prevention of contamination of plant products. The checking point applies but evidence is missing."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or prevention of contamination of preparation areas. The checking point applies but evidence is missing."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence mentions records for receival and dispatch but does not specifically demonstrate traceability from the property of transfer to receival into the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow is described but no evidence of actual traceability records while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Quirindi_Grain_Pty_Ltd_067.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Transfer records exist but no details or evidence of content, so cannot confirm traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are mentioned but no evidence of a system of controls for traceability and integrity, such as labelling or record keeping procedures."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Product flow is described but no evidence of a formal product flow chart demonstrating movement and integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding management of goods that fail inspection, including blending, rejections, treatments, or representations."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Quirindi_Grain_Pty_Ltd.docx:P8"
+      ],
+      "reason": "Hygiene plan mentions maintaining clean conditions but no evidence of specific controls to maintain risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found regarding measures to minimise risk of substitution or switching of goods."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Quirindi_Grain_Pty_Ltd_067.docx:P13"
+      ],
+      "reason": "Packaging QC records are mentioned but no evidence of packaging requirements being met."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records retention is stated but no evidence of actual records covering receival, movement, treatment, transfer, dispatch, or transport unit approval."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found of records for rejected or failed goods, including blending, treatments, or re-presentation."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_67_Quirindi_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Records are mentioned but no evidence that they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence found that importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-067/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-067/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-067/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-067/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-067/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [],
+    "model_calls": 1
+  },
+  "label_counts": {
+    "0": 37,
+    "1": 4
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-048",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat (grain) and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of the establishment's registration."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly identifies the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly describes all important features of the registered area and adjoining sites."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence explicitly provides the layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P8",
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no structural alterations and continuous management, indicating no relevant changes occurred, so the notification requirement is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on 'where required' changes occurring. Evidence explicitly states no structural alterations and continuous management, indicating no relevant changes occurred, so the notification requirement is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P8",
+          "exact_quote": "The establishment has been under continuous management since 2008."
+        },
+        {
+          "evidence_id": "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the requirement to submit notices is not triggered.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring. Evidence explicitly states no structural alterations or additions have been carried out, so the requirement to submit notices is not triggered.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P12",
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P19"
+      ],
+      "reason": "The Farm Management Plan states the establishment has all buildings, equipment, facilities and services required for the registered export operations, and the infrastructure description confirms facilities for grain storage and handling."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting conditions at the establishment."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P41"
+      ],
+      "reason": "The hygiene sanitation plan includes cleaning procedures and records of internal inspections confirming clean and hygienic condition, indicating effective cleaning is facilitated."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P41"
+      ],
+      "reason": "The hygiene sanitation plan and inspection records demonstrate measures to maintain cleanliness and control pests, minimising contamination and infestation risk."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening procedures for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for managing hygiene, and the most recent internal inspection found all areas clean and hygienic with no deficiencies, demonstrating an effective system of controls."
+    },
+    "CP18": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are NOT documented, with no waste streams, disposal methods, frequencies, or records. This contradicts the requirement for a system of controls to manage waste control and disposal."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P41"
+      ],
+      "reason": "The internal inspection found all areas clean and hygienic with no deficiencies, and the plan includes corrective actions for cleaning deficiencies, indicating the system is effective for the export operations conducted."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows integrated pest management with 18 mapped stations and contractor verification, demonstrating a system of controls for pests and contaminants including rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The pest control system includes 18 mapped bait stations, contractor verification, and trend review, indicating it is effective for the type of export operations conducted."
+    },
+    "CP22": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The registration record states that records are retained for a minimum of two years from the date of the relevant export activity, covering hygiene, waste, and pest control records."
+    },
+    "CP23": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "The hygiene records are maintained in Mandarin, not English, and although translation is available on request, the records themselves are not in English as required by the policy."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The most recent internal inspection found all areas of the establishment clean and hygienic, consistent with the requirements of the hygiene plan, demonstrating compliance with the condition."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44"
+      ],
+      "reason": "The bait station map indicates all operational and surrounding areas are maintained clean and free of harbourage, and the hygiene inspection found no deficiencies, ensuring goods are not likely to be infested or contaminated."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "The bait station map shows 18 mapped stations with contractor verification, indicating the stations are in place and monitored, thus fit for purpose and in good working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "The HACCP plan explicitly states that waste management procedures are not documented, and there is no evidence of chemical storage controls to prevent contamination of plant products. The absence of such documentation fails to establish compliance."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P16"
+      ],
+      "reason": "No evidence is provided regarding chemical storage to prevent contamination of preparation areas. The HACCP plan lacks waste management documentation, and no chemical storage procedures are mentioned, so compliance cannot be established."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Moree_Cotton_and_Grain_Pty_Ltd_048.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records and transfer dockets but does not specifically demonstrate tracing from the property of origin to receival at the establishment."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Moree_Cotton_and_Grain_Pty_Ltd_048.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not specifically demonstrate tracing while at the registered establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Moree_Cotton_and_Grain_Pty_Ltd_048.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records but does not specifically demonstrate tracing to the next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36",
+        "9_Traceability_Records_Moree_Cotton_and_Grain_Pty_Ltd_048.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions traceability records but does not describe a system of controls for traceability and integrity (e.g., labelling, record keeping)."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions a product flow chart but does not provide details demonstrating it covers movement and maintenance of product integrity."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not describe a system for managing them (blending, rejections, treatments, representations)."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P44"
+      ],
+      "reason": "Evidence shows hygiene maintenance but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation and labelled storage zones but does not explicitly address minimizing risk of substitution."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "8_Phytosanitary_Security_Procedure_Moree_Cotton_and_Grain_Pty_Ltd_048.docx:P13"
+      ],
+      "reason": "Evidence mentions packaging QC records but does not describe packaging requirements or compliance."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence states records are retained for two years but does not list specific types (receival, movement, treatment, transfer, dispatch, transport unit approval)."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "2_HACCPPlan_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P21"
+      ],
+      "reason": "Evidence mentions failed goods but does not show records of rejected/failed goods retained for two years."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Moree_Cotton_and_Grain_Pty_Ltd.docx:P36"
+      ],
+      "reason": "Evidence indicates records are in Mandarin, not English, and does not confirm they are dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_48_Moree_Cotton_and_Grain_Pty_Ltd.docx:P4"
+      ],
+      "reason": "Evidence states registration scope but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-048/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-048/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-048/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-048/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-048/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP6",
+      "CP7"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 12,
+    "0": 27,
+    "N/A": 2
+  }
+}

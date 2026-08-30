@@ -1,0 +1,955 @@
+{
+  "schema": "freca-core-contract-shape-inventory-v1.3",
+  "canonical_filename_rule": "^CP([1-9]|[1-3][0-9]|4[01])\\.json$",
+  "contract_dir": "contracts_v2",
+  "canonical_contract_count": 41,
+  "expected_contract_count": 41,
+  "all_41_canonical_contracts_present": true,
+  "missing_canonical_contract_ids": [],
+  "status_counts": {
+    "CURRENT_CORE_DIRECTLY_REPRESENTABLE": 41
+  },
+  "operator_cp_counts": {
+    "ALL": 6,
+    "ATOM": 41,
+    "CONST": 41
+  },
+  "contracts": [
+    {
+      "cp_id": "CP1",
+      "embedded_cp_id": "CP1",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP1.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP2",
+      "embedded_cp_id": "CP2",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP2.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP3",
+      "embedded_cp_id": "CP3",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP3.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP4",
+      "embedded_cp_id": "CP4",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP4.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP5",
+      "embedded_cp_id": "CP5",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP5.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP6",
+      "embedded_cp_id": "CP6",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP6.json",
+      "atom_count": 3,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ATOM,ATOM,ATOM)",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP7",
+      "embedded_cp_id": "CP7",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP7.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP8",
+      "embedded_cp_id": "CP8",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP8.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP9",
+      "embedded_cp_id": "CP9",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP9.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP10",
+      "embedded_cp_id": "CP10",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP10.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP11",
+      "embedded_cp_id": "CP11",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP11.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP12",
+      "embedded_cp_id": "CP12",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP12.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP13",
+      "embedded_cp_id": "CP13",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP13.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP14",
+      "embedded_cp_id": "CP14",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP14.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP15",
+      "embedded_cp_id": "CP15",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP15.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP16",
+      "embedded_cp_id": "CP16",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP16.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP17",
+      "embedded_cp_id": "CP17",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP17.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP18",
+      "embedded_cp_id": "CP18",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP18.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP19",
+      "embedded_cp_id": "CP19",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP19.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP20",
+      "embedded_cp_id": "CP20",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP20.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP21",
+      "embedded_cp_id": "CP21",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP21.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP22",
+      "embedded_cp_id": "CP22",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP22.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP23",
+      "embedded_cp_id": "CP23",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP23.json",
+      "atom_count": 3,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ATOM,ATOM,ATOM)",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP24",
+      "embedded_cp_id": "CP24",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP24.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP25",
+      "embedded_cp_id": "CP25",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP25.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP26",
+      "embedded_cp_id": "CP26",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP26.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP27",
+      "embedded_cp_id": "CP27",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP27.json",
+      "atom_count": 6,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ALL(ATOM,ATOM,ATOM),ALL(ATOM,ATOM,ATOM))",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP28",
+      "embedded_cp_id": "CP28",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP28.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP29",
+      "embedded_cp_id": "CP29",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP29.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP30",
+      "embedded_cp_id": "CP30",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP30.json",
+      "atom_count": 2,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ATOM,ATOM)",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP31",
+      "embedded_cp_id": "CP31",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP31.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP32",
+      "embedded_cp_id": "CP32",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP32.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP33",
+      "embedded_cp_id": "CP33",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP33.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP34",
+      "embedded_cp_id": "CP34",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP34.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP35",
+      "embedded_cp_id": "CP35",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP35.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP36",
+      "embedded_cp_id": "CP36",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP36.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP37",
+      "embedded_cp_id": "CP37",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP37.json",
+      "atom_count": 3,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ATOM,ATOM,ATOM)",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP38",
+      "embedded_cp_id": "CP38",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP38.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP39",
+      "embedded_cp_id": "CP39",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP39.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP40",
+      "embedded_cp_id": "CP40",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP40.json",
+      "atom_count": 3,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ALL(ATOM,ATOM,ATOM)",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ALL",
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    },
+    {
+      "cp_id": "CP41",
+      "embedded_cp_id": "CP41",
+      "filename_matches_embedded_cp_id": true,
+      "path": "contracts_v2/CP41.json",
+      "atom_count": 1,
+      "applicability_shape": "CONST:True",
+      "satisfaction_shape": "ATOM",
+      "non_applicability_shape": "CONST:False",
+      "operators": [
+        "ATOM",
+        "CONST"
+      ],
+      "current_core_status": "CURRENT_CORE_DIRECTLY_REPRESENTABLE",
+      "blockers": []
+    }
+  ],
+  "cp_registry": {
+    "resolved_count": 41,
+    "all_41_resolved": true,
+    "registry_missing_cp_ids": [],
+    "registry_criterion_missing_cp_ids": [],
+    "rows": [
+      {
+        "cp_id": "CP1",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP2",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP3",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP4",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP5",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP6",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP7",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP8",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP9",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP10",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP11",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP12",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP13",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP14",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP15",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP16",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP17",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP18",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP19",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP20",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP21",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP22",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP23",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP24",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP25",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP26",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP27",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP28",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP29",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP30",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP31",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP32",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP33",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP34",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP35",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP36",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP37",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP38",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP39",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP40",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      },
+      {
+        "cp_id": "CP41",
+        "registry_resolved": true,
+        "criterion_present": true,
+        "error": null
+      }
+    ]
+  },
+  "runtime_capability": {
+    "recursive_all_installed": true,
+    "markers": {
+      "evidence": true,
+      "argument": true,
+      "adapter": true
+    },
+    "supported_applicability_ops": [
+      "CONST"
+    ],
+    "supported_non_applicability_ops": [
+      "CONST"
+    ],
+    "supported_satisfaction_ops": [
+      "ATOM",
+      "ALL"
+    ],
+    "multi_atom_projection_supported": true
+  },
+  "answer_comparator_used": false
+}

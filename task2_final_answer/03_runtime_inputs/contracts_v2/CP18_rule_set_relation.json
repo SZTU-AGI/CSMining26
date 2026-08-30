@@ -1,0 +1,26 @@
+{
+  "schema": "freca-core-rule-set-relation-v2",
+  "groups": [
+    {
+      "group_id": "G1",
+      "member_candidate_ids": [
+        "rules2021:3-3A(2)(c)",
+        "rules2021:4-2(4)(d)",
+        "rules2021:4-7A(2)(d)"
+      ],
+      "relation": "SUPPORTS_SAME_CRITERION",
+      "criterion_quote": "the system of controls to manage waste control and disposal",
+      "source_evidence": [
+        {
+          "source": "CP",
+          "candidate_id": null,
+          "role": "RELATION",
+          "quote": "the system of controls to manage waste control and disposal"
+        }
+      ],
+      "reason": "All three provisions address waste treatment and disposal, each providing a specific operational requirement that supports the same broad benchmark criterion. They do not represent independent cumulative requirements of the CP, nor are they alternatives; they are different expressions of the same waste control obligation."
+    }
+  ],
+  "unresolved_relationships": [],
+  "rationale_summary": "The three grounded norms all relate to waste control and disposal, each specifying a particular context (accredited property, establishment design, establishment condition). They jointly support the single CP criterion without establishing cumulative or alternative relationships."
+}

@@ -1,0 +1,347 @@
+{
+  "schema": "freca-v6.6.2-hybrid-final-case-v1",
+  "version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+  "primary_version": "V6.6_DEADLINE_FINAL_BATCH_1",
+  "case_uid": "case-010",
+  "model": "deepseek-v4-flash",
+  "verdicts": {
+    "CP1": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P4"
+      ],
+      "reason": "Evidence states the establishment is registered to conduct export operations for wheat (grain) and all export activities are within the registered scope as approved by DAFF."
+    },
+    "CP2": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding suspension status of registration at the time of export operations."
+    },
+    "CP3": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided describing the area of the premises that is registered for export operations."
+    },
+    "CP4": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided detailing important features of the registered area and adjoining sites, including buildings, facilities, and services."
+    },
+    "CP5": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided showing layout of areas where export operations occur, including permanent fixtures and equipment layout."
+    },
+    "CP6": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P21"
+      ],
+      "reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so notification is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on changes occurring; evidence explicitly states no changes have occurred, so notification is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_10_Mallee_Premium_Grains_Co.docx:P21",
+          "exact_quote": "No changes to the registered establishment name, address, ownership, management or trading name have occurred since the last registration renewal."
+        }
+      ]
+    },
+    "CP7": {
+      "verdict": "N/A",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P23"
+      ],
+      "reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so approval is not required.",
+      "na_verified": true,
+      "na_gate_version": "V6.6.2_HYBRID_FORCED_NA_GATE_1",
+      "na_gate_reason": "The CP is conditional on alterations occurring; evidence explicitly states no alterations have occurred, so approval is not required.",
+      "na_gate_non_applicability_evidence": [
+        {
+          "evidence_id": "1_Farm_10_Mallee_Premium_Grains_Co.docx:P23",
+          "exact_quote": "No structural alterations or additions to the registered premises have been carried out since the last registration approval."
+        }
+      ]
+    },
+    "CP8": {
+      "verdict": "1",
+      "evidence_ids": [
+        "4_Farm-Management-Plan_Mallee_Premium_Grains_Co.docx:P12",
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P19"
+      ],
+      "reason": "Evidence states the establishment has all buildings, equipment, facilities and services required for registered export operations and describes infrastructure supporting wheat export."
+    },
+    "CP9": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding lighting adequacy."
+    },
+    "CP10": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding handwashing and toilet facilities."
+    },
+    "CP11": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P38"
+      ],
+      "reason": "Evidence shows cleaning procedures and inspections to ensure effective cleaning of facilities."
+    },
+    "CP12": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27"
+      ],
+      "reason": "Evidence indicates hygiene and cleaning practices to minimize contamination and pest harbourage."
+    },
+    "CP13": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding waste disposal arrangements."
+    },
+    "CP14": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding inspection areas or sampling points."
+    },
+    "CP15": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding screening for large contaminants."
+    },
+    "CP16": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding removal of large contaminants."
+    },
+    "CP17": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P38"
+      ],
+      "reason": "The Hygiene and Sanitation Plan explicitly references Rule s4-7A(2)(a) for a system of controls to manage hygiene and waste, includes detailed cleaning procedures, and requires visual inspections before production, demonstrating a system of controls for hygiene."
+    },
+    "CP18": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P5",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P38"
+      ],
+      "reason": "The same plan covers waste control and disposal as part of the hygiene and waste system, with cleaning procedures and inspections ensuring waste is appropriately managed."
+    },
+    "CP19": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P6",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27"
+      ],
+      "reason": "The plan is reviewed annually or after significant changes, applies to all staff and visitors, and includes designated staff responsibilities and inspections, indicating the system is effective for the grain handling operations."
+    },
+    "CP20": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mallee_Premium_Grains_Co.docx:P4",
+        "3_PestControlRecord_10_Mallee_Premium_Grains_Co.xlsx:Cover:R2"
+      ],
+      "reason": "Evidence shows an integrated pest management system with 22 mapped rodent bait stations and contractor verification, directly addressing pest and rodent control."
+    },
+    "CP21": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mallee_Premium_Grains_Co.docx:P4"
+      ],
+      "reason": "The pest management system includes trend review and contractor verification, indicating effectiveness for the grain storage operations, though delayed escalation noted but not material to effectiveness."
+    },
+    "CP22": {
+      "verdict": "0",
+      "evidence_ids": [
+        "3_PestControlRecord_10_Mallee_Premium_Grains_Co.xlsx:Cover:R14",
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence explicitly states the establishment is new (registered Oct 2024) with less than 2 years of records, so the 2-year retention requirement cannot be met."
+    },
+    "CP23": {
+      "verdict": "1",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27"
+      ],
+      "reason": "Records are maintained on site and in the business management system, retained for a minimum of two years, and cleaning activities are recorded in a log, indicating records are dated, accurate, and auditable."
+    },
+    "CP24": {
+      "verdict": "1",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P27",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P38"
+      ],
+      "reason": "The plan ensures all areas are maintained in a clean and hygienic condition, with cleaning procedures and inspections, demonstrating appropriate condition for grain handling."
+    },
+    "CP25": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mallee_Premium_Grains_Co.docx:P4",
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8"
+      ],
+      "reason": "Pest management and hygiene measures are in place to prevent infestation and contamination, including rodent surveillance and maintaining areas clean and free of harbourage."
+    },
+    "CP26": {
+      "verdict": "1",
+      "evidence_ids": [
+        "7_Bait_Station_Map_Mallee_Premium_Grains_Co.docx:P4"
+      ],
+      "reason": "The bait station map shows 22 mapped stations and contractor verification, indicating stations are fit for purpose and in working order."
+    },
+    "CP27": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of plant products by chemicals."
+    },
+    "CP28": {
+      "verdict": "0",
+      "evidence_ids": [],
+      "reason": "No evidence provided regarding chemical storage or measures to prevent contamination of preparation areas."
+    },
+    "CP29": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P17"
+      ],
+      "reason": "Evidence describes product flow within the establishment but does not provide traceability records from the property of origin to receival."
+    },
+    "CP30": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but lacks specific traceability records for products while at the establishment."
+    },
+    "CP31": {
+      "verdict": "0",
+      "evidence_ids": [
+        "9_Traceability_Records_Mallee_Premium_Grains_Co_010.xlsx:4. Dispatch-Transfer Dockets:R2"
+      ],
+      "reason": "Evidence mentions transfer records but does not provide details of traceability to next premises."
+    },
+    "CP32": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence mentions record keeping but does not describe a system of controls for traceability and integrity."
+    },
+    "CP33": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P17"
+      ],
+      "reason": "Evidence describes product flow but does not include a product flow chart demonstrating integrity maintenance."
+    },
+    "CP34": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence mentions treatment records but does not describe a system for managing failed goods, blending, or re-presentation."
+    },
+    "CP35": {
+      "verdict": "0",
+      "evidence_ids": [
+        "6_Farms_Hygiene_Sanitation_Plan_Mallee_Premium_Grains_Co.docx:P8"
+      ],
+      "reason": "Evidence mentions hygiene but does not specifically address maintaining risk for contamination or infestation."
+    },
+    "CP36": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P17"
+      ],
+      "reason": "Evidence mentions segregation but does not describe a system to minimize substitution risk."
+    },
+    "CP37": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P17"
+      ],
+      "reason": "Evidence does not mention packaging requirements."
+    },
+    "CP38": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence states records retained for two years but does not provide actual records or evidence of retention."
+    },
+    "CP39": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence mentions treatment records but does not provide records of rejected or failed goods."
+    },
+    "CP40": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P36"
+      ],
+      "reason": "Evidence mentions records but does not confirm they are in English, dated, accurate, legible, and auditable."
+    },
+    "CP41": {
+      "verdict": "0",
+      "evidence_ids": [
+        "1_Farm_10_Mallee_Premium_Grains_Co.docx:P4"
+      ],
+      "reason": "Evidence states registration scope but does not demonstrate that all importing country requirements are met."
+    }
+  },
+  "element_outputs": {
+    "Element-1": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-010/elements/Element-1.json",
+      "cache": false
+    },
+    "Element-2": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-010/elements/Element-2.json",
+      "cache": false
+    },
+    "Element-3": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-010/elements/Element-3.json",
+      "cache": false
+    },
+    "Element-4": {
+      "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-010/elements/Element-4.json",
+      "cache": false
+    }
+  },
+  "na_gate": {
+    "path": "/home/MeggieYu/freca/v6_1_release/v6_witness_reachability_20260830/results/final4100_v6_6_deadline/cases/case-010/na_gate_v6_6_2.json",
+    "cache": false,
+    "candidate_cps": [
+      "CP5",
+      "CP6",
+      "CP7",
+      "CP14",
+      "CP15",
+      "CP16",
+      "CP26",
+      "CP41"
+    ],
+    "confirmed_na": [
+      "CP7",
+      "CP6"
+    ],
+    "model_calls": 2
+  },
+  "label_counts": {
+    "1": 13,
+    "0": 26,
+    "N/A": 2
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "freca-contract-typed-temporal-amendment-v1",
+  "amendment_id": "CP24_A1_TYPED_TEMPORAL_REQUIRED_20260829",
+  "authorization_scope": "User-authorized single-coordinate zero-API CP24 typed temporal contract amendment.",
+  "base_contract_path": "contracts_v2/CP24.json",
+  "base_contract_sha256": "sha256:a2723a3c659914f09eff7a67ab51e3fe1d7f4fd24ec4a914ea961fce55423aef",
+  "cp_id": "CP24",
+  "atom_id": "A1",
+  "operation": "ADD_TYPED_FIELD",
+  "field": "temporal_required",
+  "value": true,
+  "basis": [
+    {
+      "source": "CP",
+      "exact_quote": "All areas of the establishment are operating and/or maintained in a clean and hygienic condition appropriate for the type of export operations and type of plant or plant products."
+    },
+    {
+      "source": "RULES",
+      "chunk_id": "rules2021:4-7A(2)(a)",
+      "exact_quote": "the establishment must be kept in a clean and hygienic condition appropriate for the export operations carried out at the establishment and the kind of plants or plant products; and"
+    },
+    {
+      "source": "RULES",
+      "chunk_id": "rules2021:3-3A(2)(a)",
+      "exact_quote": "the property must be kept in a clean and hygienic condition appropriate for the export operations carried out at the property and the kind of plants or plant products at the property; and"
+    }
+  ],
+  "semantic_constraints": {
+    "classifies_temporal_applicability_only": true,
+    "does_not_set_temporal_relation": true,
+    "does_not_set_temporal_pass": true,
+    "does_not_set_requirement_truth": true,
+    "does_not_change_coverage": true,
+    "does_not_change_fold_policy": true,
+    "answer_comparator_used": false,
+    "historical_or_human_label_used": false
+  },
+  "evaluation_coordinate": {
+    "case_uid": "case-003",
+    "cp_id": "CP24",
+    "selection_basis": "First preregistered CP24 coordinate from the completed Phase 5 live gate."
+  }
+}
