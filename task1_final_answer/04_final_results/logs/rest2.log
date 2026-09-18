@@ -1,0 +1,16 @@
+### 巨域诊断 split=0 13:50
+./run_rest2.sh: line 7:  1483 Killed                  $P diag_giant.py --split $S
+DIAG_0_FAILED
+### 巨域诊断 split=1 13:51
+./run_rest2.sh: line 7:  1575 Killed                  $P diag_giant.py --split $S
+DIAG_1_FAILED
+### T3 特征清理 13:52
+Traceback (most recent call last):
+  File "/root/autodl-tmp/cyberaicup2026/task3/t3_featclean.py", line 77, in <module>
+    main()
+  File "/root/autodl-tmp/cyberaicup2026/task3/t3_featclean.py", line 56, in main
+    df, y, K = load_train()
+    ^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+T3_FEATCLEAN_FAILED
+### REST2_DONE 13:52

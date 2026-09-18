@@ -1,0 +1,457 @@
+########## OOF split=0 开始 02:26 ##########
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+[oof-fusion] 200张 · 4折 · split=0 · U-Net×3 + TASL×1 · w=[0.1, 0.15, 0.2] · box=[0.45, 0.5, 0.55, 0.6, 0.65, 0.7]
+  折1/4: 训练150 验证50 (32s)
+[unet] 切片 2546 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.198
+  [unet] ep20 loss=0.062
+  [unet] ep30 loss=0.094
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (548s)
+[unet] 切片 2546 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.120
+  [unet] ep20 loss=0.131
+  [unet] ep30 loss=0.085
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (1060s)
+[unet] 切片 2546 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.042
+  [unet] ep20 loss=0.076
+  [unet] ep30 loss=0.059
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (1575s)
+[my_tasl] 切片 2546 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.453 (25s)
+  [my_tasl] ep2/30 loss=0.252 (50s)
+  [my_tasl] ep3/30 loss=0.150 (75s)
+  [my_tasl] ep4/30 loss=1.210 (100s)
+  [my_tasl] ep5/30 loss=0.182 (124s)
+  [my_tasl] ep6/30 loss=0.926 (149s)
+  [my_tasl] ep7/30 loss=0.218 (174s)
+  [my_tasl] ep8/30 loss=1.089 (199s)
+  [my_tasl] ep9/30 loss=0.206 (224s)
+  [my_tasl] ep10/30 loss=0.459 (249s)
+  [my_tasl] ep11/30 loss=1.108 (273s)
+  [my_tasl] ep12/30 loss=1.035 (298s)
+  [my_tasl] ep13/30 loss=0.122 (323s)
+  [my_tasl] ep14/30 loss=0.196 (348s)
+  [my_tasl] ep15/30 loss=0.108 (373s)
+  [my_tasl] ep16/30 loss=1.045 (398s)
+  [my_tasl] ep17/30 loss=0.976 (423s)
+  [my_tasl] ep18/30 loss=1.058 (447s)
+  [my_tasl] ep19/30 loss=0.828 (472s)
+  [my_tasl] ep20/30 loss=0.156 (497s)
+  [my_tasl] ep21/30 loss=0.173 (522s)
+  [my_tasl] ep22/30 loss=0.062 (547s)
+  [my_tasl] ep23/30 loss=0.451 (572s)
+  [my_tasl] ep24/30 loss=0.543 (597s)
+  [my_tasl] ep25/30 loss=0.051 (622s)
+  [my_tasl] ep26/30 loss=0.168 (647s)
+  [my_tasl] ep27/30 loss=0.952 (672s)
+  [my_tasl] ep28/30 loss=0.452 (696s)
+  [my_tasl] ep29/30 loss=0.182 (722s)
+  [my_tasl] ep30/30 loss=0.418 (746s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (2428s)
+    折1 评完 (2838s)
+  折2/4: 训练150 验证50 (2838s)
+[unet] 切片 2616 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.378
+  [unet] ep20 loss=0.061
+  [unet] ep30 loss=0.061
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (3349s)
+[unet] 切片 2616 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.107
+  [unet] ep20 loss=0.085
+  [unet] ep30 loss=0.324
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (3861s)
+[unet] 切片 2616 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.096
+  [unet] ep20 loss=0.160
+  [unet] ep30 loss=0.201
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (4369s)
+[my_tasl] 切片 2616 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.215 (25s)
+  [my_tasl] ep2/30 loss=0.704 (51s)
+  [my_tasl] ep3/30 loss=0.537 (77s)
+  [my_tasl] ep4/30 loss=0.297 (102s)
+  [my_tasl] ep5/30 loss=0.399 (128s)
+  [my_tasl] ep6/30 loss=0.356 (153s)
+  [my_tasl] ep7/30 loss=0.424 (179s)
+  [my_tasl] ep8/30 loss=0.397 (204s)
+  [my_tasl] ep9/30 loss=0.231 (230s)
+  [my_tasl] ep10/30 loss=0.500 (255s)
+  [my_tasl] ep11/30 loss=0.265 (281s)
+  [my_tasl] ep12/30 loss=0.154 (306s)
+  [my_tasl] ep13/30 loss=0.474 (332s)
+  [my_tasl] ep14/30 loss=0.346 (357s)
+  [my_tasl] ep15/30 loss=0.245 (383s)
+  [my_tasl] ep16/30 loss=0.205 (408s)
+  [my_tasl] ep17/30 loss=0.258 (434s)
+  [my_tasl] ep18/30 loss=0.152 (460s)
+  [my_tasl] ep19/30 loss=0.556 (485s)
+  [my_tasl] ep20/30 loss=0.070 (510s)
+  [my_tasl] ep21/30 loss=0.459 (536s)
+  [my_tasl] ep22/30 loss=0.684 (561s)
+  [my_tasl] ep23/30 loss=0.311 (587s)
+  [my_tasl] ep24/30 loss=0.279 (612s)
+  [my_tasl] ep25/30 loss=0.328 (638s)
+  [my_tasl] ep26/30 loss=0.141 (664s)
+  [my_tasl] ep27/30 loss=0.117 (689s)
+  [my_tasl] ep28/30 loss=0.215 (714s)
+  [my_tasl] ep29/30 loss=0.487 (740s)
+  [my_tasl] ep30/30 loss=0.357 (766s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (5215s)
+    折2 评完 (5675s)
+  折3/4: 训练150 验证50 (5675s)
+[unet] 切片 2552 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.102
+  [unet] ep20 loss=0.073
+  [unet] ep30 loss=0.071
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (6173s)
+[unet] 切片 2552 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.201
+  [unet] ep20 loss=0.061
+  [unet] ep30 loss=0.066
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (6673s)
+[unet] 切片 2552 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.090
+  [unet] ep20 loss=0.092
+  [unet] ep30 loss=0.099
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (7174s)
+[my_tasl] 切片 2552 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.334 (25s)
+  [my_tasl] ep2/30 loss=0.760 (50s)
+  [my_tasl] ep3/30 loss=0.554 (75s)
+  [my_tasl] ep4/30 loss=0.629 (100s)
+  [my_tasl] ep5/30 loss=0.224 (125s)
+  [my_tasl] ep6/30 loss=0.173 (150s)
+  [my_tasl] ep7/30 loss=0.239 (174s)
+  [my_tasl] ep8/30 loss=0.177 (199s)
+  [my_tasl] ep9/30 loss=0.252 (224s)
+  [my_tasl] ep10/30 loss=0.483 (249s)
+  [my_tasl] ep11/30 loss=0.231 (274s)
+  [my_tasl] ep12/30 loss=0.417 (299s)
+  [my_tasl] ep13/30 loss=0.491 (324s)
+  [my_tasl] ep14/30 loss=0.131 (349s)
+  [my_tasl] ep15/30 loss=0.390 (373s)
+  [my_tasl] ep16/30 loss=0.572 (398s)
+  [my_tasl] ep17/30 loss=0.215 (423s)
+  [my_tasl] ep18/30 loss=0.507 (448s)
+  [my_tasl] ep19/30 loss=0.582 (473s)
+  [my_tasl] ep20/30 loss=0.115 (498s)
+  [my_tasl] ep21/30 loss=0.619 (523s)
+  [my_tasl] ep22/30 loss=0.349 (548s)
+  [my_tasl] ep23/30 loss=0.674 (572s)
+  [my_tasl] ep24/30 loss=0.271 (597s)
+  [my_tasl] ep25/30 loss=0.700 (622s)
+  [my_tasl] ep26/30 loss=0.383 (647s)
+  [my_tasl] ep27/30 loss=0.104 (672s)
+  [my_tasl] ep28/30 loss=0.121 (696s)
+  [my_tasl] ep29/30 loss=0.441 (721s)
+  [my_tasl] ep30/30 loss=0.164 (746s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (8001s)
+    折3 评完 (8455s)
+  折4/4: 训练150 验证50 (8455s)
+[unet] 切片 2528 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.157
+  [unet] ep20 loss=0.154
+  [unet] ep30 loss=0.080
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (8952s)
+[unet] 切片 2528 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.116
+  [unet] ep20 loss=0.063
+  [unet] ep30 loss=0.205
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (9448s)
+[unet] 切片 2528 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.078
+  [unet] ep20 loss=0.163
+  [unet] ep30 loss=0.167
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (9946s)
+[my_tasl] 切片 2528 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.379 (25s)
+  [my_tasl] ep2/30 loss=0.713 (49s)
+  [my_tasl] ep3/30 loss=0.355 (74s)
+  [my_tasl] ep4/30 loss=0.423 (98s)
+  [my_tasl] ep5/30 loss=0.296 (123s)
+  [my_tasl] ep6/30 loss=0.374 (148s)
+  [my_tasl] ep7/30 loss=0.386 (173s)
+  [my_tasl] ep8/30 loss=0.349 (197s)
+  [my_tasl] ep9/30 loss=0.293 (222s)
+  [my_tasl] ep10/30 loss=0.173 (247s)
+  [my_tasl] ep11/30 loss=0.158 (271s)
+  [my_tasl] ep12/30 loss=0.271 (296s)
+  [my_tasl] ep13/30 loss=0.382 (320s)
+  [my_tasl] ep14/30 loss=0.189 (345s)
+  [my_tasl] ep15/30 loss=0.179 (370s)
+  [my_tasl] ep16/30 loss=0.322 (394s)
+  [my_tasl] ep17/30 loss=0.287 (419s)
+  [my_tasl] ep18/30 loss=0.203 (443s)
+  [my_tasl] ep19/30 loss=0.155 (468s)
+  [my_tasl] ep20/30 loss=0.281 (493s)
+  [my_tasl] ep21/30 loss=0.197 (518s)
+  [my_tasl] ep22/30 loss=0.297 (542s)
+  [my_tasl] ep23/30 loss=0.140 (567s)
+  [my_tasl] ep24/30 loss=0.139 (591s)
+  [my_tasl] ep25/30 loss=0.259 (616s)
+  [my_tasl] ep26/30 loss=0.349 (640s)
+  [my_tasl] ep27/30 loss=0.342 (665s)
+  [my_tasl] ep28/30 loss=0.140 (690s)
+  [my_tasl] ep29/30 loss=0.155 (714s)
+  [my_tasl] ep30/30 loss=0.236 (739s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (10765s)
+    折4 评完 (11242s)
+
+【OOF 融合网格 F1】(全200张,mask 0.3, min_area abs4, split=0)
+配置                0.45    0.50    0.55    0.60    0.65    0.70   最佳(TP/FP/FN)
+ens3            0.9543  0.9556  0.9564  0.9566  0.9545  0.9513   0.9566@0.60 (1310/22/97)
+ens3+T@0.10     0.9576  0.9610  0.9622  0.9613  0.9575  0.9544   0.9622@0.55 (1324/21/83)
+ens3+T@0.15     0.9572  0.9613  0.9625  0.9606  0.9571  0.9505   0.9625@0.55 (1322/18/85)
+ens3+T@0.20     0.9592  0.9620  0.9618  0.9602  0.9563  0.9396   0.9620@0.50 (1328/26/79)
+
+  ens3(基线)      : 0.9566    ← 与记录的 OOF 0.9435 对照(同折构造)
+  ens3+TASL(融合) : 0.9625    Δ = +0.0060
+  已存 oof_fusion_split0.json
+########## OOF split=0 完成 05:33 ##########
+########## OOF split=1 开始 05:33 ##########
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+[oof-fusion] 200张 · 4折 · split=1 · U-Net×3 + TASL×1 · w=[0.1, 0.15, 0.2] · box=[0.45, 0.5, 0.55, 0.6, 0.65, 0.7]
+  折1/4: 训练150 验证50 (32s)
+[unet] 切片 2556 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.075
+  [unet] ep20 loss=0.104
+  [unet] ep30 loss=0.054
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (554s)
+[unet] 切片 2556 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.108
+  [unet] ep20 loss=0.095
+  [unet] ep30 loss=0.205
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (1071s)
+[unet] 切片 2556 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.130
+  [unet] ep20 loss=0.132
+  [unet] ep30 loss=0.083
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (1591s)
+[my_tasl] 切片 2556 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.280 (25s)
+  [my_tasl] ep2/30 loss=0.850 (50s)
+  [my_tasl] ep3/30 loss=0.365 (75s)
+  [my_tasl] ep4/30 loss=0.459 (100s)
+  [my_tasl] ep5/30 loss=0.437 (124s)
+  [my_tasl] ep6/30 loss=0.613 (149s)
+  [my_tasl] ep7/30 loss=0.366 (174s)
+  [my_tasl] ep8/30 loss=0.173 (199s)
+  [my_tasl] ep9/30 loss=0.455 (224s)
+  [my_tasl] ep10/30 loss=0.397 (249s)
+  [my_tasl] ep11/30 loss=0.201 (274s)
+  [my_tasl] ep12/30 loss=0.393 (299s)
+  [my_tasl] ep13/30 loss=0.400 (324s)
+  [my_tasl] ep14/30 loss=0.158 (349s)
+  [my_tasl] ep15/30 loss=0.816 (374s)
+  [my_tasl] ep16/30 loss=0.238 (399s)
+  [my_tasl] ep17/30 loss=0.145 (424s)
+  [my_tasl] ep18/30 loss=0.413 (448s)
+  [my_tasl] ep19/30 loss=0.361 (473s)
+  [my_tasl] ep20/30 loss=0.254 (498s)
+  [my_tasl] ep21/30 loss=0.446 (523s)
+  [my_tasl] ep22/30 loss=0.423 (548s)
+  [my_tasl] ep23/30 loss=0.276 (573s)
+  [my_tasl] ep24/30 loss=0.293 (598s)
+  [my_tasl] ep25/30 loss=0.546 (623s)
+  [my_tasl] ep26/30 loss=0.471 (648s)
+  [my_tasl] ep27/30 loss=0.202 (673s)
+  [my_tasl] ep28/30 loss=0.303 (698s)
+  [my_tasl] ep29/30 loss=0.148 (723s)
+  [my_tasl] ep30/30 loss=0.247 (747s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (2447s)
+    折1 评完 (2781s)
+  折2/4: 训练150 验证50 (2781s)
+[unet] 切片 2586 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.115
+  [unet] ep20 loss=0.058
+  [unet] ep30 loss=0.107
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (3288s)
+[unet] 切片 2586 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.078
+  [unet] ep20 loss=0.097
+  [unet] ep30 loss=0.076
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (3789s)
+[unet] 切片 2586 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.164
+  [unet] ep20 loss=0.101
+  [unet] ep30 loss=0.133
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (4287s)
+[my_tasl] 切片 2586 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.343 (25s)
+  [my_tasl] ep2/30 loss=0.547 (50s)
+  [my_tasl] ep3/30 loss=0.609 (75s)
+  [my_tasl] ep4/30 loss=0.428 (101s)
+  [my_tasl] ep5/30 loss=0.754 (126s)
+  [my_tasl] ep6/30 loss=0.431 (151s)
+  [my_tasl] ep7/30 loss=0.305 (176s)
+  [my_tasl] ep8/30 loss=0.502 (202s)
+  [my_tasl] ep9/30 loss=0.681 (227s)
+  [my_tasl] ep10/30 loss=0.149 (252s)
+  [my_tasl] ep11/30 loss=0.377 (277s)
+  [my_tasl] ep12/30 loss=0.387 (303s)
+  [my_tasl] ep13/30 loss=0.166 (328s)
+  [my_tasl] ep14/30 loss=0.514 (353s)
+  [my_tasl] ep15/30 loss=0.320 (378s)
+  [my_tasl] ep16/30 loss=0.305 (403s)
+  [my_tasl] ep17/30 loss=0.425 (429s)
+  [my_tasl] ep18/30 loss=0.414 (454s)
+  [my_tasl] ep19/30 loss=0.328 (479s)
+  [my_tasl] ep20/30 loss=0.293 (504s)
+  [my_tasl] ep21/30 loss=0.493 (530s)
+  [my_tasl] ep22/30 loss=0.530 (555s)
+  [my_tasl] ep23/30 loss=0.721 (580s)
+  [my_tasl] ep24/30 loss=0.316 (605s)
+  [my_tasl] ep25/30 loss=0.245 (631s)
+  [my_tasl] ep26/30 loss=0.210 (656s)
+  [my_tasl] ep27/30 loss=0.461 (681s)
+  [my_tasl] ep28/30 loss=0.296 (706s)
+  [my_tasl] ep29/30 loss=0.262 (732s)
+  [my_tasl] ep30/30 loss=0.124 (757s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (5119s)
+    折2 评完 (5637s)
+  折3/4: 训练150 验证50 (5637s)
+[unet] 切片 2560 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.163
+  [unet] ep20 loss=0.110
+  [unet] ep30 loss=0.105
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (6139s)
+[unet] 切片 2560 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.173
+  [unet] ep20 loss=0.091
+  [unet] ep30 loss=0.097
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (6637s)
+[unet] 切片 2560 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.095
+  [unet] ep20 loss=0.115
+  [unet] ep30 loss=0.079
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (7137s)
+[my_tasl] 切片 2560 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.166 (25s)
+  [my_tasl] ep2/30 loss=0.577 (50s)
+  [my_tasl] ep3/30 loss=0.548 (75s)
+  [my_tasl] ep4/30 loss=0.502 (100s)
+  [my_tasl] ep5/30 loss=0.477 (125s)
+  [my_tasl] ep6/30 loss=0.264 (150s)
+  [my_tasl] ep7/30 loss=0.468 (175s)
+  [my_tasl] ep8/30 loss=0.271 (200s)
+  [my_tasl] ep9/30 loss=0.359 (225s)
+  [my_tasl] ep10/30 loss=0.202 (250s)
+  [my_tasl] ep11/30 loss=0.331 (275s)
+  [my_tasl] ep12/30 loss=0.306 (300s)
+  [my_tasl] ep13/30 loss=0.281 (325s)
+  [my_tasl] ep14/30 loss=0.327 (349s)
+  [my_tasl] ep15/30 loss=0.411 (375s)
+  [my_tasl] ep16/30 loss=0.180 (400s)
+  [my_tasl] ep17/30 loss=0.321 (425s)
+  [my_tasl] ep18/30 loss=0.344 (450s)
+  [my_tasl] ep19/30 loss=0.491 (475s)
+  [my_tasl] ep20/30 loss=0.570 (500s)
+  [my_tasl] ep21/30 loss=0.584 (525s)
+  [my_tasl] ep22/30 loss=0.327 (550s)
+  [my_tasl] ep23/30 loss=0.413 (575s)
+  [my_tasl] ep24/30 loss=0.263 (600s)
+  [my_tasl] ep25/30 loss=0.283 (625s)
+  [my_tasl] ep26/30 loss=0.201 (649s)
+  [my_tasl] ep27/30 loss=0.205 (674s)
+  [my_tasl] ep28/30 loss=0.152 (699s)
+  [my_tasl] ep29/30 loss=0.387 (724s)
+  [my_tasl] ep30/30 loss=0.272 (749s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (7959s)
+    折3 评完 (8493s)
+  折4/4: 训练150 验证50 (8493s)
+[unet] 切片 2540 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.131
+  [unet] ep20 loss=0.093
+  [unet] ep30 loss=0.334
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u0.pt
+    U-Net seed0 训练完 (8997s)
+[unet] 切片 2540 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.125
+  [unet] ep20 loss=0.063
+  [unet] ep30 loss=0.077
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u1.pt
+    U-Net seed1 训练完 (9501s)
+[unet] 切片 2540 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.191
+  [unet] ep20 loss=0.133
+  [unet] ep30 loss=0.162
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_u2.pt
+    U-Net seed2 训练完 (10003s)
+[my_tasl] 切片 2540 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.245 (25s)
+  [my_tasl] ep2/30 loss=0.864 (49s)
+  [my_tasl] ep3/30 loss=0.567 (74s)
+  [my_tasl] ep4/30 loss=0.401 (99s)
+  [my_tasl] ep5/30 loss=0.323 (123s)
+  [my_tasl] ep6/30 loss=0.361 (148s)
+  [my_tasl] ep7/30 loss=0.353 (173s)
+  [my_tasl] ep8/30 loss=0.333 (198s)
+  [my_tasl] ep9/30 loss=0.203 (222s)
+  [my_tasl] ep10/30 loss=0.494 (247s)
+  [my_tasl] ep11/30 loss=0.259 (272s)
+  [my_tasl] ep12/30 loss=0.155 (296s)
+  [my_tasl] ep13/30 loss=0.530 (321s)
+  [my_tasl] ep14/30 loss=0.130 (346s)
+  [my_tasl] ep15/30 loss=0.378 (371s)
+  [my_tasl] ep16/30 loss=0.215 (395s)
+  [my_tasl] ep17/30 loss=0.157 (420s)
+  [my_tasl] ep18/30 loss=0.425 (445s)
+  [my_tasl] ep19/30 loss=0.177 (470s)
+  [my_tasl] ep20/30 loss=0.271 (494s)
+  [my_tasl] ep21/30 loss=0.378 (519s)
+  [my_tasl] ep22/30 loss=0.213 (544s)
+  [my_tasl] ep23/30 loss=0.195 (569s)
+  [my_tasl] ep24/30 loss=0.406 (593s)
+  [my_tasl] ep25/30 loss=0.467 (618s)
+  [my_tasl] ep26/30 loss=0.359 (643s)
+  [my_tasl] ep27/30 loss=0.686 (668s)
+  [my_tasl] ep28/30 loss=0.517 (692s)
+  [my_tasl] ep29/30 loss=0.389 (717s)
+  [my_tasl] ep30/30 loss=0.222 (742s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/oof_tmp_t0.pt
+    TASL 训练完 (10829s)
+    折4 评完 (11201s)
+
+【OOF 融合网格 F1】(全200张,mask 0.3, min_area abs4, split=1)
+配置                0.45    0.50    0.55    0.60    0.65    0.70   最佳(TP/FP/FN)
+ens3            0.9351  0.9457  0.9514  0.9556  0.9543  0.9515   0.9556@0.60 (1314/29/93)
+ens3+T@0.10     0.9460  0.9536  0.9598  0.9570  0.9557  0.9521   0.9598@0.55 (1325/29/82)
+ens3+T@0.15     0.9526  0.9571  0.9605  0.9592  0.9571  0.9512   0.9605@0.55 (1326/28/81)
+ens3+T@0.20     0.9556  0.9592  0.9601  0.9588  0.9533  0.9414   0.9601@0.55 (1322/25/85)
+
+  ens3(基线)      : 0.9556    ← 与记录的 OOF 0.9435 对照(同折构造)
+  ens3+TASL(融合) : 0.9605    Δ = +0.0049
+  已存 oof_fusion_split1.json
+########## OOF split=1 完成 08:40 ##########
+=== OOF_ALL_DONE ===

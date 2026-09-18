@@ -1,0 +1,44 @@
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+训练对 200 → 训练 160 / 验证 40;数据根 /root/autodl-tmp/cyberaicup2026/task1
+[my_tasl] 切片 2716 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=1.215 (113s)
+  [my_tasl] ep2/30 loss=0.639 (219s)
+  [my_tasl] ep3/30 loss=0.488 (324s)
+  [my_tasl] ep4/30 loss=0.257 (435s)
+  [my_tasl] ep5/30 loss=0.388 (544s)
+  [my_tasl] ep6/30 loss=0.161 (648s)
+  [my_tasl] ep7/30 loss=0.439 (756s)
+  [my_tasl] ep8/30 loss=0.264 (864s)
+  [my_tasl] ep9/30 loss=0.486 (946s)
+  [my_tasl] ep10/30 loss=0.481 (994s)
+  [my_tasl] ep11/30 loss=0.272 (1046s)
+  [my_tasl] ep12/30 loss=0.305 (1095s)
+  [my_tasl] ep13/30 loss=0.198 (1137s)
+  [my_tasl] ep14/30 loss=0.145 (1191s)
+  [my_tasl] ep15/30 loss=0.106 (1243s)
+  [my_tasl] ep16/30 loss=0.260 (1300s)
+  [my_tasl] ep17/30 loss=0.266 (1336s)
+  [my_tasl] ep18/30 loss=0.296 (1370s)
+  [my_tasl] ep19/30 loss=0.492 (1406s)
+  [my_tasl] ep20/30 loss=0.386 (1440s)
+  [my_tasl] ep21/30 loss=0.460 (1474s)
+  [my_tasl] ep22/30 loss=0.261 (1508s)
+  [my_tasl] ep23/30 loss=0.333 (1542s)
+  [my_tasl] ep24/30 loss=0.356 (1577s)
+  [my_tasl] ep25/30 loss=0.445 (1611s)
+  [my_tasl] ep26/30 loss=0.245 (1646s)
+  [my_tasl] ep27/30 loss=0.212 (1680s)
+  [my_tasl] ep28/30 loss=0.183 (1715s)
+  [my_tasl] ep29/30 loss=0.294 (1749s)
+  [my_tasl] ep30/30 loss=0.424 (1782s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/my_tasl.pt
+  预测 10/40
+  预测 20/40
+  预测 30/40
+  预测 40/40
+
+===== 验证结果 =====
+  模型: my_tasl   IoU阈值: 0.5
+  全局 F1 = 0.5921   P = 0.4679   R = 0.8062
+  TP=233  FP=265  FN=56   用时 2418s

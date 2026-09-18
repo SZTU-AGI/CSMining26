@@ -1,0 +1,53 @@
+验证分区 40 张,GT 289 个
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+  [ 1/40] img004 GT  9  U-Net  8  TASL  8  仅TASL 1  1s
+  [ 2/40] img005 GT  5  U-Net  5  TASL  0  仅TASL 0  3s
+  [ 3/40] img007 GT 10  U-Net 10  TASL 10  仅TASL 0  3s
+  [ 4/40] img012 GT 11  U-Net 11  TASL 11  仅TASL 0  9s
+  [ 5/40] img016 GT  6  U-Net  4  TASL  1  仅TASL 0  10s
+  [ 6/40] img018 GT  8  U-Net  7  TASL  5  仅TASL 0  11s
+  [ 7/40] img022 GT  5  U-Net  5  TASL  5  仅TASL 0  16s
+  [ 8/40] img033 GT  3  U-Net  3  TASL  3  仅TASL 0  21s
+  [ 9/40] img037 GT  7  U-Net  7  TASL  7  仅TASL 0  25s
+  [10/40] img044 GT  6  U-Net  6  TASL  6  仅TASL 0  30s
+  [11/40] img045 GT  6  U-Net  3  TASL  5  仅TASL 2  34s
+  [12/40] img055 GT  6  U-Net  5  TASL  0  仅TASL 0  40s
+  [13/40] img060 GT 10  U-Net 10  TASL 10  仅TASL 0  45s
+  [14/40] img061 GT  7  U-Net  7  TASL  7  仅TASL 0  50s
+  [15/40] img074 GT 11  U-Net 11  TASL 11  仅TASL 0  55s
+  [16/40] img080 GT  7  U-Net  4  TASL  6  仅TASL 2  103s
+  [17/40] img083 GT  8  U-Net  7  TASL  7  仅TASL 0  104s
+  [18/40] img098 GT  4  U-Net  4  TASL  4  仅TASL 0  108s
+  [19/40] img106 GT  6  U-Net  4  TASL  6  仅TASL 2  119s
+  [20/40] img107 GT  9  U-Net  6  TASL  9  仅TASL 3  129s
+  [21/40] img111 GT  8  U-Net  7  TASL  8  仅TASL 1  140s
+  [22/40] img122 GT  6  U-Net  4  TASL  5  仅TASL 1  209s
+  [23/40] img123 GT  9  U-Net  8  TASL  9  仅TASL 1  218s
+  [24/40] img125 GT  9  U-Net  9  TASL  9  仅TASL 0  221s
+  [25/40] img129 GT 10  U-Net 10  TASL 10  仅TASL 0  225s
+  [26/40] img130 GT  5  U-Net  5  TASL  5  仅TASL 0  228s
+  [27/40] img145 GT  7  U-Net  7  TASL  7  仅TASL 0  231s
+  [28/40] img146 GT  3  U-Net  3  TASL  3  仅TASL 0  235s
+  [29/40] img150 GT  6  U-Net  6  TASL  6  仅TASL 0  239s
+  [30/40] img152 GT  5  U-Net  4  TASL  0  仅TASL 0  242s
+  [31/40] img154 GT 10  U-Net 10  TASL 10  仅TASL 0  246s
+  [32/40] img159 GT  9  U-Net  9  TASL  8  仅TASL 0  250s
+  [33/40] img170 GT  3  U-Net  3  TASL  3  仅TASL 0  254s
+  [34/40] img177 GT  6  U-Net  6  TASL  6  仅TASL 0  256s
+  [35/40] img179 GT  9  U-Net  9  TASL  9  仅TASL 0  260s
+  [36/40] img180 GT 10  U-Net  9  TASL  0  仅TASL 0  264s
+  [37/40] img182 GT  5  U-Net  5  TASL  5  仅TASL 0  268s
+  [38/40] img183 GT  9  U-Net  9  TASL  8  仅TASL 0  272s
+  [39/40] img185 GT  6  U-Net  6  TASL  6  仅TASL 0  276s
+  [40/40] img189 GT 10  U-Net  9  TASL 10  仅TASL 1  280s
+
+【TASL 后处理扫描】(mask 固定 0.3)
+box_thr  min_area        F1       TP       FP       P       R
+Traceback (most recent call last):
+  File "/root/autodl-tmp/cyberaicup2026/task1_pipeline/tasl_vs_unet.py", line 102, in <module>
+    main()
+  File "/root/autodl-tmp/cyberaicup2026/task1_pipeline/tasl_vs_unet.py", line 81, in main
+    for g in sorted(GRID):
+             ^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'NoneType'

@@ -1,0 +1,167 @@
+=== 阶段1: 全量训练 4 个模型 ===
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+全量训练:200 张(不留验证集)
+[unet] 切片 3414 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.057
+  [unet] ep20 loss=0.055
+  [unet] ep30 loss=0.257
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/full_unet_s0.pt
+  full_unet_s0.pt 完成 688s
+[unet] 切片 3414 张,开始训练(30 轮,设备 cuda,seed=1)
+  [unet] ep10 loss=0.083
+  [unet] ep20 loss=0.081
+  [unet] ep30 loss=0.409
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/full_unet_s1.pt
+  full_unet_s1.pt 完成 678s
+[unet] 切片 3414 张,开始训练(30 轮,设备 cuda,seed=2)
+  [unet] ep10 loss=0.124
+  [unet] ep20 loss=0.055
+  [unet] ep30 loss=0.302
+[unet] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/full_unet_s2.pt
+  full_unet_s2.pt 完成 685s
+[my_tasl] 切片 3414 张,训练(30 ep,设备 cuda,seed=0,in_ch=6)
+  [my_tasl] ep1/30 loss=0.838 (33s)
+  [my_tasl] ep2/30 loss=0.644 (67s)
+  [my_tasl] ep3/30 loss=0.337 (100s)
+  [my_tasl] ep4/30 loss=0.448 (133s)
+  [my_tasl] ep5/30 loss=0.309 (167s)
+  [my_tasl] ep6/30 loss=0.790 (200s)
+  [my_tasl] ep7/30 loss=0.366 (233s)
+  [my_tasl] ep8/30 loss=0.201 (267s)
+  [my_tasl] ep9/30 loss=0.161 (300s)
+  [my_tasl] ep10/30 loss=0.119 (334s)
+  [my_tasl] ep11/30 loss=0.300 (367s)
+  [my_tasl] ep12/30 loss=0.542 (400s)
+  [my_tasl] ep13/30 loss=0.424 (433s)
+  [my_tasl] ep14/30 loss=0.350 (467s)
+  [my_tasl] ep15/30 loss=0.560 (500s)
+  [my_tasl] ep16/30 loss=0.256 (533s)
+  [my_tasl] ep17/30 loss=0.344 (567s)
+  [my_tasl] ep18/30 loss=0.132 (600s)
+  [my_tasl] ep19/30 loss=0.160 (633s)
+  [my_tasl] ep20/30 loss=0.178 (667s)
+  [my_tasl] ep21/30 loss=0.484 (700s)
+  [my_tasl] ep22/30 loss=0.111 (733s)
+  [my_tasl] ep23/30 loss=0.130 (766s)
+  [my_tasl] ep24/30 loss=0.493 (800s)
+  [my_tasl] ep25/30 loss=0.098 (833s)
+  [my_tasl] ep26/30 loss=0.385 (867s)
+  [my_tasl] ep27/30 loss=0.133 (900s)
+  [my_tasl] ep28/30 loss=0.411 (933s)
+  [my_tasl] ep29/30 loss=0.384 (966s)
+  [my_tasl] ep30/30 loss=0.078 (1000s)
+[my_tasl] 训练完成,权重存 /root/autodl-tmp/cyberaicup2026/task1_pipeline/outputs/full_tasl_s0.pt
+  full_tasl_s0.pt 完成 1133s
+=== 阶段2: 融合推理出提交 ===
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+测试对 100,融合 w=0.15,box 阈值 [0.45, 0.5, 0.55, 0.6, 0.65]
+  [  1/100] test_template_000.png  6s
+  [  2/100] test_template_001.png  16s
+  [  3/100] test_template_002.png  20s
+  [  4/100] test_template_003.png  24s
+  [  5/100] test_template_004.png  29s
+  [  6/100] test_template_005.png  34s
+  [  7/100] test_template_006.png  40s
+  [  8/100] test_template_007.png  45s
+  [  9/100] test_template_008.png  50s
+  [ 10/100] test_template_009.png  55s
+  [ 11/100] test_template_010.png  61s
+  [ 12/100] test_template_011.png  66s
+  [ 13/100] test_template_012.png  69s
+  [ 14/100] test_template_013.png  74s
+  [ 15/100] test_template_014.png  80s
+  [ 16/100] test_template_015.png  85s
+  [ 17/100] test_template_016.png  90s
+  [ 18/100] test_template_017.png  95s
+  [ 19/100] test_template_018.png  98s
+  [ 20/100] test_template_019.png  103s
+  [ 21/100] test_template_020.png  108s
+  [ 22/100] test_template_021.png  113s
+  [ 23/100] test_template_022.png  118s
+  [ 24/100] test_template_023.png  124s
+  [ 25/100] test_template_024.png  129s
+  [ 26/100] test_template_025.png  133s
+  [ 27/100] test_template_026.png  137s
+  [ 28/100] test_template_027.png  141s
+  [ 29/100] test_template_028.png  145s
+  [ 30/100] test_template_029.png  149s
+  [ 31/100] test_template_030.png  154s
+  [ 32/100] test_template_031.png  158s
+  [ 33/100] test_template_032.png  163s
+  [ 34/100] test_template_033.png  168s
+  [ 35/100] test_template_034.png  174s
+  [ 36/100] test_template_035.png  177s
+  [ 37/100] test_template_036.png  182s
+  [ 38/100] test_template_037.png  188s
+  [ 39/100] test_template_038.png  193s
+  [ 40/100] test_template_039.png  197s
+  [ 41/100] test_template_040.png  202s
+  [ 42/100] test_template_041.png  208s
+  [ 43/100] test_template_042.png  213s
+  [ 44/100] test_template_043.png  217s
+  [ 45/100] test_template_044.png  221s
+  [ 46/100] test_template_045.png  228s
+  [ 47/100] test_template_046.png  233s
+  [ 48/100] test_template_047.png  238s
+  [ 49/100] test_template_048.png  243s
+  [ 50/100] test_template_049.png  248s
+  [ 51/100] test_template_050.png  254s
+  [ 52/100] test_template_051.png  259s
+  [ 53/100] test_template_052.png  262s
+  [ 54/100] test_template_053.png  267s
+  [ 55/100] test_template_054.png  273s
+  [ 56/100] test_template_055.png  278s
+  [ 57/100] test_template_056.png  283s
+  [ 58/100] test_template_057.png  289s
+  [ 59/100] test_template_058.png  294s
+  [ 60/100] test_template_059.png  299s
+  [ 61/100] test_template_060.png  305s
+  [ 62/100] test_template_061.png  309s
+  [ 63/100] test_template_062.png  314s
+  [ 64/100] test_template_063.png  320s
+  [ 65/100] test_template_064.png  324s
+  [ 66/100] test_template_065.png  330s
+  [ 67/100] test_template_066.png  334s
+  [ 68/100] test_template_067.png  337s
+  [ 69/100] test_template_068.png  342s
+  [ 70/100] test_template_069.png  348s
+  [ 71/100] test_template_070.png  354s
+  [ 72/100] test_template_071.png  358s
+  [ 73/100] test_template_072.png  361s
+  [ 74/100] test_template_073.png  367s
+  [ 75/100] test_template_074.png  372s
+  [ 76/100] test_template_075.png  377s
+  [ 77/100] test_template_076.png  382s
+  [ 78/100] test_template_077.png  391s
+  [ 79/100] test_template_078.png  397s
+  [ 80/100] test_template_079.png  402s
+  [ 81/100] test_template_080.png  407s
+  [ 82/100] test_template_081.png  412s
+  [ 83/100] test_template_082.png  418s
+  [ 84/100] test_template_083.png  423s
+  [ 85/100] test_template_084.png  428s
+  [ 86/100] test_template_085.png  433s
+  [ 87/100] test_template_086.png  439s
+  [ 88/100] test_template_087.png  443s
+  [ 89/100] test_template_088.png  452s
+  [ 90/100] test_template_089.png  458s
+  [ 91/100] test_template_090.png  463s
+  [ 92/100] test_template_091.png  468s
+  [ 93/100] test_template_092.png  473s
+  [ 94/100] test_template_093.png  479s
+  [ 95/100] test_template_094.png  484s
+  [ 96/100] test_template_095.png  489s
+  [ 97/100] test_template_096.png  494s
+  [ 98/100] test_template_097.png  500s
+  [ 99/100] test_template_098.png  505s
+  [100/100] test_template_099.png  511s
+
+各阈值出框数(供定稿参考;历史提交 662~663 框/100图,中位 7 框/图):
+  box=0.45 :  668 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.45.csv
+  box=0.50 :  666 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.50.csv
+  box=0.55 :  665 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.55.csv
+  box=0.60 :  665 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.60.csv
+  box=0.65 :  662 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.65.csv
+=== ALL_DONE ===

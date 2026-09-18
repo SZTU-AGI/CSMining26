@@ -1,0 +1,110 @@
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+测试对 100,融合 w=0.15,box 阈值 [0.45, 0.5, 0.55, 0.6, 0.65]
+  [  1/100] test_template_000.png  6s
+  [  2/100] test_template_001.png  16s
+  [  3/100] test_template_002.png  21s
+  [  4/100] test_template_003.png  25s
+  [  5/100] test_template_004.png  30s
+  [  6/100] test_template_005.png  35s
+  [  7/100] test_template_006.png  41s
+  [  8/100] test_template_007.png  46s
+  [  9/100] test_template_008.png  51s
+  [ 10/100] test_template_009.png  56s
+  [ 11/100] test_template_010.png  61s
+  [ 12/100] test_template_011.png  66s
+  [ 13/100] test_template_012.png  70s
+  [ 14/100] test_template_013.png  75s
+  [ 15/100] test_template_014.png  80s
+  [ 16/100] test_template_015.png  86s
+  [ 17/100] test_template_016.png  91s
+  [ 18/100] test_template_017.png  96s
+  [ 19/100] test_template_018.png  99s
+  [ 20/100] test_template_019.png  104s
+  [ 21/100] test_template_020.png  109s
+  [ 22/100] test_template_021.png  114s
+  [ 23/100] test_template_022.png  119s
+  [ 24/100] test_template_023.png  124s
+  [ 25/100] test_template_024.png  129s
+  [ 26/100] test_template_025.png  134s
+  [ 27/100] test_template_026.png  138s
+  [ 28/100] test_template_027.png  142s
+  [ 29/100] test_template_028.png  146s
+  [ 30/100] test_template_029.png  150s
+  [ 31/100] test_template_030.png  155s
+  [ 32/100] test_template_031.png  159s
+  [ 33/100] test_template_032.png  165s
+  [ 34/100] test_template_033.png  170s
+  [ 35/100] test_template_034.png  176s
+  [ 36/100] test_template_035.png  180s
+  [ 37/100] test_template_036.png  186s
+  [ 38/100] test_template_037.png  192s
+  [ 39/100] test_template_038.png  197s
+  [ 40/100] test_template_039.png  203s
+  [ 41/100] test_template_040.png  208s
+  [ 42/100] test_template_041.png  214s
+  [ 43/100] test_template_042.png  219s
+  [ 44/100] test_template_043.png  224s
+  [ 45/100] test_template_044.png  229s
+  [ 46/100] test_template_045.png  237s
+  [ 47/100] test_template_046.png  242s
+  [ 48/100] test_template_047.png  248s
+  [ 49/100] test_template_048.png  254s
+  [ 50/100] test_template_049.png  259s
+  [ 51/100] test_template_050.png  265s
+  [ 52/100] test_template_051.png  270s
+  [ 53/100] test_template_052.png  274s
+  [ 54/100] test_template_053.png  280s
+  [ 55/100] test_template_054.png  285s
+  [ 56/100] test_template_055.png  291s
+  [ 57/100] test_template_056.png  297s
+  [ 58/100] test_template_057.png  302s
+  [ 59/100] test_template_058.png  308s
+  [ 60/100] test_template_059.png  314s
+  [ 61/100] test_template_060.png  319s
+  [ 62/100] test_template_061.png  324s
+  [ 63/100] test_template_062.png  329s
+  [ 64/100] test_template_063.png  335s
+  [ 65/100] test_template_064.png  340s
+  [ 66/100] test_template_065.png  345s
+  [ 67/100] test_template_066.png  350s
+  [ 68/100] test_template_067.png  353s
+  [ 69/100] test_template_068.png  359s
+  [ 70/100] test_template_069.png  365s
+  [ 71/100] test_template_070.png  371s
+  [ 72/100] test_template_071.png  375s
+  [ 73/100] test_template_072.png  379s
+  [ 74/100] test_template_073.png  385s
+  [ 75/100] test_template_074.png  391s
+  [ 76/100] test_template_075.png  396s
+  [ 77/100] test_template_076.png  402s
+  [ 78/100] test_template_077.png  411s
+  [ 79/100] test_template_078.png  417s
+  [ 80/100] test_template_079.png  422s
+  [ 81/100] test_template_080.png  428s
+  [ 82/100] test_template_081.png  434s
+  [ 83/100] test_template_082.png  439s
+  [ 84/100] test_template_083.png  445s
+  [ 85/100] test_template_084.png  450s
+  [ 86/100] test_template_085.png  456s
+  [ 87/100] test_template_086.png  462s
+  [ 88/100] test_template_087.png  466s
+  [ 89/100] test_template_088.png  475s
+  [ 90/100] test_template_089.png  481s
+  [ 91/100] test_template_090.png  487s
+  [ 92/100] test_template_091.png  492s
+  [ 93/100] test_template_092.png  498s
+  [ 94/100] test_template_093.png  503s
+  [ 95/100] test_template_094.png  509s
+  [ 96/100] test_template_095.png  515s
+  [ 97/100] test_template_096.png  520s
+  [ 98/100] test_template_097.png  526s
+  [ 99/100] test_template_098.png  532s
+  [100/100] test_template_099.png  537s
+
+各阈值出框数(供定稿参考;历史提交 662~663 框/100图,中位 7 框/图):
+  box=0.45 :  668 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.45.csv
+  box=0.50 :  666 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.50.csv
+  box=0.55 :  665 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.55.csv
+  box=0.60 :  665 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.60.csv
+  box=0.65 :  662 框 / 100 图  中位 7 框/图  → submission_task1_fused_box0.65.csv

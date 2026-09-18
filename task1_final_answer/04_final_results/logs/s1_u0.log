@@ -1,0 +1,9 @@
+[unet mseed=0 split=1] 训练 160 / 验证 40 → outputs/sp1_unet.pt
+/root/autodl-tmp/cyberaicup2026/task1_pipeline/models/strong.py:25: UserWarning: [strong] 未装 segmentation_models_pytorch(No module named 'segmentation_models_pytorch');smp 系强 baseline 不可用。
+  warnings.warn(f"[strong] 未装 segmentation_models_pytorch({e});smp 系强 baseline 不可用。")
+[unet] 切片 2730 张,开始训练(30 轮,设备 cuda,seed=0)
+  [unet] ep10 loss=0.148
+  [unet] ep20 loss=0.079
+  [unet] ep30 loss=0.152
+[unet] 训练完成,权重存 outputs/sp1_unet.pt
+[unet mseed=0 split=1] 完成 1752s
